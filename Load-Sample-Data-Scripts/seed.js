@@ -3,10 +3,16 @@ const JSZip = require("jszip");
 const fetch = require('node-fetch');
 
 // Make sure to provide the relative path of the sample data zip file you are trying to load here
-const ZIP_FILE_PATH = './2021-07 CMS July Connectation/reassessment-timepoints-ig-sample-data-updates.zip'; 
+const ZIP_FILE_PATH = './2021-07 CMS July Connectation/reassessment-timepoints-ig-sample-data-updates.zip';
 
 // Provide your API base url here
 const BASE_URL = 'https://api.interop.community/PacioSandbox/open';
+
+/**
+ * MITRE: http://34.226.8.102:8080/fhir
+ * MiHIN: https://api.interop.community/PacioSandbox/open
+ * HAPI : http://hapi.fhir.org/baseR4
+ */
 
 let failed = 0, total = 0;
 
