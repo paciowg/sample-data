@@ -1,0 +1,75 @@
+{
+  "resourceType": "Observation",
+  "id": "CSC-SNF-PHQ9-1-Ob-Question-26",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
+    ]
+  },
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>ObservationEventLocation</b>: <a href=\"Location-Org-Loc-03.html\">Generated Summary: status: active; name: Sky Harbor Home Health Services</a></p><p></p><p><b>category</b>: <span title=\"Codes: {http://hl7.org/fhir/us/pacio-cs/CodeSystem/pacio-cat-cs functioning}\">Functioning</span>, <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 54651-5}\">Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson</a></p><p><b>effective</b>: Jul 11, 2020 4:30:00 PM</p><p><b>performer</b>: <a href=\"PractitionerRole-Role-SLP-LunaBaskins.html\">Generated Summary: active: true; <span title=\"Codes: {http://snomed.info/sct 159026005}\">Speech and language therapist</span></a></p><p><b>value</b>: <span title=\"Codes: {http://loinc.org LA10997-7}\">Never or 1 day</span></p><p><b>derivedFrom</b>: <a href=\"QuestionnaireResponse-QResponse-SNF-PHQ9-1.html\">Generated Summary: questionnaire: http://example.org/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: Jul 11, 2020 4:30:00 PM</a></p></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-03"
+      }
+    }
+  ],
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-cs/CodeSystem/pacio-cat-cs",
+          "code": "functioning",
+          "display": "Functioning"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "survey"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "54651-5",
+        "display": "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual in last 2 weeks.frequency [Reported PHQ-9 CMS]"
+      }
+    ],
+    "text": "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual"
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "effectiveDateTime": "2020-07-11T11:30:00-05:00",
+  "performer": [
+    {
+      "reference": "PractitionerRole/Role-SLP-LunaBaskins"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "LA10997-7",
+        "display": "Never or 1 day"
+      }
+    ],
+    "text": "Never or 1 day"
+  },
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-SNF-PHQ9-1"
+    }
+  ]
+}

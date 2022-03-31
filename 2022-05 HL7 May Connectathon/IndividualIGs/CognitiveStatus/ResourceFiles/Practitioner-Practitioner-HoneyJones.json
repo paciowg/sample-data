@@ -1,0 +1,19 @@
+{
+  "resourceType": "Practitioner",
+  "id": "Practitioner-HoneyJones",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>name</b>: Honey Jones</p><p><b>gender</b>: female</p></div>"
+  },
+  "active": true,
+  "name": [
+    {
+      "text": "Honey Jones",
+      "family": "Jones",
+      "given": [
+        "Honey"
+      ]
+    }
+  ],
+  "gender": "female"
+}

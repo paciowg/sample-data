@@ -1,0 +1,31 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "Role-SLP-HoneyJones",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>practitioner</b>: <a href=\"Practitioner-Practitioner-HoneyJones.html\">Generated Summary: active: true; Honey Jones; gender: female</a></p><p><b>organization</b>: <a href=\"Organization-Org-02.html\">Generated Summary: name: Happy Nursing Facility</a></p><p><b>code</b>: <span title=\"Codes: {http://snomed.info/sct 159026005}\">Speech and language therapist</span></p><p><b>location</b>: <a href=\"Location-Org-Loc-02.html\">Generated Summary: status: active; name: Happy Nursing Facility</a></p></div>"
+  },
+  "active": true,
+  "practitioner": {
+    "reference": "Practitioner/Practitioner-HoneyJones"
+  },
+  "organization": {
+    "reference": "Organization/Org-02"
+  },
+  "code": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "159026005",
+          "display": "Speech and language therapist"
+        }
+      ]
+    }
+  ],
+  "location": [
+    {
+      "reference": "Location/Org-Loc-02"
+    }
+  ]
+}

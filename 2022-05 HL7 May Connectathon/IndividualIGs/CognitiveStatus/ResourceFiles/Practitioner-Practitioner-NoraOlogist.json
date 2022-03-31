@@ -1,0 +1,25 @@
+{
+  "resourceType": "Practitioner",
+  "id": "Practitioner-NoraOlogist",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 3668788925</p><p><b>active</b>: true</p><p><b>name</b>: Nora Ologist</p><p><b>gender</b>: female</p></div>"
+  },
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/sid/us-npi",
+      "value": "3668788925"
+    }
+  ],
+  "active": true,
+  "name": [
+    {
+      "text": "Nora Ologist",
+      "family": "Ologist",
+      "given": [
+        "Nora"
+      ]
+    }
+  ],
+  "gender": "female"
+}

@@ -1,0 +1,160 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "id": "QResponse-SNF-BIMS-1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaireresponse"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>questionnaire</b>: <a href=\"http://example.org/Questionnaire/MDS3.0-NC-1.17\">http://example.org/Questionnaire/MDS3.0-NC-1.17</a></p><p><b>status</b>: completed</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson</a></p><p><b>authored</b>: Jul 11, 2020 4:30:00 PM</p><p><b>author</b>: <a href=\"PractitionerRole-Role-SLP-HoneyJones.html\">Generated Summary: active: true; <span title=\"Codes: {http://snomed.info/sct 159026005}\">Speech and language therapist</span></a></p><blockquote><p><b>item</b></p><p><b>linkId</b>: Section-3</p><p><b>text</b>: MDS v3.0 - RAI v1.17.2 - Cognitive patterns [CMS Assessment]</p><blockquote><p><b>item</b></p><p><b>linkId</b>: Section-3/C0200-C0500</p><p><b>text</b>: Brief interview for mental status [BIMS]</p></blockquote></blockquote></div>"
+  },
+  "questionnaire": "http://example.org/Questionnaire/MDS3.0-NC-1.17",
+  "_questionnaire": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/display",
+        "valueString": "Minimum Data Set (MDS) - version 3.0 - Resident Assessment Instrument (RAI) version 1.17.1 [CMS Assessment]"
+      }
+    ]
+  },
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "authored": "2020-07-11T11:30:00-05:00",
+  "author": {
+    "reference": "PractitionerRole/Role-SLP-HoneyJones"
+  },
+  "item": [
+    {
+      "linkId": "Section-3",
+      "text": "MDS v3.0 - RAI v1.17.2 - Cognitive patterns [CMS Assessment]",
+      "item": [
+        {
+          "linkId": "Section-3/C0200-C0500",
+          "text": "Brief interview for mental status [BIMS]",
+          "item": [
+            {
+              "linkId": "Section-3/C0200",
+              "text": "Repetition of Three Words. Number of words repeated after first attempt",
+              "answer": [
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA6404-3",
+                    "display": "Two"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-3/C0300",
+              "text": "Temporal orientation (orientation to year, month, and day) [BIMS]",
+              "item": [
+                {
+                  "linkId": "Section-3/C0300A",
+                  "text": "Able to report correct year",
+                  "answer": [
+                    {
+                      "valueCoding": {
+                        "system": "http://loinc.org",
+                        "code": "LA10008-3",
+                        "display": "Missed by 1 year"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "linkId": "Section-3/C0300B",
+                  "text": "Able to report correct month",
+                  "answer": [
+                    {
+                      "valueCoding": {
+                        "system": "http://loinc.org",
+                        "code": "LA10010-9",
+                        "display": "Missed by 6 days to 1 month"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "linkId": "Section-3/C0300C",
+                  "text": "Able to report correct day of the week",
+                  "answer": [
+                    {
+                      "valueCoding": {
+                        "system": "http://loinc.org",
+                        "code": "LA9960-1",
+                        "display": "Correct"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "linkId": "Section-3/C0400",
+              "text": "Recall [BIMS]",
+              "item": [
+                {
+                  "linkId": "Section-3/C0400A",
+                  "text": "Able to recall \"sock\"",
+                  "answer": [
+                    {
+                      "valueCoding": {
+                        "system": "http://loinc.org",
+                        "code": "LA10126-3",
+                        "display": "Yes, after cueing (\"something to wear\")"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "linkId": "Section-3/C0400B",
+                  "text": "Able to recall \"blue\"",
+                  "answer": [
+                    {
+                      "valueCoding": {
+                        "system": "http://loinc.org",
+                        "code": "LA10978-7",
+                        "display": "Yes, after cueing (\"a color\")"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "linkId": "Section-3/C0400C",
+                  "text": "Able to recall \"bed\"",
+                  "answer": [
+                    {
+                      "valueCoding": {
+                        "system": "http://loinc.org",
+                        "code": "LA10125-5",
+                        "display": "Yes, after cueing (\"a piece of furniture\")"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "linkId": "Section-3/C0500",
+              "text": "BIMS Summary Score",
+              "answer": [
+                {
+                  "valueQuantity": {
+                    "value": 9,
+                    "system": "http://unitsofmeasure.org",
+                    "code": "{score}"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
