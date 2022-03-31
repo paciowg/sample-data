@@ -1,0 +1,99 @@
+
+
+{
+  "resourceType": "QuestionnaireResponse",
+  "id": "questionnaireresponse1",
+  "meta": {
+    "versionId": "5",
+    "lastUpdated": "2020-04-28T14:20:16.529-07:00"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\t\t\t  <p><b>Person-Centered Planning Responses</b></p>\n\t\t\t  <blockquote>\n\t\t\t\t<p><b>Question 1 value: </b> true</p>\n\t\t\t\t<p><b>Question 2 value: </b> Assisted living facility</p>\n\t\t\t\t<p><b>Question 3 value: </b> true</p>\n\t\t\t\t<p><b>Question 4 value: </b> true</p>\n\t\t\t\t<p><b>Question 5 value: </b> true</p>\n\t\t\t\t<p><b>Question 6 value: </b> true</p>\n\t\t\t\t<p><b>Question 7 value: </b> true</p>\n\t\t\t  </blockquote>\t\t  \n\t\t  </div>"
+  },
+  "questionnaire": "Questionnaire/questionnaire1",
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "item": [
+    {
+      "fhir_comments": [
+        "  [eLTSS Person Setting Choice Indicator]   "
+      ],
+      "linkId": "q1",
+      "answer": [
+        {
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "fhir_comments": [
+        "  [eLTSS Person Setting Choice Options]   "
+      ],
+      "linkId": "q2",
+      "answer": [
+        {
+          "valueString": "Assisted living facility"
+        }
+      ]
+    },
+    {
+      "fhir_comments": [
+        "  [eLTSS Service Options Given Indicator]   "
+      ],
+      "linkId": "q3",
+      "answer": [
+        {
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "fhir_comments": [
+        "  [eLTSS Service Selection Indicator]   "
+      ],
+      "linkId": "q4",
+      "answer": [
+        {
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "fhir_comments": [
+        "  [eLTSS Service Plan Agreement Indicator]   "
+      ],
+      "linkId": "q5",
+      "answer": [
+        {
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "fhir_comments": [
+        "  [eLTSS Service Provider Options Given Indicator]   "
+      ],
+      "linkId": "q6",
+      "answer": [
+        {
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "fhir_comments": [
+        "  [eLTSS Service Provider Selection Agreement Indicator]   "
+      ],
+      "linkId": "q7",
+      "answer": [
+        {
+          "valueBoolean": true
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,58 @@
+{
+  "resourceType": "Goal",
+  "id": "Example-Smith-Johnson-PersonalInterventionPreference6",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Here are my thoughts on funeral or burial plans:</b></p><p><i>If I were to pass away:</i></p><p><i>Please call Jim Houston, my lawyer, for arrangements I have already made.</i></p></div>"
+  },
+  "lifecycleStatus": "proposed",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-adi/CodeSystem/PADIGoalCategoryCS",
+          "code": "intervention-preference",
+          "display": "Intervention preference"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "81356-8",
+          "display": "Death arrangements [Reported]"
+        }
+      ]
+    }
+  ],
+  "description": {
+    "extension": [
+      {
+        "extension": [
+          {
+            "url": "Context",
+            "valueString": "If I were to pass away"
+          },
+          {
+            "url": "Value",
+            "valueString": "Please call Jim Houston, my lawyer, for arrangements I have already made."
+          }
+        ],
+        "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-contextualValue-extension"
+      }
+    ],
+    "text": "If I were to pass away: Please call Jim Houston, my lawyer, for arrangements I have already made."
+  },
+  "subject": {
+    "reference": "Patient/Example-Smith-Johnson-Patient1"
+  },
+  "expressedBy": {
+    "reference": "Patient/Example-Smith-Johnson-Patient1"
+  }
+}

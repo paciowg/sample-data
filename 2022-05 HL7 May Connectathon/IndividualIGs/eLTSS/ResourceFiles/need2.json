@@ -1,0 +1,57 @@
+
+
+{
+  "resourceType": "Condition",
+  "id": "need2",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2020-04-22T14:55:50.119-07:00",
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Condition-eltss"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n            <p><b>Assessed Need:</b> Needs health / nutrition education for diabetes</p>\n          </div>"
+  },
+  "clinicalStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "code": "active"
+      }
+    ]
+  },
+  "verificationStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+        "code": "confirmed"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/eLTSS/CodeSystem/eltss-condition-category-code",
+          "code": "assessed-need"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "734920002",
+        "display": "Diabetes mellitus education service"
+      }
+    ],
+    "text": "Needs health / nutrition education for diabetes"
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  }
+}
+

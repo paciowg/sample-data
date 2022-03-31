@@ -1,0 +1,25 @@
+
+
+{
+  "resourceType": "Location",
+  "id": "location1",
+  "meta": {
+    "versionId": "5",
+    "lastUpdated": "2020-04-28T14:20:16.698-07:00",
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Location-eltss"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\t\t\t<p><b>Service Delivery Location</b></p>\n\t\t\t<blockquote>\n\t\t\t<p><b>name</b>: In Home</p>\n\t\t\t<p><b>address</b>: 111 Maple Ct, San Antonio, TX 78212</p>\n\t\t\t</blockquote>\n\t\t  </div>"
+  },
+  "name": "In Home",
+  "address": {
+    "fhir_comments": [
+      "  [eLTSS Service Delivery Address]   "
+    ],
+    "text": "111 Maple Ct, San Antonio, TX 78212"
+  }
+}
+

@@ -1,0 +1,41 @@
+{
+  "resourceType": "Observation",
+  "id": "Example-Smith-Johnson-DocumentationObservation1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-DocumentationObservation"
+    ]
+  },
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>PMOLST Order Observation</b></p><p><i>Order Exists: <a href=\"http://www.example.com\">available here</a></i></p></div>"
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "75320-2",
+        "display": "Advance Directive"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/Example-Smith-Johnson-Patient1"
+  },
+  "effectiveDateTime": "2021-03-29T14:25:34.001-05:00",
+  "performer": [
+    {
+      "reference": "Patient/Example-Smith-Johnson-Patient1"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "697978002",
+        "display": "Provider orders for life-sustaining treatment"
+      }
+    ]
+  }
+}

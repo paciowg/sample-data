@@ -1,0 +1,25 @@
+
+
+{
+  "resourceType": "EpisodeOfCare",
+  "id": "episode1",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2020-04-28T14:20:16.557-07:00",
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/EpisodeOfCare-eltss"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\t\t\t<p><b>EpisodeOfCare:</b> links the care plan to the plan monitor/case manager.</p> \n\t\t\t<blockquote>\n\t\t\t<p><b>EpisodeOfCare patient</b>: <a href=\"Patient/patientBSJ1\">Patient/patientBSJ1</a></p>\n\t\t\t<p><b>EpisodeOfCare careManager</b>: <a href=\"Practitioner/caremgr1\">Practitioner/caremgr1</a></p>\n\t\t\t</blockquote>\n\t\t  </div>"
+  },
+  "status": "active",
+  "patient": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "careManager": {
+    "reference": "Practitioner/caremgr1"
+  }
+}
+

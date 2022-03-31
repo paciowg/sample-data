@@ -1,0 +1,48 @@
+
+
+{
+  "resourceType": "Practitioner",
+  "id": "provider4",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2020-04-28T14:20:16.695-07:00",
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Practitioner-eltss"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\t\t\t<p><b>Provider name, identifier, phone:</b> Norma Trainer, 987657, (210) 555 1214</p>\n\t\t  </div>"
+  },
+  "identifier": [
+    {
+      "fhir_comments": [
+        "  identifier is required by US Core  "
+      ],
+      "system": "http://www.acme.org/practitioners",
+      "value": "987657"
+    }
+  ],
+  "name": [
+    {
+      "fhir_comments": [
+        "  [eLTSS Service Provider Name]  "
+      ],
+      "text": "Norma Trainer",
+      "family": "Trainer",
+      "given": [
+        "Norma"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "fhir_comments": [
+        "  [eLTSS Service Provider Phone Number]  "
+      ],
+      "system": "phone",
+      "value": "(210) 555 1214"
+    }
+  ]
+}
+

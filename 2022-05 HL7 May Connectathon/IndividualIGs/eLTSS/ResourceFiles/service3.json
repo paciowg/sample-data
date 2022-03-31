@@ -1,0 +1,93 @@
+
+
+{
+  "resourceType": "ServiceRequest",
+  "id": "service3",
+  "meta": {
+    "versionId": "6",
+    "lastUpdated": "2020-05-06T14:36:44.176-07:00",
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/ServiceRequest-eltss"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\t\t\t<p><b>Service Information </b></p>\n\t\t\t<blockquote>\n            <p><b>Name / Code:</b> Diabetes outpatient self-management training services, individual, per 30 minutes / G0108</p>\n\t\t\t<p><b>Provider:</b> <a href=\"Practitioner/provider3\"> Practitioner/provider3</a></p>\n            <p><b>Start Date / End Date:</b> 2020-05-01 / 2020-08-01</p>\n\t\t\t</blockquote>\n          </div>"
+  },
+  "status": "active",
+  "intent": "plan",
+  "code": {
+    "fhir_comments": [
+      "  [eLTSS Service Name]   "
+    ],
+    "coding": [
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.14",
+        "code": "G0108"
+      }
+    ],
+    "text": "Diabetes outpatient self-management training services, individual, per 30 minutes"
+  },
+  "quantityRatio": {
+    "fhir_comments": [
+      "  Data below represents 1 visit per 1 week  "
+    ],
+    "numerator": {
+      "value": 1,
+      "_value": {
+        "fhir_comments": [
+          "   [eLTSS Service Unit Quantity]   "
+        ]
+      },
+      "unit": "visit",
+      "_unit": {
+        "fhir_comments": [
+          "   [eLTSS Unit of Service Type]   "
+        ]
+      }
+    },
+    "denominator": {
+      "fhir_comments": [
+        "   [eLTSS Service Unit Quantity Interval]   "
+      ],
+      "value": 1,
+      "unit": "week"
+    }
+  },
+  "subject": {
+    "fhir_comments": [
+      "  subject is required by FHIR  "
+    ],
+    "reference": "Patient/patientBSJ1"
+  },
+  "occurrencePeriod": {
+    "start": "2020-05-01",
+    "_start": {
+      "fhir_comments": [
+        "  [eLTSS Service Start Date]  "
+      ]
+    },
+    "end": "2020-08-01",
+    "_end": {
+      "fhir_comments": [
+        "  [eLTSS Service End Date]  "
+      ]
+    }
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/provider3"
+    }
+  ],
+  "reasonReference": [
+    {
+      "reference": "Condition/need2"
+    }
+  ],
+  "supportingInfo": [
+    {
+      "reference": "Claim/claim2"
+    }
+  ]
+}
+

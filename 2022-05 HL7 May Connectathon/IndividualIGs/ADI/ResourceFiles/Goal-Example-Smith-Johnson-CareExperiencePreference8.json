@@ -1,0 +1,58 @@
+{
+  "resourceType": "Goal",
+  "id": "Example-Smith-Johnson-CareExperiencePreference8",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Laughter:</b></p><p>These are some of my fondest memories from life that have always brought a smile to my face or made me laugh:</p><p><i>My dogs make me laugh when they play together, and my grandchildren make me laugh when they put on plays for me. They bring me great joy.</i></p></div>"
+  },
+  "lifecycleStatus": "proposed",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-adi/CodeSystem/PADIGoalCategoryCS",
+          "code": "care-experience-preference",
+          "display": "Care experience preference"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "81361-8",
+          "display": "Things that make me laugh [Reported]"
+        }
+      ]
+    }
+  ],
+  "description": {
+    "extension": [
+      {
+        "extension": [
+          {
+            "url": "Context",
+            "valueString": "These are some of my fondest memories from life that have always brought a smile to my face or made me laugh"
+          },
+          {
+            "url": "Value",
+            "valueString": "My dogs make me laugh when they play together, and my grandchildren make me laugh when they put on plays for me.  They bring me great joy."
+          }
+        ],
+        "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-contextualValue-extension"
+      }
+    ],
+    "text": "These are some of my fondest memories from life that have always brought a smile to my face or made me laugh: My dogs make me laugh when they play together, and my grandchildren make me laugh when they put on plays for me.  They bring me great joy."
+  },
+  "subject": {
+    "reference": "Patient/Example-Smith-Johnson-Patient1"
+  },
+  "expressedBy": {
+    "reference": "Patient/Example-Smith-Johnson-Patient1"
+  }
+}

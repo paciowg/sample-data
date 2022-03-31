@@ -1,0 +1,42 @@
+{
+  "resourceType": "RelatedPerson",
+  "id": "Example-Smith-Johnson-HealthcareAgent2",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Participant"
+    ]
+  },
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>First Alternate Healthcare Agent</b></p><p>If this healthcare agent is unable or unwilling to make medical treatment decisions for me, or if my spouse is designated as my primary healthcare agent and our marriage is annulled, or we are divorced or legally separated, then my next choice for a healthcare agent is:</p><p><i>Debra Johnson</i></p><p><i>(Daughter)</i></p><p><i>DebraSJ@example.com</i></p><p>[SELECTED to act as a healthcare agent on 3/29/2021, at 2:25 PM CDT]</p><p>[As of 4/1/2021, at 3:40 PM CDT, a response is still PENDING]</p></div>"
+  },
+  "patient": {
+    "reference": "Patient/Example-Smith-Johnson-Patient1"
+  },
+  "relationship": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "code": "DAU",
+          "display": "natural daughter"
+        }
+      ]
+    }
+  ],
+  "name": [
+    {
+      "family": "Johnson",
+      "given": [
+        "Debra"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "email",
+      "value": "DebraSJ@example.com",
+      "use": "home"
+    }
+  ]
+}

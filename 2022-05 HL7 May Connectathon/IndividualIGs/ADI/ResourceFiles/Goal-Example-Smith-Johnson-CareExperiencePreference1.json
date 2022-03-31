@@ -1,0 +1,58 @@
+{
+  "resourceType": "Goal",
+  "id": "Example-Smith-Johnson-CareExperiencePreference1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-CareExperiencePreference"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Here are some thoughts that I would like for my medical care team and my healthcare agent(s) to know about the role that religion, faith or spirituality play in my life:</p><p><i>I am Catholic, please call Father Mark at Saint Catherine's on Main Street.</i></p></div>"
+  },
+  "lifecycleStatus": "proposed",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-adi/CodeSystem/PADIGoalCategoryCS",
+          "code": "care-experience-preference",
+          "display": "Care experience preference"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "75775-7",
+          "display": "Decision to inform doctors and nurses about the role religion, faith, or spirituality play in my life [Reported]"
+        }
+      ]
+    }
+  ],
+  "description": {
+    "extension": [
+      {
+        "extension": [
+          {
+            "url": "Context",
+            "valueString": "Here are some thoughts that I would like for my medical care team and my healthcare agent(s) to know about the role that religion, faith or spirituality play in my life"
+          },
+          {
+            "url": "Value",
+            "valueString": "I am Catholic, please call Father Mark at Saint Catherine's on Main Street."
+          }
+        ],
+        "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-contextualValue-extension"
+      }
+    ],
+    "text": "Here are some thoughts that I would like for my medical care team and my healthcare agent(s) to know about the role that religion, faith or spirituality play in my life: I am Catholic, please call Father Mark at Saint Catherine's on Main Street."
+  },
+  "subject": {
+    "reference": "Patient/Example-Smith-Johnson-Patient1"
+  },
+  "expressedBy": {
+    "reference": "Patient/Example-Smith-Johnson-Patient1"
+  }
+}

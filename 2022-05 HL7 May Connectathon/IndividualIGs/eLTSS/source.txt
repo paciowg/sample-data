@@ -1,0 +1,6 @@
+https://github.com/paciowg/sample-data/blob/Load-sample-data-scripts/2020-05%20HL7%20May%20Connectathon/sample%20data/Full%20Data_Seed_Story_Connectathon%20May%202020.zip
+folder: Full_Data_Organized/Story Resources/eLTSS_Care_Plan/
+- accessed: 3/31/2022
+- modifications: none
+- IG: http://build.fhir.org/ig/HL7/eLTSS/index.html (currently missing, but source on github: https://github.com/HL7/eLTSS)
+- package: https://simplifier.net/packages/hl7.fhir.us.eltss/0.1.0

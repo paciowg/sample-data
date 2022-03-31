@@ -1,0 +1,80 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "Example-Smith-Johnson-DocRef-Bundle",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-DocumentReference"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Example-Smith-Johnson-DocRef-Bundle\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PADI-DocumentReference.html\">PACIO ADI Document Reference</a></p></div><p><b>masterIdentifier</b>: id: 0-87f37989294a408897aacd1fc5d8fd16</p><p><b>identifier</b>: id: 0-87f37989294a408897aacd1fc5d8fd16</p><p><b>status</b>: current</p><p><b>docStatus</b>: final</p><p><b>type</b>: Patient Personal advance care plan <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#81334-5)</span></p><p><b>category</b>: Advance directive <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#75320-2)</span></p><p><b>subject</b>: <a href=\"Patient-Example-Smith-Johnson-Patient1.html\">Patient/Example-Smith-Johnson-Patient1</a> \" SMITH-JOHNSON\"</p><p><b>date</b>: Mar 29, 2021 7:25:34 PM</p><p><b>author</b>: <a href=\"Patient-Example-Smith-Johnson-Patient1.html\">Patient/Example-Smith-Johnson-Patient1</a> \" SMITH-JOHNSON\"</p><p><b>authenticator</b>: <a href=\"Organization-Example-Smith-Johnson-OrganizationCustodian1.html\">Organization/Example-Smith-Johnson-OrganizationCustodian1</a> \"MyDirectives.com\"</p><p><b>custodian</b>: <a href=\"Organization-Example-Smith-Johnson-OrganizationCustodian1.html\">Organization/Example-Smith-Johnson-OrganizationCustodian1</a> \"MyDirectives.com\"</p><p><b>description</b>: Personal Advance Care Plan</p><p><b>securityLabel</b>: normal <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-Confidentiality.html\">Confidentiality</a>#N)</span></p><blockquote><p><b>content</b></p></blockquote></div>"
+  },
+  "masterIdentifier": {
+    "system": "urn:oid:2.16.840.1.113883.4.823.1.7124",
+    "value": "0-87f37989294a408897aacd1fc5d8fd16"
+  },
+  "identifier": [
+    {
+      "system": "urn:oid:2.16.840.1.113883.3.3208.101.1",
+      "value": "0-87f37989294a408897aacd1fc5d8fd16"
+    }
+  ],
+  "status": "current",
+  "docStatus": "final",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "81334-5",
+        "display": "Patient Personal advance care plan"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "75320-2",
+          "display": "Advance directive"
+        }
+      ]
+    }
+  ],
+  "subject": {
+    "reference": "Patient/Example-Smith-Johnson-Patient1"
+  },
+  "date": "2021-03-29T14:25:34.001-05:00",
+  "author": [
+    {
+      "reference": "Patient/Example-Smith-Johnson-Patient1"
+    }
+  ],
+  "authenticator": {
+    "reference": "Organization/Example-Smith-Johnson-OrganizationCustodian1"
+  },
+  "custodian": {
+    "reference": "Organization/Example-Smith-Johnson-OrganizationCustodian1"
+  },
+  "description": "Personal Advance Care Plan",
+  "securityLabel": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
+          "code": "N",
+          "display": "normal"
+        }
+      ]
+    }
+  ],
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/fhir+json",
+        "url": "Bundle/Example-Smith-Johnson-Bundle1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+
+
+{
+  "resourceType": "Practitioner",
+  "id": "provider3",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2020-04-28T14:20:16.692-07:00",
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Practitioner-eltss"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\t\t\t  <p><b>Provider name, identifier, phone:</b> Lisa Educator, 987654, (210) 555 1213</p>\n\t\t  </div>"
+  },
+  "identifier": [
+    {
+      "fhir_comments": [
+        "  identifier is required by US Core  "
+      ],
+      "system": "http://www.acme.org/practitioners",
+      "value": "987654"
+    }
+  ],
+  "name": [
+    {
+      "fhir_comments": [
+        "  [eLTSS Service Provider Name]  "
+      ],
+      "text": "Lisa Educator",
+      "family": "Educator",
+      "given": [
+        "Lisa"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "fhir_comments": [
+        "  [eLTSS Service Provider Phone Number]  "
+      ],
+      "system": "phone",
+      "value": "(210) 555 1213"
+    }
+  ]
+}
+

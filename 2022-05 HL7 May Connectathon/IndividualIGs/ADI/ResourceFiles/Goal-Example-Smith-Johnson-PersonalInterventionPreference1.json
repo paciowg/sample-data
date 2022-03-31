@@ -1,0 +1,57 @@
+{
+  "resourceType": "Goal",
+  "id": "Example-Smith-Johnson-PersonalInterventionPreference1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>If I am having significant pain or suffering,</p><p><i>I would like my doctors to consult a Supportive and Palliative Care Team to help treat my physical, emotional and spiritual discomfort, and to support my family.</i></p></div>"
+  },
+  "lifecycleStatus": "proposed",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-adi/CodeSystem/PADIGoalCategoryCS",
+          "code": "intervention-preference",
+          "display": "Intervention preference"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "75780-7"
+        }
+      ]
+    }
+  ],
+  "description": {
+    "extension": [
+      {
+        "extension": [
+          {
+            "url": "Context",
+            "valueString": "If I am having significant pain or suffering"
+          },
+          {
+            "url": "Value",
+            "valueString": "I would like my doctors to consult a Supportive and Palliative Care Team to help treat my physical, emotional and spiritual discomfort, and to support my family."
+          }
+        ],
+        "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-contextualValue-extension"
+      }
+    ],
+    "text": "If I am having significant pain or suffering, I would like my doctors to consult a Supportive and Palliative Care Team to help treat my physical, emotional and spiritual discomfort, and to support my family."
+  },
+  "subject": {
+    "reference": "Patient/Example-Smith-Johnson-Patient1"
+  },
+  "expressedBy": {
+    "reference": "Patient/Example-Smith-Johnson-Patient1"
+  }
+}

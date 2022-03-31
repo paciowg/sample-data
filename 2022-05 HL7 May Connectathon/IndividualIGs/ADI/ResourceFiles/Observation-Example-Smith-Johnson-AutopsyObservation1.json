@@ -1,0 +1,27 @@
+{
+  "resourceType": "Observation",
+  "id": "Example-Smith-Johnson-AutopsyObservation1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-AutopsyObservation"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Autopsy</b></p><p><i>I want an autopsy</i></p><p><i>only if there are questions about my death.</i></p></div>"
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "75782-3",
+        "display": "Thoughts regarding autopsy [Reported]"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/Example-Smith-Johnson-Patient1"
+  },
+  "valueString": "Autopsy: I want an autopsy: only if there are questions about my death."
+}

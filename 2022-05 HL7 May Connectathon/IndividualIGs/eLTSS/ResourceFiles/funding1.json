@@ -1,0 +1,37 @@
+
+
+{
+  "resourceType": "Organization",
+  "id": "funding1",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2020-04-22T14:55:50.158-07:00"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n            <p><b>Service Funding Source:</b> Texas Department of Community Health</p>\n          </div>"
+  },
+  "identifier": [
+    {
+      "fhir_comments": [
+        "  identifier is required by US Core  "
+      ],
+      "value": "ICWP"
+    }
+  ],
+  "name": "Texas Department of Community Health",
+  "_name": {
+    "fhir_comments": [
+      "  [eLTSS Service Funding Source]  "
+    ]
+  },
+  "address": [
+    {
+      "fhir_comments": [
+        "  address is required by US Core  "
+      ],
+      "text": "7430 Louis Pasteur Dr, San Antonio, TX 78229"
+    }
+  ]
+}
+

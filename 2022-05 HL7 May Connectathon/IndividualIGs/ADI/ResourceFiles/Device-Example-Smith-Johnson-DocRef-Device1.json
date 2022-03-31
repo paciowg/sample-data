@@ -1,0 +1,24 @@
+{
+  "resourceType": "Device",
+  "id": "Example-Smith-Johnson-DocRef-Device1",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Example-Smith-Johnson-DocRef-Device1\" </p></div><p><b>identifier</b>: id: ed6f4f50c6cb47dd89cb5d8f3007ecb0</p><p><b>modelNumber</b>: ADVault RR Portal</p><h3>Versions</h3><table class=\"grid\"><tr><td>-</td><td><b>Value</b></td></tr><tr><td>*</td><td>1.0</td></tr></table><p><b>owner</b>: <a href=\"Organization-Example-Smith-Johnson-OrganizationCustodian1.html\">Organization/Example-Smith-Johnson-OrganizationCustodian1: ADVault, Inc.</a> \"MyDirectives.com\"</p></div>"
+  },
+  "identifier": [
+    {
+      "system": "urn:oid:2.16.840.1.113883.4.6",
+      "value": "ed6f4f50c6cb47dd89cb5d8f3007ecb0"
+    }
+  ],
+  "modelNumber": "ADVault RR Portal",
+  "version": [
+    {
+      "value": "1.0"
+    }
+  ],
+  "owner": {
+    "reference": "Organization/Example-Smith-Johnson-OrganizationCustodian1",
+    "display": "ADVault, Inc."
+  }
+}

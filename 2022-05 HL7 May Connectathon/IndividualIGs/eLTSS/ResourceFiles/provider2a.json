@@ -1,0 +1,50 @@
+
+
+{
+  "resourceType": "Organization",
+  "id": "provider2a",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2020-04-28T14:20:16.658-07:00",
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Practitioner-eltss"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\t\t\t<p><b>Provider name, identifier, phone, address:</b> The Transporter, Inc., 24680, (210) 555 1313, 111 Business Street, Atlanta GA, 30318</p>\n\t\t  </div>"
+  },
+  "identifier": [
+    {
+      "fhir_comments": [
+        "  identifier is required by US Core  "
+      ],
+      "system": "http://www.acme.org/practitioners",
+      "value": "24680"
+    }
+  ],
+  "name": "The Transporter, Inc.",
+  "_name": {
+    "fhir_comments": [
+      "  [eLTSS Service Provider Name]  "
+    ]
+  },
+  "telecom": [
+    {
+      "fhir_comments": [
+        "  [eLTSS Service Provider Phone Number]  "
+      ],
+      "system": "phone",
+      "value": "(210) 555 1313"
+    }
+  ],
+  "address": [
+    {
+      "fhir_comments": [
+        "  address is required by US Core  "
+      ],
+      "text": "111 Business Street, San Antonio, TX 78212"
+    }
+  ]
+}
+

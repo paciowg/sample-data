@@ -1,0 +1,80 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "service1",
+  "meta": {
+    "versionId": "5",
+    "lastUpdated": "2020-05-11T12:04:02.030-07:00",
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/ServiceRequest-eltss"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n            <p><b>Service Information</b></p>\n\t\t\t<blockquote>\n\t\t\t<p><b>Name / Code:</b> Install bath tub wall rail / E0241</p>\n\t\t\t<p><b>Directed By: </b> self</p>\n\t\t\t<p><b>Provider: </b> <a href=\"RelatedPerson/son1\">RelatedPerson/son1</a></p>\n            <p><b>Start Date / End Date:</b> 2020-05-01 / 2020-12-31</p>\n\t\t\t<p><b>Service Delivery Location: </b> <a href=\"Location/location1\">Location/location1</a></p>\n\t\t\t</blockquote>\n          </div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/us/eLTSS/StructureDefinition/eltss-directedBy",
+      "valueCodeableConcept": {
+        "text": "self"
+      }
+    }
+  ],
+  "status": "active",
+  "intent": "plan",
+  "code": {
+    "fhir_comments": [
+      "  [eLTSS Service Name]   "
+    ],
+    "coding": [
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.14",
+        "code": "E0241"
+      }
+    ],
+    "text": "Bath tub wall rail, each"
+  },
+  "quantityQuantity": {
+    "fhir_comments": [
+      "  Data below represents 1 install  "
+    ],
+    "value": 1,
+    "unit": "install"
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "occurrencePeriod": {
+    "start": "2020-05-01",
+    "_start": {
+      "fhir_comments": [
+        "  [eLTSS Service Start Date]  "
+      ]
+    },
+    "end": "2020-12-31",
+    "_end": {
+      "fhir_comments": [
+        "  [eLTSS Service End Date]  "
+      ]
+    }
+  },
+  "performer": [
+    {
+      "reference": "RelatedPerson/son1"
+    }
+  ],
+  "locationReference": [
+    {
+      "fhir_comments": [
+        "  [eLTSS Service Delivery Address]  "
+      ],
+      "reference": "Location/location1"
+    }
+  ],
+  "supportingInfo": [
+    {
+      "reference": "RiskAssessment/risk1"
+    }
+  ]
+}
+

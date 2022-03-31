@@ -1,0 +1,27 @@
+{
+  "resourceType": "Observation",
+  "id": "Example-Smith-Johnson-OrganDonationObservation1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-OrganDonationObservation"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Consent to Donate</b></p><p><i>I consent to donate all organs and tissues.</i></p></div>"
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "75781-5",
+        "display": "Thoughts on organ and tissue donations [Reported]"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/Example-Smith-Johnson-Patient1"
+  },
+  "valueString": "Consent to Donate: I consent to donate all organs and tissues."
+}

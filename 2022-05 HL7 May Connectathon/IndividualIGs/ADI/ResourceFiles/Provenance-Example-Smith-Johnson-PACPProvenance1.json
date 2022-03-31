@@ -1,0 +1,35 @@
+{
+  "resourceType": "Provenance",
+  "id": "Example-Smith-Johnson-PACPProvenance1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Provenance"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Example-Smith-Johnson-PACPProvenance1\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PADI-Provenance.html\">PACIO ADI Provenance</a></p></div><p><b>target</b>: <a href=\"Composition-Example-Smith-Johnson-PACPComposition1.html\">Composition/Example-Smith-Johnson-PACPComposition1</a></p><p><b>recorded</b>: Mar 29, 2021 7:25:34 PM</p><h3>Agents</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Who</b></td></tr><tr><td>*</td><td>Assembler <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-provenance-participant-type.html\">Provenance participant type</a>#assembler)</span></td><td><a href=\"Organization-Example-Smith-Johnson-OrganizationAssembler1.html\">Organization/Example-Smith-Johnson-OrganizationAssembler1</a> \"ADVault, Inc.\"</td></tr></table></div>"
+  },
+  "target": [
+    {
+      "reference": "Composition/Example-Smith-Johnson-PACPComposition1"
+    }
+  ],
+  "recorded": "2021-03-29T14:25:34.001-05:00",
+  "agent": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+            "code": "assembler",
+            "display": "Assembler"
+          }
+        ]
+      },
+      "who": {
+        "reference": "Organization/Example-Smith-Johnson-OrganizationAssembler1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+
+
+{
+  "resourceType": "Practitioner",
+  "id": "provider2b",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2020-04-28T14:20:16.633-07:00",
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Practitioner-eltss"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\t\t\t<p><b>Provider name, identifier,  phone: </b> Bill Driver, 11223344, (210) 111 2222</p>\n\t\t  </div>"
+  },
+  "identifier": [
+    {
+      "fhir_comments": [
+        "  identifier is required by US Core  "
+      ],
+      "system": "http://www.acme.org/practitioners",
+      "value": "11223344"
+    }
+  ],
+  "name": [
+    {
+      "fhir_comments": [
+        "  [eLTSS Service Provider Name]  "
+      ],
+      "text": "Bill Driver",
+      "family": "Driver",
+      "given": [
+        "Bill"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "fhir_comments": [
+        "  [eLTSS Service Provider Phone Number]  "
+      ],
+      "system": "phone",
+      "value": "(210) 111 2222"
+    }
+  ]
+}
+

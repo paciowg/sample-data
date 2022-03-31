@@ -1,0 +1,29 @@
+
+
+{
+  "resourceType": "Coverage",
+  "id": "coverage1",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2020-04-28T14:20:16.688-07:00"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\t\t\t<p><b>Coverage linking the funding source and patient </b></p>\n\t\t\t<blockquote>\n\t\t\t<p><b>Coverage beneficiary</b>: <a href=\"Patient/patientBSJ1\">Patient/patientBSJ1</a></p>\n\t\t\t<p><b>Coverage payor</b>: <a href=\"Organization/funding1\">Organization/funding1</a></p>\n\t\t\t</blockquote>\n\t\t\t</div>"
+  },
+  "status": "active",
+  "_status": {
+    "fhir_comments": [
+      "  Links to the eLTSS Service Funding Source   "
+    ]
+  },
+  "beneficiary": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "payor": [
+    {
+      "reference": "Organization/funding1"
+    }
+  ]
+}
+

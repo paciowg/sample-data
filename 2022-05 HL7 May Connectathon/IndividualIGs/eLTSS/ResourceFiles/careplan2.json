@@ -1,0 +1,42 @@
+
+
+{
+  "resourceType": "CarePlan",
+  "id": "careplan2",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2020-04-28T14:20:16.621-07:00",
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/CarePlan-eltss"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\t\t\t<p><b>Emergency Backup Plan</b></p>\n\t\t\t<blockquote>\n\t\t\t\t<p><b>id</b>: careplan2, <b>partOf </b>: <a href=\"CarePlan/careplan1\">CarePlan/careplan1</a>, <b>status</b>:active, <b>intent</b>: plan</p>\n\t\t\t\t<p><b>description</b>: Weather Emergencies: A shelf stable meal is delivered to Meals On Wheels clients. It is to be eaten in the unlikely event of cancellation. Weather meals are donated by the Sheboygan Service Club.</p>\n\t\t\t\t<p><b>subject</b>: <a href=\"Patient/patientBSJ1\">Patient/patientBSJ1</a></p>\n\t\t\t</blockquote>\n\t\t  </div>"
+  },
+  "partOf": [
+    {
+      "fhir_comments": [
+        "  reference to the \"main\" care plan  "
+      ],
+      "reference": "CarePlan/careplan1"
+    }
+  ],
+  "status": "active",
+  "intent": "plan",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/core/CodeSystem/careplan-category",
+          "code": "assess-plan"
+        }
+      ]
+    }
+  ],
+  "description": "Weather Emergency: A shelf-stable meal is delivered to Meals On Wheels clients. It is to be eaten in the unlikely event of cancellation. Weather meals are donated by the Sheboygan Service Club.",
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  }
+}
+

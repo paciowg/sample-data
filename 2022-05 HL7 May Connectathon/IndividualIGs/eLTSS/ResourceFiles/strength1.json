@@ -1,0 +1,31 @@
+
+
+{
+  "resourceType": "Observation",
+  "id": "strength1",
+  "meta": {
+    "versionId": "4",
+    "lastUpdated": "2020-04-22T14:55:50.239-07:00",
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Observation-eltss"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n            <p><b>Person Strength:</b> Able to manage her bills.</p>\n          </div>"
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://hl7.org/us/eLTSS/CodeSystem/eltss-observation-code",
+        "code": "strength"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "valueString": "Able to manage her bills."
+}
+

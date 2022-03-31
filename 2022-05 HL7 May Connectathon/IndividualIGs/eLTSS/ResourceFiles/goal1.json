@@ -1,0 +1,28 @@
+
+
+{
+  "resourceType": "Goal",
+  "id": "goal1",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2020-04-22T14:55:50.087-07:00",
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Goal-eltss"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n            <p><b>Person Goal:</b> Improve balance skills</p>\n          </div>"
+  },
+  "lifecycleStatus": "accepted",
+  "description": {
+    "fhir_comments": [
+      "  status name changed to lifecycleStatus for R4  "
+    ],
+    "text": "Improve balance skills"
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  }
+}
+

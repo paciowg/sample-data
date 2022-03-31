@@ -1,0 +1,70 @@
+
+
+{
+  "resourceType": "RiskAssessment",
+  "id": "risk1",
+  "meta": {
+    "versionId": "4",
+    "lastUpdated": "2020-05-06T14:43:53.300-07:00",
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/RiskAssessment-eltss"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\t\t\t<p><b>Risk Management Plan </b></p>\n\t\t\t<blockquote>\n\t\t\t<p><b>Risk(s): </b>At risk for falls, depression medication</p>\n\t\t\t<p><b>Subject</b>: <a href=\"Patient/patientBSJ1\">Patient/patientBSJ1</a></p>\n\t\t\t<p><b>Mitigation</b>: Betsy is at risk for falls. Her risk is increased due to her depression medication which may cause drowsiness. She has grab bars installed in the shower and is working on her balance with a trainer.</p>\n\t\t\t</blockquote>\n\t\t  </div>"
+  },
+  "status": "final",
+  "subject": {
+    "fhir_comments": [
+      "  subject is required by FHIR (starting with 3.4.0)  "
+    ],
+    "reference": "Patient/patientBSJ1"
+  },
+  "prediction": [
+    {
+      "fhir_comments": [
+        "  [eLTSS Identified Risk]   "
+      ],
+      "outcome": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "_system": {
+              "fhir_comments": [
+                "  code indicates at risk for falls  ",
+                "               <system value=\"urn:oid:2.16.840.1.113883.6.96\"/>    "
+              ]
+            },
+            "code": "129839007"
+          }
+        ],
+        "text": "At risk for falls (finding)"
+      }
+    },
+    {
+      "outcome": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "_system": {
+              "fhir_comments": [
+                "  code indicates depressive disorder  ",
+                "               <system value=\"urn:oid:2.16.840.1.113883.6.96\"/>    "
+              ]
+            },
+            "code": "35489007"
+          }
+        ],
+        "text": "Depressive disorder (disorder)"
+      }
+    }
+  ],
+  "mitigation": "Betsy is at risk for falls. Her risk is increased due to her depression medication. She has grab bars installed in the shower and is working on her balance with a trainer.",
+  "_mitigation": {
+    "fhir_comments": [
+      "  [eLTSS Risk Management Plan]   "
+    ]
+  }
+}
+

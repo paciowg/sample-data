@@ -1,0 +1,31 @@
+
+
+{
+  "resourceType": "Observation",
+  "id": "strength2",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2020-04-28T14:20:16.485-07:00",
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Observation-eltss"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n            <p><b>Person Strength:</b> Independent walking with cane</p>\n          </div>"
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://hl7.org/us/eLTSS/CodeSystem/eltss-observation-code",
+        "code": "strength"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "valueString": "Independent walking with cane."
+}
+

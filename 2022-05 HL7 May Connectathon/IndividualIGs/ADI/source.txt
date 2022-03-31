@@ -1,0 +1,5 @@
+http://hl7.org/fhir/us/pacio-adi/2022Jan/examples.json.zip
+- accessed: 3/31/2022
+- updates: remove all resource definitions and non Betsy Smith Johnson examples
+- IG: http://hl7.org/fhir/us/pacio-adi/2022Jan
+- package: https://simplifier.net/packages/hl7.fhir.us.pacio-adi/0.1.0

@@ -1,0 +1,106 @@
+
+
+{
+  "resourceType": "ServiceRequest",
+  "id": "service2",
+  "meta": {
+    "versionId": "5",
+    "lastUpdated": "2020-05-06T14:16:33.129-07:00",
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/ServiceRequest-eltss"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\t\t\t<p><b>Service Information</b></p>\n\t\t\t<blockquote>\n            <p><b>Name / Code:</b> Non-emergency transportation; encounter/trip - 2 trips per month - 10 trips total / T2003</p>\n\t\t\t<p><b>Provider:</b> <a href=\"Organization/provider2a\"> Organization/provider2a</a></p>\n            <p><b>Start Date / End Date:</b> 2020-07-01 / 2020-12-31</p>\n\t\t\t</blockquote>\n          </div>"
+  },
+  "status": "active",
+  "intent": "plan",
+  "code": {
+    "fhir_comments": [
+      "  [eLTSS Service Name]   "
+    ],
+    "coding": [
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.14",
+        "code": "T2003"
+      }
+    ],
+    "text": "Non-emergency transportation; encounter/trip"
+  },
+  "quantityRatio": {
+    "fhir_comments": [
+      "  Data below represents 2 trips per month  "
+    ],
+    "numerator": {
+      "value": 2,
+      "_value": {
+        "fhir_comments": [
+          "   [eLTSS Service Unit Quantity]   "
+        ]
+      },
+      "unit": "trips",
+      "_unit": {
+        "fhir_comments": [
+          "   [eLTSS Unit of Service Type]   "
+        ]
+      }
+    },
+    "denominator": {
+      "fhir_comments": [
+        "  [eLTSS Service Unit Quantity Interval]   "
+      ],
+      "value": 1,
+      "unit": "month"
+    }
+  },
+  "subject": {
+    "fhir_comments": [
+      "  subject is required by FHIR  "
+    ],
+    "reference": "Patient/patientBSJ1"
+  },
+  "occurrencePeriod": {
+    "start": "2020-07-01",
+    "_start": {
+      "fhir_comments": [
+        "  [eLTSS Service Start Date]  "
+      ]
+    },
+    "end": "2020-12-31",
+    "_end": {
+      "fhir_comments": [
+        "  [eLTSS Service End Date]  "
+      ]
+    }
+  },
+  "performer": [
+    {
+      "reference": "Organization/provider2a"
+    }
+  ],
+  "reasonReference": [
+    {
+      "reference": "Condition/need1"
+    }
+  ],
+  "insurance": [
+    {
+      "reference": "Coverage/coverage1"
+    }
+  ],
+  "supportingInfo": [
+    {
+      "reference": "Claim/claim1"
+    }
+  ],
+  "note": [
+    {
+      "fhir_comments": [
+        "   [eLTSS Service Comment]   "
+      ],
+      "text": "Service provider will provide a reminder the business day before the trip, and will call when on the way."
+    }
+  ]
+}
+

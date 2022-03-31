@@ -1,0 +1,42 @@
+{
+  "resourceType": "RelatedPerson",
+  "id": "Example-Smith-Johnson-HealthcareAgent1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-Participant"
+    ]
+  },
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Primary Healthcare Agent</b></p><p>The person I choose as my Primary Healthcare Agent is:</p><p><i>Charles Johnson</i></p><p><i>(Son)</i></p><p><i>CharlesSJ@example.com</i></p><p>[SELECTED to act as a healthcare agent on 3/29/2021, at 2:25 PM CDT]</p><p>[ACCEPTED to act as a healthcare agent on 4/1/2021, at 3:39 PM CDT]</p></div>"
+  },
+  "patient": {
+    "reference": "Patient/Example-Smith-Johnson-Patient1"
+  },
+  "relationship": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "code": "SON",
+          "display": "natural son"
+        }
+      ]
+    }
+  ],
+  "name": [
+    {
+      "family": "Johnson",
+      "given": [
+        "Charles"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "email",
+      "value": "CharlesSJ@example.com",
+      "use": "home"
+    }
+  ]
+}

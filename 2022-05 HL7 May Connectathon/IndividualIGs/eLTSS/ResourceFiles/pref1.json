@@ -1,0 +1,31 @@
+
+
+{
+  "resourceType": "Observation",
+  "id": "pref1",
+  "meta": {
+    "versionId": "4",
+    "lastUpdated": "2020-04-22T14:55:50.124-07:00",
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Observation-eltss"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n            <p><b>Person Preference:</b> Accessing the ICWP Waiver for her current service needs, and would like to remain on ICWP and continue with her current services.</p>\n          </div>"
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://hl7.org/us/eLTSS/CodeSystem/eltss-observation-code",
+        "code": "preference"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "valueString": "Accessing the ICWP Waiver for her current service needs, and would like to remain on ICWP and continue with her current services."
+}
+
