@@ -1,0 +1,46 @@
+{
+  "resourceType": "Observation",
+  "id": "HHA-MOB-DG-OASIS-2B-Ob-Question-62",
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"HHA-MOB-DG-OASIS-2B-Ob-Question-62\" </p></div><p><b>Event Location</b>: <a href=\"Location-Provider-Org-Loc-2.html\">Location/Provider-Org-Loc-2</a> \"Sky Harbor Home Health Services\"</p><p><b>status</b>: final</p><p><b>code</b>: Chair/bed-to-chair transfer - functional goal [CMS Assessment] <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#89414-7)</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Patient/patientBSJ1</a> \" SMITH-JOHNSON\"</p><p><b>effective</b>: 2020-02-10T16:31:00-05:00</p><p><b>performer</b>: <a href=\"PractitionerRole-provider-role-physical-therapist-Practitioner-LunaBaskins.html\">PractitionerRole/provider-role-physical-therapist-Practitioner-LunaBaskins</a></p><p><b>value</b>: Independent - Patient completes the activity by him/herself with no assistance from a helper. <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#LA9983-3)</span></p></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Provider-Org-Loc-2"
+      }
+    }
+  ],
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "89414-7",
+        "display": "Chair/bed-to-chair transfer - functional goal [CMS Assessment]"
+      }
+    ],
+    "text": "Chair/bed-to-chair transfer - functional goal [CMS Assessment]"
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "effectiveDateTime": "2020-02-10T16:31:00-05:00",
+  "performer": [
+    {
+      "reference": "PractitionerRole/provider-role-physical-therapist-Practitioner-LunaBaskins"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "LA9983-3",
+        "display": "Independent - Patient completes the activity by him/herself with no assistance from a helper."
+      }
+    ],
+    "text": "Independent - Patient completes the activity by him/herself with no assistance from a helper."
+  }
+}

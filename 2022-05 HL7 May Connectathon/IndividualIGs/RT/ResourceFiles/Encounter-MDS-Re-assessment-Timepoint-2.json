@@ -1,0 +1,120 @@
+{
+  "resourceType": "Encounter",
+  "id": "MDS-Re-assessment-Timepoint-2",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-rt/StructureDefinition/reassessment-timepoints-encounter"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"MDS-Re-assessment-Timepoint-2\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-reassessment-timepoints-encounter.html\">Re-assessment Timepoints Encounter</a></p></div><p><b>identifier</b>: id: MDS-Re-assessment-Timepoint-2001</p><p><b>status</b>: finished</p><p><b>class</b>: skilled nursing facility (Details: http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-class-cs code SNF = 'skilled nursing facility', stated as 'skilled nursing facility')</p><p><b>type</b>: Payer <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-timepoint-entity-cs.html\">Timepoint Entity Code System</a>#payer)</span></p><p><b>serviceType</b>: Minimum Data Set <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-timepoint-service-type-cs.html\">Timepoint Service Type Code System</a>#mds)</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Patient/patientBSJ1</a> \" SMITH-JOHNSON\"</p><p><b>episodeOfCare</b>: <a href=\"EpisodeOfCare-Episodecare-1-SNF-Stay.html\">EpisodeOfCare/Episodecare-1-SNF-Stay</a></p><p><b>basedOn</b>: <span>: Clinical Impression</span></p><blockquote><p><b>participant</b></p><p><b>individual</b>: <a href=\"Practitioner-Practitioner-SummerJohnson.html\">Practitioner/Practitioner-SummerJohnson</a> \" JOHNSON\"</p></blockquote><blockquote><p><b>participant</b></p><p><b>individual</b>: <a href=\"Practitioner-Practitioner-JenCadbury.html\">Practitioner/Practitioner-JenCadbury</a> \" CADBURY\"</p></blockquote><p><b>period</b>: 2020-01-14 --&gt; 2020-02-10</p><p><b>reasonCode</b>: Cerebral infarction due to embolism of right middle cerebral artery <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-icd10CM.html\">International Classification of Diseases, 10th Revision, Clinical Modification (ICD-10-CM)</a>#I63.411)</span></p><p><b>reasonReference</b>: </p><ul><li><a href=\"Observation-SNF-SC-IP-MDS-IPA-1D.html\">Observation/SNF-SC-IP-MDS-IPA-1D</a></li><li><a href=\"Observation-SNF-MOB-IP-MDS-IPA-1C.html\">Observation/SNF-MOB-IP-MDS-IPA-1C</a></li><li><a href=\"Observation-SNF-SC-DP-MDS-Discharge-ND-1E.html\">Observation/SNF-SC-DP-MDS-Discharge-ND-1E</a></li><li><a href=\"Observation-SNF-MOB-DP-MDS-Discharge-ND-1D.html\">Observation/SNF-MOB-DP-MDS-Discharge-ND-1D</a></li></ul><h3>Locations</h3><table class=\"grid\"><tr><td>-</td><td><b>Location</b></td></tr><tr><td>*</td><td><a href=\"Location-Provider-Org-Loc-1.html\">Location/Provider-Org-Loc-1</a> \"Happy Nursing Facility\"</td></tr></table><p><b>serviceProvider</b>: <a href=\"Organization-Provider-Org-1.html\">Organization/Provider-Org-1</a> \"Happy Nursing Facility\"</p><p><b>partOf</b>: <a href=\"Encounter-Encounter-1-SNF-Stay.html\">Encounter/Encounter-1-SNF-Stay</a></p></div>"
+  },
+  "identifier": [
+    {
+      "system": "http://example.org/identifiers/patient",
+      "value": "MDS-Re-assessment-Timepoint-2001"
+    }
+  ],
+  "status": "finished",
+  "class": {
+    "system": "http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-class-cs",
+    "code": "SNF",
+    "display": "skilled nursing facility"
+  },
+  "type": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-entity-cs",
+          "code": "payer",
+          "display": "Payer"
+        }
+      ]
+    }
+  ],
+  "serviceType": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-service-type-cs",
+        "code": "mds",
+        "display": "Minimum Data Set"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "episodeOfCare": [
+    {
+      "reference": "EpisodeOfCare/Episodecare-1-SNF-Stay"
+    }
+  ],
+  "basedOn": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/us/pacio-rt/StructureDefinition/clinicalImpression",
+          "valueReference": {
+            "reference": "ClinicalImpression/ClinicalImpression-1"
+          }
+        }
+      ],
+      "display": "Clinical Impression"
+    }
+  ],
+  "participant": [
+    {
+      "individual": {
+        "reference": "Practitioner/Practitioner-SummerJohnson"
+      }
+    },
+    {
+      "individual": {
+        "reference": "Practitioner/Practitioner-JenCadbury"
+      }
+    }
+  ],
+  "period": {
+    "start": "2020-01-14",
+    "end": "2020-02-10"
+  },
+  "reasonCode": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10-cm",
+          "code": "I63.411",
+          "display": "Cerebral infarction due to embolism of right middle cerebral artery"
+        }
+      ]
+    }
+  ],
+  "reasonReference": [
+    {
+      "reference": "Observation/SNF-SC-IP-MDS-IPA-1D"
+    },
+    {
+      "reference": "Observation/SNF-MOB-IP-MDS-IPA-1C"
+    },
+    {
+      "reference": "Observation/SNF-SC-DP-MDS-Discharge-ND-1E"
+    },
+    {
+      "reference": "Observation/SNF-MOB-DP-MDS-Discharge-ND-1D"
+    }
+  ],
+  "location": [
+    {
+      "location": {
+        "reference": "Location/Provider-Org-Loc-1"
+      }
+    }
+  ],
+  "serviceProvider": {
+    "reference": "Organization/Provider-Org-1"
+  },
+  "partOf": {
+    "reference": "Encounter/Encounter-1-SNF-Stay"
+  }
+}

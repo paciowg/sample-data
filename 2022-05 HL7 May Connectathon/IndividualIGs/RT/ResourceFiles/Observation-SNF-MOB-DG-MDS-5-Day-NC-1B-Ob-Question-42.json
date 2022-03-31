@@ -1,0 +1,46 @@
+{
+  "resourceType": "Observation",
+  "id": "SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-42",
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-42\" </p></div><p><b>Event Location</b>: <a href=\"Location-Provider-Org-Loc-1.html\">Location/Provider-Org-Loc-1</a> \"Happy Nursing Facility\"</p><p><b>status</b>: final</p><p><b>code</b>: Car transfer - functional goal [CMS Assessment] <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#89412-1)</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Patient/patientBSJ1</a> \" SMITH-JOHNSON\"</p><p><b>effective</b>: 2020-01-02T16:00:00-05:00</p><p><b>performer</b>: <a href=\"PractitionerRole-provider-role-nurse-Practitioner-SummerJohnson.html\">PractitionerRole/provider-role-nurse-Practitioner-SummerJohnson</a></p><p><b>value</b>: Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently. <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#LA28225-3)</span></p></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Provider-Org-Loc-1"
+      }
+    }
+  ],
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "89412-1",
+        "display": "Car transfer - functional goal [CMS Assessment]"
+      }
+    ],
+    "text": "Car transfer - functional goal [CMS Assessment]"
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "effectiveDateTime": "2020-01-02T16:00:00-05:00",
+  "performer": [
+    {
+      "reference": "PractitionerRole/provider-role-nurse-Practitioner-SummerJohnson"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "LA28225-3",
+        "display": "Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently."
+      }
+    ],
+    "text": "Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently."
+  }
+}

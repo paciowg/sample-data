@@ -1,0 +1,95 @@
+{
+  "resourceType": "Observation",
+  "id": "HHA-MOB-DC-OASIS-2E",
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"HHA-MOB-DC-OASIS-2E\" </p></div><p><b>Event Location</b>: <a href=\"Location-Provider-Org-Loc-2.html\">Location/Provider-Org-Loc-2</a> \"Sky Harbor Home Health Services\"</p><p><b>status</b>: final</p><p><b>category</b>: Survey <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#survey)</span></p><p><b>code</b>: OASIS D - Mobility - discharge performance during assessment period [CMS Assessment] <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#89474-1)</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Patient/patientBSJ1</a> \" SMITH-JOHNSON\"</p><p><b>effective</b>: 2020-06-29T14:00:00-05:00</p><p><b>performer</b>: <a href=\"PractitionerRole-provider-role-physical-therapist-Practitioner-ScottDumble.html\">PractitionerRole/provider-role-physical-therapist-Practitioner-ScottDumble</a></p><p><b>hasMember</b>: </p><ul><li><a href=\"Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-4.html\">Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-4</a></li><li><a href=\"Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-8.html\">Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-8</a></li><li><a href=\"Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-12.html\">Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-12</a></li><li><a href=\"Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-16.html\">Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-16</a></li><li><a href=\"Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-20.html\">Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-20</a></li><li><a href=\"Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-24.html\">Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-24</a></li><li><a href=\"Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-26.html\">Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-26</a></li><li><a href=\"Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-30.html\">Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-30</a></li><li><a href=\"Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-34.html\">Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-34</a></li><li><a href=\"Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-36.html\">Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-36</a></li><li><a href=\"Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-40.html\">Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-40</a></li><li><a href=\"Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-44.html\">Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-44</a></li><li><a href=\"Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-48.html\">Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-48</a></li><li><a href=\"Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-50.html\">Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-50</a></li><li><a href=\"Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-53.html\">Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-53</a></li><li><a href=\"Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-57.html\">Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-57</a></li></ul></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Provider-Org-Loc-2"
+      }
+    }
+  ],
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "survey"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "89474-1",
+        "display": "OASIS D - Mobility - discharge performance during assessment period [CMS Assessment]"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "effectiveDateTime": "2020-06-29T14:00:00-05:00",
+  "performer": [
+    {
+      "reference": "PractitionerRole/provider-role-physical-therapist-Practitioner-ScottDumble"
+    }
+  ],
+  "hasMember": [
+    {
+      "reference": "Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-4"
+    },
+    {
+      "reference": "Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-8"
+    },
+    {
+      "reference": "Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-12"
+    },
+    {
+      "reference": "Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-16"
+    },
+    {
+      "reference": "Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-20"
+    },
+    {
+      "reference": "Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-24"
+    },
+    {
+      "reference": "Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-26"
+    },
+    {
+      "reference": "Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-30"
+    },
+    {
+      "reference": "Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-34"
+    },
+    {
+      "reference": "Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-36"
+    },
+    {
+      "reference": "Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-40"
+    },
+    {
+      "reference": "Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-44"
+    },
+    {
+      "reference": "Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-48"
+    },
+    {
+      "reference": "Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-50"
+    },
+    {
+      "reference": "Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-53"
+    },
+    {
+      "reference": "Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-57"
+    }
+  ]
+}

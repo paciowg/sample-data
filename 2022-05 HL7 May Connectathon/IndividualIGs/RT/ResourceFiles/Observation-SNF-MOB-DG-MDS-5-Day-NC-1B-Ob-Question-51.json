@@ -1,0 +1,46 @@
+{
+  "resourceType": "Observation",
+  "id": "SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-51",
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-51\" </p></div><p><b>Event Location</b>: <a href=\"Location-Provider-Org-Loc-1.html\">Location/Provider-Org-Loc-1</a> \"Happy Nursing Facility\"</p><p><b>status</b>: final</p><p><b>code</b>: Wheel 50 feet with two turns - functional goal [CMS Assessment] <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#89375-0)</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Patient/patientBSJ1</a> \" SMITH-JOHNSON\"</p><p><b>effective</b>: 2020-01-02T16:00:00-05:00</p><p><b>performer</b>: <a href=\"PractitionerRole-provider-role-nurse-Practitioner-SummerJohnson.html\">PractitionerRole/provider-role-nurse-Practitioner-SummerJohnson</a></p><p><b>value</b>: Setup or clean-up assistance - Helper sets up or cleans up; patient completes activity. Helper assists only prior to or following the activity. <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#LA10073-7)</span></p></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Provider-Org-Loc-1"
+      }
+    }
+  ],
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "89375-0",
+        "display": "Wheel 50 feet with two turns - functional goal [CMS Assessment]"
+      }
+    ],
+    "text": "Wheel 50 feet with two turns - functional goal [CMS Assessment]"
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "effectiveDateTime": "2020-01-02T16:00:00-05:00",
+  "performer": [
+    {
+      "reference": "PractitionerRole/provider-role-nurse-Practitioner-SummerJohnson"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "LA10073-7",
+        "display": "Setup or clean-up assistance - Helper sets up or cleans up; patient completes activity. Helper assists only prior to or following the activity."
+      }
+    ],
+    "text": "Setup or clean-up assistance - Helper sets up or cleans up; patient completes activity. Helper assists only prior to or following the activity."
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "resourceType": "Observation",
+  "id": "SNF-SC-DP-MDS-Discharge-ND-1E",
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"SNF-SC-DP-MDS-Discharge-ND-1E\" </p></div><p><b>Event Location</b>: <a href=\"Location-Provider-Org-Loc-1.html\">Location/Provider-Org-Loc-1</a> \"Happy Nursing Facility\"</p><p><b>status</b>: final</p><p><b>category</b>: Survey <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#survey)</span></p><p><b>code</b>: IRF-PAIv3.0, MDS v1.17.1, 1.17.2 - Self-care - discharge performance during assessment period [CMS Assessment] <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#95734-0)</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Patient/patientBSJ1</a> \" SMITH-JOHNSON\"</p><p><b>effective</b>: 2020-02-10T10:00:00-05:00</p><p><b>performer</b>: <a href=\"PractitionerRole-provider-role-physical-therapist-Practitioner-JenCadbury.html\">PractitionerRole/provider-role-physical-therapist-Practitioner-JenCadbury</a></p><p><b>hasMember</b>: </p><ul><li><a href=\"Observation-SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-19.html\">Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-19</a></li><li><a href=\"Observation-SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-20.html\">Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-20</a></li><li><a href=\"Observation-SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-21.html\">Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-21</a></li><li><a href=\"Observation-SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-22.html\">Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-22</a></li><li><a href=\"Observation-SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-23.html\">Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-23</a></li><li><a href=\"Observation-SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-24.html\">Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-24</a></li><li><a href=\"Observation-SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-25.html\">Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-25</a></li></ul></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Provider-Org-Loc-1"
+      }
+    }
+  ],
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "survey"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "95734-0",
+        "display": "IRF-PAIv3.0, MDS v1.17.1, 1.17.2 - Self-care - discharge performance during assessment period [CMS Assessment]"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "effectiveDateTime": "2020-02-10T10:00:00-05:00",
+  "performer": [
+    {
+      "reference": "PractitionerRole/provider-role-physical-therapist-Practitioner-JenCadbury"
+    }
+  ],
+  "hasMember": [
+    {
+      "reference": "Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-19"
+    },
+    {
+      "reference": "Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-20"
+    },
+    {
+      "reference": "Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-21"
+    },
+    {
+      "reference": "Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-22"
+    },
+    {
+      "reference": "Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-23"
+    },
+    {
+      "reference": "Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-24"
+    },
+    {
+      "reference": "Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-25"
+    }
+  ]
+}

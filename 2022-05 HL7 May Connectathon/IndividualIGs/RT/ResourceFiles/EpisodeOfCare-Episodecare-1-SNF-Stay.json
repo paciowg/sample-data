@@ -1,0 +1,39 @@
+{
+  "resourceType": "EpisodeOfCare",
+  "id": "Episodecare-1-SNF-Stay",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Episodecare-1-SNF-Stay\" </p></div><p><b>status</b>: finished</p><p><b>type</b>: Post Acute Care <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-episodeofcare-type.html\">Episode of care type</a>#pac)</span></p><h3>Diagnoses</h3><table class=\"grid\"><tr><td>-</td><td><b>Condition</b></td></tr><tr><td>*</td><td><a href=\"Condition-BSJ-Diagnosis1.html\">Condition/BSJ-Diagnosis1</a></td></tr></table><p><b>patient</b>: <a href=\"Patient-patientBSJ1.html\">Patient/patientBSJ1</a> \" SMITH-JOHNSON\"</p><p><b>managingOrganization</b>: <a href=\"Organization-Provider-Org-1.html\">Organization/Provider-Org-1</a> \"Happy Nursing Facility\"</p><p><b>period</b>: 2020-01-01 --&gt; 2020-02-10</p><p><b>careManager</b>: <a href=\"PractitionerRole-provider-role-nurse-Practitioner-SummerJohnson.html\">PractitionerRole/provider-role-nurse-Practitioner-SummerJohnson</a></p></div>"
+  },
+  "status": "finished",
+  "type": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/episodeofcare-type",
+          "code": "pac"
+        }
+      ]
+    }
+  ],
+  "diagnosis": [
+    {
+      "condition": {
+        "reference": "Condition/BSJ-Diagnosis1"
+      }
+    }
+  ],
+  "patient": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "managingOrganization": {
+    "reference": "Organization/Provider-Org-1"
+  },
+  "period": {
+    "start": "2020-01-01",
+    "end": "2020-02-10"
+  },
+  "careManager": {
+    "reference": "PractitionerRole/provider-role-nurse-Practitioner-SummerJohnson"
+  }
+}

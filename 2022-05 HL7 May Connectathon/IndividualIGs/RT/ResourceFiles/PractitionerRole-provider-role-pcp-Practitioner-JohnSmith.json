@@ -1,0 +1,34 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "provider-role-pcp-Practitioner-JohnSmith",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"provider-role-pcp-Practitioner-JohnSmith\" </p></div><p><b>active</b>: true</p><p><b>practitioner</b>: <a href=\"Practitioner-Practitioner-JohnSmith.html\">Practitioner/Practitioner-JohnSmith</a> \" SMITH\"</p><p><b>code</b>: Primary Care Clinic/Center <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (provider-taxonomy#261QP2300X)</span></p><p><b>specialty</b>: Internal medicine <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#419192003)</span></p></div>"
+  },
+  "active": true,
+  "practitioner": {
+    "reference": "Practitioner/Practitioner-JohnSmith"
+  },
+  "code": [
+    {
+      "coding": [
+        {
+          "system": "http://nucc.org/provider-taxonomy",
+          "code": "261QP2300X",
+          "display": "Primary Care Clinic/Center"
+        }
+      ]
+    }
+  ],
+  "specialty": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "419192003",
+          "display": "Internal medicine"
+        }
+      ]
+    }
+  ]
+}

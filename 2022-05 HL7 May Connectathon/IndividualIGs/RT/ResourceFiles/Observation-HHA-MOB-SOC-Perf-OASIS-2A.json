@@ -1,0 +1,95 @@
+{
+  "resourceType": "Observation",
+  "id": "HHA-MOB-SOC-Perf-OASIS-2A",
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"HHA-MOB-SOC-Perf-OASIS-2A\" </p></div><p><b>Event Location</b>: <a href=\"Location-Provider-Org-Loc-2.html\">Location/Provider-Org-Loc-2</a> \"Sky Harbor Home Health Services\"</p><p><b>status</b>: final</p><p><b>category</b>: Survey <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#survey)</span></p><p><b>code</b>: OASIS D - Mobility - SOC and ROC performance during assessment period [CMS Assessment] <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#89477-4)</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Patient/patientBSJ1</a> \" SMITH-JOHNSON\"</p><p><b>effective</b>: 2020-02-10T16:31:00-05:00</p><p><b>performer</b>: <a href=\"PractitionerRole-provider-role-physical-therapist-Practitioner-LunaBaskins.html\">PractitionerRole/provider-role-physical-therapist-Practitioner-LunaBaskins</a></p><p><b>hasMember</b>: </p><ul><li><a href=\"Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-1.html\">Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-1</a></li><li><a href=\"Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-5.html\">Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-5</a></li><li><a href=\"Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-9.html\">Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-9</a></li><li><a href=\"Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-13.html\">Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-13</a></li><li><a href=\"Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-17.html\">Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-17</a></li><li><a href=\"Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-21.html\">Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-21</a></li><li><a href=\"Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-25.html\">Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-25</a></li><li><a href=\"Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-27.html\">Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-27</a></li><li><a href=\"Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-31.html\">Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-31</a></li><li><a href=\"Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-35.html\">Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-35</a></li><li><a href=\"Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-37.html\">Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-37</a></li><li><a href=\"Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-41.html\">Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-41</a></li><li><a href=\"Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-45.html\">Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-45</a></li><li><a href=\"Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-49.html\">Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-49</a></li><li><a href=\"Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-51.html\">Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-51</a></li><li><a href=\"Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-54.html\">Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-54</a></li></ul></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Provider-Org-Loc-2"
+      }
+    }
+  ],
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "survey"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "89477-4",
+        "display": "OASIS D - Mobility - SOC and ROC performance during assessment period [CMS Assessment]"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "effectiveDateTime": "2020-02-10T16:31:00-05:00",
+  "performer": [
+    {
+      "reference": "PractitionerRole/provider-role-physical-therapist-Practitioner-LunaBaskins"
+    }
+  ],
+  "hasMember": [
+    {
+      "reference": "Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-1"
+    },
+    {
+      "reference": "Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-5"
+    },
+    {
+      "reference": "Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-9"
+    },
+    {
+      "reference": "Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-13"
+    },
+    {
+      "reference": "Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-17"
+    },
+    {
+      "reference": "Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-21"
+    },
+    {
+      "reference": "Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-25"
+    },
+    {
+      "reference": "Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-27"
+    },
+    {
+      "reference": "Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-31"
+    },
+    {
+      "reference": "Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-35"
+    },
+    {
+      "reference": "Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-37"
+    },
+    {
+      "reference": "Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-41"
+    },
+    {
+      "reference": "Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-45"
+    },
+    {
+      "reference": "Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-49"
+    },
+    {
+      "reference": "Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-51"
+    },
+    {
+      "reference": "Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-54"
+    }
+  ]
+}

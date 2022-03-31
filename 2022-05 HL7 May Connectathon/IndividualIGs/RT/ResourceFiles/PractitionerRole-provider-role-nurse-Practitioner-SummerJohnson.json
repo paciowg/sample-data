@@ -1,0 +1,42 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "provider-role-nurse-Practitioner-SummerJohnson",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"provider-role-nurse-Practitioner-SummerJohnson\" </p></div><p><b>active</b>: true</p><p><b>practitioner</b>: <a href=\"Practitioner-Practitioner-SummerJohnson.html\">Practitioner/Practitioner-SummerJohnson</a> \" JOHNSON\"</p><p><b>organization</b>: <a href=\"Organization-Provider-Org-1.html\">Organization/Provider-Org-1</a> \"Happy Nursing Facility\"</p><p><b>code</b>: Registered Nurse <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (provider-taxonomy#163W00000X)</span></p><p><b>specialty</b>: General medical practice <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#408443003)</span></p><p><b>location</b>: <a href=\"Location-Provider-Org-Loc-1.html\">Location/Provider-Org-Loc-1</a> \"Happy Nursing Facility\"</p></div>"
+  },
+  "active": true,
+  "practitioner": {
+    "reference": "Practitioner/Practitioner-SummerJohnson"
+  },
+  "organization": {
+    "reference": "Organization/Provider-Org-1"
+  },
+  "code": [
+    {
+      "coding": [
+        {
+          "system": "http://nucc.org/provider-taxonomy",
+          "code": "163W00000X",
+          "display": "Registered Nurse"
+        }
+      ]
+    }
+  ],
+  "specialty": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "408443003",
+          "display": "General medical practice"
+        }
+      ]
+    }
+  ],
+  "location": [
+    {
+      "reference": "Location/Provider-Org-Loc-1"
+    }
+  ]
+}

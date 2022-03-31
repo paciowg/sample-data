@@ -2,5 +2,5 @@ https://github.com/paciowg/sample-data/blob/Load-sample-data-scripts/2020-05%20H
 folder: Full_Data_Organized/Story Resources/eLTSS_Care_Plan/
 - accessed: 3/31/2022
 - modifications: none
-- IG: http://build.fhir.org/ig/HL7/eLTSS/index.html (currently missing, but source on github: https://github.com/HL7/eLTSS)
-- package: https://simplifier.net/packages/hl7.fhir.us.eltss/0.1.0
+- IG: http://hl7.org/fhir/us/eltss/
+- package: https://simplifier.net/packages/hl7.fhir.us.eltss/1.0.0

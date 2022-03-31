@@ -1,0 +1,46 @@
+{
+  "resourceType": "Observation",
+  "id": "HHA-MOB-FU-60-OASIS-2C-Ob-Question-38",
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"HHA-MOB-FU-60-OASIS-2C-Ob-Question-38\" </p></div><p><b>Event Location</b>: <a href=\"Location-Provider-Org-Loc-2.html\">Location/Provider-Org-Loc-2</a> \"Sky Harbor Home Health Services\"</p><p><b>status</b>: final</p><p><b>code</b>: Walking 10 feet on uneven surfaces - usual functional ability during assessment period [CMS Assessment] <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#95001-4)</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Patient/patientBSJ1</a> \" SMITH-JOHNSON\"</p><p><b>effective</b>: 2020-04-07T11:21:00-05:00</p><p><b>performer</b>: <a href=\"PractitionerRole-provider-role-nurse-Practitioner-JacobHartwell.html\">PractitionerRole/provider-role-nurse-Practitioner-JacobHartwell</a></p><p><b>value</b>: Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort. <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#LA10055-4)</span></p></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Provider-Org-Loc-2"
+      }
+    }
+  ],
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "95001-4",
+        "display": "Walking 10 feet on uneven surfaces - usual functional ability during assessment period [CMS Assessment]"
+      }
+    ],
+    "text": "Walking 10 feet on uneven surfaces - usual functional ability during assessment period [CMS Assessment]"
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "effectiveDateTime": "2020-04-07T11:21:00-05:00",
+  "performer": [
+    {
+      "reference": "PractitionerRole/provider-role-nurse-Practitioner-JacobHartwell"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "LA10055-4",
+        "display": "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort."
+      }
+    ],
+    "text": "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort."
+  }
+}
