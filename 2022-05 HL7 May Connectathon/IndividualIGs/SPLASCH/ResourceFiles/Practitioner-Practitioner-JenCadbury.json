@@ -1,0 +1,36 @@
+{
+  "resourceType": "Practitioner",
+  "id": "Practitioner-JenCadbury",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Practitioner-JenCadbury\" </p></div><p><b>identifier</b>: id: 1928374650</p><p><b>active</b>: true</p><p><b>name</b>: Jen Cadbury</p><p><b>telecom</b>: ph: (210) 555 1871</p><p><b>address</b>: 8100 Pinebrook Dr, San Antonio, TX, 78230</p><p><b>gender</b>: female</p></div>"
+  },
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/sid/us-npi",
+      "value": "1928374650"
+    }
+  ],
+  "active": true,
+  "name": [
+    {
+      "text": "Jen Cadbury",
+      "family": "Cadbury",
+      "given": [
+        "Jen"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "(210) 555 1871"
+    }
+  ],
+  "address": [
+    {
+      "text": "8100 Pinebrook Dr, San Antonio, TX, 78230"
+    }
+  ],
+  "gender": "female"
+}

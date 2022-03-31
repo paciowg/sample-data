@@ -1,0 +1,36 @@
+{
+  "resourceType": "Practitioner",
+  "id": "Practitioner-DonHopmed",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Practitioner-DonHopmed\" </p></div><p><b>identifier</b>: id: 4652819730</p><p><b>active</b>: true</p><p><b>name</b>: Don Hopmed</p><p><b>telecom</b>: ph: (210)555-1234</p><p><b>address</b>: 26022 Meadowlark Bay, San Antonio, TX 78260</p><p><b>gender</b>: male</p></div>"
+  },
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/sid/us-npi",
+      "value": "4652819730"
+    }
+  ],
+  "active": true,
+  "name": [
+    {
+      "text": "Don Hopmed",
+      "family": "Hopmed",
+      "given": [
+        "Don"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "(210)555-1234"
+    }
+  ],
+  "address": [
+    {
+      "text": "26022 Meadowlark Bay, San Antonio, TX 78260"
+    }
+  ],
+  "gender": "male"
+}
