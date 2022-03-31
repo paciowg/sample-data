@@ -1,0 +1,18 @@
+{
+  "resourceType": "Practitioner",
+  "id": "Practitioner-LunaBaskins",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>name</b>: Luna Baskins </p><p><b>gender</b>: female</p></div>"
+  },
+  "active": true,
+  "name": [
+    {
+      "family": "Baskins",
+      "given": [
+        "Luna"
+      ]
+    }
+  ],
+  "gender": "female"
+}

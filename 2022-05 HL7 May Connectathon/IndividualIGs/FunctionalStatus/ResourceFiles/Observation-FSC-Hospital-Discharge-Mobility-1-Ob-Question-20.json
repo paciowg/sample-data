@@ -1,0 +1,76 @@
+{
+  "resourceType": "Observation",
+  "id": "FSC-Hospital-Discharge-Mobility-1-Ob-Question-20",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"
+    ]
+  },
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>ObservationEventLocation</b>: <a href=\"Location-Org-Loc-01.html\">Generated Summary: status: active; name: San Antonio General Hospital</a></p><p></p><p><b>category</b>: <span title=\"Codes: {http://hl7.org/fhir/us/pacio-fs/CodeSystem/pacio-cat-fs functioning}\">Functioning</span>, <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 83200-6}\">Walk 150 feet</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>effective</b>: Jul 10, 2020 7:34:00 PM</p><p><b>performer</b>: <a href=\"PractitionerRole-Role-PT-RonMarble.html\">Generated Summary: active: true; <span title=\"Codes: {http://snomed.info/sct 36682004}\">Physiotherapist</span></a></p><p><b>value</b>: <span title=\"Codes: {http://loinc.org LA11759-0}\">Substantial/maximal assistance</span></p><p><b>derivedFrom</b>: <a href=\"QuestionnaireResponse-QResponse-Hospital-Discharge-Mobility-1.html\">Generated Summary: questionnaire: http://example.org/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: Jul 10, 2020 7:34:00 PM</a></p></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-01"
+      }
+    }
+  ],
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-fs/CodeSystem/pacio-cat-fs",
+          "code": "functioning",
+          "display": "Functioning"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "survey",
+          "display": "Survey"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "83200-6",
+        "display": "Walk 150 feet - functional ability during 3 day assessment period [CMS Assessment]"
+      }
+    ],
+    "text": "Walk 150 feet"
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "effectiveDateTime": "2020-07-10T14:34:00-05:00",
+  "performer": [
+    {
+      "reference": "PractitionerRole/Role-PT-RonMarble"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "LA11759-0",
+        "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+      }
+    ],
+    "text": "Substantial/maximal assistance"
+  },
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-1"
+    }
+  ]
+}

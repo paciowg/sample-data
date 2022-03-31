@@ -1,0 +1,66 @@
+{
+  "resourceType": "Observation",
+  "id": "BSJ-Narrative-History-Functional-Status-1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-nhfs"
+    ]
+  },
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>ObservationEventLocation</b>: <a href=\"Location-provider-org-loc-01.html\">Generated Summary: status: active; name: Primary Care</a></p><p><b>AssistanceRequired</b>: <span title=\"Codes: {http://loinc.org LA11539-6}\">Independent - Patient completed the activities by him/herself, with or without an assistive device, with no assistance from a helper.</span></p><p></p><p><b>category</b>: <span title=\"Codes: {http://hl7.org/fhir/us/pacio-fs/CodeSystem/pacio-cat-fs functioning}\">Functioning</span></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 10158-4}\">History of Functional status Narrative</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>effective</b>: 2019-07-01 --&gt; 2020-11-30</p><p><b>performer</b>: <a href=\"PractitionerRole-provider-role-pcp.html\">Generated Summary: active: true; <span title=\"Codes: {http://nucc.org/provider-taxonomy 261QP2300X}\">Primary Care Clinic/Center</span></a></p><p><b>value</b>: Patient is a community ambulator, able to attend desired activites and able to care for herself independently.</p></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/provider-org-loc-01"
+      }
+    },
+    {
+      "url": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/assistance-required",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "LA11539-6",
+            "display": "Independent - Patient completed the activities by him/herself, with or without an assistive device, with no assistance from a helper."
+          }
+        ]
+      }
+    }
+  ],
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-fs/CodeSystem/pacio-cat-fs",
+          "code": "functioning"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "10158-4",
+        "display": "History of Functional status Narrative"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "effectivePeriod": {
+    "start": "2019-07-01",
+    "end": "2020-11-30"
+  },
+  "performer": [
+    {
+      "reference": "PractitionerRole/provider-role-pcp"
+    }
+  ],
+  "valueString": "Patient is a community ambulator, able to attend desired activites and able to care for herself independently."
+}

@@ -1,0 +1,19 @@
+{
+  "resourceType": "Practitioner",
+  "id": "Practitioner-JohnSmith",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>name</b>: Primary Care Physician</p><p><b>gender</b>: male</p></div>"
+  },
+  "active": true,
+  "name": [
+    {
+      "text": "Primary Care Physician",
+      "family": "Smith",
+      "given": [
+        "John"
+      ]
+    }
+  ],
+  "gender": "male"
+}

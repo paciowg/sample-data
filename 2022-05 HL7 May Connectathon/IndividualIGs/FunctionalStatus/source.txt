@@ -1,0 +1,6 @@
+http://hl7.org/fhir/us/pacio-fs/full-ig.zip
+from file: full-ig/site/examples.json.zip
+- accessed: 3/31/2022
+- modifications: removed structural resources (structureDefinitions, value sets, etc)
+- IG: http://hl7.org/fhir/us/pacio-fs
+- package: https://simplifier.net/packages/hl7.fhir.us.pacio-fs/1.0.0

@@ -1,0 +1,18 @@
+{
+  "resourceType": "Practitioner",
+  "id": "Practitioner-SallySmith",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>name</b>: Sally Smith </p><p><b>gender</b>: female</p></div>"
+  },
+  "active": true,
+  "name": [
+    {
+      "family": "Smith",
+      "given": [
+        "Sally"
+      ]
+    }
+  ],
+  "gender": "female"
+}

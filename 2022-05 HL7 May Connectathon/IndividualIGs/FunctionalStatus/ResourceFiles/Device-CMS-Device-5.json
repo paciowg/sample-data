@@ -1,0 +1,22 @@
+{
+  "resourceType": "Device",
+  "id": "CMS-Device-5",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>DeviceNames</h3><table class=\"grid\"><tr><td>-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td>*</td><td>Raised toilet seat</td><td>user-friendly-name</td></tr></table><p><b>type</b>: <span title=\"Codes: {http://snomed.info/sct 705593007}\">Raised toilet seat</span></p></div>"
+  },
+  "deviceName": [
+    {
+      "name": "Raised toilet seat",
+      "type": "user-friendly-name"
+    }
+  ],
+  "type": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "705593007"
+      }
+    ]
+  }
+}

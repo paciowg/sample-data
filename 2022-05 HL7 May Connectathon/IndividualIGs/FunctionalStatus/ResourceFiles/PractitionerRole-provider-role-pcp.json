@@ -1,0 +1,31 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "provider-role-pcp",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>practitioner</b>: <a href=\"Practitioner-Practitioner-JohnSmith.html\">Generated Summary: active: true; Primary Care Physician; gender: male</a></p><p><b>organization</b>: <a href=\"Organization-provider-org-01.html\">Generated Summary: name: Primary Care</a></p><p><b>code</b>: <span title=\"Codes: {http://nucc.org/provider-taxonomy 261QP2300X}\">Primary Care Clinic/Center</span></p><p><b>location</b>: <a href=\"Location-provider-org-loc-01.html\">Generated Summary: status: active; name: Primary Care</a></p></div>"
+  },
+  "active": true,
+  "practitioner": {
+    "reference": "Practitioner/Practitioner-JohnSmith"
+  },
+  "organization": {
+    "reference": "Organization/provider-org-01"
+  },
+  "code": [
+    {
+      "coding": [
+        {
+          "system": "http://nucc.org/provider-taxonomy",
+          "code": "261QP2300X",
+          "display": "Primary Care Clinic/Center"
+        }
+      ]
+    }
+  ],
+  "location": [
+    {
+      "reference": "Location/provider-org-loc-01"
+    }
+  ]
+}

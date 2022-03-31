@@ -1,0 +1,135 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "id": "QResponse-SNF-Admission-Mobility-SelfCare-1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaireresponse"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>questionnaire</b>: <a href=\"http://example.org/Questionnaire/MDS3.0-NC-1.17\">http://example.org/Questionnaire/MDS3.0-NC-1.17</a></p><p><b>status</b>: completed</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>authored</b>: Jul 11, 2020 9:32:00 PM</p><p><b>author</b>: <a href=\"PractitionerRole-Role-OT-JenCadbury.html\">Generated Summary: active: true; <span title=\"Codes: {http://snomed.info/sct 80546007}\">Occupational therapist</span></a></p><blockquote><p><b>item</b></p><p><b>linkId</b>: Section-37</p><p><b>text</b>: Functional abilities and goals - admission [CMS Assessment]</p><blockquote><p><b>item</b></p><p><b>linkId</b>: Section-37/GG0130_1</p><p><b>text</b>: Self-care - admission performance [CMS Assessment]</p></blockquote></blockquote></div>"
+  },
+  "questionnaire": "http://example.org/Questionnaire/MDS3.0-NC-1.17",
+  "_questionnaire": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/display",
+        "valueString": "Minimum Data Set (MDS) - version 3.0 - Resident Assessment Instrument (RAI) version 1.17.1 [CMS Assessment]"
+      }
+    ]
+  },
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "authored": "2020-07-11T16:32:00-05:00",
+  "author": {
+    "reference": "PractitionerRole/Role-OT-JenCadbury"
+  },
+  "item": [
+    {
+      "linkId": "Section-37",
+      "text": "Functional abilities and goals - admission [CMS Assessment]",
+      "item": [
+        {
+          "linkId": "Section-37/GG0130_1",
+          "text": "Self-care - admission performance [CMS Assessment]",
+          "item": [
+            {
+              "linkId": "Section-37/GG0130A1",
+              "text": "Eating",
+              "answer": [
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA10055-4",
+                    "display": "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort."
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0130B1",
+              "text": "Oral hygiene",
+              "answer": [
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA10055-4",
+                    "display": "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort."
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0130C1",
+              "text": "Toileting hygiene",
+              "answer": [
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA10055-4",
+                    "display": "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort."
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0130E1",
+              "text": "Shower/bathe self",
+              "answer": [
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA26735-3",
+                    "display": "Not attempted due to medical condition or safety concerns"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0130F1",
+              "text": "Upper body dressing",
+              "answer": [
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA10055-4",
+                    "display": "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort."
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0130G1",
+              "text": "Lower body dressing",
+              "answer": [
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA11759-0",
+                    "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0130H1",
+              "text": "Putting on/taking off footwear",
+              "answer": [
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA11759-0",
+                    "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "resourceType": "Practitioner",
+  "id": "Practitioner-DanielGranger",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>name</b>: Daniel Granger </p><p><b>gender</b>: male</p></div>"
+  },
+  "active": true,
+  "name": [
+    {
+      "family": "Granger",
+      "given": [
+        "Daniel"
+      ]
+    }
+  ],
+  "gender": "male"
+}

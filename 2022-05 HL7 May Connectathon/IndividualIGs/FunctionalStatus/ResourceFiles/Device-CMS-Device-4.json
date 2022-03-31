@@ -1,0 +1,22 @@
+{
+  "resourceType": "Device",
+  "id": "CMS-Device-4",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>DeviceNames</h3><table class=\"grid\"><tr><td>-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td>*</td><td>Handle bars</td><td>user-friendly-name</td></tr></table><p><b>type</b>: <span title=\"Codes: {http://snomed.info/sct 465550005}\">Toilet hand rail (physical object)</span></p></div>"
+  },
+  "deviceName": [
+    {
+      "name": "Handle bars",
+      "type": "user-friendly-name"
+    }
+  ],
+  "type": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "465550005"
+      }
+    ]
+  }
+}
