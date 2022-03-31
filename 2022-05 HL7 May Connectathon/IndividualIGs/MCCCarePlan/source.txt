@@ -1,0 +1,5 @@
+https://api.logicahealth.org/MCCeCarePlanTest/open/Patient/cc-pat-pnoelle/$everything
+- accessed: 3/28/2022
+- modifications: removed paging
+- IG: https://trifolia-fhir-dev.lantanagroup.com/igs/lantana_prod_hapi_r4/MCC-IG/index.html
+- Package: None
