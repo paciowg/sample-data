@@ -1,0 +1,143 @@
+{
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "Patient/BSJ-C0522-Incoherent",
+      "resource": {
+        "id": "BSJ-C0522-Incoherent",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"BSJ-patientBSJ1\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/us/core/STU4/StructureDefinition-us-core-patient.html\">US Core Patient Profile</a></p></div><p><b>identifier</b>: id: 10A3D58WH1600</p><p><b>active</b>: true</p><p><b>name</b>: Betsy Smith-Johnson</p><p><b>telecom</b>: ph: 210-222-1111(MOBILE)</p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1950-11-01</p><p><b>address</b>: 111 Maple Ct, San Antonio, TX 78212</p><p><b>maritalStatus</b>: unmarried <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v3-MaritalStatus.html\">MaritalStatus</a>#U)</span></p><blockquote><p><b>contact</b></p><p><b>relationship</b>: son <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v3-RoleCode.html\">RoleCode</a>#SONC)</span>, C <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (0131#C)</span>, guardian <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v3-RoleCode.html\">RoleCode</a>#GUARD)</span></p><p><b>name</b>: Charles Johnson</p><p><b>telecom</b>: ph: (210) 222-3333</p><p><b>address</b>: 100 Montana St., San Antonio, TX 78203</p></blockquote><blockquote><p><b>contact</b></p><p><b>relationship</b>: daughter <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v3-RoleCode.html\">RoleCode</a>#DAUC)</span></p><p><b>name</b>: Debra Johnson</p><p><b>telecom</b>: ph: (410) 444-5555</p><p><b>address</b>: 333 W. Camden St., Baltimore, MD 21201</p></blockquote><h3>Communications</h3><table class=\"grid\"><tr><td>-</td><td><b>Language</b></td><td><b>Preferred</b></td></tr><tr><td>*</td><td>English <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v3-ietf3066.html\">Tags for the Identification of Languages</a>#en)</span></td><td>true</td></tr></table><p><b>generalPractitioner</b>: <a href=\"pcp-John-Smith\">pcp-John-Smith</a></p></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-medicare",
+            "value": "10A3D58WH1600"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "text": "Betsy Smith-Johnson",
+            "family": "Smith-Johnson",
+            "given": [
+              "Betsy"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "210-222-1111",
+            "use": "mobile"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1950-11-01",
+        "address": [
+          {
+            "text": "111 Maple Ct, San Antonio, TX 78212"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "U"
+            }
+          ]
+        },
+        "contact": [
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                    "code": "SONC"
+                  }
+                ]
+              },
+              {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/v2/0131",
+                    "code": "C"
+                  }
+                ]
+              },
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                    "code": "GUARD"
+                  }
+                ]
+              }
+            ],
+            "name": {
+              "text": "Charles Johnson"
+            },
+            "telecom": [
+              {
+                "system": "phone",
+                "value": "(210) 222-3333"
+              }
+            ],
+            "address": {
+              "text": "100 Montana St., San Antonio, TX 78203"
+            }
+          },
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                    "code": "DAUC"
+                  }
+                ]
+              }
+            ],
+            "name": {
+              "text": "Debra Johnson"
+            },
+            "telecom": [
+              {
+                "system": "phone",
+                "value": "(410) 444-5555"
+              }
+            ],
+            "address": {
+              "text": "333 W. Camden St., Baltimore, MD 21201"
+            }
+          }
+        ],
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "system": "urn:ietf:bcp:47",
+                  "code": "en"
+                }
+              ]
+            },
+            "preferred": true
+          }
+        ],
+        "resourceType": "Patient"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Patient/BSJ-C0522-Incoherent"
+      }
+    }
+    ],
+  "resourceType": "Bundle"
+}
