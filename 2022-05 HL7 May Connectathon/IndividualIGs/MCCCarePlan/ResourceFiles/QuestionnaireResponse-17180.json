@@ -1,0 +1,70 @@
+{
+  "id": "17180",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2021-01-15T17:33:33.000+00:00",
+    "source": "#dDSpmU3mHPtFJNyH",
+    "profile": [
+      "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaireresponse|2.7"
+    ],
+    "tag": [
+      {
+        "code": "lformsVersion: 25.1.2"
+      }
+    ]
+  },
+  "questionnaire": "Questionnaire/loinc-75259-2",
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/cc-pat-pnoelle"
+  },
+  "authored": "2020-09-10T18:13:14.026Z",
+  "item": [
+    {
+      "linkId": "/75262-6",
+      "text": "In the past 7 days - How intense was your pain at its worst?",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA6752-5",
+            "display": "Mild"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "/75261-8",
+      "text": "In the past 7 days - How intense was your average pain?",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA6751-7",
+            "display": "Moderate"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "/75260-0",
+      "text": "What is your level of pain right now?",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA6752-5",
+            "display": "Mild"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "/77825-8",
+      "text": "PROMIS short form - pain intensity 3a - version 1.0 raw score",
+      "answer": [
+        {
+          "valueDecimal": 7
+        }
+      ]
+    }
+  ],
+  "resourceType": "QuestionnaireResponse"
+}

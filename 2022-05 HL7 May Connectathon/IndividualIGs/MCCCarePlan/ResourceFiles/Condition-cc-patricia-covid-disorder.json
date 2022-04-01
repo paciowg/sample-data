@@ -1,0 +1,56 @@
+{
+  "id": "cc-patricia-covid-disorder",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2021-05-13T21:09:29.000+00:00",
+    "source": "#YELQMVXNBh5tPST4"
+  },
+  "clinicalStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "code": "active",
+        "display": "Active"
+      }
+    ],
+    "text": "Active"
+  },
+  "verificationStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+        "code": "confirmed",
+        "display": "Confirmed"
+      }
+    ],
+    "text": "Confirmed"
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item",
+          "display": "Problem List Item"
+        }
+      ],
+      "text": "Problem"
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "840539006",
+        "display": "COVID-19 diagnosis"
+      }
+    ],
+    "text": "COVID-19 diagnosis"
+  },
+  "subject": {
+    "reference": "Patient/cc-pat-pnoelle",
+    "display": "Patricia Noelle"
+  },
+  "recordedDate": "2021-01-12",
+  "resourceType": "Condition"
+}

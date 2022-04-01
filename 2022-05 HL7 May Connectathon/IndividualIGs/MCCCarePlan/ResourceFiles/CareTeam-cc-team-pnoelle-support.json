@@ -1,0 +1,69 @@
+{
+  "id": "cc-team-pnoelle-support",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2021-03-09T20:27:31.000+00:00",
+    "source": "#Pyz314EAFFHid1DL"
+  },
+  "status": "active",
+  "name": "Support Services",
+  "subject": {
+    "reference": "Patient/cc-pat-pnoelle",
+    "display": "Patricia Noelle"
+  },
+  "participant": [
+    {
+      "role": [
+        {
+          "coding": [
+            {
+              "system": "http\n\t\t\t://snomed.info/sct",
+              "code": "106328005",
+              "display": "Social worker"
+            }
+          ],
+          "text": "Renal Social Worker"
+        }
+      ],
+      "member": {
+        "reference": "Practitioner/cc-prac-johnson-sam"
+      }
+    },
+    {
+      "role": [
+        {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "133932002",
+              "display": "Caregiver"
+            }
+          ],
+          "text": "Caregiver"
+        }
+      ],
+      "member": {
+        "reference": "RelatedPerson/cc-pat-pnoelle-related-daughter",
+        "display": "Daughter"
+      }
+    },
+    {
+      "role": [
+        {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "274272004",
+              "display": "Catering services occupation"
+            }
+          ],
+          "text": "Catering services"
+        }
+      ],
+      "member": {
+        "reference": "Organization/cc-org-meals-on-wheels"
+      }
+    }
+  ],
+  "resourceType": "CareTeam"
+}

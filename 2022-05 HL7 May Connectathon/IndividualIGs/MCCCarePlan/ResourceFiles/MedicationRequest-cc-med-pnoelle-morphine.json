@@ -1,0 +1,33 @@
+{
+  "id": "cc-med-pnoelle-morphine",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2020-09-18T20:30:35.000+00:00",
+    "source": "#QP64g9uAkiBFajfQ"
+  },
+  "status": "active",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "892660",
+        "display": "Morphine sulfate extended release 30 MG Oral Tablet"
+      }
+    ],
+    "text": "Morphine sulfate extended release 30 MG Oral Tablet"
+  },
+  "subject": {
+    "reference": "Patient/cc-pat-pnoelle"
+  },
+  "authoredOn": "2017-08-01",
+  "requester": {
+    "reference": "Practitioner/cc-prac-carlson-john",
+    "display": "John Carlson, MD"
+  },
+  "dosageInstruction": [
+    {
+      "text": "Take every 12 hours"
+    }
+  ],
+  "resourceType": "MedicationRequest"
+}

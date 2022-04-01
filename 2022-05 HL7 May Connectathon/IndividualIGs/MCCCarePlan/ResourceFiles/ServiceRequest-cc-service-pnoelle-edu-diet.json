@@ -1,0 +1,45 @@
+{
+  "id": "cc-service-pnoelle-edu-diet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2020-08-31T20:56:25.000+00:00",
+    "source": "#Tw5buXeihnrM8gCl"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Diet education</div>"
+  },
+  "status": "active",
+  "intent": "plan",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "11816003",
+        "display": "Diet education (procedure)"
+      }
+    ],
+    "text": "Diet counseling"
+  },
+  "subject": {
+    "reference": "Patient/cc-pat-pnoelle"
+  },
+  "requester": {
+    "reference": "Practitioner/cc-prac-carlson-john",
+    "display": "Dr. John Carlson, MD"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/cc-prac-gonzalez-maria"
+    }
+  ],
+  "reasonReference": [
+    {
+      "reference": "Condition/cc-cond-pnoelle-diabetes"
+    },
+    {
+      "reference": "Condition/cc-cond-pnoelle-ckd"
+    }
+  ],
+  "resourceType": "ServiceRequest"
+}

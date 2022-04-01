@@ -1,0 +1,49 @@
+{
+  "id": "loinc-72133-2",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2021-01-29T21:00:19.000+00:00",
+    "source": "#7ZMnGIpcDhXL93ex",
+    "profile": [
+      "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|2.7"
+    ],
+    "tag": [
+      {
+        "code": "lformsVersion: 28.1.1"
+      }
+    ]
+  },
+  "title": "Montreal Cognitive Assessment [MoCA]",
+  "status": "active",
+  "code": [
+    {
+      "code": "72133-2",
+      "display": "Montreal Cognitive Assessment [MoCA]"
+    }
+  ],
+  "item": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-unit",
+          "valueCoding": {
+            "system": "http://unitsofmeasure.org",
+            "code": "{score}",
+            "display": "{score}"
+          }
+        }
+      ],
+      "linkId": "/72172-0",
+      "code": [
+        {
+          "code": "72172-0",
+          "display": "MoCA"
+        }
+      ],
+      "text": "MoCA",
+      "type": "decimal",
+      "required": false
+    }
+  ],
+  "resourceType": "Questionnaire"
+}

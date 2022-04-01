@@ -1,0 +1,26 @@
+{
+  "id": "cc-qr-pnoelle-moca-2001",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2021-01-29T21:04:38.000+00:00",
+    "source": "#TQHhNvbyjCrKsO9A"
+  },
+  "questionnaire": "Questionnaire/loinc-72133-2",
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/cc-pat-pnoelle"
+  },
+  "authored": "2020-01-24T16:11:17.001Z",
+  "item": [
+    {
+      "linkId": "/72172-0",
+      "text": "MoCA",
+      "answer": [
+        {
+          "valueDecimal": 26.2
+        }
+      ]
+    }
+  ],
+  "resourceType": "QuestionnaireResponse"
+}

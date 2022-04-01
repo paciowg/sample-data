@@ -1,0 +1,60 @@
+{
+  "id": "cc-cond-pnoelle-chf",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2021-05-13T21:09:29.000+00:00",
+    "source": "#YELQMVXNBh5tPST4"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Congestive heart failure</div>"
+  },
+  "clinicalStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "code": "active"
+      }
+    ]
+  },
+  "verificationStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+        "code": "confirmed"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item",
+          "display": "Problem List Item"
+        }
+      ],
+      "text": "Problem"
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "42343007",
+        "display": "Congestive heart failure (disorder)"
+      }
+    ],
+    "text": "Congestive heart failure"
+  },
+  "subject": {
+    "reference": "Patient/cc-pat-pnoelle",
+    "display": "Patricia Noelle"
+  },
+  "recordedDate": "2015-10-02",
+  "asserter": {
+    "reference": "Practitioner/cc-prac-carlson-john",
+    "display": "Dr. John Carlson, MD"
+  },
+  "resourceType": "Condition"
+}

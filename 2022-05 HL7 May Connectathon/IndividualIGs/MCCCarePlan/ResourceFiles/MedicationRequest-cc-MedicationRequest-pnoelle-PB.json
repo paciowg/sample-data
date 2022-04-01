@@ -1,0 +1,47 @@
+{
+  "id": "cc-MedicationRequest-pnoelle-PB",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2020-09-11T13:37:37.000+00:00",
+    "source": "#Ow3JJQXwA6D625d1",
+    "profile": [
+      "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\t\t\t<p> Medication Request for Phosphate Binders.</p>\n\t\t</div>"
+  },
+  "status": "active",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "245133",
+        "display": "calcium acetate 1000 MG Oral Tablet"
+      }
+    ],
+    "text": "calcium acetate 1000 MG Oral Tablet"
+  },
+  "subject": {
+    "reference": "Patient/cc-pat-pnoelle",
+    "display": "Patricia Noelle"
+  },
+  "requester": {
+    "reference": "Practitioner/cc-prac-carlson-john",
+    "display": "John Carlson, MD"
+  },
+  "dosageInstruction": [
+    {
+      "text": "1 tablet bid",
+      "timing": {
+        "repeat": {
+          "boundsPeriod": {
+            "start": "2020-04-05"
+          }
+        }
+      }
+    }
+  ],
+  "resourceType": "MedicationRequest"
+}

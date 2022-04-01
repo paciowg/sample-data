@@ -1,0 +1,107 @@
+{
+  "id": "cc-qr-pnoelle-pain6b-1906",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2021-01-29T18:13:30.000+00:00",
+    "source": "#g8DPpPbkBkShGt5q"
+  },
+  "questionnaire": "Questionnaire/loinc-62193-8",
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/cc-pat-pnoelle"
+  },
+  "authored": "2019-06-03T16:11:17.001Z",
+  "item": [
+    {
+      "linkId": "/61794-4",
+      "text": "In the past 7 days - How much did pain interfere with your enjoyment of life?",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA13914-9",
+            "display": "Very much"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "/61758-9",
+      "text": "In the past 7 days - How much did pain interfere with your day to day activities?",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA13914-9",
+            "display": "Very much"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "/61757-1",
+      "text": "In the past 7 days - How much did pain interfere with your ability to concentrate?",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA13914-9",
+            "display": "Very much"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "/61759-7",
+      "text": "In the past 7 days - How much did pain interfere with your enjoyment of recreational activities?",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA13914-9",
+            "display": "Very much"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "/61763-9",
+      "text": "In the past 7 days - How much did pain interfere with doing your tasks away from home (e.g., getting groceries, running errands)?",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA13914-9",
+            "display": "Very much"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "/61771-2",
+      "text": "In the past 7 days - How often did pain keep you from socializing with others?",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA9933-8",
+            "display": "Always"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "/77833-2",
+      "text": "PROMIS short form - pain interference 6b - version 1.0 raw score",
+      "answer": [
+        {
+          "valueDecimal": 30
+        }
+      ]
+    },
+    {
+      "linkId": "/77865-4",
+      "text": "PROMIS pain interference - version 1.0 T-score",
+      "answer": [
+        {
+          "valueDecimal": 76
+        }
+      ]
+    }
+  ],
+  "resourceType": "QuestionnaireResponse"
+}

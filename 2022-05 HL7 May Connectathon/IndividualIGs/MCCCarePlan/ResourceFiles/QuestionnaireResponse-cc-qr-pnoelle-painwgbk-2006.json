@@ -1,0 +1,53 @@
+{
+  "id": "cc-qr-pnoelle-painwgbk-2006",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2021-01-29T20:29:22.000+00:00",
+    "source": "#OMr2X06HjNOm1lzc"
+  },
+  "questionnaire": "Questionnaire/loinc-38212-7",
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/cc-pat-pnoelle"
+  },
+  "authored": "2020-06-08T20:21:19.841Z",
+  "item": [
+    {
+      "linkId": "/80316-3",
+      "text": "Pain scale type",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA25257-9",
+            "display": "Wong-Baker FACES"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "/38221-8",
+      "text": "Pain severity Wong-Baker FACES Scale",
+      "answer": [
+        {
+          "valueString": "8"
+        }
+      ]
+    },
+    {
+      "linkId": "/38213-5",
+      "text": "FLACC Pain Assessment Pnl",
+      "item": [
+        {
+          "linkId": "/38213-5/38215-0",
+          "text": "Pain severity total Score FLACC",
+          "answer": [
+            {
+              "valueDecimal": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "resourceType": "QuestionnaireResponse"
+}

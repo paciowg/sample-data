@@ -1,0 +1,21 @@
+{
+  "id": "cc-med-pnoelle-centrum",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2020-09-08T18:49:58.000+00:00",
+    "source": "#mD3nvFpIQygdbSWY"
+  },
+  "status": "active",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "display": "Centrum Silver Tablets 150"
+      }
+    ],
+    "text": "Centrum Silver Tablets 150"
+  },
+  "subject": {
+    "reference": "Patient/cc-pat-pnoelle"
+  },
+  "resourceType": "MedicationStatement"
+}

@@ -1,0 +1,93 @@
+{
+  "id": "cc-careplan-pnoelle-ckd",
+  "meta": {
+    "versionId": "11",
+    "lastUpdated": "2020-09-11T14:28:45.000+00:00",
+    "source": "#Rv0cJmhd7vr9J2KZ"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Pat's CKD care plan</div>"
+  },
+  "status": "active",
+  "intent": "plan",
+  "title": "CKD Care Plan",
+  "description": "Care plan to slow progression of CKD and Type 2 Diabetes.",
+  "subject": {
+    "reference": "Patient/cc-pat-pnoelle"
+  },
+  "period": {
+    "start": "2018-06-01"
+  },
+  "author": {
+    "reference": "Practitioner/cc-prac-jones-vince",
+    "display": "Dr. Vince Jones, MD"
+  },
+  "careTeam": [
+    {
+      "reference": "CareTeam/cc-team-pnoelle"
+    }
+  ],
+  "addresses": [
+    {
+      "reference": "Condition/cc-cond-pnoelle-diabetes"
+    },
+    {
+      "reference": "Condition/cc-cond-pnoelle-ckd"
+    }
+  ],
+  "goal": [
+    {
+      "reference": "Goal/cc-goal-pnoelle-bp-systolic"
+    },
+    {
+      "reference": "Goal/cc-goal-pnoelle-lab-phos"
+    },
+    {
+      "reference": "Goal/cc-goal-pnoelle-a1c"
+    }
+  ],
+  "activity": [
+    {
+      "reference": {
+        "reference": "ServiceRequest/cc-service-pnoelle-edu-ckd"
+      }
+    },
+    {
+      "reference": {
+        "reference": "ServiceRequest/cc-service-pnoelle-edu-diet"
+      }
+    },
+    {
+      "reference": {
+        "reference": "ServiceRequest/cc-service-pnoelle-exercise"
+      }
+    },
+    {
+      "reference": {
+        "reference": "ServiceRequest/cc-BSeR-pnoelle-wgt"
+      }
+    },
+    {
+      "reference": {
+        "reference": "ServiceRequest/cc-service-pnoelle-steps"
+      }
+    },
+    {
+      "reference": {
+        "reference": "MedicationRequest/cc-MedicationRequest-pnoelle-PB"
+      }
+    },
+    {
+      "reference": {
+        "reference": "MedicationRequest/cc-med-pnoelle-vitamin-d"
+      }
+    },
+    {
+      "reference": {
+        "reference": "MedicationRequest/cc-med-pnoelle-insulin"
+      }
+    }
+  ],
+  "resourceType": "CarePlan"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "cc-proc-pnoelle-ed2",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2021-01-07T03:37:50.000+00:00",
+    "source": "#4vyIswpu9QhAEeKV"
+  },
+  "status": "completed",
+  "category": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "409073007",
+        "display": "Patient education (procedure)"
+      }
+    ],
+    "text": "Education"
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "438578000",
+        "display": "Dietary education for renal disorder"
+      }
+    ],
+    "text": "Dietary education for renal disorder"
+  },
+  "subject": {
+    "reference": "Patient/cc-pat-pnoelle"
+  },
+  "performedDateTime": "2017-09-12T00:00:00-07:00",
+  "performer": [
+    {
+      "function": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "11911009",
+            "display": "Nephrologist"
+          }
+        ],
+        "text": "Nephrologist"
+      },
+      "actor": {
+        "reference": "Practitioner/cc-prac-jones-vince"
+      }
+    }
+  ],
+  "reasonReference": [
+    {
+      "reference": "Condition/cc-cond-pnoelle-ckd"
+    }
+  ],
+  "outcome": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385669000",
+        "display": "Successful"
+      }
+    ],
+    "text": "Sucessful"
+  },
+  "resourceType": "Procedure"
+}

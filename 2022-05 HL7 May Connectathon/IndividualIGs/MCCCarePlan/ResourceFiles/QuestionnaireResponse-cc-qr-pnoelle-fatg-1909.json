@@ -1,0 +1,119 @@
+{
+  "id": "cc-qr-pnoelle-fatg-1909",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2021-01-29T21:43:15.000+00:00",
+    "source": "#rNGza31p0Yl7wIbO"
+  },
+  "questionnaire": "Questionnaire/loinc-62192-0",
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/cc-pat-pnoelle"
+  },
+  "authored": "2019-09-13T20:21:19.841Z",
+  "item": [
+    {
+      "linkId": "/61852-0",
+      "text": "In the past 7 days - How often do you feel tired?",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA9933-8",
+            "display": "Always"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "/61844-7",
+      "text": "In the past 7 days - How often did you experience extreme exhaustion?",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA9933-8",
+            "display": "Always"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "/61850-4",
+      "text": "In the past 7 days - How often did you run out of energy?",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA9933-8",
+            "display": "Always"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "/61823-1",
+      "text": "In the past 7 days - How often did your fatigue limit you at work (include work at home)?",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA10044-8",
+            "display": "Often"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "/61822-3",
+      "text": "In the past 7 days - How often were you too tired to think clearly?",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA9933-8",
+            "display": "Always"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "/61814-0",
+      "text": "In the past 7 days - How often were you too tired to take a bath or shower?",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA10044-8",
+            "display": "Often"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "/61829-8",
+      "text": "In the past 7 days - How often did you have enough energy to exercise strenuously?",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA10044-8",
+            "display": "Often"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "/77834-0",
+      "text": "PROMIS short form - fatigue 7a - version 1.0 raw score",
+      "answer": [
+        {
+          "valueDecimal": 30
+        }
+      ]
+    },
+    {
+      "linkId": "/77864-7",
+      "text": "PROMIS fatigue - version 1.0 T-score",
+      "answer": [
+        {
+          "valueDecimal": 70
+        }
+      ]
+    }
+  ],
+  "resourceType": "QuestionnaireResponse"
+}

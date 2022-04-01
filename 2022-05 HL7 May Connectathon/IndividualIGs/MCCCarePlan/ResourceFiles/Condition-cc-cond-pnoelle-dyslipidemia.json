@@ -1,0 +1,69 @@
+{
+  "id": "cc-cond-pnoelle-dyslipidemia",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2021-05-13T21:09:29.000+00:00",
+    "source": "#YELQMVXNBh5tPST4"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Peripheral vascular disease</div>"
+  },
+  "clinicalStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "code": "active"
+      }
+    ]
+  },
+  "verificationStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+        "code": "confirmed"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item",
+          "display": "Problem List Item"
+        }
+      ],
+      "text": "Problem"
+    }
+  ],
+  "severity": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "255604002",
+        "display": "Mild"
+      }
+    ],
+    "text": "Mild"
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "400047006",
+        "display": "Peripheral vascular disease (disorder)"
+      }
+    ],
+    "text": "Peripheral vascular disease"
+  },
+  "subject": {
+    "reference": "Patient/cc-pat-pnoelle",
+    "display": "Patricia Noelle"
+  },
+  "asserter": {
+    "reference": "Practitioner/cc-prac-carlson-john",
+    "display": "Dr. John Carlson, MD"
+  },
+  "resourceType": "Condition"
+}

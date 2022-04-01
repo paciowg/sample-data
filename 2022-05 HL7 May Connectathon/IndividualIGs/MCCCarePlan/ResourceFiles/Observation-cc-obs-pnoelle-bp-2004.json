@@ -1,0 +1,89 @@
+{
+  "id": "cc-obs-pnoelle-bp-2004",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2021-01-13T18:00:54.000+00:00",
+    "source": "#FLebPy26P2LUMTGG"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Blood pressure</div>"
+  },
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs"
+        }
+      ],
+      "text": "Vital Signs"
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "85354-9",
+        "display": "Blood pressure panel with all children optional"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/cc-pat-pnoelle"
+  },
+  "effectiveDateTime": "2020-04-30",
+  "performer": [
+    {
+      "reference": "Practitioner/cc-prac-carlson-john",
+      "display": "Dr. John Carlson, MD"
+    }
+  ],
+  "bodySite": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "368209003",
+        "display": "Right arm"
+      }
+    ]
+  },
+  "component": [
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "8480-6",
+            "display": "Systolic blood pressure"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "value": 142,
+        "unit": "mmHg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mm[Hg]"
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "8462-4",
+            "display": "Diastolic blood pressure"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "value": 84,
+        "unit": "mmHg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mm[Hg]"
+      }
+    }
+  ],
+  "resourceType": "Observation"
+}

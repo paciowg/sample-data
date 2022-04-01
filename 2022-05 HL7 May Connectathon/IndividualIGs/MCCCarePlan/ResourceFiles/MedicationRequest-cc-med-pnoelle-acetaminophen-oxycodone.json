@@ -1,0 +1,33 @@
+{
+  "id": "cc-med-pnoelle-acetaminophen-oxycodone",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2020-09-18T20:30:35.000+00:00",
+    "source": "#QP64g9uAkiBFajfQ"
+  },
+  "status": "active",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "1049221",
+        "display": "Acetaminophen 325 MG / Oxycodone Hydrochloride 5 MG Oral Tablet"
+      }
+    ],
+    "text": "Acetaminophen 325 MG / Oxycodone Hydrochloride 5 MG Oral Tablet"
+  },
+  "subject": {
+    "reference": "Patient/cc-pat-pnoelle"
+  },
+  "authoredOn": "2017-08-01",
+  "requester": {
+    "reference": "Practitioner/cc-prac-carlson-john",
+    "display": "John Carlson, MD"
+  },
+  "dosageInstruction": [
+    {
+      "text": "1-2 tabs by mouth every six hours as needed for breakthrough pain"
+    }
+  ],
+  "resourceType": "MedicationRequest"
+}

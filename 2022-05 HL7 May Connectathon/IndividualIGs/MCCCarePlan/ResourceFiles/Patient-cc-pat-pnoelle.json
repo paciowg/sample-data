@@ -1,0 +1,134 @@
+{
+  "id": "cc-pat-pnoelle",
+  "meta": {
+    "versionId": "9",
+    "lastUpdated": "2022-02-08T19:55:14.000+00:00",
+    "source": "#fphVfjWJeFHBIoqy"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Patricia Noelle</div>"
+  },
+  "extension": [
+    {
+      "extension": [
+        {
+          "url": "ombCategory",
+          "valueCoding": {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "code": "2106-3",
+            "display": "White"
+          }
+        },
+        {
+          "url": "text",
+          "valueString": "White"
+        }
+      ],
+      "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+    },
+    {
+      "extension": [
+        {
+          "url": "ombCategory",
+          "valueCoding": {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "code": "2186-5",
+            "display": "Not Hispanic or Latino"
+          }
+        },
+        {
+          "url": "text",
+          "valueString": "Not Hispanic or Latino"
+        }
+      ],
+      "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+    },
+    {
+      "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+      "valueCode": "F"
+    }
+  ],
+  "identifier": [
+    {
+      "system": "http://www.demohospital.org/identifiers/test",
+      "value": "demo900"
+    },
+    {
+      "use": "usual",
+      "system": "http://sample.agency.gov/fhir/NamingSystem/identifier",
+      "value": "ID-900"
+    }
+  ],
+  "name": [
+    {
+      "use": "official",
+      "text": "Patricia Noelle",
+      "family": "Noelle",
+      "given": [
+        "Patricia"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "555-555-2003",
+      "use": "mobile"
+    },
+    {
+      "system": "email",
+      "value": "patricia.z.noelle@woohoo.com"
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1954-10-17",
+  "address": [
+    {
+      "use": "old",
+      "line": [
+        "16 Grove St."
+      ],
+      "city": "Springfield",
+      "state": "IL",
+      "postalCode": "62707",
+      "country": "USA",
+      "period": {
+        "end": "2017-10-14"
+      }
+    },
+    {
+      "use": "home",
+      "line": [
+        "1654 3rd St."
+      ],
+      "city": "Springfield",
+      "state": "IL",
+      "postalCode": "62707",
+      "country": "USA",
+      "period": {
+        "start": "2017-10-14"
+      }
+    },
+    {
+      "use": "home",
+      "line": [
+        "7247 Main St."
+      ],
+      "city": "Springfield",
+      "state": "IL",
+      "postalCode": "62707",
+      "country": "USA",
+      "period": {
+        "start": "2019-10-14"
+      }
+    }
+  ],
+  "generalPractitioner": [
+    {
+      "reference": "Practitioner/cc-prac-carlson-john",
+      "display": "Dr. John Carlson, MD"
+    }
+  ],
+  "resourceType": "Patient"
+}

@@ -1,0 +1,67 @@
+{
+  "id": "cc-proc-pnoelle-coun1",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2021-01-07T03:44:01.000+00:00",
+    "source": "#vfT6gsnUU9dEBR1L"
+  },
+  "status": "completed",
+  "category": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "409063005",
+        "display": "Counselling (procedure)"
+      }
+    ],
+    "text": "Counselling"
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "424753004",
+        "display": "Dietary management education, guidance, and counseling"
+      }
+    ],
+    "text": "Dietary management education, guidance, and counseling"
+  },
+  "subject": {
+    "reference": "Patient/cc-pat-pnoelle"
+  },
+  "performedDateTime": "2017-05-03T00:00:00-07:00",
+  "performer": [
+    {
+      "function": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "309413008",
+            "display": "Renal dietitian"
+          }
+        ],
+        "text": "Renal dietitian"
+      },
+      "actor": {
+        "reference": "Practitioner/cc-prac-gonzalez-maria"
+      }
+    }
+  ],
+  "reasonReference": [
+    {
+      "reference": "Condition/cc-cond-pnoelle-ckd",
+      "display": "CKD & Type 2 Diabetes"
+    }
+  ],
+  "outcome": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385669000",
+        "display": "Successful"
+      }
+    ],
+    "text": "Sucessful"
+  },
+  "resourceType": "Procedure"
+}

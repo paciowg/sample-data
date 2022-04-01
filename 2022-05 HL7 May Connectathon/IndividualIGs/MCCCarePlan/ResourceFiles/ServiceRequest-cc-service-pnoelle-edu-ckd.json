@@ -1,0 +1,43 @@
+{
+  "id": "cc-service-pnoelle-edu-ckd",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2020-08-31T20:56:25.000+00:00",
+    "source": "#Tw5buXeihnrM8gCl"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Education on CKD management</div>"
+  },
+  "status": "active",
+  "intent": "plan",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "408982008",
+        "display": "Renal care education (procedure)"
+      }
+    ],
+    "text": "Education on CKD management"
+  },
+  "subject": {
+    "reference": "Patient/cc-pat-pnoelle"
+  },
+  "authoredOn": "2018-02-20",
+  "requester": {
+    "reference": "Practitioner/cc-prac-jones-vince",
+    "display": "Dr. Vince Jones, MD"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/cc-prac-smith-julie"
+    }
+  ],
+  "reasonReference": [
+    {
+      "reference": "Condition/cc-cond-pnoelle-ckd"
+    }
+  ],
+  "resourceType": "ServiceRequest"
+}

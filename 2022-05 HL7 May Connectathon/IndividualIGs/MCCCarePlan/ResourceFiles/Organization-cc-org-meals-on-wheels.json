@@ -1,0 +1,35 @@
+{
+  "id": "cc-org-meals-on-wheels",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2020-04-08T20:25:38.000+00:00"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Meals on Wheels organization</div>"
+  },
+  "name": "Meals on Wheels",
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "(+1) 800-555-1212"
+    },
+    {
+      "system": "fax",
+      "value": "(+1) 888-555-1212"
+    },
+    {
+      "system": "email",
+      "value": "meals-on-wheels@woohoo.com"
+    }
+  ],
+  "address": [
+    {
+      "city": "Ann Arbor",
+      "state": "MI",
+      "postalCode": "48104",
+      "country": "USA"
+    }
+  ],
+  "resourceType": "Organization"
+}

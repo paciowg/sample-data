@@ -1,0 +1,70 @@
+{
+  "id": "cc-med-pnoelle-insulin",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2020-09-18T20:30:35.000+00:00",
+    "source": "#QP64g9uAkiBFajfQ",
+    "profile": [
+      "http://hl7.org/fhir/3.0/us/core/StructureDefinition/us-core-medicationrequest"
+    ]
+  },
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Insulin human, isophane 70 UNT/ML / Regular Insulin, Human 30 UNT/ML Injectable Suspension</div>"
+  },
+  "status": "active",
+  "intent": "order",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "311048",
+        "display": "Insulin, human Mixed 70/30 100 UNT/ML Injectable Suspension"
+      }
+    ],
+    "text": "Insulin, human Mixed 70/30 100 UNT/ML Injectable Suspension"
+  },
+  "subject": {
+    "reference": "Patient/cc-pat-pnoelle",
+    "display": "Patricia Noelle"
+  },
+  "authoredOn": "2017-12-01",
+  "requester": {
+    "reference": "Practitioner/cc-prac-carlson-john",
+    "display": "Dr. John Carlson, MD"
+  },
+  "reasonReference": [
+    {
+      "reference": "Condition/cc-cond-pnoelle-ckd"
+    }
+  ],
+  "dosageInstruction": [
+    {
+      "timing": {
+        "repeat": {
+          "frequency": 2,
+          "period": 1,
+          "periodUnit": "d"
+        }
+      },
+      "doseAndRate": [
+        {
+          "type": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/dose-rate-type",
+                "code": "ordered",
+                "display": "Ordered"
+              }
+            ]
+          },
+          "doseQuantity": {
+            "value": 45,
+            "unit": "units"
+          }
+        }
+      ]
+    }
+  ],
+  "resourceType": "MedicationRequest"
+}

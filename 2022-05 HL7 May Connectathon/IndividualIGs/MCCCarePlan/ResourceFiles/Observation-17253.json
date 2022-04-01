@@ -1,0 +1,48 @@
+{
+  "id": "17253",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2021-02-04T23:27:20.000+00:00",
+    "source": "#o30z1G7ncstU0wUm"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">UACR</div>"
+  },
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory"
+        }
+      ],
+      "text": "Laboratory"
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "70960-0",
+        "display": "Kt/V.Peritoneal Dialysis"
+      }
+    ],
+    "text": "Kt/V.Peritoneal Dialysis"
+  },
+  "subject": {
+    "reference": "Patient/cc-pat-pnoelle"
+  },
+  "effectiveDateTime": "2020-06-08",
+  "performer": [
+    {
+      "reference": "Practitioner/cc-prac-carlson-john",
+      "display": "Dr. John Carlson, MD"
+    }
+  ],
+  "valueQuantity": {
+    "value": 1.4
+  },
+  "resourceType": "Observation"
+}

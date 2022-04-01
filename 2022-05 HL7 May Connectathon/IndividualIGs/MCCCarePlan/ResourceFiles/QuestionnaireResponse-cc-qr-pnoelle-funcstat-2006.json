@@ -1,0 +1,155 @@
+{
+  "id": "cc-qr-pnoelle-funcstat-2006",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2021-01-29T21:17:55.000+00:00",
+    "source": "#cZA5TRgB1T8G2xej"
+  },
+  "questionnaire": "Questionnaire/lonic-62199-5",
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/cc-pat-pnoelle"
+  },
+  "authored": "2020-06-08T21:11:18.870Z",
+  "item": [
+    {
+      "linkId": "/61588-0",
+      "text": "Does your health now limit you in doing vigorous activities, such as running, lifting heavy objects, participating in strenuous sports?",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA13909-9",
+            "display": "Somewhat"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "/61698-7",
+      "text": "Does your health now limit you in climbing one flight of stairs?",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA13947-9",
+            "display": "Very little"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "/61697-9",
+      "text": "Does your health now limit you in walking more than a mile?",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA13909-9",
+            "display": "Somewhat"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "/61591-4",
+      "text": "Does your health now limit you in lifting or carrying groceries?",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA13909-9",
+            "display": "Somewhat"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "/61589-8",
+      "text": "Does your health now limit you in bending, kneeling, or stooping?",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA13947-9",
+            "display": "Very little"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "/61597-1",
+      "text": "Are you able to do chores such as vacuuming or yard work?",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA13920-6",
+            "display": "With some difficulty"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "/61602-9",
+      "text": "Are you able to dress yourself, including tying shoelaces and doing buttons?",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA13920-6",
+            "display": "With some difficulty"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "/61661-5",
+      "text": "Are you able to shampoo your hair?",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA13920-6",
+            "display": "With some difficulty"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "/61637-5",
+      "text": "Are you able to wash and dry your body?",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA13920-6",
+            "display": "With some difficulty"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "/61704-3",
+      "text": "Are you able to get on and off the toilet?",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA13920-6",
+            "display": "With some difficulty"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "/77827-4",
+      "text": "PROMIS short form - physical function 10a - version 1.0 raw score",
+      "answer": [
+        {
+          "valueDecimal": 32
+        }
+      ]
+    },
+    {
+      "linkId": "/77866-2",
+      "text": "PROMIS physical function - version 1.0 T-score",
+      "answer": [
+        {
+          "valueDecimal": 32
+        }
+      ]
+    }
+  ],
+  "resourceType": "QuestionnaireResponse"
+}

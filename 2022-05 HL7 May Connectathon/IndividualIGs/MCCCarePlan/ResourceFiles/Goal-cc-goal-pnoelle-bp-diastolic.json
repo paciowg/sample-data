@@ -1,0 +1,63 @@
+{
+  "id": "cc-goal-pnoelle-bp-diastolic",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2020-09-04T18:09:22.000+00:00",
+    "source": "#nOPds5TA32wqSCEm"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Diastolic BP below 80</div>"
+  },
+  "lifecycleStatus": "active",
+  "achievementStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/goal-achievement",
+        "code": "in-progress",
+        "display": "In Progress"
+      }
+    ],
+    "text": "In Progress"
+  },
+  "description": {
+    "text": "Diastolic blood pressure"
+  },
+  "subject": {
+    "reference": "Patient/cc-pat-pnoelle"
+  },
+  "startDate": "2019-01-12",
+  "target": [
+    {
+      "measure": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "8462-4",
+            "display": "Diastolic blood pressure"
+          }
+        ],
+        "text": "Diastolic blood pressure"
+      },
+      "detailQuantity": {
+        "value": 80,
+        "comparator": "<",
+        "unit": "mmHg",
+        "system": "http://unitsofmeasure.org",
+        "code": "mm[Hg]"
+      },
+      "dueDate": "2019-09-22"
+    }
+  ],
+  "expressedBy": {
+    "reference": "Practitioner/cc-prac-carlson-john",
+    "display": "Dr. John Carlson, MD"
+  },
+  "addresses": [
+    {
+      "reference": "Condition/cc-cond-pnoelle-ckd",
+      "display": "Chronic kidney disease"
+    }
+  ],
+  "resourceType": "Goal"
+}

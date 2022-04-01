@@ -1,0 +1,147 @@
+{
+  "id": "cc-careplan-pnoelle-personal",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2020-08-31T21:42:34.000+00:00",
+    "source": "#LjvmFBbpiZAPo7Hf"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Pat's personal care plan</div>"
+  },
+  "status": "active",
+  "intent": "plan",
+  "title": "Personal Care Plan",
+  "description": "Plan for Pat's self-care at home.",
+  "subject": {
+    "reference": "Patient/cc-pat-pnoelle"
+  },
+  "period": {
+    "start": "2019-01-01",
+    "end": "2019-12-31"
+  },
+  "author": {
+    "reference": "Practitioner/cc-prac-carlson-john",
+    "display": "Dr. John Carlson, MD"
+  },
+  "careTeam": [
+    {
+      "reference": "CareTeam/cc-team-pnoelle-support"
+    }
+  ],
+  "addresses": [
+    {
+      "reference": "Condition/cc-cond-pnoelle-diabetes"
+    },
+    {
+      "reference": "Condition/cc-cond-pnoelle-depression"
+    },
+    {
+      "reference": "Condition/cc-cond-pnoelle-transportation"
+    }
+  ],
+  "goal": [
+    {
+      "reference": "Goal/cc-goal-pnoelle-exercise"
+    }
+  ],
+  "activity": [
+    {
+      "detail": {
+        "kind": "ServiceRequest",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body weight"
+            }
+          ]
+        },
+        "status": "in-progress",
+        "scheduledTiming": {
+          "repeat": {
+            "boundsPeriod": {
+              "start": "2018-08-30",
+              "end": "2019-12-31"
+            },
+            "frequency": 1,
+            "period": 1,
+            "periodUnit": "d"
+          }
+        },
+        "performer": [
+          {
+            "reference": "Patient/cc-pat-pnoelle"
+          }
+        ],
+        "description": "Record your weight each morning before breakfast."
+      }
+    },
+    {
+      "detail": {
+        "kind": "ServiceRequest",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "55284-4",
+              "display": "Blood pressure systolic and diastolic"
+            }
+          ]
+        },
+        "status": "in-progress",
+        "scheduledTiming": {
+          "repeat": {
+            "boundsPeriod": {
+              "start": "2018-08-30",
+              "end": "2019-12-31"
+            },
+            "frequency": 2,
+            "period": 1,
+            "periodUnit": "d"
+          }
+        },
+        "performer": [
+          {
+            "reference": "Patient/cc-pat-pnoelle"
+          }
+        ],
+        "description": "Record your blood pressure twice per day, morning and evening."
+      }
+    },
+    {
+      "detail": {
+        "kind": "ServiceRequest",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2339-0",
+              "display": "Glucose [Mass/volume] in Blood"
+            }
+          ]
+        },
+        "status": "in-progress",
+        "scheduledTiming": {
+          "repeat": {
+            "boundsPeriod": {
+              "start": "2018-08-30",
+              "end": "2019-12-31"
+            },
+            "frequency": 2,
+            "period": 1,
+            "periodUnit": "d"
+          }
+        },
+        "performer": [
+          {
+            "reference": "Patient/cc-pat-pnoelle"
+          }
+        ],
+        "description": "Record your blood glucose twice per day, after breakfast and dinner."
+      }
+    }
+  ],
+  "resourceType": "CarePlan"
+}

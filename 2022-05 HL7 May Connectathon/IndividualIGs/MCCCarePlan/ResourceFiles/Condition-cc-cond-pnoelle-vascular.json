@@ -1,0 +1,73 @@
+{
+  "id": "cc-cond-pnoelle-vascular",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2020-08-31T18:46:08.000+00:00",
+    "source": "#In63Uo46d0Xb2g4M",
+    "profile": [
+      "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Peripheral vascular disease</div>"
+  },
+  "clinicalStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "code": "active"
+      }
+    ]
+  },
+  "verificationStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+        "code": "confirmed"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item",
+          "display": "Problem List Item"
+        }
+      ],
+      "text": "Problem"
+    }
+  ],
+  "severity": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "255604002",
+        "display": "Mild"
+      }
+    ],
+    "text": "Mild"
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "400047006",
+        "display": "Peripheral vascular disease (disorder)"
+      }
+    ],
+    "text": "Peripheral vascular disease"
+  },
+  "subject": {
+    "reference": "Patient/cc-pat-pnoelle",
+    "display": "Patricia Noelle"
+  },
+  "onsetDateTime": "2014-08-20",
+  "asserter": {
+    "reference": "Practitioner/cc-prac-carlson-john",
+    "display": "Dr. John Carlson, MD"
+  },
+  "resourceType": "Condition"
+}

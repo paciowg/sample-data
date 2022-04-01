@@ -1,0 +1,73 @@
+{
+  "id": "cc-proc-pnoelle-ed1",
+  "meta": {
+    "versionId": "6",
+    "lastUpdated": "2021-01-07T03:28:03.000+00:00",
+    "source": "#PhtAhITtGphd7COK"
+  },
+  "status": "completed",
+  "category": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "409073007",
+        "display": "Patient education (procedure)"
+      }
+    ],
+    "text": "Education"
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "438578000",
+        "display": "Dietary education for renal disorder"
+      }
+    ],
+    "text": "Dietary education for renal disorder"
+  },
+  "subject": {
+    "reference": "Patient/cc-pat-pnoelle"
+  },
+  "performedDateTime": "2017-02-15T00:00:00-07:00",
+  "performer": [
+    {
+      "function": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "446050000",
+            "display": "PCP - Primary care physician"
+          }
+        ],
+        "text": "PCP - Primary care physician"
+      },
+      "actor": {
+        "reference": "Practitioner/cc-prac-carlson-john"
+      }
+    }
+  ],
+  "reasonCode": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "709044004",
+          "display": "Chronic kidney disease (disorder)"
+        }
+      ],
+      "text": "Chronic kidney disease"
+    }
+  ],
+  "outcome": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385670004",
+        "display": "Partially successful"
+      }
+    ],
+    "text": "Partially sucessful"
+  },
+  "resourceType": "Procedure"
+}

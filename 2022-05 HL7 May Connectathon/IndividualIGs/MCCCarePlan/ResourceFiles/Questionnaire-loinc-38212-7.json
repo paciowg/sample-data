@@ -1,0 +1,1197 @@
+{
+  "id": "loinc-38212-7",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2021-01-29T20:29:05.000+00:00",
+    "source": "#Hk8z3m6NeJGfpdAI",
+    "profile": [
+      "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|2.7"
+    ],
+    "tag": [
+      {
+        "code": "lformsVersion: 28.1.1"
+      }
+    ]
+  },
+  "title": "Pain assessment panel",
+  "status": "draft",
+  "code": [
+    {
+      "code": "38212-7",
+      "display": "Pain assessment panel"
+    }
+  ],
+  "item": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "drop-down",
+                "display": "Drop down"
+              }
+            ],
+            "text": "Drop down"
+          }
+        }
+      ],
+      "linkId": "/80316-3",
+      "code": [
+        {
+          "code": "80316-3",
+          "display": "Pain scale type"
+        }
+      ],
+      "text": "Pain scale type",
+      "type": "choice",
+      "required": false,
+      "answerOption": [
+        {
+          "valueCoding": {
+            "code": "LA25254-6",
+            "display": "Reported"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA25253-8",
+            "display": "Pain severity 0-10"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA25255-3",
+            "display": "FLACC"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA25256-1",
+            "display": "Neonatal faces"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA25257-9",
+            "display": "Wong-Baker FACES"
+          }
+        }
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "drop-down",
+                "display": "Drop down"
+              }
+            ],
+            "text": "Drop down"
+          }
+        }
+      ],
+      "linkId": "/32419-4",
+      "code": [
+        {
+          "code": "32419-4",
+          "display": "Pain quality"
+        }
+      ],
+      "text": "Pain quality",
+      "type": "choice",
+      "required": false,
+      "answerOption": [
+        {
+          "valueCoding": {
+            "code": "LA27491-2",
+            "display": "Ache"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA25279-3",
+            "display": "Burning"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA27492-0",
+            "display": "Cramping"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA27493-8",
+            "display": "Crushing pain"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA12709-4",
+            "display": "Dull"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA24760-3",
+            "display": "Intermittent"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA27496-1",
+            "display": "Phantom limb"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA27497-9",
+            "display": "Piercing"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA27498-7",
+            "display": "Pressure"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA27499-5",
+            "display": "Pruritus"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA12708-6",
+            "display": "Sharp"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA27501-8",
+            "display": "Shock-like electrical pain"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA27502-6",
+            "display": "Stabbing"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA27503-4",
+            "display": "Tearing pain"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA27505-9",
+            "display": "Throbbing"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "/38201-0",
+      "code": [
+        {
+          "code": "38201-0",
+          "display": "Pain onset Reported"
+        }
+      ],
+      "text": "Pain onset Reported",
+      "type": "string",
+      "required": false
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-unit",
+          "valueCoding": {
+            "system": "http://unitsofmeasure.org",
+            "code": "h",
+            "display": "h"
+          }
+        }
+      ],
+      "linkId": "/38202-8",
+      "code": [
+        {
+          "code": "38202-8",
+          "display": "Pain onset.hours ago"
+        }
+      ],
+      "text": "Pain onset.hours ago",
+      "type": "decimal",
+      "required": false
+    },
+    {
+      "linkId": "/38203-6",
+      "code": [
+        {
+          "code": "38203-6",
+          "display": "Speed of pain onset Reported"
+        }
+      ],
+      "text": "Speed of pain onset Reported",
+      "type": "string",
+      "required": false
+    },
+    {
+      "linkId": "/38204-4",
+      "code": [
+        {
+          "code": "38204-4",
+          "display": "Pain primary location Reported"
+        }
+      ],
+      "text": "Pain primary location Reported",
+      "type": "string",
+      "required": false
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "drop-down",
+                "display": "Drop down"
+              }
+            ],
+            "text": "Drop down"
+          }
+        }
+      ],
+      "linkId": "/39111-0",
+      "code": [
+        {
+          "code": "39111-0",
+          "display": "Bdy site"
+        }
+      ],
+      "text": "Bdy site",
+      "type": "choice",
+      "required": false,
+      "answerOption": [
+        {
+          "valueCoding": {
+            "code": "LA12706-0",
+            "display": "Abdomen"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA29192-4",
+            "display": "Upper Extremity-Left"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA29191-6",
+            "display": "Upper Extremity-Right"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA24413-9",
+            "display": "Lower Extremity-Left"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA24414-7",
+            "display": "Lower Extremity-Right"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA18111-7",
+            "display": "Chest"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA18116-6",
+            "display": "Head"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA16744-7",
+            "display": "Pelvis"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA4476-3",
+            "display": "Stomach"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA18788-2",
+            "display": "Eye-left"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA18789-0",
+            "display": "Eye-right"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA4584-4",
+            "display": "Liver"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA4654-5",
+            "display": "Pancreas"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA4591-9",
+            "display": "Kidney"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA4255-1",
+            "display": "Breast"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA4340-1",
+            "display": "Spine"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA4331-0",
+            "display": "Skull"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "/38205-1",
+      "code": [
+        {
+          "code": "38205-1",
+          "display": "Pain radiation"
+        }
+      ],
+      "text": "Pain radiation",
+      "type": "string",
+      "required": false,
+      "item": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/questionnaire-item-control",
+                    "code": "help",
+                    "display": "Help-Button"
+                  }
+                ],
+                "text": "Help-Button"
+              }
+            }
+          ],
+          "linkId": "/38205-1-help",
+          "text": "Pattern spreading from focus to other sites, how pain moves.",
+          "type": "display"
+        }
+      ]
+    },
+    {
+      "linkId": "/38206-9",
+      "code": [
+        {
+          "code": "38206-9",
+          "display": "Pain temporal pattern Reported"
+        }
+      ],
+      "text": "Pain temporal pattern Reported",
+      "type": "string",
+      "required": false
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-unitOption",
+          "valueCoding": {
+            "system": "http://unitsofmeasure.org",
+            "code": "d",
+            "display": "d"
+          }
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-unitOption",
+          "valueCoding": {
+            "system": "http://unitsofmeasure.org",
+            "code": "h",
+            "display": "h"
+          }
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-unitOption",
+          "valueCoding": {
+            "system": "http://unitsofmeasure.org",
+            "code": "min",
+            "display": "min"
+          }
+        }
+      ],
+      "linkId": "/38207-7",
+      "code": [
+        {
+          "code": "38207-7",
+          "display": "Pain duration Reported"
+        }
+      ],
+      "text": "Pain duration Reported",
+      "type": "quantity",
+      "required": false
+    },
+    {
+      "linkId": "/38208-5",
+      "code": [
+        {
+          "code": "38208-5",
+          "display": "Pain severity Reported"
+        }
+      ],
+      "text": "Pain severity Reported",
+      "type": "string",
+      "required": false
+    },
+    {
+      "linkId": "/38209-3",
+      "code": [
+        {
+          "code": "38209-3",
+          "display": "Pain exacerbating factors Reported"
+        }
+      ],
+      "text": "Pain exacerbating factors Reported",
+      "type": "string",
+      "required": false
+    },
+    {
+      "linkId": "/38210-1",
+      "code": [
+        {
+          "code": "38210-1",
+          "display": "Pain alleviating factors Reported"
+        }
+      ],
+      "text": "Pain alleviating factors Reported",
+      "type": "string",
+      "required": false
+    },
+    {
+      "linkId": "/38211-9",
+      "code": [
+        {
+          "code": "38211-9",
+          "display": "Pain initiating event Reported"
+        }
+      ],
+      "text": "Pain initiating event Reported",
+      "type": "string",
+      "required": false
+    },
+    {
+      "linkId": "/38221-8",
+      "code": [
+        {
+          "code": "38221-8",
+          "display": "Pain severity Wong-Baker FACES Scale"
+        }
+      ],
+      "text": "Pain severity Wong-Baker FACES Scale",
+      "type": "string",
+      "required": false,
+      "item": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/questionnaire-item-control",
+                    "code": "help",
+                    "display": "Help-Button"
+                  }
+                ],
+                "text": "Help-Button"
+              }
+            }
+          ],
+          "linkId": "/38221-8-help",
+          "text": "The Wong-Baker FACES Pain Rating Scale is a pain scale that was developed by Donna Wong and Connie Baker. The scale shows a series of faces ranging from a happy face at 0, \"No hurt\" to a crying face at 10 \"Hurts worst\". The patient must choose the face that best describes how they are feeling.- Wikipedia",
+          "type": "display"
+        }
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "drop-down",
+                "display": "Drop down"
+              }
+            ],
+            "text": "Drop down"
+          }
+        }
+      ],
+      "linkId": "/80340-3",
+      "code": [
+        {
+          "code": "80340-3",
+          "display": "Nonpharm pain intervention"
+        }
+      ],
+      "text": "Nonpharm pain intervention",
+      "type": "choice",
+      "required": false,
+      "answerOption": [
+        {
+          "valueCoding": {
+            "code": "LA25338-7",
+            "display": "Massage"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA25339-5",
+            "display": "Aromatherapy"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA25340-3",
+            "display": "Heat therapy"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA25341-1",
+            "display": "Cold therapy"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA25342-9",
+            "display": "Birthing ball"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA25343-7",
+            "display": "Aqua K Pad"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA19765-9",
+            "display": "Brace"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA25345-2",
+            "display": "Corset"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA25346-0",
+            "display": "Breathing"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA25347-8",
+            "display": "Decreased Environmental Stimuli"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA25348-6",
+            "display": "Distraction"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA25349-4",
+            "display": "Elevation"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA22651-6",
+            "display": "Exercise"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA25351-0",
+            "display": "Guided Imagery"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA25352-8",
+            "display": "Immobilize"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA25353-6",
+            "display": "Music"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA25354-4",
+            "display": "Reposition"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA25355-1",
+            "display": "Relaxation"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA25356-9",
+            "display": "Rest"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA25357-7",
+            "display": "TENS Unit"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA11834-1",
+            "display": "Walking"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "/38213-5",
+      "code": [
+        {
+          "code": "38213-5",
+          "display": "FLACC Pain Assessment Pnl"
+        }
+      ],
+      "text": "FLACC Pain Assessment Pnl",
+      "type": "group",
+      "required": false,
+      "item": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/questionnaire-item-control",
+                    "code": "drop-down",
+                    "display": "Drop down"
+                  }
+                ],
+                "text": "Drop down"
+              }
+            }
+          ],
+          "linkId": "/38213-5/38216-8",
+          "code": [
+            {
+              "code": "38216-8",
+              "display": "Pain severity Face FLACC"
+            }
+          ],
+          "text": "Pain severity Face FLACC",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+                  "valueString": "0"
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                  "valueDecimal": 0
+                }
+              ],
+              "valueCoding": {
+                "code": "LA9588-0",
+                "display": "No particular expression or smile"
+              }
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+                  "valueString": "1"
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                  "valueDecimal": 1
+                }
+              ],
+              "valueCoding": {
+                "code": "LA9589-8",
+                "display": "Occasional grimace or frown, withdrawn, disinterested"
+              }
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+                  "valueString": "2"
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                  "valueDecimal": 2
+                }
+              ],
+              "valueCoding": {
+                "code": "LA9590-6",
+                "display": "Frequent to constant frown, clenched jaw, quivering chin"
+              }
+            }
+          ]
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/questionnaire-item-control",
+                    "code": "drop-down",
+                    "display": "Drop down"
+                  }
+                ],
+                "text": "Drop down"
+              }
+            }
+          ],
+          "linkId": "/38213-5/38217-6",
+          "code": [
+            {
+              "code": "38217-6",
+              "display": "Pain severity Legs FLACC"
+            }
+          ],
+          "text": "Pain severity Legs FLACC",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+                  "valueString": "0"
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                  "valueDecimal": 0
+                }
+              ],
+              "valueCoding": {
+                "code": "LA9591-4",
+                "display": "Normal position or relaxed"
+              }
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+                  "valueString": "1"
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                  "valueDecimal": 1
+                }
+              ],
+              "valueCoding": {
+                "code": "LA9592-2",
+                "display": "Uneasy, restless, tense"
+              }
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+                  "valueString": "2"
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                  "valueDecimal": 2
+                }
+              ],
+              "valueCoding": {
+                "code": "LA9593-0",
+                "display": "Kicking, or legs drawn up"
+              }
+            }
+          ]
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/questionnaire-item-control",
+                    "code": "drop-down",
+                    "display": "Drop down"
+                  }
+                ],
+                "text": "Drop down"
+              }
+            }
+          ],
+          "linkId": "/38213-5/38218-4",
+          "code": [
+            {
+              "code": "38218-4",
+              "display": "Pain severity Activity FLACC"
+            }
+          ],
+          "text": "Pain severity Activity FLACC",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+                  "valueString": "0"
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                  "valueDecimal": 0
+                }
+              ],
+              "valueCoding": {
+                "code": "LA9594-8",
+                "display": "Lying quietly, normal position, moves easily"
+              }
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+                  "valueString": "1"
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                  "valueDecimal": 1
+                }
+              ],
+              "valueCoding": {
+                "code": "LA9595-5",
+                "display": "Squirming, shifting back and forth, tense"
+              }
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+                  "valueString": "2"
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                  "valueDecimal": 2
+                }
+              ],
+              "valueCoding": {
+                "code": "LA9596-3",
+                "display": "Arched, rigid, or jerking"
+              }
+            }
+          ]
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/questionnaire-item-control",
+                    "code": "drop-down",
+                    "display": "Drop down"
+                  }
+                ],
+                "text": "Drop down"
+              }
+            }
+          ],
+          "linkId": "/38213-5/38219-2",
+          "code": [
+            {
+              "code": "38219-2",
+              "display": "Pain severity Cry FLACC"
+            }
+          ],
+          "text": "Pain severity Cry FLACC",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+                  "valueString": "0"
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                  "valueDecimal": 0
+                }
+              ],
+              "valueCoding": {
+                "code": "LA9597-1",
+                "display": "No cry (awake or asleep)"
+              }
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+                  "valueString": "1"
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                  "valueDecimal": 1
+                }
+              ],
+              "valueCoding": {
+                "code": "LA9598-9",
+                "display": "Moans or whimpers, occasional complaint"
+              }
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+                  "valueString": "2"
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                  "valueDecimal": 2
+                }
+              ],
+              "valueCoding": {
+                "code": "LA9599-7",
+                "display": "Crying steadily, screams or sobs, frequent complaints"
+              }
+            }
+          ]
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/questionnaire-item-control",
+                    "code": "drop-down",
+                    "display": "Drop down"
+                  }
+                ],
+                "text": "Drop down"
+              }
+            }
+          ],
+          "linkId": "/38213-5/38220-0",
+          "code": [
+            {
+              "code": "38220-0",
+              "display": "Pain severity Consolability FLACC"
+            }
+          ],
+          "text": "Pain severity Consolability FLACC",
+          "type": "choice",
+          "required": false,
+          "answerOption": [
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+                  "valueString": "0"
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                  "valueDecimal": 0
+                }
+              ],
+              "valueCoding": {
+                "code": "LA9600-3",
+                "display": "Content, relaxed"
+              }
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+                  "valueString": "1"
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                  "valueDecimal": 1
+                }
+              ],
+              "valueCoding": {
+                "code": "LA9601-1",
+                "display": "Reassured by occasional touching, hugging, or being talked to, distractable"
+              }
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+                  "valueString": "2"
+                },
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                  "valueDecimal": 2
+                }
+              ],
+              "valueCoding": {
+                "code": "LA9602-9",
+                "display": "Difficult to console or comfort"
+              }
+            }
+          ]
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-unit",
+              "valueCoding": {
+                "system": "http://unitsofmeasure.org",
+                "code": "{score}",
+                "display": "{score}"
+              }
+            }
+          ],
+          "linkId": "/38213-5/38215-0",
+          "code": [
+            {
+              "code": "38215-0",
+              "display": "Pain severity total Score FLACC"
+            }
+          ],
+          "text": "Pain severity total Score FLACC",
+          "type": "decimal",
+          "required": false
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/questionnaire-item-control",
+                    "code": "help",
+                    "display": "Help-Button"
+                  }
+                ],
+                "text": "Help-Button"
+              }
+            }
+          ],
+          "linkId": "/38213-5-help",
+          "text": "The Faces, Legs, Activity, Cry, and Consolability (FLACC) scale is a behavioral pain assessment scale that can be used with non/pre-verbal patients (young children). Zero, one or two points is assigned to each of the five categories; total score ranges from zero to ten.",
+          "type": "display"
+        }
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "drop-down",
+                "display": "Drop down"
+              }
+            ],
+            "text": "Drop down"
+          }
+        }
+      ],
+      "linkId": "/80317-1",
+      "code": [
+        {
+          "code": "80317-1",
+          "display": "Pain assessment Imp"
+        }
+      ],
+      "text": "Pain assessment Imp",
+      "type": "choice",
+      "required": false,
+      "answerOption": [
+        {
+          "valueCoding": {
+            "code": "LA25085-4",
+            "display": "Within Defined Limits"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "LA46-8",
+            "display": "Other"
+          }
+        }
+      ]
+    }
+  ],
+  "resourceType": "Questionnaire"
+}
