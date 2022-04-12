@@ -1,0 +1,24 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "FPIG-Role-SLP-JennyGlass",
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "159026005",
+          "system": "http://snomed.info/sct",
+          "display": "Speech and language therapist"
+        }
+      ]
+    }
+  ],
+  "active": true,
+  "organization": {
+    "reference": "Organization/FPIG-Org-01"
+  },
+  "location": [
+    {
+      "reference": "Location/FPIG-Org-Loc-01"
+    }
+  ]
+}

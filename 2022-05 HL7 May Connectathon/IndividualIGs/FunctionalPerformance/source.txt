@@ -1,0 +1,4 @@
+http://hl7.org/fhir/us/pacio-cs/full-ig.zip and http://hl7.org/fhir/us/pacio-fs/full-ig.zip
+- accessed: 3/31/2022
+- modifications: converted into the new functional performance ig and merged
+- IG: https://paciowg.github.io/functional-performance-ig/

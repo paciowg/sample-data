@@ -1,0 +1,24 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "FPIG-provider-role-neurologist",
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "2084N0400X",
+          "system": "http://nucc.org/provider-taxonomy",
+          "display": "Neurology Physician"
+        }
+      ]
+    }
+  ],
+  "active": true,
+  "organization": {
+    "reference": "Organization/FPIG-provider-org-16"
+  },
+  "location": [
+    {
+      "reference": "Location/FPIG-provider-org-loc-16"
+    }
+  ]
+}

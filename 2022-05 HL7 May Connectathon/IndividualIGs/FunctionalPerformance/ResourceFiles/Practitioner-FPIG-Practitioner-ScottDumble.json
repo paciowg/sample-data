@@ -1,0 +1,20 @@
+{
+  "resourceType": "Practitioner",
+  "id": "FPIG-Practitioner-ScottDumble",
+  "name": [
+    {
+      "given": [
+        "Scott"
+      ],
+      "family": "Dumble",
+      "text": "Scott Dumble"
+    }
+  ],
+  "active": true,
+  "gender": "male",
+  "telecom": [
+    {
+      "system": "phone"
+    }
+  ]
+}

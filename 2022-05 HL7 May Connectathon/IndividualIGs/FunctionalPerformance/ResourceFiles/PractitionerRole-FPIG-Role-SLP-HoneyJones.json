@@ -1,0 +1,24 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "FPIG-Role-SLP-HoneyJones",
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "159026005",
+          "system": "http://snomed.info/sct",
+          "display": "Speech and language therapist"
+        }
+      ]
+    }
+  ],
+  "active": true,
+  "organization": {
+    "reference": "Organization/FPIG-Org-02"
+  },
+  "location": [
+    {
+      "reference": "Location/FPIG-Org-Loc-02"
+    }
+  ]
+}

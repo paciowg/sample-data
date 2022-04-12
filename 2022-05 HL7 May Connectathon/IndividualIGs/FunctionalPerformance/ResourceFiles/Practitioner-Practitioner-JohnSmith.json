@@ -1,0 +1,26 @@
+{
+  "resourceType": "Practitioner",
+  "id": "Practitioner-JohnSmith",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/sid/us-npi",
+      "value": "4278275001"
+    }
+  ],
+  "name": [
+    {
+      "given": [
+        "John"
+      ],
+      "family": "Smith",
+      "text": "John Smith"
+    }
+  ],
+  "active": true,
+  "gender": "male",
+  "telecom": [
+    {
+      "system": "phone"
+    }
+  ]
+}

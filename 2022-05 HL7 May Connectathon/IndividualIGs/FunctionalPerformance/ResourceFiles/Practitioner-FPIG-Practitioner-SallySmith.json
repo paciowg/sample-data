@@ -1,0 +1,20 @@
+{
+  "resourceType": "Practitioner",
+  "id": "FPIG-Practitioner-SallySmith",
+  "name": [
+    {
+      "given": [
+        "Sally"
+      ],
+      "family": "Smith",
+      "text": "Sally Smith"
+    }
+  ],
+  "active": true,
+  "gender": "female",
+  "telecom": [
+    {
+      "system": "phone"
+    }
+  ]
+}

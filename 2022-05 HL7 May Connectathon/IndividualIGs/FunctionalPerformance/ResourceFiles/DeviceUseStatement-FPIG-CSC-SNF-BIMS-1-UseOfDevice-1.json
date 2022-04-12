@@ -1,0 +1,25 @@
+{
+  "resourceType": "DeviceUseStatement",
+  "id": "FPIG-CSC-SNF-BIMS-1-UseOfDevice-1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-use-of-device"
+    ]
+  },
+  "subject": {
+    "reference": "Patient/FPIG-patientBSJ1"
+  },
+  "status": "active",
+  "device": {
+    "reference": "Device/FPIG-CMS-Device-Eyeglasses"
+  },
+  "recordedOn": "2020-07-11T11:30:00-05:00",
+  "source": {
+    "reference": "FPIG-Practitioner-HoneyJones"
+  },
+  "derivedFrom": [
+    {
+      "reference": "Observation/FPIG-CSC-SNF-BIMS-1"
+    }
+  ]
+}

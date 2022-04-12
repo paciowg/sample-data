@@ -1,0 +1,10 @@
+{
+  "resourceType": "Device",
+  "id": "FPIG-CMS-Device-HandleBars",
+  "deviceName": [
+    {
+      "name": "Handle bars",
+      "type": "user-friendly-name"
+    }
+  ]
+}

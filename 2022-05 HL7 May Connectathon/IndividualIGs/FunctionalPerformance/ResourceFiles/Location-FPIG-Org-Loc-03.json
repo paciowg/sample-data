@@ -1,0 +1,9 @@
+{
+  "resourceType": "Location",
+  "id": "FPIG-Org-Loc-03",
+  "name": "Sky Harbor Home Health Services",
+  "address": {
+    "text": "8810 Old Sky Harbor, San Antonio, TX 78242"
+  },
+  "status": "active"
+}

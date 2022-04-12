@@ -1,0 +1,20 @@
+{
+  "resourceType": "Practitioner",
+  "id": "Practitioner-JennyGlass",
+  "name": [
+    {
+      "given": [
+        "Jenny"
+      ],
+      "family": "Glass",
+      "text": "Jenny Glass"
+    }
+  ],
+  "active": true,
+  "gender": "female",
+  "telecom": [
+    {
+      "system": "phone"
+    }
+  ]
+}

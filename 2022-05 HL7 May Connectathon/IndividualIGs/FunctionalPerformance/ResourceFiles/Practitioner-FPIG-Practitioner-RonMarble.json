@@ -1,0 +1,20 @@
+{
+  "resourceType": "Practitioner",
+  "id": "FPIG-Practitioner-RonMarble",
+  "name": [
+    {
+      "given": [
+        "Ron"
+      ],
+      "family": "Marble",
+      "text": "Ron Marble"
+    }
+  ],
+  "active": true,
+  "gender": "male",
+  "telecom": [
+    {
+      "system": "phone"
+    }
+  ]
+}
