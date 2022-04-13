@@ -1,0 +1,2 @@
+patient.id,name.family,name.given,identifier.system,identifier.value,telecom.value,gender,birthdate,address.text,maritalStatus.code,maritalStatus.text,language.coding,contact[->],generalPractitioner.reference
+patientBSJ1,Smith-Johnson,Betsy,"","","",,,"","","","","",""

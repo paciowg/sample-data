@@ -1,0 +1,24 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "FPIG-provider-role-pcp",
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "261QP2300X",
+          "system": "http://nucc.org/provider-taxonomy",
+          "display": "Primary Care Clinic/Center"
+        }
+      ]
+    }
+  ],
+  "active": true,
+  "organization": {
+    "reference": "Organization/FPIG-provider-org-01"
+  },
+  "location": [
+    {
+      "reference": "Location/FPIG-provider-org-loc-01"
+    }
+  ]
+}

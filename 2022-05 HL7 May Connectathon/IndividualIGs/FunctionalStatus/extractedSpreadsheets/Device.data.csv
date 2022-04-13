@@ -1,0 +1,6 @@
+resource.id,deviceName.name,deviceName.type,type.code,type.system,type.display
+CMS-Device-RollingWalker,Rolling walker,user-friendly-name,404946006,http://snomed.info/sct,
+CMS-Device-Walker,Walker,user-friendly-name,466317003,http://snomed.info/sct,
+CMS-Device-RaisedToiletSeat,Raised toilet seat,user-friendly-name,705593007,http://snomed.info/sct,
+CMS-Device-HandleBars,Handle bars,user-friendly-name,465550005,http://snomed.info/sct,
+CMS-Device-BedsideRails,"Bedside rails, device",user-friendly-name,37953008,http://snomed.info/sct,

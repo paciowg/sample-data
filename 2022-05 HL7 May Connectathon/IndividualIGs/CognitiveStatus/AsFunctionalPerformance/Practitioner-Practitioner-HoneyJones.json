@@ -1,0 +1,20 @@
+{
+  "resourceType": "Practitioner",
+  "id": "Practitioner-HoneyJones",
+  "name": [
+    {
+      "given": [
+        "Honey"
+      ],
+      "family": "Jones",
+      "text": "Honey Jones"
+    }
+  ],
+  "active": true,
+  "gender": "female",
+  "telecom": [
+    {
+      "system": "phone"
+    }
+  ]
+}

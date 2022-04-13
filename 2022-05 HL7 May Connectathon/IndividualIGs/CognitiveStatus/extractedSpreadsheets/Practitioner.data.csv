@@ -1,0 +1,6 @@
+resource.id,name.given,name.family,identifier.system,identifier.value,telecom.value,gender.code,address.text
+Practitioner-JennyGlass,Jenny,Glass,"","","",female,""
+Practitioner-JohnSmith,John,Smith,http://hl7.org/fhir/sid/us-npi,4278275001,"",male,""
+Practitioner-HoneyJones,Honey,Jones,"","","",female,""
+Practitioner-LunaBaskins,Luna,Baskins,"","","",female,""
+Practitioner-NoraOlogist,Nora,Ologist,http://hl7.org/fhir/sid/us-npi,3668788925,"",female,""

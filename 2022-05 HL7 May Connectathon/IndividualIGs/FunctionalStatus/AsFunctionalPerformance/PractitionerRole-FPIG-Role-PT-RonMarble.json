@@ -1,0 +1,27 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "FPIG-Role-PT-RonMarble",
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "36682004",
+          "system": "http://snomed.info/sct",
+          "display": "Physiotherapist"
+        }
+      ]
+    }
+  ],
+  "active": true,
+  "practitioner": {
+    "reference": "Practitioner/FPIG-Practitioner-RonMarble"
+  },
+  "organization": {
+    "reference": "Organization/FPIG-Org-01"
+  },
+  "location": [
+    {
+      "reference": "Location/FPIG-Org-Loc-01"
+    }
+  ]
+}

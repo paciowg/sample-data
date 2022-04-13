@@ -691,7 +691,7 @@
         },
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>derivedFrom</b>: <a href=\"Observation-FSC-Hospital-Discharge-Mobility-1.html\">Generated Summary: <span title=\"Codes: {http://hl7.org/fhir/us/pacio-fs/CodeSystem/pacio-cat-fs functioning}\">Functioning</span>, <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span>; <span title=\"Codes: {http://loinc.org 88331-4}\">Mobility - discharge performance during 3 day assessment period [CMS Assessment]</span>; effective: Jul 10, 2020 7:34:00 PM</a></p><p><b>recordedOn</b>: Jul 10, 2020 7:34:00 PM</p><p><b>source</b>: <a href=\"Practitioner-Practitioner-RonMarble.html\">Generated Summary: active: true; Ron Marble ; gender: male</a></p><p><b>device</b>: <a href=\"Device-CMS-Device-2.html\">Generated Summary: <span title=\"Codes: {http://snomed.info/sct 466317003}\">Basic walker, foldable</span></a></p></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>derivedFrom</b>: <a href=\"Observation-FSC-Hospital-Discharge-Mobility-1.html\">Generated Summary: <span title=\"Codes: {http://hl7.org/fhir/us/pacio-fs/CodeSystem/pacio-cat-fs functioning}\">Functioning</span>, <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span>; <span title=\"Codes: {http://loinc.org 88331-4}\">Mobility - discharge performance during 3 day assessment period [CMS Assessment]</span>; effective: Jul 10, 2020 7:34:00 PM</a></p><p><b>recordedOn</b>: Jul 10, 2020 7:34:00 PM</p><p><b>source</b>: <a href=\"Practitioner-Practitioner-RonMarble.html\">Generated Summary: active: true; Ron Marble ; gender: male</a></p><p><b>device</b>: <a href=\"Device-CMS-Device-Walker.html\">Generated Summary: <span title=\"Codes: {http://snomed.info/sct 466317003}\">Basic walker, foldable</span></a></p></div>"
         },
         "status": "active",
         "subject": {
@@ -707,7 +707,7 @@
           "reference": "Practitioner/Practitioner-RonMarble"
         },
         "device": {
-          "reference": "Device/CMS-Device-2"
+          "reference": "Device/CMS-Device-Walker"
         },
         "resourceType": "DeviceUseStatement"
       },
@@ -921,9 +921,9 @@
       }
     },
     {
-      "fullUrl": "Device/CMS-Device-3",
+      "fullUrl": "Device/CMS-Device-RollingWalker",
       "resource": {
-        "id": "CMS-Device-3",
+        "id": "CMS-Device-RollingWalker",
         "text": {
           "status": "generated",
           "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>DeviceNames</h3><table class=\"grid\"><tr><td>-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td>*</td><td>Rolling walker</td><td>user-friendly-name</td></tr></table><p><b>type</b>: <span title=\"Codes: {http://snomed.info/sct 404946006}\">Wheeled walking frame (physical object)</span></p></div>"
@@ -946,7 +946,7 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Device/CMS-Device-3"
+        "url": "Device/CMS-Device-RollingWalker"
       }
     },
     {
@@ -1166,9 +1166,9 @@
       }
     },
     {
-      "fullUrl": "Device/CMS-Device-2",
+      "fullUrl": "Device/CMS-Device-Walker",
       "resource": {
-        "id": "CMS-Device-2",
+        "id": "CMS-Device-Walker",
         "text": {
           "status": "generated",
           "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>DeviceNames</h3><table class=\"grid\"><tr><td>-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td>*</td><td>Walker</td><td>user-friendly-name</td></tr></table><p><b>type</b>: <span title=\"Codes: {http://snomed.info/sct 466317003}\">Basic walker, foldable</span></p></div>"
@@ -1191,7 +1191,7 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Device/CMS-Device-2"
+        "url": "Device/CMS-Device-Walker"
       }
     },
     {
@@ -1205,7 +1205,7 @@
         },
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>derivedFrom</b>: <a href=\"Observation-FSC-Hospital-Discharge-Mobility-1.html\">Generated Summary: <span title=\"Codes: {http://hl7.org/fhir/us/pacio-fs/CodeSystem/pacio-cat-fs functioning}\">Functioning</span>, <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span>; <span title=\"Codes: {http://loinc.org 88331-4}\">Mobility - discharge performance during 3 day assessment period [CMS Assessment]</span>; effective: Jul 10, 2020 7:34:00 PM</a></p><p><b>recordedOn</b>: Jul 10, 2020 7:34:00 PM</p><p><b>source</b>: <a href=\"Practitioner-Practitioner-RonMarble.html\">Generated Summary: active: true; Ron Marble ; gender: male</a></p><p><b>device</b>: <a href=\"Device-CMS-Device-3.html\">Generated Summary: <span title=\"Codes: {http://snomed.info/sct 404946006}\">Wheeled walking frame (physical object)</span></a></p></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>derivedFrom</b>: <a href=\"Observation-FSC-Hospital-Discharge-Mobility-1.html\">Generated Summary: <span title=\"Codes: {http://hl7.org/fhir/us/pacio-fs/CodeSystem/pacio-cat-fs functioning}\">Functioning</span>, <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span>; <span title=\"Codes: {http://loinc.org 88331-4}\">Mobility - discharge performance during 3 day assessment period [CMS Assessment]</span>; effective: Jul 10, 2020 7:34:00 PM</a></p><p><b>recordedOn</b>: Jul 10, 2020 7:34:00 PM</p><p><b>source</b>: <a href=\"Practitioner-Practitioner-RonMarble.html\">Generated Summary: active: true; Ron Marble ; gender: male</a></p><p><b>device</b>: <a href=\"Device-CMS-Device-RollingWalker.html\">Generated Summary: <span title=\"Codes: {http://snomed.info/sct 404946006}\">Wheeled walking frame (physical object)</span></a></p></div>"
         },
         "status": "active",
         "subject": {
@@ -1221,7 +1221,7 @@
           "reference": "Practitioner/Practitioner-RonMarble"
         },
         "device": {
-          "reference": "Device/CMS-Device-3"
+          "reference": "Device/CMS-Device-RollingWalker"
         },
         "resourceType": "DeviceUseStatement"
       },
@@ -1277,7 +1277,7 @@
         },
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>derivedFrom</b>: <a href=\"Observation-FSC-Hospital-Discharge-Mobility-1.html\">Generated Summary: <span title=\"Codes: {http://hl7.org/fhir/us/pacio-fs/CodeSystem/pacio-cat-fs functioning}\">Functioning</span>, <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span>; <span title=\"Codes: {http://loinc.org 88331-4}\">Mobility - discharge performance during 3 day assessment period [CMS Assessment]</span>; effective: Jul 10, 2020 7:34:00 PM</a></p><p><b>recordedOn</b>: Jul 10, 2020 7:34:00 PM</p><p><b>source</b>: <a href=\"Practitioner-Practitioner-RonMarble.html\">Generated Summary: active: true; Ron Marble ; gender: male</a></p><p><b>device</b>: <a href=\"Device-CMS-Device-4.html\">Generated Summary: <span title=\"Codes: {http://snomed.info/sct 465550005}\">Toilet hand rail (physical object)</span></a></p></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>derivedFrom</b>: <a href=\"Observation-FSC-Hospital-Discharge-Mobility-1.html\">Generated Summary: <span title=\"Codes: {http://hl7.org/fhir/us/pacio-fs/CodeSystem/pacio-cat-fs functioning}\">Functioning</span>, <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span>; <span title=\"Codes: {http://loinc.org 88331-4}\">Mobility - discharge performance during 3 day assessment period [CMS Assessment]</span>; effective: Jul 10, 2020 7:34:00 PM</a></p><p><b>recordedOn</b>: Jul 10, 2020 7:34:00 PM</p><p><b>source</b>: <a href=\"Practitioner-Practitioner-RonMarble.html\">Generated Summary: active: true; Ron Marble ; gender: male</a></p><p><b>device</b>: <a href=\"Device-CMS-Device-HandleBars.html\">Generated Summary: <span title=\"Codes: {http://snomed.info/sct 465550005}\">Toilet hand rail (physical object)</span></a></p></div>"
         },
         "status": "active",
         "subject": {
@@ -1293,7 +1293,7 @@
           "reference": "Practitioner/Practitioner-RonMarble"
         },
         "device": {
-          "reference": "Device/CMS-Device-4"
+          "reference": "Device/CMS-Device-HandleBars"
         },
         "resourceType": "DeviceUseStatement"
       },
@@ -1386,9 +1386,9 @@
       }
     },
     {
-      "fullUrl": "Device/CMS-Device-5",
+      "fullUrl": "Device/CMS-Device-RaisedToiletSeat",
       "resource": {
-        "id": "CMS-Device-5",
+        "id": "CMS-Device-RaisedToiletSeat",
         "text": {
           "status": "generated",
           "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>DeviceNames</h3><table class=\"grid\"><tr><td>-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td>*</td><td>Raised toilet seat</td><td>user-friendly-name</td></tr></table><p><b>type</b>: <span title=\"Codes: {http://snomed.info/sct 705593007}\">Raised toilet seat</span></p></div>"
@@ -1411,7 +1411,7 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Device/CMS-Device-5"
+        "url": "Device/CMS-Device-RaisedToiletSeat"
       }
     },
     {
@@ -2065,9 +2065,9 @@
       }
     },
     {
-      "fullUrl": "Device/CMS-Device-4",
+      "fullUrl": "Device/CMS-Device-HandleBars",
       "resource": {
-        "id": "CMS-Device-4",
+        "id": "CMS-Device-HandleBars",
         "text": {
           "status": "generated",
           "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>DeviceNames</h3><table class=\"grid\"><tr><td>-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td>*</td><td>Handle bars</td><td>user-friendly-name</td></tr></table><p><b>type</b>: <span title=\"Codes: {http://snomed.info/sct 465550005}\">Toilet hand rail (physical object)</span></p></div>"
@@ -2090,7 +2090,7 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Device/CMS-Device-4"
+        "url": "Device/CMS-Device-HandleBars"
       }
     },
     {
@@ -2104,7 +2104,7 @@
         },
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>derivedFrom</b>: <a href=\"Observation-FSC-Hospital-Discharge-Mobility-1.html\">Generated Summary: <span title=\"Codes: {http://hl7.org/fhir/us/pacio-fs/CodeSystem/pacio-cat-fs functioning}\">Functioning</span>, <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span>; <span title=\"Codes: {http://loinc.org 88331-4}\">Mobility - discharge performance during 3 day assessment period [CMS Assessment]</span>; effective: Jul 10, 2020 7:34:00 PM</a></p><p><b>recordedOn</b>: Jul 10, 2020 7:34:00 PM</p><p><b>source</b>: <a href=\"Practitioner-Practitioner-RonMarble.html\">Generated Summary: active: true; Ron Marble ; gender: male</a></p><p><b>device</b>: <a href=\"Device-CMS-Device-5.html\">Generated Summary: <span title=\"Codes: {http://snomed.info/sct 705593007}\">Raised toilet seat</span></a></p></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>derivedFrom</b>: <a href=\"Observation-FSC-Hospital-Discharge-Mobility-1.html\">Generated Summary: <span title=\"Codes: {http://hl7.org/fhir/us/pacio-fs/CodeSystem/pacio-cat-fs functioning}\">Functioning</span>, <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span>; <span title=\"Codes: {http://loinc.org 88331-4}\">Mobility - discharge performance during 3 day assessment period [CMS Assessment]</span>; effective: Jul 10, 2020 7:34:00 PM</a></p><p><b>recordedOn</b>: Jul 10, 2020 7:34:00 PM</p><p><b>source</b>: <a href=\"Practitioner-Practitioner-RonMarble.html\">Generated Summary: active: true; Ron Marble ; gender: male</a></p><p><b>device</b>: <a href=\"Device-CMS-Device-RaisedToiletSeat.html\">Generated Summary: <span title=\"Codes: {http://snomed.info/sct 705593007}\">Raised toilet seat</span></a></p></div>"
         },
         "status": "active",
         "subject": {
@@ -2120,7 +2120,7 @@
           "reference": "Practitioner/Practitioner-RonMarble"
         },
         "device": {
-          "reference": "Device/CMS-Device-5"
+          "reference": "Device/CMS-Device-RaisedToiletSeat"
         },
         "resourceType": "DeviceUseStatement"
       },
@@ -3023,7 +3023,7 @@
         },
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>derivedFrom</b>: <a href=\"Observation-FSC-Hospital-Admission-Mobility-1.html\">Generated Summary: <span title=\"Codes: {http://hl7.org/fhir/us/pacio-fs/CodeSystem/pacio-cat-fs functioning}\">Functioning</span>, <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span>; <span title=\"Codes: {http://loinc.org 88330-6}\">Mobility - admission performance during 3 day assessment period [CMS Assessment]</span>; effective: Jul 8, 2020 9:00:00 PM</a></p><p><b>recordedOn</b>: Jul 8, 2020 9:00:00 PM</p><p><b>source</b>: <a href=\"Practitioner-Practitioner-SallySmith.html\">Generated Summary: active: true; Sally Smith ; gender: female</a></p><p><b>device</b>: <a href=\"Device-CMS-Device-1.html\">Generated Summary: <span title=\"Codes: {http://snomed.info/sct 37953008}\">Bedside rails</span></a></p></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>derivedFrom</b>: <a href=\"Observation-FSC-Hospital-Admission-Mobility-1.html\">Generated Summary: <span title=\"Codes: {http://hl7.org/fhir/us/pacio-fs/CodeSystem/pacio-cat-fs functioning}\">Functioning</span>, <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span>; <span title=\"Codes: {http://loinc.org 88330-6}\">Mobility - admission performance during 3 day assessment period [CMS Assessment]</span>; effective: Jul 8, 2020 9:00:00 PM</a></p><p><b>recordedOn</b>: Jul 8, 2020 9:00:00 PM</p><p><b>source</b>: <a href=\"Practitioner-Practitioner-SallySmith.html\">Generated Summary: active: true; Sally Smith ; gender: female</a></p><p><b>device</b>: <a href=\"Device-CMS-Device-BedsideRails.html\">Generated Summary: <span title=\"Codes: {http://snomed.info/sct 37953008}\">Bedside rails</span></a></p></div>"
         },
         "status": "active",
         "subject": {
@@ -3039,7 +3039,7 @@
           "reference": "Practitioner/Practitioner-SallySmith"
         },
         "device": {
-          "reference": "Device/CMS-Device-1"
+          "reference": "Device/CMS-Device-BedsideRails"
         },
         "resourceType": "DeviceUseStatement"
       },
@@ -3562,7 +3562,7 @@
         },
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>derivedFrom</b>: <a href=\"Observation-FSC-Hospital-Admission-Mobility-1.html\">Generated Summary: <span title=\"Codes: {http://hl7.org/fhir/us/pacio-fs/CodeSystem/pacio-cat-fs functioning}\">Functioning</span>, <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span>; <span title=\"Codes: {http://loinc.org 88330-6}\">Mobility - admission performance during 3 day assessment period [CMS Assessment]</span>; effective: Jul 8, 2020 9:00:00 PM</a></p><p><b>recordedOn</b>: Jul 8, 2020 9:00:00 PM</p><p><b>source</b>: <a href=\"Practitioner-Practitioner-SallySmith.html\">Generated Summary: active: true; Sally Smith ; gender: female</a></p><p><b>device</b>: <a href=\"Device-CMS-Device-2.html\">Generated Summary: <span title=\"Codes: {http://snomed.info/sct 466317003}\">Basic walker, foldable</span></a></p></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>derivedFrom</b>: <a href=\"Observation-FSC-Hospital-Admission-Mobility-1.html\">Generated Summary: <span title=\"Codes: {http://hl7.org/fhir/us/pacio-fs/CodeSystem/pacio-cat-fs functioning}\">Functioning</span>, <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span>; <span title=\"Codes: {http://loinc.org 88330-6}\">Mobility - admission performance during 3 day assessment period [CMS Assessment]</span>; effective: Jul 8, 2020 9:00:00 PM</a></p><p><b>recordedOn</b>: Jul 8, 2020 9:00:00 PM</p><p><b>source</b>: <a href=\"Practitioner-Practitioner-SallySmith.html\">Generated Summary: active: true; Sally Smith ; gender: female</a></p><p><b>device</b>: <a href=\"Device-CMS-Device-Walker.html\">Generated Summary: <span title=\"Codes: {http://snomed.info/sct 466317003}\">Basic walker, foldable</span></a></p></div>"
         },
         "status": "active",
         "subject": {
@@ -3578,7 +3578,7 @@
           "reference": "Practitioner/Practitioner-SallySmith"
         },
         "device": {
-          "reference": "Device/CMS-Device-2"
+          "reference": "Device/CMS-Device-Walker"
         },
         "resourceType": "DeviceUseStatement"
       },
@@ -4889,9 +4889,9 @@
       }
     },
     {
-      "fullUrl": "Device/CMS-Device-1",
+      "fullUrl": "Device/CMS-Device-BedsideRails",
       "resource": {
-        "id": "CMS-Device-1",
+        "id": "CMS-Device-BedsideRails",
         "text": {
           "status": "generated",
           "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>DeviceNames</h3><table class=\"grid\"><tr><td>-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td>*</td><td>Bedside rails, device</td><td>user-friendly-name</td></tr></table><p><b>type</b>: <span title=\"Codes: {http://snomed.info/sct 37953008}\">Bedside rails</span></p></div>"
@@ -4914,7 +4914,7 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Device/CMS-Device-1"
+        "url": "Device/CMS-Device-BedsideRails"
       }
     },
     {
@@ -5177,7 +5177,7 @@
         },
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>derivedFrom</b>: <a href=\"Observation-FSC-Hospital-Discharge-Mobility-1.html\">Generated Summary: <span title=\"Codes: {http://hl7.org/fhir/us/pacio-fs/CodeSystem/pacio-cat-fs functioning}\">Functioning</span>, <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span>; <span title=\"Codes: {http://loinc.org 88331-4}\">Mobility - discharge performance during 3 day assessment period [CMS Assessment]</span>; effective: Jul 10, 2020 7:34:00 PM</a></p><p><b>recordedOn</b>: Jul 10, 2020 7:34:00 PM</p><p><b>source</b>: <a href=\"Practitioner-Practitioner-RonMarble.html\">Generated Summary: active: true; Ron Marble ; gender: male</a></p><p><b>device</b>: <a href=\"Device-CMS-Device-1.html\">Generated Summary: <span title=\"Codes: {http://snomed.info/sct 37953008}\">Bedside rails</span></a></p></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>derivedFrom</b>: <a href=\"Observation-FSC-Hospital-Discharge-Mobility-1.html\">Generated Summary: <span title=\"Codes: {http://hl7.org/fhir/us/pacio-fs/CodeSystem/pacio-cat-fs functioning}\">Functioning</span>, <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span>; <span title=\"Codes: {http://loinc.org 88331-4}\">Mobility - discharge performance during 3 day assessment period [CMS Assessment]</span>; effective: Jul 10, 2020 7:34:00 PM</a></p><p><b>recordedOn</b>: Jul 10, 2020 7:34:00 PM</p><p><b>source</b>: <a href=\"Practitioner-Practitioner-RonMarble.html\">Generated Summary: active: true; Ron Marble ; gender: male</a></p><p><b>device</b>: <a href=\"Device-CMS-Device-BedsideRails.html\">Generated Summary: <span title=\"Codes: {http://snomed.info/sct 37953008}\">Bedside rails</span></a></p></div>"
         },
         "status": "active",
         "subject": {
@@ -5193,7 +5193,7 @@
           "reference": "Practitioner/Practitioner-RonMarble"
         },
         "device": {
-          "reference": "Device/CMS-Device-1"
+          "reference": "Device/CMS-Device-BedsideRails"
         },
         "resourceType": "DeviceUseStatement"
       },

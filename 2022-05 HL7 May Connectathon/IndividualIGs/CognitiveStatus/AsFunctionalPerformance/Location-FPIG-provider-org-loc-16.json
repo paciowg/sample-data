@@ -1,0 +1,9 @@
+{
+  "resourceType": "Location",
+  "id": "FPIG-provider-org-loc-16",
+  "name": "Neuro Care INC.",
+  "address": {
+    "text": "26022 Meadowlark Bay, San Antonio, TX 78260"
+  },
+  "status": "active"
+}

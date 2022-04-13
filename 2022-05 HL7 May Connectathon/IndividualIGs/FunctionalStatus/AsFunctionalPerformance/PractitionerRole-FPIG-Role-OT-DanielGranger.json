@@ -1,0 +1,27 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "FPIG-Role-OT-DanielGranger",
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "80546007",
+          "system": "http://snomed.info/sct",
+          "display": "Occupational therapist"
+        }
+      ]
+    }
+  ],
+  "active": true,
+  "practitioner": {
+    "reference": "Practitioner/FPIG-Practitioner-DanielGranger"
+  },
+  "organization": {
+    "reference": "Organization/FPIG-Org-02"
+  },
+  "location": [
+    {
+      "reference": "Location/FPIG-Org-Loc-02"
+    }
+  ]
+}

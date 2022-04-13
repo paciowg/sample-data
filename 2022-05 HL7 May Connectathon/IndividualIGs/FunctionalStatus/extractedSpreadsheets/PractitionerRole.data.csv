@@ -1,0 +1,8 @@
+resource.id,practitioner.reference,organization.reference,location.reference,code[->],specialtyCode[->]
+Role-PT-ScottDumble,Practitioner-ScottDumble,Org-03,Org-Loc-03,36682004,""
+Role-PT-SallySmith,Practitioner-SallySmith,Org-01,Org-Loc-01,36682004,""
+Role-OT-JenCadbury,Practitioner-JenCadbury,Org-02,Org-Loc-02,80546007,""
+Role-OT-DanielGranger,Practitioner-DanielGranger,Org-02,Org-Loc-02,80546007,""
+Role-PT-RonMarble,Practitioner-RonMarble,Org-01,Org-Loc-01,36682004,""
+provider-role-pcp,Practitioner-JohnSmith,provider-org-01,provider-org-loc-01,261QP2300X,""
+Role-PT-LunaBaskins,Practitioner-LunaBaskins,Org-03,Org-Loc-03,36682004,""

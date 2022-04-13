@@ -1,0 +1,5252 @@
+{
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-33",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-33",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-01"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83235-2",
+              "display": "Wheel 150 feet - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-08T16:00:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-PT-SallySmith"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA26735-3",
+              "display": "Not attempted due to medical condition or safety concerns"
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-Hospital-Admission-Mobility-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-33"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-25",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-25",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-01"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83194-1",
+              "display": "4 steps - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-08T16:00:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-PT-SallySmith"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA26735-3",
+              "display": "Not attempted due to medical condition or safety concerns"
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-Hospital-Admission-Mobility-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-25"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-32",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-32",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-01"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83188-3",
+              "display": "Wheel 50 feet with two turns - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-10T14:34:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-PT-RonMarble"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA11759-0",
+              "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-Hospital-Discharge-Mobility-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-32"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-24",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-24",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-01"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83196-6",
+              "display": "1 step (curb) - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-10T14:34:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-PT-RonMarble"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA26735-3",
+              "display": "Not attempted due to medical condition or safety concerns"
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-Hospital-Discharge-Mobility-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-24"
+      }
+    },
+    {
+      "fullUrl": "Location/FPIG-provider-org-loc-01",
+      "resource": {
+        "id": "FPIG-provider-org-loc-01",
+        "status": "active",
+        "name": "Primary Care",
+        "address": {
+          "text": "177 Deerfield St. San Antonio, TX 78207"
+        },
+        "resourceType": "Location"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Location/FPIG-provider-org-loc-01"
+      }
+    },
+    {
+      "fullUrl": "DeviceUseStatement/FPIG-FSC-Hospital-Discharge-Mobility-1-UseOfDevice-3",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Discharge-Mobility-1-UseOfDevice-3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-use-of-device"
+          ]
+        },
+        "status": "active",
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "derivedFrom": [
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1"
+          }
+        ],
+        "recordedOn": "2020-07-10T14:34:00-05:00",
+        "source": {
+          "reference": "FPIG-Practitioner-RonMarble"
+        },
+        "device": {
+          "reference": "Device/FPIG-CMS-Device-Walker"
+        },
+        "resourceType": "DeviceUseStatement"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DeviceUseStatement/FPIG-FSC-Hospital-Discharge-Mobility-1-UseOfDevice-3"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-29",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-29",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-01"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83190-9",
+              "display": "Picking up object - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-08T16:00:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-PT-SallySmith"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA26735-3",
+              "display": "Not attempted due to medical condition or safety concerns"
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-Hospital-Admission-Mobility-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-29"
+      }
+    },
+    {
+      "fullUrl": "Organization/FPIG-Org-02",
+      "resource": {
+        "id": "FPIG-Org-02",
+        "name": "Happy Nursing Facility",
+        "resourceType": "Organization"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Organization/FPIG-Org-02"
+      }
+    },
+    {
+      "fullUrl": "Patient/FPIG-patientBSJ2",
+      "resource": {
+        "id": "FPIG-patientBSJ2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/identifiers/patient",
+            "value": "10A3D58WH1600"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "text": "Betsy Smith-Johnson",
+            "family": "Smith-Johnson",
+            "given": [
+              "Betsy"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "210-222-1111",
+            "use": "mobile"
+          }
+        ],
+        "gender": "female",
+        "address": [
+          {
+            "text": "111 Maple Ct, San Antonio, TX 78212"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "U"
+            }
+          ]
+        },
+        "contact": [
+          {
+            "name": {
+              "text": "Charles Johnson"
+            },
+            "telecom": [
+              {
+                "system": "phone",
+                "value": "(210) 222-3333"
+              }
+            ],
+            "address": {
+              "text": "100 Montana St., San Antonio, TX 78203"
+            }
+          }
+        ],
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "system": "urn:ietf:bcp:47",
+                  "code": "en"
+                }
+              ]
+            },
+            "preferred": true
+          }
+        ],
+        "generalPractitioner": [
+          {
+            "reference": "Practitioner/Practitioner-JohnSmith"
+          }
+        ],
+        "resourceType": "Patient"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Patient/FPIG-patientBSJ2"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-12",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-12",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-01"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83208-9",
+              "display": "Toilet transfer - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-10T14:34:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-PT-RonMarble"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA11759-0",
+              "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-Hospital-Discharge-Mobility-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-12"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-28",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-28",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-01"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83192-5",
+              "display": "12 steps - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-10T14:34:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-PT-RonMarble"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA26735-3",
+              "display": "Not attempted due to medical condition or safety concerns"
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-Hospital-Discharge-Mobility-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-28"
+      }
+    },
+    {
+      "fullUrl": "QuestionnaireResponse/FPIG-QResponse-Hospital-Admission-Mobility-1",
+      "resource": {
+        "id": "FPIG-QResponse-Hospital-Admission-Mobility-1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaireresponse"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>questionnaire</b>: <a href=\"http://example.org/Questionnaire/MDS3.0-NC-1.17\">http://example.org/Questionnaire/MDS3.0-NC-1.17</a></p><p><b>status</b>: completed</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>authored</b>: Jul 8, 2020 9:00:00 PM</p><p><b>author</b>: <a href=\"PractitionerRole-Role-PT-SallySmith.html\">Generated Summary: active: true; <span title=\"Codes: {http://snomed.info/sct 36682004}\">Physiotherapist</span></a></p><blockquote><p><b>item</b></p><p><b>linkId</b>: Section-37</p><p><b>text</b>: Functional abilities and goals - admission [CMS Assessment]</p><blockquote><p><b>item</b></p><p><b>linkId</b>: Section-37/GG0170_1</p><p><b>text</b>: Mobility - admission performance during 3 day assessment period [CMS Assessment]</p></blockquote></blockquote></div>"
+        },
+        "questionnaire": "http://example.org/Questionnaire/MDS3.0-NC-1.17",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/FPIG-PatientBSJ1"
+        },
+        "authored": "2020-07-08T16:00:00-05:00",
+        "author": {
+          "reference": "PractitionerRole/Role-PT-SallySmith"
+        },
+        "item": [
+          {
+            "linkId": "Section-37",
+            "text": "Functional abilities and goals - admission [CMS Assessment]",
+            "item": [
+              {
+                "linkId": "Section-37/GG0170_1",
+                "text": "Mobility - admission performance during 3 day assessment period [CMS Assessment]",
+                "item": [
+                  {
+                    "linkId": "Section-37/GG0170A1",
+                    "text": "Roll left and right - functional ability during 3 day assessment period [CMS Assessment]",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA11759-0",
+                          "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "linkId": "Section-37/GG0170B1",
+                    "text": "Sit to lying - functional ability during 3 day assessment period [CMS Assessment]",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA11759-0",
+                          "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "linkId": "Section-37/GG0170C1",
+                    "text": "Lying to sitting on side of bed - functional ability during 3 day assessment period [CMS Assessment]",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA11759-0",
+                          "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "linkId": "Section-37/GG0170D1",
+                    "text": "Sit to stand - functional ability during 3 day assessment period [CMS Assessment]",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA11759-0",
+                          "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "linkId": "Section-37/GG0170E1",
+                    "text": "Chair/bed-to-chair transfer - functional ability during 3 day assessment period [CMS Assessment]",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA27665-1",
+                          "display": "Dependent - Helper does all of the effort. Patient does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the patient to complete the activity."
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "linkId": "Section-37/GG0170F1",
+                    "text": "Toilet transfer - functional ability during 3 day assessment period [CMS Assessment]",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA26735-3",
+                          "display": "Not attempted due to medical condition or safety concerns"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "linkId": "Section-37/GG0170G1",
+                    "text": "Car transfer - functional ability during 3 day assessment period [CMS Assessment]",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA26735-3",
+                          "display": "Not attempted due to medical condition or safety concerns"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "linkId": "Section-37/GG0170I1",
+                    "text": "Walk 10 feet - functional ability during 3 day assessment period [CMS Assessment]",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA26735-3",
+                          "display": "Not attempted due to medical condition or safety concerns"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "linkId": "Section-37/GG0170J1",
+                    "text": "Walk 50 feet with two turns - functional ability during 3 day assessment period [CMS Assessment]",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA26735-3",
+                          "display": "Not attempted due to medical condition or safety concerns"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "linkId": "Section-37/GG0170K1",
+                    "text": "Walk 150 feet - functional ability during 3 day assessment period [CMS Assessment]",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA26735-3",
+                          "display": "Not attempted due to medical condition or safety concerns"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "linkId": "Section-37/GG0170L1",
+                    "text": "Walking 10 feet on uneven surfaces - functional ability during 3 day assessment period [CMS Assessment]",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA26735-3",
+                          "display": "Not attempted due to medical condition or safety concerns"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "linkId": "Section-37/GG0170M1",
+                    "text": "1 step (curb) - functional ability during 3 day assessment period [CMS Assessment]",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA26735-3",
+                          "display": "Not attempted due to medical condition or safety concerns"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "linkId": "Section-37/GG0170N1",
+                    "text": "4 steps - functional ability during 3 day assessment period [CMS Assessment]",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA26735-3",
+                          "display": "Not attempted due to medical condition or safety concerns"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "linkId": "Section-37/GG0170O1",
+                    "text": "12 steps - functional ability during 3 day assessment period [CMS Assessment]",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA26735-3",
+                          "display": "Not attempted due to medical condition or safety concerns"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "linkId": "Section-37/GG0170P1",
+                    "text": "Picking up object - functional ability during 3 day assessment period [CMS Assessment]",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA26735-3",
+                          "display": "Not attempted due to medical condition or safety concerns"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "linkId": "Section-37/GG0170R1",
+                    "text": "Wheel 50 feet with two turns - functional ability during 3 day assessment period [CMS Assessment]",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA26735-3",
+                          "display": "Not attempted due to medical condition or safety concerns"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "linkId": "Section-37/GG0170S1",
+                    "text": "Wheel 150 feet - functional ability during 3 day assessment period [CMS Assessment]",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA26735-3",
+                          "display": "Not attempted due to medical condition or safety concerns"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "resourceType": "QuestionnaireResponse"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "QuestionnaireResponse/FPIG-QResponse-Hospital-Admission-Mobility-1"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-13",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-13",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-01"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83206-3",
+              "display": "Car transfer - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-08T16:00:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-PT-SallySmith"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA26735-3",
+              "display": "Not attempted due to medical condition or safety concerns"
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-Hospital-Admission-Mobility-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-13"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/FPIG-Practitioner-NoraOlogist",
+      "resource": {
+        "id": "FPIG-Practitioner-NoraOlogist",
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "3668788925"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "text": "Nora Ologist",
+            "family": "Ologist",
+            "given": [
+              "Nora"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(210) 555 7632"
+          }
+        ],
+        "address": [
+          {
+            "text": "26022 Meadowlark Bay, San Antonio, TX 78260"
+          }
+        ],
+        "gender": "female",
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/FPIG-Practitioner-NoraOlogist"
+      }
+    },
+    {
+      "fullUrl": "QuestionnaireResponse/FPIG-QResponse-Hospital-Discharge-Mobility-1",
+      "resource": {
+        "id": "FPIG-QResponse-Hospital-Discharge-Mobility-1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaireresponse"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>questionnaire</b>: <a href=\"http://example.org/Questionnaire/MDS3.0-NC-1.17\">http://example.org/Questionnaire/MDS3.0-NC-1.17</a></p><p><b>status</b>: completed</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>authored</b>: Jul 10, 2020 7:34:00 PM</p><p><b>author</b>: <a href=\"PractitionerRole-Role-PT-RonMarble.html\">Generated Summary: active: true; <span title=\"Codes: {http://snomed.info/sct 36682004}\">Physiotherapist</span></a></p><blockquote><p><b>item</b></p><p><b>linkId</b>: Section-37</p><p><b>text</b>: Functional abilities and goals - discharge [CMS Assessment]</p><blockquote><p><b>item</b></p><p><b>linkId</b>: Section-37/GG0170_3</p><p><b>text</b>: Mobility - discharge performance during 3 day assessment period [CMS Assessment]</p></blockquote></blockquote></div>"
+        },
+        "questionnaire": "http://example.org/Questionnaire/MDS3.0-NC-1.17",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/FPIG-PatientBSJ1"
+        },
+        "authored": "2020-07-10T14:34:00-05:00",
+        "author": {
+          "reference": "PractitionerRole/Role-PT-RonMarble"
+        },
+        "item": [
+          {
+            "linkId": "Section-37",
+            "text": "Functional abilities and goals - discharge [CMS Assessment]",
+            "item": [
+              {
+                "linkId": "Section-37/GG0170_3",
+                "text": "Mobility - discharge performance during 3 day assessment period [CMS Assessment]",
+                "item": [
+                  {
+                    "linkId": "Section-37/GG0170A3",
+                    "text": "Roll left and right - functional ability during 3 day assessment period [CMS Assessment]",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA10055-4",
+                          "display": "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort."
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "linkId": "Section-37/GG0170B3",
+                    "text": "Sit to lying - functional ability during 3 day assessment period [CMS Assessment]",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA10055-4",
+                          "display": "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort."
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "linkId": "Section-37/GG0170C3",
+                    "text": "Lying to sitting on side of bed - functional ability during 3 day assessment period [CMS Assessment]",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA10055-4",
+                          "display": "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort."
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "linkId": "Section-37/GG0170D3",
+                    "text": "Sit to stand - functional ability during 3 day assessment period [CMS Assessment]",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA10055-4",
+                          "display": "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort."
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "linkId": "Section-37/GG0170E3",
+                    "text": "Chair/bed-to-chair transfer - functional ability during 3 day assessment period [CMS Assessment]",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA11759-0",
+                          "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "linkId": "Section-37/GG0170F3",
+                    "text": "Toilet transfer - functional ability during 3 day assessment period [CMS Assessment]",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA11759-0",
+                          "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "linkId": "Section-37/GG0170G3",
+                    "text": "Car transfer - functional ability during 3 day assessment period [CMS Assessment]",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA26735-3",
+                          "display": "Not attempted due to medical condition or safety concerns"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "linkId": "Section-37/GG0170I3",
+                    "text": "Walk 10 feet - functional ability during 3 day assessment period [CMS Assessment]",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA11759-0",
+                          "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "linkId": "Section-37/GG0170J3",
+                    "text": "Walk 50 feet with two turns - functional ability during 3 day assessment period [CMS Assessment]",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA11759-0",
+                          "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "linkId": "Section-37/GG0170K3",
+                    "text": "Walk 150 feet - functional ability during 3 day assessment period [CMS Assessment]",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA11759-0",
+                          "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "linkId": "Section-37/GG0170L3",
+                    "text": "Walking 10 feet on uneven surfaces - functional ability during 3 day assessment period [CMS Assessment]",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA26735-3",
+                          "display": "Not attempted due to medical condition or safety concerns"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "linkId": "Section-37/GG0170M3",
+                    "text": "1 step (curb) - functional ability during 3 day assessment period [CMS Assessment]",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA26735-3",
+                          "display": "Not attempted due to medical condition or safety concerns"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "linkId": "Section-37/GG0170N3",
+                    "text": "4 steps - functional ability during 3 day assessment period [CMS Assessment]",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA26735-3",
+                          "display": "Not attempted due to medical condition or safety concerns"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "linkId": "Section-37/GG0170O3",
+                    "text": "12 steps - functional ability during 3 day assessment period [CMS Assessment]",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA26735-3",
+                          "display": "Not attempted due to medical condition or safety concerns"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "linkId": "Section-37/GG0170P3",
+                    "text": "Picking up object - functional ability during 3 day assessment period [CMS Assessment]",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA26735-3",
+                          "display": "Not attempted due to medical condition or safety concerns"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "linkId": "Section-37/GG0170R3",
+                    "text": "Wheel 50 feet with two turns - functional ability during 3 day assessment period [CMS Assessment]",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA11759-0",
+                          "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "linkId": "Section-37/GG0170S3",
+                    "text": "Wheel 150 feet - functional ability during 3 day assessment period [CMS Assessment]",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA11759-0",
+                          "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "resourceType": "QuestionnaireResponse"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "QuestionnaireResponse/FPIG-QResponse-Hospital-Discharge-Mobility-1"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/FPIG-Practitioner-LunaBaskins",
+      "resource": {
+        "id": "FPIG-Practitioner-LunaBaskins",
+        "active": true,
+        "name": [
+          {
+            "text": "Luna Baskins",
+            "family": "Baskins",
+            "given": [
+              "Luna"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone"
+          }
+        ],
+        "gender": "female",
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/FPIG-Practitioner-LunaBaskins"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-7",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-7",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-01"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83212-1",
+              "display": "Sit to stand - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-08T16:00:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-PT-SallySmith"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA11759-0",
+              "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-Hospital-Admission-Mobility-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-7"
+      }
+    },
+    {
+      "fullUrl": "PractitionerRole/FPIG-provider-role-pcp",
+      "resource": {
+        "id": "FPIG-provider-role-pcp",
+        "active": true,
+        "practitioner": {
+          "reference": "Practitioner/FPIG-Practitioner-JohnSmith"
+        },
+        "organization": {
+          "reference": "Organization/FPIG-provider-org-01"
+        },
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "261QP2300X",
+                "display": "Primary Care Clinic/Center"
+              }
+            ]
+          }
+        ],
+        "location": [
+          {
+            "reference": "Location/FPIG-provider-org-loc-01"
+          }
+        ],
+        "resourceType": "PractitionerRole"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "PractitionerRole/FPIG-provider-role-pcp"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-3",
+      "resource": {
+        "id": "FPIG-FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-02"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83232-9",
+              "display": "Eating - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-11T16:32:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-OT-JenCadbury"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA10055-4",
+              "display": "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort."
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-SNF-Admission-Mobility-SelfCare-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-3"
+      }
+    },
+    {
+      "fullUrl": "Organization/FPIG-Org-03",
+      "resource": {
+        "id": "FPIG-Org-03",
+        "name": "Sky Harbor Home Health Services",
+        "resourceType": "Organization"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Organization/FPIG-Org-03"
+      }
+    },
+    {
+      "fullUrl": "DeviceUseStatement/FPIG-FSC-Hospital-Discharge-Mobility-1-UseOfDevice-2",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Discharge-Mobility-1-UseOfDevice-2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-use-of-device"
+          ]
+        },
+        "status": "active",
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "derivedFrom": [
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1"
+          }
+        ],
+        "recordedOn": "2020-07-10T14:34:00-05:00",
+        "source": {
+          "reference": "FPIG-Practitioner-RonMarble"
+        },
+        "device": {
+          "reference": "Device/FPIG-CMS-Device-RollingWalker"
+        },
+        "resourceType": "DeviceUseStatement"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DeviceUseStatement/FPIG-FSC-Hospital-Discharge-Mobility-1-UseOfDevice-2"
+      }
+    },
+    {
+      "fullUrl": "PractitionerRole/FPIG-Role-PT-LunaBaskins",
+      "resource": {
+        "id": "FPIG-Role-PT-LunaBaskins",
+        "active": true,
+        "practitioner": {
+          "reference": "Practitioner/FPIG-Practitioner-LunaBaskins"
+        },
+        "organization": {
+          "reference": "Organization/FPIG-Org-03"
+        },
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "36682004",
+                "display": "Physiotherapist"
+              }
+            ]
+          }
+        ],
+        "location": [
+          {
+            "reference": "Location/FPIG-Org-Loc-03"
+          }
+        ],
+        "resourceType": "PractitionerRole"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "PractitionerRole/FPIG-Role-PT-LunaBaskins"
+      }
+    },
+    {
+      "fullUrl": "PractitionerRole/FPIG-Role-PT-RonMarble",
+      "resource": {
+        "id": "FPIG-Role-PT-RonMarble",
+        "active": true,
+        "practitioner": {
+          "reference": "Practitioner/FPIG-Practitioner-RonMarble"
+        },
+        "organization": {
+          "reference": "Organization/FPIG-Org-01"
+        },
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "36682004",
+                "display": "Physiotherapist"
+              }
+            ]
+          }
+        ],
+        "location": [
+          {
+            "reference": "Location/FPIG-Org-Loc-01"
+          }
+        ],
+        "resourceType": "PractitionerRole"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "PractitionerRole/FPIG-Role-PT-RonMarble"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-6",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-6",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-01"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83214-7",
+              "display": "Lying to sitting on side of bed - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-10T14:34:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-PT-RonMarble"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA10055-4",
+              "display": "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort."
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-Hospital-Discharge-Mobility-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-6"
+      }
+    },
+    {
+      "fullUrl": "Location/FPIG-Org-Loc-03",
+      "resource": {
+        "id": "FPIG-Org-Loc-03",
+        "status": "active",
+        "name": "Sky Harbor Home Health Services",
+        "address": {
+          "text": "8810 Old Sky Harbor, San Antonio, TX 78242"
+        },
+        "resourceType": "Location"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Location/FPIG-Org-Loc-03"
+      }
+    },
+    {
+      "fullUrl": "DeviceUseStatement/FPIG-FSC-Hospital-Discharge-Mobility-1-UseOfDevice-5",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Discharge-Mobility-1-UseOfDevice-5",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-use-of-device"
+          ]
+        },
+        "status": "active",
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "derivedFrom": [
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1"
+          }
+        ],
+        "recordedOn": "2020-07-10T14:34:00-05:00",
+        "source": {
+          "reference": "FPIG-Practitioner-RonMarble"
+        },
+        "device": {
+          "reference": "Device/FPIG-CMS-Device-HandleBars"
+        },
+        "resourceType": "DeviceUseStatement"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DeviceUseStatement/FPIG-FSC-Hospital-Discharge-Mobility-1-UseOfDevice-5"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-14",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-14",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-01"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83206-3",
+              "display": "Car transfer - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-10T14:34:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-PT-RonMarble"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA26735-3",
+              "display": "Not attempted due to medical condition or safety concerns"
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-Hospital-Discharge-Mobility-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-14"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-15",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-15",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-01"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83204-8",
+              "display": "Walk 10 feet - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-08T16:00:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-PT-SallySmith"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA26735-3",
+              "display": "Not attempted due to medical condition or safety concerns"
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-Hospital-Admission-Mobility-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-15"
+      }
+    },
+    {
+      "fullUrl": "Device/FPIG-CMS-Device-BedsideRails",
+      "resource": {
+        "id": "FPIG-CMS-Device-BedsideRails",
+        "deviceName": [
+          {
+            "name": "Bedside rails, device",
+            "type": "user-friendly-name"
+          }
+        ],
+        "resourceType": "Device"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Device/FPIG-CMS-Device-BedsideRails"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-23",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-23",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-01"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83196-6",
+              "display": "1 step (curb) - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-08T16:00:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-PT-SallySmith"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA26735-3",
+              "display": "Not attempted due to medical condition or safety concerns"
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-Hospital-Admission-Mobility-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-23"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-18",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-18",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-01"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83202-2",
+              "display": "Walk 50 feet with two turns - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-10T14:34:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-PT-RonMarble"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA11759-0",
+              "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-Hospital-Discharge-Mobility-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-18"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-34",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-34",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-01"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83235-2",
+              "display": "Wheel 150 feet - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-10T14:34:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-PT-RonMarble"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA11759-0",
+              "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-Hospital-Discharge-Mobility-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-34"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-22",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-22",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-01"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83198-2",
+              "display": "Walking 10 feet on uneven surfaces - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-10T14:34:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-PT-RonMarble"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA26735-3",
+              "display": "Not attempted due to medical condition or safety concerns"
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-Hospital-Discharge-Mobility-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-22"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-19",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-19",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-01"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83200-6",
+              "display": "Walk 150 feet - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-08T16:00:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-PT-SallySmith"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA26735-3",
+              "display": "Not attempted due to medical condition or safety concerns"
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-Hospital-Admission-Mobility-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-19"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-15",
+      "resource": {
+        "id": "FPIG-FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-15",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-02"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83226-1",
+              "display": "Shower/bathe self - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-11T16:32:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-OT-JenCadbury"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA26735-3",
+              "display": "Not attempted due to medical condition or safety concerns"
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-SNF-Admission-Mobility-SelfCare-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-15"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/FPIG-Practitioner-JohnSmith",
+      "resource": {
+        "id": "FPIG-Practitioner-JohnSmith",
+        "active": true,
+        "name": [
+          {
+            "text": "John Smith",
+            "family": "Smith",
+            "given": [
+              "John"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone"
+          }
+        ],
+        "gender": "male",
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/FPIG-Practitioner-JohnSmith"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-1",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-01"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83218-8",
+              "display": "Roll left and right - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-08T16:00:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-PT-SallySmith"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA11759-0",
+              "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-Hospital-Admission-Mobility-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-1"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-23",
+      "resource": {
+        "id": "FPIG-FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-23",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-02"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83222-0",
+              "display": "Lower body dressing - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-11T16:32:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-OT-JenCadbury"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA11759-0",
+              "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-SNF-Admission-Mobility-SelfCare-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-23"
+      }
+    },
+    {
+      "fullUrl": "DeviceUseStatement/FPIG-FSC-Hospital-Discharge-Mobility-1-UseOfDevice-4",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Discharge-Mobility-1-UseOfDevice-4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-use-of-device"
+          ]
+        },
+        "status": "active",
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "derivedFrom": [
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1"
+          }
+        ],
+        "recordedOn": "2020-07-10T14:34:00-05:00",
+        "source": {
+          "reference": "FPIG-Practitioner-RonMarble"
+        },
+        "device": {
+          "reference": "Device/FPIG-CMS-Device-RaisedToiletSeat"
+        },
+        "resourceType": "DeviceUseStatement"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DeviceUseStatement/FPIG-FSC-Hospital-Discharge-Mobility-1-UseOfDevice-4"
+      }
+    },
+    {
+      "fullUrl": "Location/FPIG-Org-Loc-02",
+      "resource": {
+        "id": "FPIG-Org-Loc-02",
+        "status": "active",
+        "name": "Happy Nursing Facility",
+        "address": {
+          "text": "8100 Pinebrook Dr, San Antonio, TX, 78230"
+        },
+        "resourceType": "Location"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Location/FPIG-Org-Loc-02"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-19",
+      "resource": {
+        "id": "FPIG-FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-19",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-02"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83224-6",
+              "display": "Upper body dressing - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-11T16:32:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-OT-JenCadbury"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA10055-4",
+              "display": "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort."
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-SNF-Admission-Mobility-SelfCare-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-19"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-17",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-17",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-01"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83202-2",
+              "display": "Walk 50 feet with two turns - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-08T16:00:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-PT-SallySmith"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA26735-3",
+              "display": "Not attempted due to medical condition or safety concerns"
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-Hospital-Admission-Mobility-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-17"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/FPIG-Practitioner-DanielGranger",
+      "resource": {
+        "id": "FPIG-Practitioner-DanielGranger",
+        "active": true,
+        "name": [
+          {
+            "text": "Daniel Granger",
+            "family": "Granger",
+            "given": [
+              "Daniel"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone"
+          }
+        ],
+        "gender": "male",
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/FPIG-Practitioner-DanielGranger"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-16",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-16",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-01"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83204-8",
+              "display": "Walk 10 feet - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-10T14:34:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-PT-RonMarble"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA11759-0",
+              "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-Hospital-Discharge-Mobility-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-16"
+      }
+    },
+    {
+      "fullUrl": "Location/FPIG-Org-Loc-01",
+      "resource": {
+        "id": "FPIG-Org-Loc-01",
+        "status": "active",
+        "name": "San Antonio General Hospital",
+        "address": {
+          "text": "26022 Meadowlark Bay, San Antonio, TX 78260"
+        },
+        "resourceType": "Location"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Location/FPIG-Org-Loc-01"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/FPIG-Practitioner-SallySmith",
+      "resource": {
+        "id": "FPIG-Practitioner-SallySmith",
+        "active": true,
+        "name": [
+          {
+            "text": "Sally Smith",
+            "family": "Smith",
+            "given": [
+              "Sally"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone"
+          }
+        ],
+        "gender": "female",
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/FPIG-Practitioner-SallySmith"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-20",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-20",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-01"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83200-6",
+              "display": "Walk 150 feet - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-10T14:34:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-PT-RonMarble"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA11759-0",
+              "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-Hospital-Discharge-Mobility-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-20"
+      }
+    },
+    {
+      "fullUrl": "DeviceUseStatement/FPIG-FSC-Hospital-Admission-Mobility-1-UseOfDevice-6",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Admission-Mobility-1-UseOfDevice-6",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-use-of-device"
+          ]
+        },
+        "status": "active",
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "derivedFrom": [
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1"
+          }
+        ],
+        "recordedOn": "2020-07-08T16:00:00-05:00",
+        "source": {
+          "reference": "FPIG-Practitioner-SallySmith"
+        },
+        "device": {
+          "reference": "Device/FPIG-CMS-Device-BedsideRails"
+        },
+        "resourceType": "DeviceUseStatement"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DeviceUseStatement/FPIG-FSC-Hospital-Admission-Mobility-1-UseOfDevice-6"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-21",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-21",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-01"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83198-2",
+              "display": "Walking 10 feet on uneven surfaces - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-08T16:00:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-PT-SallySmith"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA26735-3",
+              "display": "Not attempted due to medical condition or safety concerns"
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-Hospital-Admission-Mobility-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-21"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/FPIG-Practitioner-JenCadbury",
+      "resource": {
+        "id": "FPIG-Practitioner-JenCadbury",
+        "active": true,
+        "name": [
+          {
+            "text": "Jen Cadbury",
+            "family": "Cadbury",
+            "given": [
+              "Jen"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone"
+          }
+        ],
+        "gender": "female",
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/FPIG-Practitioner-JenCadbury"
+      }
+    },
+    {
+      "fullUrl": "QuestionnaireResponse/FPIG-QResponse-SNF-Admission-Mobility-SelfCare-1",
+      "resource": {
+        "id": "FPIG-QResponse-SNF-Admission-Mobility-SelfCare-1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaireresponse"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>questionnaire</b>: <a href=\"http://example.org/Questionnaire/MDS3.0-NC-1.17\">http://example.org/Questionnaire/MDS3.0-NC-1.17</a></p><p><b>status</b>: completed</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>authored</b>: Jul 11, 2020 9:32:00 PM</p><p><b>author</b>: <a href=\"PractitionerRole-Role-OT-JenCadbury.html\">Generated Summary: active: true; <span title=\"Codes: {http://snomed.info/sct 80546007}\">Occupational therapist</span></a></p><blockquote><p><b>item</b></p><p><b>linkId</b>: Section-37</p><p><b>text</b>: Functional abilities and goals - admission [CMS Assessment]</p><blockquote><p><b>item</b></p><p><b>linkId</b>: Section-37/GG0130_1</p><p><b>text</b>: Self-care - admission performance [CMS Assessment]</p></blockquote></blockquote></div>"
+        },
+        "questionnaire": "http://example.org/Questionnaire/MDS3.0-NC-1.17",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/FPIG-PatientBSJ1"
+        },
+        "authored": "2020-07-11T16:32:00-05:00",
+        "author": {
+          "reference": "PractitionerRole/Role-OT-JenCadbury"
+        },
+        "item": [
+          {
+            "linkId": "Section-37",
+            "text": "Functional abilities and goals - admission [CMS Assessment]",
+            "item": [
+              {
+                "linkId": "Section-37/GG0130_1",
+                "text": "Self-care - admission performance [CMS Assessment]",
+                "item": [
+                  {
+                    "linkId": "Section-37/GG0130A1",
+                    "text": "Eating",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA10055-4",
+                          "display": "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort."
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "linkId": "Section-37/GG0130B1",
+                    "text": "Oral hygiene",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA10055-4",
+                          "display": "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort."
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "linkId": "Section-37/GG0130C1",
+                    "text": "Toileting hygiene",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA10055-4",
+                          "display": "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort."
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "linkId": "Section-37/GG0130E1",
+                    "text": "Shower/bathe self",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA26735-3",
+                          "display": "Not attempted due to medical condition or safety concerns"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "linkId": "Section-37/GG0130F1",
+                    "text": "Upper body dressing",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA10055-4",
+                          "display": "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort."
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "linkId": "Section-37/GG0130G1",
+                    "text": "Lower body dressing",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA11759-0",
+                          "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "linkId": "Section-37/GG0130H1",
+                    "text": "Putting on/taking off footwear",
+                    "answer": [
+                      {
+                        "valueCoding": {
+                          "system": "http://loinc.org",
+                          "code": "LA11759-0",
+                          "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "resourceType": "QuestionnaireResponse"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "QuestionnaireResponse/FPIG-QResponse-SNF-Admission-Mobility-SelfCare-1"
+      }
+    },
+    {
+      "fullUrl": "Device/FPIG-CMS-Device-RollingWalker",
+      "resource": {
+        "id": "FPIG-CMS-Device-RollingWalker",
+        "deviceName": [
+          {
+            "name": "Rolling walker",
+            "type": "user-friendly-name"
+          }
+        ],
+        "resourceType": "Device"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Device/FPIG-CMS-Device-RollingWalker"
+      }
+    },
+    {
+      "fullUrl": "Device/FPIG-CMS-Device-Walker",
+      "resource": {
+        "id": "FPIG-CMS-Device-Walker",
+        "deviceName": [
+          {
+            "name": "Walker",
+            "type": "user-friendly-name"
+          }
+        ],
+        "resourceType": "Device"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Device/FPIG-CMS-Device-Walker"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-Narrative-History-Functional-Status-1",
+      "resource": {
+        "id": "FPIG-Narrative-History-Functional-Status-1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-nhfs"
+          ]
+        },
+        "text": {
+          "status": "extensions",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>ObservationEventLocation</b>: <a href=\"Location-provider-org-loc-01.html\">Generated Summary: status: active; name: Primary Care</a></p><p><b>AssistanceRequired</b>: <span title=\"Codes: {http://loinc.org LA11539-6}\">Independent - Patient completed the activities by him/herself, with or without an assistive device, with no assistance from a helper.</span></p><p></p><p><b>category</b>: <span title=\"Codes: {http://hl7.org/fhir/us/pacio-fs/CodeSystem/pacio-cat-fs functioning}\">Functioning</span></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 10158-4}\">History of Functional status Narrative</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>effective</b>: 2019-07-01 --&gt; 2020-11-30</p><p><b>performer</b>: <a href=\"PractitionerRole-provider-role-pcp.html\">Generated Summary: active: true; <span title=\"Codes: {http://nucc.org/provider-taxonomy 261QP2300X}\">Primary Care Clinic/Center</span></a></p><p><b>value</b>: Patient is a community ambulator, able to attend desired activites and able to care for herself independently.</p></div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/provider-org-loc-01"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/assistance-required",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "LA11539-6",
+                  "display": "Independent - Patient completed the activities by him/herself, with or without an assistive device, with no assistance from a helper."
+                }
+              ]
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fs/CodeSystem/pacio-cat-fs",
+                "code": "functioning"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "10158-4",
+              "display": "History of Functional status Narrative"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-PatientBSJ1"
+        },
+        "effectivePeriod": {
+          "start": "2019-07-01",
+          "end": "2020-11-30"
+        },
+        "performer": [
+          {
+            "reference": "PractitionerRole/provider-role-pcp"
+          }
+        ],
+        "valueString": "Patient is a community ambulator, able to attend desired activites and able to care for herself independently.",
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-Narrative-History-Functional-Status-1"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-2",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-01"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83218-8",
+              "display": "Roll left and right - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-10T14:34:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-PT-RonMarble"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA10055-4",
+              "display": "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort."
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-Hospital-Discharge-Mobility-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-2"
+      }
+    },
+    {
+      "fullUrl": "DeviceUseStatement/FPIG-FSC-Hospital-Admission-Mobility-1-UseOfDevice-7",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Admission-Mobility-1-UseOfDevice-7",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-use-of-device"
+          ]
+        },
+        "status": "active",
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "derivedFrom": [
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1"
+          }
+        ],
+        "recordedOn": "2020-07-08T16:00:00-05:00",
+        "source": {
+          "reference": "FPIG-Practitioner-SallySmith"
+        },
+        "device": {
+          "reference": "Device/FPIG-CMS-Device-Walker"
+        },
+        "resourceType": "DeviceUseStatement"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DeviceUseStatement/FPIG-FSC-Hospital-Admission-Mobility-1-UseOfDevice-7"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-7",
+      "resource": {
+        "id": "FPIG-FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-7",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-02"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83230-3",
+              "display": "Oral hygiene - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-11T16:32:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-OT-JenCadbury"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA10055-4",
+              "display": "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort."
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-SNF-Admission-Mobility-SelfCare-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-7"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-3",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-01"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83216-2",
+              "display": "Sit to lying - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-08T16:00:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-PT-SallySmith"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA11759-0",
+              "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-Hospital-Admission-Mobility-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-3"
+      }
+    },
+    {
+      "fullUrl": "PractitionerRole/FPIG-Role-OT-DanielGranger",
+      "resource": {
+        "id": "FPIG-Role-OT-DanielGranger",
+        "active": true,
+        "practitioner": {
+          "reference": "Practitioner/FPIG-Practitioner-DanielGranger"
+        },
+        "organization": {
+          "reference": "Organization/FPIG-Org-02"
+        },
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "80546007",
+                "display": "Occupational therapist"
+              }
+            ]
+          }
+        ],
+        "location": [
+          {
+            "reference": "Location/FPIG-Org-Loc-02"
+          }
+        ],
+        "resourceType": "PractitionerRole"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "PractitionerRole/FPIG-Role-OT-DanielGranger"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-26",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-26",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-01"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83194-1",
+              "display": "4 steps - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-10T14:34:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-PT-RonMarble"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA26735-3",
+              "display": "Not attempted due to medical condition or safety concerns"
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-Hospital-Discharge-Mobility-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-26"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-30",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-30",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-01"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83190-9",
+              "display": "Picking up object - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-10T14:34:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-PT-RonMarble"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA26735-3",
+              "display": "Not attempted due to medical condition or safety concerns"
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-Hospital-Discharge-Mobility-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-30"
+      }
+    },
+    {
+      "fullUrl": "PractitionerRole/FPIG-Role-PT-ScottDumble",
+      "resource": {
+        "id": "FPIG-Role-PT-ScottDumble",
+        "active": true,
+        "practitioner": {
+          "reference": "Practitioner/FPIG-Practitioner-ScottDumble"
+        },
+        "organization": {
+          "reference": "Organization/FPIG-Org-03"
+        },
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "36682004",
+                "display": "Physiotherapist"
+              }
+            ]
+          }
+        ],
+        "location": [
+          {
+            "reference": "Location/FPIG-Org-Loc-03"
+          }
+        ],
+        "resourceType": "PractitionerRole"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "PractitionerRole/FPIG-Role-PT-ScottDumble"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/FPIG-Practitioner-RonMarble",
+      "resource": {
+        "id": "FPIG-Practitioner-RonMarble",
+        "active": true,
+        "name": [
+          {
+            "text": "Ron Marble",
+            "family": "Marble",
+            "given": [
+              "Ron"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone"
+          }
+        ],
+        "gender": "male",
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/FPIG-Practitioner-RonMarble"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Admission-Mobility-1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-collection"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-01"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/device-patient-used",
+            "valueReference": {
+              "reference": "DeviceUseStatement/FPIG-FSC-Hospital-Admission-Mobility-1-UseOfDevice-6"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/device-patient-used",
+            "valueReference": {
+              "reference": "DeviceUseStatement/FPIG-FSC-Hospital-Admission-Mobility-1-UseOfDevice-7"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "88330-6",
+              "display": "Mobility - admission performance during 3 day assessment period [CMS Assessment]"
+            }
+          ],
+          "text": "Mobility - admission performance during 3 day assessment period [CMS Assessment]"
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-08T16:00:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-PT-SallySmith"
+          }
+        ],
+        "hasMember": [
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-1"
+          },
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-3"
+          },
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-5"
+          },
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-7"
+          },
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-9"
+          },
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-11"
+          },
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-13"
+          },
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-15"
+          },
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-17"
+          },
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-19"
+          },
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-21"
+          },
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-23"
+          },
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-25"
+          },
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-27"
+          },
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-29"
+          },
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-31"
+          },
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-33"
+          }
+        ],
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-Hospital-Admission-Mobility-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-27",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-27",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-01"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83192-5",
+              "display": "12 steps - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-08T16:00:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-PT-SallySmith"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA26735-3",
+              "display": "Not attempted due to medical condition or safety concerns"
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-Hospital-Admission-Mobility-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-27"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-31",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-31",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-01"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83188-3",
+              "display": "Wheel 50 feet with two turns - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-08T16:00:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-PT-SallySmith"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA26735-3",
+              "display": "Not attempted due to medical condition or safety concerns"
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-Hospital-Admission-Mobility-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-31"
+      }
+    },
+    {
+      "fullUrl": "Device/FPIG-CMS-Device-RaisedToiletSeat",
+      "resource": {
+        "id": "FPIG-CMS-Device-RaisedToiletSeat",
+        "deviceName": [
+          {
+            "name": "Raised toilet seat",
+            "type": "user-friendly-name"
+          }
+        ],
+        "resourceType": "Device"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Device/FPIG-CMS-Device-RaisedToiletSeat"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-11",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-11",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-01"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83208-9",
+              "display": "Toilet transfer - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-08T16:00:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-PT-SallySmith"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA26735-3",
+              "display": "Not attempted due to medical condition or safety concerns"
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-Hospital-Admission-Mobility-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-11"
+      }
+    },
+    {
+      "fullUrl": "Organization/FPIG-provider-org-01",
+      "resource": {
+        "id": "FPIG-provider-org-01",
+        "name": "Primary Care",
+        "resourceType": "Organization"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Organization/FPIG-provider-org-01"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/FPIG-Practitioner-ScottDumble",
+      "resource": {
+        "id": "FPIG-Practitioner-ScottDumble",
+        "active": true,
+        "name": [
+          {
+            "text": "Scott Dumble",
+            "family": "Dumble",
+            "given": [
+              "Scott"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone"
+          }
+        ],
+        "gender": "male",
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/FPIG-Practitioner-ScottDumble"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-10",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-10",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-01"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83210-5",
+              "display": "Bed-to-chair transfer - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-10T14:34:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-PT-RonMarble"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA11759-0",
+              "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-Hospital-Discharge-Mobility-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-10"
+      }
+    },
+    {
+      "fullUrl": "DeviceUseStatement/FPIG-FSC-Hospital-Discharge-Mobility-1-UseOfDevice-1",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Discharge-Mobility-1-UseOfDevice-1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-use-of-device"
+          ]
+        },
+        "status": "active",
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "derivedFrom": [
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1"
+          }
+        ],
+        "recordedOn": "2020-07-10T14:34:00-05:00",
+        "source": {
+          "reference": "FPIG-Practitioner-RonMarble"
+        },
+        "device": {
+          "reference": "Device/FPIG-CMS-Device-BedsideRails"
+        },
+        "resourceType": "DeviceUseStatement"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DeviceUseStatement/FPIG-FSC-Hospital-Discharge-Mobility-1-UseOfDevice-1"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-SNF-Admission-Mobility-SelfCare-1",
+      "resource": {
+        "id": "FPIG-FSC-SNF-Admission-Mobility-SelfCare-1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-collection"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-02"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83233-7",
+              "display": "Self-care - admission performance [CMS Assessment]"
+            }
+          ],
+          "text": "Self-care - admission performance [CMS Assessment]"
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-11T16:32:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-OT-JenCadbury"
+          }
+        ],
+        "hasMember": [
+          {
+            "reference": "Observation/FPIG-FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-3"
+          },
+          {
+            "reference": "Observation/FPIG-FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-7"
+          },
+          {
+            "reference": "Observation/FPIG-FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-11"
+          },
+          {
+            "reference": "Observation/FPIG-FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-15"
+          },
+          {
+            "reference": "Observation/FPIG-FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-19"
+          },
+          {
+            "reference": "Observation/FPIG-FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-23"
+          },
+          {
+            "reference": "Observation/FPIG-FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-27"
+          }
+        ],
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-SNF-Admission-Mobility-SelfCare-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-SNF-Admission-Mobility-SelfCare-1"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-8",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-01"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83212-1",
+              "display": "Sit to stand - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-10T14:34:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-PT-RonMarble"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA10055-4",
+              "display": "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort."
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-Hospital-Discharge-Mobility-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-8"
+      }
+    },
+    {
+      "fullUrl": "Organization/FPIG-Org-01",
+      "resource": {
+        "id": "FPIG-Org-01",
+        "name": "San Antonio General Hospital",
+        "resourceType": "Organization"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Organization/FPIG-Org-01"
+      }
+    },
+    {
+      "fullUrl": "Patient/FPIG-patientBSJ1",
+      "resource": {
+        "id": "FPIG-patientBSJ1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+          ]
+        },
+        "active": true,
+        "name": [
+          {
+            "text": "Betsy Smith-Johnson",
+            "family": "Smith-Johnson",
+            "given": [
+              "Betsy"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "use": "mobile"
+          }
+        ],
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "phone"
+              }
+            ]
+          }
+        ],
+        "communication": [
+          {
+            "preferred": true
+          }
+        ],
+        "resourceType": "Patient"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Patient/FPIG-patientBSJ1"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-27",
+      "resource": {
+        "id": "FPIG-FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-27",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-02"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83220-4",
+              "display": "Putting on/taking off footwear - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-11T16:32:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-OT-JenCadbury"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA11759-0",
+              "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-SNF-Admission-Mobility-SelfCare-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-27"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-5",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-5",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-01"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83214-7",
+              "display": "Lying to sitting on side of bed - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-08T16:00:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-PT-SallySmith"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA11759-0",
+              "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-Hospital-Admission-Mobility-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-5"
+      }
+    },
+    {
+      "fullUrl": "PractitionerRole/FPIG-Role-OT-JenCadbury",
+      "resource": {
+        "id": "FPIG-Role-OT-JenCadbury",
+        "active": true,
+        "practitioner": {
+          "reference": "Practitioner/FPIG-Practitioner-JenCadbury"
+        },
+        "organization": {
+          "reference": "Organization/FPIG-Org-02"
+        },
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "80546007",
+                "display": "Occupational therapist"
+              }
+            ]
+          }
+        ],
+        "location": [
+          {
+            "reference": "Location/FPIG-Org-Loc-02"
+          }
+        ],
+        "resourceType": "PractitionerRole"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "PractitionerRole/FPIG-Role-OT-JenCadbury"
+      }
+    },
+    {
+      "fullUrl": "Device/FPIG-CMS-Device-HandleBars",
+      "resource": {
+        "id": "FPIG-CMS-Device-HandleBars",
+        "deviceName": [
+          {
+            "name": "Handle bars",
+            "type": "user-friendly-name"
+          }
+        ],
+        "resourceType": "Device"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Device/FPIG-CMS-Device-HandleBars"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-4",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-01"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83216-2",
+              "display": "Sit to lying - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-10T14:34:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-PT-RonMarble"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA10055-4",
+              "display": "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort."
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-Hospital-Discharge-Mobility-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-4"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-11",
+      "resource": {
+        "id": "FPIG-FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-11",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-02"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83228-7",
+              "display": "Toileting hygiene - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-11T16:32:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-OT-JenCadbury"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA10055-4",
+              "display": "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort."
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-SNF-Admission-Mobility-SelfCare-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-11"
+      }
+    },
+    {
+      "fullUrl": "PractitionerRole/FPIG-Role-PT-SallySmith",
+      "resource": {
+        "id": "FPIG-Role-PT-SallySmith",
+        "active": true,
+        "practitioner": {
+          "reference": "Practitioner/FPIG-Practitioner-SallySmith"
+        },
+        "organization": {
+          "reference": "Organization/FPIG-Org-01"
+        },
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "36682004",
+                "display": "Physiotherapist"
+              }
+            ]
+          }
+        ],
+        "location": [
+          {
+            "reference": "Location/FPIG-Org-Loc-01"
+          }
+        ],
+        "resourceType": "PractitionerRole"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "PractitionerRole/FPIG-Role-PT-SallySmith"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Discharge-Mobility-1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-collection"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-01"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/device-patient-used",
+            "valueReference": {
+              "reference": "DeviceUseStatement/FPIG-FSC-Hospital-Discharge-Mobility-1-UseOfDevice-1"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/device-patient-used",
+            "valueReference": {
+              "reference": "DeviceUseStatement/FPIG-FSC-Hospital-Discharge-Mobility-1-UseOfDevice-2"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/device-patient-used",
+            "valueReference": {
+              "reference": "DeviceUseStatement/FPIG-FSC-Hospital-Discharge-Mobility-1-UseOfDevice-3"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/device-patient-used",
+            "valueReference": {
+              "reference": "DeviceUseStatement/FPIG-FSC-Hospital-Discharge-Mobility-1-UseOfDevice-4"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/device-patient-used",
+            "valueReference": {
+              "reference": "DeviceUseStatement/FPIG-FSC-Hospital-Discharge-Mobility-1-UseOfDevice-5"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "88331-4",
+              "display": "Mobility - discharge performance during 3 day assessment period [CMS Assessment]"
+            }
+          ],
+          "text": "Mobility - discharge performance during 3 day assessment period [CMS Assessment]"
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-10T14:34:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-PT-RonMarble"
+          }
+        ],
+        "hasMember": [
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-2"
+          },
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-4"
+          },
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-6"
+          },
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-8"
+          },
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-10"
+          },
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-12"
+          },
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-14"
+          },
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-16"
+          },
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-18"
+          },
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-20"
+          },
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-22"
+          },
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-24"
+          },
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-26"
+          },
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-28"
+          },
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-30"
+          },
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-32"
+          },
+          {
+            "reference": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1-Ob-Question-34"
+          }
+        ],
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-Hospital-Discharge-Mobility-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-Hospital-Discharge-Mobility-1"
+      }
+    },
+    {
+      "fullUrl": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-9",
+      "resource": {
+        "id": "FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-9",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/FPIG-Org-Loc-01"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "83210-5",
+              "display": "Bed-to-chair transfer - functional ability during 3 day assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/FPIG-patientBSJ1"
+        },
+        "effectiveDateTime": "2020-07-08T16:00:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/FPIG-Role-PT-SallySmith"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA27665-1",
+              "display": "Dependent - Helper does all of the effort. Patient does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the patient to complete the activity."
+            }
+          ]
+        },
+        "derivedFrom": [
+          {
+            "reference": "QuestionnaireResponse/FPIG-QResponse-Hospital-Admission-Mobility-1"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/FPIG-FSC-Hospital-Admission-Mobility-1-Ob-Question-9"
+      }
+    }
+  ],
+  "resourceType": "Bundle"
+}

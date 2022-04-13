@@ -1,0 +1,3 @@
+patient.contact[key],contact.name.text,contact.relationship.coding[...],contact.address.text,contact.telecom.value
+patientBSJ1,Charles Johnson,http://terminology.hl7.org/CodeSystem/v3-RoleCode#SONC||http://terminology.hl7.org/CodeSystem/v2-0131#C||http://terminology.hl7.org/CodeSystem/v3-RoleCode#GUARD,"100 Montana St., San Antonio, TX 78203",(210) 222-3333
+patientBSJ1,Debra Johnson,http://terminology.hl7.org/CodeSystem/v3-RoleCode#DAUC,"333 W. Camden St., Baltimore, MD 21201",(410) 444-5555

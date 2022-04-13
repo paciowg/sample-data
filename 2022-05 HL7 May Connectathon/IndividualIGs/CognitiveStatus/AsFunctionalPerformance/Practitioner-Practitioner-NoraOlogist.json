@@ -1,0 +1,26 @@
+{
+  "resourceType": "Practitioner",
+  "id": "Practitioner-NoraOlogist",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/sid/us-npi",
+      "value": "3668788925"
+    }
+  ],
+  "name": [
+    {
+      "given": [
+        "Nora"
+      ],
+      "family": "Ologist",
+      "text": "Nora Ologist"
+    }
+  ],
+  "active": true,
+  "gender": "female",
+  "telecom": [
+    {
+      "system": "phone"
+    }
+  ]
+}

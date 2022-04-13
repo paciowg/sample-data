@@ -1,0 +1,10 @@
+{
+  "resourceType": "Device",
+  "id": "FPIG-CMS-Device-BedsideRails",
+  "deviceName": [
+    {
+      "name": "Bedside rails, device",
+      "type": "user-friendly-name"
+    }
+  ]
+}

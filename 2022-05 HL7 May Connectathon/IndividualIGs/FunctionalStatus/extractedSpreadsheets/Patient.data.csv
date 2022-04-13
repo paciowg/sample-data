@@ -1,0 +1,2 @@
+patient.id,name.family,name.given,identifier.system,identifier.value,telecom.value,gender,birthdate,address.text,maritalStatus.code,maritalStatus.text,language.coding,contact[->],generalPractitioner.reference
+patientBSJ1,Smith-Johnson,Betsy,http://example.org/identifiers/patient,10A3D58WH1600,210-222-1111,female,11/1/50,"111 Maple Ct, San Antonio, TX 78212",U,,urn:ietf:bcp:47#en,patientBSJ1,Practitioner-JohnSmith

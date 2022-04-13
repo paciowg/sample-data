@@ -1,0 +1,3 @@
+resource.id,deviceName.name,deviceName.type,type.code,type.system,type.display
+CMS-Device-HearingAid,Hearing aid,user-friendly-name,6012004,http://snomed.info/sct,
+CMS-Device-Eyeglasses,Eyeglasses,user-friendly-name,50121007,http://snomed.info/sct,

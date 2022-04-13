@@ -1,0 +1,14 @@
+fpobservation.valueCodeableConcept[key],value.code,value.system,value.display
+2-6 days (several days),LA10998-5,http://loinc.org,2-6 days (several days)
+Correct,LA9960-1,http://loinc.org,Correct
+No,LA32-8,http://loinc.org,No
+Never or 1 day,LA10997-7,http://loinc.org,Never or 1 day
+"Yes, after cueing (""something to wear"")",LA10126-3,http://loinc.org,"Yes, after cueing (""something to wear"")"
+Yes,LA33-6,http://loinc.org,Yes
+No response,LA10996-9,http://loinc.org,No response
+Behavior not present,LA61-7,http://loinc.org,Behavior not present
+Two,LA6404-3,http://loinc.org,Two
+Missed by 1 year,LA10008-3,http://loinc.org,Missed by 1 year
+"Yes, after cueing (""a color"")",LA10978-7,http://loinc.org,"Yes, after cueing (""a color"")"
+"Yes, after cueing (""a piece of furniture"")",LA10125-5,http://loinc.org,"Yes, after cueing (""a piece of furniture"")"
+Missed by 6 days to 1 month,LA10010-9,http://loinc.org,Missed by 6 days to 1 month

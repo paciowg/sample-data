@@ -1,0 +1,8 @@
+resource.id,subject.reference,device.reference,recordedOn,source.reference,derivedFrom.reference[...],status
+FSC-Hospital-Discharge-Mobility-1-UseOfDevice-3,patientBSJ1,CMS-Device-Walker,2020-07-10T14:34:00-05:00,Practitioner-RonMarble,FSC-Hospital-Discharge-Mobility-1,active
+FSC-Hospital-Discharge-Mobility-1-UseOfDevice-2,patientBSJ1,CMS-Device-RollingWalker,2020-07-10T14:34:00-05:00,Practitioner-RonMarble,FSC-Hospital-Discharge-Mobility-1,active
+FSC-Hospital-Discharge-Mobility-1-UseOfDevice-5,patientBSJ1,CMS-Device-HandleBars,2020-07-10T14:34:00-05:00,Practitioner-RonMarble,FSC-Hospital-Discharge-Mobility-1,active
+FSC-Hospital-Discharge-Mobility-1-UseOfDevice-4,patientBSJ1,CMS-Device-RaisedToiletSeat,2020-07-10T14:34:00-05:00,Practitioner-RonMarble,FSC-Hospital-Discharge-Mobility-1,active
+FSC-Hospital-Admission-Mobility-1-UseOfDevice-6,patientBSJ1,CMS-Device-BedsideRails,2020-07-08T16:00:00-05:00,Practitioner-SallySmith,FSC-Hospital-Admission-Mobility-1,active
+FSC-Hospital-Admission-Mobility-1-UseOfDevice-7,patientBSJ1,CMS-Device-Walker,2020-07-08T16:00:00-05:00,Practitioner-SallySmith,FSC-Hospital-Admission-Mobility-1,active
+FSC-Hospital-Discharge-Mobility-1-UseOfDevice-1,patientBSJ1,CMS-Device-BedsideRails,2020-07-10T14:34:00-05:00,Practitioner-RonMarble,FSC-Hospital-Discharge-Mobility-1,active

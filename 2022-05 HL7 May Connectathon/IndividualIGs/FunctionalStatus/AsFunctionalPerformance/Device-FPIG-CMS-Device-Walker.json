@@ -1,0 +1,10 @@
+{
+  "resourceType": "Device",
+  "id": "FPIG-CMS-Device-Walker",
+  "deviceName": [
+    {
+      "name": "Walker",
+      "type": "user-friendly-name"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "FPIG-Role-PT-ScottDumble",
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "36682004",
+          "system": "http://snomed.info/sct",
+          "display": "Physiotherapist"
+        }
+      ]
+    }
+  ],
+  "active": true,
+  "practitioner": {
+    "reference": "Practitioner/FPIG-Practitioner-ScottDumble"
+  },
+  "organization": {
+    "reference": "Organization/FPIG-Org-03"
+  },
+  "location": [
+    {
+      "reference": "Location/FPIG-Org-Loc-03"
+    }
+  ]
+}

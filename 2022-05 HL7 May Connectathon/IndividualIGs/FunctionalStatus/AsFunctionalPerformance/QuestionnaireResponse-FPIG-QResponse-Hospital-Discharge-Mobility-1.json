@@ -1,0 +1,265 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "id": "FPIG-QResponse-Hospital-Discharge-Mobility-1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaireresponse"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>questionnaire</b>: <a href=\"http://example.org/Questionnaire/MDS3.0-NC-1.17\">http://example.org/Questionnaire/MDS3.0-NC-1.17</a></p><p><b>status</b>: completed</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>authored</b>: Jul 10, 2020 7:34:00 PM</p><p><b>author</b>: <a href=\"PractitionerRole-Role-PT-RonMarble.html\">Generated Summary: active: true; <span title=\"Codes: {http://snomed.info/sct 36682004}\">Physiotherapist</span></a></p><blockquote><p><b>item</b></p><p><b>linkId</b>: Section-37</p><p><b>text</b>: Functional abilities and goals - discharge [CMS Assessment]</p><blockquote><p><b>item</b></p><p><b>linkId</b>: Section-37/GG0170_3</p><p><b>text</b>: Mobility - discharge performance during 3 day assessment period [CMS Assessment]</p></blockquote></blockquote></div>"
+  },
+  "questionnaire": "http://example.org/Questionnaire/MDS3.0-NC-1.17",
+  "_questionnaire": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/display",
+        "valueString": "Minimum Data Set (MDS) - version 3.0 - Resident Assessment Instrument (RAI) version 1.17.1 [CMS Assessment]"
+      }
+    ]
+  },
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/FPIG-patientBSJ1"
+  },
+  "authored": "2020-07-10T14:34:00-05:00",
+  "author": {
+    "reference": "PractitionerRole/Role-PT-RonMarble"
+  },
+  "item": [
+    {
+      "linkId": "Section-37",
+      "text": "Functional abilities and goals - discharge [CMS Assessment]",
+      "item": [
+        {
+          "linkId": "Section-37/GG0170_3",
+          "text": "Mobility - discharge performance during 3 day assessment period [CMS Assessment]",
+          "item": [
+            {
+              "linkId": "Section-37/GG0170A3",
+              "text": "Roll left and right - functional ability during 3 day assessment period [CMS Assessment]",
+              "answer": [
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA10055-4",
+                    "display": "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort."
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0170B3",
+              "text": "Sit to lying - functional ability during 3 day assessment period [CMS Assessment]",
+              "answer": [
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA10055-4",
+                    "display": "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort."
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0170C3",
+              "text": "Lying to sitting on side of bed - functional ability during 3 day assessment period [CMS Assessment]",
+              "answer": [
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA10055-4",
+                    "display": "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort."
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0170D3",
+              "text": "Sit to stand - functional ability during 3 day assessment period [CMS Assessment]",
+              "answer": [
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA10055-4",
+                    "display": "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort."
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0170E3",
+              "text": "Chair/bed-to-chair transfer - functional ability during 3 day assessment period [CMS Assessment]",
+              "answer": [
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA11759-0",
+                    "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0170F3",
+              "text": "Toilet transfer - functional ability during 3 day assessment period [CMS Assessment]",
+              "answer": [
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA11759-0",
+                    "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0170G3",
+              "text": "Car transfer - functional ability during 3 day assessment period [CMS Assessment]",
+              "answer": [
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA26735-3",
+                    "display": "Not attempted due to medical condition or safety concerns"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0170I3",
+              "text": "Walk 10 feet - functional ability during 3 day assessment period [CMS Assessment]",
+              "answer": [
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA11759-0",
+                    "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0170J3",
+              "text": "Walk 50 feet with two turns - functional ability during 3 day assessment period [CMS Assessment]",
+              "answer": [
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA11759-0",
+                    "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0170K3",
+              "text": "Walk 150 feet - functional ability during 3 day assessment period [CMS Assessment]",
+              "answer": [
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA11759-0",
+                    "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0170L3",
+              "text": "Walking 10 feet on uneven surfaces - functional ability during 3 day assessment period [CMS Assessment]",
+              "answer": [
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA26735-3",
+                    "display": "Not attempted due to medical condition or safety concerns"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0170M3",
+              "text": "1 step (curb) - functional ability during 3 day assessment period [CMS Assessment]",
+              "answer": [
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA26735-3",
+                    "display": "Not attempted due to medical condition or safety concerns"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0170N3",
+              "text": "4 steps - functional ability during 3 day assessment period [CMS Assessment]",
+              "answer": [
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA26735-3",
+                    "display": "Not attempted due to medical condition or safety concerns"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0170O3",
+              "text": "12 steps - functional ability during 3 day assessment period [CMS Assessment]",
+              "answer": [
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA26735-3",
+                    "display": "Not attempted due to medical condition or safety concerns"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0170P3",
+              "text": "Picking up object - functional ability during 3 day assessment period [CMS Assessment]",
+              "answer": [
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA26735-3",
+                    "display": "Not attempted due to medical condition or safety concerns"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0170R3",
+              "text": "Wheel 50 feet with two turns - functional ability during 3 day assessment period [CMS Assessment]",
+              "answer": [
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA11759-0",
+                    "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-37/GG0170S3",
+              "text": "Wheel 150 feet - functional ability during 3 day assessment period [CMS Assessment]",
+              "answer": [
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA11759-0",
+                    "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

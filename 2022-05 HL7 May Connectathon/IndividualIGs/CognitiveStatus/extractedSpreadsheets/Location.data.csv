@@ -1,0 +1,6 @@
+resource.id,name,address.text,status
+provider-org-loc-16,Neuro Care INC.,"26022 Meadowlark Bay, San Antonio, TX 78260",active
+provider-org-loc-01,Primary Care INC.,"177 Deerfield St. San Antonio, TX 78207",active
+Org-Loc-02,Happy Nursing Facility,"8100 Pinebrook Dr, San Antonio, TX, 78230",active
+Org-Loc-03,Sky Harbor Home Health Services,"8810 Old Sky Harbor, San Antonio, TX 78242",active
+Org-Loc-01,San Antonio General Hospital,"26022 Meadowlark Bay, San Antonio, TX 78260",active

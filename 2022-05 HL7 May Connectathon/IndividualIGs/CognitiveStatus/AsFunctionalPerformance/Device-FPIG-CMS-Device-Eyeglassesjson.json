@@ -1,0 +1,10 @@
+{
+  "resourceType": "Device",
+  "id": "FPIG-CMS-Device-Eyeglasses",
+  "deviceName": [
+    {
+      "name": "Eyeglasses",
+      "type": "user-friendly-name"
+    }
+  ]
+}

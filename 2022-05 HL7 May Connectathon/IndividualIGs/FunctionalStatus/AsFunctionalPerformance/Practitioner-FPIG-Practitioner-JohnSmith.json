@@ -1,0 +1,20 @@
+{
+  "resourceType": "Practitioner",
+  "id": "FPIG-Practitioner-JohnSmith",
+  "name": [
+    {
+      "given": [
+        "John"
+      ],
+      "family": "Smith",
+      "text": "John Smith"
+    }
+  ],
+  "active": true,
+  "gender": "male",
+  "telecom": [
+    {
+      "system": "phone"
+    }
+  ]
+}

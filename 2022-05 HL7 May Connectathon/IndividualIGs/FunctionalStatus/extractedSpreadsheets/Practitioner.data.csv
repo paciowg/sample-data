@@ -1,0 +1,9 @@
+resource.id,name.given,name.family,identifier.system,identifier.value,telecom.value,gender.code,address.text
+Practitioner-SallySmith,Sally,Smith,"","","",female,""
+Practitioner-JenCadbury,Jen,Cadbury,"","","",female,""
+Practitioner-JohnSmith,John,Smith,"","","",male,""
+Practitioner-ScottDumble,Scott,Dumble,"","","",male,""
+Practitioner-DanielGranger,Daniel,Granger,"","","",male,""
+Practitioner-LunaBaskins,Luna,Baskins,"","","",female,""
+Practitioner-NoraOlogist,Nora,Ologist,http://hl7.org/fhir/sid/us-npi,3668788925,(210) 555 7632,female,"26022 Meadowlark Bay, San Antonio, TX 78260"
+Practitioner-RonMarble,Ron,Marble,"","","",male,""

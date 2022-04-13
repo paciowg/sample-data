@@ -1,0 +1,51 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "id": "FPIG-QResponse-Hospital-MOCA-1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaireresponse"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>questionnaire</b>: <a href=\"http://example.org/Questionnaire/MDS3.0-NC-1.17\">http://example.org/Questionnaire/MDS3.0-NC-1.17</a></p><p><b>status</b>: completed</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson</a></p><p><b>authored</b>: Jul 8, 2020 10:32:00 PM</p><p><b>author</b>: <a href=\"PractitionerRole-Role-SLP-JennyGlass.html\">Generated Summary: active: true; <span title=\"Codes: {http://snomed.info/sct 159026005}\">Speech and language therapist</span></a></p><blockquote><p><b>item</b></p><p><b>linkId</b>: MoCA</p><p><b>text</b>: Montreal Cognitive Assessment [MoCA]</p><blockquote><p><b>item</b></p><p><b>linkId</b>: MoCA/TotalScore</p><p><b>text</b>: Total score [MoCA]</p></blockquote></blockquote></div>"
+  },
+  "questionnaire": "http://example.org/Questionnaire/MDS3.0-NC-1.17",
+  "_questionnaire": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/display",
+        "valueString": "Minimum Data Set (MDS) - version 3.0 - Resident Assessment Instrument (RAI) version 1.17.1 [CMS Assessment]"
+      }
+    ]
+  },
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/FPIG-patientBSJ1"
+  },
+  "authored": "2020-07-08T17:32:00-05:00",
+  "author": {
+    "reference": "PractitionerRole/Role-SLP-JennyGlass"
+  },
+  "item": [
+    {
+      "linkId": "MoCA",
+      "text": "Montreal Cognitive Assessment [MoCA]",
+      "item": [
+        {
+          "linkId": "MoCA/TotalScore",
+          "text": "Total score [MoCA]",
+          "answer": [
+            {
+              "valueQuantity": {
+                "value": 18,
+                "system": "http://unitsofmeasure.org",
+                "code": "{score}"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

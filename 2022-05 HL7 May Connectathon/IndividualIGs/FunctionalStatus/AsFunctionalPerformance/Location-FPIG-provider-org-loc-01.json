@@ -1,0 +1,9 @@
+{
+  "resourceType": "Location",
+  "id": "FPIG-provider-org-loc-01",
+  "name": "Primary Care",
+  "address": {
+    "text": "177 Deerfield St. San Antonio, TX 78207"
+  },
+  "status": "active"
+}

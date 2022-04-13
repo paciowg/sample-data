@@ -707,9 +707,9 @@
       }
     },
     {
-      "fullUrl": "Device/CMS-Device-2",
+      "fullUrl": "Device/CMS-Device-HearingAid",
       "resource": {
-        "id": "CMS-Device-2",
+        "id": "CMS-Device-HearingAid",
         "text": {
           "status": "generated",
           "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>DeviceNames</h3><table class=\"grid\"><tr><td>-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td>*</td><td>Hearing aid</td><td>user-friendly-name</td></tr></table><p><b>type</b>: <span title=\"Codes: {http://snomed.info/sct 6012004}\">Hearing aid</span></p></div>"
@@ -732,7 +732,7 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Device/CMS-Device-2"
+        "url": "Device/CMS-Device-HearingAid"
       }
     },
     {
@@ -1258,7 +1258,7 @@
         },
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson</a></p><p><b>derivedFrom</b>: <a href=\"Observation-CSC-SNF-BIMS-1.html\">Generated Summary: <span title=\"Codes: {http://hl7.org/fhir/us/pacio-cs/CodeSystem/pacio-cat-cs functioning}\">Functioning</span>, <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span>; <span title=\"Codes: {http://loinc.org 52491-8}\">Brief interview for mental status [BIMS]</span>; effective: Jul 11, 2020 4:30:00 PM</a></p><p><b>recordedOn</b>: Jul 11, 2020 4:30:00 PM</p><p><b>source</b>: <a href=\"Practitioner-Practitioner-HoneyJones.html\">Generated Summary: active: true; Honey Jones; gender: female</a></p><p><b>device</b>: <a href=\"Device-CMS-Device-2.html\">Generated Summary: <span title=\"Codes: {http://snomed.info/sct 6012004}\">Hearing aid</span></a></p></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson</a></p><p><b>derivedFrom</b>: <a href=\"Observation-CSC-SNF-BIMS-1.html\">Generated Summary: <span title=\"Codes: {http://hl7.org/fhir/us/pacio-cs/CodeSystem/pacio-cat-cs functioning}\">Functioning</span>, <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span>; <span title=\"Codes: {http://loinc.org 52491-8}\">Brief interview for mental status [BIMS]</span>; effective: Jul 11, 2020 4:30:00 PM</a></p><p><b>recordedOn</b>: Jul 11, 2020 4:30:00 PM</p><p><b>source</b>: <a href=\"Practitioner-Practitioner-HoneyJones.html\">Generated Summary: active: true; Honey Jones; gender: female</a></p><p><b>device</b>: <a href=\"Device-CMS-Device-HearingAid.html\">Generated Summary: <span title=\"Codes: {http://snomed.info/sct 6012004}\">Hearing aid</span></a></p></div>"
         },
         "status": "active",
         "subject": {
@@ -1274,7 +1274,7 @@
           "reference": "Practitioner/Practitioner-HoneyJones"
         },
         "device": {
-          "reference": "Device/CMS-Device-2"
+          "reference": "Device/CMS-Device-HearingAid"
         },
         "resourceType": "DeviceUseStatement"
       },
@@ -2289,7 +2289,7 @@
         },
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson</a></p><p><b>derivedFrom</b>: <a href=\"Observation-CSC-SNF-BIMS-1.html\">Generated Summary: <span title=\"Codes: {http://hl7.org/fhir/us/pacio-cs/CodeSystem/pacio-cat-cs functioning}\">Functioning</span>, <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span>; <span title=\"Codes: {http://loinc.org 52491-8}\">Brief interview for mental status [BIMS]</span>; effective: Jul 11, 2020 4:30:00 PM</a></p><p><b>recordedOn</b>: Jul 11, 2020 4:30:00 PM</p><p><b>source</b>: <a href=\"Practitioner-Practitioner-HoneyJones.html\">Generated Summary: active: true; Honey Jones; gender: female</a></p><p><b>device</b>: <a href=\"Device-CMS-Device-1.html\">Generated Summary: <span title=\"Codes: {http://snomed.info/sct 50121007}\">Eye glasses, device (physical object)</span></a></p></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson</a></p><p><b>derivedFrom</b>: <a href=\"Observation-CSC-SNF-BIMS-1.html\">Generated Summary: <span title=\"Codes: {http://hl7.org/fhir/us/pacio-cs/CodeSystem/pacio-cat-cs functioning}\">Functioning</span>, <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span>; <span title=\"Codes: {http://loinc.org 52491-8}\">Brief interview for mental status [BIMS]</span>; effective: Jul 11, 2020 4:30:00 PM</a></p><p><b>recordedOn</b>: Jul 11, 2020 4:30:00 PM</p><p><b>source</b>: <a href=\"Practitioner-Practitioner-HoneyJones.html\">Generated Summary: active: true; Honey Jones; gender: female</a></p><p><b>device</b>: <a href=\"Device-CMS-Device-Eyeglasses.html\">Generated Summary: <span title=\"Codes: {http://snomed.info/sct 50121007}\">Eye glasses, device (physical object)</span></a></p></div>"
         },
         "status": "active",
         "subject": {
@@ -2305,7 +2305,7 @@
           "reference": "Practitioner/Practitioner-HoneyJones"
         },
         "device": {
-          "reference": "Device/CMS-Device-1"
+          "reference": "Device/CMS-Device-Eyeglasses"
         },
         "resourceType": "DeviceUseStatement"
       },
@@ -3566,9 +3566,9 @@
       }
     },
     {
-      "fullUrl": "Device/CMS-Device-1",
+      "fullUrl": "Device/CMS-Device-Eyeglasses",
       "resource": {
-        "id": "CMS-Device-1",
+        "id": "CMS-Device-Eyeglasses",
         "text": {
           "status": "generated",
           "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>DeviceNames</h3><table class=\"grid\"><tr><td>-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td>*</td><td>Eyeglasses</td><td>user-friendly-name</td></tr></table><p><b>type</b>: <span title=\"Codes: {http://snomed.info/sct 50121007}\">Eye glasses, device (physical object)</span></p></div>"
@@ -3591,7 +3591,7 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Device/CMS-Device-1"
+        "url": "Device/CMS-Device-Eyeglasses"
       }
     },
     {
