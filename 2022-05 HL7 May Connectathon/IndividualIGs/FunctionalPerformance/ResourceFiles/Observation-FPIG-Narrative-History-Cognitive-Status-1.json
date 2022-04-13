@@ -3,7 +3,7 @@
   "id": "FPIG-Narrative-History-Cognitive-Status-1",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-nhcs"
+      "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-narrative-history-of-status"
     ]
   },
   "text": {
@@ -12,13 +12,13 @@
   },
   "extension": [
     {
-      "url": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/event-location",
+      "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
       "valueReference": {
         "reference": "Location/provider-org-loc-01"
       }
     },
     {
-      "url": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/assistance-required",
+      "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/assistance-required",
       "valueCodeableConcept": {
         "coding": [
           {
@@ -35,7 +35,7 @@
     {
       "coding": [
         {
-          "system": "http://hl7.org/fhir/us/pacio-cs/CodeSystem/pacio-cat-cs",
+          "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
           "code": "functioning",
           "display": "Functioning"
         }
@@ -60,7 +60,7 @@
   },
   "performer": [
     {
-      "reference": "PractitionerRole/provider-role-pcp"
+      "reference": "PractitionerRole/FPIG-provider-role-pcp"
     }
   ],
   "valueString": "Alert and oriented x 3. She is independent in household finances, social and community activities, coeherent and appropriate communication. Appropriate attire for location and weather."

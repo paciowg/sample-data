@@ -3,7 +3,7 @@
   "id": "FPIG-Narrative-History-Functional-Status-1",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-nhfs"
+      "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-narrative-history-of-status"
     ]
   },
   "text": {
@@ -12,13 +12,13 @@
   },
   "extension": [
     {
-      "url": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/event-location",
+      "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
       "valueReference": {
         "reference": "Location/provider-org-loc-01"
       }
     },
     {
-      "url": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/assistance-required",
+      "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/assistance-required",
       "valueCodeableConcept": {
         "coding": [
           {
@@ -35,7 +35,7 @@
     {
       "coding": [
         {
-          "system": "http://hl7.org/fhir/us/pacio-fs/CodeSystem/pacio-cat-fs",
+          "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
           "code": "functioning"
         }
       ]
@@ -59,7 +59,7 @@
   },
   "performer": [
     {
-      "reference": "PractitionerRole/provider-role-pcp"
+      "reference": "PractitionerRole/FPIG-provider-role-pcp"
     }
   ],
   "valueString": "Patient is a community ambulator, able to attend desired activites and able to care for herself independently."
