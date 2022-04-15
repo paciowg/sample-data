@@ -1,0 +1,55 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "service4",
+  "meta": {
+    "versionId": "5",
+    "lastUpdated": "2020-05-06T14:36:44.169-07:00",
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/ServiceRequest-eltss"
+    ]
+  },
+  "status": "active",
+  "intent": "plan",
+  "code": {
+    "coding": [
+      {
+        "code": "97110",
+        "system": "urn:oid:2.16.840.1.113883.6.12"
+      }
+    ],
+    "text": "therapeutic exercises to improve balance skills"
+  },
+  "quantityRatio": {
+    "numerator": {
+      "value": 1,
+      "unit": "visit"
+    },
+    "denominator": {
+      "value": 1,
+      "unit": "week"
+    }
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "occurrencePeriod": {
+    "start": "2020-05-01",
+    "end": "2020-08-01"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/provider4"
+    }
+  ],
+  "supportingInfo": [
+    {
+      "reference": "Goal/goal1"
+    },
+    {
+      "reference": "Goal/goal2"
+    },
+    {
+      "reference": "Claim/claim3"
+    }
+  ]
+}

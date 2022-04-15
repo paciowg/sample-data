@@ -1,0 +1,15 @@
+{
+  "resourceType": "Location",
+  "id": "location1",
+  "meta": {
+    "versionId": "5",
+    "lastUpdated": "2020-04-28T14:20:16.698-07:00",
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Location-eltss"
+    ]
+  },
+  "name": "In Home",
+  "address": {
+    "text": "111 Maple Ct, San Antonio, TX 78212"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "resourceType": "Practitioner",
+  "id": "provider4",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2020-04-28T14:20:16.695-07:00",
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Practitioner-eltss"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://www.acme.org/practitioners",
+      "value": "987657"
+    }
+  ],
+  "name": [
+    {
+      "text": "Norma Trainer",
+      "family": "Trainer",
+      "given": [
+        "Norma"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "(210) 555 1214"
+    }
+  ]
+}

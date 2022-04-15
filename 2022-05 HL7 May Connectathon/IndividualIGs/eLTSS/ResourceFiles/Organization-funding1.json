@@ -1,0 +1,19 @@
+{
+  "resourceType": "Organization",
+  "id": "funding1",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2020-04-22T14:55:50.158-07:00"
+  },
+  "identifier": [
+    {
+      "value": "ICWP"
+    }
+  ],
+  "name": "Texas Department of Community Health",
+  "address": [
+    {
+      "text": "7430 Louis Pasteur Dr, San Antonio, TX 78229"
+    }
+  ]
+}

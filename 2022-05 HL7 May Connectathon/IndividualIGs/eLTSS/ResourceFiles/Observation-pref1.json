@@ -1,0 +1,24 @@
+{
+  "resourceType": "Observation",
+  "id": "pref1",
+  "meta": {
+    "versionId": "4",
+    "lastUpdated": "2020-04-22T14:55:50.124-07:00",
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Observation-eltss"
+    ]
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "preference",
+        "system": "http://hl7.org/us/eLTSS/CodeSystem/eltss-observation-code"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "valueString": "Accessing the ICWP Waiver for her current service needs, and would like to remain on ICWP and continue with her current services."
+}

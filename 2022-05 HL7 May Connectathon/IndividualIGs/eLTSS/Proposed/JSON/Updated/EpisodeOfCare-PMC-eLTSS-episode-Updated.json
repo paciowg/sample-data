@@ -1,0 +1,16 @@
+{
+  "resourceType": "EpisodeOfCare",
+  "id": "PMC-eLTSS-episode-Updated",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/EpisodeOfCare-eltss"
+    ]
+  },
+  "status": "active",
+  "patient": {
+    "reference": "Patient/PMC-eLTSS-patientBSJ1"
+  },
+  "careManager": {
+    "reference": "Practitioner/PMC-eLTSS-caremgr-SamMonitor"
+  }
+}

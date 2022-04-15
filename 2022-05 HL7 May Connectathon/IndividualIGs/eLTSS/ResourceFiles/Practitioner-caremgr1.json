@@ -1,0 +1,36 @@
+{
+  "resourceType": "Practitioner",
+  "id": "caremgr1",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2020-04-28T14:20:16.602-07:00",
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Practitioner-eltss"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://hl7.org.fhir/sid/us-npi",
+      "value": "9941339109"
+    },
+    {
+      "system": "http://www.acme.org/practitioners",
+      "value": "25457"
+    }
+  ],
+  "name": [
+    {
+      "text": "Sam Monitor",
+      "family": "Monitor",
+      "given": [
+        "Sam"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "(210) 224 1599"
+    }
+  ]
+}

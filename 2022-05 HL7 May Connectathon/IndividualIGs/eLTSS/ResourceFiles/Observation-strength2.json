@@ -1,0 +1,24 @@
+{
+  "resourceType": "Observation",
+  "id": "strength2",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2020-04-28T14:20:16.485-07:00",
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Observation-eltss"
+    ]
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "strength",
+        "system": "http://hl7.org/us/eLTSS/CodeSystem/eltss-observation-code"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "valueString": "Independent walking with cane."
+}

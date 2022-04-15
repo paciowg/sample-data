@@ -1,0 +1,108 @@
+{
+  "resourceType": "CarePlan",
+  "id": "PMC-eLTSS-Careplan-eLTSS-Personal-Initial",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/CarePlan-eltss"
+    ]
+  },
+  "status": "active",
+  "intent": "plan",
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "assess-plan",
+          "system": "http://hl7.org/fhir/us/core/CodeSystem/careplan-category"
+        }
+      ]
+    }
+  ],
+  "title": "Betsy Smith Johnson's Services and Supports Plan for 2020",
+  "description": "A service and support plan that outlines Betsy's assessed needs, goals, strengths, preferences, and services/providers to meet those needs and goals.",
+  "subject": {
+    "reference": "Patient/PMC-eLTSS-patientBSJ1"
+  },
+  "period": {
+    "start": "2020-05-01",
+    "end": "2021-04-30"
+  },
+  "author": {
+    "reference": "Practitioner/PMC-eLTSS-planner-MarkPlanner"
+  },
+  "addresses": [
+    {
+      "reference": "Condition/PMC-eLTSS-needDiabetesEducation"
+    },
+    {
+      "reference": "Condition/PMC-eLTSS-needDepressionTreatment"
+    }
+  ],
+  "supportingInfo": [
+    {
+      "reference": "Observation/PMC-eLTSS-strengthManageBills"
+    },
+    {
+      "reference": "Observation/PMC-eLTSS-strengthWalkWithCane"
+    },
+    {
+      "reference": "Observation/PMC-eLTSS-preferenceICWP"
+    },
+    {
+      "reference": "QuestionnaireResponse/PMC-eLTSS-questionnaireResponseServices-Initial"
+    },
+    {
+      "reference": "Contract/PMC-eLTSS-contractSigned-Initial"
+    },
+    {
+      "reference": "RiskAssessment/PMC-eLTSS-riskFalls"
+    }
+  ],
+  "goal": [
+    {
+      "reference": "Goal/PMC-eLTSS-goalBalance"
+    },
+    {
+      "reference": "Goal/PMC-eLTSS-goalDanceSonWedding"
+    }
+  ],
+  "activity": [
+    {
+      "detail": {
+        "goal": [
+          {
+            "reference": "Goal/PMC-eLTSS-goalBalance"
+          }
+        ],
+        "status": "not-started",
+        "description": "Perform exercises to improve balance skills"
+      }
+    },
+    {
+      "detail": {
+        "goal": [
+          {
+            "reference": "Goal/PMC-eLTSS-goalDanceSonWedding"
+          }
+        ],
+        "status": "not-started",
+        "description": "Work on mobility to dance at son's upcoming wedding"
+      }
+    },
+    {
+      "reference": {
+        "reference": "ServiceRequest/PMC-eLTSS-serviceBathRail-Initial"
+      }
+    },
+    {
+      "reference": {
+        "reference": "ServiceRequest/PMC-eLTSS-serviceDiabetesEducation-Initial"
+      }
+    },
+    {
+      "reference": {
+        "reference": "ServiceRequest/PMC-eLTSS-serviceBalance-Initial"
+      }
+    }
+  ]
+}

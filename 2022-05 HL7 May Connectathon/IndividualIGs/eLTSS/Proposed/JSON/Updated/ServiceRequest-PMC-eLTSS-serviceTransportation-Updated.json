@@ -1,0 +1,62 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "PMC-eLTSS-serviceTransportation-Updated",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/ServiceRequest-eltss"
+    ]
+  },
+  "status": "active",
+  "intent": "plan",
+  "code": {
+    "coding": [
+      {
+        "code": "T2003",
+        "system": "urn:oid:2.16.840.1.113883.6.14"
+      }
+    ],
+    "text": "Non-emergency transportation; encounter/trip"
+  },
+  "quantityRatio": {
+    "numerator": {
+      "value": 2,
+      "unit": "trips"
+    },
+    "denominator": {
+      "value": 1,
+      "unit": "month"
+    }
+  },
+  "subject": {
+    "reference": "Patient/PMC-eLTSS-patientBSJ1"
+  },
+  "occurrencePeriod": {
+    "start": "2021-06-01",
+    "end": "2021-05-31"
+  },
+  "performer": [
+    {
+      "reference": "Organization/PMC-eLTSS-provider-transportation"
+    }
+  ],
+  "reasonReference": [
+    {
+      "reference": "Condition/PMC-eLTSS-needTransportation"
+    }
+  ],
+  "insurance": [
+    {
+      "reference": "Coverage/PMC-eLTSS-coverageICWP"
+    }
+  ],
+  "supportingInfo": [
+    {
+      "reference": "Claim/PMC-eLTSS-claimNonEmergencyTransportation-Updated"
+    }
+  ],
+  "note": [
+    {
+      "text": "Service provider will provide a reminder the business day before the trip, and will call when on the way."
+    }
+  ]
+}

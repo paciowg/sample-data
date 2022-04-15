@@ -1,0 +1,71 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "id": "questionnaireresponse1",
+  "meta": {
+    "versionId": "5",
+    "lastUpdated": "2020-04-28T14:20:16.529-07:00"
+  },
+  "questionnaire": "Questionnaire/questionnaire1",
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "item": [
+    {
+      "linkId": "q1",
+      "answer": [
+        {
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "linkId": "q2",
+      "answer": [
+        {
+          "valueString": "Assisted living facility"
+        }
+      ]
+    },
+    {
+      "linkId": "q3",
+      "answer": [
+        {
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "linkId": "q4",
+      "answer": [
+        {
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "linkId": "q5",
+      "answer": [
+        {
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "linkId": "q6",
+      "answer": [
+        {
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "linkId": "q7",
+      "answer": [
+        {
+          "valueBoolean": true
+        }
+      ]
+    }
+  ]
+}

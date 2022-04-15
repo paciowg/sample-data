@@ -1,0 +1,30 @@
+{
+  "resourceType": "Practitioner",
+  "id": "PMC-eLTSS-provider-NormaTrainer",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Practitioner-eltss"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://www.acme.org/practitioners",
+      "value": "987657"
+    }
+  ],
+  "name": [
+    {
+      "text": "Norma Trainer",
+      "family": "Trainer",
+      "given": [
+        "Norma"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "(210) 555 1214"
+    }
+  ]
+}

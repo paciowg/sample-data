@@ -1,0 +1,30 @@
+{
+  "resourceType": "RelatedPerson",
+  "id": "son1",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2020-04-28T14:20:16.650-07:00"
+  },
+  "patient": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "relationship": [
+    {
+      "coding": [
+        {
+          "code": "SONC",
+          "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+        }
+      ]
+    }
+  ],
+  "name": [
+    {
+      "text": "Charles Johnson",
+      "family": "Charles",
+      "given": [
+        "Johnson"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "resourceType": "Coverage",
+  "id": "coverage1",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2020-04-28T14:20:16.688-07:00"
+  },
+  "status": "active",
+  "beneficiary": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "payor": [
+    {
+      "reference": "Organization/funding1"
+    }
+  ]
+}

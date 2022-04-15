@@ -1,0 +1,50 @@
+{
+  "resourceType": "Condition",
+  "id": "need3",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2020-04-28T14:20:16.580-07:00",
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Condition-eltss"
+    ]
+  },
+  "clinicalStatus": {
+    "coding": [
+      {
+        "code": "active",
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+      }
+    ]
+  },
+  "verificationStatus": {
+    "coding": [
+      {
+        "code": "confirmed",
+        "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "assessed-need",
+          "system": "http://hl7.org/fhir/us/eLTSS/CodeSystem/eltss-condition-category-code"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "code": "35489007",
+        "system": "http://snomed.info/sct",
+        "display": "Depressive disorder (disorder)"
+      }
+    ],
+    "text": "Depression (on treatment)"
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  }
+}

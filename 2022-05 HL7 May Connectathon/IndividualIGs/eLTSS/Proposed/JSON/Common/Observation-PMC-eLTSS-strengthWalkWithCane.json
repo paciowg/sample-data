@@ -1,0 +1,22 @@
+{
+  "resourceType": "Observation",
+  "id": "PMC-eLTSS-strengthWalkWithCane",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Observation-eltss"
+    ]
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "strength",
+        "system": "http://hl7.org/us/eLTSS/CodeSystem/eltss-observation-code"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/PMC-eLTSS-patientBSJ1"
+  },
+  "valueString": "Independent walking with cane."
+}

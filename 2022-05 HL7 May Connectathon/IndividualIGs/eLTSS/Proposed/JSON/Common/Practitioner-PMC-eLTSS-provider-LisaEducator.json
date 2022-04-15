@@ -1,0 +1,30 @@
+{
+  "resourceType": "Practitioner",
+  "id": "PMC-eLTSS-provider-LisaEducator",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Practitioner-eltss"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://www.acme.org/practitioners",
+      "value": "987654"
+    }
+  ],
+  "name": [
+    {
+      "text": "Lisa Educator",
+      "family": "Educator",
+      "given": [
+        "Lisa"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "(210) 555 1213"
+    }
+  ]
+}

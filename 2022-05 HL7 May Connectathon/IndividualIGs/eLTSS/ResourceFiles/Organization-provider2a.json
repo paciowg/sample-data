@@ -1,0 +1,29 @@
+{
+  "resourceType": "Organization",
+  "id": "provider2a",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2020-04-28T14:20:16.658-07:00",
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Practitioner-eltss"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://www.acme.org/practitioners",
+      "value": "24680"
+    }
+  ],
+  "name": "The Transporter, Inc.",
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "(210) 555 1313"
+    }
+  ],
+  "address": [
+    {
+      "text": "111 Business Street, San Antonio, TX 78212"
+    }
+  ]
+}

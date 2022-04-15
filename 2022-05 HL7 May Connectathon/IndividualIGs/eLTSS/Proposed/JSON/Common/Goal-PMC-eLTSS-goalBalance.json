@@ -1,0 +1,16 @@
+{
+  "resourceType": "Goal",
+  "id": "PMC-eLTSS-goalBalance",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Goal-eltss"
+    ]
+  },
+  "lifecycleStatus": "accepted",
+  "description": {
+    "text": "Improve balance skills"
+  },
+  "subject": {
+    "reference": "Patient/PMC-eLTSS-patientBSJ1"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "resourceType": "RiskAssessment",
+  "id": "risk1",
+  "meta": {
+    "versionId": "4",
+    "lastUpdated": "2020-05-06T14:43:53.300-07:00",
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/RiskAssessment-eltss"
+    ]
+  },
+  "status": "final",
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "prediction": [
+    {
+      "outcome": {
+        "coding": [
+          {
+            "code": "129839007",
+            "system": "http://snomed.info/sct"
+          }
+        ],
+        "text": "At risk for falls (finding)"
+      }
+    },
+    {
+      "outcome": {
+        "coding": [
+          {
+            "code": "35489007",
+            "system": "http://snomed.info/sct"
+          }
+        ],
+        "text": "Depressive disorder (disorder)"
+      }
+    }
+  ],
+  "mitigation": "Betsy is at risk for falls. Her risk is increased due to her depression medication. She has grab bars installed in the shower and is working on her balance with a trainer."
+}

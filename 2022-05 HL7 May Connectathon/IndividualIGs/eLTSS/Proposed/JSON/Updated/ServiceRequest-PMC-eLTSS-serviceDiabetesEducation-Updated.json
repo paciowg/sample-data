@@ -1,0 +1,52 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "PMC-eLTSS-serviceDiabetesEducation-Updated",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/ServiceRequest-eltss"
+    ]
+  },
+  "status": "active",
+  "intent": "plan",
+  "code": {
+    "coding": [
+      {
+        "code": "G0108",
+        "system": "urn:oid:2.16.840.1.113883.6.14"
+      }
+    ],
+    "text": "Diabetes outpatient self-management training services, individual, per 30 minutes"
+  },
+  "quantityRatio": {
+    "numerator": {
+      "value": 1,
+      "unit": "visit"
+    },
+    "denominator": {
+      "value": 1,
+      "unit": "week"
+    }
+  },
+  "subject": {
+    "reference": "Patient/PMC-eLTSS-patientBSJ1"
+  },
+  "occurrencePeriod": {
+    "start": "2021-06-01",
+    "end": "2021-09-01"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/PMC-eLTSS-provider-LisaEducator"
+    }
+  ],
+  "reasonReference": [
+    {
+      "reference": "Condition/PMC-eLTSS-needDiabetesEducation"
+    }
+  ],
+  "supportingInfo": [
+    {
+      "reference": "Claim/PMC-eLTSS-claimDiabetesSelfManagement-Updated"
+    }
+  ]
+}

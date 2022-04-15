@@ -1,0 +1,56 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "service1",
+  "meta": {
+    "versionId": "5",
+    "lastUpdated": "2020-05-11T12:04:02.030-07:00",
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/ServiceRequest-eltss"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/us/eLTSS/StructureDefinition/eltss-directedBy",
+      "valueCodeableConcept": {
+        "text": "self"
+      }
+    }
+  ],
+  "status": "active",
+  "intent": "plan",
+  "code": {
+    "coding": [
+      {
+        "code": "E0241",
+        "system": "urn:oid:2.16.840.1.113883.6.14"
+      }
+    ],
+    "text": "Bath tub wall rail, each"
+  },
+  "quantityQuantity": {
+    "value": 1,
+    "unit": "install"
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "occurrencePeriod": {
+    "start": "2020-05-01",
+    "end": "2020-12-31"
+  },
+  "performer": [
+    {
+      "reference": "RelatedPerson/son1"
+    }
+  ],
+  "locationReference": [
+    {
+      "reference": "Location/location1"
+    }
+  ],
+  "supportingInfo": [
+    {
+      "reference": "RiskAssessment/risk1"
+    }
+  ]
+}
