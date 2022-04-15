@@ -12,7 +12,7 @@ Usage: #example
 * quantityRatio.denominator.unit = "month"
 * subject = Reference(Patient/PMC-eLTSS-patientBSJ1)
 * occurrencePeriod.start = "2021-06-01"
-* occurrencePeriod.end = "2021-05-31"
+* occurrencePeriod.end = "2022-05-31"
 * performer = Reference(PMC-eLTSS-provider-transportation)
 * reasonReference = Reference(PMC-eLTSS-needTransportation)
 * insurance = Reference(PMC-eLTSS-coverageICWP)

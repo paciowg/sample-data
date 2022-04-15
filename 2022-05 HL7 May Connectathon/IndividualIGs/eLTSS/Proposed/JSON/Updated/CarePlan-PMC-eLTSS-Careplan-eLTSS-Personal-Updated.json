@@ -18,14 +18,14 @@
       ]
     }
   ],
-  "title": "Betsy Smith Johnson's Services and Supports Plan",
+  "title": "Betsy Smith Johnson's Services and Supports Plan for 2021",
   "description": "A service and support plan that outlines Betsy's assessed needs, goals, strengths, preferences, and services/providers to meet those needs and goals.",
   "subject": {
     "reference": "Patient/PMC-eLTSS-patientBSJ1"
   },
   "period": {
     "start": "2021-06-01",
-    "end": "2021-05-31"
+    "end": "2022-05-31"
   },
   "author": {
     "reference": "Practitioner/PMC-eLTSS-planner-MarkPlanner"

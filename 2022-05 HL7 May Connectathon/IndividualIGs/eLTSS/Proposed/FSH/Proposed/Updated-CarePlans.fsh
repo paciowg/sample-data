@@ -7,11 +7,11 @@ Usage: #example
 * status = #active
 * intent = #plan
 * category = $careplan-category#assess-plan
-* title = "Betsy Smith Johnson's Services and Supports Plan"
+* title = "Betsy Smith Johnson's Services and Supports Plan for 2021"
 * description = "A service and support plan that outlines Betsy's assessed needs, goals, strengths, preferences, and services/providers to meet those needs and goals."
 * subject = Reference(Patient/PMC-eLTSS-patientBSJ1)
 * period.start = "2021-06-01"
-* period.end = "2021-05-31"
+* period.end = "2022-05-31"
 * author = Reference(PMC-eLTSS-planner-MarkPlanner)
 * addresses[0] = Reference(PMC-eLTSS-needTransportation)
 * addresses[+] = Reference(PMC-eLTSS-needDiabetesEducation)
