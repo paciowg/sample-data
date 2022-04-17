@@ -1,0 +1,778 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "0522PACIO",
+  "url": "https://confluence.hl7.org/display/FHIR/2022-05+PACIO+Integration+of+Post-Acute+Care+IGs/ImplementationGuide/0522PACIO",
+  "version": "0.1.0",
+  "name": "May2022PACIOSampleData",
+  "status": "draft",
+  "publisher": "PACIO",
+  "contact": [
+    {
+      "name": "PACIO",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://pacioproject.org/"
+        }
+      ]
+    }
+  ],
+  "packageId": "0522PACIO",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "dependsOn": [
+    {
+      "packageId": "hl7.fhir.us.core",
+      "version": "3.1.0",
+      "uri": "http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core",
+      "id": "hl7_fhir_us_core"
+    },
+    {
+      "id": "paciofp",
+      "packageId": "hl7.fhir.us.pacio-fp",
+      "uri": "http://hl7.org/fhir/us/pacio-fp/ImplementationGuide/hl7.fhir.us.pacio-fp",
+      "version": "dev"
+    }
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "Location/P0522-Home-Loc-01"
+        },
+        "name": "P0522-Home-Loc-01",
+        "description": "An instance of Location",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/P0522-Practioner-DonHopmed"
+        },
+        "name": "P0522-Practioner-DonHopmed",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/P0522-Practitioner-AlexanderKuikhoff"
+        },
+        "name": "P0522-Practitioner-AlexanderKuikhoff",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/P0522-Practitioner-AnitaChu"
+        },
+        "name": "P0522-Practitioner-AnitaChu",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/P0522-Practitioner-CheriseLangford"
+        },
+        "name": "P0522-Practitioner-CheriseLangford",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/P0522-Practitioner-DanielGranger"
+        },
+        "name": "P0522-Practitioner-DanielGranger",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/P0522-Practitioner-HoneyJones"
+        },
+        "name": "P0522-Practitioner-HoneyJones",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/P0522-Practitioner-JacobHartwell"
+        },
+        "name": "P0522-Practitioner-JacobHartwell",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/P0522-Practitioner-JenCadbury"
+        },
+        "name": "P0522-Practitioner-JenCadbury",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/P0522-Practitioner-JennyGlass"
+        },
+        "name": "P0522-Practitioner-JennyGlass",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/P0522-Practitioner-JillBradley"
+        },
+        "name": "P0522-Practitioner-JillBradley",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+        },
+        "name": "P0522-Practitioner-JohnSmith",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/P0522-Practitioner-JudySmiley"
+        },
+        "name": "P0522-Practitioner-JudySmiley",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/P0522-Practitioner-LiaNguyen"
+        },
+        "name": "P0522-Practitioner-LiaNguyen",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/P0522-Practitioner-LisaGreene"
+        },
+        "name": "P0522-Practitioner-LisaGreene",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/P0522-Practitioner-LunaBaskins"
+        },
+        "name": "P0522-Practitioner-LunaBaskins",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/P0522-Practitioner-MariaGonzalez"
+        },
+        "name": "P0522-Practitioner-MariaGonzalez",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/P0522-Practitioner-NoraOlogist"
+        },
+        "name": "P0522-Practitioner-NoraOlogist",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/P0522-Practitioner-RayMancioni"
+        },
+        "name": "P0522-Practitioner-RayMancioni",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/P0522-Practitioner-RonMarble"
+        },
+        "name": "P0522-Practitioner-RonMarble",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/P0522-Practitioner-SallySmart"
+        },
+        "name": "P0522-Practitioner-SallySmart",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/P0522-Practitioner-ScottDumble"
+        },
+        "name": "P0522-Practitioner-ScottDumble",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/P0522-Practitioner-SummerJohnson"
+        },
+        "name": "P0522-Practitioner-SummerJohnson",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/P0522-Practitioner-TamaraRodriguez"
+        },
+        "name": "P0522-Practitioner-TamaraRodriguez",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/P0522-Role-Audio-JillBradley"
+        },
+        "name": "P0522-Role-Audio-JillBradley",
+        "description": "An instance of PractitionerRole",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/P0522-Role-CDCES-eLTSS-LisaEducator"
+        },
+        "name": "P0522-Role-CDCES-eLTSS-LisaEducator",
+        "description": "An instance of PractitionerRole",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/P0522-Role-CSW-RayMancioni"
+        },
+        "name": "P0522-Role-CSW-RayMancioni",
+        "description": "An instance of PractitionerRole",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/P0522-Role-Driver-BillDriver"
+        },
+        "name": "P0522-Role-Driver-BillDriver",
+        "description": "An instance of PractitionerRole",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/P0522-Role-HHRN-JacobHartwell"
+        },
+        "name": "P0522-Role-HHRN-JacobHartwell",
+        "description": "An instance of PractitionerRole",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/P0522-Role-HHRN-TamaraRodgriguez"
+        },
+        "name": "P0522-Role-HHRN-TamaraRodgriguez",
+        "description": "An instance of PractitionerRole",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/P0522-Role-HospMD-DonHopmed"
+        },
+        "name": "P0522-Role-HospMD-DonHopmed",
+        "description": "An instance of PractitionerRole",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/P0522-Role-IMMD-AnitaChu"
+        },
+        "name": "P0522-Role-IMMD-AnitaChu",
+        "description": "An instance of PractitionerRole",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/P0522-Role-IMMD-JohnSmith"
+        },
+        "name": "P0522-Role-IMMD-JohnSmith",
+        "description": "An instance of PractitionerRole",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/P0522-Role-NeuroMD-NoraOlogist"
+        },
+        "name": "P0522-Role-NeuroMD-NoraOlogist",
+        "description": "An instance of PractitionerRole",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/P0522-Role-OT-CheriseLangford"
+        },
+        "name": "P0522-Role-OT-CheriseLangford",
+        "description": "An instance of PractitionerRole",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/P0522-Role-OT-JenCadbury"
+        },
+        "name": "P0522-Role-OT-JenCadbury",
+        "description": "An instance of PractitionerRole",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/P0522-Role-OT-LisaGreene"
+        },
+        "name": "P0522-Role-OT-LisaGreene",
+        "description": "An instance of PractitionerRole",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/P0522-Role-PT-DanielGranger"
+        },
+        "name": "P0522-Role-PT-DanielGranger",
+        "description": "An instance of PractitionerRole",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/P0522-Role-PT-LunaBaskins"
+        },
+        "name": "P0522-Role-PT-LunaBaskins",
+        "description": "An instance of PractitionerRole",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/P0522-Role-PT-NormaTrainer"
+        },
+        "name": "P0522-Role-PT-NormaTrainer",
+        "description": "An instance of PractitionerRole",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/P0522-Role-PT-RonMarble"
+        },
+        "name": "P0522-Role-PT-RonMarble",
+        "description": "An instance of PractitionerRole",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/P0522-Role-PT-SallySmart"
+        },
+        "name": "P0522-Role-PT-SallySmart",
+        "description": "An instance of PractitionerRole",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/P0522-Role-PT-ScottDumble"
+        },
+        "name": "P0522-Role-PT-ScottDumble",
+        "description": "An instance of PractitionerRole",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/P0522-Role-RN-JudySmiley"
+        },
+        "name": "P0522-Role-RN-JudySmiley",
+        "description": "An instance of PractitionerRole",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/P0522-Role-RN-LiaNguyen"
+        },
+        "name": "P0522-Role-RN-LiaNguyen",
+        "description": "An instance of PractitionerRole",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/P0522-Role-RNCM-SamMonitor"
+        },
+        "name": "P0522-Role-RNCM-SamMonitor",
+        "description": "An instance of PractitionerRole",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/P0522-Role-SLP-AlexanderKuikhoff"
+        },
+        "name": "P0522-Role-SLP-AlexanderKuikhoff",
+        "description": "An instance of PractitionerRole",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/P0522-Role-SLP-HoneyJones"
+        },
+        "name": "P0522-Role-SLP-HoneyJones",
+        "description": "An instance of PractitionerRole",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/P0522-Role-SLP-JennyGlass"
+        },
+        "name": "P0522-Role-SLP-JennyGlass",
+        "description": "An instance of PractitionerRole",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/P0522-Role-SLP-MariaGonzalez"
+        },
+        "name": "P0522-Role-SLP-MariaGonzalez",
+        "description": "An instance of PractitionerRole",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/P0522-Role-SW-MarkPlanner"
+        },
+        "name": "P0522-Role-SW-MarkPlanner",
+        "description": "An instance of PractitionerRole",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/P0522-eLTSS-BillDriver"
+        },
+        "name": "P0522-eLTSS-BillDriver",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/P0522-eLTSS-LisaEducator"
+        },
+        "name": "P0522-eLTSS-LisaEducator",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/P0522-eLTSS-MarkPlanner"
+        },
+        "name": "P0522-eLTSS-MarkPlanner",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/P0522-eLTSS-NormaTrainer"
+        },
+        "name": "P0522-eLTSS-NormaTrainer",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/P0522-eLTSS-SamMonitor"
+        },
+        "name": "P0522-eLTSS-SamMonitor",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Organization/P0522-org-Audiology-Advanced-Hearing-Care"
+        },
+        "name": "P0522-org-Audiology-Advanced-Hearing-Care",
+        "description": "An instance of Organization",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Organization/P0522-org-HH-Sky-Harbor-Home-Health"
+        },
+        "name": "P0522-org-HH-Sky-Harbor-Home-Health",
+        "description": "An instance of Organization",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Organization/P0522-org-Hosp-San-Antonio-General"
+        },
+        "name": "P0522-org-Hosp-San-Antonio-General",
+        "description": "An instance of Organization",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/P0522-org-Loc-Audiology-Advanced-Hearing-Care"
+        },
+        "name": "P0522-org-Loc-Audiology-Advanced-Hearing-Care",
+        "description": "An instance of Location",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/P0522-org-Loc-HH-Sky-Harbor-Home-Health"
+        },
+        "name": "P0522-org-Loc-HH-Sky-Harbor-Home-Health",
+        "description": "An instance of Location",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/P0522-org-Loc-Hosp-San-Antonio-General"
+        },
+        "name": "P0522-org-Loc-Hosp-San-Antonio-General",
+        "description": "An instance of Location",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/P0522-org-Loc-Neuro-Care-Inc"
+        },
+        "name": "P0522-org-Loc-Neuro-Care-Inc",
+        "description": "An instance of Location",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/P0522-org-Loc-PC-Primary-Care-Michigan"
+        },
+        "name": "P0522-org-Loc-PC-Primary-Care-Michigan",
+        "description": "An instance of Location",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/P0522-org-Loc-PC-Primary-Care-Texas"
+        },
+        "name": "P0522-org-Loc-PC-Primary-Care-Texas",
+        "description": "An instance of Location",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/P0522-org-Loc-SNF-Happy-Nursing-Facility"
+        },
+        "name": "P0522-org-Loc-SNF-Happy-Nursing-Facility",
+        "description": "An instance of Location",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/P0522-org-Loc-Transporter-Inc"
+        },
+        "name": "P0522-org-Loc-Transporter-Inc",
+        "description": "An instance of Location",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/P0522-org-Loc-assembler-Advance-Directives-1"
+        },
+        "name": "P0522-org-Loc-assembler-Advance-Directives-1",
+        "description": "An instance of Location",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/P0522-org-Loc-custodian-Advance-Directives-1"
+        },
+        "name": "P0522-org-Loc-custodian-Advance-Directives-1",
+        "description": "An instance of Location",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/P0522-org-Loc-eLTSS-CaseManaging4U"
+        },
+        "name": "P0522-org-Loc-eLTSS-CaseManaging4U",
+        "description": "An instance of Location",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/P0522-org-Loc-eLTSS-Health-Educators-Inc"
+        },
+        "name": "P0522-org-Loc-eLTSS-Health-Educators-Inc",
+        "description": "An instance of Location",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/P0522-org-Loc-eLTSS-Home-Contractor-LLC"
+        },
+        "name": "P0522-org-Loc-eLTSS-Home-Contractor-LLC",
+        "description": "An instance of Location",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/P0522-org-Loc-eLTSS-Support-Planner-Services"
+        },
+        "name": "P0522-org-Loc-eLTSS-Support-Planner-Services",
+        "description": "An instance of Location",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/P0522-org-Loc-eLTSS-Therapists-To-Go"
+        },
+        "name": "P0522-org-Loc-eLTSS-Therapists-To-Go",
+        "description": "An instance of Location",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/P0522-org-Loc-food-meals-on-wheels"
+        },
+        "name": "P0522-org-Loc-food-meals-on-wheels",
+        "description": "An instance of Location",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/P0522-org-Loc-funding-Texas-Dept-Comm-Health"
+        },
+        "name": "P0522-org-Loc-funding-Texas-Dept-Comm-Health",
+        "description": "An instance of Location",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Organization/P0522-org-Neuro-Care-Inc"
+        },
+        "name": "P0522-org-Neuro-Care-Inc",
+        "description": "An instance of Organization",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Organization/P0522-org-PC-Primary-Care-Michigan"
+        },
+        "name": "P0522-org-PC-Primary-Care-Michigan",
+        "description": "An instance of Organization",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Organization/P0522-org-PC-Primary-Care-Texas"
+        },
+        "name": "P0522-org-PC-Primary-Care-Texas",
+        "description": "An instance of Organization",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Organization/P0522-org-SNF-Happy-Nursing-Facility"
+        },
+        "name": "P0522-org-SNF-Happy-Nursing-Facility",
+        "description": "An instance of Organization",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Organization/P0522-org-Transporter-Inc"
+        },
+        "name": "P0522-org-Transporter-Inc",
+        "description": "An instance of Organization",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Organization/P0522-org-assembler-Advance-Directives-1"
+        },
+        "name": "P0522-org-assembler-Advance-Directives-1",
+        "description": "An instance of Organization",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Organization/P0522-org-custodian-Advance-Directives-1"
+        },
+        "name": "P0522-org-custodian-Advance-Directives-1",
+        "description": "An instance of Organization",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Organization/P0522-org-eLTSS-CaseManaging4U"
+        },
+        "name": "P0522-org-eLTSS-CaseManaging4U",
+        "description": "An instance of Organization",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Organization/P0522-org-eLTSS-Health-Educators-Inc"
+        },
+        "name": "P0522-org-eLTSS-Health-Educators-Inc",
+        "description": "An instance of Organization",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Organization/P0522-org-eLTSS-Home-Contractor-LLC"
+        },
+        "name": "P0522-org-eLTSS-Home-Contractor-LLC",
+        "description": "An instance of Organization",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Organization/P0522-org-eLTSS-Support-Planner-Services"
+        },
+        "name": "P0522-org-eLTSS-Support-Planner-Services",
+        "description": "An instance of Organization",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Organization/P0522-org-eLTSS-Therapists-To-Go"
+        },
+        "name": "P0522-org-eLTSS-Therapists-To-Go",
+        "description": "An instance of Organization",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Organization/P0522-org-food-meals-on-wheels"
+        },
+        "name": "P0522-org-food-meals-on-wheels",
+        "description": "An instance of Organization",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Organization/P0522-org-funding-Texas-Dept-Comm-Health"
+        },
+        "name": "P0522-org-funding-Texas-Dept-Comm-Health",
+        "description": "An instance of Organization",
+        "exampleBoolean": true
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": []
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2022+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "ci-build"
+      }
+    ]
+  }
+}

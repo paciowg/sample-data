@@ -1,0 +1,9 @@
+{
+  "resourceType": "Location",
+  "id": "P0522-org-Loc-eLTSS-Therapists-To-Go",
+  "name": "Therapists To Go",
+  "address": {
+    "text": "555 Move St., San Antonio, TX 78212"
+  },
+  "status": "active"
+}

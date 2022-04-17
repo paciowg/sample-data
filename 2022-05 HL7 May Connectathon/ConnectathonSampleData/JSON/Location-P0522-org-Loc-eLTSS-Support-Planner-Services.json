@@ -1,0 +1,9 @@
+{
+  "resourceType": "Location",
+  "id": "P0522-org-Loc-eLTSS-Support-Planner-Services",
+  "name": "Support Planner Services LLC",
+  "address": {
+    "text": "222 Service Sr., San Antonio, TX 78212"
+  },
+  "status": "active"
+}

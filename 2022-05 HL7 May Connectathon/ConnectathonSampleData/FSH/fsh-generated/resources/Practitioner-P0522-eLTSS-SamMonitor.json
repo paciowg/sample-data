@@ -1,0 +1,20 @@
+{
+  "resourceType": "Practitioner",
+  "id": "P0522-eLTSS-SamMonitor",
+  "name": [
+    {
+      "given": [
+        "Sam"
+      ],
+      "family": "Monitor",
+      "text": "Sam Monitor"
+    }
+  ],
+  "active": true,
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "(210) 224-1599"
+    }
+  ]
+}

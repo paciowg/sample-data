@@ -1,0 +1,9 @@
+{
+  "resourceType": "Location",
+  "id": "P0522-org-Loc-funding-Texas-Dept-Comm-Health",
+  "name": "Texas Department of Community Health",
+  "address": {
+    "text": "7430 Louis Pasteur Dr., San Antonio, TX 78229"
+  },
+  "status": "active"
+}

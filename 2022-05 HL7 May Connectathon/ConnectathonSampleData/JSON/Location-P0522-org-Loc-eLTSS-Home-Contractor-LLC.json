@@ -1,0 +1,9 @@
+{
+  "resourceType": "Location",
+  "id": "P0522-org-Loc-eLTSS-Home-Contractor-LLC",
+  "name": "Home Contractor LLC",
+  "address": {
+    "text": "100 Montana St., San Antonio, TX 78212"
+  },
+  "status": "active"
+}

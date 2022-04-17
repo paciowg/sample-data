@@ -1,0 +1,16 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "P0522-Role-SW-MarkPlanner",
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "104100000X",
+          "system": "https://taxonomy.nucc.org/",
+          "display": "Social Worker"
+        }
+      ]
+    }
+  ],
+  "active": true
+}

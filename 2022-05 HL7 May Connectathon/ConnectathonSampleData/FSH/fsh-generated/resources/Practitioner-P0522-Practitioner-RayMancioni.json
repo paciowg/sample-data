@@ -1,0 +1,19 @@
+{
+  "resourceType": "Practitioner",
+  "id": "P0522-Practitioner-RayMancioni",
+  "name": [
+    {
+      "given": [
+        "Ray"
+      ],
+      "family": "Mancioni",
+      "text": "Ray Mancioni"
+    }
+  ],
+  "active": true,
+  "telecom": [
+    {
+      "system": "phone"
+    }
+  ]
+}

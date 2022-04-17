@@ -1,0 +1,19 @@
+{
+  "resourceType": "Practitioner",
+  "id": "P0522-Practitioner-DanielGranger",
+  "name": [
+    {
+      "given": [
+        "Daniel"
+      ],
+      "family": "Granger",
+      "text": "Daniel Granger"
+    }
+  ],
+  "active": true,
+  "telecom": [
+    {
+      "system": "phone"
+    }
+  ]
+}

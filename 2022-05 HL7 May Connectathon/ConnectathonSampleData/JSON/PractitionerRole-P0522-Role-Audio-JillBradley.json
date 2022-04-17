@@ -1,0 +1,16 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "P0522-Role-Audio-JillBradley",
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "231H00000X",
+          "system": "https://taxonomy.nucc.org/",
+          "display": "Audiologist"
+        }
+      ]
+    }
+  ],
+  "active": true
+}
