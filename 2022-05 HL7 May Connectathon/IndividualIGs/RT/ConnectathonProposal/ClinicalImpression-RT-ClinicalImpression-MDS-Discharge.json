@@ -1,0 +1,26 @@
+{
+	"resourceType": "ClinicalImpression",
+	"id": "RT-ClinicalImpression-MDS-Discharge",
+	"status": "completed",
+	"description": "Assessment and Impression at discharge from SNF",
+	"subject": {
+		"reference": "Patient/RT-patientBSJ1"
+	},
+	"effectiveDateTime": "2020-02-10",
+	"encounter": {
+      "reference": "Encounter/RT-Encounter-SNF-Stay"
+  	},
+	"investigation": [
+		{
+			"code": {
+				"text": "SNF Discharge Assessments"
+			},
+			"item": [
+				{
+					"reference": "Observation/SNF-RT-MOB-DP-MDS-Discharge-ND-1D"
+				}
+			]
+		}
+	],
+	"summary": "continue recovery at home"
+}

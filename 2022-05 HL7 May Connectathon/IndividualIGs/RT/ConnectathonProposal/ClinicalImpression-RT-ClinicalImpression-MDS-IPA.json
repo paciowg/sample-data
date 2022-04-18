@@ -1,0 +1,26 @@
+{
+	"resourceType": "ClinicalImpression",
+	"id": "RT-ClinicalImpression-MDS-IPA",
+	"status": "completed",
+	"description": "Assessment and Impression at interim assessment at SNF",
+	"subject": {
+		"reference": "Patient/RT-patientBSJ1"
+	},
+	"effectiveDateTime": "2020-01-14",
+	"encounter": {
+      "reference": "Encounter/RT-Encounter-SNF-Stay"
+    },
+	"investigation": [
+		{
+			"code": {
+				"text": "SNF IPA Assessments"
+			},
+			"item": [
+				{
+					"reference": "Observation/RT-SNF-MOB-IP-MDS-IPA-1C"
+				}
+			]
+		}
+	],
+	"summary": "focus on restoring mobility following stroke, including setback from ankle injury"
+}

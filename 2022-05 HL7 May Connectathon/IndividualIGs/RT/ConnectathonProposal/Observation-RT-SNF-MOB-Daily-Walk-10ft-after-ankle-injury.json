@@ -1,0 +1,32 @@
+{
+  "resourceType": "Observation",
+  "id": "RT-SNF-MOB-Daily-Walk-10ft-after-ankle-injury",
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "95004-8",
+        "display": "Walk 10 feet - usual functional ability during assessment period [CMS Assessment]"
+      }
+    ],
+    "text": "Walk 10 feet - usual functional ability during assessment period [CMS Assessment]"
+  },
+  "subject": {
+    "reference": "Patient/RT-patientBSJ1"
+  },
+  "effectiveDateTime": "2020-01-15T16:00:00-05:00",
+  "encounter": {
+      "reference": "Encounter/RT-Encounter-SNF-Stay"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "LA30914-8",
+        "display": "Dependent - Helper does all of the effort. Person does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the person to complete the activity."
+      }
+    ],
+    "text": "Dependent - Helper does all of the effort. Person does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the person to complete the activity."
+  }
+}

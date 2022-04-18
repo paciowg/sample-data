@@ -1,0 +1,657 @@
+{
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "Encounter/RT-Encounter-SNF-Stay",
+      "resource": {
+        "id": "RT-Encounter-SNF-Stay",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+          ]
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-class-cs",
+          "code": "SNF",
+          "display": "skilled nursing facility"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "185347001",
+                "display": "Encounter for problem (procedure)"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/RT-patientBSJ1"
+        },
+        "period": {
+          "start": "2020-01-01T15:00:00-05:00",
+          "end": "2020-02-10T10:30:00-05:00"
+        },
+        "resourceType": "Encounter"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Encounter/RT-Encounter-SNF-Stay"
+      }
+    },
+    {
+      "fullUrl": "Patient/RT-patientBSJ1",
+      "resource": {
+        "id": "RT-patientBSJ1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/identifiers/patient",
+            "value": "RT-10A3D58WH1600"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "text": "Betsy RT Smith-Johnson",
+            "family": "Smith-Johnson",
+            "given": [
+              "Betsy",
+              "RT"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "210-222-1111",
+            "use": "mobile"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1950-11-01",
+        "address": [
+          {
+            "text": "111 Maple Ct, San Antonio, TX 78212"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "U"
+            }
+          ]
+        },
+        "contact": [
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                    "code": "SONC"
+                  }
+                ]
+              },
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "C"
+                  }
+                ]
+              },
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                    "code": "GUARD"
+                  }
+                ]
+              }
+            ],
+            "name": {
+              "text": "Charles Johnson"
+            },
+            "telecom": [
+              {
+                "system": "phone",
+                "value": "(210) 222-3333"
+              }
+            ],
+            "address": {
+              "text": "100 Montana St., San Antonio, TX 78203"
+            }
+          },
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                    "code": "DAUC"
+                  }
+                ]
+              }
+            ],
+            "name": {
+              "text": "Debra Johnson"
+            },
+            "telecom": [
+              {
+                "system": "phone",
+                "value": "(410) 444-5555"
+              }
+            ],
+            "address": {
+              "text": "333 W. Camden St., Baltimore, MD 21201"
+            }
+          }
+        ],
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "system": "urn:ietf:bcp:47",
+                  "code": "en"
+                }
+              ]
+            },
+            "preferred": true
+          }
+        ],
+        "resourceType": "Patient"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Patient/RT-patientBSJ1"
+      }
+    },
+    {
+      "fullUrl": "Observation/RT-SNF-MOB-IP-MDS-IPA-1C",
+      "resource": {
+        "id": "RT-SNF-MOB-IP-MDS-IPA-1C",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "90541-4",
+              "display": "Mobility - interim performance during assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/RT-patientBSJ1"
+        },
+        "encounter": {
+          "reference": "Encounter/RT-Encounter-SNF-Stay"
+        },
+        "effectiveDateTime": "2020-01-14T16:00:00-05:00",
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/RT-SNF-MOB-IP-MDS-IPA-1C"
+      }
+    },
+    {
+      "fullUrl": "ClinicalImpression/RT-ClinicalImpression-MDS-Discharge",
+      "resource": {
+        "id": "RT-ClinicalImpression-MDS-Discharge",
+        "status": "completed",
+        "description": "Assessment and Impression at discharge from SNF",
+        "subject": {
+          "reference": "Patient/RT-patientBSJ1"
+        },
+        "encounter": {
+          "reference": "Encounter/RT-Encounter-SNF-Stay"
+        },
+        "effectiveDateTime": "2020-02-10",
+        "investigation": [
+          {
+            "code": {
+              "text": "SNF Discharge Assessments"
+            },
+            "item": [
+              {
+                "reference": "Observation/SNF-RT-MOB-DP-MDS-Discharge-ND-1D"
+              }
+            ]
+          }
+        ],
+        "summary": "continue recovery at home",
+        "resourceType": "ClinicalImpression"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ClinicalImpression/RT-ClinicalImpression-MDS-Discharge"
+      }
+    },
+    {
+      "fullUrl": "ClinicalImpression/RT-ClinicalImpression-MDS-5-day",
+      "resource": {
+        "id": "RT-ClinicalImpression-MDS-5-day",
+        "status": "completed",
+        "description": "Assessment and Impression at admission to SNF",
+        "subject": {
+          "reference": "Patient/RT-patientBSJ1"
+        },
+        "encounter": {
+          "reference": "Encounter/RT-Encounter-SNF-Stay"
+        },
+        "effectiveDateTime": "2020-01-02",
+        "investigation": [
+          {
+            "code": {
+              "text": "SNF Admission Assessments"
+            },
+            "item": [
+              {
+                "reference": "Observation/RT-SNF-MOB-AP-MDS-5-Day-NC-1A"
+              }
+            ]
+          }
+        ],
+        "summary": "focus on restoring mobility following stroke",
+        "resourceType": "ClinicalImpression"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ClinicalImpression/RT-ClinicalImpression-MDS-5-day"
+      }
+    },
+    {
+      "fullUrl": "ClinicalImpression/RT-ClinicalImpression-MDS-IPA",
+      "resource": {
+        "id": "RT-ClinicalImpression-MDS-IPA",
+        "status": "completed",
+        "description": "Assessment and Impression at interim assessment at SNF",
+        "subject": {
+          "reference": "Patient/RT-patientBSJ1"
+        },
+        "encounter": {
+          "reference": "Encounter/RT-Encounter-SNF-Stay"
+        },
+        "effectiveDateTime": "2020-01-14",
+        "investigation": [
+          {
+            "code": {
+              "text": "SNF IPA Assessments"
+            },
+            "item": [
+              {
+                "reference": "Observation/RT-SNF-MOB-IP-MDS-IPA-1C"
+              }
+            ]
+          }
+        ],
+        "summary": "focus on restoring mobility following stroke, including setback from ankle injury",
+        "resourceType": "ClinicalImpression"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ClinicalImpression/RT-ClinicalImpression-MDS-IPA"
+      }
+    },
+    {
+      "fullUrl": "Observation/RT-SNF-MOB-Daily-Walk-10ft-before-ankle-injury",
+      "resource": {
+        "id": "RT-SNF-MOB-Daily-Walk-10ft-before-ankle-injury",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "95004-8",
+              "display": "Walk 10 feet - usual functional ability during assessment period [CMS Assessment]"
+            }
+          ],
+          "text": "Walk 10 feet - usual functional ability during assessment period [CMS Assessment]"
+        },
+        "subject": {
+          "reference": "Patient/RT-patientBSJ1"
+        },
+        "encounter": {
+          "reference": "Encounter/RT-Encounter-SNF-Stay"
+        },
+        "effectiveDateTime": "2020-01-03T16:00:00-05:00",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA11759-0",
+              "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+            }
+          ],
+          "text": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+        },
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/RT-SNF-MOB-Daily-Walk-10ft-before-ankle-injury"
+      }
+    },
+    {
+      "fullUrl": "Observation/SNF-RT-MOB-DP-MDS-Discharge-ND-1D",
+      "resource": {
+        "id": "SNF-RT-MOB-DP-MDS-Discharge-ND-1D",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "95742-3",
+              "display": "IRF-PAI v3.0, MDS v1.17.1, 1.17.2 - Mobility - discharge performance during assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/RT-patientBSJ1"
+        },
+        "encounter": {
+          "reference": "Encounter/RT-Encounter-SNF-Stay"
+        },
+        "effectiveDateTime": "2020-02-10T10:00:00-05:00",
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/SNF-RT-MOB-DP-MDS-Discharge-ND-1D"
+      }
+    },
+    {
+      "fullUrl": "Observation/RT-SNF-MOB-AP-MDS-5-Day-NC-1A",
+      "resource": {
+        "id": "RT-SNF-MOB-AP-MDS-5-Day-NC-1A",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "95741-5",
+              "display": "IRF-PAI v3.0, MDS v1.17.1, 1.17.2 - Mobility - admission performance during assessment period [CMS Assessment]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/RT-patientBSJ1"
+        },
+        "encounter": {
+          "reference": "Encounter/RT-Encounter-SNF-Stay"
+        },
+        "effectiveDateTime": "2020-01-02T16:00:00-05:00",
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/RT-SNF-MOB-AP-MDS-5-Day-NC-1A"
+      }
+    },
+    {
+      "fullUrl": "Encounter/RT-SNF-Timepoint-Admission-to-IPA",
+      "resource": {
+        "id": "RT-SNF-Timepoint-Admission-to-IPA",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-rt/StructureDefinition/reassessment-timepoints-encounter"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/identifiers/patient",
+            "value": "SNF-Re-assessment-Timepoint-1001"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-class-cs",
+          "code": "SNF",
+          "display": "skilled nursing facility"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-entity-cs",
+                "code": "payer",
+                "display": "Payer"
+              }
+            ]
+          }
+        ],
+        "serviceType": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-service-type-cs",
+              "code": "mds",
+              "display": "Minimum Data Set"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/RT-patientBSJ1"
+        },
+        "basedOn": [
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/us/pacio-rt/StructureDefinition/clinicalImpression",
+                "valueReference": {
+                  "reference": "ClinicalImpression/RT-ClinicalImpression-MDS-5-day"
+                }
+              }
+            ],
+            "display": "MDS 5-day"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/us/pacio-rt/StructureDefinition/clinicalImpression",
+                "valueReference": {
+                  "reference": "ClinicalImpression/RT-ClinicalImpression-IPA"
+                }
+              }
+            ],
+            "display": "MDS IPA"
+          }
+        ],
+        "period": {
+          "start": "2020-01-01",
+          "end": "2020-01-13"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                "code": "I63.411",
+                "display": "Cerebral infarction due to embolism of right middle cerebral artery"
+              }
+            ]
+          }
+        ],
+        "partOf": {
+          "reference": "Encounter/RT-Encounter-SNF-Stay"
+        },
+        "resourceType": "Encounter"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Encounter/RT-SNF-Timepoint-Admission-to-IPA"
+      }
+    },
+    {
+      "fullUrl": "Observation/RT-SNF-MOB-Daily-Walk-10ft-after-ankle-injury",
+      "resource": {
+        "id": "RT-SNF-MOB-Daily-Walk-10ft-after-ankle-injury",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "95004-8",
+              "display": "Walk 10 feet - usual functional ability during assessment period [CMS Assessment]"
+            }
+          ],
+          "text": "Walk 10 feet - usual functional ability during assessment period [CMS Assessment]"
+        },
+        "subject": {
+          "reference": "Patient/RT-patientBSJ1"
+        },
+        "encounter": {
+          "reference": "Encounter/RT-Encounter-SNF-Stay"
+        },
+        "effectiveDateTime": "2020-01-15T16:00:00-05:00",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA30914-8",
+              "display": "Dependent - Helper does all of the effort. Person does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the person to complete the activity."
+            }
+          ],
+          "text": "Dependent - Helper does all of the effort. Person does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the person to complete the activity."
+        },
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/RT-SNF-MOB-Daily-Walk-10ft-after-ankle-injury"
+      }
+    },
+    {
+      "fullUrl": "Encounter/RT-SNF-Timepoint-IPA-to-Discharge",
+      "resource": {
+        "id": "RT-SNF-Timepoint-IPA-to-Discharge",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-rt/StructureDefinition/reassessment-timepoints-encounter"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/identifiers/patient",
+            "value": "MDS-Re-assessment-Timepoint-2001"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-class-cs",
+          "code": "SNF",
+          "display": "skilled nursing facility"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-entity-cs",
+                "code": "payer",
+                "display": "Payer"
+              }
+            ]
+          }
+        ],
+        "serviceType": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-service-type-cs",
+              "code": "mds",
+              "display": "Minimum Data Set"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/RT-patientBSJ1"
+        },
+        "basedOn": [
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/us/pacio-rt/StructureDefinition/clinicalImpression",
+                "valueReference": {
+                  "reference": "ClinicalImpression/RT-ClinicalImpression-IPA"
+                }
+              }
+            ],
+            "display": "MDS IPA"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/us/pacio-rt/StructureDefinition/clinicalImpression",
+                "valueReference": {
+                  "reference": "ClinicalImpression/RT-ClinicalImpression-MDS-Discharge"
+                }
+              }
+            ],
+            "display": "MDS Discharge"
+          }
+        ],
+        "period": {
+          "start": "2020-01-14",
+          "end": "2020-02-10"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                "code": "I63.411",
+                "display": "Cerebral infarction due to embolism of right middle cerebral artery"
+              }
+            ]
+          }
+        ],
+        "partOf": {
+          "reference": "Encounter/RT-Encounter-SNF-Stay"
+        },
+        "resourceType": "Encounter"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Encounter/RT-SNF-Timepoint-IPA-to-Discharge"
+      }
+    }
+  ],
+  "resourceType": "Bundle"
+}

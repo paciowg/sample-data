@@ -1,0 +1,31 @@
+{
+  "resourceType": "Observation",
+  "id": "RT-SNF-MOB-IP-MDS-IPA-1C",
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "survey"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "90541-4",
+        "display": "Mobility - interim performance during assessment period [CMS Assessment]"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/RT-patientBSJ1"
+  },
+  "effectiveDateTime": "2020-01-14T16:00:00-05:00",
+  "encounter": {
+      "reference": "Encounter/RT-Encounter-SNF-Stay"
+  }
+}
