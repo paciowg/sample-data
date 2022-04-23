@@ -120,7 +120,7 @@
             "reference": "Goal/PMC-eLTSS-goalDanceDaughterWedding"
           },
           {
-            "reference": "PMC-eLTSS-claimTherapy-Updated"
+            "reference": "Claim/PMC-eLTSS-claimTherapy-Updated"
           }
         ],
         "resourceType": "ServiceRequest"
@@ -259,7 +259,7 @@
       }
     },
     {
-      "fullUrl": "Claim/PMC-eLTSS-claimTherapy-Upated",
+      "fullUrl": "Claim/PMC-eLTSS-claimTherapy-Updated",
       "resource": {
         "id": "PMC-eLTSS-claimTherapy-Upated",
         "meta": {

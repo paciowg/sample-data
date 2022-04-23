@@ -1,6 +1,6 @@
 {
   "resourceType": "Claim",
-  "id": "PMC-eLTSS-claimTherapy-Upated",
+  "id": "PMC-eLTSS-claimTherapy-Updated",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Claim-eltss"

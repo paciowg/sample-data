@@ -39,7 +39,7 @@ Usage: #example
 * item.unitPrice.value = 55
 * item.net.value = 660
 
-Instance: PMC-eLTSS-claimTherapy-Upated
+Instance: PMC-eLTSS-claimTherapy-Updated
 InstanceOf: Claim
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Claim-eltss"
