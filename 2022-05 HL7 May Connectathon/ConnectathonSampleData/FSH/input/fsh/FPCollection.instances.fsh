@@ -9,6 +9,7 @@ Description: "An instance of Functional Performance Collection"
 * subject = Reference(Patient/P0522-patientBSJ1)
 * status = #final
 * category[+] = FUNCTIONINGCAT#functioning "Functioning"
+* category[+] = FUNCPERFCAT#mobility "Mobility"
 * category[+] = OBSCAT#survey
 * effectiveDateTime = "2021-02-26T15:00:00-05:00"
 * code = http://loinc.org#95741-5 "IRF-PAI v3.0, MDS v1.17.1, 1.17.2 - Mobility - admission performance during assessment period [CMS Assessment]"
@@ -39,6 +40,7 @@ Description: "An instance of Functional Performance Collection"
 * subject = Reference(Patient/P0522-patientBSJ1)
 * status = #final
 * category[+] = FUNCTIONINGCAT#functioning "Functioning"
+* category[+] = FUNCPERFCAT#self-care "Self-care"
 * category[+] = OBSCAT#survey
 * effectiveDateTime = "2021-02-21T08:00:00-05:00"
 * code = http://loinc.org#83233-7 "Self-care - admission performance [CMS Assessment]"
@@ -60,6 +62,7 @@ Description: "An instance of Functional Performance Collection"
 * subject = Reference(Patient/P0522-patientBSJ1)
 * status = #final
 * category[+] = FUNCTIONINGCAT#functioning "Functioning"
+* category[+] = FUNCPERFCAT#self-care "Self-care"
 * category[+] = OBSCAT#survey
 * effectiveDateTime = "2021-02-27T10:35:00-05:00"
 * code = http://loinc.org#95732-4 "IRF-PAI v3.0, MDS v1.17.1, 1.17.2 - Self-care - admission performance during assessment period [CMS Assessment]"
@@ -81,6 +84,7 @@ Description: "An instance of Functional Performance Collection"
 * subject = Reference(Patient/P0522-patientBSJ1)
 * status = #final
 * category[+] = FUNCTIONINGCAT#functioning "Functioning"
+* category[+] = FUNCPERFCAT#mental-functions "Mental functions"
 * category[+] = OBSCAT#survey
 * effectiveDateTime = "2021-02-21T09:30:00-05:00"
 * code = http://loinc.org#72107-6 "Mini-Mental State Examination [MMSE]"
@@ -97,6 +101,7 @@ Description: "An instance of Functional Performance Collection"
 * subject = Reference(Patient/P0522-patientBSJ1)
 * status = #final
 * category[+] = FUNCTIONINGCAT#functioning "Functioning"
+* category[+] = FUNCPERFCAT#self-care "Self-care"
 * category[+] = OBSCAT#survey
 * effectiveDateTime = "2021-02-24T13:45:00-05:00"
 * code = http://loinc.org#83254-3 "Self-care - discharge performance [CMS Assessment]"
@@ -118,6 +123,7 @@ Description: "An instance of Functional Performance Collection"
 * subject = Reference(Patient/P0522-patientBSJ1)
 * status = #final
 * category[+] = FUNCTIONINGCAT#functioning "Functioning"
+* category[+] = FUNCPERFCAT#self-care "Self-care"
 * category[+] = OBSCAT#survey
 * effectiveDateTime = "2021-06-02T10:50:00-05:00"
 * code = http://loinc.org#88485-8 "OASIS D - Self-care - follow-up performance during assessment period [CMS Assessment]"
@@ -135,6 +141,7 @@ Description: "An instance of Functional Performance Collection"
 * subject = Reference(Patient/P0522-patientBSJ1)
 * status = #final
 * category[+] = FUNCTIONINGCAT#functioning "Functioning"
+* category[+] = FUNCPERFCAT#self-care "Self-care"
 * category[+] = OBSCAT#survey
 * effectiveDateTime = "2021-08-24T14:00:00-05:00"
 * code = http://loinc.org#89475-8 "OASIS D - Self-care - discharge performance during assessment period [CMS Assessment]"
@@ -156,6 +163,7 @@ Description: "An instance of Functional Performance Collection"
 * subject = Reference(Patient/P0522-patientBSJ1)
 * status = #final
 * category[+] = FUNCTIONINGCAT#functioning "Functioning"
+* category[+] = FUNCPERFCAT#mobility "Mobility"
 * category[+] = OBSCAT#survey
 * effectiveDateTime = "2021-06-02T10:50:00-05:00"
 * code = http://loinc.org#88486-6 "OASID D - Mobility - follow-up perfomance during assessment period [CMS Assessment]"
@@ -183,6 +191,7 @@ Description: "An instance of Functional Performance Collection"
 * subject = Reference(Patient/P0522-patientBSJ1)
 * status = #final
 * category[+] = FUNCTIONINGCAT#functioning "Functioning"
+* category[+] = FUNCPERFCAT#mobility "Mobility"
 * category[+] = OBSCAT#survey
 * effectiveDateTime = "2021-04-07T17:30:00-05:00"
 * code = http://loinc.org#89476-6 "Mobility - discharge goal [CMS Assessment]"
@@ -212,6 +221,7 @@ Description: "An instance of Functional Performance Collection"
 * subject = Reference(Patient/P0522-patientBSJ1)
 * status = #final
 * category[+] = FUNCTIONINGCAT#functioning "Functioning"
+* category[+] = FUNCPERFCAT#mobility "Mobility"
 * category[+] = OBSCAT#survey
 * effectiveDateTime = "2021-02-21T08:00:00-05:00"
 * code = http://loinc.org#85056-0 "Mobility - discharge goal during 3 day assessment period [CMS Assessment]"
@@ -243,6 +253,7 @@ Description: "An instance of Functional Performance Collection"
 * subject = Reference(Patient/P0522-patientBSJ1)
 * status = #final
 * category[+] = FUNCTIONINGCAT#functioning "Functioning"
+* category[+] = FUNCPERFCAT#self-care "Self-care"
 * category[+] = OBSCAT#survey
 * effectiveDateTime = "2021-04-07T16:10:00-05:00"
 * code = http://loinc.org#89479-0 "OASIS D - Self-care - SOC/ROC performance during assessment period [CMS Assessment]"
@@ -264,6 +275,7 @@ Description: "An instance of Functional Performance Collection"
 * subject = Reference(Patient/P0522-patientBSJ1)
 * status = #final
 * category[+] = FUNCTIONINGCAT#functioning "Functioning"
+* category[+] = FUNCPERFCAT#mobility "Mobility"
 * category[+] = OBSCAT#survey
 * effectiveDateTime = "2021-04-07T17:30:00-05:00"
 * code = http://loinc.org#89477-4 "OASIS D - Mobility - SOC and ROC performance during assessment period [CMS Assessment]"
@@ -294,6 +306,7 @@ Description: "An instance of Functional Performance Collection"
 * subject = Reference(Patient/P0522-patientBSJ1)
 * status = #final
 * category[+] = FUNCTIONINGCAT#functioning "Functioning"
+* category[+] = FUNCPERFCAT#mobility "Mobility"
 * category[+] = OBSCAT#survey
 * effectiveDateTime = "2021-08-24T09:50:00-05:00"
 * code = http://loinc.org#89474-1 "OASIS D - Mobility - discharge performance during assessment period [CMS Assessment]"
@@ -324,6 +337,7 @@ Description: "An instance of Functional Performance Collection"
 * subject = Reference(Patient/P0522-patientBSJ1)
 * status = #final
 * category[+] = FUNCTIONINGCAT#functioning "Functioning"
+* category[+] = FUNCPERFCAT#mobility "Mobility"
 * category[+] = OBSCAT#survey
 * effectiveDateTime = "2021-02-26T15:00:00-05:00"
 * code = http://loinc.org#89476-6 "Mobility - discharge goal [CMS Assessment]"
@@ -362,6 +376,7 @@ Description: "An instance of Functional Performance Collection"
 * subject = Reference(Patient/P0522-patientBSJ1)
 * status = #final
 * category[+] = FUNCTIONINGCAT#functioning "Functioning"
+* category[+] = FUNCPERFCAT#mobility "Mobility"
 * category[+] = OBSCAT#survey
 * effectiveDateTime = "2021-08-04T12:30:00-05:00"
 * code = http://loinc.org#88486-6 "OASID D - Mobility - follow-up perfomance during assessment period [CMS Assessment]"
@@ -388,6 +403,7 @@ Description: "An instance of Functional Performance Collection"
 * subject = Reference(Patient/P0522-patientBSJ1)
 * status = #final
 * category[+] = FUNCTIONINGCAT#functioning "Functioning"
+* category[+] = FUNCPERFCAT#mobility "Mobility"
 * category[+] = OBSCAT#survey
 * effectiveDateTime = "2021-04-06T11:00:00-05:00"
 * code = http://loinc.org#95742-3 "IRF-PAI v3.0, MDS v1.17.1, 1.17.2 - Mobility - discharge performance during assessment period [CMS Assessment]"
@@ -412,6 +428,7 @@ Description: "An instance of Functional Performance Collection"
 * subject = Reference(Patient/P0522-patientBSJ1)
 * status = #final
 * category[+] = FUNCTIONINGCAT#functioning "Functioning"
+* category[+] = FUNCPERFCAT#mobility "Mobility"
 * category[+] = OBSCAT#survey
 * effectiveDateTime = "2021-02-24T16:32:00-05:00"
 * code = http://loinc.org#88331-4 "Mobility - discharge performance during 3 day assessment period [CMS Assessment]"
@@ -449,6 +466,7 @@ Description: "An instance of Functional Performance Collection"
 * subject = Reference(Patient/P0522-patientBSJ1)
 * status = #final
 * category[+] = FUNCTIONINGCAT#functioning "Functioning"
+* category[+] = FUNCPERFCAT#mental-functions "Mental functions"
 * category[+] = OBSCAT#survey
 * effectiveDateTime = "2021-02-26T16:30:00-05:00"
 * code = http://loinc.org#52491-8 "Brief interview for mental status [BIMS]"
@@ -474,6 +492,7 @@ Description: "An instance of Functional Performance Collection"
 * subject = Reference(Patient/P0522-patientBSJ1)
 * status = #final
 * category[+] = FUNCTIONINGCAT#functioning "Functioning"
+* category[+] = FUNCPERFCAT#mobility "Mobility"
 * category[+] = OBSCAT#survey
 * effectiveDateTime = "2021-02-21T08:00:00-05:00"
 * code = http://loinc.org#88330-6 "Mobility - admission performance during 3 day assessment period [CMS Assessment]"
@@ -508,6 +527,7 @@ Description: "An instance of Functional Performance Collection"
 * subject = Reference(Patient/P0522-patientBSJ1)
 * status = #final
 * category[+] = FUNCTIONINGCAT#functioning "Functioning"
+* category[+] = FUNCPERFCAT#mental-functions "Mental functions"
 * category[+] = OBSCAT#survey
 * effectiveDateTime = "2021-02-21T09:30:00-05:00"
 * code = http://loinc.org#86585-7 "MDS v3.0 - RAI v1.17.2 - Signs and symptoms of delirium (from CAM) [CMS Assessment]"
@@ -525,6 +545,7 @@ Description: "An instance of Functional Performance Collection"
 * subject = Reference(Patient/P0522-patientBSJ1)
 * status = #final
 * category[+] = FUNCTIONINGCAT#functioning "Functioning"
+* category[+] = FUNCPERFCAT#mobility "Mobility"
 * category[+] = OBSCAT#survey
 * effectiveDateTime = "2021-03-11T15:45:00-05:00"
 * code = http://loinc.org#90541-4 "Mobility - interim performance during assessment period [CMS Assessment]"
@@ -548,6 +569,7 @@ Description: "An instance of Functional Performance Collection"
 * subject = Reference(Patient/P0522-patientBSJ1)
 * status = #final
 * category[+] = FUNCTIONINGCAT#functioning "Functioning"
+* category[+] = FUNCPERFCAT#mental-functions "Mental functions"
 * category[+] = OBSCAT#survey
 * effectiveDateTime = "2021-02-21T09:30:00-05:00"
 * code = http://loinc.org#72133-2 "Montreal Cognitive Assessment [MoCA]"
@@ -582,6 +604,7 @@ Description: "An instance of Functional Performance Collection"
 * subject = Reference(Patient/P0522-patientBSJ1)
 * status = #final
 * category[+] = FUNCTIONINGCAT#functioning "Functioning"
+* category[+] = FUNCPERFCAT#self-care "Self-care"
 * category[+] = OBSCAT#survey
 * effectiveDateTime = "2021-08-04T12:30:00-05:00"
 * code = http://loinc.org#88485-8 "OASIS D - Self-care - follow-up performance during assessment period [CMS Assessment]"
@@ -599,6 +622,7 @@ Description: "An instance of Functional Performance Collection"
 * subject = Reference(Patient/P0522-patientBSJ1)
 * status = #final
 * category[+] = FUNCTIONINGCAT#functioning "Functioning"
+* category[+] = FUNCPERFCAT#self-care "Self-care"
 * category[+] = OBSCAT#survey
 * effectiveDateTime = "2021-02-27T10:35:00-05:00"
 * code = http://loinc.org#89478-2 "IRF-PAI v3.0, MDS v1.17.1, 1.17.2, OASIS D, D1 - Self-care - discharge goal [CMS Assessment]"
@@ -620,6 +644,7 @@ Description: "An instance of Functional Performance Collection"
 * subject = Reference(Patient/P0522-patientBSJ1)
 * status = #final
 * category[+] = FUNCTIONINGCAT#functioning "Functioning"
+* category[+] = FUNCPERFCAT#mental-functions "Mental functions"
 * category[+] = OBSCAT#survey
 * effectiveDateTime = "2021-02-26T16:30:00-05:00"
 * code = http://loinc.org#54635-8 "Resident mood interview (PHQ-9) [Reported PHQ-9 CMS]"
@@ -654,6 +679,7 @@ Description: "An instance of Functional Performance Collection"
 * subject = Reference(Patient/P0522-patientBSJ1)
 * status = #final
 * category[+] = FUNCTIONINGCAT#functioning "Functioning"
+* category[+] = FUNCPERFCAT#self-care "Self-care"
 * category[+] = OBSCAT#survey
 * effectiveDateTime = "2021-04-06T11:30:00-05:00"
 * code = http://loinc.org#95734-0 "IRF-PAIv3.0, MDS v1.17.1, 1.17.2 - Self-care - discharge performance during assessment period [CMS Assessment]"
@@ -675,6 +701,7 @@ Description: "An instance of Functional Performance Collection"
 * subject = Reference(Patient/P0522-patientBSJ1)
 * status = #final
 * category[+] = FUNCTIONINGCAT#functioning "Functioning"
+* category[+] = FUNCPERFCAT#mental-functions "Mental functions"
 * category[+] = OBSCAT#survey
 * effectiveDateTime = "2021-03-23T10:15:00-05:00"
 * code = http://loinc.org#54635-8 "Resident mood interview (PHQ-9) [Reported PHQ-9 CMS]"
@@ -708,6 +735,7 @@ Description: "An instance of Functional Performance Collection"
 * subject = Reference(Patient/P0522-patientBSJ1)
 * status = #final
 * category[+] = FUNCTIONINGCAT#functioning "Functioning"
+* category[+] = FUNCPERFCAT#self-care "Self-care"
 * category[+] = OBSCAT#survey
 * effectiveDateTime = "2021-03-11T15:45:00-05:00"
 * code = http://loinc.org#90540-6 "MDS v1.17.1, 1.17.2 - Self-care - interim performance - IPA during assessment period [CMS Assessment]"
@@ -743,6 +771,7 @@ Description: "An instance of Functional Performance Collection"
 * subject = Reference(Patient/P0522-patientBSJ1)
 * status = #final
 * category[+] = FUNCTIONINGCAT#functioning "Functioning"
+* category[+] = FUNCPERFCAT#self-care "Self-care"
 * category[+] = OBSCAT#survey
 * effectiveDateTime = "2021-04-07T16:10:00-05:00"
 * code = http://loinc.org#89478-2 "IRF-PAI v3.0, MDS v1.17.1, 1.17.2, OASIS D, D1 - Self-care - discharge goal [CMS Assessment]"
