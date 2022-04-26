@@ -1,9 +1,9 @@
 {
   "resourceType": "Observation",
-  "id": "P0522-BSJ-HospitalAdmSPLASCH-Commprod-01",
+  "id": "P0522-BSJ-HospitalAdmSPLASCH-Commprod-01-Obs-CWA",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-collection"
+      "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
     ]
   },
   "category": [
@@ -42,27 +42,24 @@
   "code": {
     "coding": [
       {
-        "code": "99844-3",
-        "system": "http://loinc.org",
-        "display": "Functional Communication Measure - Spoken Language Expression ages 6 or older panel [ASHA NOMS]"
+        "code": "spoken-language-expression-communicate-without-assistance",
+        "system": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS",
+        "display": "How often does the individual participate in communication exchanges WITHOUT additional assistance from communication partner (Spoken Language Expression)?"
       }
-    ],
-    "text": "Functional Communication Measure - Spoken Language Expression ages 6 or older panel [ASHA NOMS]"
+    ]
   },
   "performer": [
     {
       "reference": "PractitionerRole/P0522-Role-RN-JudySmiley"
     }
   ],
-  "hasMember": [
-    {
-      "reference": "Observation/P0522-BSJ-HospitalAdmSPLASCH-Commprod-01-Obs-CWA"
-    },
-    {
-      "reference": "Observation/P0522-BSJ-HospitalAdmSPLASCH-Commprod-01-Obs-99850-0"
-    },
-    {
-      "reference": "Observation/P0522-BSJ-HospitalAdmSPLASCH-Commprod-01-Obs-99849-2"
-    }
-  ]
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA10082-8",
+        "system": "http://loinc.org",
+        "display": "Sometimes"
+      }
+    ]
+  }
 }

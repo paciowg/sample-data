@@ -56,13 +56,13 @@
   ],
   "hasMember": [
     {
-      "reference": "Observation/P0522-BSJ-HospitalAdmSPLASCH-Commrec-01-Observation-99839-3"
+      "reference": "Observation/P0522-BSJ-HospitalAdmSPLASCH-Commrec-01-Obs-99839-3"
     },
     {
-      "reference": "Observation/P0522-BSJ-HospitalAdmSPLASCH-Commrec-01-Observation-99842-7"
+      "reference": "Observation/P0522-BSJ-HospitalAdmSPLASCH-Commrec-01-Obs-99842-7"
     },
     {
-      "reference": "Observation/P0522-BSJ-HospitalAdmSPLASCH-Commrec-01-Observation-99840-1"
+      "reference": "Observation/P0522-BSJ-HospitalAdmSPLASCH-Commrec-01-Obs-99840-1"
     }
   ]
 }

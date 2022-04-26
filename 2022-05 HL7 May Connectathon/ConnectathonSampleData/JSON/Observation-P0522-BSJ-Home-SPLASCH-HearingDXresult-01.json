@@ -1,6 +1,6 @@
 {
   "resourceType": "Observation",
-  "id": "P0522-BSJ-HospitalAdmSPLASCH-Commprod-01",
+  "id": "P0522-BSJ-Home-SPLASCH-HearingDXresult-01",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-collection"
@@ -19,9 +19,9 @@
     {
       "coding": [
         {
-          "code": "communication-producing",
+          "code": "hearing-and-vestibular-functions",
           "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-category-cs",
-          "display": "Communication - producing"
+          "display": "Hearing and vestibular functions"
         }
       ]
     },
@@ -38,31 +38,37 @@
     "reference": "Patient/P0522-patientBSJ1"
   },
   "status": "final",
-  "effectiveDateTime": "2021-02-20T19:30:00-05:00",
+  "effectiveDateTime": "2020-11-06T10:45:00-05:00",
   "code": {
     "coding": [
       {
-        "code": "99844-3",
+        "code": "98418-7",
         "system": "http://loinc.org",
-        "display": "Functional Communication Measure - Spoken Language Expression ages 6 or older panel [ASHA NOMS]"
+        "display": "Diagnostic audiology results panel"
       }
     ],
-    "text": "Functional Communication Measure - Spoken Language Expression ages 6 or older panel [ASHA NOMS]"
+    "text": "Diagnostic audiology results panel"
   },
   "performer": [
     {
-      "reference": "PractitionerRole/P0522-Role-RN-JudySmiley"
+      "reference": "PractitionerRole/P0522-Role-Audio-JillBradley"
     }
   ],
   "hasMember": [
     {
-      "reference": "Observation/P0522-BSJ-HospitalAdmSPLASCH-Commprod-01-Obs-CWA"
+      "reference": "Observation/P0522-BSJ-Home-SPLASCH-HearingDXresult-01-Obs-DxSum-LType"
     },
     {
-      "reference": "Observation/P0522-BSJ-HospitalAdmSPLASCH-Commprod-01-Obs-99850-0"
+      "reference": "Observation/P0522-BSJ-Home-SPLASCH-HearingDXresult-01-Obs-DxSum-RType"
     },
     {
-      "reference": "Observation/P0522-BSJ-HospitalAdmSPLASCH-Commprod-01-Obs-99849-2"
+      "reference": "Observation/P0522-BSJ-Home-SPLASCH-HearingDXresult-01-Obs-DxSum-LDegree"
+    },
+    {
+      "reference": "Observation/P0522-BSJ-Home-SPLASCH-HearingDXresult-01-Obs-DxSum-RDegree"
+    },
+    {
+      "reference": "Observation/P0522-BSJ-Home-SPLASCH-HearingDXresult-01-Obs-DxSum-Narrative"
     }
   ]
 }

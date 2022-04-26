@@ -1,9 +1,9 @@
 {
   "resourceType": "Observation",
-  "id": "P0522-BSJ-HospitalAdmSPLASCH-Commprod-01",
+  "id": "P0522-BSJ-HospitalAdmSPLASCH-Commrec-01-Obs-99839-3",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-collection"
+      "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
     ]
   },
   "category": [
@@ -19,9 +19,9 @@
     {
       "coding": [
         {
-          "code": "communication-producing",
+          "code": "communication-receiving",
           "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-category-cs",
-          "display": "Communication - producing"
+          "display": "Communication - receiving"
         }
       ]
     },
@@ -42,27 +42,24 @@
   "code": {
     "coding": [
       {
-        "code": "99844-3",
+        "code": "99839-3",
         "system": "http://loinc.org",
-        "display": "Functional Communication Measure - Spoken Language Expression ages 6 or older panel [ASHA NOMS]"
+        "display": "How often does the individual understand simple messages/conversations related to routine daily activities in HIGH demand situations?"
       }
-    ],
-    "text": "Functional Communication Measure - Spoken Language Expression ages 6 or older panel [ASHA NOMS]"
+    ]
   },
   "performer": [
     {
       "reference": "PractitionerRole/P0522-Role-RN-JudySmiley"
     }
   ],
-  "hasMember": [
-    {
-      "reference": "Observation/P0522-BSJ-HospitalAdmSPLASCH-Commprod-01-Obs-CWA"
-    },
-    {
-      "reference": "Observation/P0522-BSJ-HospitalAdmSPLASCH-Commprod-01-Obs-99850-0"
-    },
-    {
-      "reference": "Observation/P0522-BSJ-HospitalAdmSPLASCH-Commprod-01-Obs-99849-2"
-    }
-  ]
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA10066-1",
+        "system": "http://loinc.org",
+        "display": "Rarely"
+      }
+    ]
+  }
 }
