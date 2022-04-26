@@ -1,0 +1,334 @@
+{
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "Encounter/PeCQM-BSJ-Encounter",
+      "resource": {
+        "id": "PeCQM-BSJ-Encounter",
+        "text": {
+          "status": "generated"
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "HH",
+          "display": "home health"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "50357006",
+                "display": "Evaluation and management of patient at home (procedure)"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "185468001",
+                "display": "Home visit for chronic condition (procedure)"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/PeCQM-patientBSJ1"
+        },
+        "period": {
+          "start": "2021-04-07T08:30:00",
+          "end": "2021-08-24T08:30:00"
+        },
+        "resourceType": "Encounter"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Encounter/PeCQM-BSJ-Encounter"
+      }
+    },
+    {
+      "fullUrl": "Patient/PeCQM-patientBSJ1",
+      "resource": {
+        "id": "PeCQM-patientBSJ1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/identifiers/patient",
+            "value": "RT-10A3D58WH1600"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "text": "Betsy eCQM Smith-Johnson",
+            "family": "Smith-Johnson",
+            "given": [
+              "Betsy",
+              "eCQM"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "210-222-1111",
+            "use": "mobile"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1950-11-01",
+        "address": [
+          {
+            "text": "111 Maple Ct, San Antonio, TX 78212"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "U"
+            }
+          ]
+        },
+        "contact": [
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                    "code": "SONC"
+                  }
+                ]
+              },
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "C"
+                  }
+                ]
+              },
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                    "code": "GUARD"
+                  }
+                ]
+              }
+            ],
+            "name": {
+              "text": "Charles Johnson"
+            },
+            "telecom": [
+              {
+                "system": "phone",
+                "value": "(210) 222-3333"
+              }
+            ],
+            "address": {
+              "text": "100 Montana St., San Antonio, TX 78203"
+            }
+          },
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                    "code": "DAUC"
+                  }
+                ]
+              }
+            ],
+            "name": {
+              "text": "Debra Johnson"
+            },
+            "telecom": [
+              {
+                "system": "phone",
+                "value": "(410) 444-5555"
+              }
+            ],
+            "address": {
+              "text": "333 W. Camden St., Baltimore, MD 21201"
+            }
+          }
+        ],
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "system": "urn:ietf:bcp:47",
+                  "code": "en"
+                }
+              ]
+            },
+            "preferred": true
+          }
+        ],
+        "resourceType": "Patient"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Patient/PeCQM-patientBSJ1"
+      }
+    },
+    {
+      "fullUrl": "Observation/PeCQM-BSJ-A1cObservation-ok",
+      "resource": {
+        "id": "PeCQM-BSJ-A1cObservation-ok",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "17856-6",
+              "display": "Hemoglobin A1c/Hemoglobin.total in Blood by HPLC"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/PeCQM-patientBSJ1"
+        },
+        "encounter": {
+          "reference": "Encounter/PeCQM-BSJ-Encounter"
+        },
+        "effectiveDateTime": "2021-04-07T12:30:00",
+        "valueQuantity": {
+          "value": 8.1,
+          "unit": "%",
+          "system": "http://unitsofmeasure.org",
+          "code": "%"
+        },
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/PeCQM-BSJ-A1cObservation-ok"
+      }
+    },
+    {
+      "fullUrl": "Observation/PeCQM-BSJ-A1cObservation-high",
+      "resource": {
+        "id": "PeCQM-BSJ-A1cObservation-high",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "17856-6",
+              "display": "Hemoglobin A1c/Hemoglobin.total in Blood by HPLC"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/PeCQM-patientBSJ1"
+        },
+        "encounter": {
+          "reference": "Encounter/PeCQM-BSJ-Encounter"
+        },
+        "effectiveDateTime": "2021-05-07T12:30:00",
+        "valueQuantity": {
+          "value": 9.1,
+          "unit": "%",
+          "system": "http://unitsofmeasure.org",
+          "code": "%"
+        },
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/PeCQM-BSJ-A1cObservation-high"
+      }
+    },
+    {
+      "fullUrl": "Condition/PeCQM-BSJ-DiagnosisDiabetes",
+      "resource": {
+        "id": "PeCQM-BSJ-DiagnosisDiabetes",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Type 2 diabetes"
+            }
+          ],
+          "text": "Diabetes mellitus type 2 (disorder)"
+        },
+        "subject": {
+          "reference": "Patient/PeCQM-patientBSJ1"
+        },
+        "encounter": {
+          "reference": "Encounter/PeCQM-BSJ-Encounter"
+        },
+        "onsetDateTime": "2020-07-06T12:15:00-05:07",
+        "resourceType": "Condition"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Condition/PeCQM-BSJ-DiagnosisDiabetes"
+      }
+    }
+  ],
+  "resourceType": "Bundle"
+}
