@@ -24,6 +24,12 @@ The root location for shared spreadsheets is in [box](https://mitre.box.com/s/b0
 
 In order to transform into FHIR JSON, data must be pulled out of the spreadsheets in the `Spreadsheets` folder into csv files in the `CSVs` folder.
 
+Pulling data from the xslx spreadsheets into csvs is more finnicky than you might expect. Simply creating a new spreadsheet in excel and saving it as CSV adds some special characters to the start of the file that disrupt the CSV to FSH script. A temporary workaround is to
+1. save as a csv from excel
+2. open as a text file in a text editor
+3. copy into a new text file
+4. save the new text file as a csv
+
 ### Shared Resources
 
 Data comes from the `CliniciansAndOrgs` spreadsheet
