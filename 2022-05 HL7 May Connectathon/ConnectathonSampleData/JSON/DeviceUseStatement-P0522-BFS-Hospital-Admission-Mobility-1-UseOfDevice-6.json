@@ -1,0 +1,25 @@
+{
+  "resourceType": "DeviceUseStatement",
+  "id": "P0522-BFS-Hospital-Admission-Mobility-1-UseOfDevice-6",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-use-of-device"
+    ]
+  },
+  "subject": {
+    "reference": "Patient/P0522-patientBSJ1"
+  },
+  "status": "active",
+  "device": {
+    "reference": "Device/P0522-CMS-Device-BedsideRails"
+  },
+  "recordedOn": "2020-07-08T16:00:00-05:00",
+  "source": {
+    "reference": "Practitioner/P0522-Practitioner-SallySmart"
+  },
+  "derivedFrom": [
+    {
+      "reference": "Observation/P0522-BFS-Hospital-Admission-Mobility-1"
+    }
+  ]
+}

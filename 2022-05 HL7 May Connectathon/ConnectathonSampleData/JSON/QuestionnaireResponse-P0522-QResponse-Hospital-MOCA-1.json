@@ -1,0 +1,47 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "id": "P0522-QResponse-Hospital-MOCA-1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaireresponse"
+    ]
+  },
+  "questionnaire": "http://example.org/Questionnaire/MDS3.0-NC-1.17",
+  "_questionnaire": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/display",
+        "valueString": "Minimum Data Set (MDS) - version 3.0 - Resident Assessment Instrument (RAI) version 1.17.1 [CMS Assessment]"
+      }
+    ]
+  },
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/P0522-patientBSJ1"
+  },
+  "authored": "2020-07-08T17:32:00-05:00",
+  "author": {
+    "reference": "PractitionerRole/P0522-Role-SLP-JennyGlass"
+  },
+  "item": [
+    {
+      "linkId": "MoCA",
+      "text": "Montreal Cognitive Assessment [MoCA]",
+      "item": [
+        {
+          "linkId": "MoCA/TotalScore",
+          "text": "Total score [MoCA]",
+          "answer": [
+            {
+              "valueQuantity": {
+                "value": 18,
+                "code": "{score}",
+                "system": "http://unitsofmeasure.org"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

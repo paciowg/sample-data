@@ -1,0 +1,10 @@
+{
+  "resourceType": "Device",
+  "id": "P0522-CMS-Device-HandleBars",
+  "deviceName": [
+    {
+      "name": "Handle bars",
+      "type": "user-friendly-name"
+    }
+  ]
+}
