@@ -47,6 +47,9 @@
   },
   "status": "final",
   "effectiveDateTime": "2021-04-06T11:00:00-05:00",
+  "encounter": {
+    "reference": "Encounter/P0522-Enc-SNF"
+  },
   "code": {
     "coding": [
       {

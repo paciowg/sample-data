@@ -1,0 +1,107 @@
+{
+  "resourceType": "Encounter",
+  "id": "P0522-Enc-SNF-Timepoint-Admission-to-IPA",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-rt/StructureDefinition/reassessment-timepoints-encounter"
+    ]
+  },
+  "status": "finished",
+  "class": {
+    "code": "SNF",
+    "system": "http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-class-cs",
+    "display": "skilled nursing facility"
+  },
+  "type": [
+    {
+      "coding": [
+        {
+          "code": "payer",
+          "system": "http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-entity-cs",
+          "display": "Payer"
+        }
+      ]
+    }
+  ],
+  "serviceType": {
+    "coding": [
+      {
+        "code": "mds",
+        "system": "http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-service-type-cs",
+        "display": "Minimum Data Set"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/P0522-patientBSJ1"
+  },
+  "episodeOfCare": [
+    {
+      "reference": "EpisodeOfCare/P0522-Episodecare-SNF"
+    }
+  ],
+  "basedOn": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/us/pacio-rt/StructureDefinition/clinicalImpression",
+          "valueReference": {
+            "reference": "ClinicalImpression/P0522-ClinicalImpression-SNF-MDS-5-day"
+          }
+        }
+      ],
+      "display": "MDS 5-day"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/us/pacio-rt/StructureDefinition/clinicalImpression",
+          "valueReference": {
+            "reference": "ClinicalImpression/P0522-ClinicalImpression-SNF-IPA"
+          }
+        }
+      ],
+      "display": "MDS IPA"
+    }
+  ],
+  "participant": [
+    {
+      "individual": {
+        "reference": "PractitionerRole/P0522-Role-IMMD-JohnSmith"
+      }
+    },
+    {
+      "individual": {
+        "reference": "PractitionerRole/P0522-Role-RN-SummerJohnson"
+      }
+    }
+  ],
+  "period": {
+    "start": "2021-02-26",
+    "end": "2021-03-11"
+  },
+  "reasonCode": [
+    {
+      "coding": [
+        {
+          "code": "I63.411",
+          "system": "http://hl7.org/fhir/sid/icd-10-cm",
+          "display": "Cerebral infarction due to embolism of right middle cerebral artery"
+        }
+      ]
+    }
+  ],
+  "location": [
+    {
+      "location": {
+        "reference": "Location/P0522-org-Loc-SNF-Happy-Nursing-Facility"
+      }
+    }
+  ],
+  "serviceProvider": {
+    "reference": "Organization/P0522-org-SNF-Happy-Nursing-Facility"
+  },
+  "partOf": {
+    "reference": "Encounter/P0522-Enc-SNF"
+  }
+}

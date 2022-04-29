@@ -1,0 +1,76 @@
+{
+  "resourceType": "Observation",
+  "id": "P0522-BSJ-HospAdm-SPLASCH-swallow-02SLP-Obs-99857-5",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+          "code": "functioning",
+          "display": "Functioning"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "code": "ingestion-functions",
+          "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-category-cs",
+          "display": "Ingestion functions"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "code": "survey",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/P0522-org-Loc-Hosp-San-Antonio-General"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/P0522-patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2021-02-21T09:30:00-05:00",
+  "encounter": {
+    "reference": "Encounter/P0522-Enc-Hospital"
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "99857-5",
+        "system": "http://loinc.org",
+        "display": "How often does the individual require supervision/assistance at meal time due to swallowing safety?"
+      }
+    ]
+  },
+  "performer": [
+    {
+      "reference": "PractitionerRole/P0522-Role-SLP-JennyGlass"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA33177-9",
+        "system": "http://loinc.org",
+        "display": "50-75% of the time"
+      }
+    ]
+  }
+}

@@ -77,6 +77,9 @@
   },
   "status": "final",
   "effectiveDateTime": "2021-02-24T16:32:00-05:00",
+  "encounter": {
+    "reference": "Encounter/P0522-Enc-Hospital"
+  },
   "code": {
     "coding": [
       {

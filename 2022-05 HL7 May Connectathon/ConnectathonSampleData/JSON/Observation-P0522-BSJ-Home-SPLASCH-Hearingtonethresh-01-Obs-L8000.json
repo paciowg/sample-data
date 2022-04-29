@@ -34,11 +34,22 @@
       ]
     }
   ],
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/P0522-org-Loc-Audiology-Advanced-Hearing-Care"
+      }
+    }
+  ],
   "subject": {
     "reference": "Patient/P0522-patientBSJ1"
   },
   "status": "final",
   "effectiveDateTime": "2020-11-06T10:45:00-05:00",
+  "encounter": {
+    "reference": "Encounter/P0522-Enc-HearingEval"
+  },
   "code": {
     "coding": [
       {
