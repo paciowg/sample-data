@@ -1,0 +1,15 @@
+{
+  "resourceType": "Organization",
+  "id": "P0522-org-eLTSS-funding",
+  "identifier": [
+    {
+      "value": "ICWP"
+    }
+  ],
+  "name": "Texas Department of Community Health",
+  "address": [
+    {
+      "text": "7430 Louis Pasteur Dr, San Antonio, TX 78229"
+    }
+  ]
+}

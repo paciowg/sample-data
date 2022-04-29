@@ -1,0 +1,54 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "P0522-eLTSS-serviceBathRail-Initial",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/ServiceRequest-eltss"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/us/eLTSS/StructureDefinition/eltss-directedBy",
+      "valueCodeableConcept": {
+        "text": "self"
+      }
+    }
+  ],
+  "status": "active",
+  "intent": "plan",
+  "code": {
+    "coding": [
+      {
+        "code": "E0241",
+        "system": "urn:oid:2.16.840.1.113883.6.14"
+      }
+    ],
+    "text": "Bath tub wall rail, each"
+  },
+  "quantityQuantity": {
+    "value": 1,
+    "unit": "install"
+  },
+  "subject": {
+    "reference": "Patient/P0522-patientBSJ1"
+  },
+  "occurrencePeriod": {
+    "start": "2020-05-01",
+    "end": "2020-12-31"
+  },
+  "performer": [
+    {
+      "reference": "RelatedPerson/P0522-RP-eLTSS-son-CharlesJohnson"
+    }
+  ],
+  "locationReference": [
+    {
+      "reference": "Location/P0522-Home-Loc-01"
+    }
+  ],
+  "supportingInfo": [
+    {
+      "reference": "RiskAssessment/P0522-eLTSS-riskFalls"
+    }
+  ]
+}

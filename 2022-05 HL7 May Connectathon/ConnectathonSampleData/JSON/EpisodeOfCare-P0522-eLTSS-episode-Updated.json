@@ -1,0 +1,16 @@
+{
+  "resourceType": "EpisodeOfCare",
+  "id": "P0522-eLTSS-episode-Updated",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/EpisodeOfCare-eltss"
+    ]
+  },
+  "status": "active",
+  "patient": {
+    "reference": "Patient/P0522-patientBSJ1"
+  },
+  "careManager": {
+    "reference": "Practitioner/P0522-Practitioner-eLTSS-caremgr-SamMonitor"
+  }
+}

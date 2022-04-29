@@ -1,0 +1,16 @@
+{
+  "resourceType": "Goal",
+  "id": "P0522-eLTSS-goalDanceSonWedding",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Goal-eltss"
+    ]
+  },
+  "lifecycleStatus": "accepted",
+  "description": {
+    "text": "Dance at son's upcoming wedding"
+  },
+  "subject": {
+    "reference": "Patient/P0522-patientBSJ1"
+  }
+}

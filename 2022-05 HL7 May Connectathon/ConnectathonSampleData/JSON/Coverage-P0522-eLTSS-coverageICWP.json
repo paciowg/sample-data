@@ -1,0 +1,13 @@
+{
+  "resourceType": "Coverage",
+  "id": "P0522-eLTSS-coverageICWP",
+  "status": "active",
+  "beneficiary": {
+    "reference": "Patient/P0522-patientBSJ1"
+  },
+  "payor": [
+    {
+      "reference": "Organization/P0522-org-eLTSS-funding"
+    }
+  ]
+}

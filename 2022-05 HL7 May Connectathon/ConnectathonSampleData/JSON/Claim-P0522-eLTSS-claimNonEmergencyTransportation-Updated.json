@@ -1,0 +1,62 @@
+{
+  "resourceType": "Claim",
+  "id": "P0522-eLTSS-claimNonEmergencyTransportation-Updated",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Claim-eltss"
+    ]
+  },
+  "status": "active",
+  "type": {
+    "coding": [
+      {
+        "code": "professional",
+        "system": "http://terminology.hl7.org/CodeSystem/claim-type"
+      }
+    ]
+  },
+  "use": "claim",
+  "patient": {
+    "reference": "Patient/P0522-patientBSJ1"
+  },
+  "created": "2021-06-01",
+  "provider": {
+    "reference": "Organization/P0522-org-eLTSS-funding"
+  },
+  "priority": {
+    "coding": [
+      {
+        "code": "normal",
+        "system": "http://terminology.hl7.org/CodeSystem/processpriority"
+      }
+    ]
+  },
+  "insurance": [
+    {
+      "sequence": 1,
+      "focal": true,
+      "coverage": {
+        "reference": "Coverage/P0522-eLTSS-coverageICWP"
+      }
+    }
+  ],
+  "item": [
+    {
+      "sequence": 1,
+      "productOrService": {
+        "coding": [
+          {
+            "code": "T2003",
+            "system": "urn:oid:2.16.840.1.113883.6.14"
+          }
+        ]
+      },
+      "unitPrice": {
+        "value": 60
+      },
+      "net": {
+        "value": 600
+      }
+    }
+  ]
+}
