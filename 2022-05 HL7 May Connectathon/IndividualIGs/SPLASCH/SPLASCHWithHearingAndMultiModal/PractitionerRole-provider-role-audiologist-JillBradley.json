@@ -1,0 +1,26 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "provider-role-audiologist-JillBradley",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"provider-role-audiologist-JillBradley\" </p></div><p><b>active</b>: true</p><p><b>practitioner</b>: <a href=\"Practitioner-Practitioner-JillBradley.html\">Practitioner/Practitioner-JillBradley</a> \" BRADLEY\"</p><p><b>organization</b>: <a href=\"Organization-Organization-Audiology-Advanced-Hearing-Care.html\">Organization/Organization-Audiology-Advanced-Hearing-Care</a> \"Audiology Advanced Hearing Care\"</p><p><b>code</b>: Audiologist <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (provider-taxonomy#231H00000X)</span></p></div>"
+  },
+  "active": true,
+  "practitioner": {
+    "reference": "Practitioner/Practitioner-JillBradley"
+  },
+  "organization": {
+    "reference": "Organization/Organization-Audiology-Advanced-Hearing-Care"
+  },
+  "code": [
+    {
+      "coding": [
+        {
+          "system": "http://nucc.org/provider-taxonomy",
+          "code": "231H00000X",
+          "display": "Audiologist"
+        }
+      ]
+    }
+  ]
+}

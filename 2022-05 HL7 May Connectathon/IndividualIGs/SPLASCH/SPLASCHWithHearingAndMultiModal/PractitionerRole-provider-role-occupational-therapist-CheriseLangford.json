@@ -1,0 +1,26 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "provider-role-occupational-therapist-CheriseLangford",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"provider-role-occupational-therapist-CheriseLangford\" </p></div><p><b>active</b>: true</p><p><b>practitioner</b>: <a href=\"Practitioner-Practitioner-CheriseLangford.html\">Practitioner/Practitioner-CheriseLangford</a> \" LANGFORD\"</p><p><b>organization</b>: <a href=\"Organization-Organization-Happy-Nursing-Facility.html\">Organization/Organization-Happy-Nursing-Facility</a> \"Happy Nursing Facility\"</p><p><b>code</b>: Occupational Therapist <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (provider-taxonomy#225X00000X)</span></p></div>"
+  },
+  "active": true,
+  "practitioner": {
+    "reference": "Practitioner/Practitioner-CheriseLangford"
+  },
+  "organization": {
+    "reference": "Organization/Organization-Happy-Nursing-Facility"
+  },
+  "code": [
+    {
+      "coding": [
+        {
+          "system": "http://nucc.org/provider-taxonomy",
+          "code": "225X00000X",
+          "display": "Occupational Therapist"
+        }
+      ]
+    }
+  ]
+}

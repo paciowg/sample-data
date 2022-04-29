@@ -1,0 +1,53 @@
+{
+  "resourceType": "Observation",
+  "id": "BSJ-ObservationSPLASCH-143",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"BSJ-ObservationSPLASCH-143\" </p></div><p><b>status</b>: final</p><p><b>category</b>: Spoken language expression <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-SPLASCHObservationCategoryCS.html\">SPLASCH Observation Category Codes</a>#spoken-language-expression)</span></p><p><b>code</b>: Produce verbal messages with appropriate content in high demand situations <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-SPLASCHSpeechExpressionObservationCS.html\">Speech Expression Observation Codes</a>#verbal-content-high-demand)</span></p><p><b>subject</b>: <a href=\"Patient-BSJ-patientBSJ1.html\">Patient/BSJ-patientBSJ1</a> \" SMITH-JOHNSON\"</p><p><b>effective</b>: 2020-07-30T15:15:00-05:00</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-Practitioner-MariaGonzalez.html\">Practitioner/Practitioner-MariaGonzalez</a> \" GONZALEZ\"</li><li><a href=\"PractitionerRole-provider-role-speech-language-pathologist-MariaGonzalez.html\">PractitionerRole/provider-role-speech-language-pathologist-MariaGonzalez</a></li><li><a href=\"Organization-Organization-Happy-Nursing-Facility.html\">Organization/Organization-Happy-Nursing-Facility</a> \"Happy Nursing Facility\"</li></ul><p><b>value</b>: 50-75% of the time <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-SPLASCHTimePercentageCategoryCS.html\">Observation Value Time Percentage Category Codes</a>#50-75-percent)</span></p></div>"
+  },
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS",
+          "code": "spoken-language-expression",
+          "display": "Spoken language expression"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS",
+        "code": "verbal-content-high-demand",
+        "display": "Produce verbal messages with appropriate content in high demand situations"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/BSJ-patientBSJ1"
+  },
+  "effectiveDateTime": "2020-07-30T15:15:00-05:00",
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-MariaGonzalez"
+    },
+    {
+      "reference": "PractitionerRole/provider-role-speech-language-pathologist-MariaGonzalez"
+    },
+    {
+      "reference": "Organization/Organization-Happy-Nursing-Facility"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS",
+        "code": "50-75-percent",
+        "display": "50-75% of the time"
+      }
+    ]
+  }
+}

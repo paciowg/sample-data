@@ -1,0 +1,53 @@
+{
+  "resourceType": "Observation",
+  "id": "BSJ-ObservationSPLASCH-136",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"BSJ-ObservationSPLASCH-136\" </p></div><p><b>status</b>: final</p><p><b>category</b>: Multi-modal Communication <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-SPLASCHObservationCategoryCS.html\">SPLASCH Observation Category Codes</a>#multi-modal-communication)</span></p><p><b>code</b>: How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations? <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SPLASCHMultiModalCommunicationObservationCS#99833-6)</span></p><p><b>subject</b>: <a href=\"Patient-BSJ-patientBSJ1.html\">Patient/BSJ-patientBSJ1</a> \" SMITH-JOHNSON\"</p><p><b>effective</b>: 2020-07-26T08:00:00-05:00</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-Practitioner-AlexanderKuikhoff.html\">Practitioner/Practitioner-AlexanderKuikhoff</a> \" KUIKHOFF\"</li><li><a href=\"PractitionerRole-provider-role-speech-language-pathologist-AlexanderKuikhoff.html\">PractitionerRole/provider-role-speech-language-pathologist-AlexanderKuikhoff</a></li><li><a href=\"Organization-Organization-Happy-Nursing-Facility.html\">Organization/Organization-Happy-Nursing-Facility</a> \"Happy Nursing Facility\"</li></ul><p><b>value</b>: 50-75% of the time <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-SPLASCHTimePercentageCategoryCS.html\">Observation Value Time Percentage Category Codes</a>#50-75-percent)</span></p></div>"
+  },
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS",
+          "code": "multi-modal-communication",
+          "display": "Multi-modal Communication"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS",
+        "code": "99833-6",
+        "display": "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/BSJ-patientBSJ1"
+  },
+  "effectiveDateTime": "2020-07-26T08:00:00-05:00",
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-AlexanderKuikhoff"
+    },
+    {
+      "reference": "PractitionerRole/provider-role-speech-language-pathologist-AlexanderKuikhoff"
+    },
+    {
+      "reference": "Organization/Organization-Happy-Nursing-Facility"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS",
+        "code": "50-75-percent",
+        "display": "50-75% of the time"
+      }
+    ]
+  }
+}

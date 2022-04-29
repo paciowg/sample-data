@@ -1,0 +1,50 @@
+{
+  "resourceType": "Observation",
+  "id": "BSJ-ObservationSPLASCH-174",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"BSJ-ObservationSPLASCH-174\" </p></div><p><b>status</b>: final</p><p><b>category</b>: Hearing <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-SPLASCHObservationCategoryCS.html\">SPLASCH Observation Category Codes</a>#hearing)</span></p><p><b>code</b>: Hearing threshold Ear - left --250 Hz <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#91375-6)</span></p><p><b>subject</b>: <a href=\"Patient-BSJ-patientBSJ1.html\">Patient/BSJ-patientBSJ1</a> \" SMITH-JOHNSON\"</p><p><b>effective</b>: 2020-11-06T11:00:00-05:00</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-Practitioner-JillBradley.html\">Practitioner/Practitioner-JillBradley</a> \" BRADLEY\"</li><li><a href=\"PractitionerRole-provider-role-audiologist-JillBradley.html\">PractitionerRole/provider-role-audiologist-JillBradley</a></li><li><a href=\"Organization-Organization-Happy-Nursing-Facility.html\">Organization/Organization-Happy-Nursing-Facility</a> \"Happy Nursing Facility\"</li></ul><p><b>value</b>: 45 dB<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code dB = 'dB')</span></p></div>"
+  },
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS",
+          "code": "hearing",
+          "display": "Hearing"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "https://loinc.org/89015-2/",
+        "code": "91375-6",
+        "display": "Hearing threshold Ear - left --250 Hz"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/BSJ-patientBSJ1"
+  },
+  "effectiveDateTime": "2020-11-06T11:00:00-05:00",
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-JillBradley"
+    },
+    {
+      "reference": "PractitionerRole/provider-role-audiologist-JillBradley"
+    },
+    {
+      "reference": "Organization/Organization-Happy-Nursing-Facility"
+    }
+  ],
+  "valueQuantity": {
+    "value": 45,
+    "unit": "dB",
+    "system": "http://unitsofmeasure.org",
+    "code": "dB"
+  }
+}
