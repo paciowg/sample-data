@@ -1,4 +1,4 @@
-Instance: P0522-EncDx-CIRightMiddleArtery
+Instance: P0522-EncDx-SNF-CIRightMiddleArtery
 InstanceOf: Condition
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"
@@ -10,8 +10,9 @@ Usage: #example
 * subject = Reference(Patient/P0522-patientBSJ1)
 * onsetDateTime = "2021-02-26T15:00:00-05:00"
 * asserter = Reference(Practitioner/P0522-Practitioner-NoraOlogist)
+* encounter = Reference(Encounter/P0522-Enc-SNF)
 
-Instance: P0522-EncDx-CISequelae
+Instance: P0522-EncDx-HHA-CISequelae
 InstanceOf: Condition
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"
@@ -23,3 +24,4 @@ Usage: #example
 * subject = Reference(Patient/P0522-patientBSJ1)
 * onsetDateTime = "2020-04-07T15:00:00-05:00"
 * asserter = Reference(Practitioner/P0522-Practitioner-JohnSmith)
+* encounter = Reference(Encounter/P0522-Enc-HHA)
