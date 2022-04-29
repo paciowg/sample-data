@@ -1,0 +1,11 @@
+{
+  "id": "73dfb313-edc0-4f47-8880-19cd2b5b878f",
+  "code": {
+    "text": "If I am having significant pain or suffering,"
+  },
+  "subject": {
+    "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "resourceType": "Condition"
+}

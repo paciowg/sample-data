@@ -1,0 +1,46 @@
+{
+  "id": "4eb57650-cd5d-4480-a479-684dfbf5959a",
+  "status": "active",
+  "intent": "proposal",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "736366004",
+          "display": "Advance care plan"
+        }
+      ]
+    }
+  ],
+  "subject": {
+    "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "addresses": [
+    {
+      "reference": "Condition/e64cd1a5-43cb-4998-91be-43bd084c1d42"
+    },
+    {
+      "reference": "Condition/73dfb313-edc0-4f47-8880-19cd2b5b878f"
+    },
+    {
+      "reference": "Condition/5f5e2c08-0b5c-4a24-9a65-27194d9d275d"
+    },
+    {
+      "reference": "Condition/dbe67f26-763e-4cb2-8b8f-2ded00010f67"
+    }
+  ],
+  "goal": [
+    {
+      "reference": "Goal/cc2d365b-7e47-4db1-bf06-afa264922ce9"
+    },
+    {
+      "reference": "Goal/23ee309c-8840-4a2e-a7ed-341ecf55198a"
+    },
+    {
+      "reference": "Goal/3fa1fefc-90fd-4d15-bd37-fe924f9b526c"
+    }
+  ],
+  "resourceType": "CarePlan"
+}

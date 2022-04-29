@@ -1,0 +1,11 @@
+{
+  "id": "5f5e2c08-0b5c-4a24-9a65-27194d9d275d",
+  "code": {
+    "text": "If my health ever deteriorates due to a terminal illness, and my doctors believe I will not be able to interact meaningfully with my family, friends, or surroundings,"
+  },
+  "subject": {
+    "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "resourceType": "Condition"
+}

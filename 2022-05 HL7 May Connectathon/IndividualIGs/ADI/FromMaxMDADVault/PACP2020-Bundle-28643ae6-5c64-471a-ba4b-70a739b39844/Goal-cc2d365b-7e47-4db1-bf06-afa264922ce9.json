@@ -1,0 +1,49 @@
+{
+  "id": "cc2d365b-7e47-4db1-bf06-afa264922ce9",
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Avoiding prolonged dependence on machines</div>"
+  },
+  "identifier": [
+    {
+      "value": "3663A0C0-8993-4949-8A66-B06D031843E0"
+    }
+  ],
+  "lifecycleStatus": "proposed",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "81378-2",
+          "display": "Goals, preferences, and priorities under certain health conditions"
+        }
+      ]
+    }
+  ],
+  "description": {
+    "extension": [
+      {
+        "url": "Context",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "81378-2",
+              "display": "Goals, preferences, and priorities under certain health conditions"
+            }
+          ]
+        }
+      },
+      {
+        "url": "Value",
+        "valueString": "Avoiding prolonged dependence on machines"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "resourceType": "Goal"
+}

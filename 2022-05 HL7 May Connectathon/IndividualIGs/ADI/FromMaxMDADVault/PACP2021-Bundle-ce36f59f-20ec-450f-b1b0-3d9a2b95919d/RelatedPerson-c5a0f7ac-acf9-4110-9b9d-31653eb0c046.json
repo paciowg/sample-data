@@ -1,0 +1,38 @@
+{
+  "id": "c5a0f7ac-acf9-4110-9b9d-31653eb0c046",
+  "patient": {
+    "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "relationship": [
+    {
+      "coding": [
+        {
+          "system": "2.16.840.1.113883.6.1",
+          "code": "75784-9",
+          "display": "First alternate healthcare agent"
+        }
+      ],
+      "text": "First alternate healthcare agent"
+    },
+    {
+      "text": "Daughter-in-law"
+    }
+  ],
+  "name": [
+    {
+      "family": "Johnson",
+      "given": [
+        "Lisa"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "email",
+      "value": "LisaJ@example.com",
+      "use": "home"
+    }
+  ],
+  "resourceType": "RelatedPerson"
+}

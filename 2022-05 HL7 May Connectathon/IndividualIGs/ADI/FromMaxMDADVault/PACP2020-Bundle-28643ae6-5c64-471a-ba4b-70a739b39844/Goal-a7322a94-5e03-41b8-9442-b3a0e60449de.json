@@ -1,0 +1,41 @@
+{
+  "id": "a7322a94-5e03-41b8-9442-b3a0e60449de",
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>                How to care for me:            </span>            <span>                If I become incapacitated and cannot express myself, here is what I would like to tell my healthcare agent, family and friends about how I would like for them to care for me:            </span>            <br/>            <span>                I want photos of my family where I can see them.            </span></div>"
+  },
+  "identifier": [
+    {
+      "value": "26DD9A43-F12D-49D6-ACAE-3D55F389B66A"
+    }
+  ],
+  "lifecycleStatus": "proposed",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "81380-8",
+          "display": "Goals, preferences, and priorities for care experience"
+        }
+      ],
+      "text": "How to care for me:"
+    },
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-adi/CodeSystem/PADIGoalCategoryCS",
+          "code": "care-experience-preference"
+        }
+      ]
+    }
+  ],
+  "description": {
+    "text": "<span>                How to care for me:            </span>            <span>                If I become incapacitated and cannot express myself, here is what I would like to tell my healthcare agent, family and friends about how I would like for them to care for me:            </span>            <br></br>            <span>                I want photos of my family where I can see them.            </span>"
+  },
+  "subject": {
+    "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "resourceType": "Goal"
+}

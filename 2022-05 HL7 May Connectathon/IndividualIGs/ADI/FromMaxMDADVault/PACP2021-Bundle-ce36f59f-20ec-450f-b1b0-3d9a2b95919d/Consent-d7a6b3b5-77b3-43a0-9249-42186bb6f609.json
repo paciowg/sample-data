@@ -1,0 +1,58 @@
+{
+  "id": "d7a6b3b5-77b3-43a0-9249-42186bb6f609",
+  "status": "active",
+  "scope": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "75785-6",
+        "display": "Second alternate healthcare agent"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/consentcategorycodes",
+          "code": "acd",
+          "display": "Advance Directive"
+        }
+      ]
+    }
+  ],
+  "patient": {
+    "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "provision": {
+    "actor": [
+      {
+        "role": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "75785-6",
+              "display": "Second alternate healthcare agent"
+            }
+          ]
+        },
+        "reference": {
+          "reference": "RelatedPerson/1c57d8ff-1eee-463e-806b-1b1043ccc931"
+        }
+      }
+    ],
+    "action": [
+      {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "75786-4",
+            "display": "Powers Granted to Health Agent"
+          }
+        ]
+      }
+    ]
+  },
+  "resourceType": "Consent"
+}

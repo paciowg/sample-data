@@ -1,0 +1,41 @@
+{
+  "id": "5a4ee011-51aa-4fd3-ac58-be83b95fd1ac",
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>                Information people may need to know:            </span>            <span>                Provide information about where others can find your important documents or information they may need.            </span>            <br/>            <span>                I have purchased a funeral plat at Graceful Acres in Belmont NC and have life insurance policies filed with my lawyer that you should access if anything happens to me.            </span></div>"
+  },
+  "identifier": [
+    {
+      "value": "F6E1F2DA-A05C-4DF0-A12A-74418193AF10"
+    }
+  ],
+  "lifecycleStatus": "proposed",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "81382-4",
+          "display": "Statement of document creator"
+        }
+      ],
+      "text": "Information people may need to know:"
+    },
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-adi/CodeSystem/PADIGoalCategoryCS",
+          "code": "care-experience-preference"
+        }
+      ]
+    }
+  ],
+  "description": {
+    "text": "<span>                Information people may need to know:            </span>            <span>                Provide information about where others can find your important documents or information they may need.            </span>            <br></br>            <span>                I have purchased a funeral plat at Graceful Acres in Belmont NC and have life insurance policies filed with my lawyer that you should access if anything happens to me.            </span>"
+  },
+  "subject": {
+    "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "resourceType": "Goal"
+}

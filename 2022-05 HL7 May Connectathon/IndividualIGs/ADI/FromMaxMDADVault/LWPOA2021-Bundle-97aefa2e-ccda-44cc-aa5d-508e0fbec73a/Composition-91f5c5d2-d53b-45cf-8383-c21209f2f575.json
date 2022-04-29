@@ -1,0 +1,46 @@
+{
+  "resourceType": "Composition",
+  "id": "91f5c5d2-d53b-45cf-8383-c21209f2f575",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2022-04-26T16:56:17.000+00:00",
+    "source": "#cVfy5mUwhSVuFuNG",
+    "profile": [ "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PACPComposition" ]
+  },
+  "identifier": {
+    "system": "urn:oid:2.16.840.1.113883.3.3208.101.3.8.1",
+    "value": "4190-87f37989294a408897aacd1fc5d8fd16-00"
+  },
+  "status": "final",
+  "type": {
+    "coding": [ {
+      "system": "http://loinc.org",
+      "code": "81334-5",
+      "display": "Combined Living Will and Medical Power of Attorney"
+    } ]
+  },
+  "category": [ {
+    "coding": [ {
+      "system": "http://loinc.org",
+      "code": "42348-3",
+      "display": "Advance directives"
+    } ]
+  } ],
+  "subject": {
+    "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "date": "2021-12-17T18:15:34+00:00",
+  "author": [ {
+    "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+    "display": "Smith-Johnson, Betsy"
+  }, {
+    "reference": "Device/5f64aaab-3232-4d26-a847-62c7e15a5cf6",
+    "display": "ADVault RR Portal"
+  } ],
+  "title": "Betsy's Adv Directive (Michigan)",
+  "confidentiality": "N",
+  "custodian": {
+    "reference": "Organization/46e1f46a-f9d1-4c95-9ea5-ca72c3922d6c"
+  }
+}

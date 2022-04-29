@@ -1,0 +1,105 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "8ce5331d-8b3f-4f6f-9c0b-0cb64a569cb4",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2022-04-26T16:56:58.000+00:00",
+    "source": "#zNzNad5Qaw675g6d"
+  },
+  "masterIdentifier": {
+    "system": "ClinicalDocument.id",
+    "value": "2.16.840.1.113883.3.3208.101.4.8.2:20130607100315-CCDA-CCD-802"
+  },
+  "identifier": [ {
+    "system": "ClinicalDocument.id",
+    "value": "2.16.840.1.113883.3.3208.101.4.8.2:20130607100315-CCDA-CCD-802"
+  }, {
+    "system": "Binary.id",
+    "value": "87c18a20-b8f9-460f-99ab-4a9c89a996bd"
+  }, {
+    "system": "ClinicalDocument.setid",
+    "value": "2.16.840.1.113883.3.3208.101.737:20130607100315-CCDA-678"
+  } ],
+  "status": "current",
+  "docStatus": "final",
+  "type": {
+    "coding": [ {
+      "system": "http://loinc.org",
+      "code": "81334-5",
+      "display": "Personal advance care plan"
+    } ]
+  },
+  "category": [ {
+    "coding": [ {
+      "system": "http://loinc.org",
+      "code": "75320-2",
+      "display": "Advance Directive"
+    } ]
+  } ],
+  "subject": {
+    "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "date": "2021-12-17T20:29:44.000+00:00",
+  "author": [ {
+    "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+    "display": "Smith-Johnson, Betsy"
+  }, {
+    "reference": "Device/5f64aaab-3232-4d26-a847-62c7e15a5cf6",
+    "display": "ADVault RR Portal"
+  } ],
+  "authenticator": {
+    "reference": "Organization/46e1f46a-f9d1-4c95-9ea5-ca72c3922d6c"
+  },
+  "custodian": {
+    "reference": "Organization/46e1f46a-f9d1-4c95-9ea5-ca72c3922d6c"
+  },
+  "relatesTo": [ {
+    "code": "replaces",
+    "target": {
+      "reference": "DocumentReference/612653f1-23bb-4628-8e18-b571aa2020aa"
+    }
+  } ],
+  "description": "Personal Advance Care Plan Document (Version 2)",
+  "securityLabel": [ {
+    "coding": [ {
+      "system": "http://hl7.org/fhir/v3/Confidentiality",
+      "code": "N",
+      "display": "normal"
+    } ]
+  } ],
+  "content": [ {
+    "attachment": {
+      "contentType": "text/xml",
+      "url": "Binary/87c18a20-b8f9-460f-99ab-4a9c89a996bd"
+    },
+    "format": {
+      "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+      "code": "urn:hl7-org:sdwg:pacp-structuredBody:1.2.0.1",
+      "display": "PACA C-CDA"
+    }
+  }, {
+    "attachment": {
+      "contentType": "application/json",
+      "url": "Binary/62ee171d-144e-4448-ac69-0129e07c2952"
+    },
+    "format": {
+      "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+      "code": "urn:hl7-org:sdwg:ccda-on-fhir-json:1.0",
+      "display": "FHIR Document Bundle"
+    }
+  }, {
+    "attachment": {
+      "url": "Composition/da2272ff-5e3b-40cc-b98f-1d479daaa8c4"
+    }
+  }, {
+    "attachment": {
+      "url": "Bundle/ce36f59f-20ec-450f-b1b0-3d9a2b95919d"
+    },
+    "format": {
+      "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+      "code": "urn:hl7-org:sdwg:ccda-on-fhir-json:1.0",
+      "display": "FHIR Document Bundle"
+    }
+  } ]
+}

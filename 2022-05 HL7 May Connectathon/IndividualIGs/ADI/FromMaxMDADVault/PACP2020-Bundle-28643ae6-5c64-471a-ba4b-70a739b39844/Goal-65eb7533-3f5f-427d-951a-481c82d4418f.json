@@ -1,0 +1,41 @@
+{
+  "id": "65eb7533-3f5f-427d-951a-481c82d4418f",
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>Autopsy</span><br/>                            <span>I want an autopsy</span>                <span>only if there are questions about my death.</span></div>"
+  },
+  "identifier": [
+    {
+      "value": "60FB0652-6D14-43F9-B8F4-A228BE809E03"
+    }
+  ],
+  "lifecycleStatus": "proposed",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "75782-3",
+          "display": "Thoughts on Autopsy"
+        }
+      ],
+      "text": "Autopsy"
+    },
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-adi/CodeSystem/PADIGoalCategoryCS",
+          "code": "care-experience-preference"
+        }
+      ]
+    }
+  ],
+  "description": {
+    "text": "<span>Autopsy</span><br></br>                            <span>I want an autopsy</span>                <span>only if there are questions about my death.</span>"
+  },
+  "subject": {
+    "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "resourceType": "Goal"
+}

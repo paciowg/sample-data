@@ -1,0 +1,38 @@
+{
+  "id": "d2c07f12-585e-413a-b99d-38d6982d7f81",
+  "patient": {
+    "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "relationship": [
+    {
+      "coding": [
+        {
+          "system": "2.16.840.1.113883.6.1",
+          "code": "75783-1",
+          "display": "Primary healthcare agent"
+        }
+      ],
+      "text": "Primary healthcare agent"
+    },
+    {
+      "text": "Son"
+    }
+  ],
+  "name": [
+    {
+      "family": "Johnson",
+      "given": [
+        "Charles"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "email",
+      "value": "CharlesSJ@example.com",
+      "use": "home"
+    }
+  ],
+  "resourceType": "RelatedPerson"
+}

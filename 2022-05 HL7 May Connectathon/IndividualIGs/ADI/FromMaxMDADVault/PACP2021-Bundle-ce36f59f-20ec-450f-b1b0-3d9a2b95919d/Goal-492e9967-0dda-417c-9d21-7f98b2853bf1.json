@@ -1,0 +1,41 @@
+{
+  "id": "492e9967-0dda-417c-9d21-7f98b2853bf1",
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>                Messages to people who matter to me:            </span>            <span>                If I cannot communicate with persons around me, I want my healthcare agent, my family, and my friends to know the following:            </span>            <br/>            <span>                Please let me end my life as I lived my life, on my own terms and with my own perspective guiding the way.            </span></div>"
+  },
+  "identifier": [
+    {
+      "value": "1695405F-E78F-4B9C-9492-D4B9910CE6F4"
+    }
+  ],
+  "lifecycleStatus": "proposed",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "81357-6",
+          "display": "Messages to be delivered after death"
+        }
+      ],
+      "text": "Messages to people who matter to me:"
+    },
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-adi/CodeSystem/PADIGoalCategoryCS",
+          "code": "care-experience-preference"
+        }
+      ]
+    }
+  ],
+  "description": {
+    "text": "<span>                Messages to people who matter to me:            </span>            <span>                If I cannot communicate with persons around me, I want my healthcare agent, my family, and my friends to know the following:            </span>            <br></br>            <span>                Please let me end my life as I lived my life, on my own terms and with my own perspective guiding the way.            </span>"
+  },
+  "subject": {
+    "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "resourceType": "Goal"
+}
