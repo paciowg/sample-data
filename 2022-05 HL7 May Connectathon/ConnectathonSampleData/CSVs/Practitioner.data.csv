@@ -2,7 +2,7 @@ resource.id,name.given,name.family,identifier.system,identifier.value,telecom.va
 Practitioner-JudySmiley,Judy,Smiley,,,,female,
 Practitioner-RonMarble,Ron,Marble,,,,male,
 Practitioner-LisaGreene,Lisa,Greene,,,,female,
-Practioner-DonHopmed,Don,Hopmed,,,,male,
+Practitioner-DonHopmed,Don,Hopmed,,,,male,
 Practitioner-SallySmart,Sally,Smart,,,,female,
 Practitioner-JennyGlass,Jenny,Glass,,,,female,
 Practitioner-NoraOlogist,Nora,Ologist,http://hl7.org/fhir/sid/us-npi,3668788925,(210) 555 7632,female,
