@@ -1,0 +1,60 @@
+{
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "Encounter/P0522-v4Tx-Enc-EstablishMIPCP",
+      "resource": {
+        "id": "P0522-v4Tx-Enc-EstablishMIPCP",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+          ]
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB",
+          "display": "ambulatory"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://www.ama-assn.org/go/cpt",
+                "code": "99201"
+              }
+            ],
+            "text": "Office Visit"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/P0522-v4Tx-patientBSJ1"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "PractitionerRole/P0522-v4Tx-Role-IMMD-AnitaChu"
+            }
+          }
+        ],
+        "period": {
+          "start": "2021-12-20T13:00:14-05:00",
+          "end": "2021-12-20T14:00:14-05:00"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "Location/P0522-v4Tx-org-Loc-PC-Primary-Care-Michigan"
+            }
+          }
+        ],
+        "resourceType": "Encounter"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Encounter/P0522-v4Tx-Enc-EstablishMIPCP"
+      }
+    }
+  ],
+  "resourceType": "Bundle"
+}

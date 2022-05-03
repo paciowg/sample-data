@@ -1,0 +1,16 @@
+{
+  "resourceType": "Goal",
+  "id": "P0522-eLTSS-goalBalance",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Goal-eltss"
+    ]
+  },
+  "lifecycleStatus": "accepted",
+  "description": {
+    "text": "Improve balance skills"
+  },
+  "subject": {
+    "reference": "Patient/P0522-patientBSJ1"
+  }
+}

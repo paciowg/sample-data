@@ -1,0 +1,16 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "P0522-Role-NeuroMD-NoraOlogist",
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "2084N0400X",
+          "system": "https://taxonomy.nucc.org/",
+          "display": "Neurology Physician"
+        }
+      ]
+    }
+  ],
+  "active": true
+}

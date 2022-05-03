@@ -1,0 +1,50 @@
+{
+  "resourceType": "MedicationStatement",
+  "id": "P0522-MedStmt-Tylenol",
+  "contained": [
+    {
+      "resourceType": "Medication",
+      "id": "Medication-Tylenol-1",
+      "code": {
+        "coding": [
+          {
+            "code": "313782",
+            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+            "display": "Acetaminophen 325 MG Oral Tablet"
+          }
+        ],
+        "text": "Tylenol 650mg"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/P0522-patientBSJ1"
+  },
+  "status": "active",
+  "category": {
+    "coding": [
+      {
+        "code": "community",
+        "system": "http://terminology.hl7.org/CodeSystem/medication-statement-category"
+      }
+    ]
+  },
+  "medicationReference": {
+    "reference": "#Medication-Tylenol-1"
+  },
+  "dateAsserted": "2019-12-05T10:30:00-05:00",
+  "effectiveDateTime": "2019-12-05T10:30:00-05:00",
+  "informationSource": {
+    "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+  },
+  "reasonReference": [
+    {
+      "reference": "Condition/P0522-Prob-Osteoarthiritis"
+    }
+  ],
+  "dosage": [
+    {
+      "text": "Take very 6 hours or as needed"
+    }
+  ]
+}

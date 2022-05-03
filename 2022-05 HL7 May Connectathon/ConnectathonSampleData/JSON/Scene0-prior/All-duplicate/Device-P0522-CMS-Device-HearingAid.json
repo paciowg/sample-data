@@ -1,0 +1,10 @@
+{
+  "resourceType": "Device",
+  "id": "P0522-CMS-Device-HearingAid",
+  "deviceName": [
+    {
+      "name": "Hearing aid",
+      "type": "user-friendly-name"
+    }
+  ]
+}

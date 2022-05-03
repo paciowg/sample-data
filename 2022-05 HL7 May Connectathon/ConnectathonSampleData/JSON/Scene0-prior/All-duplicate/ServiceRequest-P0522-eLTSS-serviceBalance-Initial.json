@@ -1,0 +1,53 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "P0522-eLTSS-serviceBalance-Initial",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/ServiceRequest-eltss"
+    ]
+  },
+  "status": "active",
+  "intent": "plan",
+  "code": {
+    "coding": [
+      {
+        "code": "97110",
+        "system": "urn:oid:2.16.840.1.113883.6.12"
+      }
+    ],
+    "text": "therapeutic exercises to improve balance skills"
+  },
+  "quantityRatio": {
+    "numerator": {
+      "value": 1,
+      "unit": "visit"
+    },
+    "denominator": {
+      "value": 1,
+      "unit": "week"
+    }
+  },
+  "subject": {
+    "reference": "Patient/P0522-patientBSJ1"
+  },
+  "occurrencePeriod": {
+    "start": "2020-05-01",
+    "end": "2020-08-01"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/P0522-Practitioner-eLTSS-NormaTrainer"
+    }
+  ],
+  "supportingInfo": [
+    {
+      "reference": "Goal/P0522-eLTSS-goalBalance"
+    },
+    {
+      "reference": "Goal/P0522-eLTSS-goalDanceSonWedding"
+    },
+    {
+      "reference": "Claim/P0522-eLTSS-claimTherapy-Initial"
+    }
+  ]
+}

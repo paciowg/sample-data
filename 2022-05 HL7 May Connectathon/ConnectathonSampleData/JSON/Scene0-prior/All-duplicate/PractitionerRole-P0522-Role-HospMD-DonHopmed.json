@@ -1,0 +1,16 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "P0522-Role-HospMD-DonHopmed",
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "208M00000X",
+          "system": "https://taxonomy.nucc.org/",
+          "display": "Hospitalist Physician"
+        }
+      ]
+    }
+  ],
+  "active": true
+}

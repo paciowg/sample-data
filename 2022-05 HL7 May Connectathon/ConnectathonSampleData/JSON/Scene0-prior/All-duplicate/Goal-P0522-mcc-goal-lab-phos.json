@@ -1,0 +1,77 @@
+{
+  "resourceType": "Goal",
+  "id": "P0522-mcc-goal-lab-phos",
+  "lifecycleStatus": "active",
+  "achievementStatus": {
+    "coding": [
+      {
+        "code": "in-progress",
+        "system": "http://terminology.hl7.org/CodeSystem/goal-achievement",
+        "display": "In Progress"
+      }
+    ],
+    "text": "In Progress"
+  },
+  "priority": {
+    "coding": [
+      {
+        "code": "high-priority",
+        "system": "http://terminology.hl7.org/CodeSystem/goal-priority",
+        "display": "High Priority"
+      }
+    ],
+    "text": "high"
+  },
+  "description": {
+    "text": "Phosphorus in blood"
+  },
+  "subject": {
+    "reference": "Patient/P0522-patientBSJ1"
+  },
+  "startDate": "2021-02-20",
+  "target": [
+    {
+      "measure": {
+        "coding": [
+          {
+            "code": "2777-1",
+            "system": "http://loinc.org",
+            "display": "Phosphate [Mass/volume] in Serum or Plasma"
+          }
+        ],
+        "text": "Serum phosphorus"
+      },
+      "detailRange": {
+        "low": {
+          "value": 2.5,
+          "code": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "unit": "mg/dL"
+        },
+        "high": {
+          "value": 4.5,
+          "code": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "unit": "mg/dL"
+        }
+      }
+    }
+  ],
+  "expressedBy": {
+    "reference": "Practitioner/P0522-Practitioner-jones-vince"
+  },
+  "addresses": [
+    {
+      "reference": "Condition/P0522-Prob-CKD",
+      "display": "Chronic kidney disease"
+    }
+  ],
+  "note": [
+    {
+      "text": "Normal working kidneys can remove extra phosphorus in your blood. When you have chronic kidney disease (CKD), your kidneys cannot remove phosphorus very well. High phosphorus levels can cause damage to your body. Extra phosphorus causes body changes that pull calcium out of your bones, making them weak. High phosphorus and calcium levels also lead to dangerous calcium deposits in blood vessels, lungs, eyes, and heart. Phosphorus and calcium control are very important for your overall health."
+    },
+    {
+      "text": "Source https://www.kidney.org/atoz/content/phosphorus"
+    }
+  ]
+}

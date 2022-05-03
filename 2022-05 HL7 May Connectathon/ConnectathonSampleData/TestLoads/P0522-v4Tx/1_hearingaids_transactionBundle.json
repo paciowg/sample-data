@@ -1,0 +1,1912 @@
+{
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "Condition/P0522-v4Tx-EncDx-Hearing-HearingLoss",
+      "resource": {
+        "id": "P0522-v4Tx-EncDx-Hearing-HearingLoss",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "H90.3",
+              "display": "Sensorineural hearing loss, bilateral"
+            }
+          ],
+          "text": "Sensorineural hearing loss, bilateral"
+        },
+        "subject": {
+          "reference": "Patient/P0522-v4Tx-patientBSJ1"
+        },
+        "encounter": {
+          "reference": "Encounter/P0522-v4Tx-Enc-HearingEval"
+        },
+        "onsetDateTime": "2021-11-06",
+        "asserter": {
+          "reference": "Practitioner/P0522-v4Tx-Practitioner-JillBradley"
+        },
+        "resourceType": "Condition"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Condition/P0522-v4Tx-EncDx-Hearing-HearingLoss"
+      }
+    },
+    {
+      "fullUrl": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-R250",
+      "resource": {
+        "id": "P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-R250",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/P0522-v4Tx-org-Loc-Audiology-Advanced-Hearing-Care"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-category-cs",
+                "code": "hearing-and-vestibular-functions",
+                "display": "Hearing and vestibular functions"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "91374-9",
+              "display": "Hearing threshold Ear - right --250 Hz"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/P0522-v4Tx-patientBSJ1"
+        },
+        "encounter": {
+          "reference": "Encounter/P0522-v4Tx-Enc-HearingEval"
+        },
+        "effectiveDateTime": "2020-11-06T10:45:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/P0522-v4Tx-Role-Audio-JillBradley"
+          },
+          {
+            "reference": "Practitioner/P0522-v4Tx-Practitioner-JillBradley"
+          },
+          {
+            "reference": "Organization/P0522-v4Tx-org-Audiology-Advanced-Hearing-Care"
+          }
+        ],
+        "valueQuantity": {
+          "value": 40,
+          "system": "http://unitsofmeasure.org",
+          "code": "dB"
+        },
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-R250"
+      }
+    },
+    {
+      "fullUrl": "Encounter/P0522-v4Tx-Enc-HearingAids",
+      "resource": {
+        "id": "P0522-v4Tx-Enc-HearingAids",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+          ]
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB",
+          "display": "ambulatory"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://www.ama-assn.org/go/cpt",
+                "code": "99201"
+              }
+            ],
+            "text": "Office Visit"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/P0522-v4Tx-patientBSJ1"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "PractitionerRole/P0522-v4Tx-Role-Audio-JillBradley"
+            }
+          }
+        ],
+        "period": {
+          "start": "2020-11-12T13:00:14-05:00",
+          "end": "2020-11-12T14:00:14-05:00"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "Location/P0522-v4Tx-org-Loc-HH-Sky-Harbor-Home-Health"
+            }
+          }
+        ],
+        "resourceType": "Encounter"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Encounter/P0522-v4Tx-Enc-HearingAids"
+      }
+    },
+    {
+      "fullUrl": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01",
+      "resource": {
+        "id": "P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-collection"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/P0522-v4Tx-org-Loc-Audiology-Advanced-Hearing-Care"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-category-cs",
+                "code": "hearing-and-vestibular-functions",
+                "display": "Hearing and vestibular functions"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "89015-2",
+              "display": "Pure tone threshold audiometry panel"
+            }
+          ],
+          "text": "Pure tone threshold audiometry panel"
+        },
+        "subject": {
+          "reference": "Patient/P0522-v4Tx-patientBSJ1"
+        },
+        "encounter": {
+          "reference": "Encounter/P0522-v4Tx-Enc-HearingEval"
+        },
+        "effectiveDateTime": "2020-11-06T10:45:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/P0522-v4Tx-Role-Audio-JillBradley"
+          },
+          {
+            "reference": "Practitioner/P0522-v4Tx-Practitioner-JillBradley"
+          },
+          {
+            "reference": "Organization/P0522-v4Tx-org-Audiology-Advanced-Hearing-Care"
+          }
+        ],
+        "hasMember": [
+          {
+            "reference": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-L250"
+          },
+          {
+            "reference": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-L500"
+          },
+          {
+            "reference": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-L1000"
+          },
+          {
+            "reference": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-L2000"
+          },
+          {
+            "reference": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-L4000"
+          },
+          {
+            "reference": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-L8000"
+          },
+          {
+            "reference": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-R250"
+          },
+          {
+            "reference": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-R500"
+          },
+          {
+            "reference": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-R1000"
+          },
+          {
+            "reference": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-R2000"
+          },
+          {
+            "reference": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-R4000"
+          },
+          {
+            "reference": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-R8000"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01"
+      }
+    },
+    {
+      "fullUrl": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-L4000",
+      "resource": {
+        "id": "P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-L4000",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/P0522-v4Tx-org-Loc-Audiology-Advanced-Hearing-Care"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-category-cs",
+                "code": "hearing-and-vestibular-functions",
+                "display": "Hearing and vestibular functions"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "89022-8",
+              "display": "Hearing threshold Ear - left --4000 Hz"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/P0522-v4Tx-patientBSJ1"
+        },
+        "encounter": {
+          "reference": "Encounter/P0522-v4Tx-Enc-HearingEval"
+        },
+        "effectiveDateTime": "2020-11-06T10:45:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/P0522-v4Tx-Role-Audio-JillBradley"
+          },
+          {
+            "reference": "Practitioner/P0522-v4Tx-Practitioner-JillBradley"
+          },
+          {
+            "reference": "Organization/P0522-v4Tx-org-Audiology-Advanced-Hearing-Care"
+          }
+        ],
+        "valueQuantity": {
+          "value": 55,
+          "system": "http://unitsofmeasure.org",
+          "code": "dB"
+        },
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-L4000"
+      }
+    },
+    {
+      "fullUrl": "Encounter/P0522-v4Tx-Enc-HearingEval",
+      "resource": {
+        "id": "P0522-v4Tx-Enc-HearingEval",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+          ]
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB",
+          "display": "ambulatory"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://www.ama-assn.org/go/cpt",
+                "code": "99201"
+              }
+            ],
+            "text": "Office Visit"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/P0522-v4Tx-patientBSJ1"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "PractitionerRole/P0522-v4Tx-Role-Audio-JillBradley"
+            }
+          }
+        ],
+        "period": {
+          "start": "2020-11-06T13:00:14-05:00",
+          "end": "2020-11-06T14:00:14-05:00"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "Location/P0522-v4Tx-org-Loc-HH-Sky-Harbor-Home-Health"
+            }
+          }
+        ],
+        "resourceType": "Encounter"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Encounter/P0522-v4Tx-Enc-HearingEval"
+      }
+    },
+    {
+      "fullUrl": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-L250",
+      "resource": {
+        "id": "P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-L250",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/P0522-v4Tx-org-Loc-Audiology-Advanced-Hearing-Care"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-category-cs",
+                "code": "hearing-and-vestibular-functions",
+                "display": "Hearing and vestibular functions"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "91375-6",
+              "display": "Hearing threshold Ear - left --250 Hz"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/P0522-v4Tx-patientBSJ1"
+        },
+        "encounter": {
+          "reference": "Encounter/P0522-v4Tx-Enc-HearingEval"
+        },
+        "effectiveDateTime": "2020-11-06T10:45:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/P0522-v4Tx-Role-Audio-JillBradley"
+          },
+          {
+            "reference": "Practitioner/P0522-v4Tx-Practitioner-JillBradley"
+          },
+          {
+            "reference": "Organization/P0522-v4Tx-org-Audiology-Advanced-Hearing-Care"
+          }
+        ],
+        "valueQuantity": {
+          "value": 45,
+          "system": "http://unitsofmeasure.org",
+          "code": "dB"
+        },
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-L250"
+      }
+    },
+    {
+      "fullUrl": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-R4000",
+      "resource": {
+        "id": "P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-R4000",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/P0522-v4Tx-org-Loc-Audiology-Advanced-Hearing-Care"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-category-cs",
+                "code": "hearing-and-vestibular-functions",
+                "display": "Hearing and vestibular functions"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "89023-6",
+              "display": "Hearing threshold Ear - right --4000 Hz"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/P0522-v4Tx-patientBSJ1"
+        },
+        "encounter": {
+          "reference": "Encounter/P0522-v4Tx-Enc-HearingEval"
+        },
+        "effectiveDateTime": "2020-11-06T10:45:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/P0522-v4Tx-Role-Audio-JillBradley"
+          },
+          {
+            "reference": "Practitioner/P0522-v4Tx-Practitioner-JillBradley"
+          },
+          {
+            "reference": "Organization/P0522-v4Tx-org-Audiology-Advanced-Hearing-Care"
+          }
+        ],
+        "valueQuantity": {
+          "value": 60,
+          "system": "http://unitsofmeasure.org",
+          "code": "dB"
+        },
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-R4000"
+      }
+    },
+    {
+      "fullUrl": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hear-DXresult-01-Obs-Dxsum-RDegree",
+      "resource": {
+        "id": "P0522-v4Tx-BSJ-Home-SPLASCH-Hear-DXresult-01-Obs-Dxsum-RDegree",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/P0522-v4Tx-org-Loc-Audiology-Advanced-Hearing-Care"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-category-cs",
+                "code": "hearing-and-vestibular-functions",
+                "display": "Hearing and vestibular functions"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "98427-8",
+              "display": "Hearing loss degree Ear - right"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/P0522-v4Tx-patientBSJ1"
+        },
+        "encounter": {
+          "reference": "Encounter/P0522-v4Tx-Enc-HearingEval"
+        },
+        "effectiveDateTime": "2020-11-06T10:45:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/P0522-v4Tx-Role-Audio-JillBradley"
+          },
+          {
+            "reference": "Practitioner/P0522-v4Tx-Practitioner-JillBradley"
+          },
+          {
+            "reference": "Organization/P0522-v4Tx-org-Audiology-Advanced-Hearing-Care"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA32493-1",
+              "display": "Moderate (41-55 dB HL)"
+            }
+          ]
+        },
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hear-DXresult-01-Obs-Dxsum-RDegree"
+      }
+    },
+    {
+      "fullUrl": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-R8000",
+      "resource": {
+        "id": "P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-R8000",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/P0522-v4Tx-org-Loc-Audiology-Advanced-Hearing-Care"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-category-cs",
+                "code": "hearing-and-vestibular-functions",
+                "display": "Hearing and vestibular functions"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "89029-3",
+              "display": "\nHearing threshold Ear - right --8000 Hz"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/P0522-v4Tx-patientBSJ1"
+        },
+        "encounter": {
+          "reference": "Encounter/P0522-v4Tx-Enc-HearingEval"
+        },
+        "effectiveDateTime": "2020-11-06T10:45:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/P0522-v4Tx-Role-Audio-JillBradley"
+          },
+          {
+            "reference": "Practitioner/P0522-v4Tx-Practitioner-JillBradley"
+          },
+          {
+            "reference": "Organization/P0522-v4Tx-org-Audiology-Advanced-Hearing-Care"
+          }
+        ],
+        "valueQuantity": {
+          "value": 55,
+          "system": "http://unitsofmeasure.org",
+          "code": "dB"
+        },
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-R8000"
+      }
+    },
+    {
+      "fullUrl": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hear-DXresult-01-Obs-Dxsum-LDegree",
+      "resource": {
+        "id": "P0522-v4Tx-BSJ-Home-SPLASCH-Hear-DXresult-01-Obs-Dxsum-LDegree",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/P0522-v4Tx-org-Loc-Audiology-Advanced-Hearing-Care"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-category-cs",
+                "code": "hearing-and-vestibular-functions",
+                "display": "Hearing and vestibular functions"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "98422-9",
+              "display": "Hearing loss degree Ear - left"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/P0522-v4Tx-patientBSJ1"
+        },
+        "encounter": {
+          "reference": "Encounter/P0522-v4Tx-Enc-HearingEval"
+        },
+        "effectiveDateTime": "2020-11-06T10:45:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/P0522-v4Tx-Role-Audio-JillBradley"
+          },
+          {
+            "reference": "Practitioner/P0522-v4Tx-Practitioner-JillBradley"
+          },
+          {
+            "reference": "Organization/P0522-v4Tx-org-Audiology-Advanced-Hearing-Care"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA32493-1",
+              "display": "Moderate (41-55 dB HL)"
+            }
+          ]
+        },
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hear-DXresult-01-Obs-Dxsum-LDegree"
+      }
+    },
+    {
+      "fullUrl": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-R1000",
+      "resource": {
+        "id": "P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-R1000",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/P0522-v4Tx-org-Loc-Audiology-Advanced-Hearing-Care"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-category-cs",
+                "code": "hearing-and-vestibular-functions",
+                "display": "Hearing and vestibular functions"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "89017-8",
+              "display": "Hearing threshold Ear - right --1000 Hz"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/P0522-v4Tx-patientBSJ1"
+        },
+        "encounter": {
+          "reference": "Encounter/P0522-v4Tx-Enc-HearingEval"
+        },
+        "effectiveDateTime": "2020-11-06T10:45:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/P0522-v4Tx-Role-Audio-JillBradley"
+          },
+          {
+            "reference": "Practitioner/P0522-v4Tx-Practitioner-JillBradley"
+          },
+          {
+            "reference": "Organization/P0522-v4Tx-org-Audiology-Advanced-Hearing-Care"
+          }
+        ],
+        "valueQuantity": {
+          "value": 45,
+          "system": "http://unitsofmeasure.org",
+          "code": "dB"
+        },
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-R1000"
+      }
+    },
+    {
+      "fullUrl": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hear-DXresult-01-Obs-Dxsum-Narrative",
+      "resource": {
+        "id": "P0522-v4Tx-BSJ-Home-SPLASCH-Hear-DXresult-01-Obs-Dxsum-Narrative",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/P0522-v4Tx-org-Loc-Audiology-Advanced-Hearing-Care"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-category-cs",
+                "code": "hearing-and-vestibular-functions",
+                "display": "Hearing and vestibular functions"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "98420-3",
+              "display": "Audiology Comment Narrative"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/P0522-v4Tx-patientBSJ1"
+        },
+        "encounter": {
+          "reference": "Encounter/P0522-v4Tx-Enc-HearingEval"
+        },
+        "effectiveDateTime": "2020-11-06T10:45:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/P0522-v4Tx-Role-Audio-JillBradley"
+          },
+          {
+            "reference": "Practitioner/P0522-v4Tx-Practitioner-JillBradley"
+          },
+          {
+            "reference": "Organization/P0522-v4Tx-org-Audiology-Advanced-Hearing-Care"
+          }
+        ],
+        "valueString": "Upon otoscopic examination, bilateral cerumen impaction was noted. Following cerumen removal, no additional abnormalities were noted. Both tympanic membranes were intact and translucent with no visible fluid in the middle ear cavity. Tympanometry revealed bilateral Type-A tympanograms, suggesting normal middle ear function. Audiometric test results revealed bilateral moderate sensorineural hearing loss with relatively poor speech understanding. Mrs. Johnson was fitted with binaural in-the-ear hearing aids, and was offered two weeks of aural rehabilitation therapy",
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hear-DXresult-01-Obs-Dxsum-Narrative"
+      }
+    },
+    {
+      "fullUrl": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-L1000",
+      "resource": {
+        "id": "P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-L1000",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/P0522-v4Tx-org-Loc-Audiology-Advanced-Hearing-Care"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-category-cs",
+                "code": "hearing-and-vestibular-functions",
+                "display": "Hearing and vestibular functions"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "89016-0",
+              "display": "Hearing threshold Ear - left --1000 Hz"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/P0522-v4Tx-patientBSJ1"
+        },
+        "encounter": {
+          "reference": "Encounter/P0522-v4Tx-Enc-HearingEval"
+        },
+        "effectiveDateTime": "2020-11-06T10:45:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/P0522-v4Tx-Role-Audio-JillBradley"
+          },
+          {
+            "reference": "Practitioner/P0522-v4Tx-Practitioner-JillBradley"
+          },
+          {
+            "reference": "Organization/P0522-v4Tx-org-Audiology-Advanced-Hearing-Care"
+          }
+        ],
+        "valueQuantity": {
+          "value": 45,
+          "system": "http://unitsofmeasure.org",
+          "code": "dB"
+        },
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-L1000"
+      }
+    },
+    {
+      "fullUrl": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-R500",
+      "resource": {
+        "id": "P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-R500",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/P0522-v4Tx-org-Loc-Audiology-Advanced-Hearing-Care"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-category-cs",
+                "code": "hearing-and-vestibular-functions",
+                "display": "Hearing and vestibular functions"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "89025-1",
+              "display": "Hearing threshold Ear - right --500 Hz"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/P0522-v4Tx-patientBSJ1"
+        },
+        "encounter": {
+          "reference": "Encounter/P0522-v4Tx-Enc-HearingEval"
+        },
+        "effectiveDateTime": "2020-11-06T10:45:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/P0522-v4Tx-Role-Audio-JillBradley"
+          },
+          {
+            "reference": "Practitioner/P0522-v4Tx-Practitioner-JillBradley"
+          },
+          {
+            "reference": "Organization/P0522-v4Tx-org-Audiology-Advanced-Hearing-Care"
+          }
+        ],
+        "valueQuantity": {
+          "value": 45,
+          "system": "http://unitsofmeasure.org",
+          "code": "dB"
+        },
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-R500"
+      }
+    },
+    {
+      "fullUrl": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-L8000",
+      "resource": {
+        "id": "P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-L8000",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/P0522-v4Tx-org-Loc-Audiology-Advanced-Hearing-Care"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-category-cs",
+                "code": "hearing-and-vestibular-functions",
+                "display": "Hearing and vestibular functions"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "89028-5",
+              "display": "Hearing threshold Ear - left --8000 Hz"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/P0522-v4Tx-patientBSJ1"
+        },
+        "encounter": {
+          "reference": "Encounter/P0522-v4Tx-Enc-HearingEval"
+        },
+        "effectiveDateTime": "2020-11-06T10:45:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/P0522-v4Tx-Role-Audio-JillBradley"
+          },
+          {
+            "reference": "Practitioner/P0522-v4Tx-Practitioner-JillBradley"
+          },
+          {
+            "reference": "Organization/P0522-v4Tx-org-Audiology-Advanced-Hearing-Care"
+          }
+        ],
+        "valueQuantity": {
+          "value": 55,
+          "system": "http://unitsofmeasure.org",
+          "code": "dB"
+        },
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-L8000"
+      }
+    },
+    {
+      "fullUrl": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-R2000",
+      "resource": {
+        "id": "P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-R2000",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/P0522-v4Tx-org-Loc-Audiology-Advanced-Hearing-Care"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-category-cs",
+                "code": "hearing-and-vestibular-functions",
+                "display": "Hearing and vestibular functions"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "89019-4",
+              "display": "\nHearing threshold Ear - right --2000 Hz"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/P0522-v4Tx-patientBSJ1"
+        },
+        "encounter": {
+          "reference": "Encounter/P0522-v4Tx-Enc-HearingEval"
+        },
+        "effectiveDateTime": "2020-11-06T10:45:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/P0522-v4Tx-Role-Audio-JillBradley"
+          },
+          {
+            "reference": "Practitioner/P0522-v4Tx-Practitioner-JillBradley"
+          },
+          {
+            "reference": "Organization/P0522-v4Tx-org-Audiology-Advanced-Hearing-Care"
+          }
+        ],
+        "valueQuantity": {
+          "value": 55,
+          "system": "http://unitsofmeasure.org",
+          "code": "dB"
+        },
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-R2000"
+      }
+    },
+    {
+      "fullUrl": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-L500",
+      "resource": {
+        "id": "P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-L500",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/P0522-v4Tx-org-Loc-Audiology-Advanced-Hearing-Care"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-category-cs",
+                "code": "hearing-and-vestibular-functions",
+                "display": "Hearing and vestibular functions"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "89024-4",
+              "display": "Hearing threshold Ear - left --500 Hz"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/P0522-v4Tx-patientBSJ1"
+        },
+        "encounter": {
+          "reference": "Encounter/P0522-v4Tx-Enc-HearingEval"
+        },
+        "effectiveDateTime": "2020-11-06T10:45:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/P0522-v4Tx-Role-Audio-JillBradley"
+          },
+          {
+            "reference": "Practitioner/P0522-v4Tx-Practitioner-JillBradley"
+          },
+          {
+            "reference": "Organization/P0522-v4Tx-org-Audiology-Advanced-Hearing-Care"
+          }
+        ],
+        "valueQuantity": {
+          "value": 45,
+          "system": "http://unitsofmeasure.org",
+          "code": "dB"
+        },
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-L500"
+      }
+    },
+    {
+      "fullUrl": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hear-DXresult-01-Obs-Dxsum-LType",
+      "resource": {
+        "id": "P0522-v4Tx-BSJ-Home-SPLASCH-Hear-DXresult-01-Obs-Dxsum-LType",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/P0522-v4Tx-org-Loc-Audiology-Advanced-Hearing-Care"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-category-cs",
+                "code": "hearing-and-vestibular-functions",
+                "display": "Hearing and vestibular functions"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "98421-1",
+              "display": "Hearing loss type Ear - left"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/P0522-v4Tx-patientBSJ1"
+        },
+        "encounter": {
+          "reference": "Encounter/P0522-v4Tx-Enc-HearingEval"
+        },
+        "effectiveDateTime": "2020-11-06T10:45:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/P0522-v4Tx-Role-Audio-JillBradley"
+          },
+          {
+            "reference": "Practitioner/P0522-v4Tx-Practitioner-JillBradley"
+          },
+          {
+            "reference": "Organization/P0522-v4Tx-org-Audiology-Advanced-Hearing-Care"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA32485-7",
+              "display": "Sensorineural"
+            }
+          ]
+        },
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hear-DXresult-01-Obs-Dxsum-LType"
+      }
+    },
+    {
+      "fullUrl": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hear-DXresult-01",
+      "resource": {
+        "id": "P0522-v4Tx-BSJ-Home-SPLASCH-Hear-DXresult-01",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-collection"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/P0522-v4Tx-org-Loc-Audiology-Advanced-Hearing-Care"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-category-cs",
+                "code": "hearing-and-vestibular-functions",
+                "display": "Hearing and vestibular functions"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "98418-7",
+              "display": "Diagnostic audiology results panel"
+            }
+          ],
+          "text": "Diagnostic audiology results panel"
+        },
+        "subject": {
+          "reference": "Patient/P0522-v4Tx-patientBSJ1"
+        },
+        "encounter": {
+          "reference": "Encounter/P0522-v4Tx-Enc-HearingEval"
+        },
+        "effectiveDateTime": "2020-11-06T10:45:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/P0522-v4Tx-Role-Audio-JillBradley"
+          },
+          {
+            "reference": "Practitioner/P0522-v4Tx-Practitioner-JillBradley"
+          },
+          {
+            "reference": "Organization/P0522-v4Tx-org-Audiology-Advanced-Hearing-Care"
+          }
+        ],
+        "hasMember": [
+          {
+            "reference": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hear-DXresult-01-Obs-Dxsum-LType"
+          },
+          {
+            "reference": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hear-DXresult-01-Obs-Dxsum-RType"
+          },
+          {
+            "reference": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hear-DXresult-01-Obs-Dxsum-LDegree"
+          },
+          {
+            "reference": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hear-DXresult-01-Obs-Dxsum-RDegree"
+          },
+          {
+            "reference": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hear-DXresult-01-Obs-Dxsum-Narrative"
+          }
+        ],
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hear-DXresult-01"
+      }
+    },
+    {
+      "fullUrl": "Condition/P0522-v4Tx-EncDx-Hearing-FitHearingAids",
+      "resource": {
+        "id": "P0522-v4Tx-EncDx-Hearing-FitHearingAids",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-pcs",
+              "code": "ZF14Z35Z",
+              "display": "Encounter for fitting and adjustment of hearing aid"
+            }
+          ],
+          "text": "Encounter for fitting and adjustment of hearing aid"
+        },
+        "subject": {
+          "reference": "Patient/P0522-v4Tx-patientBSJ1"
+        },
+        "encounter": {
+          "reference": "Encounter/P0522-v4Tx-Enc-HearingAids"
+        },
+        "onsetDateTime": "2021-11-12",
+        "asserter": {
+          "reference": "Practitioner/P0522-v4Tx-Practitioner-JillBradley"
+        },
+        "resourceType": "Condition"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Condition/P0522-v4Tx-EncDx-Hearing-FitHearingAids"
+      }
+    },
+    {
+      "fullUrl": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hear-DXresult-01-Obs-Dxsum-RType",
+      "resource": {
+        "id": "P0522-v4Tx-BSJ-Home-SPLASCH-Hear-DXresult-01-Obs-Dxsum-RType",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/P0522-v4Tx-org-Loc-Audiology-Advanced-Hearing-Care"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-category-cs",
+                "code": "hearing-and-vestibular-functions",
+                "display": "Hearing and vestibular functions"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "98426-0",
+              "display": "Hearing loss type Ear - right"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/P0522-v4Tx-patientBSJ1"
+        },
+        "encounter": {
+          "reference": "Encounter/P0522-v4Tx-Enc-HearingEval"
+        },
+        "effectiveDateTime": "2020-11-06T10:45:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/P0522-v4Tx-Role-Audio-JillBradley"
+          },
+          {
+            "reference": "Practitioner/P0522-v4Tx-Practitioner-JillBradley"
+          },
+          {
+            "reference": "Organization/P0522-v4Tx-org-Audiology-Advanced-Hearing-Care"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA32485-7",
+              "display": "Sensorineural"
+            }
+          ]
+        },
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hear-DXresult-01-Obs-Dxsum-RType"
+      }
+    },
+    {
+      "fullUrl": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-L2000",
+      "resource": {
+        "id": "P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-L2000",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+            "valueReference": {
+              "reference": "Location/P0522-v4Tx-org-Loc-Audiology-Advanced-Hearing-Care"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+                "code": "functioning",
+                "display": "Functioning"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-category-cs",
+                "code": "hearing-and-vestibular-functions",
+                "display": "Hearing and vestibular functions"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "survey"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "89018-6",
+              "display": "\nHearing threshold Ear - left --2000 Hz"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/P0522-v4Tx-patientBSJ1"
+        },
+        "encounter": {
+          "reference": "Encounter/P0522-v4Tx-Enc-HearingEval"
+        },
+        "effectiveDateTime": "2020-11-06T10:45:00-05:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/P0522-v4Tx-Role-Audio-JillBradley"
+          },
+          {
+            "reference": "Practitioner/P0522-v4Tx-Practitioner-JillBradley"
+          },
+          {
+            "reference": "Organization/P0522-v4Tx-org-Audiology-Advanced-Hearing-Care"
+          }
+        ],
+        "valueQuantity": {
+          "value": 55,
+          "system": "http://unitsofmeasure.org",
+          "code": "dB"
+        },
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/P0522-v4Tx-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-L2000"
+      }
+    }
+  ],
+  "resourceType": "Bundle"
+}

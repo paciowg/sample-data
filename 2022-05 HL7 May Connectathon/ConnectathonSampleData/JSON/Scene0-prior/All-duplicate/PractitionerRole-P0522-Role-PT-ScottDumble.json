@@ -1,0 +1,16 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "P0522-Role-PT-ScottDumble",
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "225100000X",
+          "system": "https://taxonomy.nucc.org/",
+          "display": "Physical Therapist"
+        }
+      ]
+    }
+  ],
+  "active": true
+}

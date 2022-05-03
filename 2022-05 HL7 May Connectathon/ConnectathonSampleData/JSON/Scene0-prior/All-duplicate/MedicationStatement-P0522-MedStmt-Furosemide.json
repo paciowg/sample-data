@@ -1,0 +1,50 @@
+{
+  "resourceType": "MedicationStatement",
+  "id": "P0522-MedStmt-Furosemide",
+  "contained": [
+    {
+      "resourceType": "Medication",
+      "id": "Medication-Furosemide-1",
+      "code": {
+        "coding": [
+          {
+            "code": "310429",
+            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+            "display": "Furosemide 20 MG Oral Tablet"
+          }
+        ],
+        "text": "Furosemide 20mg"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/P0522-patientBSJ1"
+  },
+  "status": "active",
+  "category": {
+    "coding": [
+      {
+        "code": "community",
+        "system": "http://terminology.hl7.org/CodeSystem/medication-statement-category"
+      }
+    ]
+  },
+  "medicationReference": {
+    "reference": "#Medication-Furosemide-1"
+  },
+  "dateAsserted": "2019-12-05T10:30:00-05:00",
+  "effectiveDateTime": "2019-12-05T10:30:00-05:00",
+  "informationSource": {
+    "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+  },
+  "reasonReference": [
+    {
+      "reference": "Condition/P0522-Prob-Hypertension"
+    }
+  ],
+  "dosage": [
+    {
+      "text": "Take 20mg (1 pill) daily in the morning"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "P0522-ADIMMD-2020PACP-Goal-MyReligion",
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>                My religion:            </span>            <span>                If I appear to be approaching the end of my life, here are some things that I would like for my caregivers to know about my faith and my religion.            </span>            <br/>            <span>                Please call Father Mark if my condition warrants the services of a priest.            </span></div>"
+  },
+  "identifier": [
+    {
+      "value": "18C43128-26DA-42E3-AD34-257D9A09278F"
+    }
+  ],
+  "lifecycleStatus": "proposed",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "81364-2",
+          "display": "Religious beliefs"
+        }
+      ],
+      "text": "My religion:"
+    },
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-adi/CodeSystem/PADIGoalCategoryCS",
+          "code": "care-experience-preference"
+        }
+      ]
+    }
+  ],
+  "description": {
+    "text": "<span>                My religion:            </span>            <span>                If I appear to be approaching the end of my life, here are some things that I would like for my caregivers to know about my faith and my religion.            </span>            <br></br>            <span>                Please call Father Mark if my condition warrants the services of a priest.            </span>"
+  },
+  "subject": {
+    "reference": "Patient/P0522-patientBSJ1",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "resourceType": "Goal"
+}

@@ -1,0 +1,26 @@
+{
+  "resourceType": "Practitioner",
+  "id": "P0522-Practitioner-estaban-felicity",
+  "active": true,
+  "name": [
+    {
+      "text": "Felicity Estaban, RD",
+      "family": "Estaban",
+      "given": [
+        "Felicity"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "777-555-1212",
+      "use": "work"
+    },
+    {
+      "system": "email",
+      "value": "felicity.estaban@woohoo.com"
+    }
+  ],
+  "gender": "female"
+}
