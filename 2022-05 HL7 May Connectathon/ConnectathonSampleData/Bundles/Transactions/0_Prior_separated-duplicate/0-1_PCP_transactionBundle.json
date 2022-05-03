@@ -2,9 +2,9 @@
   "type": "transaction",
   "entry": [
     {
-      "fullUrl": "Practitioner/P0522-Practitioner-JohnSmith",
+      "fullUrl": "Practitioner/P0522-v5-Practitioner-JohnSmith",
       "resource": {
-        "id": "P0522-Practitioner-JohnSmith",
+        "id": "P0522-v5-Practitioner-JohnSmith",
         "identifier": [
           {
             "system": "http://hl7.org/fhir/sid/us-npi",
@@ -31,7 +31,7 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Practitioner/P0522-Practitioner-JohnSmith"
+        "url": "Practitioner/P0522-v5-Practitioner-JohnSmith"
       }
     }
   ],

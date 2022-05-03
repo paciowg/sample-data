@@ -6,7 +6,7 @@
         "extension": [
           {
             "url": "https://github.com/Open-Health-Manager/patient-data-receipt-ig/StructureDefinition/AccountExtension",
-            "valueString": "P0522-patientBSJ1"
+            "valueString": "P0522-v5-patientBSJ1"
           }
         ],
         "eventUri": "urn:mitre:healthmanager:pdr",
@@ -18,69 +18,69 @@
     },
     {
       "resource": {
-        "id": "P0522-mcc-diabetes-and-ckd-updated",
+        "id": "P0522-v5-mcc-diabetes-and-ckd-updated",
         "status": "active",
         "intent": "plan",
         "title": "Diabetes and CKD Care Plan - 2021 Updated",
         "description": "Care plan to optimize Type 2 Diabetes Mellitus control and slow the progression of Chronic Kidney Disease in 2021 Updated",
         "subject": {
-          "reference": "Patient/P0522-patientBSJ1"
+          "reference": "Patient/P0522-v5-patientBSJ1"
         },
         "period": {
           "start": "2021-05-19"
         },
         "author": {
-          "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+          "reference": "Practitioner/P0522-v5-Practitioner-JohnSmith"
         },
         "careTeam": [
           {
-            "reference": "CareTeam/P0522-mcc-team"
+            "reference": "CareTeam/P0522-v5-mcc-team"
           }
         ],
         "addresses": [
           {
-            "reference": "Condition/P0522-Prob-CKD"
+            "reference": "Condition/P0522-v5-Prob-CKD"
           },
           {
-            "reference": "Condition/P0522-Prob-Diabetes"
+            "reference": "Condition/P0522-v5-Prob-Diabetes"
           }
         ],
         "goal": [
           {
-            "reference": "Goal/P0522-mcc-goal-bp"
+            "reference": "Goal/P0522-v5-mcc-goal-bp"
           },
           {
-            "reference": "Goal/P0522-mcc-goal-lab-phos"
+            "reference": "Goal/P0522-v5-mcc-goal-lab-phos"
           },
           {
-            "reference": "Goal/P0522-mcc-goal-a1c"
+            "reference": "Goal/P0522-v5-mcc-goal-a1c"
           },
           {
-            "reference": "Goal/P0522-mcc-goal-carb-consistent-diet"
+            "reference": "Goal/P0522-v5-mcc-goal-carb-consistent-diet"
           },
           {
-            "reference": "Goal/P0522-mcc-goal-control-blood-sugars-with-meals"
+            "reference": "Goal/P0522-v5-mcc-goal-control-blood-sugars-with-meals"
           }
         ],
         "activity": [
           {
             "reference": {
-              "reference": "ServiceRequest/P0522-mcc-service-edu-ckd"
+              "reference": "ServiceRequest/P0522-v5-mcc-service-edu-ckd"
             }
           },
           {
             "reference": {
-              "reference": "ServiceRequest/P0522-mcc-service-edu-diet"
+              "reference": "ServiceRequest/P0522-v5-mcc-service-edu-diet"
             }
           },
           {
             "reference": {
-              "reference": "ServiceRequest/P0522-mcc-service-exercise"
+              "reference": "ServiceRequest/P0522-v5-mcc-service-exercise"
             }
           },
           {
             "reference": {
-              "reference": "ServiceRequest/P0522-mcc-service-steps"
+              "reference": "ServiceRequest/P0522-v5-mcc-service-steps"
             }
           }
         ],
@@ -89,7 +89,7 @@
     },
     {
       "resource": {
-        "id": "P0522-mcc-cond-difficulty-coping",
+        "id": "P0522-v5-mcc-cond-difficulty-coping",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"
@@ -134,18 +134,18 @@
           "text": "Lack of understanding or coping strategies for food options with new challenges encountered after recent stroke"
         },
         "subject": {
-          "reference": "Patient/P0522-patientBSJ1"
+          "reference": "Patient/P0522-v5-patientBSJ1"
         },
         "onsetDateTime": "2021-05-19",
         "asserter": {
-          "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+          "reference": "Practitioner/P0522-v5-Practitioner-JohnSmith"
         },
         "resourceType": "Condition"
       }
     },
     {
       "resource": {
-        "id": "P0522-mcc-proc-diabetic-education",
+        "id": "P0522-v5-mcc-proc-diabetic-education",
         "status": "completed",
         "code": {
           "coding": [
@@ -158,13 +158,13 @@
           "text": "Diet counseling"
         },
         "subject": {
-          "reference": "Patient/P0522-patientBSJ1"
+          "reference": "Patient/P0522-v5-patientBSJ1"
         },
         "performedDateTime": "2021-05-31T16:00:00-05:00",
         "performer": [
           {
             "actor": {
-              "reference": "Practitioner/P0522-Practitioner-estaban-felicity"
+              "reference": "Practitioner/P0522-v5-Practitioner-estaban-felicity"
             }
           }
         ],
@@ -173,7 +173,7 @@
     },
     {
       "resource": {
-        "id": "P0522-mcc-goal-carb-consistent-diet",
+        "id": "P0522-v5-mcc-goal-carb-consistent-diet",
         "lifecycleStatus": "active",
         "achievementStatus": {
           "coding": [
@@ -199,7 +199,7 @@
           "text": "Keep a carb consistent diet consuming 45-60 gms of carbohydrates per meal"
         },
         "subject": {
-          "reference": "Patient/P0522-patientBSJ1"
+          "reference": "Patient/P0522-v5-patientBSJ1"
         },
         "startDate": "2021-05-19",
         "target": [
@@ -224,14 +224,14 @@
           }
         ],
         "expressedBy": {
-          "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+          "reference": "Practitioner/P0522-v5-Practitioner-JohnSmith"
         },
         "addresses": [
           {
-            "reference": "Condition/P0522-mcc-cond-sdoh-nutrition"
+            "reference": "Condition/P0522-v5-mcc-cond-sdoh-nutrition"
           },
           {
-            "reference": "Observation/P0522-mcc-obs-knowledge-deficit"
+            "reference": "Observation/P0522-v5-mcc-obs-knowledge-deficit"
           }
         ],
         "note": [
@@ -244,7 +244,7 @@
     },
     {
       "resource": {
-        "id": "P0522-mcc-service-edu-diet",
+        "id": "P0522-v5-mcc-service-edu-diet",
         "status": "active",
         "intent": "plan",
         "code": {
@@ -258,22 +258,22 @@
           "text": "Diet counseling"
         },
         "subject": {
-          "reference": "Patient/P0522-patientBSJ1"
+          "reference": "Patient/P0522-v5-patientBSJ1"
         },
         "requester": {
-          "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+          "reference": "Practitioner/P0522-v5-Practitioner-JohnSmith"
         },
         "performer": [
           {
-            "reference": "Practitioner/P0522-Practitioner-estaban-felicity"
+            "reference": "Practitioner/P0522-v5-Practitioner-estaban-felicity"
           }
         ],
         "reasonReference": [
           {
-            "reference": "Condition/P0522-Prob-Diabetes"
+            "reference": "Condition/P0522-v5-Prob-Diabetes"
           },
           {
-            "reference": "Condition/P0522-Prob-CKD"
+            "reference": "Condition/P0522-v5-Prob-CKD"
           }
         ],
         "resourceType": "ServiceRequest"
@@ -281,7 +281,7 @@
     },
     {
       "resource": {
-        "id": "P0522-mcc-goal-control-blood-sugars-with-meals",
+        "id": "P0522-v5-mcc-goal-control-blood-sugars-with-meals",
         "lifecycleStatus": "active",
         "achievementStatus": {
           "coding": [
@@ -307,7 +307,7 @@
           "text": "Control blood sugars within 1-2 hours after eating to < 180 mg/dl"
         },
         "subject": {
-          "reference": "Patient/P0522-patientBSJ1"
+          "reference": "Patient/P0522-v5-patientBSJ1"
         },
         "startDate": "2021-05-19",
         "target": [
@@ -332,17 +332,17 @@
           }
         ],
         "expressedBy": {
-          "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+          "reference": "Practitioner/P0522-v5-Practitioner-JohnSmith"
         },
         "addresses": [
           {
-            "reference": "Condition/P0522-mcc-cond-sdoh-nutrition"
+            "reference": "Condition/P0522-v5-mcc-cond-sdoh-nutrition"
           },
           {
-            "reference": "Condition/P0522-mcc-cond-difficulty-coping"
+            "reference": "Condition/P0522-v5-mcc-cond-difficulty-coping"
           },
           {
-            "reference": "Observation/P0522-mcc-obs-knowledge-deficit"
+            "reference": "Observation/P0522-v5-mcc-obs-knowledge-deficit"
           }
         ],
         "note": [
@@ -355,7 +355,7 @@
     },
     {
       "resource": {
-        "id": "P0522-mcc-obs-diabetes-poorly-controlled",
+        "id": "P0522-v5-mcc-obs-diabetes-poorly-controlled",
         "status": "final",
         "category": [
           {
@@ -379,12 +379,12 @@
           "text": "Type II diabetes mellitus poorly (finding)"
         },
         "subject": {
-          "reference": "Patient/P0522-patientBSJ1"
+          "reference": "Patient/P0522-v5-patientBSJ1"
         },
         "effectiveDateTime": "2021-05-19",
         "performer": [
           {
-            "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+            "reference": "Practitioner/P0522-v5-Practitioner-JohnSmith"
           }
         ],
         "valueCodeableConcept": {
@@ -401,7 +401,7 @@
     },
     {
       "resource": {
-        "id": "P0522-mcc-proc-glucose-monitoring",
+        "id": "P0522-v5-mcc-proc-glucose-monitoring",
         "status": "completed",
         "code": {
           "coding": [
@@ -414,13 +414,13 @@
           "text": "Blood glucose monitoring (regime/therapy)"
         },
         "subject": {
-          "reference": "Patient/P0522-patientBSJ1"
+          "reference": "Patient/P0522-v5-patientBSJ1"
         },
         "performedDateTime": "2021-05-31T16:00:00-05:00",
         "performer": [
           {
             "actor": {
-              "reference": "Practitioner/P0522-Practitioner-JacobHartwell"
+              "reference": "Practitioner/P0522-v5-Practitioner-JacobHartwell"
             }
           }
         ],
@@ -429,7 +429,7 @@
     },
     {
       "resource": {
-        "id": "P0522-mcc-cond-sdoh-nutrition",
+        "id": "P0522-v5-mcc-cond-sdoh-nutrition",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"
@@ -474,18 +474,18 @@
           "text": "Nutrition impaired due to limited access to healthful foods"
         },
         "subject": {
-          "reference": "Patient/P0522-patientBSJ1"
+          "reference": "Patient/P0522-v5-patientBSJ1"
         },
         "onsetDateTime": "2021-05-19",
         "asserter": {
-          "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+          "reference": "Practitioner/P0522-v5-Practitioner-JohnSmith"
         },
         "resourceType": "Condition"
       }
     },
     {
       "resource": {
-        "id": "P0522-mcc-goal-a1c",
+        "id": "P0522-v5-mcc-goal-a1c",
         "lifecycleStatus": "active",
         "achievementStatus": {
           "coding": [
@@ -511,7 +511,7 @@
           "text": "Stabilize Hemoglobin A1c"
         },
         "subject": {
-          "reference": "Patient/P0522-patientBSJ1"
+          "reference": "Patient/P0522-v5-patientBSJ1"
         },
         "startDate": "2021-01-01",
         "target": [
@@ -535,11 +535,11 @@
           }
         ],
         "expressedBy": {
-          "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+          "reference": "Practitioner/P0522-v5-Practitioner-JohnSmith"
         },
         "addresses": [
           {
-            "reference": "Condition/P0522-Prob-Diabetes",
+            "reference": "Condition/P0522-v5-Prob-Diabetes",
             "display": "Type 2 diabetes mellitus"
           }
         ],
@@ -553,7 +553,7 @@
     },
     {
       "resource": {
-        "id": "P0522-mcc-proc-carb-counting",
+        "id": "P0522-v5-mcc-proc-carb-counting",
         "status": "completed",
         "code": {
           "coding": [
@@ -566,13 +566,13 @@
           "text": "Carbohydrate counting (regime/therapy)"
         },
         "subject": {
-          "reference": "Patient/P0522-patientBSJ1"
+          "reference": "Patient/P0522-v5-patientBSJ1"
         },
         "performedDateTime": "2021-05-31T16:00:00-05:00",
         "performer": [
           {
             "actor": {
-              "reference": "Practitioner/P0522-Practitioner-estaban-felicity"
+              "reference": "Practitioner/P0522-v5-Practitioner-estaban-felicity"
             }
           }
         ],
@@ -581,7 +581,7 @@
     },
     {
       "resource": {
-        "id": "P0522-mcc-obs-lab-glucose",
+        "id": "P0522-v5-mcc-obs-lab-glucose",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
@@ -609,12 +609,12 @@
           ]
         },
         "subject": {
-          "reference": "Patient/P0522-patientBSJ1"
+          "reference": "Patient/P0522-v5-patientBSJ1"
         },
         "effectiveDateTime": "2021-05-19",
         "performer": [
           {
-            "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+            "reference": "Practitioner/P0522-v5-Practitioner-JohnSmith"
           }
         ],
         "valueQuantity": {
@@ -645,7 +645,7 @@
     },
     {
       "resource": {
-        "id": "P0522-Enc-MCCCarePlanDiabetes",
+        "id": "P0522-v5-Enc-MCCCarePlanDiabetes",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
@@ -669,12 +669,12 @@
           }
         ],
         "subject": {
-          "reference": "Patient/P0522-patientBSJ1"
+          "reference": "Patient/P0522-v5-patientBSJ1"
         },
         "participant": [
           {
             "individual": {
-              "reference": "PractitionerRole/P0522-Role-IMMD-JohnSmith"
+              "reference": "PractitionerRole/P0522-v5-Role-IMMD-JohnSmith"
             }
           }
         ],
@@ -685,7 +685,7 @@
         "location": [
           {
             "location": {
-              "reference": "Location/P0522-org-Loc-PC-Primary-Care-Texas"
+              "reference": "Location/P0522-v5-org-Loc-PC-Primary-Care-Texas"
             }
           }
         ],
@@ -694,7 +694,7 @@
     },
     {
       "resource": {
-        "id": "P0522-mcc-obs-knowledge-deficit",
+        "id": "P0522-v5-mcc-obs-knowledge-deficit",
         "status": "final",
         "category": [
           {
@@ -718,12 +718,12 @@
           "text": "Limited knowledge level of diet regime"
         },
         "subject": {
-          "reference": "Patient/P0522-patientBSJ1"
+          "reference": "Patient/P0522-v5-patientBSJ1"
         },
         "effectiveDateTime": "2022-04-10",
         "performer": [
           {
-            "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+            "reference": "Practitioner/P0522-v5-Practitioner-JohnSmith"
           }
         ],
         "valueCodeableConcept": {

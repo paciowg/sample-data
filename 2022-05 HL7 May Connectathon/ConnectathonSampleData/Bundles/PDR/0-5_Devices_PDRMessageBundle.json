@@ -6,7 +6,7 @@
         "extension": [
           {
             "url": "https://github.com/Open-Health-Manager/patient-data-receipt-ig/StructureDefinition/AccountExtension",
-            "valueString": "P0522-patientBSJ1"
+            "valueString": "P0522-v5-patientBSJ1"
           }
         ],
         "eventUri": "urn:mitre:healthmanager:pdr",
@@ -18,7 +18,7 @@
     },
     {
       "resource": {
-        "id": "P0522-CMS-Device-RaisedToiletSeat",
+        "id": "P0522-v5-CMS-Device-RaisedToiletSeat",
         "deviceName": [
           {
             "name": "Raised toilet seat",
@@ -30,7 +30,7 @@
     },
     {
       "resource": {
-        "id": "P0522-CMS-Device-HandleBars",
+        "id": "P0522-v5-CMS-Device-HandleBars",
         "deviceName": [
           {
             "name": "Handle bars",
@@ -42,7 +42,7 @@
     },
     {
       "resource": {
-        "id": "P0522-CMS-Device-BedsideRails",
+        "id": "P0522-v5-CMS-Device-BedsideRails",
         "deviceName": [
           {
             "name": "Bedside rails, device",
@@ -54,7 +54,7 @@
     },
     {
       "resource": {
-        "id": "P0522-CMS-Device-RollingWalker",
+        "id": "P0522-v5-CMS-Device-RollingWalker",
         "deviceName": [
           {
             "name": "Rolling walker",
@@ -66,7 +66,7 @@
     },
     {
       "resource": {
-        "id": "P0522-CMS-Device-HearingAid",
+        "id": "P0522-v5-CMS-Device-HearingAid",
         "deviceName": [
           {
             "name": "Hearing aid",
@@ -78,7 +78,7 @@
     },
     {
       "resource": {
-        "id": "P0522-CMS-Device-Walker",
+        "id": "P0522-v5-CMS-Device-Walker",
         "deviceName": [
           {
             "name": "Walker",
@@ -90,7 +90,7 @@
     },
     {
       "resource": {
-        "id": "P0522-CMS-Device-Eyeglasses",
+        "id": "P0522-v5-CMS-Device-Eyeglasses",
         "deviceName": [
           {
             "name": "Eyeglasses",

@@ -6,7 +6,7 @@
         "extension": [
           {
             "url": "https://github.com/Open-Health-Manager/patient-data-receipt-ig/StructureDefinition/AccountExtension",
-            "valueString": "P0522-patientBSJ1"
+            "valueString": "P0522-v5-patientBSJ1"
           }
         ],
         "eventUri": "urn:mitre:healthmanager:pdr",
@@ -18,7 +18,7 @@
     },
     {
       "resource": {
-        "id": "P0522-Prob-Osteoarthiritis",
+        "id": "P0522-v5-Prob-Osteoarthiritis",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"
@@ -61,18 +61,18 @@
           "text": "Osteoarthritis (disorder)"
         },
         "subject": {
-          "reference": "Patient/P0522-patientBSJ1"
+          "reference": "Patient/P0522-v5-patientBSJ1"
         },
         "onsetDateTime": "2015-07-06T12:15:00-05:00",
         "asserter": {
-          "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+          "reference": "Practitioner/P0522-v5-Practitioner-JohnSmith"
         },
         "resourceType": "Condition"
       }
     },
     {
       "resource": {
-        "id": "P0522-Prob-CKD",
+        "id": "P0522-v5-Prob-CKD",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"
@@ -125,19 +125,19 @@
           "text": "Chronic kidney disease stage 3 (disorder)"
         },
         "subject": {
-          "reference": "Patient/P0522-patientBSJ1"
+          "reference": "Patient/P0522-v5-patientBSJ1"
         },
         "onsetDateTime": "2019-01-01",
         "recordedDate": "2020-03-02",
         "asserter": {
-          "reference": "Practitioner/P0522-Practitioner-jones-vince"
+          "reference": "Practitioner/P0522-v5-Practitioner-jones-vince"
         },
         "resourceType": "Condition"
       }
     },
     {
       "resource": {
-        "id": "P0522-Prob-Depression",
+        "id": "P0522-v5-Prob-Depression",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"
@@ -180,18 +180,18 @@
           "text": "Chronic depression (disorder)"
         },
         "subject": {
-          "reference": "Patient/P0522-patientBSJ1"
+          "reference": "Patient/P0522-v5-patientBSJ1"
         },
         "onsetDateTime": "2011-07-06T12:15:00-05:00",
         "asserter": {
-          "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+          "reference": "Practitioner/P0522-v5-Practitioner-JohnSmith"
         },
         "resourceType": "Condition"
       }
     },
     {
       "resource": {
-        "id": "P0522-Immunization-2020Flu",
+        "id": "P0522-v5-Immunization-2020Flu",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/core/StructureDefinition/us-core-immunization"
@@ -213,14 +213,14 @@
           ]
         },
         "patient": {
-          "reference": "Patient/P0522-patientBSJ1"
+          "reference": "Patient/P0522-v5-patientBSJ1"
         },
         "occurrenceDateTime": "2020-10-08T17:28:00-05:00",
         "primarySource": false,
         "performer": [
           {
             "actor": {
-              "reference": "Organization/P0522-org-PC-Primary-Care-Texas"
+              "reference": "Organization/P0522-v5-org-PC-Primary-Care-Texas"
             }
           }
         ],
@@ -229,7 +229,7 @@
     },
     {
       "resource": {
-        "id": "P0522-Prob-HearingAids",
+        "id": "P0522-v5-Prob-HearingAids",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"
@@ -274,18 +274,18 @@
           "text": "Does use hearing aid (finding)"
         },
         "subject": {
-          "reference": "Patient/P0522-patientBSJ1"
+          "reference": "Patient/P0522-v5-patientBSJ1"
         },
         "onsetDateTime": "2020-11-12",
         "asserter": {
-          "reference": "Practitioner/P0522-Practitioner-JillBradley"
+          "reference": "Practitioner/P0522-v5-Practitioner-JillBradley"
         },
         "resourceType": "Condition"
       }
     },
     {
       "resource": {
-        "id": "P0522-Prob-HearingLoss",
+        "id": "P0522-v5-Prob-HearingLoss",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"
@@ -330,18 +330,18 @@
           "text": "Sensorineural hearing loss, bilateral (disorder)"
         },
         "subject": {
-          "reference": "Patient/P0522-patientBSJ1"
+          "reference": "Patient/P0522-v5-patientBSJ1"
         },
         "onsetDateTime": "2020-11-06",
         "asserter": {
-          "reference": "Practitioner/P0522-Practitioner-JillBradley"
+          "reference": "Practitioner/P0522-v5-Practitioner-JillBradley"
         },
         "resourceType": "Condition"
       }
     },
     {
       "resource": {
-        "id": "P0522-MedStmt-VitaminD",
+        "id": "P0522-v5-MedStmt-VitaminD",
         "contained": [
           {
             "id": "Medication-VitaminD-1",
@@ -371,16 +371,16 @@
           "reference": "#Medication-VitaminD-1"
         },
         "subject": {
-          "reference": "Patient/P0522-patientBSJ1"
+          "reference": "Patient/P0522-v5-patientBSJ1"
         },
         "effectiveDateTime": "2019-12-05T10:30:00-05:00",
         "dateAsserted": "2019-12-05T10:30:00-05:00",
         "informationSource": {
-          "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+          "reference": "Practitioner/P0522-v5-Practitioner-JohnSmith"
         },
         "reasonReference": [
           {
-            "reference": "Condition/P0522-Prob-Osteoarthiritis"
+            "reference": "Condition/P0522-v5-Prob-Osteoarthiritis"
           }
         ],
         "dosage": [
@@ -393,7 +393,7 @@
     },
     {
       "resource": {
-        "id": "P0522-Prob-HeartDisease",
+        "id": "P0522-v5-Prob-HeartDisease",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"
@@ -436,18 +436,18 @@
           "text": "Ischemic heart disease (disorder)"
         },
         "subject": {
-          "reference": "Patient/P0522-patientBSJ1"
+          "reference": "Patient/P0522-v5-patientBSJ1"
         },
         "onsetDateTime": "2012-07-06T12:15:00-05:00",
         "asserter": {
-          "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+          "reference": "Practitioner/P0522-v5-Practitioner-JohnSmith"
         },
         "resourceType": "Condition"
       }
     },
     {
       "resource": {
-        "id": "P0522-MedStmt-Metformin",
+        "id": "P0522-v5-MedStmt-Metformin",
         "contained": [
           {
             "id": "Medication-Metformin-1",
@@ -477,16 +477,16 @@
           "reference": "#Medication-Metformin-1"
         },
         "subject": {
-          "reference": "Patient/P0522-patientBSJ1"
+          "reference": "Patient/P0522-v5-patientBSJ1"
         },
         "effectiveDateTime": "2019-12-05T10:30:00-05:00",
         "dateAsserted": "2019-12-05T10:30:00-05:00",
         "informationSource": {
-          "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+          "reference": "Practitioner/P0522-v5-Practitioner-JohnSmith"
         },
         "reasonReference": [
           {
-            "reference": "Condition/P0522-Prob-Diabetes"
+            "reference": "Condition/P0522-v5-Prob-Diabetes"
           }
         ],
         "dosage": [
@@ -499,7 +499,7 @@
     },
     {
       "resource": {
-        "id": "P0522-Prob-Hypertension",
+        "id": "P0522-v5-Prob-Hypertension",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"
@@ -554,18 +554,18 @@
           "text": "Hypertension"
         },
         "subject": {
-          "reference": "Patient/P0522-patientBSJ1"
+          "reference": "Patient/P0522-v5-patientBSJ1"
         },
         "onsetDateTime": "2010-03-05",
         "asserter": {
-          "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+          "reference": "Practitioner/P0522-v5-Practitioner-JohnSmith"
         },
         "resourceType": "Condition"
       }
     },
     {
       "resource": {
-        "id": "P0522-MedStmt-Furosemide",
+        "id": "P0522-v5-MedStmt-Furosemide",
         "contained": [
           {
             "id": "Medication-Furosemide-1",
@@ -595,16 +595,16 @@
           "reference": "#Medication-Furosemide-1"
         },
         "subject": {
-          "reference": "Patient/P0522-patientBSJ1"
+          "reference": "Patient/P0522-v5-patientBSJ1"
         },
         "effectiveDateTime": "2019-12-05T10:30:00-05:00",
         "dateAsserted": "2019-12-05T10:30:00-05:00",
         "informationSource": {
-          "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+          "reference": "Practitioner/P0522-v5-Practitioner-JohnSmith"
         },
         "reasonReference": [
           {
-            "reference": "Condition/P0522-Prob-Hypertension"
+            "reference": "Condition/P0522-v5-Prob-Hypertension"
           }
         ],
         "dosage": [
@@ -617,7 +617,7 @@
     },
     {
       "resource": {
-        "id": "P0522-MedStmt-Calcium",
+        "id": "P0522-v5-MedStmt-Calcium",
         "contained": [
           {
             "id": "Medication-Calcium-1",
@@ -647,16 +647,16 @@
           "reference": "#Medication-Calcium-1"
         },
         "subject": {
-          "reference": "Patient/P0522-patientBSJ1"
+          "reference": "Patient/P0522-v5-patientBSJ1"
         },
         "effectiveDateTime": "2019-12-05T10:30:00-05:00",
         "dateAsserted": "2019-12-05T10:30:00-05:00",
         "informationSource": {
-          "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+          "reference": "Practitioner/P0522-v5-Practitioner-JohnSmith"
         },
         "reasonReference": [
           {
-            "reference": "Condition/P0522-Prob-CKD"
+            "reference": "Condition/P0522-v5-Prob-CKD"
           }
         ],
         "dosage": [
@@ -669,7 +669,7 @@
     },
     {
       "resource": {
-        "id": "P0522-MedStmt-FerrousSulfate",
+        "id": "P0522-v5-MedStmt-FerrousSulfate",
         "contained": [
           {
             "id": "Medication-FerrousSulfate-1",
@@ -699,16 +699,16 @@
           "reference": "#Medication-FerrousSulfate-1"
         },
         "subject": {
-          "reference": "Patient/P0522-patientBSJ1"
+          "reference": "Patient/P0522-v5-patientBSJ1"
         },
         "effectiveDateTime": "2019-12-05T10:30:00-05:00",
         "dateAsserted": "2019-12-05T10:30:00-05:00",
         "informationSource": {
-          "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+          "reference": "Practitioner/P0522-v5-Practitioner-JohnSmith"
         },
         "reasonReference": [
           {
-            "reference": "Condition/P0522-Prob-CKD"
+            "reference": "Condition/P0522-v5-Prob-CKD"
           }
         ],
         "dosage": [
@@ -721,7 +721,7 @@
     },
     {
       "resource": {
-        "id": "P0522-MedStmt-Atorvastatin",
+        "id": "P0522-v5-MedStmt-Atorvastatin",
         "contained": [
           {
             "id": "Medication-Atorvastatin40mg-1",
@@ -751,16 +751,16 @@
           "reference": "#Medication-Atorvastatin40mg-1"
         },
         "subject": {
-          "reference": "Patient/P0522-patientBSJ1"
+          "reference": "Patient/P0522-v5-patientBSJ1"
         },
         "effectiveDateTime": "2020-07-11T05:42:00-05:00",
         "dateAsserted": "2020-07-11T05:42:00-05:00",
         "informationSource": {
-          "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+          "reference": "Practitioner/P0522-v5-Practitioner-JohnSmith"
         },
         "reasonReference": [
           {
-            "reference": "Condition/P0522-Prob-Dyslipidemia"
+            "reference": "Condition/P0522-v5-Prob-Dyslipidemia"
           }
         ],
         "dosage": [
@@ -773,7 +773,7 @@
     },
     {
       "resource": {
-        "id": "P0522-MedStmt-Sertraline",
+        "id": "P0522-v5-MedStmt-Sertraline",
         "contained": [
           {
             "id": "Medication-Sertraline-1",
@@ -803,16 +803,16 @@
           "reference": "#Medication-Sertraline-1"
         },
         "subject": {
-          "reference": "Patient/P0522-patientBSJ1"
+          "reference": "Patient/P0522-v5-patientBSJ1"
         },
         "effectiveDateTime": "2019-12-05T10:30:00-05:00",
         "dateAsserted": "2019-12-05T10:30:00-05:00",
         "informationSource": {
-          "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+          "reference": "Practitioner/P0522-v5-Practitioner-JohnSmith"
         },
         "reasonReference": [
           {
-            "reference": "Condition/P0522-Prob-Depression"
+            "reference": "Condition/P0522-v5-Prob-Depression"
           }
         ],
         "dosage": [
@@ -825,7 +825,7 @@
     },
     {
       "resource": {
-        "id": "P0522-eCQM-A1cObservation-ok",
+        "id": "P0522-v5-eCQM-A1cObservation-ok",
         "status": "final",
         "category": [
           {
@@ -847,7 +847,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/P0522-patientBSJ1"
+          "reference": "Patient/P0522-v5-patientBSJ1"
         },
         "effectiveDateTime": "2021-02-02T12:30:00-05:00",
         "issued": "2021-02-04T12:30:00-05:00",
@@ -862,7 +862,7 @@
     },
     {
       "resource": {
-        "id": "P0522-Prob-Cataracts",
+        "id": "P0522-v5-Prob-Cataracts",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"
@@ -905,18 +905,18 @@
           "text": "Bilateral cataracts (disorder)"
         },
         "subject": {
-          "reference": "Patient/P0522-patientBSJ1"
+          "reference": "Patient/P0522-v5-patientBSJ1"
         },
         "onsetDateTime": "2017-07-06T12:15:00-05:00",
         "asserter": {
-          "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+          "reference": "Practitioner/P0522-v5-Practitioner-JohnSmith"
         },
         "resourceType": "Condition"
       }
     },
     {
       "resource": {
-        "id": "P0522-MedStmt-Lisinopril",
+        "id": "P0522-v5-MedStmt-Lisinopril",
         "contained": [
           {
             "id": "Medication-Lisinopril-1",
@@ -946,16 +946,16 @@
           "reference": "#Medication-Lisinopril-1"
         },
         "subject": {
-          "reference": "Patient/P0522-patientBSJ1"
+          "reference": "Patient/P0522-v5-patientBSJ1"
         },
         "effectiveDateTime": "2019-12-05T10:30:00-05:00",
         "dateAsserted": "2019-12-05T10:30:00-05:00",
         "informationSource": {
-          "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+          "reference": "Practitioner/P0522-v5-Practitioner-JohnSmith"
         },
         "reasonReference": [
           {
-            "reference": "Condition/P0522-Prob-Hypertension"
+            "reference": "Condition/P0522-v5-Prob-Hypertension"
           }
         ],
         "dosage": [
@@ -968,7 +968,7 @@
     },
     {
       "resource": {
-        "id": "P0522-MedStmt-Tylenol",
+        "id": "P0522-v5-MedStmt-Tylenol",
         "contained": [
           {
             "id": "Medication-Tylenol-1",
@@ -998,16 +998,16 @@
           "reference": "#Medication-Tylenol-1"
         },
         "subject": {
-          "reference": "Patient/P0522-patientBSJ1"
+          "reference": "Patient/P0522-v5-patientBSJ1"
         },
         "effectiveDateTime": "2019-12-05T10:30:00-05:00",
         "dateAsserted": "2019-12-05T10:30:00-05:00",
         "informationSource": {
-          "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+          "reference": "Practitioner/P0522-v5-Practitioner-JohnSmith"
         },
         "reasonReference": [
           {
-            "reference": "Condition/P0522-Prob-Osteoarthiritis"
+            "reference": "Condition/P0522-v5-Prob-Osteoarthiritis"
           }
         ],
         "dosage": [
@@ -1020,7 +1020,7 @@
     },
     {
       "resource": {
-        "id": "P0522-Prob-Diabetes",
+        "id": "P0522-v5-Prob-Diabetes",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"
@@ -1065,18 +1065,18 @@
           "text": "Diabetes mellitus Type 2"
         },
         "subject": {
-          "reference": "Patient/P0522-patientBSJ1"
+          "reference": "Patient/P0522-v5-patientBSJ1"
         },
         "onsetDateTime": "2010-07-06",
         "asserter": {
-          "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+          "reference": "Practitioner/P0522-v5-Practitioner-JohnSmith"
         },
         "resourceType": "Condition"
       }
     },
     {
       "resource": {
-        "id": "P0522-Prob-Dyslipidemia",
+        "id": "P0522-v5-Prob-Dyslipidemia",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"
@@ -1121,18 +1121,18 @@
           "text": "Dyslipidemia"
         },
         "subject": {
-          "reference": "Patient/P0522-patientBSJ1"
+          "reference": "Patient/P0522-v5-patientBSJ1"
         },
         "onsetDateTime": "2014-08-20",
         "asserter": {
-          "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+          "reference": "Practitioner/P0522-v5-Practitioner-JohnSmith"
         },
         "resourceType": "Condition"
       }
     },
     {
       "resource": {
-        "id": "P0522-Allergy-NoKnown",
+        "id": "P0522-v5-Allergy-NoKnown",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/core/StructureDefinition/us-core-allergyintolerance"
@@ -1168,10 +1168,10 @@
           "text": "No known drug allergy (situation)"
         },
         "patient": {
-          "reference": "Patient/P0522-patientBSJ1"
+          "reference": "Patient/P0522-v5-patientBSJ1"
         },
         "asserter": {
-          "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+          "reference": "Practitioner/P0522-v5-Practitioner-JohnSmith"
         },
         "resourceType": "AllergyIntolerance"
       }

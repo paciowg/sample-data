@@ -2,9 +2,9 @@
   "type": "transaction",
   "entry": [
     {
-      "fullUrl": "Patient/P0522-patientBSJ1",
+      "fullUrl": "Patient/P0522-v5-patientBSJ1",
       "resource": {
-        "id": "P0522-patientBSJ1",
+        "id": "P0522-v5-patientBSJ1",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
@@ -55,7 +55,7 @@
           },
           {
             "system": "urn:mitre:healthmanager:account:username",
-            "value": "P0522-patientBSJ1"
+            "value": "P0522-v5-patientBSJ1"
           }
         ],
         "active": true,
@@ -194,14 +194,14 @@
         ],
         "generalPractitioner": [
           {
-            "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+            "reference": "Practitioner/P0522-v5-Practitioner-JohnSmith"
           }
         ],
         "resourceType": "Patient"
       },
       "request": {
         "method": "PUT",
-        "url": "Patient/P0522-patientBSJ1"
+        "url": "Patient/P0522-v5-patientBSJ1"
       }
     }
   ],

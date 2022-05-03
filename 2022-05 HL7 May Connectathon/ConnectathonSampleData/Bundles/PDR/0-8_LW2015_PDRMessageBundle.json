@@ -6,7 +6,7 @@
         "extension": [
           {
             "url": "https://github.com/Open-Health-Manager/patient-data-receipt-ig/StructureDefinition/AccountExtension",
-            "valueString": "P0522-patientBSJ1"
+            "valueString": "P0522-v5-patientBSJ1"
           }
         ],
         "eventUri": "urn:mitre:healthmanager:pdr",
@@ -18,7 +18,7 @@
     },
     {
       "resource": {
-        "id": "P0522-ADIMMD-2015LW-Comp",
+        "id": "P0522-v5-ADIMMD-2015LW-Comp",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2022-04-26T16:55:29.000+00:00",
@@ -53,31 +53,31 @@
           }
         ],
         "subject": {
-          "reference": "Patient/P0522-patientBSJ1",
+          "reference": "Patient/P0522-v5-patientBSJ1",
           "display": "Smith-Johnson, Betsy"
         },
         "date": "2015-11-05T15:52:20+00:00",
         "author": [
           {
-            "reference": "Patient/P0522-patientBSJ1",
+            "reference": "Patient/P0522-v5-patientBSJ1",
             "display": "Smith-Johnson, Betsy"
           },
           {
-            "reference": "Device/P0522-ADIMMD-PortalDevice",
+            "reference": "Device/P0522-v5-ADIMMD-PortalDevice",
             "display": "ADVault RR Portal"
           }
         ],
         "title": "Betsy's Living Will (Texas)",
         "confidentiality": "N",
         "custodian": {
-          "reference": "Organization/P0522-ADIMMD-ADVaultOrg"
+          "reference": "Organization/P0522-v5-ADIMMD-ADVaultOrg"
         },
         "resourceType": "Composition"
       }
     },
     {
       "resource": {
-        "id": "P0522-ADIMMD-2015LW-Bundle",
+        "id": "P0522-v5-ADIMMD-2015LW-Bundle",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2022-04-26T16:55:29.000+00:00",
@@ -114,31 +114,31 @@
                 }
               ],
               "subject": {
-                "reference": "Patient/P0522-patientBSJ1",
+                "reference": "Patient/P0522-v5-patientBSJ1",
                 "display": "Smith-Johnson, Betsy"
               },
               "date": "2015-11-05T15:52:20+00:00",
               "author": [
                 {
-                  "reference": "Patient/P0522-patientBSJ1",
+                  "reference": "Patient/P0522-v5-patientBSJ1",
                   "display": "Smith-Johnson, Betsy"
                 },
                 {
-                  "reference": "Device/P0522-ADIMMD-PortalDevice",
+                  "reference": "Device/P0522-v5-ADIMMD-PortalDevice",
                   "display": "ADVault RR Portal"
                 }
               ],
               "title": "Betsy's Living Will (Texas)",
               "confidentiality": "N",
               "custodian": {
-                "reference": "Organization/P0522-ADIMMD-ADVaultOrg"
+                "reference": "Organization/P0522-v5-ADIMMD-ADVaultOrg"
               },
               "resourceType": "Composition"
             }
           },
           {
             "resource": {
-              "id": "P0522-patientBSJ1",
+              "id": "P0522-v5-patientBSJ1",
               "meta": {
                 "profile": [
                   "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
@@ -189,7 +189,7 @@
                 },
                 {
                   "system": "urn:mitre:healthmanager:account:username",
-                  "value": "P0522-patientBSJ1"
+                  "value": "P0522-v5-patientBSJ1"
                 }
               ],
               "active": true,
@@ -328,7 +328,7 @@
               ],
               "generalPractitioner": [
                 {
-                  "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+                  "reference": "Practitioner/P0522-v5-Practitioner-JohnSmith"
                 }
               ],
               "resourceType": "Patient"
@@ -336,7 +336,7 @@
           },
           {
             "resource": {
-              "id": "P0522-ADIMMD-ADVaultOrg",
+              "id": "P0522-v5-ADIMMD-ADVaultOrg",
               "identifier": [
                 {
                   "system": "urn:oid:1.3.6.1.4.1.42424242.4.99930.4",
@@ -374,7 +374,7 @@
           },
           {
             "resource": {
-              "id": "P0522-ADIMMD-PortalDevice",
+              "id": "P0522-v5-ADIMMD-PortalDevice",
               "identifier": [
                 {
                   "system": "urn:oid:2.16.840.1.113883.4.6",
@@ -388,7 +388,7 @@
                 }
               ],
               "owner": {
-                "reference": "Organization/P0522-ADIMMD-ADVaultOrg",
+                "reference": "Organization/P0522-v5-ADIMMD-ADVaultOrg",
                 "display": "ADVault, Inc."
               },
               "resourceType": "Device"
@@ -400,7 +400,7 @@
     },
     {
       "resource": {
-        "id": "P0522-ADIMMD-2015LW-BinaryBundle",
+        "id": "P0522-v5-ADIMMD-2015LW-BinaryBundle",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2022-04-26T16:55:29.000+00:00",
@@ -413,7 +413,7 @@
     },
     {
       "resource": {
-        "id": "P0522-ADIMMD-2015LW-DocRef",
+        "id": "P0522-v5-ADIMMD-2015LW-DocRef",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2022-04-26T16:55:29.000+00:00",
@@ -430,7 +430,7 @@
           },
           {
             "system": "Binary.id",
-            "value": "P0522-ADIMMD-2015LW-BinaryCDA"
+            "value": "P0522-v5-ADIMMD-2015LW-BinaryCDA"
           },
           {
             "system": "ClinicalDocument.setid",
@@ -460,25 +460,25 @@
           }
         ],
         "subject": {
-          "reference": "Patient/P0522-patientBSJ1",
+          "reference": "Patient/P0522-v5-patientBSJ1",
           "display": "Smith-Johnson, Betsy"
         },
         "date": "2015-11-05T15:52:20.000+00:00",
         "author": [
           {
-            "reference": "Patient/P0522-patientBSJ1",
+            "reference": "Patient/P0522-v5-patientBSJ1",
             "display": "Smith-Johnson, Betsy"
           },
           {
-            "reference": "Device/P0522-ADIMMD-PortalDevice",
+            "reference": "Device/P0522-v5-ADIMMD-PortalDevice",
             "display": "ADVault RR Portal"
           }
         ],
         "authenticator": {
-          "reference": "Organization/P0522-ADIMMD-ADVaultOrg"
+          "reference": "Organization/P0522-v5-ADIMMD-ADVaultOrg"
         },
         "custodian": {
-          "reference": "Organization/P0522-ADIMMD-ADVaultOrg"
+          "reference": "Organization/P0522-v5-ADIMMD-ADVaultOrg"
         },
         "description": "Betsy's Living Will (Texas)",
         "securityLabel": [
@@ -496,7 +496,7 @@
           {
             "attachment": {
               "contentType": "text/xml",
-              "url": "Binary/P0522-ADIMMD-2015LW-BinaryCDA"
+              "url": "Binary/P0522-v5-ADIMMD-2015LW-BinaryCDA"
             },
             "format": {
               "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
@@ -507,7 +507,7 @@
           {
             "attachment": {
               "contentType": "application/json",
-              "url": "Binary/P0522-ADIMMD-2015LW-BinaryBundle"
+              "url": "Binary/P0522-v5-ADIMMD-2015LW-BinaryBundle"
             },
             "format": {
               "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
@@ -517,12 +517,12 @@
           },
           {
             "attachment": {
-              "url": "Composition/P0522-ADIMMD-2015LW-Comp"
+              "url": "Composition/P0522-v5-ADIMMD-2015LW-Comp"
             }
           },
           {
             "attachment": {
-              "url": "Bundle/P0522-ADIMMD-2015LW-Bundle"
+              "url": "Bundle/P0522-v5-ADIMMD-2015LW-Bundle"
             },
             "format": {
               "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
@@ -536,7 +536,7 @@
     },
     {
       "resource": {
-        "id": "P0522-ADIMMD-2015LW-BinaryCDA",
+        "id": "P0522-v5-ADIMMD-2015LW-BinaryCDA",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2022-04-26T16:55:01.000+00:00",

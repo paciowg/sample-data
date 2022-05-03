@@ -2,9 +2,9 @@
   "type": "transaction",
   "entry": [
     {
-      "fullUrl": "Device/P0522-CMS-Device-RaisedToiletSeat",
+      "fullUrl": "Device/P0522-v5-CMS-Device-RaisedToiletSeat",
       "resource": {
-        "id": "P0522-CMS-Device-RaisedToiletSeat",
+        "id": "P0522-v5-CMS-Device-RaisedToiletSeat",
         "deviceName": [
           {
             "name": "Raised toilet seat",
@@ -15,13 +15,13 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Device/P0522-CMS-Device-RaisedToiletSeat"
+        "url": "Device/P0522-v5-CMS-Device-RaisedToiletSeat"
       }
     },
     {
-      "fullUrl": "Device/P0522-CMS-Device-HandleBars",
+      "fullUrl": "Device/P0522-v5-CMS-Device-HandleBars",
       "resource": {
-        "id": "P0522-CMS-Device-HandleBars",
+        "id": "P0522-v5-CMS-Device-HandleBars",
         "deviceName": [
           {
             "name": "Handle bars",
@@ -32,13 +32,13 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Device/P0522-CMS-Device-HandleBars"
+        "url": "Device/P0522-v5-CMS-Device-HandleBars"
       }
     },
     {
-      "fullUrl": "Device/P0522-CMS-Device-BedsideRails",
+      "fullUrl": "Device/P0522-v5-CMS-Device-BedsideRails",
       "resource": {
-        "id": "P0522-CMS-Device-BedsideRails",
+        "id": "P0522-v5-CMS-Device-BedsideRails",
         "deviceName": [
           {
             "name": "Bedside rails, device",
@@ -49,13 +49,13 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Device/P0522-CMS-Device-BedsideRails"
+        "url": "Device/P0522-v5-CMS-Device-BedsideRails"
       }
     },
     {
-      "fullUrl": "Device/P0522-CMS-Device-RollingWalker",
+      "fullUrl": "Device/P0522-v5-CMS-Device-RollingWalker",
       "resource": {
-        "id": "P0522-CMS-Device-RollingWalker",
+        "id": "P0522-v5-CMS-Device-RollingWalker",
         "deviceName": [
           {
             "name": "Rolling walker",
@@ -66,13 +66,13 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Device/P0522-CMS-Device-RollingWalker"
+        "url": "Device/P0522-v5-CMS-Device-RollingWalker"
       }
     },
     {
-      "fullUrl": "Device/P0522-CMS-Device-HearingAid",
+      "fullUrl": "Device/P0522-v5-CMS-Device-HearingAid",
       "resource": {
-        "id": "P0522-CMS-Device-HearingAid",
+        "id": "P0522-v5-CMS-Device-HearingAid",
         "deviceName": [
           {
             "name": "Hearing aid",
@@ -83,13 +83,13 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Device/P0522-CMS-Device-HearingAid"
+        "url": "Device/P0522-v5-CMS-Device-HearingAid"
       }
     },
     {
-      "fullUrl": "Device/P0522-CMS-Device-Walker",
+      "fullUrl": "Device/P0522-v5-CMS-Device-Walker",
       "resource": {
-        "id": "P0522-CMS-Device-Walker",
+        "id": "P0522-v5-CMS-Device-Walker",
         "deviceName": [
           {
             "name": "Walker",
@@ -100,13 +100,13 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Device/P0522-CMS-Device-Walker"
+        "url": "Device/P0522-v5-CMS-Device-Walker"
       }
     },
     {
-      "fullUrl": "Device/P0522-CMS-Device-Eyeglasses",
+      "fullUrl": "Device/P0522-v5-CMS-Device-Eyeglasses",
       "resource": {
-        "id": "P0522-CMS-Device-Eyeglasses",
+        "id": "P0522-v5-CMS-Device-Eyeglasses",
         "deviceName": [
           {
             "name": "Eyeglasses",
@@ -117,7 +117,7 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Device/P0522-CMS-Device-Eyeglasses"
+        "url": "Device/P0522-v5-CMS-Device-Eyeglasses"
       }
     }
   ],

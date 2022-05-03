@@ -6,7 +6,7 @@
         "extension": [
           {
             "url": "https://github.com/Open-Health-Manager/patient-data-receipt-ig/StructureDefinition/AccountExtension",
-            "valueString": "P0522-patientBSJ1"
+            "valueString": "P0522-v5-patientBSJ1"
           }
         ],
         "eventUri": "urn:mitre:healthmanager:pdr",
@@ -18,7 +18,7 @@
     },
     {
       "resource": {
-        "id": "P0522-Enc-EstablishMIPCP",
+        "id": "P0522-v5-Enc-EstablishMIPCP",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
@@ -42,12 +42,12 @@
           }
         ],
         "subject": {
-          "reference": "Patient/P0522-patientBSJ1"
+          "reference": "Patient/P0522-v5-patientBSJ1"
         },
         "participant": [
           {
             "individual": {
-              "reference": "PractitionerRole/P0522-Role-IMMD-AnitaChu"
+              "reference": "PractitionerRole/P0522-v5-Role-IMMD-AnitaChu"
             }
           }
         ],
@@ -58,7 +58,7 @@
         "location": [
           {
             "location": {
-              "reference": "Location/P0522-org-Loc-PC-Primary-Care-Michigan"
+              "reference": "Location/P0522-v5-org-Loc-PC-Primary-Care-Michigan"
             }
           }
         ],
