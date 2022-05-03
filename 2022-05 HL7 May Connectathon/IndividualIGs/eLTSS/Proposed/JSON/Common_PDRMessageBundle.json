@@ -1,0 +1,764 @@
+{
+  "type": "message",
+  "entry": [
+    {
+      "resource": {
+        "extension": [
+          {
+            "url": "https://github.com/Open-Health-Manager/patient-data-receipt-ig/StructureDefinition/AccountExtension",
+            "valueString": "largePt"
+          }
+        ],
+        "eventUri": "urn:mitre:healthmanager:pdr",
+        "source": {
+          "endpoint": "urn:mitre:healthManager:testSource"
+        },
+        "resourceType": "MessageHeader"
+      }
+    },
+    {
+      "resource": {
+        "id": "PMC-eLTSS-questionnaireServices",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Questionnaire-eltss"
+          ]
+        },
+        "name": "Questionnaire1",
+        "status": "active",
+        "item": [
+          {
+            "linkId": "q1",
+            "text": "Did you choose the setting in which you reside?",
+            "type": "boolean"
+          },
+          {
+            "linkId": "q2",
+            "text": "What alternative home and community-based settings were considered?",
+            "type": "string"
+          },
+          {
+            "linkId": "q3",
+            "text": "Were you given a choice of services outlined in the plan?",
+            "type": "boolean"
+          },
+          {
+            "linkId": "q4",
+            "text": "Did you participate in the selection of services outlined in the plan?",
+            "type": "boolean"
+          },
+          {
+            "linkId": "q5",
+            "text": "Do you agree to the services outlined in the plan?",
+            "type": "boolean"
+          },
+          {
+            "linkId": "q6",
+            "text": "Were you offered a choice of providers for each service?",
+            "type": "boolean"
+          },
+          {
+            "linkId": "q7",
+            "text": "Do you feel you made an informed choice in selecting the provider for each service?",
+            "type": "boolean"
+          }
+        ],
+        "resourceType": "Questionnaire"
+      }
+    },
+    {
+      "resource": {
+        "id": "PMC-eLTSS-needTransportation",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Condition-eltss"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/eLTSS/CodeSystem/eltss-condition-category-code",
+                "code": "assessed-need"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "713458007",
+              "display": "Lack of access to transportation (finding)"
+            }
+          ],
+          "text": "Needs transportation"
+        },
+        "subject": {
+          "reference": "Patient/PMC-eLTSS-patientBSJ1"
+        },
+        "resourceType": "Condition"
+      }
+    },
+    {
+      "resource": {
+        "id": "PMC-eLTSS-strengthManageBills",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Observation-eltss"
+          ]
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/us/eLTSS/CodeSystem/eltss-observation-code",
+              "code": "strength"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/PMC-eLTSS-patientBSJ1"
+        },
+        "valueString": "Able to manage her bills.",
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "resource": {
+        "id": "PMC-eLTSS-strengthWalkWithCane",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Observation-eltss"
+          ]
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/us/eLTSS/CodeSystem/eltss-observation-code",
+              "code": "strength"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/PMC-eLTSS-patientBSJ1"
+        },
+        "valueString": "Independent walking with cane.",
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "resource": {
+        "id": "PMC-eLTSS-riskFalls",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/RiskAssessment-eltss"
+          ]
+        },
+        "status": "final",
+        "subject": {
+          "reference": "Patient/PMC-eLTSS-patientBSJ1"
+        },
+        "prediction": [
+          {
+            "outcome": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "129839007"
+                }
+              ],
+              "text": "At risk for falls (finding)"
+            }
+          },
+          {
+            "outcome": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "35489007"
+                }
+              ],
+              "text": "Depressive disorder (disorder)"
+            }
+          }
+        ],
+        "mitigation": "Betsy is at risk for falls. Her risk is increased due to her depression medication. She has grab bars installed in the shower and is working on her balance with a trainer.",
+        "resourceType": "RiskAssessment"
+      }
+    },
+    {
+      "resource": {
+        "id": "PMC-eLTSS-needDepressionTreatment",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Condition-eltss"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/eLTSS/CodeSystem/eltss-condition-category-code",
+                "code": "assessed-need"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "35489007",
+              "display": "Depressive disorder (disorder)"
+            }
+          ],
+          "text": "Depression (on treatment)"
+        },
+        "subject": {
+          "reference": "Patient/PMC-eLTSS-patientBSJ1"
+        },
+        "resourceType": "Condition"
+      }
+    },
+    {
+      "resource": {
+        "id": "PMC-eLTSS-coverageICWP",
+        "status": "active",
+        "beneficiary": {
+          "reference": "Patient/PMC-eLTSS-patientBSJ1"
+        },
+        "payor": [
+          {
+            "reference": "Organization/PMC-eLTSS-fundingOrg-ICWP"
+          }
+        ],
+        "resourceType": "Coverage"
+      }
+    },
+    {
+      "resource": {
+        "id": "PMC-eLTSS-needDiabetesEducation",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Condition-eltss"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/eLTSS/CodeSystem/eltss-condition-category-code",
+                "code": "assessed-need"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "734920002",
+              "display": "Diabetes mellitus education service"
+            }
+          ],
+          "text": "Needs health / nutrition education for diabetes"
+        },
+        "subject": {
+          "reference": "Patient/PMC-eLTSS-patientBSJ1"
+        },
+        "resourceType": "Condition"
+      }
+    },
+    {
+      "resource": {
+        "id": "PMC-eLTSS-preferenceICWP",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Observation-eltss"
+          ]
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/us/eLTSS/CodeSystem/eltss-observation-code",
+              "code": "preference"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/PMC-eLTSS-patientBSJ1"
+        },
+        "valueString": "Accessing the ICWP Waiver for her current service needs, and would like to remain on ICWP and continue with her current services.",
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "resource": {
+        "id": "PMC-eLTSS-goalDanceSonWedding",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Goal-eltss"
+          ]
+        },
+        "lifecycleStatus": "accepted",
+        "description": {
+          "text": "Dance at son's upcoming wedding"
+        },
+        "subject": {
+          "reference": "Patient/PMC-eLTSS-patientBSJ1"
+        },
+        "resourceType": "Goal"
+      }
+    },
+    {
+      "resource": {
+        "id": "PMC-eLTSS-provider-transportation",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Practitioner-eltss"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.acme.org/practitioners",
+            "value": "24680"
+          }
+        ],
+        "name": "The Transporter, Inc.",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(210) 555 1313"
+          }
+        ],
+        "address": [
+          {
+            "text": "111 Business Street, San Antonio, TX 78212"
+          }
+        ],
+        "resourceType": "Organization"
+      }
+    },
+    {
+      "resource": {
+        "id": "PMC-eLTSS-provider-BillDriver",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Practitioner-eltss"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.acme.org/practitioners",
+            "value": "11223344"
+          }
+        ],
+        "name": [
+          {
+            "text": "Bill Driver",
+            "family": "Driver",
+            "given": [
+              "Bill"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(210) 111 2222"
+          }
+        ],
+        "resourceType": "Practitioner"
+      }
+    },
+    {
+      "resource": {
+        "id": "PMC-eLTSS-patientBSJ1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://example.org/identifiers/patient",
+            "value": "10A3D58WH1600"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "text": "Betsy Smith-Johnson",
+            "family": "Smith-Johnson",
+            "given": [
+              "Betsy"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "210-222-1111",
+            "use": "mobile"
+          }
+        ],
+        "gender": "female",
+        "address": [
+          {
+            "text": "111 Maple Ct, San Antonio, TX 78212"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "U"
+            }
+          ]
+        },
+        "contact": [
+          {
+            "name": {
+              "text": "Charles Johnson"
+            },
+            "telecom": [
+              {
+                "system": "phone",
+                "value": "(210) 222-3333"
+              }
+            ],
+            "address": {
+              "text": "100 Montana St., San Antonio, TX 78203"
+            }
+          }
+        ],
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "system": "urn:ietf:bcp:47",
+                  "code": "en"
+                }
+              ]
+            },
+            "preferred": true
+          }
+        ],
+        "resourceType": "Patient"
+      }
+    },
+    {
+      "resource": {
+        "id": "PMC-eLTSS-planner-MarkPlanner",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Practitioner-eltss"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://hl7.org.fhir/sid/us-npi",
+            "value": "9941339108"
+          },
+          {
+            "system": "http://www.acme.org/practitioners",
+            "value": "25456"
+          }
+        ],
+        "name": [
+          {
+            "text": "Mark Planner",
+            "family": "Planner",
+            "given": [
+              "Mark"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(210) 555 1221"
+          }
+        ],
+        "resourceType": "Practitioner"
+      }
+    },
+    {
+      "resource": {
+        "id": "PMC-eLTSS-goalBalance",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Goal-eltss"
+          ]
+        },
+        "lifecycleStatus": "accepted",
+        "description": {
+          "text": "Improve balance skills"
+        },
+        "subject": {
+          "reference": "Patient/PMC-eLTSS-patientBSJ1"
+        },
+        "resourceType": "Goal"
+      }
+    },
+    {
+      "resource": {
+        "id": "PMC-eLTSS-caremgr-SamMonitor",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Practitioner-eltss"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://hl7.org.fhir/sid/us-npi",
+            "value": "9941339109"
+          },
+          {
+            "system": "http://www.acme.org/practitioners",
+            "value": "25457"
+          }
+        ],
+        "name": [
+          {
+            "text": "Sam Monitor",
+            "family": "Monitor",
+            "given": [
+              "Sam"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(210) 224 1599"
+          }
+        ],
+        "resourceType": "Practitioner"
+      }
+    },
+    {
+      "resource": {
+        "id": "PMC-eLTSS-goalDanceDaughterWedding",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Goal-eltss"
+          ]
+        },
+        "lifecycleStatus": "accepted",
+        "description": {
+          "text": "Dance at daughter's upcoming wedding"
+        },
+        "subject": {
+          "reference": "Patient/PMC-eLTSS-patientBSJ1"
+        },
+        "resourceType": "Goal"
+      }
+    },
+    {
+      "resource": {
+        "id": "PMC-eLTSS-provider-LisaEducator",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Practitioner-eltss"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.acme.org/practitioners",
+            "value": "987654"
+          }
+        ],
+        "name": [
+          {
+            "text": "Lisa Educator",
+            "family": "Educator",
+            "given": [
+              "Lisa"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(210) 555 1213"
+          }
+        ],
+        "resourceType": "Practitioner"
+      }
+    },
+    {
+      "resource": {
+        "id": "PMC-eLTSS-son-CharlesJohnson",
+        "patient": {
+          "reference": "Patient/PMC-eLTSS-patientBSJ1"
+        },
+        "relationship": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                "code": "SONC"
+              }
+            ]
+          }
+        ],
+        "name": [
+          {
+            "text": "Charles Johnson",
+            "family": "Charles",
+            "given": [
+              "Johnson"
+            ]
+          }
+        ],
+        "resourceType": "RelatedPerson"
+      }
+    },
+    {
+      "resource": {
+        "id": "PMC-eLTSS-provider-NormaTrainer",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Practitioner-eltss"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.acme.org/practitioners",
+            "value": "987657"
+          }
+        ],
+        "name": [
+          {
+            "text": "Norma Trainer",
+            "family": "Trainer",
+            "given": [
+              "Norma"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(210) 555 1214"
+          }
+        ],
+        "resourceType": "Practitioner"
+      }
+    },
+    {
+      "resource": {
+        "id": "PMC-eLTSS-fundingOrg-ICWP",
+        "identifier": [
+          {
+            "value": "ICWP"
+          }
+        ],
+        "name": "Texas Department of Community Health",
+        "address": [
+          {
+            "text": "7430 Louis Pasteur Dr, San Antonio, TX 78229"
+          }
+        ],
+        "resourceType": "Organization"
+      }
+    },
+    {
+      "resource": {
+        "id": "PMC-eLTSS-guardian-sonCharlesJohnson",
+        "patient": {
+          "reference": "Patient/PMC-eLTSS-patientBSJ1"
+        },
+        "relationship": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                "code": "GUARD"
+              }
+            ]
+          }
+        ],
+        "name": [
+          {
+            "text": "Charles Johnson",
+            "family": "Charles",
+            "given": [
+              "Johnson"
+            ]
+          }
+        ],
+        "resourceType": "RelatedPerson"
+      }
+    },
+    {
+      "resource": {
+        "id": "PMC-eLTSS-locationHome",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Location-eltss"
+          ]
+        },
+        "name": "In Home",
+        "address": {
+          "text": "111 Maple Ct, San Antonio, TX 78212"
+        },
+        "resourceType": "Location"
+      }
+    }
+  ],
+  "resourceType": "Bundle"
+}

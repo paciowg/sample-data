@@ -1,0 +1,726 @@
+{
+  "type": "message",
+  "entry": [
+    {
+      "resource": {
+        "extension": [
+          {
+            "url": "https://github.com/Open-Health-Manager/patient-data-receipt-ig/StructureDefinition/AccountExtension",
+            "valueString": "largePt"
+          }
+        ],
+        "eventUri": "urn:mitre:healthmanager:pdr",
+        "source": {
+          "endpoint": "urn:mitre:healthManager:testSource"
+        },
+        "resourceType": "MessageHeader"
+      }
+    },
+    {
+      "resource": {
+        "id": "PMC-eLTSS-Careplan-eLTSS-Weather-Emergency-Initial",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/CarePlan-eltss"
+          ]
+        },
+        "partOf": [
+          {
+            "reference": "CarePlan/PMC-eLTSS-Careplan-eLTSS-Personal-Initial"
+          }
+        ],
+        "status": "active",
+        "intent": "plan",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/core/CodeSystem/careplan-category",
+                "code": "assess-plan"
+              }
+            ]
+          }
+        ],
+        "title": "Betsy Smith Johnson's Weather Emergency Plan",
+        "description": "Weather Emergency: A shelf-stable meal is delivered to Meals On Wheels clients. It is to be eaten in the unlikely event of cancellation. Weather meals are donated by the Sheboygan Service Club.",
+        "subject": {
+          "reference": "Patient/PMC-eLTSS-patientBSJ1"
+        },
+        "resourceType": "CarePlan"
+      }
+    },
+    {
+      "resource": {
+        "id": "PMC-eLTSS-claimDiabetesSelfManagement-Initial",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Claim-eltss"
+          ]
+        },
+        "status": "active",
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/claim-type",
+              "code": "professional"
+            }
+          ]
+        },
+        "use": "claim",
+        "patient": {
+          "reference": "Patient/PMC-eLTSS-patientBSJ1"
+        },
+        "created": "2020-05-01",
+        "provider": {
+          "reference": "Organization/PMC-eLTSS-fundingOrg-ICWP"
+        },
+        "priority": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/processpriority",
+              "code": "normal"
+            }
+          ]
+        },
+        "insurance": [
+          {
+            "sequence": 1,
+            "focal": true,
+            "coverage": {
+              "reference": "Coverage/PMC-eLTSS-coverageICWP"
+            }
+          }
+        ],
+        "item": [
+          {
+            "sequence": 1,
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.6.14",
+                  "code": "G0108"
+                }
+              ]
+            },
+            "unitPrice": {
+              "value": 55
+            },
+            "net": {
+              "value": 660
+            }
+          }
+        ],
+        "resourceType": "Claim"
+      }
+    },
+    {
+      "resource": {
+        "id": "PMC-eLTSS-claimTherapy-Initial",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Claim-eltss"
+          ]
+        },
+        "status": "active",
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/claim-type",
+              "code": "professional"
+            }
+          ]
+        },
+        "use": "claim",
+        "patient": {
+          "reference": "Patient/PMC-eLTSS-patientBSJ1"
+        },
+        "created": "2020-05-01",
+        "provider": {
+          "reference": "Organization/PMC-eLTSS-fundingOrg-ICWP"
+        },
+        "priority": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/processpriority",
+              "code": "normal"
+            }
+          ]
+        },
+        "insurance": [
+          {
+            "sequence": 1,
+            "focal": true,
+            "coverage": {
+              "reference": "Coverage/PMC-eLTSS-coverageICWP"
+            }
+          }
+        ],
+        "item": [
+          {
+            "sequence": 1,
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.6.12",
+                  "code": "97110"
+                }
+              ]
+            },
+            "unitPrice": {
+              "value": 65
+            },
+            "net": {
+              "value": 780
+            }
+          }
+        ],
+        "resourceType": "Claim"
+      }
+    },
+    {
+      "resource": {
+        "id": "PMC-eLTSS-serviceBalance-Initial",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/ServiceRequest-eltss"
+          ]
+        },
+        "status": "active",
+        "intent": "plan",
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.6.12",
+              "code": "97110"
+            }
+          ],
+          "text": "therapeutic exercises to improve balance skills"
+        },
+        "quantityRatio": {
+          "numerator": {
+            "value": 1,
+            "unit": "visit"
+          },
+          "denominator": {
+            "value": 1,
+            "unit": "week"
+          }
+        },
+        "subject": {
+          "reference": "Patient/PMC-eLTSS-patientBSJ1"
+        },
+        "occurrencePeriod": {
+          "start": "2020-05-01",
+          "end": "2020-08-01"
+        },
+        "performer": [
+          {
+            "reference": "Practitioner/PMC-eLTSS-provider-NormaTrainer"
+          }
+        ],
+        "supportingInfo": [
+          {
+            "reference": "Goal/PMC-eLTSS-goalBalance"
+          },
+          {
+            "reference": "Goal/PMC-eLTSS-goalDanceSonWedding"
+          },
+          {
+            "reference": "Claim/PMC-eLTSS-claimTherapy-Initial"
+          }
+        ],
+        "resourceType": "ServiceRequest"
+      }
+    },
+    {
+      "resource": {
+        "id": "PMC-eLTSS-serviceDiabetesEducation-Initial",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/ServiceRequest-eltss"
+          ]
+        },
+        "status": "active",
+        "intent": "plan",
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.6.14",
+              "code": "G0108"
+            }
+          ],
+          "text": "Diabetes outpatient self-management training services, individual, per 30 minutes"
+        },
+        "quantityRatio": {
+          "numerator": {
+            "value": 1,
+            "unit": "visit"
+          },
+          "denominator": {
+            "value": 1,
+            "unit": "week"
+          }
+        },
+        "subject": {
+          "reference": "Patient/PMC-eLTSS-patientBSJ1"
+        },
+        "occurrencePeriod": {
+          "start": "2020-05-01",
+          "end": "2020-08-01"
+        },
+        "performer": [
+          {
+            "reference": "Practitioner/PMC-eLTSS-provider-LisaEducator"
+          }
+        ],
+        "reasonReference": [
+          {
+            "reference": "Condition/PMC-eLTSS-needDiabetesEducation"
+          }
+        ],
+        "supportingInfo": [
+          {
+            "reference": "Claim/PMC-eLTSS-claimDiabetesSelfManagement-Initial"
+          }
+        ],
+        "resourceType": "ServiceRequest"
+      }
+    },
+    {
+      "resource": {
+        "id": "PMC-eLTSS-Careplan-eLTSS-Personal-Initial",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/CarePlan-eltss"
+          ]
+        },
+        "status": "active",
+        "intent": "plan",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/core/CodeSystem/careplan-category",
+                "code": "assess-plan"
+              }
+            ]
+          }
+        ],
+        "title": "Betsy Smith Johnson's Services and Supports Plan for 2020",
+        "description": "A service and support plan that outlines Betsy's assessed needs, goals, strengths, preferences, and services/providers to meet those needs and goals.",
+        "subject": {
+          "reference": "Patient/PMC-eLTSS-patientBSJ1"
+        },
+        "period": {
+          "start": "2020-05-01",
+          "end": "2021-04-30"
+        },
+        "author": {
+          "reference": "Practitioner/PMC-eLTSS-planner-MarkPlanner"
+        },
+        "addresses": [
+          {
+            "reference": "Condition/PMC-eLTSS-needDiabetesEducation"
+          },
+          {
+            "reference": "Condition/PMC-eLTSS-needDepressionTreatment"
+          }
+        ],
+        "supportingInfo": [
+          {
+            "reference": "Observation/PMC-eLTSS-strengthManageBills"
+          },
+          {
+            "reference": "Observation/PMC-eLTSS-strengthWalkWithCane"
+          },
+          {
+            "reference": "Observation/PMC-eLTSS-preferenceICWP"
+          },
+          {
+            "reference": "QuestionnaireResponse/PMC-eLTSS-questionnaireResponseServices-Initial"
+          },
+          {
+            "reference": "Contract/PMC-eLTSS-contractSigned-Initial"
+          },
+          {
+            "reference": "RiskAssessment/PMC-eLTSS-riskFalls"
+          }
+        ],
+        "goal": [
+          {
+            "reference": "Goal/PMC-eLTSS-goalBalance"
+          },
+          {
+            "reference": "Goal/PMC-eLTSS-goalDanceSonWedding"
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "goal": [
+                {
+                  "reference": "Goal/PMC-eLTSS-goalBalance"
+                }
+              ],
+              "status": "not-started",
+              "description": "Perform exercises to improve balance skills"
+            }
+          },
+          {
+            "detail": {
+              "goal": [
+                {
+                  "reference": "Goal/PMC-eLTSS-goalDanceSonWedding"
+                }
+              ],
+              "status": "not-started",
+              "description": "Work on mobility to dance at son's upcoming wedding"
+            }
+          },
+          {
+            "reference": {
+              "reference": "ServiceRequest/PMC-eLTSS-serviceBathRail-Initial"
+            }
+          },
+          {
+            "reference": {
+              "reference": "ServiceRequest/PMC-eLTSS-serviceDiabetesEducation-Initial"
+            }
+          },
+          {
+            "reference": {
+              "reference": "ServiceRequest/PMC-eLTSS-serviceBalance-Initial"
+            }
+          }
+        ],
+        "resourceType": "CarePlan"
+      }
+    },
+    {
+      "resource": {
+        "id": "PMC-eLTSS-questionnaireResponseServices-Initial",
+        "questionnaire": "Questionnaire/PMC-eLTSS-questionnaireServices",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/PMC-eLTSS-patientBSJ1"
+        },
+        "authored": "2020-04-02T03:00:00Z",
+        "item": [
+          {
+            "linkId": "q1",
+            "answer": [
+              {
+                "valueBoolean": true
+              }
+            ]
+          },
+          {
+            "linkId": "q2",
+            "answer": [
+              {
+                "valueString": "Assisted living facility"
+              }
+            ]
+          },
+          {
+            "linkId": "q3",
+            "answer": [
+              {
+                "valueBoolean": true
+              }
+            ]
+          },
+          {
+            "linkId": "q4",
+            "answer": [
+              {
+                "valueBoolean": true
+              }
+            ]
+          },
+          {
+            "linkId": "q5",
+            "answer": [
+              {
+                "valueBoolean": true
+              }
+            ]
+          },
+          {
+            "linkId": "q6",
+            "answer": [
+              {
+                "valueBoolean": true
+              }
+            ]
+          },
+          {
+            "linkId": "q7",
+            "answer": [
+              {
+                "valueBoolean": true
+              }
+            ]
+          }
+        ],
+        "resourceType": "QuestionnaireResponse"
+      }
+    },
+    {
+      "resource": {
+        "id": "PMC-eLTSS-episode-Initial",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/EpisodeOfCare-eltss"
+          ]
+        },
+        "status": "active",
+        "patient": {
+          "reference": "Patient/PMC-eLTSS-patientBSJ1"
+        },
+        "careManager": {
+          "reference": "Practitioner/PMC-eLTSS-caremgr-SamMonitor"
+        },
+        "resourceType": "EpisodeOfCare"
+      }
+    },
+    {
+      "resource": {
+        "id": "PMC-eLTSS-serviceBathRail-Initial",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/ServiceRequest-eltss"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/eLTSS/StructureDefinition/eltss-directedBy",
+            "valueCodeableConcept": {
+              "text": "self"
+            }
+          }
+        ],
+        "status": "active",
+        "intent": "plan",
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.6.14",
+              "code": "E0241"
+            }
+          ],
+          "text": "Bath tub wall rail, each"
+        },
+        "quantityQuantity": {
+          "value": 1,
+          "unit": "install"
+        },
+        "subject": {
+          "reference": "Patient/PMC-eLTSS-patientBSJ1"
+        },
+        "occurrencePeriod": {
+          "start": "2020-05-01",
+          "end": "2020-12-31"
+        },
+        "performer": [
+          {
+            "reference": "RelatedPerson/PMC-eLTSS-son-CharlesJohnson"
+          }
+        ],
+        "locationReference": [
+          {
+            "reference": "Location/PMC-eLTSS-locationHome"
+          }
+        ],
+        "supportingInfo": [
+          {
+            "reference": "RiskAssessment/PMC-eLTSS-riskFalls"
+          }
+        ],
+        "resourceType": "ServiceRequest"
+      }
+    },
+    {
+      "resource": {
+        "id": "PMC-eLTSS-contractSigned-Initial",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Contract-eltss"
+          ]
+        },
+        "signer": [
+          {
+            "type": {
+              "system": "http://terminology.hl7.org/CodeSystem/contractsignertypecodes",
+              "code": "PAT"
+            },
+            "party": {
+              "reference": "Patient/PMC-eLTSS-patientBSJ1"
+            },
+            "signature": [
+              {
+                "type": [
+                  {
+                    "system": "urn:iso-astm:E1762-95:2013",
+                    "code": "1.2.840.10065.1.12.1.7"
+                  }
+                ],
+                "when": "2020-04-02T03:00:00Z",
+                "who": {
+                  "reference": "Patient/PMC-eLTSS-patientBSJ1"
+                },
+                "data": "R0lGODlhIAAgALMAADNmmWNjnGOcnJycnJzOnM7OnP///////////////////////////////////////yH5BAEAAAUALAAAAAAgACAAAARosMhJq704680l6OD0fSFHFmd5pai6vi7FerGYzWAK7HKs8zYVazcUVojH0gyZzFmYvQ4OGtXgUMDn5kqtwlZZLeaKJXOtYbG31lrXdKb0lyySi+l1PE1v5CtpbE0eRISFhod+gYoXEQAAOw=="
+              }
+            ]
+          },
+          {
+            "type": {
+              "system": "http://terminology.hl7.org/CodeSystem/contractsignertypecodes",
+              "code": "GUARD"
+            },
+            "party": {
+              "reference": "RelatedPerson/PMC-eLTSS-guardian-sonCharlesJohnson"
+            },
+            "signature": [
+              {
+                "type": [
+                  {
+                    "system": "urn:iso-astm:E1762-95:2013",
+                    "code": "1.2.840.10065.1.12.1.7"
+                  }
+                ],
+                "when": "2020-04-02T03:00:00Z",
+                "who": {
+                  "reference": "RelatedPerson/PMC-eLTSS-guardian-sonCharlesJohnson"
+                },
+                "data": "R0lGODlhIAAgALMAADNmmWNjnGOcnJycnJzOnM7OnP///////////////////////////////////////yH5BAEAAAUALAAAAAAgACAAAARosMhJq704680l6OD0fSFHFmd5pai6vi7FerGYzWAK7HKs8zYVazcUVojH0gyZzFmYvQ4OGtXgUMDn5kqtwlZZLeaKJXOtYbG31lrXdKb0lyySi+l1PE1v5CtpbE0eRISFhod+gYoXEQAAOw=="
+              }
+            ]
+          },
+          {
+            "type": {
+              "system": "http://terminology.hl7.org/CodeSystem/contractsignertypecodes",
+              "code": "AUT"
+            },
+            "party": {
+              "reference": "Practitioner/PMC-eLTSS-planner-MarkPlanner"
+            },
+            "signature": [
+              {
+                "type": [
+                  {
+                    "system": "urn:iso-astm:E1762-95:2013",
+                    "code": "1.2.840.10065.1.12.1.1"
+                  }
+                ],
+                "when": "2020-04-02T03:00:00Z",
+                "who": {
+                  "reference": "Practitioner/PMC-eLTSS-planner-MarkPlanner"
+                },
+                "data": "R0lGODlhIAAgALMAADNmmWNjnGOcnJycnJzOnM7OnP///////////////////////////////////////yH5BAEAAAUALAAAAAAgACAAAARosMhJq704680l6OD0fSFHFmd5pai6vi7FerGYzWAK7HKs8zYVazcUVojH0gyZzFmYvQ4OGtXgUMDn5kqtwlZZLeaKJXOtYbG31lrXdKb0lyySi+l1PE1v5CtpbE0eRISFhod+gYoXEQAAOw=="
+              }
+            ]
+          },
+          {
+            "type": {
+              "system": "http://terminology.hl7.org/CodeSystem/contractsignertypecodes",
+              "code": "COAUTH"
+            },
+            "party": {
+              "reference": "Practitioner/PMC-eLTSS-caremgr-SamMonitor"
+            },
+            "signature": [
+              {
+                "type": [
+                  {
+                    "system": "urn:iso-astm:E1762-95:2013",
+                    "code": "1.2.840.10065.1.12.1.1"
+                  }
+                ],
+                "when": "2020-04-02T03:00:00Z",
+                "who": {
+                  "reference": "Practitioner/PMC-eLTSS-caremgr-SamMonitor"
+                },
+                "data": "R0lGODlhIAAgALMAADNmmWNjnGOcnJycnJzOnM7OnP///////////////////////////////////////yH5BAEAAAUALAAAAAAgACAAAARosMhJq704680l6OD0fSFHFmd5pai6vi7FerGYzWAK7HKs8zYVazcUVojH0gyZzFmYvQ4OGtXgUMDn5kqtwlZZLeaKJXOtYbG31lrXdKb0lyySi+l1PE1v5CtpbE0eRISFhod+gYoXEQAAOw=="
+              }
+            ]
+          },
+          {
+            "type": {
+              "system": "http://terminology.hl7.org/CodeSystem/contractsignertypecodes",
+              "code": "HPROV"
+            },
+            "party": {
+              "reference": "Practitioner/PMC-eLTSS-provider-LisaEducator"
+            },
+            "signature": [
+              {
+                "type": [
+                  {
+                    "system": "urn:iso-astm:E1762-95:2013",
+                    "code": "1.2.840.10065.1.12.1.7"
+                  }
+                ],
+                "when": "2020-04-02T03:00:00Z",
+                "who": {
+                  "reference": "Practitioner/PMC-eLTSS-provider-LisaEducator"
+                },
+                "data": "R0lGODlhIAAgALMAADNmmWNjnGOcnJycnJzOnM7OnP///////////////////////////////////////yH5BAEAAAUALAAAAAAgACAAAARosMhJq704680l6OD0fSFHFmd5pai6vi7FerGYzWAK7HKs8zYVazcUVojH0gyZzFmYvQ4OGtXgUMDn5kqtwlZZLeaKJXOtYbG31lrXdKb0lyySi+l1PE1v5CtpbE0eRISFhod+gYoXEQAAOw=="
+              }
+            ]
+          },
+          {
+            "type": {
+              "system": "http://terminology.hl7.org/CodeSystem/contractsignertypecodes",
+              "code": "HPROV"
+            },
+            "party": {
+              "reference": "RelatedPerson/PMC-eLTSS-son-CharlesJohnson"
+            },
+            "signature": [
+              {
+                "type": [
+                  {
+                    "system": "urn:iso-astm:E1762-95:2013",
+                    "code": "1.2.840.10065.1.12.1.7"
+                  }
+                ],
+                "when": "2020-04-02T03:00:00Z",
+                "who": {
+                  "reference": "RelatedPerson/PMC-eLTSS-son-CharlesJohnson"
+                },
+                "data": "R0lGODlhIAAgALMAADNmmWNjnGOcnJycnJzOnM7OnP///////////////////////////////////////yH5BAEAAAUALAAAAAAgACAAAARosMhJq704680l6OD0fSFHFmd5pai6vi7FerGYzWAK7HKs8zYVazcUVojH0gyZzFmYvQ4OGtXgUMDn5kqtwlZZLeaKJXOtYbG31lrXdKb0lyySi+l1PE1v5CtpbE0eRISFhod+gYoXEQAAOw=="
+              }
+            ]
+          },
+          {
+            "type": {
+              "system": "http://terminology.hl7.org/CodeSystem/contractsignertypecodes",
+              "code": "HPROV"
+            },
+            "party": {
+              "reference": "Practitioner/PMC-eLTSS-provider-NormaTrainer"
+            },
+            "signature": [
+              {
+                "type": [
+                  {
+                    "system": "urn:iso-astm:E1762-95:2013",
+                    "code": "1.2.840.10065.1.12.1.7"
+                  }
+                ],
+                "when": "2020-04-02T03:00:00Z",
+                "who": {
+                  "reference": "Practitioner/PMC-eLTSS-provider-NormaTrainer"
+                },
+                "data": "R0lGODlhIAAgALMAADNmmWNjnGOcnJycnJzOnM7OnP///////////////////////////////////////yH5BAEAAAUALAAAAAAgACAAAARosMhJq704680l6OD0fSFHFmd5pai6vi7FerGYzWAK7HKs8zYVazcUVojH0gyZzFmYvQ4OGtXgUMDn5kqtwlZZLeaKJXOtYbG31lrXdKb0lyySi+l1PE1v5CtpbE0eRISFhod+gYoXEQAAOw=="
+              }
+            ]
+          }
+        ],
+        "resourceType": "Contract"
+      }
+    }
+  ],
+  "resourceType": "Bundle"
+}

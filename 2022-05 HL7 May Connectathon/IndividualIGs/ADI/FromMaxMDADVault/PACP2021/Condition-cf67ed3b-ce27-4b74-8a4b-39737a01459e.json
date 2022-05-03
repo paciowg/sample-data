@@ -1,0 +1,11 @@
+{
+  "id": "P0522-ADIMMD-2021PACP-Cond-SignificantPain",
+  "code": {
+    "text": "If I am having significant pain or suffering,"
+  },
+  "subject": {
+    "reference": "Patient/P0522-patientBSJ1",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "resourceType": "Condition"
+}

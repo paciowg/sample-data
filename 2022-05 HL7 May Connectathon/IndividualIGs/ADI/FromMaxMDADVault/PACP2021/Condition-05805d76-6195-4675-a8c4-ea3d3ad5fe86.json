@@ -1,0 +1,11 @@
+{
+  "id": "P0522-ADIMMD-2021PACP-Cond-BrainInjury",
+  "code": {
+    "text": "If I have a severe, irreversible brain injury or illness and can’t dress, feed, or bathe myself, or communicate my medical wishes, but doctors can keep me alive in this condition for a long period of time,"
+  },
+  "subject": {
+    "reference": "Patient/P0522-patientBSJ1",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "resourceType": "Condition"
+}

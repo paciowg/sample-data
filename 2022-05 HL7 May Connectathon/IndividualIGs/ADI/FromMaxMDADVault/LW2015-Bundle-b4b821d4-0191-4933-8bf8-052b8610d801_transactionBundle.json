@@ -2,9 +2,9 @@
   "type": "transaction",
   "entry": [
     {
-      "fullUrl": "urn:uuid:4c4100fc-9b22-4f3b-94dd-a68f49b671ed",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-2015LW-DocRef",
       "resource": {
-        "id": "4c4100fc-9b22-4f3b-94dd-a68f49b671ed",
+        "id": "P0522-ADIMMD-2015LW-DocRef",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2022-04-26T16:55:29.000+00:00",
@@ -21,7 +21,7 @@
           },
           {
             "system": "Binary.id",
-            "value": "95f1c7ce-de6b-4410-846c-ee3d151777c9"
+            "value": "P0522-ADIMMD-2015LW-BinaryCDA"
           },
           {
             "system": "ClinicalDocument.setid",
@@ -51,25 +51,25 @@
           }
         ],
         "subject": {
-          "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+          "reference": "Patient/P0522-patientBSJ1",
           "display": "Smith-Johnson, Betsy"
         },
         "date": "2015-11-05T15:52:20.000+00:00",
         "author": [
           {
-            "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+            "reference": "Patient/P0522-patientBSJ1",
             "display": "Smith-Johnson, Betsy"
           },
           {
-            "reference": "Device/5f64aaab-3232-4d26-a847-62c7e15a5cf6",
+            "reference": "Device/P0522-ADIMMD-PortalDevice",
             "display": "ADVault RR Portal"
           }
         ],
         "authenticator": {
-          "reference": "Organization/46e1f46a-f9d1-4c95-9ea5-ca72c3922d6c"
+          "reference": "Organization/P0522-ADIMMD-ADVaultOrg"
         },
         "custodian": {
-          "reference": "Organization/46e1f46a-f9d1-4c95-9ea5-ca72c3922d6c"
+          "reference": "Organization/P0522-ADIMMD-ADVaultOrg"
         },
         "description": "Betsy's Living Will (Texas)",
         "securityLabel": [
@@ -87,7 +87,7 @@
           {
             "attachment": {
               "contentType": "text/xml",
-              "url": "Binary/95f1c7ce-de6b-4410-846c-ee3d151777c9"
+              "url": "Binary/P0522-ADIMMD-2015LW-BinaryCDA"
             },
             "format": {
               "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
@@ -98,7 +98,7 @@
           {
             "attachment": {
               "contentType": "application/json",
-              "url": "Binary/3cc32948-c226-454e-8f27-bd3b52835915"
+              "url": "Binary/P0522-ADIMMD-2015LW-BinaryBundle"
             },
             "format": {
               "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
@@ -108,12 +108,12 @@
           },
           {
             "attachment": {
-              "url": "Composition/c737d88c-10c3-4bad-86e1-a83e013e0dc6"
+              "url": "Composition/P0522-ADIMMD-2015LW-Comp"
             }
           },
           {
             "attachment": {
-              "url": "Bundle/b4b821d4-0191-4933-8bf8-052b8610d801"
+              "url": "Bundle/P0522-ADIMMD-2015LW-Bundle"
             },
             "format": {
               "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
@@ -126,13 +126,13 @@
       },
       "request": {
         "method": "PUT",
-        "url": "DocumentReference/4c4100fc-9b22-4f3b-94dd-a68f49b671ed"
+        "url": "DocumentReference/P0522-ADIMMD-2015LW-DocRef"
       }
     },
     {
-      "fullUrl": "urn:uuid:46e1f46a-f9d1-4c95-9ea5-ca72c3922d6c",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-ADVaultOrg",
       "resource": {
-        "id": "46e1f46a-f9d1-4c95-9ea5-ca72c3922d6c",
+        "id": "P0522-ADIMMD-ADVaultOrg",
         "identifier": [
           {
             "system": "urn:oid:1.3.6.1.4.1.42424242.4.99930.4",
@@ -164,13 +164,13 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Organization/46e1f46a-f9d1-4c95-9ea5-ca72c3922d6c"
+        "url": "Organization/P0522-ADIMMD-ADVaultOrg"
       }
     },
     {
-      "fullUrl": "urn:uuid:5f64aaab-3232-4d26-a847-62c7e15a5cf6",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-PortalDevice",
       "resource": {
-        "id": "5f64aaab-3232-4d26-a847-62c7e15a5cf6",
+        "id": "P0522-ADIMMD-PortalDevice",
         "identifier": [
           {
             "system": "urn:oid:2.16.840.1.113883.4.6",
@@ -184,20 +184,20 @@
           }
         ],
         "owner": {
-          "reference": "Organization/46e1f46a-f9d1-4c95-9ea5-ca72c3922d6c",
+          "reference": "Organization/P0522-ADIMMD-ADVaultOrg",
           "display": "ADVault, Inc."
         },
         "resourceType": "Device"
       },
       "request": {
         "method": "PUT",
-        "url": "Device/5f64aaab-3232-4d26-a847-62c7e15a5cf6"
+        "url": "Device/P0522-ADIMMD-PortalDevice"
       }
     },
     {
-      "fullUrl": "urn:uuid:3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+      "fullUrl": "urn:uuid:P0522-patientBSJ1",
       "resource": {
-        "id": "3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+        "id": "P0522-patientBSJ1",
         "text": {
           "status": "generated",
           "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Betsy <b>SMITH-JOHNSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>87f37989294a408897aacd1fc5d8fd16</td></tr><tr><td>Address</td><td><span>111 Maple Court </span><br/><span>San Antonio </span><span>TX </span><span>US </span></td></tr><tr><td>Date of birth</td><td><span>15 November 1950</span></td></tr></tbody></table></div>"
@@ -253,13 +253,13 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f"
+        "url": "Patient/P0522-patientBSJ1"
       }
     },
     {
-      "fullUrl": "urn:uuid:3cc32948-c226-454e-8f27-bd3b52835915",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-2015LW-BinaryBundle",
       "resource": {
-        "id": "3cc32948-c226-454e-8f27-bd3b52835915",
+        "id": "P0522-ADIMMD-2015LW-BinaryBundle",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2022-04-26T16:55:29.000+00:00",
@@ -271,13 +271,13 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Binary/3cc32948-c226-454e-8f27-bd3b52835915"
+        "url": "Binary/P0522-ADIMMD-2015LW-BinaryBundle"
       }
     },
     {
-      "fullUrl": "urn:uuid:c737d88c-10c3-4bad-86e1-a83e013e0dc6",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-2015LW-Comp",
       "resource": {
-        "id": "c737d88c-10c3-4bad-86e1-a83e013e0dc6",
+        "id": "P0522-ADIMMD-2015LW-Comp",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2022-04-26T16:55:29.000+00:00",
@@ -312,36 +312,36 @@
           }
         ],
         "subject": {
-          "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+          "reference": "Patient/P0522-patientBSJ1",
           "display": "Smith-Johnson, Betsy"
         },
         "date": "2015-11-05T15:52:20+00:00",
         "author": [
           {
-            "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+            "reference": "Patient/P0522-patientBSJ1",
             "display": "Smith-Johnson, Betsy"
           },
           {
-            "reference": "Device/5f64aaab-3232-4d26-a847-62c7e15a5cf6",
+            "reference": "Device/P0522-ADIMMD-PortalDevice",
             "display": "ADVault RR Portal"
           }
         ],
         "title": "Betsy's Living Will (Texas)",
         "confidentiality": "N",
         "custodian": {
-          "reference": "Organization/46e1f46a-f9d1-4c95-9ea5-ca72c3922d6c"
+          "reference": "Organization/P0522-ADIMMD-ADVaultOrg"
         },
         "resourceType": "Composition"
       },
       "request": {
         "method": "PUT",
-        "url": "Composition/c737d88c-10c3-4bad-86e1-a83e013e0dc6"
+        "url": "Composition/P0522-ADIMMD-2015LW-Comp"
       }
     },
     {
-      "fullUrl": "urn:uuid:b4b821d4-0191-4933-8bf8-052b8610d801",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-2015LW-Bundle",
       "resource": {
-        "id": "b4b821d4-0191-4933-8bf8-052b8610d801",
+        "id": "P0522-ADIMMD-2015LW-Bundle",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2022-04-26T16:55:29.000+00:00",
@@ -378,31 +378,31 @@
                 }
               ],
               "subject": {
-                "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+                "reference": "Patient/P0522-patientBSJ1",
                 "display": "Smith-Johnson, Betsy"
               },
               "date": "2015-11-05T15:52:20+00:00",
               "author": [
                 {
-                  "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+                  "reference": "Patient/P0522-patientBSJ1",
                   "display": "Smith-Johnson, Betsy"
                 },
                 {
-                  "reference": "Device/5f64aaab-3232-4d26-a847-62c7e15a5cf6",
+                  "reference": "Device/P0522-ADIMMD-PortalDevice",
                   "display": "ADVault RR Portal"
                 }
               ],
               "title": "Betsy's Living Will (Texas)",
               "confidentiality": "N",
               "custodian": {
-                "reference": "Organization/46e1f46a-f9d1-4c95-9ea5-ca72c3922d6c"
+                "reference": "Organization/P0522-ADIMMD-ADVaultOrg"
               },
               "resourceType": "Composition"
             }
           },
           {
             "resource": {
-              "id": "3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+              "id": "P0522-patientBSJ1",
               "text": {
                 "status": "generated",
                 "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Betsy <b>SMITH-JOHNSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>87f37989294a408897aacd1fc5d8fd16</td></tr><tr><td>Address</td><td><span>111 Maple Court </span><br/><span>San Antonio </span><span>TX </span><span>US </span></td></tr><tr><td>Date of birth</td><td><span>15 November 1950</span></td></tr></tbody></table></div>"
@@ -459,7 +459,7 @@
           },
           {
             "resource": {
-              "id": "46e1f46a-f9d1-4c95-9ea5-ca72c3922d6c",
+              "id": "P0522-ADIMMD-ADVaultOrg",
               "identifier": [
                 {
                   "system": "urn:oid:1.3.6.1.4.1.42424242.4.99930.4",
@@ -492,7 +492,7 @@
           },
           {
             "resource": {
-              "id": "5f64aaab-3232-4d26-a847-62c7e15a5cf6",
+              "id": "P0522-ADIMMD-PortalDevice",
               "identifier": [
                 {
                   "system": "urn:oid:2.16.840.1.113883.4.6",
@@ -506,7 +506,7 @@
                 }
               ],
               "owner": {
-                "reference": "Organization/46e1f46a-f9d1-4c95-9ea5-ca72c3922d6c",
+                "reference": "Organization/P0522-ADIMMD-ADVaultOrg",
                 "display": "ADVault, Inc."
               },
               "resourceType": "Device"
@@ -517,13 +517,13 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Bundle/b4b821d4-0191-4933-8bf8-052b8610d801"
+        "url": "Bundle/P0522-ADIMMD-2015LW-Bundle"
       }
     },
     {
-      "fullUrl": "urn:uuid:95f1c7ce-de6b-4410-846c-ee3d151777c9",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-2015LW-BinaryCDA",
       "resource": {
-        "id": "95f1c7ce-de6b-4410-846c-ee3d151777c9",
+        "id": "P0522-ADIMMD-2015LW-BinaryCDA",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2022-04-26T16:55:01.000+00:00",
@@ -535,7 +535,7 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Binary/95f1c7ce-de6b-4410-846c-ee3d151777c9"
+        "url": "Binary/P0522-ADIMMD-2015LW-BinaryCDA"
       }
     }
   ],

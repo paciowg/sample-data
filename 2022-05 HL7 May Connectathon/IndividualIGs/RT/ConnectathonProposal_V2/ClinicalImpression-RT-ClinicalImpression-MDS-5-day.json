@@ -1,0 +1,35 @@
+{
+	"resourceType": "ClinicalImpression",
+	"id": "RT-ClinicalImpression-MDS-5-day",
+	"status": "completed",
+	"description": "Assessment and Impression at admission to SNF",
+	"subject": {
+		"reference": "Patient/RT-patientBSJ1"
+	},
+	"effectiveDateTime": "2020-01-02",
+	"encounter": {
+      "reference": "Encounter/RT-Encounter-SNF-Stay"
+    },
+	"investigation": [
+		{
+			"code": {
+				"text": "SNF Admission Assessments"
+			},
+			"item": [
+				{
+					"reference": "Observation/RT-SNF-MOB-AP-MDS-5-Day-NC-1A"
+				}
+			]
+		}
+	],
+	"supportingInfo": [
+		{
+			"reference": "Observation/RT-SNF-MOB-AP-MDS-5-Day-NC-1A"
+		},
+		{
+			"reference": "Observation/RT-SNF-MOB-Daily-Walk-10ft-before-ankle-injury"
+		}
+	
+	],
+	"summary": "focus on restoring mobility following stroke"
+}

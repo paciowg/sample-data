@@ -1,0 +1,11 @@
+resource.id,name.given,name.family,identifier.system,identifier.value,telecom.value,gender,address.text
+Practitioner-SummerJohnson,Summer,Johnson,http://hl7.org/fhir/sid/us-npi,9876543210,(210) 555 7632,female,"8100 Pinebrook Dr, San Antonio, TX, 78230"
+Practitioner-JenCadbury,Jen,Cadbury,http://hl7.org/fhir/sid/us-npi,1928374650,(210) 555 1871,female,"8100 Pinebrook Dr, San Antonio, TX, 78230"
+Practitioner-TamaraRodriguez,Tamara,Rodriguez,"","",(210) 555 2089,female,"8810 Old Sky Harbor, San Antonio, TX 78242"
+Practitioner-JohnSmith,John,Smith,http://hl7.org/fhir/sid/us-npi,2345678901,(210) 564 1389,male,"23 Garden Street, San Antonio, TX 78242"
+Practitioner-ScottDumble,Scott,Dumble,"","",(210) 555 1399,male,"8810 Old Sky Harbor, San Antonio, TX 78242"
+Practitioner-DanielGranger,Daniel,Granger,http://hl7.org/fhir/sid/us-npi,1098326745,(210) 555 2071,male,"8100 Pinebrook Dr, San Antonio, TX, 78230"
+Practitioner-LunaBaskins,Luna,Baskins,"","",(210) 555 1871,female,"8810 Old Sky Harbor, San Antonio, TX 78242"
+Practitioner-NoraOlogist,Nora,Ologist,http://hl7.org/fhir/sid/us-npi,3668788925,(210) 555 7632,female,"26022 Meadowlark Bay, San Antonio, TX 78260"
+Practitioner-LiaNguyen,Lia,Nguyen,http://hl7.org/fhir/sid/us-npi,9018273645,(210) 555 7648,female,"8100 Pinebrook Dr, San Antonio, TX, 78230"
+Practitioner-JacobHartwell,Jacob,Hartwell,http://hl7.org/fhir/sid/us-npi,4567123789,(210) 555 1889,male,"8810 Old Sky Harbor, San Antonio, TX 78242"

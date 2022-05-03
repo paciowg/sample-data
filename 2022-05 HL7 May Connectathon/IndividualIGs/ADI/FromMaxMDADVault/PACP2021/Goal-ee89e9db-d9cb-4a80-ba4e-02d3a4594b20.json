@@ -1,0 +1,41 @@
+{
+  "id": "P0522-ADIMMD-2021PACP-Goal-MyReligion",
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>                My religion:            </span>            <span>                If I appear to be approaching the end of my life, here are some things that I would like for my caregivers to know about my faith and my religion.            </span>            <br/>            <span>                Please call Father Mark if my condition warrants the services of a priest.  I would like Father Mark to be contacted about my condition and given permission to visit me and pray for my recovery.  He can work with my church to gather additional prayers for me and my family during a time I am ill.  I will need the support of my church community to ensure my family is supported by those I trust to ask for mercy on my behalf.            </span></div>"
+  },
+  "identifier": [
+    {
+      "value": "62921CAC-CC7C-4734-AC7C-76788B5B2DDC"
+    }
+  ],
+  "lifecycleStatus": "proposed",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "81364-2",
+          "display": "Religious beliefs"
+        }
+      ],
+      "text": "My religion:"
+    },
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-adi/CodeSystem/PADIGoalCategoryCS",
+          "code": "care-experience-preference"
+        }
+      ]
+    }
+  ],
+  "description": {
+    "text": "<span>                My religion:            </span>            <span>                If I appear to be approaching the end of my life, here are some things that I would like for my caregivers to know about my faith and my religion.            </span>            <br></br>            <span>                Please call Father Mark if my condition warrants the services of a priest.  I would like Father Mark to be contacted about my condition and given permission to visit me and pray for my recovery.  He can work with my church to gather additional prayers for me and my family during a time I am ill.  I will need the support of my church community to ensure my family is supported by those I trust to ask for mercy on my behalf.            </span>"
+  },
+  "subject": {
+    "reference": "Patient/P0522-patientBSJ1",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "resourceType": "Goal"
+}

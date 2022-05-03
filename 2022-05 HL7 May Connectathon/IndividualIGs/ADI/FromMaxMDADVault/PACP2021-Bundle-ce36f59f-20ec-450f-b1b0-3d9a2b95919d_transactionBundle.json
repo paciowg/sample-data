@@ -2,9 +2,9 @@
   "type": "transaction",
   "entry": [
     {
-      "fullUrl": "urn:uuid:8ce5331d-8b3f-4f6f-9c0b-0cb64a569cb4",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-2021PACP-DocRef",
       "resource": {
-        "id": "8ce5331d-8b3f-4f6f-9c0b-0cb64a569cb4",
+        "id": "P0522-ADIMMD-2021PACP-DocRef",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2022-04-26T16:56:58.000+00:00",
@@ -21,7 +21,7 @@
           },
           {
             "system": "Binary.id",
-            "value": "87c18a20-b8f9-460f-99ab-4a9c89a996bd"
+            "value": "P0522-ADIMMD-2021PACP-BinaryCDA"
           },
           {
             "system": "ClinicalDocument.setid",
@@ -51,31 +51,31 @@
           }
         ],
         "subject": {
-          "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+          "reference": "Patient/P0522-patientBSJ1",
           "display": "Smith-Johnson, Betsy"
         },
         "date": "2021-12-17T20:29:44.000+00:00",
         "author": [
           {
-            "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+            "reference": "Patient/P0522-patientBSJ1",
             "display": "Smith-Johnson, Betsy"
           },
           {
-            "reference": "Device/5f64aaab-3232-4d26-a847-62c7e15a5cf6",
+            "reference": "Device/P0522-ADIMMD-PortalDevice",
             "display": "ADVault RR Portal"
           }
         ],
         "authenticator": {
-          "reference": "Organization/46e1f46a-f9d1-4c95-9ea5-ca72c3922d6c"
+          "reference": "Organization/P0522-ADIMMD-ADVaultOrg"
         },
         "custodian": {
-          "reference": "Organization/46e1f46a-f9d1-4c95-9ea5-ca72c3922d6c"
+          "reference": "Organization/P0522-ADIMMD-ADVaultOrg"
         },
         "relatesTo": [
           {
             "code": "replaces",
             "target": {
-              "reference": "DocumentReference/612653f1-23bb-4628-8e18-b571aa2020aa"
+              "reference": "DocumentReference/P0522-ADIMMD-2020PACP-DocRef"
             }
           }
         ],
@@ -95,7 +95,7 @@
           {
             "attachment": {
               "contentType": "text/xml",
-              "url": "Binary/87c18a20-b8f9-460f-99ab-4a9c89a996bd"
+              "url": "Binary/P0522-ADIMMD-2021PACP-BinaryCDA"
             },
             "format": {
               "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
@@ -106,7 +106,7 @@
           {
             "attachment": {
               "contentType": "application/json",
-              "url": "Binary/62ee171d-144e-4448-ac69-0129e07c2952"
+              "url": "Binary/P0522-ADIMMD-2021PACP-BinaryBundle"
             },
             "format": {
               "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
@@ -116,12 +116,12 @@
           },
           {
             "attachment": {
-              "url": "Composition/da2272ff-5e3b-40cc-b98f-1d479daaa8c4"
+              "url": "Composition/P0522-ADIMMD-2021PACP-Comp"
             }
           },
           {
             "attachment": {
-              "url": "Bundle/ce36f59f-20ec-450f-b1b0-3d9a2b95919d"
+              "url": "Bundle/P0522-ADIMMD-2021PACP-Bundle"
             },
             "format": {
               "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
@@ -134,15 +134,15 @@
       },
       "request": {
         "method": "PUT",
-        "url": "DocumentReference/8ce5331d-8b3f-4f6f-9c0b-0cb64a569cb4"
+        "url": "DocumentReference/P0522-ADIMMD-2021PACP-DocRef"
       }
     },
     {
-      "fullUrl": "urn:uuid:c5a0f7ac-acf9-4110-9b9d-31653eb0c046",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-2021PACP-RP-HCA-FirstAlt",
       "resource": {
-        "id": "c5a0f7ac-acf9-4110-9b9d-31653eb0c046",
+        "id": "P0522-ADIMMD-2021PACP-RP-HCA-FirstAlt",
         "patient": {
-          "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+          "reference": "Patient/P0522-patientBSJ1",
           "display": "Smith-Johnson, Betsy"
         },
         "relationship": [
@@ -179,31 +179,31 @@
       },
       "request": {
         "method": "PUT",
-        "url": "RelatedPerson/c5a0f7ac-acf9-4110-9b9d-31653eb0c046"
+        "url": "RelatedPerson/P0522-ADIMMD-2021PACP-RP-HCA-FirstAlt"
       }
     },
     {
-      "fullUrl": "urn:uuid:cf67ed3b-ce27-4b74-8a4b-39737a01459e",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-2021PACP-Cond-SignificantPain",
       "resource": {
-        "id": "cf67ed3b-ce27-4b74-8a4b-39737a01459e",
+        "id": "P0522-ADIMMD-2021PACP-Cond-SignificantPain",
         "code": {
           "text": "If I am having significant pain or suffering,"
         },
         "subject": {
-          "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+          "reference": "Patient/P0522-patientBSJ1",
           "display": "Smith-Johnson, Betsy"
         },
         "resourceType": "Condition"
       },
       "request": {
         "method": "PUT",
-        "url": "Condition/cf67ed3b-ce27-4b74-8a4b-39737a01459e"
+        "url": "Condition/P0522-ADIMMD-2021PACP-Cond-SignificantPain"
       }
     },
     {
-      "fullUrl": "urn:uuid:1be66dcd-66da-48e6-a730-70352410b48e",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-2021PACP-Goal-NotABurden",
       "resource": {
-        "id": "1be66dcd-66da-48e6-a730-70352410b48e",
+        "id": "P0522-ADIMMD-2021PACP-Goal-NotABurden",
         "text": {
           "status": "additional",
           "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Not being a physical burden to my family</div>"
@@ -246,20 +246,20 @@
           ]
         },
         "subject": {
-          "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+          "reference": "Patient/P0522-patientBSJ1",
           "display": "Smith-Johnson, Betsy"
         },
         "resourceType": "Goal"
       },
       "request": {
         "method": "PUT",
-        "url": "Goal/1be66dcd-66da-48e6-a730-70352410b48e"
+        "url": "Goal/P0522-ADIMMD-2021PACP-Goal-NotABurden"
       }
     },
     {
-      "fullUrl": "urn:uuid:62ee171d-144e-4448-ac69-0129e07c2952",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-2021PACP-BinaryBundle",
       "resource": {
-        "id": "62ee171d-144e-4448-ac69-0129e07c2952",
+        "id": "P0522-ADIMMD-2021PACP-BinaryBundle",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2022-04-26T16:56:58.000+00:00",
@@ -271,13 +271,13 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Binary/62ee171d-144e-4448-ac69-0129e07c2952"
+        "url": "Binary/P0522-ADIMMD-2021PACP-BinaryBundle"
       }
     },
     {
-      "fullUrl": "urn:uuid:bdf36324-53cc-409d-8aa7-45397b628550",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-2021PACP-Goal-AvoidMachineDependence",
       "resource": {
-        "id": "bdf36324-53cc-409d-8aa7-45397b628550",
+        "id": "P0522-ADIMMD-2021PACP-Goal-AvoidMachineDependence",
         "text": {
           "status": "additional",
           "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Avoiding prolonged dependence on machines</div>"
@@ -320,20 +320,20 @@
           ]
         },
         "subject": {
-          "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+          "reference": "Patient/P0522-patientBSJ1",
           "display": "Smith-Johnson, Betsy"
         },
         "resourceType": "Goal"
       },
       "request": {
         "method": "PUT",
-        "url": "Goal/bdf36324-53cc-409d-8aa7-45397b628550"
+        "url": "Goal/P0522-ADIMMD-2021PACP-Goal-AvoidMachineDependence"
       }
     },
     {
-      "fullUrl": "urn:uuid:49b89d8d-9fd3-4eac-8635-005de32b1ea1",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-2021PACP-Consent-HCA-FirstAlt",
       "resource": {
-        "id": "49b89d8d-9fd3-4eac-8635-005de32b1ea1",
+        "id": "P0522-ADIMMD-2021PACP-Consent-HCA-FirstAlt",
         "status": "active",
         "scope": {
           "coding": [
@@ -356,7 +356,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+          "reference": "Patient/P0522-patientBSJ1",
           "display": "Smith-Johnson, Betsy"
         },
         "provision": {
@@ -372,7 +372,7 @@
                 ]
               },
               "reference": {
-                "reference": "RelatedPerson/c5a0f7ac-acf9-4110-9b9d-31653eb0c046"
+                "reference": "RelatedPerson/P0522-ADIMMD-2021PACP-RP-HCA-FirstAlt"
               }
             }
           ],
@@ -392,15 +392,15 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Consent/49b89d8d-9fd3-4eac-8635-005de32b1ea1"
+        "url": "Consent/P0522-ADIMMD-2021PACP-Consent-HCA-FirstAlt"
       }
     },
     {
-      "fullUrl": "urn:uuid:b1fdfb8f-da3f-484f-b628-a43a92a4ee55",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-2021PACP-RP-HCA-Primary-2",
       "resource": {
-        "id": "b1fdfb8f-da3f-484f-b628-a43a92a4ee55",
+        "id": "P0522-ADIMMD-2021PACP-RP-HCA-Primary-2",
         "patient": {
-          "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+          "reference": "Patient/P0522-patientBSJ1",
           "display": "Smith-Johnson, Betsy"
         },
         "relationship": [
@@ -437,13 +437,13 @@
       },
       "request": {
         "method": "PUT",
-        "url": "RelatedPerson/b1fdfb8f-da3f-484f-b628-a43a92a4ee55"
+        "url": "RelatedPerson/P0522-ADIMMD-2021PACP-RP-HCA-Primary-2"
       }
     },
     {
-      "fullUrl": "urn:uuid:46e1f46a-f9d1-4c95-9ea5-ca72c3922d6c",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-ADVaultOrg",
       "resource": {
-        "id": "46e1f46a-f9d1-4c95-9ea5-ca72c3922d6c",
+        "id": "P0522-ADIMMD-ADVaultOrg",
         "identifier": [
           {
             "system": "urn:oid:1.3.6.1.4.1.42424242.4.99930.4",
@@ -475,13 +475,13 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Organization/46e1f46a-f9d1-4c95-9ea5-ca72c3922d6c"
+        "url": "Organization/P0522-ADIMMD-ADVaultOrg"
       }
     },
     {
-      "fullUrl": "urn:uuid:492e9967-0dda-417c-9d21-7f98b2853bf1",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-2021PACP-Goal-Messages",
       "resource": {
-        "id": "492e9967-0dda-417c-9d21-7f98b2853bf1",
+        "id": "P0522-ADIMMD-2021PACP-Goal-Messages",
         "text": {
           "status": "additional",
           "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>                Messages to people who matter to me:            </span>            <span>                If I cannot communicate with persons around me, I want my healthcare agent, my family, and my friends to know the following:            </span>            <br/>            <span>                Please let me end my life as I lived my life, on my own terms and with my own perspective guiding the way.            </span></div>"
@@ -516,38 +516,38 @@
           "text": "<span>                Messages to people who matter to me:            </span>            <span>                If I cannot communicate with persons around me, I want my healthcare agent, my family, and my friends to know the following:            </span>            <br></br>            <span>                Please let me end my life as I lived my life, on my own terms and with my own perspective guiding the way.            </span>"
         },
         "subject": {
-          "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+          "reference": "Patient/P0522-patientBSJ1",
           "display": "Smith-Johnson, Betsy"
         },
         "resourceType": "Goal"
       },
       "request": {
         "method": "PUT",
-        "url": "Goal/492e9967-0dda-417c-9d21-7f98b2853bf1"
+        "url": "Goal/P0522-ADIMMD-2021PACP-Goal-Messages"
       }
     },
     {
-      "fullUrl": "urn:uuid:05805d76-6195-4675-a8c4-ea3d3ad5fe86",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-2021PACP-Cond-BrainInjury",
       "resource": {
-        "id": "05805d76-6195-4675-a8c4-ea3d3ad5fe86",
+        "id": "P0522-ADIMMD-2021PACP-Cond-BrainInjury",
         "code": {
           "text": "If I have a severe, irreversible brain injury or illness and can’t dress, feed, or bathe myself, or communicate my medical wishes, but doctors can keep me alive in this condition for a long period of time,"
         },
         "subject": {
-          "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+          "reference": "Patient/P0522-patientBSJ1",
           "display": "Smith-Johnson, Betsy"
         },
         "resourceType": "Condition"
       },
       "request": {
         "method": "PUT",
-        "url": "Condition/05805d76-6195-4675-a8c4-ea3d3ad5fe86"
+        "url": "Condition/P0522-ADIMMD-2021PACP-Cond-BrainInjury"
       }
     },
     {
-      "fullUrl": "urn:uuid:d7a6b3b5-77b3-43a0-9249-42186bb6f609",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-2021PACP-Consent-HCA-SecondAlt",
       "resource": {
-        "id": "d7a6b3b5-77b3-43a0-9249-42186bb6f609",
+        "id": "P0522-ADIMMD-2021PACP-Consent-HCA-SecondAlt",
         "status": "active",
         "scope": {
           "coding": [
@@ -570,7 +570,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+          "reference": "Patient/P0522-patientBSJ1",
           "display": "Smith-Johnson, Betsy"
         },
         "provision": {
@@ -586,7 +586,7 @@
                 ]
               },
               "reference": {
-                "reference": "RelatedPerson/1c57d8ff-1eee-463e-806b-1b1043ccc931"
+                "reference": "RelatedPerson/P0522-ADIMMD-2021PACP-RP-HCA-SecondAlt"
               }
             }
           ],
@@ -606,13 +606,13 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Consent/d7a6b3b5-77b3-43a0-9249-42186bb6f609"
+        "url": "Consent/P0522-ADIMMD-2021PACP-Consent-HCA-SecondAlt"
       }
     },
     {
-      "fullUrl": "urn:uuid:8f029dad-3207-4892-b89d-5f6b8733bdc4",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-2021PACP-Goal-DyingAtHome",
       "resource": {
-        "id": "8f029dad-3207-4892-b89d-5f6b8733bdc4",
+        "id": "P0522-ADIMMD-2021PACP-Goal-DyingAtHome",
         "text": {
           "status": "additional",
           "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Dying at home</div>"
@@ -655,20 +655,20 @@
           ]
         },
         "subject": {
-          "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+          "reference": "Patient/P0522-patientBSJ1",
           "display": "Smith-Johnson, Betsy"
         },
         "resourceType": "Goal"
       },
       "request": {
         "method": "PUT",
-        "url": "Goal/8f029dad-3207-4892-b89d-5f6b8733bdc4"
+        "url": "Goal/P0522-ADIMMD-2021PACP-Goal-DyingAtHome"
       }
     },
     {
-      "fullUrl": "urn:uuid:9d74aea9-609a-4c35-bf54-88312cbf9a9c",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-2021PACP-Goal-NotifyReligious",
       "resource": {
-        "id": "9d74aea9-609a-4c35-bf54-88312cbf9a9c",
+        "id": "P0522-ADIMMD-2021PACP-Goal-NotifyReligious",
         "text": {
           "status": "additional",
           "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>                Please attempt to notify someone from my religion at the following phone number:            </span>            <span>                If I have included one            </span>            <br/>            <span>                Catholic            </span></div>"
@@ -703,20 +703,20 @@
           "text": "<span>                Please attempt to notify someone from my religion at the following phone number:            </span>            <span>                If I have included one            </span>            <br></br>            <span>                Catholic            </span>"
         },
         "subject": {
-          "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+          "reference": "Patient/P0522-patientBSJ1",
           "display": "Smith-Johnson, Betsy"
         },
         "resourceType": "Goal"
       },
       "request": {
         "method": "PUT",
-        "url": "Goal/9d74aea9-609a-4c35-bf54-88312cbf9a9c"
+        "url": "Goal/P0522-ADIMMD-2021PACP-Goal-NotifyReligious"
       }
     },
     {
-      "fullUrl": "urn:uuid:ee89e9db-d9cb-4a80-ba4e-02d3a4594b20",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-2021PACP-Goal-MyReligion",
       "resource": {
-        "id": "ee89e9db-d9cb-4a80-ba4e-02d3a4594b20",
+        "id": "P0522-ADIMMD-2021PACP-Goal-MyReligion",
         "text": {
           "status": "additional",
           "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>                My religion:            </span>            <span>                If I appear to be approaching the end of my life, here are some things that I would like for my caregivers to know about my faith and my religion.            </span>            <br/>            <span>                Please call Father Mark if my condition warrants the services of a priest.  I would like Father Mark to be contacted about my condition and given permission to visit me and pray for my recovery.  He can work with my church to gather additional prayers for me and my family during a time I am ill.  I will need the support of my church community to ensure my family is supported by those I trust to ask for mercy on my behalf.            </span></div>"
@@ -751,20 +751,20 @@
           "text": "<span>                My religion:            </span>            <span>                If I appear to be approaching the end of my life, here are some things that I would like for my caregivers to know about my faith and my religion.            </span>            <br></br>            <span>                Please call Father Mark if my condition warrants the services of a priest.  I would like Father Mark to be contacted about my condition and given permission to visit me and pray for my recovery.  He can work with my church to gather additional prayers for me and my family during a time I am ill.  I will need the support of my church community to ensure my family is supported by those I trust to ask for mercy on my behalf.            </span>"
         },
         "subject": {
-          "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+          "reference": "Patient/P0522-patientBSJ1",
           "display": "Smith-Johnson, Betsy"
         },
         "resourceType": "Goal"
       },
       "request": {
         "method": "PUT",
-        "url": "Goal/ee89e9db-d9cb-4a80-ba4e-02d3a4594b20"
+        "url": "Goal/P0522-ADIMMD-2021PACP-Goal-MyReligion"
       }
     },
     {
-      "fullUrl": "urn:uuid:5f64aaab-3232-4d26-a847-62c7e15a5cf6",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-PortalDevice",
       "resource": {
-        "id": "5f64aaab-3232-4d26-a847-62c7e15a5cf6",
+        "id": "P0522-ADIMMD-PortalDevice",
         "identifier": [
           {
             "system": "urn:oid:2.16.840.1.113883.4.6",
@@ -778,22 +778,22 @@
           }
         ],
         "owner": {
-          "reference": "Organization/46e1f46a-f9d1-4c95-9ea5-ca72c3922d6c",
+          "reference": "Organization/P0522-ADIMMD-ADVaultOrg",
           "display": "ADVault, Inc."
         },
         "resourceType": "Device"
       },
       "request": {
         "method": "PUT",
-        "url": "Device/5f64aaab-3232-4d26-a847-62c7e15a5cf6"
+        "url": "Device/P0522-ADIMMD-PortalDevice"
       }
     },
     {
-      "fullUrl": "urn:uuid:3b9d2463-35c5-49c4-83d2-bfb0cb44c119",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-2021PACP-RP-HCA-Primary-1",
       "resource": {
-        "id": "3b9d2463-35c5-49c4-83d2-bfb0cb44c119",
+        "id": "P0522-ADIMMD-2021PACP-RP-HCA-Primary-1",
         "patient": {
-          "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+          "reference": "Patient/P0522-patientBSJ1",
           "display": "Smith-Johnson, Betsy"
         },
         "relationship": [
@@ -830,13 +830,13 @@
       },
       "request": {
         "method": "PUT",
-        "url": "RelatedPerson/3b9d2463-35c5-49c4-83d2-bfb0cb44c119"
+        "url": "RelatedPerson/P0522-ADIMMD-2021PACP-RP-HCA-Primary-1"
       }
     },
     {
-      "fullUrl": "urn:uuid:025ddd82-4d53-4cf2-a44a-c103b9690f72",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-2021PACP-Goal-HowToCareForMe",
       "resource": {
-        "id": "025ddd82-4d53-4cf2-a44a-c103b9690f72",
+        "id": "P0522-ADIMMD-2021PACP-Goal-HowToCareForMe",
         "text": {
           "status": "additional",
           "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>                How to care for me:            </span>            <span>                If I become incapacitated and cannot express myself, here is what I would like to tell my healthcare agent, family and friends about how I would like for them to care for me:            </span>            <br/>            <span>                I want photos of my family where I can see them.            </span></div>"
@@ -871,20 +871,20 @@
           "text": "<span>                How to care for me:            </span>            <span>                If I become incapacitated and cannot express myself, here is what I would like to tell my healthcare agent, family and friends about how I would like for them to care for me:            </span>            <br></br>            <span>                I want photos of my family where I can see them.            </span>"
         },
         "subject": {
-          "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+          "reference": "Patient/P0522-patientBSJ1",
           "display": "Smith-Johnson, Betsy"
         },
         "resourceType": "Goal"
       },
       "request": {
         "method": "PUT",
-        "url": "Goal/025ddd82-4d53-4cf2-a44a-c103b9690f72"
+        "url": "Goal/P0522-ADIMMD-2021PACP-Goal-HowToCareForMe"
       }
     },
     {
-      "fullUrl": "urn:uuid:9940ee98-603b-417b-b220-8513c1d2cb72",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-2021PACP-Goal-UnfinishedBusiness",
       "resource": {
-        "id": "9940ee98-603b-417b-b220-8513c1d2cb72",
+        "id": "P0522-ADIMMD-2021PACP-Goal-UnfinishedBusiness",
         "text": {
           "status": "additional",
           "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>                My unfinished business:            </span>            <span>                If it appears that I am approaching the end of my life, and I cannot communicate with persons around me, I would want my doctors and nurses, my family, and my friends to know about some unfinished business that I need to address:            </span>            <br/>            <span>                I want my sister and I to talk again, and miss her.  I wish we hadn't disagreed all those years ago and regret the time it has cost us.  I'd like to see her face if I were very ill and needed the comfort of family at my side.            </span></div>"
@@ -919,20 +919,20 @@
           "text": "<span>                My unfinished business:            </span>            <span>                If it appears that I am approaching the end of my life, and I cannot communicate with persons around me, I would want my doctors and nurses, my family, and my friends to know about some unfinished business that I need to address:            </span>            <br></br>            <span>                I want my sister and I to talk again, and miss her.  I wish we hadn't disagreed all those years ago and regret the time it has cost us.  I'd like to see her face if I were very ill and needed the comfort of family at my side.            </span>"
         },
         "subject": {
-          "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+          "reference": "Patient/P0522-patientBSJ1",
           "display": "Smith-Johnson, Betsy"
         },
         "resourceType": "Goal"
       },
       "request": {
         "method": "PUT",
-        "url": "Goal/9940ee98-603b-417b-b220-8513c1d2cb72"
+        "url": "Goal/P0522-ADIMMD-2021PACP-Goal-UnfinishedBusiness"
       }
     },
     {
-      "fullUrl": "urn:uuid:cd662066-57d7-4151-bd87-1cff95f1cd82",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-2021PACP-Consent-HCA-Primary-2",
       "resource": {
-        "id": "cd662066-57d7-4151-bd87-1cff95f1cd82",
+        "id": "P0522-ADIMMD-2021PACP-Consent-HCA-Primary-2",
         "status": "active",
         "scope": {
           "coding": [
@@ -955,7 +955,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+          "reference": "Patient/P0522-patientBSJ1",
           "display": "Smith-Johnson, Betsy"
         },
         "provision": {
@@ -971,7 +971,7 @@
                 ]
               },
               "reference": {
-                "reference": "RelatedPerson/b1fdfb8f-da3f-484f-b628-a43a92a4ee55"
+                "reference": "RelatedPerson/P0522-ADIMMD-2021PACP-RP-HCA-Primary-2"
               }
             }
           ],
@@ -991,13 +991,13 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Consent/cd662066-57d7-4151-bd87-1cff95f1cd82"
+        "url": "Consent/P0522-ADIMMD-2021PACP-Consent-HCA-Primary-2"
       }
     },
     {
-      "fullUrl": "urn:uuid:f2e92636-e048-4c35-afc3-c4a977eb6b61",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-2021PACP-Goal-LikesJoys",
       "resource": {
-        "id": "f2e92636-e048-4c35-afc3-c4a977eb6b61",
+        "id": "P0522-ADIMMD-2021PACP-Goal-LikesJoys",
         "text": {
           "status": "additional",
           "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>                My likes / joys:            </span>            <span>                Here are some examples of the things that I would like to have near me, music that I’d like to hear, and other details of my care that would help to keep me happy and relaxed:            </span>            <br/>            <span>                I love the smell of lavender and the feeling of sunshine on my face.  I want my grandchildren to be allowed to visit me, either in person or virtually, if I am not feeling well because they bring me great joy and are the little loves of my life.            </span></div>"
@@ -1032,20 +1032,20 @@
           "text": "<span>                My likes / joys:            </span>            <span>                Here are some examples of the things that I would like to have near me, music that I’d like to hear, and other details of my care that would help to keep me happy and relaxed:            </span>            <br></br>            <span>                I love the smell of lavender and the feeling of sunshine on my face.  I want my grandchildren to be allowed to visit me, either in person or virtually, if I am not feeling well because they bring me great joy and are the little loves of my life.            </span>"
         },
         "subject": {
-          "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+          "reference": "Patient/P0522-patientBSJ1",
           "display": "Smith-Johnson, Betsy"
         },
         "resourceType": "Goal"
       },
       "request": {
         "method": "PUT",
-        "url": "Goal/f2e92636-e048-4c35-afc3-c4a977eb6b61"
+        "url": "Goal/P0522-ADIMMD-2021PACP-Goal-LikesJoys"
       }
     },
     {
-      "fullUrl": "urn:uuid:cfd9768a-b1e3-47c3-8217-6157f83a5986",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-2021PACP-Obs-OrganDonation",
       "resource": {
-        "id": "cfd9768a-b1e3-47c3-8217-6157f83a5986",
+        "id": "P0522-ADIMMD-2021PACP-Obs-OrganDonation",
         "text": {
           "status": "additional",
           "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>Consent to Donate</span><br/>            <span>I consent to donate all organs and tissues.                                                                                            </span></div>"
@@ -1066,7 +1066,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+          "reference": "Patient/P0522-patientBSJ1",
           "display": "Smith-Johnson, Betsy"
         },
         "valueString": "I consent to donate all organs and tissues.",
@@ -1074,13 +1074,13 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Observation/cfd9768a-b1e3-47c3-8217-6157f83a5986"
+        "url": "Observation/P0522-ADIMMD-2021PACP-Obs-OrganDonation"
       }
     },
     {
-      "fullUrl": "urn:uuid:b803be54-9cf3-4a22-893d-b7b4a4975ec6",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-2021PACP-Consent-HCA-Primary-1",
       "resource": {
-        "id": "b803be54-9cf3-4a22-893d-b7b4a4975ec6",
+        "id": "P0522-ADIMMD-2021PACP-Consent-HCA-Primary-1",
         "status": "active",
         "scope": {
           "coding": [
@@ -1103,7 +1103,7 @@
           }
         ],
         "patient": {
-          "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+          "reference": "Patient/P0522-patientBSJ1",
           "display": "Smith-Johnson, Betsy"
         },
         "provision": {
@@ -1119,7 +1119,7 @@
                 ]
               },
               "reference": {
-                "reference": "RelatedPerson/3b9d2463-35c5-49c4-83d2-bfb0cb44c119"
+                "reference": "RelatedPerson/P0522-ADIMMD-2021PACP-RP-HCA-Primary-1"
               }
             }
           ],
@@ -1139,13 +1139,13 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Consent/b803be54-9cf3-4a22-893d-b7b4a4975ec6"
+        "url": "Consent/P0522-ADIMMD-2021PACP-Consent-HCA-Primary-1"
       }
     },
     {
-      "fullUrl": "urn:uuid:3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+      "fullUrl": "urn:uuid:P0522-patientBSJ1",
       "resource": {
-        "id": "3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+        "id": "P0522-patientBSJ1",
         "text": {
           "status": "generated",
           "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Betsy <b>SMITH-JOHNSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>87f37989294a408897aacd1fc5d8fd16</td></tr><tr><td>Address</td><td><span>111 Maple Court </span><br/><span>San Antonio </span><span>TX </span><span>US </span></td></tr><tr><td>Date of birth</td><td><span>15 November 1950</span></td></tr></tbody></table></div>"
@@ -1201,13 +1201,13 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f"
+        "url": "Patient/P0522-patientBSJ1"
       }
     },
     {
-      "fullUrl": "urn:uuid:87c18a20-b8f9-460f-99ab-4a9c89a996bd",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-2021PACP-BinaryCDA",
       "resource": {
-        "id": "87c18a20-b8f9-460f-99ab-4a9c89a996bd",
+        "id": "P0522-ADIMMD-2021PACP-BinaryCDA",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2022-04-26T16:56:49.000+00:00",
@@ -1219,13 +1219,13 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Binary/87c18a20-b8f9-460f-99ab-4a9c89a996bd"
+        "url": "Binary/P0522-ADIMMD-2021PACP-BinaryCDA"
       }
     },
     {
-      "fullUrl": "urn:uuid:0bff5658-a5d1-4d35-aa5c-ab2de5951bca",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-2021PACP-CarePlan",
       "resource": {
-        "id": "0bff5658-a5d1-4d35-aa5c-ab2de5951bca",
+        "id": "P0522-ADIMMD-2021PACP-CarePlan",
         "status": "active",
         "intent": "proposal",
         "category": [
@@ -1240,63 +1240,63 @@
           }
         ],
         "subject": {
-          "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+          "reference": "Patient/P0522-patientBSJ1",
           "display": "Smith-Johnson, Betsy"
         },
         "addresses": [
           {
-            "reference": "Condition/d2acc2b0-d26f-4c70-ae53-f5569816f936"
+            "reference": "Condition/P0522-ADIMMD-2021PACP-Cond-LossOfExpression"
           },
           {
-            "reference": "Condition/cf67ed3b-ce27-4b74-8a4b-39737a01459e"
+            "reference": "Condition/P0522-ADIMMD-2021PACP-Cond-SignificantPain"
           },
           {
-            "reference": "Condition/74192d9a-0023-4256-ada5-616c4eb62123"
+            "reference": "Condition/P0522-ADIMMD-2021PACP-Cond-NoMeaningfulInteraction"
           },
           {
-            "reference": "Condition/05805d76-6195-4675-a8c4-ea3d3ad5fe86"
+            "reference": "Condition/P0522-ADIMMD-2021PACP-Cond-BrainInjury"
           }
         ],
         "goal": [
           {
-            "reference": "Goal/bdf36324-53cc-409d-8aa7-45397b628550"
+            "reference": "Goal/P0522-ADIMMD-2021PACP-Goal-AvoidMachineDependence"
           },
           {
-            "reference": "Goal/1be66dcd-66da-48e6-a730-70352410b48e"
+            "reference": "Goal/P0522-ADIMMD-2021PACP-Goal-NotABurden"
           },
           {
-            "reference": "Goal/8f029dad-3207-4892-b89d-5f6b8733bdc4"
+            "reference": "Goal/P0522-ADIMMD-2021PACP-Goal-DyingAtHome"
           }
         ],
         "resourceType": "CarePlan"
       },
       "request": {
         "method": "PUT",
-        "url": "CarePlan/0bff5658-a5d1-4d35-aa5c-ab2de5951bca"
+        "url": "CarePlan/P0522-ADIMMD-2021PACP-CarePlan"
       }
     },
     {
-      "fullUrl": "urn:uuid:74192d9a-0023-4256-ada5-616c4eb62123",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-2021PACP-Cond-NoMeaningfulInteraction",
       "resource": {
-        "id": "74192d9a-0023-4256-ada5-616c4eb62123",
+        "id": "P0522-ADIMMD-2021PACP-Cond-NoMeaningfulInteraction",
         "code": {
           "text": "If my health ever deteriorates due to a terminal illness, and my doctors believe I will not be able to interact meaningfully with my family, friends, or surroundings,"
         },
         "subject": {
-          "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+          "reference": "Patient/P0522-patientBSJ1",
           "display": "Smith-Johnson, Betsy"
         },
         "resourceType": "Condition"
       },
       "request": {
         "method": "PUT",
-        "url": "Condition/74192d9a-0023-4256-ada5-616c4eb62123"
+        "url": "Condition/P0522-ADIMMD-2021PACP-Cond-NoMeaningfulInteraction"
       }
     },
     {
-      "fullUrl": "urn:uuid:c9eb6654-9394-455a-a6a0-1db7cf5c6677",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-2021PACP-Goal-Laughter",
       "resource": {
-        "id": "c9eb6654-9394-455a-a6a0-1db7cf5c6677",
+        "id": "P0522-ADIMMD-2021PACP-Goal-Laughter",
         "text": {
           "status": "additional",
           "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>                Laughter:            </span>            <span>                These are some of my fondest memories from life that have always brought a smile to my face or made me laugh:            </span>            <br/>            <span>                My dogs make me laugh when they play together, and my grandchildren make me laugh when they put on plays for me.  They bring me great joy.            </span></div>"
@@ -1331,20 +1331,20 @@
           "text": "<span>                Laughter:            </span>            <span>                These are some of my fondest memories from life that have always brought a smile to my face or made me laugh:            </span>            <br></br>            <span>                My dogs make me laugh when they play together, and my grandchildren make me laugh when they put on plays for me.  They bring me great joy.            </span>"
         },
         "subject": {
-          "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+          "reference": "Patient/P0522-patientBSJ1",
           "display": "Smith-Johnson, Betsy"
         },
         "resourceType": "Goal"
       },
       "request": {
         "method": "PUT",
-        "url": "Goal/c9eb6654-9394-455a-a6a0-1db7cf5c6677"
+        "url": "Goal/P0522-ADIMMD-2021PACP-Goal-Laughter"
       }
     },
     {
-      "fullUrl": "urn:uuid:ce36f59f-20ec-450f-b1b0-3d9a2b95919d",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-2021PACP-Bundle",
       "resource": {
-        "id": "ce36f59f-20ec-450f-b1b0-3d9a2b95919d",
+        "id": "P0522-ADIMMD-2021PACP-Bundle",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2022-04-26T16:56:58.000+00:00",
@@ -1354,7 +1354,7 @@
         "entry": [
           {
             "resource": {
-              "id": "da2272ff-5e3b-40cc-b98f-1d479daaa8c4",
+              "id": "P0522-ADIMMD-2021PACP-Comp",
               "identifier": {
                 "system": "urn:oid:2.16.840.1.113883.3.3208.101.4.8.2",
                 "value": "20130607100315-CCDA-CCD-802"
@@ -1381,24 +1381,24 @@
                 }
               ],
               "subject": {
-                "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+                "reference": "Patient/P0522-patientBSJ1",
                 "display": "Smith-Johnson, Betsy"
               },
               "date": "2021-12-17T20:29:44+00:00",
               "author": [
                 {
-                  "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+                  "reference": "Patient/P0522-patientBSJ1",
                   "display": "Smith-Johnson, Betsy"
                 },
                 {
-                  "reference": "Device/5f64aaab-3232-4d26-a847-62c7e15a5cf6",
+                  "reference": "Device/P0522-ADIMMD-PortalDevice",
                   "display": "ADVault RR Portal"
                 }
               ],
               "title": "Personal Advance Care Plan Document (Version 2)",
               "confidentiality": "N",
               "custodian": {
-                "reference": "Organization/46e1f46a-f9d1-4c95-9ea5-ca72c3922d6c"
+                "reference": "Organization/P0522-ADIMMD-ADVaultOrg"
               },
               "section": [
                 {
@@ -1456,31 +1456,31 @@
                   },
                   "entry": [
                     {
-                      "reference": "Goal/f2e92636-e048-4c35-afc3-c4a977eb6b61"
+                      "reference": "Goal/P0522-ADIMMD-2021PACP-Goal-LikesJoys"
                     },
                     {
-                      "reference": "Goal/8aecc4bf-0fd1-414a-8b92-8d13d563efaa"
+                      "reference": "Goal/P0522-ADIMMD-2021PACP-Goal-Avoid"
                     },
                     {
-                      "reference": "Goal/025ddd82-4d53-4cf2-a44a-c103b9690f72"
+                      "reference": "Goal/P0522-ADIMMD-2021PACP-Goal-HowToCareForMe"
                     },
                     {
-                      "reference": "Goal/ee89e9db-d9cb-4a80-ba4e-02d3a4594b20"
+                      "reference": "Goal/P0522-ADIMMD-2021PACP-Goal-MyReligion"
                     },
                     {
-                      "reference": "Goal/9d74aea9-609a-4c35-bf54-88312cbf9a9c"
+                      "reference": "Goal/P0522-ADIMMD-2021PACP-Goal-NotifyReligious"
                     },
                     {
-                      "reference": "Goal/9940ee98-603b-417b-b220-8513c1d2cb72"
+                      "reference": "Goal/P0522-ADIMMD-2021PACP-Goal-UnfinishedBusiness"
                     },
                     {
-                      "reference": "Goal/c9eb6654-9394-455a-a6a0-1db7cf5c6677"
+                      "reference": "Goal/P0522-ADIMMD-2021PACP-Goal-Laughter"
                     },
                     {
-                      "reference": "Goal/492e9967-0dda-417c-9d21-7f98b2853bf1"
+                      "reference": "Goal/P0522-ADIMMD-2021PACP-Goal-Messages"
                     },
                     {
-                      "reference": "Goal/5a4ee011-51aa-4fd3-ac58-be83b95fd1ac"
+                      "reference": "Goal/P0522-ADIMMD-2021PACP-Goal-NeedToKnow"
                     }
                   ]
                 },
@@ -1512,7 +1512,7 @@
                   },
                   "entry": [
                     {
-                      "reference": "CarePlan/0bff5658-a5d1-4d35-aa5c-ab2de5951bca"
+                      "reference": "CarePlan/P0522-ADIMMD-2021PACP-CarePlan"
                     }
                   ]
                 },
@@ -1544,13 +1544,13 @@
                   },
                   "entry": [
                     {
-                      "reference": "Observation/cfd9768a-b1e3-47c3-8217-6157f83a5986"
+                      "reference": "Observation/P0522-ADIMMD-2021PACP-Obs-OrganDonation"
                     },
                     {
-                      "reference": "Goal/a94ec9ff-2c6b-4c37-b29d-43e46d46a921"
+                      "reference": "Goal/P0522-ADIMMD-2021PACP-Goal-Autopsy"
                     },
                     {
-                      "reference": "Goal/551b1dc7-2051-475d-9f21-085d7eda9b6a"
+                      "reference": "Goal/P0522-ADIMMD-2021PACP-Goal-FuneralPlans"
                     }
                   ]
                 },
@@ -1582,28 +1582,28 @@
                   },
                   "entry": [
                     {
-                      "reference": "RelatedPerson/b1fdfb8f-da3f-484f-b628-a43a92a4ee55"
+                      "reference": "RelatedPerson/P0522-ADIMMD-2021PACP-RP-HCA-Primary-2"
                     },
                     {
-                      "reference": "Consent/cd662066-57d7-4151-bd87-1cff95f1cd82"
+                      "reference": "Consent/P0522-ADIMMD-2021PACP-Consent-HCA-Primary-2"
                     },
                     {
-                      "reference": "RelatedPerson/3b9d2463-35c5-49c4-83d2-bfb0cb44c119"
+                      "reference": "RelatedPerson/P0522-ADIMMD-2021PACP-RP-HCA-Primary-1"
                     },
                     {
-                      "reference": "Consent/b803be54-9cf3-4a22-893d-b7b4a4975ec6"
+                      "reference": "Consent/P0522-ADIMMD-2021PACP-Consent-HCA-Primary-1"
                     },
                     {
-                      "reference": "RelatedPerson/c5a0f7ac-acf9-4110-9b9d-31653eb0c046"
+                      "reference": "RelatedPerson/P0522-ADIMMD-2021PACP-RP-HCA-FirstAlt"
                     },
                     {
-                      "reference": "Consent/49b89d8d-9fd3-4eac-8635-005de32b1ea1"
+                      "reference": "Consent/P0522-ADIMMD-2021PACP-Consent-HCA-FirstAlt"
                     },
                     {
-                      "reference": "RelatedPerson/1c57d8ff-1eee-463e-806b-1b1043ccc931"
+                      "reference": "RelatedPerson/P0522-ADIMMD-2021PACP-RP-HCA-SecondAlt"
                     },
                     {
-                      "reference": "Consent/d7a6b3b5-77b3-43a0-9249-42186bb6f609"
+                      "reference": "Consent/P0522-ADIMMD-2021PACP-Consent-HCA-SecondAlt"
                     }
                   ]
                 }
@@ -1613,7 +1613,7 @@
           },
           {
             "resource": {
-              "id": "3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+              "id": "P0522-patientBSJ1",
               "text": {
                 "status": "generated",
                 "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Betsy <b>SMITH-JOHNSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>87f37989294a408897aacd1fc5d8fd16</td></tr><tr><td>Address</td><td><span>111 Maple Court </span><br/><span>San Antonio </span><span>TX </span><span>US </span></td></tr><tr><td>Date of birth</td><td><span>15 November 1950</span></td></tr></tbody></table></div>"
@@ -1670,7 +1670,7 @@
           },
           {
             "resource": {
-              "id": "46e1f46a-f9d1-4c95-9ea5-ca72c3922d6c",
+              "id": "P0522-ADIMMD-ADVaultOrg",
               "identifier": [
                 {
                   "system": "urn:oid:1.3.6.1.4.1.42424242.4.99930.4",
@@ -1703,7 +1703,7 @@
           },
           {
             "resource": {
-              "id": "5f64aaab-3232-4d26-a847-62c7e15a5cf6",
+              "id": "P0522-ADIMMD-PortalDevice",
               "identifier": [
                 {
                   "system": "urn:oid:2.16.840.1.113883.4.6",
@@ -1717,7 +1717,7 @@
                 }
               ],
               "owner": {
-                "reference": "Organization/46e1f46a-f9d1-4c95-9ea5-ca72c3922d6c",
+                "reference": "Organization/P0522-ADIMMD-ADVaultOrg",
                 "display": "ADVault, Inc."
               },
               "resourceType": "Device"
@@ -1725,7 +1725,7 @@
           },
           {
             "resource": {
-              "id": "f2e92636-e048-4c35-afc3-c4a977eb6b61",
+              "id": "P0522-ADIMMD-2021PACP-Goal-LikesJoys",
               "text": {
                 "status": "additional",
                 "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>                My likes / joys:            </span>            <span>                Here are some examples of the things that I would like to have near me, music that I’d like to hear, and other details of my care that would help to keep me happy and relaxed:            </span>            <br/>            <span>                I love the smell of lavender and the feeling of sunshine on my face.  I want my grandchildren to be allowed to visit me, either in person or virtually, if I am not feeling well because they bring me great joy and are the little loves of my life.            </span></div>"
@@ -1760,7 +1760,7 @@
                 "text": "<span>                My likes / joys:            </span>            <span>                Here are some examples of the things that I would like to have near me, music that I’d like to hear, and other details of my care that would help to keep me happy and relaxed:            </span>            <br></br>            <span>                I love the smell of lavender and the feeling of sunshine on my face.  I want my grandchildren to be allowed to visit me, either in person or virtually, if I am not feeling well because they bring me great joy and are the little loves of my life.            </span>"
               },
               "subject": {
-                "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+                "reference": "Patient/P0522-patientBSJ1",
                 "display": "Smith-Johnson, Betsy"
               },
               "resourceType": "Goal"
@@ -1768,7 +1768,7 @@
           },
           {
             "resource": {
-              "id": "8aecc4bf-0fd1-414a-8b92-8d13d563efaa",
+              "id": "P0522-ADIMMD-2021PACP-Goal-Avoid",
               "text": {
                 "status": "additional",
                 "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>                My dislikes / fears:            </span>            <span>                Here is a list of things that I would like to avoid if at all possible, people that I don’t wish to see, and concerns I have about particular family members, pets, and so on:            </span>            <br/>            <span>                I do not like my feet to be cold.            </span></div>"
@@ -1803,7 +1803,7 @@
                 "text": "<span>                My dislikes / fears:            </span>            <span>                Here is a list of things that I would like to avoid if at all possible, people that I don’t wish to see, and concerns I have about particular family members, pets, and so on:            </span>            <br></br>            <span>                I do not like my feet to be cold.            </span>"
               },
               "subject": {
-                "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+                "reference": "Patient/P0522-patientBSJ1",
                 "display": "Smith-Johnson, Betsy"
               },
               "resourceType": "Goal"
@@ -1811,7 +1811,7 @@
           },
           {
             "resource": {
-              "id": "025ddd82-4d53-4cf2-a44a-c103b9690f72",
+              "id": "P0522-ADIMMD-2021PACP-Goal-HowToCareForMe",
               "text": {
                 "status": "additional",
                 "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>                How to care for me:            </span>            <span>                If I become incapacitated and cannot express myself, here is what I would like to tell my healthcare agent, family and friends about how I would like for them to care for me:            </span>            <br/>            <span>                I want photos of my family where I can see them.            </span></div>"
@@ -1846,7 +1846,7 @@
                 "text": "<span>                How to care for me:            </span>            <span>                If I become incapacitated and cannot express myself, here is what I would like to tell my healthcare agent, family and friends about how I would like for them to care for me:            </span>            <br></br>            <span>                I want photos of my family where I can see them.            </span>"
               },
               "subject": {
-                "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+                "reference": "Patient/P0522-patientBSJ1",
                 "display": "Smith-Johnson, Betsy"
               },
               "resourceType": "Goal"
@@ -1854,7 +1854,7 @@
           },
           {
             "resource": {
-              "id": "ee89e9db-d9cb-4a80-ba4e-02d3a4594b20",
+              "id": "P0522-ADIMMD-2021PACP-Goal-MyReligion",
               "text": {
                 "status": "additional",
                 "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>                My religion:            </span>            <span>                If I appear to be approaching the end of my life, here are some things that I would like for my caregivers to know about my faith and my religion.            </span>            <br/>            <span>                Please call Father Mark if my condition warrants the services of a priest.  I would like Father Mark to be contacted about my condition and given permission to visit me and pray for my recovery.  He can work with my church to gather additional prayers for me and my family during a time I am ill.  I will need the support of my church community to ensure my family is supported by those I trust to ask for mercy on my behalf.            </span></div>"
@@ -1889,7 +1889,7 @@
                 "text": "<span>                My religion:            </span>            <span>                If I appear to be approaching the end of my life, here are some things that I would like for my caregivers to know about my faith and my religion.            </span>            <br></br>            <span>                Please call Father Mark if my condition warrants the services of a priest.  I would like Father Mark to be contacted about my condition and given permission to visit me and pray for my recovery.  He can work with my church to gather additional prayers for me and my family during a time I am ill.  I will need the support of my church community to ensure my family is supported by those I trust to ask for mercy on my behalf.            </span>"
               },
               "subject": {
-                "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+                "reference": "Patient/P0522-patientBSJ1",
                 "display": "Smith-Johnson, Betsy"
               },
               "resourceType": "Goal"
@@ -1897,7 +1897,7 @@
           },
           {
             "resource": {
-              "id": "9d74aea9-609a-4c35-bf54-88312cbf9a9c",
+              "id": "P0522-ADIMMD-2021PACP-Goal-NotifyReligious",
               "text": {
                 "status": "additional",
                 "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>                Please attempt to notify someone from my religion at the following phone number:            </span>            <span>                If I have included one            </span>            <br/>            <span>                Catholic            </span></div>"
@@ -1932,7 +1932,7 @@
                 "text": "<span>                Please attempt to notify someone from my religion at the following phone number:            </span>            <span>                If I have included one            </span>            <br></br>            <span>                Catholic            </span>"
               },
               "subject": {
-                "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+                "reference": "Patient/P0522-patientBSJ1",
                 "display": "Smith-Johnson, Betsy"
               },
               "resourceType": "Goal"
@@ -1940,7 +1940,7 @@
           },
           {
             "resource": {
-              "id": "9940ee98-603b-417b-b220-8513c1d2cb72",
+              "id": "P0522-ADIMMD-2021PACP-Goal-UnfinishedBusiness",
               "text": {
                 "status": "additional",
                 "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>                My unfinished business:            </span>            <span>                If it appears that I am approaching the end of my life, and I cannot communicate with persons around me, I would want my doctors and nurses, my family, and my friends to know about some unfinished business that I need to address:            </span>            <br/>            <span>                I want my sister and I to talk again, and miss her.  I wish we hadn't disagreed all those years ago and regret the time it has cost us.  I'd like to see her face if I were very ill and needed the comfort of family at my side.            </span></div>"
@@ -1975,7 +1975,7 @@
                 "text": "<span>                My unfinished business:            </span>            <span>                If it appears that I am approaching the end of my life, and I cannot communicate with persons around me, I would want my doctors and nurses, my family, and my friends to know about some unfinished business that I need to address:            </span>            <br></br>            <span>                I want my sister and I to talk again, and miss her.  I wish we hadn't disagreed all those years ago and regret the time it has cost us.  I'd like to see her face if I were very ill and needed the comfort of family at my side.            </span>"
               },
               "subject": {
-                "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+                "reference": "Patient/P0522-patientBSJ1",
                 "display": "Smith-Johnson, Betsy"
               },
               "resourceType": "Goal"
@@ -1983,7 +1983,7 @@
           },
           {
             "resource": {
-              "id": "c9eb6654-9394-455a-a6a0-1db7cf5c6677",
+              "id": "P0522-ADIMMD-2021PACP-Goal-Laughter",
               "text": {
                 "status": "additional",
                 "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>                Laughter:            </span>            <span>                These are some of my fondest memories from life that have always brought a smile to my face or made me laugh:            </span>            <br/>            <span>                My dogs make me laugh when they play together, and my grandchildren make me laugh when they put on plays for me.  They bring me great joy.            </span></div>"
@@ -2018,7 +2018,7 @@
                 "text": "<span>                Laughter:            </span>            <span>                These are some of my fondest memories from life that have always brought a smile to my face or made me laugh:            </span>            <br></br>            <span>                My dogs make me laugh when they play together, and my grandchildren make me laugh when they put on plays for me.  They bring me great joy.            </span>"
               },
               "subject": {
-                "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+                "reference": "Patient/P0522-patientBSJ1",
                 "display": "Smith-Johnson, Betsy"
               },
               "resourceType": "Goal"
@@ -2026,7 +2026,7 @@
           },
           {
             "resource": {
-              "id": "492e9967-0dda-417c-9d21-7f98b2853bf1",
+              "id": "P0522-ADIMMD-2021PACP-Goal-Messages",
               "text": {
                 "status": "additional",
                 "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>                Messages to people who matter to me:            </span>            <span>                If I cannot communicate with persons around me, I want my healthcare agent, my family, and my friends to know the following:            </span>            <br/>            <span>                Please let me end my life as I lived my life, on my own terms and with my own perspective guiding the way.            </span></div>"
@@ -2061,7 +2061,7 @@
                 "text": "<span>                Messages to people who matter to me:            </span>            <span>                If I cannot communicate with persons around me, I want my healthcare agent, my family, and my friends to know the following:            </span>            <br></br>            <span>                Please let me end my life as I lived my life, on my own terms and with my own perspective guiding the way.            </span>"
               },
               "subject": {
-                "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+                "reference": "Patient/P0522-patientBSJ1",
                 "display": "Smith-Johnson, Betsy"
               },
               "resourceType": "Goal"
@@ -2069,7 +2069,7 @@
           },
           {
             "resource": {
-              "id": "5a4ee011-51aa-4fd3-ac58-be83b95fd1ac",
+              "id": "P0522-ADIMMD-2021PACP-Goal-NeedToKnow",
               "text": {
                 "status": "additional",
                 "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>                Information people may need to know:            </span>            <span>                Provide information about where others can find your important documents or information they may need.            </span>            <br/>            <span>                I have purchased a funeral plat at Graceful Acres in Belmont NC and have life insurance policies filed with my lawyer that you should access if anything happens to me.            </span></div>"
@@ -2104,7 +2104,7 @@
                 "text": "<span>                Information people may need to know:            </span>            <span>                Provide information about where others can find your important documents or information they may need.            </span>            <br></br>            <span>                I have purchased a funeral plat at Graceful Acres in Belmont NC and have life insurance policies filed with my lawyer that you should access if anything happens to me.            </span>"
               },
               "subject": {
-                "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+                "reference": "Patient/P0522-patientBSJ1",
                 "display": "Smith-Johnson, Betsy"
               },
               "resourceType": "Goal"
@@ -2112,7 +2112,7 @@
           },
           {
             "resource": {
-              "id": "0bff5658-a5d1-4d35-aa5c-ab2de5951bca",
+              "id": "P0522-ADIMMD-2021PACP-CarePlan",
               "status": "active",
               "intent": "proposal",
               "category": [
@@ -2127,32 +2127,32 @@
                 }
               ],
               "subject": {
-                "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+                "reference": "Patient/P0522-patientBSJ1",
                 "display": "Smith-Johnson, Betsy"
               },
               "addresses": [
                 {
-                  "reference": "Condition/d2acc2b0-d26f-4c70-ae53-f5569816f936"
+                  "reference": "Condition/P0522-ADIMMD-2021PACP-Cond-LossOfExpression"
                 },
                 {
-                  "reference": "Condition/cf67ed3b-ce27-4b74-8a4b-39737a01459e"
+                  "reference": "Condition/P0522-ADIMMD-2021PACP-Cond-SignificantPain"
                 },
                 {
-                  "reference": "Condition/74192d9a-0023-4256-ada5-616c4eb62123"
+                  "reference": "Condition/P0522-ADIMMD-2021PACP-Cond-NoMeaningfulInteraction"
                 },
                 {
-                  "reference": "Condition/05805d76-6195-4675-a8c4-ea3d3ad5fe86"
+                  "reference": "Condition/P0522-ADIMMD-2021PACP-Cond-BrainInjury"
                 }
               ],
               "goal": [
                 {
-                  "reference": "Goal/bdf36324-53cc-409d-8aa7-45397b628550"
+                  "reference": "Goal/P0522-ADIMMD-2021PACP-Goal-AvoidMachineDependence"
                 },
                 {
-                  "reference": "Goal/1be66dcd-66da-48e6-a730-70352410b48e"
+                  "reference": "Goal/P0522-ADIMMD-2021PACP-Goal-NotABurden"
                 },
                 {
-                  "reference": "Goal/8f029dad-3207-4892-b89d-5f6b8733bdc4"
+                  "reference": "Goal/P0522-ADIMMD-2021PACP-Goal-DyingAtHome"
                 }
               ],
               "resourceType": "CarePlan"
@@ -2160,7 +2160,7 @@
           },
           {
             "resource": {
-              "id": "bdf36324-53cc-409d-8aa7-45397b628550",
+              "id": "P0522-ADIMMD-2021PACP-Goal-AvoidMachineDependence",
               "text": {
                 "status": "additional",
                 "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Avoiding prolonged dependence on machines</div>"
@@ -2203,7 +2203,7 @@
                 ]
               },
               "subject": {
-                "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+                "reference": "Patient/P0522-patientBSJ1",
                 "display": "Smith-Johnson, Betsy"
               },
               "resourceType": "Goal"
@@ -2211,7 +2211,7 @@
           },
           {
             "resource": {
-              "id": "1be66dcd-66da-48e6-a730-70352410b48e",
+              "id": "P0522-ADIMMD-2021PACP-Goal-NotABurden",
               "text": {
                 "status": "additional",
                 "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Not being a physical burden to my family</div>"
@@ -2254,7 +2254,7 @@
                 ]
               },
               "subject": {
-                "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+                "reference": "Patient/P0522-patientBSJ1",
                 "display": "Smith-Johnson, Betsy"
               },
               "resourceType": "Goal"
@@ -2262,7 +2262,7 @@
           },
           {
             "resource": {
-              "id": "8f029dad-3207-4892-b89d-5f6b8733bdc4",
+              "id": "P0522-ADIMMD-2021PACP-Goal-DyingAtHome",
               "text": {
                 "status": "additional",
                 "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Dying at home</div>"
@@ -2305,7 +2305,7 @@
                 ]
               },
               "subject": {
-                "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+                "reference": "Patient/P0522-patientBSJ1",
                 "display": "Smith-Johnson, Betsy"
               },
               "resourceType": "Goal"
@@ -2313,12 +2313,12 @@
           },
           {
             "resource": {
-              "id": "d2acc2b0-d26f-4c70-ae53-f5569816f936",
+              "id": "P0522-ADIMMD-2021PACP-Cond-LossOfExpression",
               "code": {
                 "text": "If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me:"
               },
               "subject": {
-                "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+                "reference": "Patient/P0522-patientBSJ1",
                 "display": "Smith-Johnson, Betsy"
               },
               "resourceType": "Condition"
@@ -2326,12 +2326,12 @@
           },
           {
             "resource": {
-              "id": "cf67ed3b-ce27-4b74-8a4b-39737a01459e",
+              "id": "P0522-ADIMMD-2021PACP-Cond-SignificantPain",
               "code": {
                 "text": "If I am having significant pain or suffering,"
               },
               "subject": {
-                "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+                "reference": "Patient/P0522-patientBSJ1",
                 "display": "Smith-Johnson, Betsy"
               },
               "resourceType": "Condition"
@@ -2339,12 +2339,12 @@
           },
           {
             "resource": {
-              "id": "74192d9a-0023-4256-ada5-616c4eb62123",
+              "id": "P0522-ADIMMD-2021PACP-Cond-NoMeaningfulInteraction",
               "code": {
                 "text": "If my health ever deteriorates due to a terminal illness, and my doctors believe I will not be able to interact meaningfully with my family, friends, or surroundings,"
               },
               "subject": {
-                "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+                "reference": "Patient/P0522-patientBSJ1",
                 "display": "Smith-Johnson, Betsy"
               },
               "resourceType": "Condition"
@@ -2352,12 +2352,12 @@
           },
           {
             "resource": {
-              "id": "05805d76-6195-4675-a8c4-ea3d3ad5fe86",
+              "id": "P0522-ADIMMD-2021PACP-Cond-BrainInjury",
               "code": {
                 "text": "If I have a severe, irreversible brain injury or illness and can’t dress, feed, or bathe myself, or communicate my medical wishes, but doctors can keep me alive in this condition for a long period of time,"
               },
               "subject": {
-                "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+                "reference": "Patient/P0522-patientBSJ1",
                 "display": "Smith-Johnson, Betsy"
               },
               "resourceType": "Condition"
@@ -2365,7 +2365,7 @@
           },
           {
             "resource": {
-              "id": "cfd9768a-b1e3-47c3-8217-6157f83a5986",
+              "id": "P0522-ADIMMD-2021PACP-Obs-OrganDonation",
               "text": {
                 "status": "additional",
                 "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>Consent to Donate</span><br/>            <span>I consent to donate all organs and tissues.                                                                                            </span></div>"
@@ -2386,7 +2386,7 @@
                 ]
               },
               "subject": {
-                "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+                "reference": "Patient/P0522-patientBSJ1",
                 "display": "Smith-Johnson, Betsy"
               },
               "valueString": "I consent to donate all organs and tissues.",
@@ -2395,7 +2395,7 @@
           },
           {
             "resource": {
-              "id": "a94ec9ff-2c6b-4c37-b29d-43e46d46a921",
+              "id": "P0522-ADIMMD-2021PACP-Goal-Autopsy",
               "text": {
                 "status": "additional",
                 "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>Autopsy</span><br/>                            <span>I want an autopsy</span>                <span>only if there are questions about my death.</span></div>"
@@ -2430,7 +2430,7 @@
                 "text": "<span>Autopsy</span><br></br>                            <span>I want an autopsy</span>                <span>only if there are questions about my death.</span>"
               },
               "subject": {
-                "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+                "reference": "Patient/P0522-patientBSJ1",
                 "display": "Smith-Johnson, Betsy"
               },
               "resourceType": "Goal"
@@ -2438,7 +2438,7 @@
           },
           {
             "resource": {
-              "id": "551b1dc7-2051-475d-9f21-085d7eda9b6a",
+              "id": "P0522-ADIMMD-2021PACP-Goal-FuneralPlans",
               "text": {
                 "status": "additional",
                 "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>Here are my thoughts on funeral or burial plans:</span><br/>            <span>                If I were to pass away:<br/>                Please call Jim Houston, my lawyer, for arrangements I have already made.            </span></div>"
@@ -2463,7 +2463,7 @@
                 "text": "<span>Here are my thoughts on funeral or burial plans:</span><br></br>            <span>                If I were to pass away:<br></br>                Please call Jim Houston, my lawyer, for arrangements I have already made.            </span>"
               },
               "subject": {
-                "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+                "reference": "Patient/P0522-patientBSJ1",
                 "display": "Smith-Johnson, Betsy"
               },
               "resourceType": "Goal"
@@ -2471,9 +2471,9 @@
           },
           {
             "resource": {
-              "id": "b1fdfb8f-da3f-484f-b628-a43a92a4ee55",
+              "id": "P0522-ADIMMD-2021PACP-RP-HCA-Primary-2",
               "patient": {
-                "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+                "reference": "Patient/P0522-patientBSJ1",
                 "display": "Smith-Johnson, Betsy"
               },
               "relationship": [
@@ -2511,7 +2511,7 @@
           },
           {
             "resource": {
-              "id": "cd662066-57d7-4151-bd87-1cff95f1cd82",
+              "id": "P0522-ADIMMD-2021PACP-Consent-HCA-Primary-2",
               "status": "active",
               "scope": {
                 "coding": [
@@ -2534,7 +2534,7 @@
                 }
               ],
               "patient": {
-                "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+                "reference": "Patient/P0522-patientBSJ1",
                 "display": "Smith-Johnson, Betsy"
               },
               "provision": {
@@ -2550,7 +2550,7 @@
                       ]
                     },
                     "reference": {
-                      "reference": "RelatedPerson/b1fdfb8f-da3f-484f-b628-a43a92a4ee55"
+                      "reference": "RelatedPerson/P0522-ADIMMD-2021PACP-RP-HCA-Primary-2"
                     }
                   }
                 ],
@@ -2571,9 +2571,9 @@
           },
           {
             "resource": {
-              "id": "3b9d2463-35c5-49c4-83d2-bfb0cb44c119",
+              "id": "P0522-ADIMMD-2021PACP-RP-HCA-Primary-1",
               "patient": {
-                "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+                "reference": "Patient/P0522-patientBSJ1",
                 "display": "Smith-Johnson, Betsy"
               },
               "relationship": [
@@ -2611,7 +2611,7 @@
           },
           {
             "resource": {
-              "id": "b803be54-9cf3-4a22-893d-b7b4a4975ec6",
+              "id": "P0522-ADIMMD-2021PACP-Consent-HCA-Primary-1",
               "status": "active",
               "scope": {
                 "coding": [
@@ -2634,7 +2634,7 @@
                 }
               ],
               "patient": {
-                "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+                "reference": "Patient/P0522-patientBSJ1",
                 "display": "Smith-Johnson, Betsy"
               },
               "provision": {
@@ -2650,7 +2650,7 @@
                       ]
                     },
                     "reference": {
-                      "reference": "RelatedPerson/3b9d2463-35c5-49c4-83d2-bfb0cb44c119"
+                      "reference": "RelatedPerson/P0522-ADIMMD-2021PACP-RP-HCA-Primary-1"
                     }
                   }
                 ],
@@ -2671,9 +2671,9 @@
           },
           {
             "resource": {
-              "id": "c5a0f7ac-acf9-4110-9b9d-31653eb0c046",
+              "id": "P0522-ADIMMD-2021PACP-RP-HCA-FirstAlt",
               "patient": {
-                "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+                "reference": "Patient/P0522-patientBSJ1",
                 "display": "Smith-Johnson, Betsy"
               },
               "relationship": [
@@ -2711,7 +2711,7 @@
           },
           {
             "resource": {
-              "id": "49b89d8d-9fd3-4eac-8635-005de32b1ea1",
+              "id": "P0522-ADIMMD-2021PACP-Consent-HCA-FirstAlt",
               "status": "active",
               "scope": {
                 "coding": [
@@ -2734,7 +2734,7 @@
                 }
               ],
               "patient": {
-                "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+                "reference": "Patient/P0522-patientBSJ1",
                 "display": "Smith-Johnson, Betsy"
               },
               "provision": {
@@ -2750,7 +2750,7 @@
                       ]
                     },
                     "reference": {
-                      "reference": "RelatedPerson/c5a0f7ac-acf9-4110-9b9d-31653eb0c046"
+                      "reference": "RelatedPerson/P0522-ADIMMD-2021PACP-RP-HCA-FirstAlt"
                     }
                   }
                 ],
@@ -2771,9 +2771,9 @@
           },
           {
             "resource": {
-              "id": "1c57d8ff-1eee-463e-806b-1b1043ccc931",
+              "id": "P0522-ADIMMD-2021PACP-RP-HCA-SecondAlt",
               "patient": {
-                "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+                "reference": "Patient/P0522-patientBSJ1",
                 "display": "Smith-Johnson, Betsy"
               },
               "relationship": [
@@ -2811,7 +2811,7 @@
           },
           {
             "resource": {
-              "id": "d7a6b3b5-77b3-43a0-9249-42186bb6f609",
+              "id": "P0522-ADIMMD-2021PACP-Consent-HCA-SecondAlt",
               "status": "active",
               "scope": {
                 "coding": [
@@ -2834,7 +2834,7 @@
                 }
               ],
               "patient": {
-                "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+                "reference": "Patient/P0522-patientBSJ1",
                 "display": "Smith-Johnson, Betsy"
               },
               "provision": {
@@ -2850,7 +2850,7 @@
                       ]
                     },
                     "reference": {
-                      "reference": "RelatedPerson/1c57d8ff-1eee-463e-806b-1b1043ccc931"
+                      "reference": "RelatedPerson/P0522-ADIMMD-2021PACP-RP-HCA-SecondAlt"
                     }
                   }
                 ],
@@ -2874,13 +2874,13 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Bundle/ce36f59f-20ec-450f-b1b0-3d9a2b95919d"
+        "url": "Bundle/P0522-ADIMMD-2021PACP-Bundle"
       }
     },
     {
-      "fullUrl": "urn:uuid:8aecc4bf-0fd1-414a-8b92-8d13d563efaa",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-2021PACP-Goal-Avoid",
       "resource": {
-        "id": "8aecc4bf-0fd1-414a-8b92-8d13d563efaa",
+        "id": "P0522-ADIMMD-2021PACP-Goal-Avoid",
         "text": {
           "status": "additional",
           "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>                My dislikes / fears:            </span>            <span>                Here is a list of things that I would like to avoid if at all possible, people that I don’t wish to see, and concerns I have about particular family members, pets, and so on:            </span>            <br/>            <span>                I do not like my feet to be cold.            </span></div>"
@@ -2915,20 +2915,20 @@
           "text": "<span>                My dislikes / fears:            </span>            <span>                Here is a list of things that I would like to avoid if at all possible, people that I don’t wish to see, and concerns I have about particular family members, pets, and so on:            </span>            <br></br>            <span>                I do not like my feet to be cold.            </span>"
         },
         "subject": {
-          "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+          "reference": "Patient/P0522-patientBSJ1",
           "display": "Smith-Johnson, Betsy"
         },
         "resourceType": "Goal"
       },
       "request": {
         "method": "PUT",
-        "url": "Goal/8aecc4bf-0fd1-414a-8b92-8d13d563efaa"
+        "url": "Goal/P0522-ADIMMD-2021PACP-Goal-Avoid"
       }
     },
     {
-      "fullUrl": "urn:uuid:5a4ee011-51aa-4fd3-ac58-be83b95fd1ac",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-2021PACP-Goal-NeedToKnow",
       "resource": {
-        "id": "5a4ee011-51aa-4fd3-ac58-be83b95fd1ac",
+        "id": "P0522-ADIMMD-2021PACP-Goal-NeedToKnow",
         "text": {
           "status": "additional",
           "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>                Information people may need to know:            </span>            <span>                Provide information about where others can find your important documents or information they may need.            </span>            <br/>            <span>                I have purchased a funeral plat at Graceful Acres in Belmont NC and have life insurance policies filed with my lawyer that you should access if anything happens to me.            </span></div>"
@@ -2963,20 +2963,20 @@
           "text": "<span>                Information people may need to know:            </span>            <span>                Provide information about where others can find your important documents or information they may need.            </span>            <br></br>            <span>                I have purchased a funeral plat at Graceful Acres in Belmont NC and have life insurance policies filed with my lawyer that you should access if anything happens to me.            </span>"
         },
         "subject": {
-          "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+          "reference": "Patient/P0522-patientBSJ1",
           "display": "Smith-Johnson, Betsy"
         },
         "resourceType": "Goal"
       },
       "request": {
         "method": "PUT",
-        "url": "Goal/5a4ee011-51aa-4fd3-ac58-be83b95fd1ac"
+        "url": "Goal/P0522-ADIMMD-2021PACP-Goal-NeedToKnow"
       }
     },
     {
-      "fullUrl": "urn:uuid:da2272ff-5e3b-40cc-b98f-1d479daaa8c4",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-2021PACP-Comp",
       "resource": {
-        "id": "da2272ff-5e3b-40cc-b98f-1d479daaa8c4",
+        "id": "P0522-ADIMMD-2021PACP-Comp",
         "identifier": {
           "system": "urn:oid:2.16.840.1.113883.3.3208.101.4.8.2",
           "value": "20130607100315-CCDA-CCD-802"
@@ -3003,24 +3003,24 @@
           }
         ],
         "subject": {
-          "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+          "reference": "Patient/P0522-patientBSJ1",
           "display": "Smith-Johnson, Betsy"
         },
         "date": "2021-12-17T20:29:44+00:00",
         "author": [
           {
-            "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+            "reference": "Patient/P0522-patientBSJ1",
             "display": "Smith-Johnson, Betsy"
           },
           {
-            "reference": "Device/5f64aaab-3232-4d26-a847-62c7e15a5cf6",
+            "reference": "Device/P0522-ADIMMD-PortalDevice",
             "display": "ADVault RR Portal"
           }
         ],
         "title": "Personal Advance Care Plan Document (Version 2)",
         "confidentiality": "N",
         "custodian": {
-          "reference": "Organization/46e1f46a-f9d1-4c95-9ea5-ca72c3922d6c"
+          "reference": "Organization/P0522-ADIMMD-ADVaultOrg"
         },
         "section": [
           {
@@ -3078,31 +3078,31 @@
             },
             "entry": [
               {
-                "reference": "Goal/f2e92636-e048-4c35-afc3-c4a977eb6b61"
+                "reference": "Goal/P0522-ADIMMD-2021PACP-Goal-LikesJoys"
               },
               {
-                "reference": "Goal/8aecc4bf-0fd1-414a-8b92-8d13d563efaa"
+                "reference": "Goal/P0522-ADIMMD-2021PACP-Goal-Avoid"
               },
               {
-                "reference": "Goal/025ddd82-4d53-4cf2-a44a-c103b9690f72"
+                "reference": "Goal/P0522-ADIMMD-2021PACP-Goal-HowToCareForMe"
               },
               {
-                "reference": "Goal/ee89e9db-d9cb-4a80-ba4e-02d3a4594b20"
+                "reference": "Goal/P0522-ADIMMD-2021PACP-Goal-MyReligion"
               },
               {
-                "reference": "Goal/9d74aea9-609a-4c35-bf54-88312cbf9a9c"
+                "reference": "Goal/P0522-ADIMMD-2021PACP-Goal-NotifyReligious"
               },
               {
-                "reference": "Goal/9940ee98-603b-417b-b220-8513c1d2cb72"
+                "reference": "Goal/P0522-ADIMMD-2021PACP-Goal-UnfinishedBusiness"
               },
               {
-                "reference": "Goal/c9eb6654-9394-455a-a6a0-1db7cf5c6677"
+                "reference": "Goal/P0522-ADIMMD-2021PACP-Goal-Laughter"
               },
               {
-                "reference": "Goal/492e9967-0dda-417c-9d21-7f98b2853bf1"
+                "reference": "Goal/P0522-ADIMMD-2021PACP-Goal-Messages"
               },
               {
-                "reference": "Goal/5a4ee011-51aa-4fd3-ac58-be83b95fd1ac"
+                "reference": "Goal/P0522-ADIMMD-2021PACP-Goal-NeedToKnow"
               }
             ]
           },
@@ -3134,7 +3134,7 @@
             },
             "entry": [
               {
-                "reference": "CarePlan/0bff5658-a5d1-4d35-aa5c-ab2de5951bca"
+                "reference": "CarePlan/P0522-ADIMMD-2021PACP-CarePlan"
               }
             ]
           },
@@ -3166,13 +3166,13 @@
             },
             "entry": [
               {
-                "reference": "Observation/cfd9768a-b1e3-47c3-8217-6157f83a5986"
+                "reference": "Observation/P0522-ADIMMD-2021PACP-Obs-OrganDonation"
               },
               {
-                "reference": "Goal/a94ec9ff-2c6b-4c37-b29d-43e46d46a921"
+                "reference": "Goal/P0522-ADIMMD-2021PACP-Goal-Autopsy"
               },
               {
-                "reference": "Goal/551b1dc7-2051-475d-9f21-085d7eda9b6a"
+                "reference": "Goal/P0522-ADIMMD-2021PACP-Goal-FuneralPlans"
               }
             ]
           },
@@ -3204,28 +3204,28 @@
             },
             "entry": [
               {
-                "reference": "RelatedPerson/b1fdfb8f-da3f-484f-b628-a43a92a4ee55"
+                "reference": "RelatedPerson/P0522-ADIMMD-2021PACP-RP-HCA-Primary-2"
               },
               {
-                "reference": "Consent/cd662066-57d7-4151-bd87-1cff95f1cd82"
+                "reference": "Consent/P0522-ADIMMD-2021PACP-Consent-HCA-Primary-2"
               },
               {
-                "reference": "RelatedPerson/3b9d2463-35c5-49c4-83d2-bfb0cb44c119"
+                "reference": "RelatedPerson/P0522-ADIMMD-2021PACP-RP-HCA-Primary-1"
               },
               {
-                "reference": "Consent/b803be54-9cf3-4a22-893d-b7b4a4975ec6"
+                "reference": "Consent/P0522-ADIMMD-2021PACP-Consent-HCA-Primary-1"
               },
               {
-                "reference": "RelatedPerson/c5a0f7ac-acf9-4110-9b9d-31653eb0c046"
+                "reference": "RelatedPerson/P0522-ADIMMD-2021PACP-RP-HCA-FirstAlt"
               },
               {
-                "reference": "Consent/49b89d8d-9fd3-4eac-8635-005de32b1ea1"
+                "reference": "Consent/P0522-ADIMMD-2021PACP-Consent-HCA-FirstAlt"
               },
               {
-                "reference": "RelatedPerson/1c57d8ff-1eee-463e-806b-1b1043ccc931"
+                "reference": "RelatedPerson/P0522-ADIMMD-2021PACP-RP-HCA-SecondAlt"
               },
               {
-                "reference": "Consent/d7a6b3b5-77b3-43a0-9249-42186bb6f609"
+                "reference": "Consent/P0522-ADIMMD-2021PACP-Consent-HCA-SecondAlt"
               }
             ]
           }
@@ -3234,13 +3234,13 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Composition/da2272ff-5e3b-40cc-b98f-1d479daaa8c4"
+        "url": "Composition/P0522-ADIMMD-2021PACP-Comp"
       }
     },
     {
-      "fullUrl": "urn:uuid:551b1dc7-2051-475d-9f21-085d7eda9b6a",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-2021PACP-Goal-FuneralPlans",
       "resource": {
-        "id": "551b1dc7-2051-475d-9f21-085d7eda9b6a",
+        "id": "P0522-ADIMMD-2021PACP-Goal-FuneralPlans",
         "text": {
           "status": "additional",
           "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>Here are my thoughts on funeral or burial plans:</span><br/>            <span>                If I were to pass away:<br/>                Please call Jim Houston, my lawyer, for arrangements I have already made.            </span></div>"
@@ -3265,40 +3265,40 @@
           "text": "<span>Here are my thoughts on funeral or burial plans:</span><br></br>            <span>                If I were to pass away:<br></br>                Please call Jim Houston, my lawyer, for arrangements I have already made.            </span>"
         },
         "subject": {
-          "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+          "reference": "Patient/P0522-patientBSJ1",
           "display": "Smith-Johnson, Betsy"
         },
         "resourceType": "Goal"
       },
       "request": {
         "method": "PUT",
-        "url": "Goal/551b1dc7-2051-475d-9f21-085d7eda9b6a"
+        "url": "Goal/P0522-ADIMMD-2021PACP-Goal-FuneralPlans"
       }
     },
     {
-      "fullUrl": "urn:uuid:d2acc2b0-d26f-4c70-ae53-f5569816f936",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-2021PACP-Cond-LossOfExpression",
       "resource": {
-        "id": "d2acc2b0-d26f-4c70-ae53-f5569816f936",
+        "id": "P0522-ADIMMD-2021PACP-Cond-LossOfExpression",
         "code": {
           "text": "If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me:"
         },
         "subject": {
-          "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+          "reference": "Patient/P0522-patientBSJ1",
           "display": "Smith-Johnson, Betsy"
         },
         "resourceType": "Condition"
       },
       "request": {
         "method": "PUT",
-        "url": "Condition/d2acc2b0-d26f-4c70-ae53-f5569816f936"
+        "url": "Condition/P0522-ADIMMD-2021PACP-Cond-LossOfExpression"
       }
     },
     {
-      "fullUrl": "urn:uuid:1c57d8ff-1eee-463e-806b-1b1043ccc931",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-2021PACP-RP-HCA-SecondAlt",
       "resource": {
-        "id": "1c57d8ff-1eee-463e-806b-1b1043ccc931",
+        "id": "P0522-ADIMMD-2021PACP-RP-HCA-SecondAlt",
         "patient": {
-          "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+          "reference": "Patient/P0522-patientBSJ1",
           "display": "Smith-Johnson, Betsy"
         },
         "relationship": [
@@ -3335,13 +3335,13 @@
       },
       "request": {
         "method": "PUT",
-        "url": "RelatedPerson/1c57d8ff-1eee-463e-806b-1b1043ccc931"
+        "url": "RelatedPerson/P0522-ADIMMD-2021PACP-RP-HCA-SecondAlt"
       }
     },
     {
-      "fullUrl": "urn:uuid:a94ec9ff-2c6b-4c37-b29d-43e46d46a921",
+      "fullUrl": "urn:uuid:P0522-ADIMMD-2021PACP-Goal-Autopsy",
       "resource": {
-        "id": "a94ec9ff-2c6b-4c37-b29d-43e46d46a921",
+        "id": "P0522-ADIMMD-2021PACP-Goal-Autopsy",
         "text": {
           "status": "additional",
           "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>Autopsy</span><br/>                            <span>I want an autopsy</span>                <span>only if there are questions about my death.</span></div>"
@@ -3376,14 +3376,14 @@
           "text": "<span>Autopsy</span><br></br>                            <span>I want an autopsy</span>                <span>only if there are questions about my death.</span>"
         },
         "subject": {
-          "reference": "Patient/3e0a479f-375c-46ba-857b-9ed4cca7db9f",
+          "reference": "Patient/P0522-patientBSJ1",
           "display": "Smith-Johnson, Betsy"
         },
         "resourceType": "Goal"
       },
       "request": {
         "method": "PUT",
-        "url": "Goal/a94ec9ff-2c6b-4c37-b29d-43e46d46a921"
+        "url": "Goal/P0522-ADIMMD-2021PACP-Goal-Autopsy"
       }
     }
   ],

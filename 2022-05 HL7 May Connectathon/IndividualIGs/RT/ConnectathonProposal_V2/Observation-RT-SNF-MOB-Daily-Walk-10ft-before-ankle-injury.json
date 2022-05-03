@@ -1,0 +1,32 @@
+{
+  "resourceType": "Observation",
+  "id": "RT-SNF-MOB-Daily-Walk-10ft-before-ankle-injury",
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "95004-8",
+        "display": "Walk 10 feet - usual functional ability during assessment period [CMS Assessment]"
+      }
+    ],
+    "text": "Walk 10 feet - usual functional ability during assessment period [CMS Assessment]"
+  },
+  "subject": {
+    "reference": "Patient/RT-patientBSJ1"
+  },
+  "effectiveDateTime": "2020-01-03T16:00:00-05:00",
+  "encounter": {
+      "reference": "Encounter/RT-Encounter-SNF-Stay"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "LA11759-0",
+        "display": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+      }
+    ],
+    "text": "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+  }
+}

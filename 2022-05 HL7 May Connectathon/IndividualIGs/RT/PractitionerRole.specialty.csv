@@ -1,0 +1,6 @@
+practitionerRole.specialtyCode[key],specialtyCode.code,specialtyCode.system,specialtyCode.display
+225100000X,225100000X,http://snomed.info/sct,Clinical physiology
+163W00000X,163W00000X,http://snomed.info/sct,General medical practice
+2084N0400X,2084N0400X,http://snomed.info/sct,Neurology
+261QP2300X,261QP2300X,http://snomed.info/sct,Internal medicine
+163WH0200X,163WH0200X,http://snomed.info/sct,General medical practice

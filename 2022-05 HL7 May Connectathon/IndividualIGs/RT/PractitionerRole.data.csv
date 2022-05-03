@@ -1,0 +1,11 @@
+resource.id,practitioner,organization,location,code[->],specialtyCode[->]
+provider-role-physical-therapist-Practitioner-ScottDumble,Practitioner-ScottDumble,Provider-Org-2,Provider-Org-Loc-2,225100000X,394601005
+provider-role-nurse-Practitioner-SummerJohnson,Practitioner-SummerJohnson,Provider-Org-1,Provider-Org-Loc-1,163W00000X,408443003
+provider-role-neurologist-Practitioner-NoraOlogist,Practitioner-NoraOlogist,"","",2084N0400X,394591006
+provider-role-pcp-Practitioner-JohnSmith,Practitioner-JohnSmith,"","",261QP2300X,419192003
+provider-role-physical-therapist-Practitioner-JenCadbury,Practitioner-JenCadbury,Provider-Org-1,Provider-Org-Loc-1,225100000X,394601005
+provider-role-nurse-Practitioner-LiaNguyen,Practitioner-LiaNguyen,Provider-Org-1,Provider-Org-Loc-1,163W00000X,408443003
+provider-role-physical-therapist-Practitioner-DanielGranger,Practitioner-DanielGranger,Provider-Org-1,Provider-Org-Loc-1,225100000X,394601005
+provider-role-nurse-Practitioner-TamaraRodriguez,Practitioner-TamaraRodriguez,Provider-Org-2,Provider-Org-Loc-2,163WH0200X,408443003
+provider-role-nurse-Practitioner-JacobHartwell,Practitioner-JacobHartwell,Provider-Org-2,Provider-Org-Loc-2,163WH0200X,408443003
+provider-role-physical-therapist-Practitioner-LunaBaskins,Practitioner-LunaBaskins,Provider-Org-2,Provider-Org-Loc-2,225100000X,394601005

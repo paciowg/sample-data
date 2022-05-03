@@ -1,0 +1,86 @@
+{
+  "resourceType": "Encounter",
+  "id": "RT-SNF-Timepoint-IPA-to-Discharge",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-rt/StructureDefinition/reassessment-timepoints-encounter"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://example.org/identifiers/patient",
+      "value": "MDS-Re-assessment-Timepoint-2001"
+    }
+  ],
+  "status": "finished",
+  "class": {
+    "system": "http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-class-cs",
+    "code": "SNF",
+    "display": "skilled nursing facility"
+  },
+  "type": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-entity-cs",
+          "code": "payer",
+          "display": "Payer"
+        }
+      ]
+    }
+  ],
+  "serviceType": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-service-type-cs",
+        "code": "mds",
+        "display": "Minimum Data Set"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/RT-patientBSJ1"
+  },
+  "basedOn": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/us/pacio-rt/StructureDefinition/clinicalImpression",
+          "valueReference": {
+            "reference": "ClinicalImpression/RT-ClinicalImpression-IPA"
+          }
+        }
+      ],
+      "display": "MDS IPA"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/us/pacio-rt/StructureDefinition/clinicalImpression",
+          "valueReference": {
+            "reference": "ClinicalImpression/RT-ClinicalImpression-MDS-Discharge"
+          }
+        }
+      ],
+      "display": "MDS Discharge"
+    }
+  ],
+  "period": {
+    "start": "2020-01-14",
+    "end": "2020-02-10"
+  },
+  "reasonCode": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10-cm",
+          "code": "I63.411",
+          "display": "Cerebral infarction due to embolism of right middle cerebral artery"
+        }
+      ]
+    }
+  ],
+  "partOf": {
+    "reference": "Encounter/RT-Encounter-SNF-Stay"
+  }
+}

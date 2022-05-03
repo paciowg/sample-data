@@ -1,0 +1,41 @@
+{
+  "id": "P0522-ADIMMD-2020PACP-Goal-Laughter",
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>                Laughter:            </span>            <span>                These are some of my fondest memories from life that have always brought a smile to my face or made me laugh:            </span>            <br/>            <span>                My dogs make me laugh when they play together, and my grandchildren make me laugh when they put on plays for me.  They bring me great joy.            </span></div>"
+  },
+  "identifier": [
+    {
+      "value": "958DB424-45A8-4F53-8EC8-BC4164CCFAC5"
+    }
+  ],
+  "lifecycleStatus": "proposed",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "81361-8",
+          "display": "Things that make me laugh"
+        }
+      ],
+      "text": "Laughter:"
+    },
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-adi/CodeSystem/PADIGoalCategoryCS",
+          "code": "care-experience-preference"
+        }
+      ]
+    }
+  ],
+  "description": {
+    "text": "<span>                Laughter:            </span>            <span>                These are some of my fondest memories from life that have always brought a smile to my face or made me laugh:            </span>            <br></br>            <span>                My dogs make me laugh when they play together, and my grandchildren make me laugh when they put on plays for me.  They bring me great joy.            </span>"
+  },
+  "subject": {
+    "reference": "Patient/P0522-patientBSJ1",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "resourceType": "Goal"
+}

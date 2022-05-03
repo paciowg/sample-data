@@ -1,0 +1,1007 @@
+{
+  "resourceType": "Bundle",
+  "id": "P0522-ADIMMD-2020PACP-Bundle",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2022-04-26T16:56:41.000+00:00",
+    "source": "#ujceAxZsutBuNvqY"
+  },
+  "type": "document",
+  "entry": [ {
+    "resource": {
+      "resourceType": "Composition",
+      "id": "P0522-ADIMMD-2020PACP-Comp",
+      "identifier": {
+        "system": "urn:oid:2.16.840.1.113883.3.3208.101.4.8.1",
+        "value": "20130607100315-CCDA-CCD-801"
+      },
+      "status": "final",
+      "type": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "81334-5",
+          "display": "Personal advance care plan"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "42348-3",
+          "display": "Advance directives"
+        } ]
+      } ],
+      "subject": {
+        "reference": "Patient/P0522-patientBSJ1",
+        "display": "Smith-Johnson, Betsy"
+      },
+      "date": "2020-05-01T20:25:34+00:00",
+      "author": [ {
+        "reference": "Patient/P0522-patientBSJ1",
+        "display": "Smith-Johnson, Betsy"
+      }, {
+        "reference": "Device/P0522-ADIMMD-PortalDevice",
+        "display": "ADVault RR Portal"
+      } ],
+      "title": "Personal Advance Care Plan Document (Version 1)",
+      "confidentiality": "N",
+      "custodian": {
+        "reference": "Organization/P0522-ADIMMD-ADVaultOrg"
+      },
+      "section": [ {
+        "extension": [ {
+          "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-clause-extension",
+          "extension": [ {
+            "url": "Clause",
+            "valueMarkdown": "<div><span>My Advance Care Goals</span><br></br><br></br>            <span>                <span>                    <span>If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me:</span>                </span>            </span>            <ol>                    <li>                        Avoiding prolonged dependence on machines                    </li>                    <li>                        Not being a physical burden to my family                    </li>                    <li>                        Dying at home                    </li>            </ol>            <span>                <span>                    Here are some thoughts that I would like for my medical care team and my healthcare agent(s) to know about the role that religion, faith or spirituality play in my life:                </span><br></br>                <span>                    I am Catholic, please call Father Mark at Saint Catherine's on Main Street.                </span>            </span><br></br><br></br>            <span>                <span>                    If I am having significant pain or suffering,                </span>                <span>                    I would like my doctors to consult a Supportive and Palliative Care Team to help treat my physical, emotional and spiritual discomfort, and to support my family.                </span>            </span><br></br><br></br>    <span>My Preferences in Specific Circumstances</span><br></br><br></br>    <span>In addition to the general advance care goals provided above, below are specific treatment preferences with respect to certain specific circumstances or situations.</span><br></br><br></br>        <span>            <span>If my health ever deteriorates due to a terminal illness, and my doctors believe I will not be able to interact meaningfully with my family, friends, or surroundings,</span>                            <span>                    I would like for them to keep trying life-sustaining treatments                                                            until my healthcare agent decides it is time to stop and such treatments and let me die gently.                </span>                                </span><br></br><br></br>        <span>            <span>                If I have a severe, irreversible brain injury or illness and can’t dress, feed, or bathe myself, or communicate my medical wishes, but doctors can keep me alive in this condition for a long period of time,            </span>                <span>                    I would like for them to keep trying life-sustaining treatments                                                            until my healthcare agent decides it is time to stop and such treatments and let me die gently.                </span>                                </span><br></br><br></br>        <span>            <span>                Although I understand that, depending on the situation and circumstances, medical personnel may not be able to follow my wishes, here are my general thoughts on cardiopulmonary resuscitation (CPR):            </span><br></br>            <span>                I want my healthcare agent to decide for me.            </span>        </span><br></br><br></br>        <span>Other Instructions</span><br></br><br></br>            <span>                <span>If it were possible to choose, here is where I would like to spend my final days:</span>                <span>At home.I would like to receive hospice care at home if possible.                </span>            </span>            <br></br><br></br>            <span>                <span>I understand that, in certain jurisdictions, if I have been diagnosed as pregnant and that diagnosis is known to my attending physician, medical treatment providers may refuse to follow my directives and provide life-sustaining treatment including artificially administered nutrition and hydration, as well as CPR and other resuscitation measures.</span>            </span><br></br><br></br>                <!--  Added text here for PMOLST  -->                <span>                  <span>                    I DO HAVE a Medical Order regarding Life-Sustaining                    Treatment (MOLST)</span>                  <span>                    Effective Time: 05/1/2020 17:22</span>                  <span>                    <a href=\"Smith-Johnson_MOLST20200730.pdf\">                      Access to MOLST</a>                  </span>                </span>              </div>"
+          } ]
+        } ],
+        "title": "Expression of Healthcare Treatment Wishes and Desires",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "81336-0",
+            "display": "GPP certain health cond"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>My Advance Care Goals</span><br/><br/>            <span>                <span>                    <span>If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me:</span>                </span>            </span>            <ol>                    <li>                        Avoiding prolonged dependence on machines                    </li>                    <li>                        Not being a physical burden to my family                    </li>                    <li>                        Dying at home                    </li>            </ol>            <span>                <span>                    Here are some thoughts that I would like for my medical care team and my healthcare agent(s) to know about the role that religion, faith or spirituality play in my life:                </span><br/>                <span>                    I am Catholic, please call Father Mark at Saint Catherine's on Main Street.                </span>            </span><br/><br/>            <span>                <span>                    If I am having significant pain or suffering,                </span>                <span>                    I would like my doctors to consult a Supportive and Palliative Care Team to help treat my physical, emotional and spiritual discomfort, and to support my family.                </span>            </span><br/><br/>    <span>My Preferences in Specific Circumstances</span><br/><br/>    <span>In addition to the general advance care goals provided above, below are specific treatment preferences with respect to certain specific circumstances or situations.</span><br/><br/>        <span>            <span>If my health ever deteriorates due to a terminal illness, and my doctors believe I will not be able to interact meaningfully with my family, friends, or surroundings,</span>                            <span>                    I would like for them to keep trying life-sustaining treatments                                                            until my healthcare agent decides it is time to stop and such treatments and let me die gently.                </span>                                </span><br/><br/>        <span>            <span>                If I have a severe, irreversible brain injury or illness and can’t dress, feed, or bathe myself, or communicate my medical wishes, but doctors can keep me alive in this condition for a long period of time,            </span>                <span>                    I would like for them to keep trying life-sustaining treatments                                                            until my healthcare agent decides it is time to stop and such treatments and let me die gently.                </span>                                </span><br/><br/>        <span>            <span>                Although I understand that, depending on the situation and circumstances, medical personnel may not be able to follow my wishes, here are my general thoughts on cardiopulmonary resuscitation (CPR):            </span><br/>            <span>                I want my healthcare agent to decide for me.            </span>        </span><br/><br/>        <span>Other Instructions</span><br/><br/>            <span>                <span>If it were possible to choose, here is where I would like to spend my final days:</span>                <span>At home.I would like to receive hospice care at home if possible.                </span>            </span>            <br/><br/>            <span>                <span>I understand that, in certain jurisdictions, if I have been diagnosed as pregnant and that diagnosis is known to my attending physician, medical treatment providers may refuse to follow my directives and provide life-sustaining treatment including artificially administered nutrition and hydration, as well as CPR and other resuscitation measures.</span>            </span><br/><br/>                      <!-- Added text here for PMOLST -->                <span>                  <span>                    I DO HAVE a Medical Order regarding Life-Sustaining                    Treatment (MOLST)</span>                  <span>                    Effective Time: 05/1/2020 17:22</span>                  <span>                    <a href=\"Smith-Johnson_MOLST20200730.pdf\">                      Access to MOLST</a>                  </span>                </span>              </div>"
+        },
+        "entry": [ {
+          "reference": "CarePlan/P0522-ADIMMD-2020PACP-CarePlan"
+        } ]
+      }, {
+        "extension": [ {
+          "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-clause-extension",
+          "extension": [ {
+            "url": "Clause",
+            "valueMarkdown": "<div><p>IF THIS PART OF THE uADD™ IS LEFT BLANK, I DO NOT WANT TO DESIGNATE A<br></br>HEALTHCARE AGENT AT THIS TIME, AND I DO NOT WANT A<br></br>DEFAULT HEALTHCARE AGENT DESIGNATED FOR ME UNDER APPLICABLE LAW. <br></br>I TRUST THE DOCTORS AND NURSES TREATING ME TO MAKE<br></br>MEDICAL TREATMENT DECISIONS REGARDING MY TREATMENT AND CARE.</p>    <p>I am appointing the person or persons below as my healthcare agent and, if applicable, as my alternate healthcare agent(s), and I am granting to each of them the legal authority to make medical treatment decisions on my behalf and to consult with my physician and others.  The power to make medical treatment decisions that I am granting to my healthcare agent(s) is expressly subject to, and limited by, the choices that I have expressed elsewhere in my uADD.  If my medical treatment choices are not clear, I am authorizing and directing my healthcare agent to make decisions in my best interests and based on what is known of my wishes.</p>            <span>                    <span>Primary Healthcare Agent</span><br></br>                    <span>The person I choose as my Primary Healthcare Agent is:</span><br></br>                <span>                        <span>        Charles Johnson            <span>(Son)</span>    </span><br></br>        <span>            CharlesSJ@example.com        </span><br></br>        <span>            [SELECTED to act as a healthcare agent on 3/29/2021, at 2:25 PM CDT]        </span><br></br>        <span>            [ACCEPTED to act as a healthcare agent on 4/1/2021, at 3:39 PM CDT]        </span><br></br>                </span>            </span><br></br>            <span>                    <span>First Alternate Healthcare Agent</span><br></br>                    <span>If this healthcare agent is unable or unwilling to make medical treatment decisions for me, or if my spouse is designated as my primary healthcare agent and our marriage is annulled, or we are divorced or legally separated, then my next choice for a healthcare agent is:</span><br></br>                <span>                        <span>        Debra Johnson            <span>(Daughter)</span>    </span><br></br>        <span>            DebraSJ@example.com        </span><br></br>        <span>            [SELECTED to act as a healthcare agent on 3/29/2021, at 2:25 PM CDT]        </span><br></br>        <span>            [As of 4/1/2021, at 3:40 PM CDT, a response is still PENDING]        </span><br></br>                </span>            </span><br></br>        <span>            <span>                My Healthcare Agent’s General Authority            </span><br></br>            <span>                    <span>Subject to my medical treatment choices expressed elsewhere in this uADD™ and applicable law that requires otherwise, I grant to my healthcare agent the power to make all choices and medical treatment decisions for me.</span>            </span>        </span><br></br>    <span>        <span>            If I cannot express my own wishes for medical treatment,        </span>        <span>            I would like the doctors treating me, as well as my healthcare agent if I have chosen one, to make decisions based as much as possible and appropriate on my instructions below.        </span>    </span>        <span>            <span>                If at some point in the future I am declared incompetent,            </span>            <span>                I DO NOT want to be allowed to override these preferences. I want my doctors to follow the preferences I express in this document.            </span>        </span><br></br><br></br>    <span>        <span>            Unless I have stated otherwise somewhere else in this uADD™, I understand that my healthcare agent may reconsider my medical treatment choices expressed above in light of my other instructions contained elsewhere in this uADD™ or new medical information.        </span>    </span><br></br></div>"
+          } ]
+        } ],
+        "title": "Appointment of a Primary Healthcare Agent and Alternate Healthcare Agents",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "81335-2",
+            "display": "Healthcare agent"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>IF THIS PART OF THE uADD™ IS LEFT BLANK, I DO NOT WANT TO DESIGNATE A<br/>HEALTHCARE AGENT AT THIS TIME, AND I DO NOT WANT A<br/>DEFAULT HEALTHCARE AGENT DESIGNATED FOR ME UNDER APPLICABLE LAW. <br/>I TRUST THE DOCTORS AND NURSES TREATING ME TO MAKE<br/>MEDICAL TREATMENT DECISIONS REGARDING MY TREATMENT AND CARE.</p>    <p>I am appointing the person or persons below as my healthcare agent and, if applicable, as my alternate healthcare agent(s), and I am granting to each of them the legal authority to make medical treatment decisions on my behalf and to consult with my physician and others.  The power to make medical treatment decisions that I am granting to my healthcare agent(s) is expressly subject to, and limited by, the choices that I have expressed elsewhere in my uADD.  If my medical treatment choices are not clear, I am authorizing and directing my healthcare agent to make decisions in my best interests and based on what is known of my wishes.</p>            <span>                    <span>Primary Healthcare Agent</span><br/>                    <span>The person I choose as my Primary Healthcare Agent is:</span><br/>                <span>                        <span>        Charles Johnson            <span>(Son)</span>    </span><br/>        <span>            CharlesSJ@example.com        </span><br/>        <span>            [SELECTED to act as a healthcare agent on 3/29/2021, at 2:25 PM CDT]        </span><br/>        <span>            [ACCEPTED to act as a healthcare agent on 4/1/2021, at 3:39 PM CDT]        </span><br/>                </span>            </span><br/>            <span>                    <span>First Alternate Healthcare Agent</span><br/>                    <span>If this healthcare agent is unable or unwilling to make medical treatment decisions for me, or if my spouse is designated as my primary healthcare agent and our marriage is annulled, or we are divorced or legally separated, then my next choice for a healthcare agent is:</span><br/>                <span>                        <span>        Debra Johnson            <span>(Daughter)</span>    </span><br/>        <span>            DebraSJ@example.com        </span><br/>        <span>            [SELECTED to act as a healthcare agent on 3/29/2021, at 2:25 PM CDT]        </span><br/>        <span>            [As of 4/1/2021, at 3:40 PM CDT, a response is still PENDING]        </span><br/>                </span>            </span><br/>        <span>            <span>                My Healthcare Agent’s General Authority            </span><br/>            <span>                    <span>Subject to my medical treatment choices expressed elsewhere in this uADD™ and applicable law that requires otherwise, I grant to my healthcare agent the power to make all choices and medical treatment decisions for me.</span>            </span>        </span><br/>    <span>        <span>            If I cannot express my own wishes for medical treatment,        </span>        <span>            I would like the doctors treating me, as well as my healthcare agent if I have chosen one, to make decisions based as much as possible and appropriate on my instructions below.        </span>    </span>        <span>            <span>                If at some point in the future I am declared incompetent,            </span>            <span>                I DO NOT want to be allowed to override these preferences. I want my doctors to follow the preferences I express in this document.            </span>        </span><br/><br/>    <span>        <span>            Unless I have stated otherwise somewhere else in this uADD™, I understand that my healthcare agent may reconsider my medical treatment choices expressed above in light of my other instructions contained elsewhere in this uADD™ or new medical information.        </span>    </span><br/></div>"
+        },
+        "entry": [ {
+          "reference": "RelatedPerson/P0522-ADIMMD-2020PACP-RP-HCA-Primary-1"
+        }, {
+          "reference": "Consent/P0522-ADIMMD-2020PACP-Consent-HCA-Primary-1"
+        }, {
+          "reference": "RelatedPerson/P0522-ADIMMD-2020PACP-RP-HCA-Primary-2"
+        }, {
+          "reference": "Consent/P0522-ADIMMD-2020PACP-Consent-HCA-Primary-2"
+        }, {
+          "reference": "RelatedPerson/P0522-ADIMMD-2020PACP-RP-HCA-FirstAlt"
+        }, {
+          "reference": "Consent/P0522-ADIMMD-2020PACP-Consent-HCA-FirstAlt"
+        } ]
+      }, {
+        "extension": [ {
+          "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-clause-extension",
+          "extension": [ {
+            "url": "Clause",
+            "valueMarkdown": "<div><span>        MyDirectives® offers people a list of optional questions that can be answered by typing text in a text box or by uploading a video or audio file for each question. Only those questions answered by Betsy Smith-Johnson appear here. For a complete list of questions in My Thoughts, please visit www.MyDirectives.com.    </span><br></br><br></br>    <span>        In case I’m being cared for by a person(s) who doesn't know me very well, I’d like my following thoughts to be known.    </span><br></br><br></br>        <span>            <span>                My likes / joys:            </span>            <span>                Here are some examples of the things that I would like to have near me, music that I’d like to hear, and other details of my care that would help to keep me happy and relaxed:            </span>            <br></br>            <span>                I love the smell of lavender and the feeling of sunshine on my face.            </span>        </span><br></br><br></br>        <span>            <span>                My dislikes / fears:            </span>            <span>                Here is a list of things that I would like to avoid if at all possible, people that I don’t wish to see, and concerns I have about particular family members, pets, and so on:            </span>            <br></br>            <span>                I do not like my feet to be cold.            </span>        </span><br></br><br></br>        <span>            <span>                How to care for me:            </span>            <span>                If I become incapacitated and cannot express myself, here is what I would like to tell my healthcare agent, family and friends about how I would like for them to care for me:            </span>            <br></br>            <span>                I want photos of my family where I can see them.            </span>        </span><br></br><br></br>        <span>            <span>                My religion:            </span>            <span>                If I appear to be approaching the end of my life, here are some things that I would like for my caregivers to know about my faith and my religion.            </span>            <br></br>            <span>                Please call Father Mark if my condition warrants the services of a priest.            </span>        </span><br></br><br></br>        <span>            <span>                Please attempt to notify someone from my religion at the following phone number:            </span>            <span>                If I have included one            </span>            <br></br>            <span>                Catholic            </span>        </span><br></br><br></br>        <span>            <span>                My unfinished business:            </span>            <span>                If it appears that I am approaching the end of my life, and I cannot communicate with persons around me, I would want my doctors and nurses, my family, and my friends to know about some unfinished business that I need to address:            </span>            <br></br>            <span>                I want my sister and I to talk again, and miss her.  I wish we hadn't disagreed all those years ago and regret the time it has cost us.  I'd like to see her face if I were very ill and needed the comfort of family at my side.            </span>        </span><br></br><br></br>        <span>            <span>                Laughter:            </span>            <span>                These are some of my fondest memories from life that have always brought a smile to my face or made me laugh:            </span>            <br></br>            <span>                My dogs make me laugh when they play together, and my grandchildren make me laugh when they put on plays for me.  They bring me great joy.            </span>        </span><br></br><br></br></div>"
+          } ]
+        } ],
+        "title": "My Thoughts",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "81338-6",
+            "display": "GPP for care experience"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>        MyDirectives® offers people a list of optional questions that can be answered by typing text in a text box or by uploading a video or audio file for each question. Only those questions answered by Betsy Smith-Johnson appear here. For a complete list of questions in My Thoughts, please visit www.MyDirectives.com.    </span><br/><br/>    <span>        In case I’m being cared for by a person(s) who doesn't know me very well, I’d like my following thoughts to be known.    </span><br/><br/>        <span>            <span>                My likes / joys:            </span>            <span>                Here are some examples of the things that I would like to have near me, music that I’d like to hear, and other details of my care that would help to keep me happy and relaxed:            </span>            <br/>            <span>                I love the smell of lavender and the feeling of sunshine on my face.            </span>        </span><br/><br/>        <span>            <span>                My dislikes / fears:            </span>            <span>                Here is a list of things that I would like to avoid if at all possible, people that I don’t wish to see, and concerns I have about particular family members, pets, and so on:            </span>            <br/>            <span>                I do not like my feet to be cold.            </span>        </span><br/><br/>        <span>            <span>                How to care for me:            </span>            <span>                If I become incapacitated and cannot express myself, here is what I would like to tell my healthcare agent, family and friends about how I would like for them to care for me:            </span>            <br/>            <span>                I want photos of my family where I can see them.            </span>        </span><br/><br/>        <span>            <span>                My religion:            </span>            <span>                If I appear to be approaching the end of my life, here are some things that I would like for my caregivers to know about my faith and my religion.            </span>            <br/>            <span>                Please call Father Mark if my condition warrants the services of a priest.            </span>        </span><br/><br/>        <span>            <span>                Please attempt to notify someone from my religion at the following phone number:            </span>            <span>                If I have included one            </span>            <br/>            <span>                Catholic            </span>        </span><br/><br/>        <span>            <span>                My unfinished business:            </span>            <span>                If it appears that I am approaching the end of my life, and I cannot communicate with persons around me, I would want my doctors and nurses, my family, and my friends to know about some unfinished business that I need to address:            </span>            <br/>            <span>                I want my sister and I to talk again, and miss her.  I wish we hadn't disagreed all those years ago and regret the time it has cost us.  I'd like to see her face if I were very ill and needed the comfort of family at my side.            </span>        </span><br/><br/>        <span>            <span>                Laughter:            </span>            <span>                These are some of my fondest memories from life that have always brought a smile to my face or made me laugh:            </span>            <br/>            <span>                My dogs make me laugh when they play together, and my grandchildren make me laugh when they put on plays for me.  They bring me great joy.            </span>        </span><br/><br/></div>"
+        },
+        "entry": [ {
+          "reference": "Goal/P0522-ADIMMD-2020PACP-Goal-LikesJoys"
+        }, {
+          "reference": "Goal/P0522-ADIMMD-2020PACP-Goal-Avoid"
+        }, {
+          "reference": "Goal/P0522-ADIMMD-2020PACP-Goal-HowToCareForMe"
+        }, {
+          "reference": "Goal/P0522-ADIMMD-2020PACP-Goal-MyReligion"
+        }, {
+          "reference": "Goal/P0522-ADIMMD-2020PACP-Goal-NotifyReligious"
+        }, {
+          "reference": "Goal/P0522-ADIMMD-2020PACP-Goal-UnfinishedBusiness"
+        }, {
+          "reference": "Goal/P0522-ADIMMD-2020PACP-Goal-Laughter"
+        } ]
+      }, {
+        "extension": [ {
+          "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-clause-extension",
+          "extension": [ {
+            "url": "Clause",
+            "valueMarkdown": "<div><p>I am emotionally and mentally competent to make this uADD.  I understand the purpose and effect of this uADD, I agree with everything that is written in this uADD, and I have made this uADD knowingly, willingly and after careful deliberation.</p><table>    <thead>        <tr>            <td>Data Type</td>            <td>Information</td>        </tr>    </thead>    <tbody>        <tr>            <td>Signature:</td>            <td>Betsy Smith-Johnson</td>        </tr>        <tr>            <td>Date:</td>            <td>3/29/2021</td>        </tr>    </tbody></table><br></br><br></br><span>    Statement of Witnesses</span><br></br><br></br><span>    I declare that the person who signed this uADD, or who asked another to sign this uADD on his/her behalf, is the individual identified in the document, and he/she did so in my presence or otherwise provided satisfactory proof to me of his/her identity. I believe him/her to be of sound mind and at least 18 years of age. I personally witnessed him/her sign this document or ask the person indicated to do so, or I received proof of his/her identity that I believe is adequate, and I believe that he/she did so voluntarily.  By signing this document as a witness, I certify that I am:</span><br></br><br></br><ul>    <li>At least 18 years of age.</li>    <li>Not related to the person signing this document by blood, marriage or adoption.</li>    <li>Not a healthcare agent appointed by the person signing this document.</li>    <li>Not directly financially responsible for that person’s healthcare.</li>    <li>Not a healthcare provider directly serving the person at this time.</li>    <li>Not an employee (other than a social worker or chaplain), officer, director, or partner of a healthcare provider (or any parent organization of such healthcare provider) directly serving the person at this time.</li>    <li>Not aware that I am entitled to or have a claim against the person’s estate.</li></ul><br></br><br></br>    <table>        <thead>            <tr>                <td>Data Type</td>                <td>Information</td>            </tr>        </thead>        <tbody>            <tr>                <td>Witness Number:</td>                <td></td>            </tr>            <tr>                <td>Signature:</td>                <td></td>            </tr>            <tr>                <td>Date:</td>                <td></td>            </tr>        </tbody>    </table><br></br>        <br></br><br></br><br></br></div>"
+          } ]
+        } ],
+        "title": "Witnesses and Notary",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "81339-4",
+            "display": "Witnesses and Notary"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>I am emotionally and mentally competent to make this uADD.  I understand the purpose and effect of this uADD, I agree with everything that is written in this uADD, and I have made this uADD knowingly, willingly and after careful deliberation.</p><table>    <thead>        <tr>            <td>Data Type</td>            <td>Information</td>        </tr>    </thead>    <tbody>        <tr>            <td>Signature:</td>            <td>Betsy Smith-Johnson</td>        </tr>        <tr>            <td>Date:</td>            <td>3/29/2021</td>        </tr>    </tbody></table><br/><br/><span>    Statement of Witnesses</span><br/><br/><span>    I declare that the person who signed this uADD, or who asked another to sign this uADD on his/her behalf, is the individual identified in the document, and he/she did so in my presence or otherwise provided satisfactory proof to me of his/her identity. I believe him/her to be of sound mind and at least 18 years of age. I personally witnessed him/her sign this document or ask the person indicated to do so, or I received proof of his/her identity that I believe is adequate, and I believe that he/she did so voluntarily.  By signing this document as a witness, I certify that I am:</span><br/><br/><ul>    <li>At least 18 years of age.</li>    <li>Not related to the person signing this document by blood, marriage or adoption.</li>    <li>Not a healthcare agent appointed by the person signing this document.</li>    <li>Not directly financially responsible for that person’s healthcare.</li>    <li>Not a healthcare provider directly serving the person at this time.</li>    <li>Not an employee (other than a social worker or chaplain), officer, director, or partner of a healthcare provider (or any parent organization of such healthcare provider) directly serving the person at this time.</li>    <li>Not aware that I am entitled to or have a claim against the person’s estate.</li></ul><br/><br/>    <table>        <thead>            <tr>                <td>Data Type</td>                <td>Information</td>            </tr>        </thead>        <tbody>            <tr>                <td>Witness Number:</td>                <td/>            </tr>            <tr>                <td>Signature:</td>                <td/>            </tr>            <tr>                <td>Date:</td>                <td/>            </tr>        </tbody>    </table><br/>        <br/><br/><br/></div>"
+        }
+      }, {
+        "extension": [ {
+          "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-clause-extension",
+          "extension": [ {
+            "url": "Clause",
+            "valueMarkdown": "<div><span>            <span>Consent to Donate</span><br></br>            <span>I consent to donate all organs and tissues.                                                                                            </span>        </span><br></br><br></br>        <span>            <span>Autopsy</span><br></br>                            <span>I want an autopsy</span>                <span>only if there are questions about my death.</span>                                            </span><br></br><br></br>        <span>            <span>Here are my thoughts on funeral or burial plans:</span><br></br>            <span>                If I were to pass away:<br></br>                Please call Jim Houston, my lawyer, for arrangements I have already made.            </span>        </span><br></br><br></br></div>"
+          } ]
+        } ],
+        "title": "Goals, Preferences and Priorities upon Death",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "81337-8",
+            "display": "GPP upon Death"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>            <span>Consent to Donate</span><br/>            <span>I consent to donate all organs and tissues.                                                                                            </span>        </span><br/><br/>        <span>            <span>Autopsy</span><br/>                            <span>I want an autopsy</span>                <span>only if there are questions about my death.</span>                                            </span><br/><br/>        <span>            <span>Here are my thoughts on funeral or burial plans:</span><br/>            <span>                If I were to pass away:<br/>                Please call Jim Houston, my lawyer, for arrangements I have already made.            </span>        </span><br/><br/></div>"
+        },
+        "entry": [ {
+          "reference": "Observation/P0522-ADIMMD-2020PACP-Obs-OrganDonation"
+        }, {
+          "reference": "Goal/P0522-ADIMMD-2020PACP-Goal-Autopsy"
+        }, {
+          "reference": "Goal/P0522-ADIMMD-2020PACP-Goal-FuneralPlans"
+        } ]
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "Patient",
+      "id": "P0522-patientBSJ1",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Betsy <b>SMITH-JOHNSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>87f37989294a408897aacd1fc5d8fd16</td></tr><tr><td>Address</td><td><span>111 Maple Court </span><br/><span>San Antonio </span><span>TX </span><span>US </span></td></tr><tr><td>Date of birth</td><td><span>15 November 1950</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "system": "urn:oid:2.16.840.1.113883.4.823.1",
+        "value": "87f37989294a408897aacd1fc5d8fd16"
+      } ],
+      "name": [ {
+        "use": "usual",
+        "family": "Smith-Johnson",
+        "given": [ "Betsy" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "advault.test54@jettelabs.com",
+        "use": "home"
+      } ],
+      "gender": "female",
+      "birthDate": "1950-11-15",
+      "address": [ {
+        "use": "home",
+        "line": [ "111 Maple Court" ],
+        "city": "San Antonio",
+        "state": "TX",
+        "postalCode": "78212",
+        "country": "US"
+      } ],
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "code": "eng"
+          } ]
+        }
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "Organization",
+      "id": "P0522-ADIMMD-ADVaultOrg",
+      "identifier": [ {
+        "system": "urn:oid:1.3.6.1.4.1.42424242.4.99930.4",
+        "value": "12c5dcee5089494ca1ca0cb428ed3fff"
+      } ],
+      "name": "ADVault, Inc.",
+      "telecom": [ {
+        "system": "phone",
+        "value": "+1(202)776-7700",
+        "use": "work"
+      } ],
+      "address": [ {
+        "use": "work",
+        "line": [ "740 E. Campbell Rd.", "STE 825" ],
+        "city": "Richardson",
+        "state": "TX",
+        "postalCode": "75081",
+        "country": "US"
+      } ],
+      "endpoint": [ {
+        "reference": "Endpoint/f6bbfae9-4b6c-45e0-aea5-d7092f7e11dd"
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "Device",
+      "id": "P0522-ADIMMD-PortalDevice",
+      "identifier": [ {
+        "system": "urn:oid:2.16.840.1.113883.4.6",
+        "value": "ed6f4f50c6cb47dd89cb5d8f3007ecb0"
+      } ],
+      "modelNumber": "ADVault RR Portal",
+      "version": [ {
+        "value": "1.0"
+      } ],
+      "owner": {
+        "reference": "Organization/P0522-ADIMMD-ADVaultOrg",
+        "display": "ADVault, Inc."
+      }
+    }
+  }, {
+    "resource": {
+      "resourceType": "CarePlan",
+      "id": "P0522-ADIMMD-2020PACP-CarePlan",
+      "status": "active",
+      "intent": "proposal",
+      "category": [ {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "736366004",
+          "display": "Advance care plan"
+        } ]
+      } ],
+      "subject": {
+        "reference": "Patient/P0522-patientBSJ1",
+        "display": "Smith-Johnson, Betsy"
+      },
+      "addresses": [ {
+        "reference": "Condition/P0522-ADIMMD-2020PACP-Cond-LossOfExpression"
+      }, {
+        "reference": "Condition/P0522-ADIMMD-2020PACP-Cond-SignificantPain"
+      }, {
+        "reference": "Condition/P0522-ADIMMD-2020PACP-Cond-NoMeaningfulInteraction"
+      }, {
+        "reference": "Condition/P0522-ADIMMD-2020PACP-Cond-BrainInjury"
+      } ],
+      "goal": [ {
+        "reference": "Goal/P0522-ADIMMD-2020PACP-Goal-AvoidMachineDependence"
+      }, {
+        "reference": "Goal/P0522-ADIMMD-2020PACP-Goal-NotABurden"
+      }, {
+        "reference": "Goal/P0522-ADIMMD-2020PACP-Goal-DyingAtHome"
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "Goal",
+      "id": "P0522-ADIMMD-2020PACP-Goal-AvoidMachineDependence",
+      "text": {
+        "status": "additional",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Avoiding prolonged dependence on machines</div>"
+      },
+      "identifier": [ {
+        "value": "3663A0C0-8993-4949-8A66-B06D031843E0"
+      } ],
+      "lifecycleStatus": "proposed",
+      "category": [ {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "81378-2",
+          "display": "Goals, preferences, and priorities under certain health conditions"
+        } ]
+      } ],
+      "description": {
+        "extension": [ {
+          "url": "Context",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "http://loinc.org",
+              "code": "81378-2",
+              "display": "Goals, preferences, and priorities under certain health conditions"
+            } ]
+          }
+        }, {
+          "url": "Value",
+          "valueString": "Avoiding prolonged dependence on machines"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/P0522-patientBSJ1",
+        "display": "Smith-Johnson, Betsy"
+      }
+    }
+  }, {
+    "resource": {
+      "resourceType": "Goal",
+      "id": "P0522-ADIMMD-2020PACP-Goal-NotABurden",
+      "text": {
+        "status": "additional",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Not being a physical burden to my family</div>"
+      },
+      "identifier": [ {
+        "value": "9B2B8B7A-A44C-4F88-B7F9-38C0C2B91AC5"
+      } ],
+      "lifecycleStatus": "proposed",
+      "category": [ {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "81378-2",
+          "display": "Goals, preferences, and priorities under certain health conditions"
+        } ]
+      } ],
+      "description": {
+        "extension": [ {
+          "url": "Context",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "http://loinc.org",
+              "code": "81378-2",
+              "display": "Goals, preferences, and priorities under certain health conditions"
+            } ]
+          }
+        }, {
+          "url": "Value",
+          "valueString": "Not being a physical burden to my family"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/P0522-patientBSJ1",
+        "display": "Smith-Johnson, Betsy"
+      }
+    }
+  }, {
+    "resource": {
+      "resourceType": "Goal",
+      "id": "P0522-ADIMMD-2020PACP-Goal-DyingAtHome",
+      "text": {
+        "status": "additional",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Dying at home</div>"
+      },
+      "identifier": [ {
+        "value": "F4DC47FA-70FD-45FD-8C9C-0147FDDA3724"
+      } ],
+      "lifecycleStatus": "proposed",
+      "category": [ {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "81378-2",
+          "display": "Goals, preferences, and priorities under certain health conditions"
+        } ]
+      } ],
+      "description": {
+        "extension": [ {
+          "url": "Context",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "http://loinc.org",
+              "code": "81378-2",
+              "display": "Goals, preferences, and priorities under certain health conditions"
+            } ]
+          }
+        }, {
+          "url": "Value",
+          "valueString": "Dying at home"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/P0522-patientBSJ1",
+        "display": "Smith-Johnson, Betsy"
+      }
+    }
+  }, {
+    "resource": {
+      "resourceType": "Condition",
+      "id": "P0522-ADIMMD-2020PACP-Cond-LossOfExpression",
+      "code": {
+        "text": "If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me:"
+      },
+      "subject": {
+        "reference": "Patient/P0522-patientBSJ1",
+        "display": "Smith-Johnson, Betsy"
+      }
+    }
+  }, {
+    "resource": {
+      "resourceType": "Condition",
+      "id": "P0522-ADIMMD-2020PACP-Cond-SignificantPain",
+      "code": {
+        "text": "If I am having significant pain or suffering,"
+      },
+      "subject": {
+        "reference": "Patient/P0522-patientBSJ1",
+        "display": "Smith-Johnson, Betsy"
+      }
+    }
+  }, {
+    "resource": {
+      "resourceType": "Condition",
+      "id": "P0522-ADIMMD-2020PACP-Cond-NoMeaningfulInteraction",
+      "code": {
+        "text": "If my health ever deteriorates due to a terminal illness, and my doctors believe I will not be able to interact meaningfully with my family, friends, or surroundings,"
+      },
+      "subject": {
+        "reference": "Patient/P0522-patientBSJ1",
+        "display": "Smith-Johnson, Betsy"
+      }
+    }
+  }, {
+    "resource": {
+      "resourceType": "Condition",
+      "id": "P0522-ADIMMD-2020PACP-Cond-BrainInjury",
+      "code": {
+        "text": "If I have a severe, irreversible brain injury or illness and can’t dress, feed, or bathe myself, or communicate my medical wishes, but doctors can keep me alive in this condition for a long period of time,"
+      },
+      "subject": {
+        "reference": "Patient/P0522-patientBSJ1",
+        "display": "Smith-Johnson, Betsy"
+      }
+    }
+  }, {
+    "resource": {
+      "resourceType": "RelatedPerson",
+      "id": "P0522-ADIMMD-2020PACP-RP-HCA-Primary-1",
+      "patient": {
+        "reference": "Patient/P0522-patientBSJ1",
+        "display": "Smith-Johnson, Betsy"
+      },
+      "relationship": [ {
+        "coding": [ {
+          "system": "2.16.840.1.113883.6.1",
+          "code": "75783-1",
+          "display": "Primary healthcare agent"
+        } ],
+        "text": "Primary healthcare agent"
+      }, {
+        "text": "Son"
+      } ],
+      "name": [ {
+        "family": "Johnson",
+        "given": [ "Charles" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "CharlesSJ@example.com",
+        "use": "home"
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "Consent",
+      "id": "P0522-ADIMMD-2020PACP-Consent-HCA-Primary-1",
+      "status": "active",
+      "scope": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "75783-1",
+          "display": "Primary healthcare agent"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/consentcategorycodes",
+          "code": "acd",
+          "display": "Advance Directive"
+        } ]
+      } ],
+      "patient": {
+        "reference": "Patient/P0522-patientBSJ1",
+        "display": "Smith-Johnson, Betsy"
+      },
+      "provision": {
+        "actor": [ {
+          "role": {
+            "coding": [ {
+              "system": "http://loinc.org",
+              "code": "75783-1",
+              "display": "Primary healthcare agent"
+            } ]
+          },
+          "reference": {
+            "reference": "RelatedPerson/P0522-ADIMMD-2020PACP-RP-HCA-Primary-1"
+          }
+        } ],
+        "action": [ {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "75786-4",
+            "display": "Powers Granted to Health Agent"
+          } ]
+        } ]
+      }
+    }
+  }, {
+    "resource": {
+      "resourceType": "RelatedPerson",
+      "id": "P0522-ADIMMD-2020PACP-RP-HCA-Primary-2",
+      "patient": {
+        "reference": "Patient/P0522-patientBSJ1",
+        "display": "Smith-Johnson, Betsy"
+      },
+      "relationship": [ {
+        "coding": [ {
+          "system": "2.16.840.1.113883.6.1",
+          "code": "75783-1",
+          "display": "Primary healthcare agent"
+        } ],
+        "text": "Primary healthcare agent"
+      }, {
+        "text": "Son"
+      } ],
+      "name": [ {
+        "family": "Johnson",
+        "given": [ "Charles" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "CharlesSJ@example.com",
+        "use": "home"
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "Consent",
+      "id": "P0522-ADIMMD-2020PACP-Consent-HCA-Primary-2",
+      "status": "active",
+      "scope": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "75783-1",
+          "display": "Primary healthcare agent"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/consentcategorycodes",
+          "code": "acd",
+          "display": "Advance Directive"
+        } ]
+      } ],
+      "patient": {
+        "reference": "Patient/P0522-patientBSJ1",
+        "display": "Smith-Johnson, Betsy"
+      },
+      "provision": {
+        "actor": [ {
+          "role": {
+            "coding": [ {
+              "system": "http://loinc.org",
+              "code": "75783-1",
+              "display": "Primary healthcare agent"
+            } ]
+          },
+          "reference": {
+            "reference": "RelatedPerson/P0522-ADIMMD-2020PACP-RP-HCA-Primary-2"
+          }
+        } ],
+        "action": [ {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "75786-4",
+            "display": "Powers Granted to Health Agent"
+          } ]
+        } ]
+      }
+    }
+  }, {
+    "resource": {
+      "resourceType": "RelatedPerson",
+      "id": "P0522-ADIMMD-2020PACP-RP-HCA-FirstAlt",
+      "patient": {
+        "reference": "Patient/P0522-patientBSJ1",
+        "display": "Smith-Johnson, Betsy"
+      },
+      "relationship": [ {
+        "coding": [ {
+          "system": "2.16.840.1.113883.6.1",
+          "code": "75784-9",
+          "display": "First alternate healthcare agent"
+        } ],
+        "text": "First alternate healthcare agent"
+      }, {
+        "text": "Daughter"
+      } ],
+      "name": [ {
+        "family": "Johnson",
+        "given": [ "Debra" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "DebraSJ@example.com",
+        "use": "home"
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "Consent",
+      "id": "P0522-ADIMMD-2020PACP-Consent-HCA-FirstAlt",
+      "status": "active",
+      "scope": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "75784-9",
+          "display": "First alternate healthcare agent"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/consentcategorycodes",
+          "code": "acd",
+          "display": "Advance Directive"
+        } ]
+      } ],
+      "patient": {
+        "reference": "Patient/P0522-patientBSJ1",
+        "display": "Smith-Johnson, Betsy"
+      },
+      "provision": {
+        "actor": [ {
+          "role": {
+            "coding": [ {
+              "system": "http://loinc.org",
+              "code": "75784-9",
+              "display": "First alternate healthcare agent"
+            } ]
+          },
+          "reference": {
+            "reference": "RelatedPerson/P0522-ADIMMD-2020PACP-RP-HCA-FirstAlt"
+          }
+        } ],
+        "action": [ {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "75786-4",
+            "display": "Powers Granted to Health Agent"
+          } ]
+        } ]
+      }
+    }
+  }, {
+    "resource": {
+      "resourceType": "Goal",
+      "id": "P0522-ADIMMD-2020PACP-Goal-LikesJoys",
+      "text": {
+        "status": "additional",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>                My likes / joys:            </span>            <span>                Here are some examples of the things that I would like to have near me, music that I’d like to hear, and other details of my care that would help to keep me happy and relaxed:            </span>            <br/>            <span>                I love the smell of lavender and the feeling of sunshine on my face.            </span></div>"
+      },
+      "identifier": [ {
+        "value": "1C983019-62EF-4FFA-B81E-448C85DD6A3C"
+      } ],
+      "lifecycleStatus": "proposed",
+      "category": [ {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "81360-0",
+          "display": "My likes and joys"
+        } ],
+        "text": "My likes / joys:"
+      }, {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/us/pacio-adi/CodeSystem/PADIGoalCategoryCS",
+          "code": "care-experience-preference"
+        } ]
+      } ],
+      "description": {
+        "text": "<span>                My likes / joys:            </span>            <span>                Here are some examples of the things that I would like to have near me, music that I’d like to hear, and other details of my care that would help to keep me happy and relaxed:            </span>            <br></br>            <span>                I love the smell of lavender and the feeling of sunshine on my face.            </span>"
+      },
+      "subject": {
+        "reference": "Patient/P0522-patientBSJ1",
+        "display": "Smith-Johnson, Betsy"
+      }
+    }
+  }, {
+    "resource": {
+      "resourceType": "Goal",
+      "id": "P0522-ADIMMD-2020PACP-Goal-Avoid",
+      "text": {
+        "status": "additional",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>                My dislikes / fears:            </span>            <span>                Here is a list of things that I would like to avoid if at all possible, people that I don’t wish to see, and concerns I have about particular family members, pets, and so on:            </span>            <br/>            <span>                I do not like my feet to be cold.            </span></div>"
+      },
+      "identifier": [ {
+        "value": "619B808C-D072-49D7-BEC8-36EF01DAF9C5"
+      } ],
+      "lifecycleStatus": "proposed",
+      "category": [ {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "81362-6",
+          "display": "My dislikes and fears"
+        } ],
+        "text": "My dislikes / fears:"
+      }, {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/us/pacio-adi/CodeSystem/PADIGoalCategoryCS",
+          "code": "care-experience-preference"
+        } ]
+      } ],
+      "description": {
+        "text": "<span>                My dislikes / fears:            </span>            <span>                Here is a list of things that I would like to avoid if at all possible, people that I don’t wish to see, and concerns I have about particular family members, pets, and so on:            </span>            <br></br>            <span>                I do not like my feet to be cold.            </span>"
+      },
+      "subject": {
+        "reference": "Patient/P0522-patientBSJ1",
+        "display": "Smith-Johnson, Betsy"
+      }
+    }
+  }, {
+    "resource": {
+      "resourceType": "Goal",
+      "id": "P0522-ADIMMD-2020PACP-Goal-HowToCareForMe",
+      "text": {
+        "status": "additional",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>                How to care for me:            </span>            <span>                If I become incapacitated and cannot express myself, here is what I would like to tell my healthcare agent, family and friends about how I would like for them to care for me:            </span>            <br/>            <span>                I want photos of my family where I can see them.            </span></div>"
+      },
+      "identifier": [ {
+        "value": "26DD9A43-F12D-49D6-ACAE-3D55F389B66A"
+      } ],
+      "lifecycleStatus": "proposed",
+      "category": [ {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "81380-8",
+          "display": "Goals, preferences, and priorities for care experience"
+        } ],
+        "text": "How to care for me:"
+      }, {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/us/pacio-adi/CodeSystem/PADIGoalCategoryCS",
+          "code": "care-experience-preference"
+        } ]
+      } ],
+      "description": {
+        "text": "<span>                How to care for me:            </span>            <span>                If I become incapacitated and cannot express myself, here is what I would like to tell my healthcare agent, family and friends about how I would like for them to care for me:            </span>            <br></br>            <span>                I want photos of my family where I can see them.            </span>"
+      },
+      "subject": {
+        "reference": "Patient/P0522-patientBSJ1",
+        "display": "Smith-Johnson, Betsy"
+      }
+    }
+  }, {
+    "resource": {
+      "resourceType": "Goal",
+      "id": "P0522-ADIMMD-2020PACP-Goal-MyReligion",
+      "text": {
+        "status": "additional",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>                My religion:            </span>            <span>                If I appear to be approaching the end of my life, here are some things that I would like for my caregivers to know about my faith and my religion.            </span>            <br/>            <span>                Please call Father Mark if my condition warrants the services of a priest.            </span></div>"
+      },
+      "identifier": [ {
+        "value": "18C43128-26DA-42E3-AD34-257D9A09278F"
+      } ],
+      "lifecycleStatus": "proposed",
+      "category": [ {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "81364-2",
+          "display": "Religious beliefs"
+        } ],
+        "text": "My religion:"
+      }, {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/us/pacio-adi/CodeSystem/PADIGoalCategoryCS",
+          "code": "care-experience-preference"
+        } ]
+      } ],
+      "description": {
+        "text": "<span>                My religion:            </span>            <span>                If I appear to be approaching the end of my life, here are some things that I would like for my caregivers to know about my faith and my religion.            </span>            <br></br>            <span>                Please call Father Mark if my condition warrants the services of a priest.            </span>"
+      },
+      "subject": {
+        "reference": "Patient/P0522-patientBSJ1",
+        "display": "Smith-Johnson, Betsy"
+      }
+    }
+  }, {
+    "resource": {
+      "resourceType": "Goal",
+      "id": "P0522-ADIMMD-2020PACP-Goal-NotifyReligious",
+      "text": {
+        "status": "additional",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>                Please attempt to notify someone from my religion at the following phone number:            </span>            <span>                If I have included one            </span>            <br/>            <span>                Catholic            </span></div>"
+      },
+      "identifier": [ {
+        "value": "B06B860A-20BC-4A84-9D6F-932BD07F46B9"
+      } ],
+      "lifecycleStatus": "proposed",
+      "category": [ {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "81365-9",
+          "display": "Religious affiliation contact to notify"
+        } ],
+        "text": "Please attempt to notify someone from my religion at the following phone number:"
+      }, {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/us/pacio-adi/CodeSystem/PADIGoalCategoryCS",
+          "code": "care-experience-preference"
+        } ]
+      } ],
+      "description": {
+        "text": "<span>                Please attempt to notify someone from my religion at the following phone number:            </span>            <span>                If I have included one            </span>            <br></br>            <span>                Catholic            </span>"
+      },
+      "subject": {
+        "reference": "Patient/P0522-patientBSJ1",
+        "display": "Smith-Johnson, Betsy"
+      }
+    }
+  }, {
+    "resource": {
+      "resourceType": "Goal",
+      "id": "P0522-ADIMMD-2020PACP-Goal-UnfinishedBusiness",
+      "text": {
+        "status": "additional",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>                My unfinished business:            </span>            <span>                If it appears that I am approaching the end of my life, and I cannot communicate with persons around me, I would want my doctors and nurses, my family, and my friends to know about some unfinished business that I need to address:            </span>            <br/>            <span>                I want my sister and I to talk again, and miss her.  I wish we hadn't disagreed all those years ago and regret the time it has cost us.  I'd like to see her face if I were very ill and needed the comfort of family at my side.            </span></div>"
+      },
+      "identifier": [ {
+        "value": "E3F2C471-9FEE-4A31-B392-FC716ACE25BF"
+      } ],
+      "lifecycleStatus": "proposed",
+      "category": [ {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "81366-7",
+          "display": "Unfinished business"
+        } ],
+        "text": "My unfinished business:"
+      }, {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/us/pacio-adi/CodeSystem/PADIGoalCategoryCS",
+          "code": "care-experience-preference"
+        } ]
+      } ],
+      "description": {
+        "text": "<span>                My unfinished business:            </span>            <span>                If it appears that I am approaching the end of my life, and I cannot communicate with persons around me, I would want my doctors and nurses, my family, and my friends to know about some unfinished business that I need to address:            </span>            <br></br>            <span>                I want my sister and I to talk again, and miss her.  I wish we hadn't disagreed all those years ago and regret the time it has cost us.  I'd like to see her face if I were very ill and needed the comfort of family at my side.            </span>"
+      },
+      "subject": {
+        "reference": "Patient/P0522-patientBSJ1",
+        "display": "Smith-Johnson, Betsy"
+      }
+    }
+  }, {
+    "resource": {
+      "resourceType": "Goal",
+      "id": "P0522-ADIMMD-2020PACP-Goal-Laughter",
+      "text": {
+        "status": "additional",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>                Laughter:            </span>            <span>                These are some of my fondest memories from life that have always brought a smile to my face or made me laugh:            </span>            <br/>            <span>                My dogs make me laugh when they play together, and my grandchildren make me laugh when they put on plays for me.  They bring me great joy.            </span></div>"
+      },
+      "identifier": [ {
+        "value": "958DB424-45A8-4F53-8EC8-BC4164CCFAC5"
+      } ],
+      "lifecycleStatus": "proposed",
+      "category": [ {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "81361-8",
+          "display": "Things that make me laugh"
+        } ],
+        "text": "Laughter:"
+      }, {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/us/pacio-adi/CodeSystem/PADIGoalCategoryCS",
+          "code": "care-experience-preference"
+        } ]
+      } ],
+      "description": {
+        "text": "<span>                Laughter:            </span>            <span>                These are some of my fondest memories from life that have always brought a smile to my face or made me laugh:            </span>            <br></br>            <span>                My dogs make me laugh when they play together, and my grandchildren make me laugh when they put on plays for me.  They bring me great joy.            </span>"
+      },
+      "subject": {
+        "reference": "Patient/P0522-patientBSJ1",
+        "display": "Smith-Johnson, Betsy"
+      }
+    }
+  }, {
+    "resource": {
+      "resourceType": "Observation",
+      "id": "P0522-ADIMMD-2020PACP-Obs-OrganDonation",
+      "text": {
+        "status": "additional",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>Consent to Donate</span><br/>            <span>I consent to donate all organs and tissues.                                                                                            </span></div>"
+      },
+      "identifier": [ {
+        "value": "D5C2AED2-6C54-4B87-B3ED-3E7DB452464B"
+      } ],
+      "status": "final",
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "75781-5",
+          "display": "Thoughts on organ and tissue donations"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/P0522-patientBSJ1",
+        "display": "Smith-Johnson, Betsy"
+      },
+      "valueString": "I consent to donate all organs and tissues."
+    }
+  }, {
+    "resource": {
+      "resourceType": "Goal",
+      "id": "P0522-ADIMMD-2020PACP-Goal-Autopsy",
+      "text": {
+        "status": "additional",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>Autopsy</span><br/>                            <span>I want an autopsy</span>                <span>only if there are questions about my death.</span></div>"
+      },
+      "identifier": [ {
+        "value": "60FB0652-6D14-43F9-B8F4-A228BE809E03"
+      } ],
+      "lifecycleStatus": "proposed",
+      "category": [ {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "75782-3",
+          "display": "Thoughts on Autopsy"
+        } ],
+        "text": "Autopsy"
+      }, {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/us/pacio-adi/CodeSystem/PADIGoalCategoryCS",
+          "code": "care-experience-preference"
+        } ]
+      } ],
+      "description": {
+        "text": "<span>Autopsy</span><br></br>                            <span>I want an autopsy</span>                <span>only if there are questions about my death.</span>"
+      },
+      "subject": {
+        "reference": "Patient/P0522-patientBSJ1",
+        "display": "Smith-Johnson, Betsy"
+      }
+    }
+  }, {
+    "resource": {
+      "resourceType": "Goal",
+      "id": "P0522-ADIMMD-2020PACP-Goal-FuneralPlans",
+      "text": {
+        "status": "additional",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>Here are my thoughts on funeral or burial plans:</span><br/>            <span>                If I were to pass away:<br/>                Please call Jim Houston, my lawyer, for arrangements I have already made.            </span></div>"
+      },
+      "identifier": [ {
+        "value": "3AA3A26D-4416-4DD6-A85D-D8DD9CECAA79"
+      } ],
+      "lifecycleStatus": "proposed",
+      "category": [ {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/us/pacio-adi/CodeSystem/PADIGoalCategoryCS",
+          "code": "intervention-preference"
+        } ]
+      } ],
+      "description": {
+        "text": "<span>Here are my thoughts on funeral or burial plans:</span><br></br>            <span>                If I were to pass away:<br></br>                Please call Jim Houston, my lawyer, for arrangements I have already made.            </span>"
+      },
+      "subject": {
+        "reference": "Patient/P0522-patientBSJ1",
+        "display": "Smith-Johnson, Betsy"
+      }
+    }
+  } ]
+}

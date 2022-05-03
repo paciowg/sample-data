@@ -1,0 +1,8 @@
+observationsplasch.id,subject.patientRef,category[->],effectiveDateTime,organizationRef,performer.Practitioner,performer.PractitionerRole,performer.Organization,code[->],value[->]
+BSJ-ObservationSPLASCH-099,BSJ-patientBSJ1,spoken-language-comprehension,2020-07-31T10:20:00-05:00,"","",provider-role-clinical-social-work-RayMancioni,"",understand-simple-routine-high-demand,LA10082-8
+BSJ-ObservationSPLASCH-076,BSJ-patientBSJ1,swallowing,2020-07-12T16:30:00-05:00,"","",provider-role-speech-language-pathologist-MariaGonzalez,"",assistance-swallowing-safety,50-75-percent
+BSJ-ObservationSPLASCH-021,BSJ-patientBSJ1,spoken-language-comprehension,2020-07-08T09:30:00-05:00,"","",provider-role-speech-language-pathologist-JennyGlass,"",understand-simple-routine-high-demand,26-49-percent
+BSJ-ObservationSPLASCH-037,BSJ-patientBSJ1,swallowing,2020-07-09T10:30:00-05:00,"","",provider-role-registered-nurse-JudySmiley,"",oral-containment-secretion-difficulty,LA10044-8
+BSJ-ObservationSPLASCH-060,BSJ-patientBSJ1,spoken-language-expression,2020-07-12T13:32:00-05:00,"","",provider-role-registered-nurse-LiaNguyen,"",communicate-without-assistance,LA10066-1
+BSJ-ObservationSPLASCH-095,BSJ-patientBSJ1,spoken-language-expression,2020-07-30T15:15:00-05:00,"","",provider-role-speech-language-pathologist-MariaGonzalez,"",verbal-content-high-demand,50-75-percent
+BSJ-ObservationSPLASCH-083,BSJ-patientBSJ1,spoken-language-comprehension,2020-07-26T08:00:00-05:00,"","",provider-role-speech-language-pathologist-AlexanderKuikhoff,"",understand-simple-routine-high-demand,50-75-percent

@@ -1,0 +1,55 @@
+{
+  "id": "P0522-patientBSJ1",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Betsy <b>SMITH-JOHNSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>87f37989294a408897aacd1fc5d8fd16</td></tr><tr><td>Address</td><td><span>111 Maple Court </span><br/><span>San Antonio </span><span>TX </span><span>US </span></td></tr><tr><td>Date of birth</td><td><span>15 November 1950</span></td></tr></tbody></table></div>"
+  },
+  "identifier": [
+    {
+      "system": "urn:oid:2.16.840.1.113883.4.823.1",
+      "value": "87f37989294a408897aacd1fc5d8fd16"
+    }
+  ],
+  "name": [
+    {
+      "use": "usual",
+      "family": "Smith-Johnson",
+      "given": [
+        "Betsy"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "email",
+      "value": "advault.test54@jettelabs.com",
+      "use": "home"
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1950-11-15",
+  "address": [
+    {
+      "use": "home",
+      "line": [
+        "111 Maple Court"
+      ],
+      "city": "San Antonio",
+      "state": "TX",
+      "postalCode": "78212",
+      "country": "US"
+    }
+  ],
+  "communication": [
+    {
+      "language": {
+        "coding": [
+          {
+            "code": "eng"
+          }
+        ]
+      }
+    }
+  ],
+  "resourceType": "Patient"
+}

@@ -1,0 +1,5 @@
+resource.id,name.given,name.family,identifier.system,identifier.value,telecom.value,gender,address.text
+Practitioner-SummerJohnson,Summer,Johnson,http://hl7.org/fhir/sid/us-npi,9876543210,(210) 555 1871,female,"8100 Pinebrook Dr, San Antonio, TX, 78230"
+Practitioner-DonHopmed,Don,Hopmed,http://hl7.org/fhir/sid/us-npi,4652819730,(210)555-1234,male,"26022 Meadowlark Bay, San Antonio, TX 78260"
+Practitioner-RayMancioni,Ray,Mancioni,http://hl7.org/fhir/sid/us-npi,4682197305,(210) 555 1871,male,"8100 Pinebrook Dr, San Antonio, TX, 78230"
+Practitioner-SallySmith,Sally,Smith,http://hl7.org/fhir/sid/us-npi,1324657980,(210)555-1234,female,"26022 Meadowlark Bay, San Antonio, TX 78260"
