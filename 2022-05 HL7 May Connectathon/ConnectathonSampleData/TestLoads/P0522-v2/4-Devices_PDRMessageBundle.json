@@ -1,0 +1,105 @@
+{
+  "type": "message",
+  "entry": [
+    {
+      "resource": {
+        "extension": [
+          {
+            "url": "https://github.com/Open-Health-Manager/patient-data-receipt-ig/StructureDefinition/AccountExtension",
+            "valueString": "P0522-v2-PatientBSJ1"
+          }
+        ],
+        "eventUri": "urn:mitre:healthmanager:pdr",
+        "source": {
+          "endpoint": "http://sample.data.org/"
+        },
+        "resourceType": "MessageHeader"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-CMS-Device-RaisedToiletSeat",
+        "deviceName": [
+          {
+            "name": "Raised toilet seat",
+            "type": "user-friendly-name"
+          }
+        ],
+        "resourceType": "Device"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-CMS-Device-HandleBars",
+        "deviceName": [
+          {
+            "name": "Handle bars",
+            "type": "user-friendly-name"
+          }
+        ],
+        "resourceType": "Device"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-CMS-Device-BedsideRails",
+        "deviceName": [
+          {
+            "name": "Bedside rails, device",
+            "type": "user-friendly-name"
+          }
+        ],
+        "resourceType": "Device"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-CMS-Device-RollingWalker",
+        "deviceName": [
+          {
+            "name": "Rolling walker",
+            "type": "user-friendly-name"
+          }
+        ],
+        "resourceType": "Device"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-CMS-Device-HearingAid",
+        "deviceName": [
+          {
+            "name": "Hearing aid",
+            "type": "user-friendly-name"
+          }
+        ],
+        "resourceType": "Device"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-CMS-Device-Walker",
+        "deviceName": [
+          {
+            "name": "Walker",
+            "type": "user-friendly-name"
+          }
+        ],
+        "resourceType": "Device"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-CMS-Device-Eyeglasses",
+        "deviceName": [
+          {
+            "name": "Eyeglasses",
+            "type": "user-friendly-name"
+          }
+        ],
+        "resourceType": "Device"
+      }
+    }
+  ],
+  "resourceType": "Bundle"
+}

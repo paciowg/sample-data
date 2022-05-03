@@ -1,0 +1,70 @@
+{
+  "type": "message",
+  "entry": [
+    {
+      "resource": {
+        "extension": [
+          {
+            "url": "https://github.com/Open-Health-Manager/patient-data-receipt-ig/StructureDefinition/AccountExtension",
+            "valueString": "P0522-v2-PatientBSJ1"
+          }
+        ],
+        "eventUri": "urn:mitre:healthmanager:pdr",
+        "source": {
+          "endpoint": "http://sample.data.org/"
+        },
+        "resourceType": "MessageHeader"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-Enc-EstablishMIPCP",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+          ]
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB",
+          "display": "ambulatory"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://www.ama-assn.org/go/cpt",
+                "code": "99201"
+              }
+            ],
+            "text": "Office Visit"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/P0522-v2-patientBSJ1"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "PractitionerRole/P0522-v2-Role-IMMD-AnitaChu"
+            }
+          }
+        ],
+        "period": {
+          "start": "2021-12-20T13:00:14-05:00",
+          "end": "2021-12-20T14:00:14-05:00"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "Location/P0522-v2-org-Loc-PC-Primary-Care-Michigan"
+            }
+          }
+        ],
+        "resourceType": "Encounter"
+      }
+    }
+  ],
+  "resourceType": "Bundle"
+}

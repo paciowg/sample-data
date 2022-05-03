@@ -1,0 +1,39 @@
+{
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "Practitioner/P0522-v3-Practitioner-JohnSmith",
+      "resource": {
+        "id": "P0522-v3-Practitioner-JohnSmith",
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "2345678901"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "text": "John Smith",
+            "family": "Smith",
+            "given": [
+              "John"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(210) 564 1389"
+          }
+        ],
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/P0522-v3-Practitioner-JohnSmith"
+      }
+    }
+  ],
+  "resourceType": "Bundle"
+}

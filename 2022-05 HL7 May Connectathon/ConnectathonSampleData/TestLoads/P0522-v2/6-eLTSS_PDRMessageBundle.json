@@ -1,0 +1,1377 @@
+{
+  "type": "message",
+  "entry": [
+    {
+      "resource": {
+        "extension": [
+          {
+            "url": "https://github.com/Open-Health-Manager/patient-data-receipt-ig/StructureDefinition/AccountExtension",
+            "valueString": "P0522-v2-PatientBSJ1"
+          }
+        ],
+        "eventUri": "urn:mitre:healthmanager:pdr",
+        "source": {
+          "endpoint": "http://sample.data.org/"
+        },
+        "resourceType": "MessageHeader"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-eLTSS-needDepressionTreatment",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Condition-eltss"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/eLTSS/CodeSystem/eltss-condition-category-code",
+                "code": "assessed-need"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "35489007",
+              "display": "Depressive disorder (disorder)"
+            }
+          ],
+          "text": "Depression (on treatment)"
+        },
+        "subject": {
+          "reference": "Patient/P0522-v2-patientBSJ1"
+        },
+        "resourceType": "Condition"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-eLTSS-questionnaireServices",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Questionnaire-eltss"
+          ]
+        },
+        "name": "Questionnaire1",
+        "status": "active",
+        "item": [
+          {
+            "linkId": "q1",
+            "text": "Did you choose the setting in which you reside?",
+            "type": "boolean"
+          },
+          {
+            "linkId": "q2",
+            "text": "What alternative home and community-based settings were considered?",
+            "type": "string"
+          },
+          {
+            "linkId": "q3",
+            "text": "Were you given a choice of services outlined in the plan?",
+            "type": "boolean"
+          },
+          {
+            "linkId": "q4",
+            "text": "Did you participate in the selection of services outlined in the plan?",
+            "type": "boolean"
+          },
+          {
+            "linkId": "q5",
+            "text": "Do you agree to the services outlined in the plan?",
+            "type": "boolean"
+          },
+          {
+            "linkId": "q6",
+            "text": "Were you offered a choice of providers for each service?",
+            "type": "boolean"
+          },
+          {
+            "linkId": "q7",
+            "text": "Do you feel you made an informed choice in selecting the provider for each service?",
+            "type": "boolean"
+          }
+        ],
+        "resourceType": "Questionnaire"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-eLTSS-preferenceICWP",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Observation-eltss"
+          ]
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/us/eLTSS/CodeSystem/eltss-observation-code",
+              "code": "preference"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/P0522-v2-patientBSJ1"
+        },
+        "valueString": "Accessing the ICWP Waiver for her current service needs, and would like to remain on ICWP and continue with her current services.",
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-Practitioner-eLTSS-driver-BillDriver",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Practitioner-eltss"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.acme.org/practitioners",
+            "value": "11223344"
+          }
+        ],
+        "name": [
+          {
+            "text": "Bill Driver",
+            "family": "Driver",
+            "given": [
+              "Bill"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(210) 111 2222"
+          }
+        ],
+        "resourceType": "Practitioner"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-eLTSS-needDiabetesEducation",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Condition-eltss"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/eLTSS/CodeSystem/eltss-condition-category-code",
+                "code": "assessed-need"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "734920002",
+              "display": "Diabetes mellitus education service"
+            }
+          ],
+          "text": "Needs health / nutrition education for diabetes"
+        },
+        "subject": {
+          "reference": "Patient/P0522-v2-patientBSJ1"
+        },
+        "resourceType": "Condition"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-eLTSS-strengthManageBills",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Observation-eltss"
+          ]
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/us/eLTSS/CodeSystem/eltss-observation-code",
+              "code": "strength"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/P0522-v2-patientBSJ1"
+        },
+        "valueString": "Able to manage her bills.",
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-eLTSS-goalDanceSonWedding",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Goal-eltss"
+          ]
+        },
+        "lifecycleStatus": "accepted",
+        "description": {
+          "text": "Dance at son's upcoming wedding"
+        },
+        "subject": {
+          "reference": "Patient/P0522-v2-patientBSJ1"
+        },
+        "resourceType": "Goal"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-RP-eLTSS-son-CharlesJohnson",
+        "patient": {
+          "reference": "Patient/P0522-v2-patientBSJ1"
+        },
+        "relationship": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                "code": "SONC"
+              }
+            ]
+          }
+        ],
+        "name": [
+          {
+            "text": "Charles Johnson",
+            "family": "Charles",
+            "given": [
+              "Johnson"
+            ]
+          }
+        ],
+        "resourceType": "RelatedPerson"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-org-eLTSS-transportProvider",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Practitioner-eltss"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.acme.org/practitioners",
+            "value": "24680"
+          }
+        ],
+        "name": "The Transporter, Inc.",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(210) 555 1313"
+          }
+        ],
+        "address": [
+          {
+            "text": "111 Business Street, San Antonio, TX 78212"
+          }
+        ],
+        "resourceType": "Organization"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-eLTSS-Careplan-eLTSS-Personal-Initial",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/CarePlan-eltss"
+          ]
+        },
+        "status": "active",
+        "intent": "plan",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/core/CodeSystem/careplan-category",
+                "code": "assess-plan"
+              }
+            ]
+          }
+        ],
+        "title": "Betsy Smith Johnson's Services and Supports Plan for 2020",
+        "description": "A service and support plan that outlines Betsy's assessed needs, goals, strengths, preferences, and services/providers to meet those needs and goals.",
+        "subject": {
+          "reference": "Patient/P0522-v2-patientBSJ1"
+        },
+        "period": {
+          "start": "2020-05-01",
+          "end": "2021-04-30"
+        },
+        "author": {
+          "reference": "Practitioner/P0522-v2-Practitioner-eLTSS-planner-MarkPlanner"
+        },
+        "addresses": [
+          {
+            "reference": "Condition/P0522-v2-eLTSS-needDiabetesEducation"
+          },
+          {
+            "reference": "Condition/P0522-v2-eLTSS-needDepressionTreatment"
+          }
+        ],
+        "supportingInfo": [
+          {
+            "reference": "Observation/P0522-v2-eLTSS-strengthManageBills"
+          },
+          {
+            "reference": "Observation/P0522-v2-eLTSS-strengthWalkWithCane"
+          },
+          {
+            "reference": "Observation/P0522-v2-eLTSS-preferenceICWP"
+          },
+          {
+            "reference": "QuestionnaireResponse/P0522-v2-eLTSS-questionnaireResponseServices-Initial"
+          },
+          {
+            "reference": "Contract/P0522-v2-eLTSS-contractSigned-Initial"
+          },
+          {
+            "reference": "RiskAssessment/P0522-v2-eLTSS-riskFalls"
+          }
+        ],
+        "goal": [
+          {
+            "reference": "Goal/P0522-v2-eLTSS-goalBalance"
+          },
+          {
+            "reference": "Goal/P0522-v2-eLTSS-goalDanceSonWedding"
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "goal": [
+                {
+                  "reference": "Goal/P0522-v2-eLTSS-goalBalance"
+                }
+              ],
+              "status": "not-started",
+              "description": "Perform exercises to improve balance skills"
+            }
+          },
+          {
+            "detail": {
+              "goal": [
+                {
+                  "reference": "Goal/P0522-v2-eLTSS-goalDanceSonWedding"
+                }
+              ],
+              "status": "not-started",
+              "description": "Work on mobility to dance at son's upcoming wedding"
+            }
+          },
+          {
+            "reference": {
+              "reference": "ServiceRequest/P0522-v2-eLTSS-serviceBathRail-Initial"
+            }
+          },
+          {
+            "reference": {
+              "reference": "ServiceRequest/P0522-v2-eLTSS-serviceDiabetesEducation-Initial"
+            }
+          },
+          {
+            "reference": {
+              "reference": "ServiceRequest/P0522-v2-eLTSS-serviceBalance-Initial"
+            }
+          }
+        ],
+        "resourceType": "CarePlan"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-Practitioner-eLTSS-caremgr-SamMonitor",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Practitioner-eltss"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://hl7.org.fhir/sid/us-npi",
+            "value": "9941339109"
+          },
+          {
+            "system": "http://www.acme.org/practitioners",
+            "value": "25457"
+          }
+        ],
+        "name": [
+          {
+            "text": "Sam Monitor",
+            "family": "Monitor",
+            "given": [
+              "Sam"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(210) 224 1599"
+          }
+        ],
+        "resourceType": "Practitioner"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-eLTSS-goalDanceDaughterWedding",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Goal-eltss"
+          ]
+        },
+        "lifecycleStatus": "accepted",
+        "description": {
+          "text": "Dance at daughter's upcoming wedding"
+        },
+        "subject": {
+          "reference": "Patient/P0522-v2-patientBSJ1"
+        },
+        "resourceType": "Goal"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-eLTSS-Careplan-eLTSS-Weather-Emergency-Initial",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/CarePlan-eltss"
+          ]
+        },
+        "partOf": [
+          {
+            "reference": "CarePlan/P0522-v2-eLTSS-Careplan-eLTSS-Personal-Initial"
+          }
+        ],
+        "status": "active",
+        "intent": "plan",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/core/CodeSystem/careplan-category",
+                "code": "assess-plan"
+              }
+            ]
+          }
+        ],
+        "title": "Betsy Smith Johnson's Weather Emergency Plan",
+        "description": "Weather Emergency: A shelf-stable meal is delivered to Meals On Wheels clients. It is to be eaten in the unlikely event of cancellation. Weather meals are donated by the Sheboygan Service Club.",
+        "subject": {
+          "reference": "Patient/P0522-v2-patientBSJ1"
+        },
+        "resourceType": "CarePlan"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-eLTSS-episode-Initial",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/EpisodeOfCare-eltss"
+          ]
+        },
+        "status": "active",
+        "patient": {
+          "reference": "Patient/P0522-v2-patientBSJ1"
+        },
+        "careManager": {
+          "reference": "Practitioner/P0522-v2-Practitioner-eLTSS-caremgr-SamMonitor"
+        },
+        "resourceType": "EpisodeOfCare"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-eLTSS-contractSigned-Initial",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Contract-eltss"
+          ]
+        },
+        "signer": [
+          {
+            "type": {
+              "system": "http://terminology.hl7.org/CodeSystem/contractsignertypecodes",
+              "code": "PAT"
+            },
+            "party": {
+              "reference": "Patient/P0522-v2-patientBSJ1"
+            },
+            "signature": [
+              {
+                "type": [
+                  {
+                    "system": "urn:iso-astm:E1762-95:2013",
+                    "code": "1.2.840.10065.1.12.1.7"
+                  }
+                ],
+                "when": "2020-04-02T03:00:00Z",
+                "who": {
+                  "reference": "Patient/P0522-v2-patientBSJ1"
+                },
+                "data": "R0lGODlhIAAgALMAADNmmWNjnGOcnJycnJzOnM7OnP///////////////////////////////////////yH5BAEAAAUALAAAAAAgACAAAARosMhJq704680l6OD0fSFHFmd5pai6vi7FerGYzWAK7HKs8zYVazcUVojH0gyZzFmYvQ4OGtXgUMDn5kqtwlZZLeaKJXOtYbG31lrXdKb0lyySi+l1PE1v5CtpbE0eRISFhod+gYoXEQAAOw=="
+              }
+            ]
+          },
+          {
+            "type": {
+              "system": "http://terminology.hl7.org/CodeSystem/contractsignertypecodes",
+              "code": "GUARD"
+            },
+            "party": {
+              "reference": "RelatedPerson/P0522-v2-RP-eLTSS-guardian-sonCharlesJohnson"
+            },
+            "signature": [
+              {
+                "type": [
+                  {
+                    "system": "urn:iso-astm:E1762-95:2013",
+                    "code": "1.2.840.10065.1.12.1.7"
+                  }
+                ],
+                "when": "2020-04-02T03:00:00Z",
+                "who": {
+                  "reference": "RelatedPerson/P0522-v2-RP-eLTSS-guardian-sonCharlesJohnson"
+                },
+                "data": "R0lGODlhIAAgALMAADNmmWNjnGOcnJycnJzOnM7OnP///////////////////////////////////////yH5BAEAAAUALAAAAAAgACAAAARosMhJq704680l6OD0fSFHFmd5pai6vi7FerGYzWAK7HKs8zYVazcUVojH0gyZzFmYvQ4OGtXgUMDn5kqtwlZZLeaKJXOtYbG31lrXdKb0lyySi+l1PE1v5CtpbE0eRISFhod+gYoXEQAAOw=="
+              }
+            ]
+          },
+          {
+            "type": {
+              "system": "http://terminology.hl7.org/CodeSystem/contractsignertypecodes",
+              "code": "AUT"
+            },
+            "party": {
+              "reference": "Practitioner/P0522-v2-Practitioner-eLTSS-planner-MarkPlanner"
+            },
+            "signature": [
+              {
+                "type": [
+                  {
+                    "system": "urn:iso-astm:E1762-95:2013",
+                    "code": "1.2.840.10065.1.12.1.1"
+                  }
+                ],
+                "when": "2020-04-02T03:00:00Z",
+                "who": {
+                  "reference": "Practitioner/P0522-v2-Practitioner-eLTSS-planner-MarkPlanner"
+                },
+                "data": "R0lGODlhIAAgALMAADNmmWNjnGOcnJycnJzOnM7OnP///////////////////////////////////////yH5BAEAAAUALAAAAAAgACAAAARosMhJq704680l6OD0fSFHFmd5pai6vi7FerGYzWAK7HKs8zYVazcUVojH0gyZzFmYvQ4OGtXgUMDn5kqtwlZZLeaKJXOtYbG31lrXdKb0lyySi+l1PE1v5CtpbE0eRISFhod+gYoXEQAAOw=="
+              }
+            ]
+          },
+          {
+            "type": {
+              "system": "http://terminology.hl7.org/CodeSystem/contractsignertypecodes",
+              "code": "COAUTH"
+            },
+            "party": {
+              "reference": "Practitioner/P0522-v2-Practitioner-eLTSS-caremgr-SamMonitor"
+            },
+            "signature": [
+              {
+                "type": [
+                  {
+                    "system": "urn:iso-astm:E1762-95:2013",
+                    "code": "1.2.840.10065.1.12.1.1"
+                  }
+                ],
+                "when": "2020-04-02T03:00:00Z",
+                "who": {
+                  "reference": "Practitioner/P0522-v2-Practitioner-eLTSS-caremgr-SamMonitor"
+                },
+                "data": "R0lGODlhIAAgALMAADNmmWNjnGOcnJycnJzOnM7OnP///////////////////////////////////////yH5BAEAAAUALAAAAAAgACAAAARosMhJq704680l6OD0fSFHFmd5pai6vi7FerGYzWAK7HKs8zYVazcUVojH0gyZzFmYvQ4OGtXgUMDn5kqtwlZZLeaKJXOtYbG31lrXdKb0lyySi+l1PE1v5CtpbE0eRISFhod+gYoXEQAAOw=="
+              }
+            ]
+          },
+          {
+            "type": {
+              "system": "http://terminology.hl7.org/CodeSystem/contractsignertypecodes",
+              "code": "HPROV"
+            },
+            "party": {
+              "reference": "Practitioner/P0522-v2-Practitioner-eLTSS-LisaEducator"
+            },
+            "signature": [
+              {
+                "type": [
+                  {
+                    "system": "urn:iso-astm:E1762-95:2013",
+                    "code": "1.2.840.10065.1.12.1.7"
+                  }
+                ],
+                "when": "2020-04-02T03:00:00Z",
+                "who": {
+                  "reference": "Practitioner/P0522-v2-Practitioner-eLTSS-LisaEducator"
+                },
+                "data": "R0lGODlhIAAgALMAADNmmWNjnGOcnJycnJzOnM7OnP///////////////////////////////////////yH5BAEAAAUALAAAAAAgACAAAARosMhJq704680l6OD0fSFHFmd5pai6vi7FerGYzWAK7HKs8zYVazcUVojH0gyZzFmYvQ4OGtXgUMDn5kqtwlZZLeaKJXOtYbG31lrXdKb0lyySi+l1PE1v5CtpbE0eRISFhod+gYoXEQAAOw=="
+              }
+            ]
+          },
+          {
+            "type": {
+              "system": "http://terminology.hl7.org/CodeSystem/contractsignertypecodes",
+              "code": "HPROV"
+            },
+            "party": {
+              "reference": "RelatedPerson/P0522-v2-RP-eLTSS-son-CharlesJohnson"
+            },
+            "signature": [
+              {
+                "type": [
+                  {
+                    "system": "urn:iso-astm:E1762-95:2013",
+                    "code": "1.2.840.10065.1.12.1.7"
+                  }
+                ],
+                "when": "2020-04-02T03:00:00Z",
+                "who": {
+                  "reference": "RelatedPerson/P0522-v2-RP-eLTSS-son-CharlesJohnson"
+                },
+                "data": "R0lGODlhIAAgALMAADNmmWNjnGOcnJycnJzOnM7OnP///////////////////////////////////////yH5BAEAAAUALAAAAAAgACAAAARosMhJq704680l6OD0fSFHFmd5pai6vi7FerGYzWAK7HKs8zYVazcUVojH0gyZzFmYvQ4OGtXgUMDn5kqtwlZZLeaKJXOtYbG31lrXdKb0lyySi+l1PE1v5CtpbE0eRISFhod+gYoXEQAAOw=="
+              }
+            ]
+          },
+          {
+            "type": {
+              "system": "http://terminology.hl7.org/CodeSystem/contractsignertypecodes",
+              "code": "HPROV"
+            },
+            "party": {
+              "reference": "Practitioner/P0522-v2-Practitioner-eLTSS-NormaTrainer"
+            },
+            "signature": [
+              {
+                "type": [
+                  {
+                    "system": "urn:iso-astm:E1762-95:2013",
+                    "code": "1.2.840.10065.1.12.1.7"
+                  }
+                ],
+                "when": "2020-04-02T03:00:00Z",
+                "who": {
+                  "reference": "Practitioner/P0522-v2-Practitioner-eLTSS-NormaTrainer"
+                },
+                "data": "R0lGODlhIAAgALMAADNmmWNjnGOcnJycnJzOnM7OnP///////////////////////////////////////yH5BAEAAAUALAAAAAAgACAAAARosMhJq704680l6OD0fSFHFmd5pai6vi7FerGYzWAK7HKs8zYVazcUVojH0gyZzFmYvQ4OGtXgUMDn5kqtwlZZLeaKJXOtYbG31lrXdKb0lyySi+l1PE1v5CtpbE0eRISFhod+gYoXEQAAOw=="
+              }
+            ]
+          }
+        ],
+        "resourceType": "Contract"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-eLTSS-riskFalls",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/RiskAssessment-eltss"
+          ]
+        },
+        "status": "final",
+        "subject": {
+          "reference": "Patient/P0522-v2-patientBSJ1"
+        },
+        "prediction": [
+          {
+            "outcome": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "129839007"
+                }
+              ],
+              "text": "At risk for falls (finding)"
+            }
+          },
+          {
+            "outcome": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "35489007"
+                }
+              ],
+              "text": "Depressive disorder (disorder)"
+            }
+          }
+        ],
+        "mitigation": "Betsy is at risk for falls. Her risk is increased due to her depression medication. She has grab bars installed in the shower and is working on her balance with a trainer.",
+        "resourceType": "RiskAssessment"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-eLTSS-serviceBathRail-Initial",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/ServiceRequest-eltss"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/eLTSS/StructureDefinition/eltss-directedBy",
+            "valueCodeableConcept": {
+              "text": "self"
+            }
+          }
+        ],
+        "status": "active",
+        "intent": "plan",
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.6.14",
+              "code": "E0241"
+            }
+          ],
+          "text": "Bath tub wall rail, each"
+        },
+        "quantityQuantity": {
+          "value": 1,
+          "unit": "install"
+        },
+        "subject": {
+          "reference": "Patient/P0522-v2-patientBSJ1"
+        },
+        "occurrencePeriod": {
+          "start": "2020-05-01",
+          "end": "2020-12-31"
+        },
+        "performer": [
+          {
+            "reference": "RelatedPerson/P0522-v2-RP-eLTSS-son-CharlesJohnson"
+          }
+        ],
+        "locationReference": [
+          {
+            "reference": "Location/P0522-v2-Home-Loc-01"
+          }
+        ],
+        "supportingInfo": [
+          {
+            "reference": "RiskAssessment/P0522-v2-eLTSS-riskFalls"
+          }
+        ],
+        "resourceType": "ServiceRequest"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-eLTSS-coverageICWP",
+        "status": "active",
+        "beneficiary": {
+          "reference": "Patient/P0522-v2-patientBSJ1"
+        },
+        "payor": [
+          {
+            "reference": "Organization/P0522-v2-org-eLTSS-funding"
+          }
+        ],
+        "resourceType": "Coverage"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-eLTSS-serviceBalance-Initial",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/ServiceRequest-eltss"
+          ]
+        },
+        "status": "active",
+        "intent": "plan",
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.6.12",
+              "code": "97110"
+            }
+          ],
+          "text": "therapeutic exercises to improve balance skills"
+        },
+        "quantityRatio": {
+          "numerator": {
+            "value": 1,
+            "unit": "visit"
+          },
+          "denominator": {
+            "value": 1,
+            "unit": "week"
+          }
+        },
+        "subject": {
+          "reference": "Patient/P0522-v2-patientBSJ1"
+        },
+        "occurrencePeriod": {
+          "start": "2020-05-01",
+          "end": "2020-08-01"
+        },
+        "performer": [
+          {
+            "reference": "Practitioner/P0522-v2-Practitioner-eLTSS-NormaTrainer"
+          }
+        ],
+        "supportingInfo": [
+          {
+            "reference": "Goal/P0522-v2-eLTSS-goalBalance"
+          },
+          {
+            "reference": "Goal/P0522-v2-eLTSS-goalDanceSonWedding"
+          },
+          {
+            "reference": "Claim/P0522-v2-eLTSS-claimTherapy-Initial"
+          }
+        ],
+        "resourceType": "ServiceRequest"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-eLTSS-goalBalance",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Goal-eltss"
+          ]
+        },
+        "lifecycleStatus": "accepted",
+        "description": {
+          "text": "Improve balance skills"
+        },
+        "subject": {
+          "reference": "Patient/P0522-v2-patientBSJ1"
+        },
+        "resourceType": "Goal"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-Practitioner-eLTSS-NormaTrainer",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Practitioner-eltss"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.acme.org/practitioners",
+            "value": "987657"
+          }
+        ],
+        "name": [
+          {
+            "text": "Norma Trainer",
+            "family": "Trainer",
+            "given": [
+              "Norma"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(210) 555 1214"
+          }
+        ],
+        "resourceType": "Practitioner"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-eLTSS-questionnaireResponseServices-Initial",
+        "questionnaire": "Questionnaire/P0522-v2-eLTSS-questionnaireServices",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/P0522-v2-patientBSJ1"
+        },
+        "authored": "2020-04-02T03:00:00Z",
+        "item": [
+          {
+            "linkId": "q1",
+            "answer": [
+              {
+                "valueBoolean": true
+              }
+            ]
+          },
+          {
+            "linkId": "q2",
+            "answer": [
+              {
+                "valueString": "Assisted living facility"
+              }
+            ]
+          },
+          {
+            "linkId": "q3",
+            "answer": [
+              {
+                "valueBoolean": true
+              }
+            ]
+          },
+          {
+            "linkId": "q4",
+            "answer": [
+              {
+                "valueBoolean": true
+              }
+            ]
+          },
+          {
+            "linkId": "q5",
+            "answer": [
+              {
+                "valueBoolean": true
+              }
+            ]
+          },
+          {
+            "linkId": "q6",
+            "answer": [
+              {
+                "valueBoolean": true
+              }
+            ]
+          },
+          {
+            "linkId": "q7",
+            "answer": [
+              {
+                "valueBoolean": true
+              }
+            ]
+          }
+        ],
+        "resourceType": "QuestionnaireResponse"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-Practitioner-eLTSS-LisaEducator",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Practitioner-eltss"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.acme.org/practitioners",
+            "value": "987654"
+          }
+        ],
+        "name": [
+          {
+            "text": "Lisa Educator",
+            "family": "Educator",
+            "given": [
+              "Lisa"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(210) 555 1213"
+          }
+        ],
+        "resourceType": "Practitioner"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-eLTSS-claimTherapy-Initial",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Claim-eltss"
+          ]
+        },
+        "status": "active",
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/claim-type",
+              "code": "professional"
+            }
+          ]
+        },
+        "use": "claim",
+        "patient": {
+          "reference": "Patient/P0522-v2-patientBSJ1"
+        },
+        "created": "2020-05-01",
+        "provider": {
+          "reference": "Organization/P0522-v2-org-eLTSS-funding"
+        },
+        "priority": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/processpriority",
+              "code": "normal"
+            }
+          ]
+        },
+        "insurance": [
+          {
+            "sequence": 1,
+            "focal": true,
+            "coverage": {
+              "reference": "Coverage/P0522-v2-eLTSS-coverageICWP"
+            }
+          }
+        ],
+        "item": [
+          {
+            "sequence": 1,
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.6.12",
+                  "code": "97110"
+                }
+              ]
+            },
+            "unitPrice": {
+              "value": 65
+            },
+            "net": {
+              "value": 780
+            }
+          }
+        ],
+        "resourceType": "Claim"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-org-eLTSS-funding",
+        "identifier": [
+          {
+            "value": "ICWP"
+          }
+        ],
+        "name": "Texas Department of Community Health",
+        "address": [
+          {
+            "text": "7430 Louis Pasteur Dr, San Antonio, TX 78229"
+          }
+        ],
+        "resourceType": "Organization"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-RP-eLTSS-guardian-sonCharlesJohnson",
+        "patient": {
+          "reference": "Patient/P0522-v2-patientBSJ1"
+        },
+        "relationship": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                "code": "GUARD"
+              }
+            ]
+          }
+        ],
+        "name": [
+          {
+            "text": "Charles Johnson",
+            "family": "Charles",
+            "given": [
+              "Johnson"
+            ]
+          }
+        ],
+        "resourceType": "RelatedPerson"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-eLTSS-claimDiabetesSelfManagement-Initial",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Claim-eltss"
+          ]
+        },
+        "status": "active",
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/claim-type",
+              "code": "professional"
+            }
+          ]
+        },
+        "use": "claim",
+        "patient": {
+          "reference": "Patient/P0522-v2-patientBSJ1"
+        },
+        "created": "2020-05-01",
+        "provider": {
+          "reference": "Organization/P0522-v2-org-eLTSS-funding"
+        },
+        "priority": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/processpriority",
+              "code": "normal"
+            }
+          ]
+        },
+        "insurance": [
+          {
+            "sequence": 1,
+            "focal": true,
+            "coverage": {
+              "reference": "Coverage/P0522-v2-eLTSS-coverageICWP"
+            }
+          }
+        ],
+        "item": [
+          {
+            "sequence": 1,
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.6.14",
+                  "code": "G0108"
+                }
+              ]
+            },
+            "unitPrice": {
+              "value": 55
+            },
+            "net": {
+              "value": 660
+            }
+          }
+        ],
+        "resourceType": "Claim"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-Practitioner-eLTSS-planner-MarkPlanner",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Practitioner-eltss"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://hl7.org.fhir/sid/us-npi",
+            "value": "9941339108"
+          },
+          {
+            "system": "http://www.acme.org/practitioners",
+            "value": "25456"
+          }
+        ],
+        "name": [
+          {
+            "text": "Mark Planner",
+            "family": "Planner",
+            "given": [
+              "Mark"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(210) 555 1221"
+          }
+        ],
+        "resourceType": "Practitioner"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-eLTSS-needTransportation",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Condition-eltss"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/eLTSS/CodeSystem/eltss-condition-category-code",
+                "code": "assessed-need"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "713458007",
+              "display": "Lack of access to transportation (finding)"
+            }
+          ],
+          "text": "Needs transportation"
+        },
+        "subject": {
+          "reference": "Patient/P0522-v2-patientBSJ1"
+        },
+        "resourceType": "Condition"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-eLTSS-serviceDiabetesEducation-Initial",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/ServiceRequest-eltss"
+          ]
+        },
+        "status": "active",
+        "intent": "plan",
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.6.14",
+              "code": "G0108"
+            }
+          ],
+          "text": "Diabetes outpatient self-management training services, individual, per 30 minutes"
+        },
+        "quantityRatio": {
+          "numerator": {
+            "value": 1,
+            "unit": "visit"
+          },
+          "denominator": {
+            "value": 1,
+            "unit": "week"
+          }
+        },
+        "subject": {
+          "reference": "Patient/P0522-v2-patientBSJ1"
+        },
+        "occurrencePeriod": {
+          "start": "2020-05-01",
+          "end": "2020-08-01"
+        },
+        "performer": [
+          {
+            "reference": "Practitioner/P0522-v2-Practitioner-eLTSS-LisaEducator"
+          }
+        ],
+        "reasonReference": [
+          {
+            "reference": "Condition/P0522-v2-eLTSS-needDiabetesEducation"
+          }
+        ],
+        "supportingInfo": [
+          {
+            "reference": "Claim/P0522-v2-eLTSS-claimDiabetesSelfManagement-Initial"
+          }
+        ],
+        "resourceType": "ServiceRequest"
+      }
+    },
+    {
+      "resource": {
+        "id": "P0522-v2-eLTSS-strengthWalkWithCane",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Observation-eltss"
+          ]
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/us/eLTSS/CodeSystem/eltss-observation-code",
+              "code": "strength"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/P0522-v2-patientBSJ1"
+        },
+        "valueString": "Independent walking with cane.",
+        "resourceType": "Observation"
+      }
+    }
+  ],
+  "resourceType": "Bundle"
+}
