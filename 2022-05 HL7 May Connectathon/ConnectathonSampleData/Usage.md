@@ -2,6 +2,16 @@
 
 This page describes how to use the artifacts in this directory to build and use sample data for the PACIO track at the May 2022 HL7 Connectathon.
 
+Sample data for this connectathon includes many different IGs. Each use a specific subset of this pipeline
+- Shared organizations, practitioners, roles, and locations: start from spreadsheets (NOTE: some non-shared instances come direct from FSH or JSON)
+- PACIO Functional Performance: start from spreadsheets (NOTE: SPLASCH data using the SPLASCH IG uses a different spreadsheet and CSV to FSH pipeline not documented here)
+- PACIO Re-Assessment Timepoints: start from FSH
+- eCQM input data: start from FSH
+- Gravity SDOH Clinical Care: Not included here
+- MCC Care Plan: start from FSH
+- eLTSS Care Plan: start from FSH
+- PACIO ADI: from JSON
+
 ## Fill out spreadsheets
 
 For some classes of data, spreadsheets are a convenient way to collaborate with non-technical members of the team, assuming that they can be transformed into JSON FHIR data. Specifically, sample data that fits the following characterists is a good candidate for this form of collaboration:
@@ -19,6 +29,8 @@ For the PACIO May 2022 Connectathon track, the following data types are leveragi
     - SPLASCH Observations
 
 The root location for shared spreadsheets is in [box](https://mitre.box.com/s/b0auquq4hrmbliy1fir37s7mbpgsj3ih). Prior to building, make sure to pull the latest spreadsheets from box into the `Spreadsheets` folder of this repository.
+
+NOTE: not all observations, clinicians, roles, organizations, and locations come from these spreadsheets, some come from FSH or JSON directly.
 
 ## Create csvs
 
@@ -52,17 +64,16 @@ From the `PractitionerRole.specialtyMap` tab
 
 ### Functional Performance and SPLASCH data
 
-Data comes from the `Time Based Observations- Func Perf & SPLASCH` spreadsheet
+Data comes from the `Time Based Observations- Func Perf & SPLASCH` spreadsheet, tabs "Use for May 2022" and "SPLASCH for FP IG"
 
 - Identify the tab(s) that have data that needs to be converted
 - For each tab, filter on the first type column and
     - Put all FPCollection rows into FPCollection.data.csv
     - Put all FPObservation rows into FPObservation.data.csv
-    - Put all SPLACH rows in SPLASCHObservation.data.csv
 
 ## Transform to FSH
 
-Transformation to FSH (FHIR Shorthand) leverages the [CSV to FSH](https://github.com/paciowg/CSV-to-FSH-app/tree/V2) script (NOTE: currently using the V2 branch). If needed, checkout and configure your system to run this project (may need to use `pyenv` to specify a specific python version). Then,
+Transformation to FSH (FHIR Shorthand) leverages the [CSV to FSH](https://github.com/paciowg/CSV-to-FSH-app/tree/V2) script (NOTE: currently using the V2 branch - [this commit](https://github.com/paciowg/CSV-to-FSH-app/commit/58a9a7dbb127c9af3487ed341bd50faca7b5bfdd) ). If needed, checkout and configure your system to run this project (may need to use `pyenv` to specify a specific python version). Then,
 1. Copy the csv files from the `CSVs` folder into the `input` folder of your `CSV to FSH` project install.
 2. Update the `instance-id-prefix` value in the `input/globalVariables.csv` to specify `P0522-`
 2. Run `python gen_fsh_code.sh`
@@ -78,3 +89,11 @@ Once done,
 1. Confirm you have the right `.fsh` files in the `FSH/input/fsh` folder.
 2. From the `FSH` directory, run `sushi`
 3. Generated JSON will be in the `FSH/fsh-generated/resources` directory.
+
+## Organize JSON
+
+TODO
+
+## group into bundles
+
+TODO
