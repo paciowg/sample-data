@@ -1,0 +1,31 @@
+{
+  "id": "P0522-ADIMMD-2020PACP-Goal-FuneralPlans",
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>Here are my thoughts on funeral or burial plans:</span><br/>            <span>                If I were to pass away:<br/>                Please call Jim Houston, my lawyer, for arrangements I have already made.            </span></div>"
+  },
+  "identifier": [
+    {
+      "value": "3AA3A26D-4416-4DD6-A85D-D8DD9CECAA79"
+    }
+  ],
+  "lifecycleStatus": "proposed",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-adi/CodeSystem/PADIGoalCategoryCS",
+          "code": "intervention-preference"
+        }
+      ]
+    }
+  ],
+  "description": {
+    "text": "<span>Here are my thoughts on funeral or burial plans:</span><br></br>            <span>                If I were to pass away:<br></br>                Please call Jim Houston, my lawyer, for arrangements I have already made.            </span>"
+  },
+  "subject": {
+    "reference": "Patient/P0522-patientBSJ1",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "resourceType": "Goal"
+}

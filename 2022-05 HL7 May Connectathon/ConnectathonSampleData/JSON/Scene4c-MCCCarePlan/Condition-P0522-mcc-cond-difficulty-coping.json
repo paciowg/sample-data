@@ -1,0 +1,54 @@
+{
+  "resourceType": "Condition",
+  "id": "P0522-mcc-cond-difficulty-coping",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"
+    ]
+  },
+  "clinicalStatus": {
+    "coding": [
+      {
+        "code": "active",
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+      }
+    ]
+  },
+  "verificationStatus": {
+    "coding": [
+      {
+        "code": "confirmed",
+        "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "problem-list-item",
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "display": "Problem List Item"
+        }
+      ],
+      "text": "Problem"
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "code": "18232000",
+        "system": "http://snomed.info/sct",
+        "display": "Difficulty coping (finding)"
+      }
+    ],
+    "text": "Lack of understanding or coping strategies for food options with new challenges encountered after recent stroke"
+  },
+  "subject": {
+    "reference": "Patient/P0522-patientBSJ1"
+  },
+  "onsetDateTime": "2021-05-19",
+  "asserter": {
+    "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "resourceType": "Observation",
+  "id": "P0522-mcc-obs-diabetes-poorly-controlled",
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "exam",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+        }
+      ],
+      "text": "exam"
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "code": "443694000",
+        "system": "http://snomed.info/sct",
+        "display": "Type II diabetes mellitus poorly (finding)"
+      }
+    ],
+    "text": "Type II diabetes mellitus poorly (finding)"
+  },
+  "subject": {
+    "reference": "Patient/P0522-patientBSJ1"
+  },
+  "effectiveDateTime": "2021-05-19",
+  "performer": [
+    {
+      "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "129832003",
+        "system": "http://snomed.info/sct",
+        "display": "Noncompliance with dietary regimen (finding)"
+      }
+    ]
+  }
+}

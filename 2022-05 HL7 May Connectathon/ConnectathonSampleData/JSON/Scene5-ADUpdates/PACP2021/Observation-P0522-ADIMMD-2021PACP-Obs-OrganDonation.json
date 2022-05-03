@@ -1,0 +1,28 @@
+{
+  "id": "P0522-ADIMMD-2021PACP-Obs-OrganDonation",
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>Consent to Donate</span><br/>            <span>I consent to donate all organs and tissues.                                                                                            </span></div>"
+  },
+  "identifier": [
+    {
+      "value": "E9C0C416-5B1A-4A09-A246-7108035D8BEE"
+    }
+  ],
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "75781-5",
+        "display": "Thoughts on organ and tissue donations"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/P0522-patientBSJ1",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "valueString": "I consent to donate all organs and tissues.",
+  "resourceType": "Observation"
+}

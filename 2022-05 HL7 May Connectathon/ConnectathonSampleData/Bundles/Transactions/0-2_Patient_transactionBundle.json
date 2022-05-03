@@ -1,0 +1,209 @@
+{
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "Patient/P0522-patientBSJ1",
+      "resource": {
+        "id": "P0522-patientBSJ1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+          ]
+        },
+        "extension": [
+          {
+            "extension": [
+              {
+                "url": "ombCategory",
+                "valueCoding": {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "2106-3",
+                  "display": "White"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+          },
+          {
+            "extension": [
+              {
+                "url": "ombCategory",
+                "valueCoding": {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "2186-5",
+                  "display": "Not Hispanic or Latino"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR",
+                  "display": "Medical Record Number"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-medicare",
+            "value": "10A3D58WH1600"
+          },
+          {
+            "system": "urn:mitre:healthmanager:account:username",
+            "value": "P0522-patientBSJ1"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "text": "Betsy Smith-Johnson",
+            "family": "Smith-Johnson",
+            "given": [
+              "Betsy"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "210-222-1111",
+            "use": "mobile"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1950-11-01",
+        "address": [
+          {
+            "text": "111 Maple Ct, San Antonio, TX 78212",
+            "line": [
+              "111 Maple Ct"
+            ],
+            "city": "San Antonio",
+            "district": "Bexar",
+            "state": "TX",
+            "postalCode": "78212"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "U",
+              "display": "unmarried"
+            }
+          ],
+          "text": "Not married"
+        },
+        "contact": [
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                    "code": "SONC",
+                    "display": "Son"
+                  }
+                ]
+              },
+              {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/v2/0131",
+                    "code": "C",
+                    "display": "Emergency Contact"
+                  }
+                ]
+              },
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                    "code": "GUARD",
+                    "display": "Guardian"
+                  }
+                ]
+              }
+            ],
+            "name": {
+              "text": "Charles Johnson",
+              "family": "Johnson",
+              "given": [
+                "Charles"
+              ]
+            },
+            "telecom": [
+              {
+                "system": "phone",
+                "value": "(210) 222-3333"
+              }
+            ],
+            "address": {
+              "text": "100 Montana St., San Antonio, TX 78203"
+            }
+          },
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                    "code": "DAUC",
+                    "display": "Daughter"
+                  }
+                ]
+              }
+            ],
+            "name": {
+              "text": "Debra Johnson",
+              "family": "Johnson",
+              "given": [
+                "Debra"
+              ]
+            },
+            "telecom": [
+              {
+                "system": "phone",
+                "value": "(410) 444-5555"
+              }
+            ],
+            "address": {
+              "text": "333 W. Camden St., Baltimore, MD 21201"
+            }
+          }
+        ],
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.1.11.11526",
+                  "code": "en",
+                  "display": "English"
+                }
+              ],
+              "text": "US"
+            },
+            "preferred": true
+          }
+        ],
+        "generalPractitioner": [
+          {
+            "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+          }
+        ],
+        "resourceType": "Patient"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Patient/P0522-patientBSJ1"
+      }
+    }
+  ],
+  "resourceType": "Bundle"
+}

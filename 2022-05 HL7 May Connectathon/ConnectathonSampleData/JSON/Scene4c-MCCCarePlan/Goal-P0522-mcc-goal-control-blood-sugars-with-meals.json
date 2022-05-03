@@ -1,0 +1,72 @@
+{
+  "resourceType": "Goal",
+  "id": "P0522-mcc-goal-control-blood-sugars-with-meals",
+  "lifecycleStatus": "active",
+  "achievementStatus": {
+    "coding": [
+      {
+        "code": "in-progress",
+        "system": "http://terminology.hl7.org/CodeSystem/goal-achievement",
+        "display": "In Progress"
+      }
+    ],
+    "text": "In Progress"
+  },
+  "priority": {
+    "coding": [
+      {
+        "code": "high-priority",
+        "system": "http://terminology.hl7.org/CodeSystem/goal-priority",
+        "display": "High Priority"
+      }
+    ],
+    "text": "high"
+  },
+  "description": {
+    "text": "Control blood sugars within 1-2 hours after eating to < 180 mg/dl"
+  },
+  "subject": {
+    "reference": "Patient/P0522-patientBSJ1"
+  },
+  "startDate": "2021-05-19",
+  "target": [
+    {
+      "measure": {
+        "coding": [
+          {
+            "code": "2339-0",
+            "system": "http://loinc.org",
+            "display": "Glucose [Mass/volume] in Blood"
+          }
+        ],
+        "text": "Glucose [Mass/volume] in Blood"
+      },
+      "detailQuantity": {
+        "value": 180,
+        "code": "mg/dl",
+        "system": "http://unitsofmeasure.org/",
+        "unit": "mg/dl"
+      },
+      "dueDate": "2021-11-19"
+    }
+  ],
+  "expressedBy": {
+    "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+  },
+  "addresses": [
+    {
+      "reference": "Condition/P0522-mcc-cond-sdoh-nutrition"
+    },
+    {
+      "reference": "Condition/P0522-mcc-cond-difficulty-coping"
+    },
+    {
+      "reference": "Observation/P0522-mcc-obs-knowledge-deficit"
+    }
+  ],
+  "note": [
+    {
+      "text": "Regularly monitor A1C levels toward overall ideal goal of 6.0."
+    }
+  ]
+}

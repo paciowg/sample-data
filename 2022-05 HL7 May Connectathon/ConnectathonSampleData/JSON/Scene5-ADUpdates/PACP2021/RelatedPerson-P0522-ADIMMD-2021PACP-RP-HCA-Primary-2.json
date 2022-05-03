@@ -1,0 +1,38 @@
+{
+  "id": "P0522-ADIMMD-2021PACP-RP-HCA-Primary-2",
+  "patient": {
+    "reference": "Patient/P0522-patientBSJ1",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "relationship": [
+    {
+      "coding": [
+        {
+          "system": "2.16.840.1.113883.6.1",
+          "code": "75783-1",
+          "display": "Primary healthcare agent"
+        }
+      ],
+      "text": "Primary healthcare agent"
+    },
+    {
+      "text": "Son"
+    }
+  ],
+  "name": [
+    {
+      "family": "Johnson",
+      "given": [
+        "Charles"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "email",
+      "value": "CharlesSJ@example.com",
+      "use": "home"
+    }
+  ],
+  "resourceType": "RelatedPerson"
+}

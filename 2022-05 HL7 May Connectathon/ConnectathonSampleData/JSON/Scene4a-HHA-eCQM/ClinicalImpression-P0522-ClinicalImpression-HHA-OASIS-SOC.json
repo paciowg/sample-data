@@ -1,0 +1,46 @@
+{
+  "resourceType": "ClinicalImpression",
+  "id": "P0522-ClinicalImpression-HHA-OASIS-SOC",
+  "status": "completed",
+  "description": "Assessment and Impression at start of home health care",
+  "subject": {
+    "reference": "Patient/P0522-patientBSJ1"
+  },
+  "effectiveDateTime": "2021-04-07",
+  "encounter": {
+    "reference": "Encounter/P0522-Enc-HHA"
+  },
+  "investigation": [
+    {
+      "code": {
+        "text": "OASIS Start of Care Asessments"
+      },
+      "item": [
+        {
+          "reference": "Observation/P0522-HHA-SC-DG-OASIS-2C"
+        },
+        {
+          "reference": "Observation/P0522-HHA-SC-SOC-Perf-OASIS-2B"
+        },
+        {
+          "reference": "Observation/P0522-HHA-MOB-DG-OASIS-2B"
+        },
+        {
+          "reference": "Observation/P0522-HHA-MOB-SOC-Perf-OASIS-2A"
+        },
+        {
+          "reference": "Observation/P0522-HHA-PF-SOC-OASIS-2A"
+        }
+      ]
+    }
+  ],
+  "supportingInfo": [
+    {
+      "reference": "Observation/P0522-HHA-mental-functions-MMSE-1"
+    },
+    {
+      "reference": "Observation/P0522-HHA-mental-functions-MOCA-1"
+    }
+  ],
+  "summary": "continue recovery at home"
+}

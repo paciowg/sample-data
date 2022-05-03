@@ -1,9 +1,0 @@
-{
-  "resourceType": "Location",
-  "id": "P0522-org-Loc-Transporter-Inc",
-  "name": "The Transporter, Inc.",
-  "address": {
-    "text": "111 Business Street, San Antonio, TX 78212"
-  },
-  "status": "active"
-}

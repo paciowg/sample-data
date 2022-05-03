@@ -1,0 +1,1983 @@
+{
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "Practitioner/P0522-Practitioner-LiaNguyen",
+      "resource": {
+        "id": "P0522-Practitioner-LiaNguyen",
+        "active": true,
+        "name": [
+          {
+            "text": "Lia Nguyen",
+            "family": "Nguyen",
+            "given": [
+              "Lia"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone"
+          }
+        ],
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/P0522-Practitioner-LiaNguyen"
+      }
+    },
+    {
+      "fullUrl": "PractitionerRole/P0522-Role-IMMD-AnitaChu",
+      "resource": {
+        "id": "P0522-Role-IMMD-AnitaChu",
+        "active": true,
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "https://taxonomy.nucc.org/",
+                "code": "207R00000X",
+                "display": "Internal Medicine Physician"
+              }
+            ]
+          }
+        ],
+        "resourceType": "PractitionerRole"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "PractitionerRole/P0522-Role-IMMD-AnitaChu"
+      }
+    },
+    {
+      "fullUrl": "Device/P0522-ADIMMD-PortalDevice",
+      "resource": {
+        "id": "P0522-ADIMMD-PortalDevice",
+        "identifier": [
+          {
+            "system": "urn:oid:2.16.840.1.113883.4.6",
+            "value": "ed6f4f50c6cb47dd89cb5d8f3007ecb0"
+          }
+        ],
+        "modelNumber": "ADVault RR Portal",
+        "version": [
+          {
+            "value": "1.0"
+          }
+        ],
+        "owner": {
+          "reference": "Organization/P0522-ADIMMD-ADVaultOrg",
+          "display": "ADVault, Inc."
+        },
+        "resourceType": "Device"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Device/P0522-ADIMMD-PortalDevice"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/P0522-Practitioner-eLTSS-driver-BillDriver",
+      "resource": {
+        "id": "P0522-Practitioner-eLTSS-driver-BillDriver",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Practitioner-eltss"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.acme.org/practitioners",
+            "value": "11223344"
+          }
+        ],
+        "name": [
+          {
+            "text": "Bill Driver",
+            "family": "Driver",
+            "given": [
+              "Bill"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(210) 111 2222"
+          }
+        ],
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/P0522-Practitioner-eLTSS-driver-BillDriver"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/P0522-Practitioner-jones-vince",
+      "resource": {
+        "id": "P0522-Practitioner-jones-vince",
+        "active": true,
+        "name": [
+          {
+            "text": "Dr. Vince Jones, MD",
+            "family": "Jones",
+            "given": [
+              "Vince"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "777-555-1212",
+            "use": "work"
+          },
+          {
+            "system": "email",
+            "value": "vince.jones@woohoo.com"
+          }
+        ],
+        "gender": "male",
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/P0522-Practitioner-jones-vince"
+      }
+    },
+    {
+      "fullUrl": "PractitionerRole/P0522-Role-PT-RonMarble",
+      "resource": {
+        "id": "P0522-Role-PT-RonMarble",
+        "active": true,
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "https://taxonomy.nucc.org/",
+                "code": "225100000X",
+                "display": "Physical Therapist"
+              }
+            ]
+          }
+        ],
+        "resourceType": "PractitionerRole"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "PractitionerRole/P0522-Role-PT-RonMarble"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/P0522-Practitioner-JennyGlass",
+      "resource": {
+        "id": "P0522-Practitioner-JennyGlass",
+        "active": true,
+        "name": [
+          {
+            "text": "Jenny Glass",
+            "family": "Glass",
+            "given": [
+              "Jenny"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone"
+          }
+        ],
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/P0522-Practitioner-JennyGlass"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/P0522-Practitioner-DanielGranger",
+      "resource": {
+        "id": "P0522-Practitioner-DanielGranger",
+        "active": true,
+        "name": [
+          {
+            "text": "Daniel Granger",
+            "family": "Granger",
+            "given": [
+              "Daniel"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone"
+          }
+        ],
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/P0522-Practitioner-DanielGranger"
+      }
+    },
+    {
+      "fullUrl": "PractitionerRole/P0522-Role-PT-ScottDumble",
+      "resource": {
+        "id": "P0522-Role-PT-ScottDumble",
+        "active": true,
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "https://taxonomy.nucc.org/",
+                "code": "225100000X",
+                "display": "Physical Therapist"
+              }
+            ]
+          }
+        ],
+        "resourceType": "PractitionerRole"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "PractitionerRole/P0522-Role-PT-ScottDumble"
+      }
+    },
+    {
+      "fullUrl": "PractitionerRole/P0522-Role-PT-DanielGranger",
+      "resource": {
+        "id": "P0522-Role-PT-DanielGranger",
+        "active": true,
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "https://taxonomy.nucc.org/",
+                "code": "225100000X",
+                "display": "Physical Therapist"
+              }
+            ]
+          }
+        ],
+        "resourceType": "PractitionerRole"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "PractitionerRole/P0522-Role-PT-DanielGranger"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/P0522-Practitioner-RayMancioni",
+      "resource": {
+        "id": "P0522-Practitioner-RayMancioni",
+        "active": true,
+        "name": [
+          {
+            "text": "Ray Mancioni",
+            "family": "Mancioni",
+            "given": [
+              "Ray"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone"
+          }
+        ],
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/P0522-Practitioner-RayMancioni"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/P0522-Practitioner-estaban-felicity",
+      "resource": {
+        "id": "P0522-Practitioner-estaban-felicity",
+        "active": true,
+        "name": [
+          {
+            "text": "Felicity Estaban, RD",
+            "family": "Estaban",
+            "given": [
+              "Felicity"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "777-555-1212",
+            "use": "work"
+          },
+          {
+            "system": "email",
+            "value": "felicity.estaban@woohoo.com"
+          }
+        ],
+        "gender": "female",
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/P0522-Practitioner-estaban-felicity"
+      }
+    },
+    {
+      "fullUrl": "Organization/P0522-org-eLTSS-transportProvider",
+      "resource": {
+        "id": "P0522-org-eLTSS-transportProvider",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Practitioner-eltss"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.acme.org/practitioners",
+            "value": "24680"
+          }
+        ],
+        "name": "The Transporter, Inc.",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(210) 555 1313"
+          }
+        ],
+        "address": [
+          {
+            "text": "111 Business Street, San Antonio, TX 78212"
+          }
+        ],
+        "resourceType": "Organization"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Organization/P0522-org-eLTSS-transportProvider"
+      }
+    },
+    {
+      "fullUrl": "PractitionerRole/P0522-Role-SLP-HoneyJones",
+      "resource": {
+        "id": "P0522-Role-SLP-HoneyJones",
+        "active": true,
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "https://taxonomy.nucc.org/",
+                "code": "235Z00000X",
+                "display": "Speech-Language Pathologist"
+              }
+            ]
+          }
+        ],
+        "resourceType": "PractitionerRole"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "PractitionerRole/P0522-Role-SLP-HoneyJones"
+      }
+    },
+    {
+      "fullUrl": "PractitionerRole/P0522-Role-Audio-JillBradley",
+      "resource": {
+        "id": "P0522-Role-Audio-JillBradley",
+        "active": true,
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "https://taxonomy.nucc.org/",
+                "code": "231H00000X",
+                "display": "Audiologist"
+              }
+            ]
+          }
+        ],
+        "resourceType": "PractitionerRole"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "PractitionerRole/P0522-Role-Audio-JillBradley"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/P0522-Practitioner-JenCadbury",
+      "resource": {
+        "id": "P0522-Practitioner-JenCadbury",
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "1928374650"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "text": "Jen Cadbury",
+            "family": "Cadbury",
+            "given": [
+              "Jen"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(210) 555 1871"
+          }
+        ],
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/P0522-Practitioner-JenCadbury"
+      }
+    },
+    {
+      "fullUrl": "PractitionerRole/P0522-Role-HHRN-JacobHartwell",
+      "resource": {
+        "id": "P0522-Role-HHRN-JacobHartwell",
+        "active": true,
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "https://taxonomy.nucc.org/",
+                "code": "163WH0200X",
+                "display": "Home Health Registered Nurse"
+              }
+            ]
+          }
+        ],
+        "resourceType": "PractitionerRole"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "PractitionerRole/P0522-Role-HHRN-JacobHartwell"
+      }
+    },
+    {
+      "fullUrl": "PractitionerRole/P0522-Role-HospMD-DonHopmed",
+      "resource": {
+        "id": "P0522-Role-HospMD-DonHopmed",
+        "active": true,
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "https://taxonomy.nucc.org/",
+                "code": "208M00000X",
+                "display": "Hospitalist Physician"
+              }
+            ]
+          }
+        ],
+        "resourceType": "PractitionerRole"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "PractitionerRole/P0522-Role-HospMD-DonHopmed"
+      }
+    },
+    {
+      "fullUrl": "Organization/P0522-ADIMMD-ADVaultOrg",
+      "resource": {
+        "id": "P0522-ADIMMD-ADVaultOrg",
+        "identifier": [
+          {
+            "system": "urn:oid:1.3.6.1.4.1.42424242.4.99930.4",
+            "value": "12c5dcee5089494ca1ca0cb428ed3fff"
+          }
+        ],
+        "name": "ADVault, Inc.",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1(202)776-7700",
+            "use": "work"
+          }
+        ],
+        "address": [
+          {
+            "use": "work",
+            "line": [
+              "740 E. Campbell Rd.",
+              "STE 825"
+            ],
+            "city": "Richardson",
+            "state": "TX",
+            "postalCode": "75081",
+            "country": "US"
+          }
+        ],
+        "resourceType": "Organization"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Organization/P0522-ADIMMD-ADVaultOrg"
+      }
+    },
+    {
+      "fullUrl": "Location/P0522-org-Loc-Hosp-San-Antonio-General",
+      "resource": {
+        "id": "P0522-org-Loc-Hosp-San-Antonio-General",
+        "status": "active",
+        "name": "San Antonio General Hospital",
+        "address": {
+          "text": "26022 Meadowlark Bay, San Antonio, TX 78260"
+        },
+        "resourceType": "Location"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Location/P0522-org-Loc-Hosp-San-Antonio-General"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/P0522-Practitioner-eLTSS-caremgr-SamMonitor",
+      "resource": {
+        "id": "P0522-Practitioner-eLTSS-caremgr-SamMonitor",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Practitioner-eltss"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://hl7.org.fhir/sid/us-npi",
+            "value": "9941339109"
+          },
+          {
+            "system": "http://www.acme.org/practitioners",
+            "value": "25457"
+          }
+        ],
+        "name": [
+          {
+            "text": "Sam Monitor",
+            "family": "Monitor",
+            "given": [
+              "Sam"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(210) 224 1599"
+          }
+        ],
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/P0522-Practitioner-eLTSS-caremgr-SamMonitor"
+      }
+    },
+    {
+      "fullUrl": "PractitionerRole/P0522-Role-CSW-RayMancioni",
+      "resource": {
+        "id": "P0522-Role-CSW-RayMancioni",
+        "active": true,
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "https://taxonomy.nucc.org/",
+                "code": "1041C0700X",
+                "display": "Clinical Social Worker"
+              }
+            ]
+          }
+        ],
+        "resourceType": "PractitionerRole"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "PractitionerRole/P0522-Role-CSW-RayMancioni"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/P0522-Practitioner-JillBradley",
+      "resource": {
+        "id": "P0522-Practitioner-JillBradley",
+        "active": true,
+        "name": [
+          {
+            "text": "Jill Bradley",
+            "family": "Bradley",
+            "given": [
+              "Jill"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone"
+          }
+        ],
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/P0522-Practitioner-JillBradley"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/P0522-Practitioner-AnitaChu",
+      "resource": {
+        "id": "P0522-Practitioner-AnitaChu",
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "2346547890"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "text": "Anita Chu",
+            "family": "Chu",
+            "given": [
+              "Anita"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(616) 555-1212"
+          }
+        ],
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/P0522-Practitioner-AnitaChu"
+      }
+    },
+    {
+      "fullUrl": "PractitionerRole/P0522-Role-HHRN-TamaraRodgriguez",
+      "resource": {
+        "id": "P0522-Role-HHRN-TamaraRodgriguez",
+        "active": true,
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "https://taxonomy.nucc.org/",
+                "code": "163WH0200X",
+                "display": "Home Health Registered Nurse"
+              }
+            ]
+          }
+        ],
+        "resourceType": "PractitionerRole"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "PractitionerRole/P0522-Role-HHRN-TamaraRodgriguez"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/P0522-Practitioner-HoneyJones",
+      "resource": {
+        "id": "P0522-Practitioner-HoneyJones",
+        "active": true,
+        "name": [
+          {
+            "text": "Honey Jones",
+            "family": "Jones",
+            "given": [
+              "Honey"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone"
+          }
+        ],
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/P0522-Practitioner-HoneyJones"
+      }
+    },
+    {
+      "fullUrl": "Location/P0522-org-Loc-HH-Sky-Harbor-Home-Health",
+      "resource": {
+        "id": "P0522-org-Loc-HH-Sky-Harbor-Home-Health",
+        "status": "active",
+        "name": "Sky Harbor Home Health Services",
+        "address": {
+          "text": "8810 Old Sky Harbor, San Antonio, TX 78242"
+        },
+        "resourceType": "Location"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Location/P0522-org-Loc-HH-Sky-Harbor-Home-Health"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/P0522-Practitioner-RonMarble",
+      "resource": {
+        "id": "P0522-Practitioner-RonMarble",
+        "active": true,
+        "name": [
+          {
+            "text": "Ron Marble",
+            "family": "Marble",
+            "given": [
+              "Ron"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone"
+          }
+        ],
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/P0522-Practitioner-RonMarble"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/P0522-Practitioner-ScottDumble",
+      "resource": {
+        "id": "P0522-Practitioner-ScottDumble",
+        "active": true,
+        "name": [
+          {
+            "text": "Scott Dumble",
+            "family": "Dumble",
+            "given": [
+              "Scott"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(210) 555 1399"
+          }
+        ],
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/P0522-Practitioner-ScottDumble"
+      }
+    },
+    {
+      "fullUrl": "PractitionerRole/P0522-Role-RN-JudySmiley",
+      "resource": {
+        "id": "P0522-Role-RN-JudySmiley",
+        "active": true,
+        "resourceType": "PractitionerRole"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "PractitionerRole/P0522-Role-RN-JudySmiley"
+      }
+    },
+    {
+      "fullUrl": "PractitionerRole/P0522-Role-SLP-AlexanderKuikhoff",
+      "resource": {
+        "id": "P0522-Role-SLP-AlexanderKuikhoff",
+        "active": true,
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "https://taxonomy.nucc.org/",
+                "code": "235Z00000X",
+                "display": "Speech-Language Pathologist"
+              }
+            ]
+          }
+        ],
+        "resourceType": "PractitionerRole"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "PractitionerRole/P0522-Role-SLP-AlexanderKuikhoff"
+      }
+    },
+    {
+      "fullUrl": "PractitionerRole/P0522-Role-RN-LiaNguyen",
+      "resource": {
+        "id": "P0522-Role-RN-LiaNguyen",
+        "active": true,
+        "resourceType": "PractitionerRole"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "PractitionerRole/P0522-Role-RN-LiaNguyen"
+      }
+    },
+    {
+      "fullUrl": "Location/P0522-org-Loc-Audiology-Advanced-Hearing-Care",
+      "resource": {
+        "id": "P0522-org-Loc-Audiology-Advanced-Hearing-Care",
+        "status": "active",
+        "name": "Advanced Hearing Care",
+        "address": {
+          "text": "1901 Pillbug St, San Antonio, TX 78242"
+        },
+        "resourceType": "Location"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Location/P0522-org-Loc-Audiology-Advanced-Hearing-Care"
+      }
+    },
+    {
+      "fullUrl": "Organization/P0522-org-SNF-Happy-Nursing-Facility",
+      "resource": {
+        "id": "P0522-org-SNF-Happy-Nursing-Facility",
+        "name": "Happy Nursing Facility",
+        "resourceType": "Organization"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Organization/P0522-org-SNF-Happy-Nursing-Facility"
+      }
+    },
+    {
+      "fullUrl": "PractitionerRole/P0522-Role-RN-SummerJohnson",
+      "resource": {
+        "id": "P0522-Role-RN-SummerJohnson",
+        "active": true,
+        "resourceType": "PractitionerRole"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "PractitionerRole/P0522-Role-RN-SummerJohnson"
+      }
+    },
+    {
+      "fullUrl": "PractitionerRole/P0522-Role-SLP-JennyGlass",
+      "resource": {
+        "id": "P0522-Role-SLP-JennyGlass",
+        "active": true,
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "https://taxonomy.nucc.org/",
+                "code": "235Z00000X",
+                "display": "Speech-Language Pathologist"
+              }
+            ]
+          }
+        ],
+        "resourceType": "PractitionerRole"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "PractitionerRole/P0522-Role-SLP-JennyGlass"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/P0522-Practitioner-TamaraRodriguez",
+      "resource": {
+        "id": "P0522-Practitioner-TamaraRodriguez",
+        "active": true,
+        "name": [
+          {
+            "text": "Tamara Rodriguez",
+            "family": "Rodriguez",
+            "given": [
+              "Tamara"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(210) 555 2089"
+          }
+        ],
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/P0522-Practitioner-TamaraRodriguez"
+      }
+    },
+    {
+      "fullUrl": "PractitionerRole/P0522-Role-OT-JenCadbury",
+      "resource": {
+        "id": "P0522-Role-OT-JenCadbury",
+        "active": true,
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "https://taxonomy.nucc.org/",
+                "code": "225X00000X",
+                "display": "Occupational therapist"
+              }
+            ]
+          }
+        ],
+        "resourceType": "PractitionerRole"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "PractitionerRole/P0522-Role-OT-JenCadbury"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/P0522-Practitioner-SummerJohnson",
+      "resource": {
+        "id": "P0522-Practitioner-SummerJohnson",
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "9876543210"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "text": "Summer Johnson",
+            "family": "Johnson",
+            "given": [
+              "Summer"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(210) 555 7632"
+          }
+        ],
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/P0522-Practitioner-SummerJohnson"
+      }
+    },
+    {
+      "fullUrl": "Organization/P0522-org-PC-Primary-Care-Michigan",
+      "resource": {
+        "id": "P0522-org-PC-Primary-Care-Michigan",
+        "name": "Michigan Primary Health Care Associates",
+        "resourceType": "Organization"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Organization/P0522-org-PC-Primary-Care-Michigan"
+      }
+    },
+    {
+      "fullUrl": "PractitionerRole/P0522-Role-NeuroMD-NoraOlogist",
+      "resource": {
+        "id": "P0522-Role-NeuroMD-NoraOlogist",
+        "active": true,
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "https://taxonomy.nucc.org/",
+                "code": "2084N0400X",
+                "display": "Neurology Physician"
+              }
+            ]
+          }
+        ],
+        "resourceType": "PractitionerRole"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "PractitionerRole/P0522-Role-NeuroMD-NoraOlogist"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/P0522-Practitioner-JacobHartwell",
+      "resource": {
+        "id": "P0522-Practitioner-JacobHartwell",
+        "active": true,
+        "name": [
+          {
+            "text": "Jacob Hartwell",
+            "family": "Hartwell",
+            "given": [
+              "Jacob"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone"
+          }
+        ],
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/P0522-Practitioner-JacobHartwell"
+      }
+    },
+    {
+      "fullUrl": "PractitionerRole/P0522-Role-PT-SallySmart",
+      "resource": {
+        "id": "P0522-Role-PT-SallySmart",
+        "active": true,
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "https://taxonomy.nucc.org/",
+                "code": "225100000X",
+                "display": "Physical Therapist"
+              }
+            ]
+          }
+        ],
+        "resourceType": "PractitionerRole"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "PractitionerRole/P0522-Role-PT-SallySmart"
+      }
+    },
+    {
+      "fullUrl": "Organization/P0522-org-Neuro-Care-Inc",
+      "resource": {
+        "id": "P0522-org-Neuro-Care-Inc",
+        "name": "Neuro Care Inc.",
+        "resourceType": "Organization"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Organization/P0522-org-Neuro-Care-Inc"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/P0522-Practitioner-JudySmiley",
+      "resource": {
+        "id": "P0522-Practitioner-JudySmiley",
+        "active": true,
+        "name": [
+          {
+            "text": "Judy Smiley",
+            "family": "Smiley",
+            "given": [
+              "Judy"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone"
+          }
+        ],
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/P0522-Practitioner-JudySmiley"
+      }
+    },
+    {
+      "fullUrl": "PractitionerRole/P0522-Role-SLP-MariaGonzalez",
+      "resource": {
+        "id": "P0522-Role-SLP-MariaGonzalez",
+        "active": true,
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "https://taxonomy.nucc.org/",
+                "code": "235Z00000X",
+                "display": "Speech-Language Pathologist"
+              }
+            ]
+          }
+        ],
+        "resourceType": "PractitionerRole"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "PractitionerRole/P0522-Role-SLP-MariaGonzalez"
+      }
+    },
+    {
+      "fullUrl": "Location/P0522-org-Loc-PC-Primary-Care-Michigan",
+      "resource": {
+        "id": "P0522-org-Loc-PC-Primary-Care-Michigan",
+        "status": "active",
+        "name": "Michigan Primary Health Care Associates",
+        "address": {
+          "text": "123 Spruce Dr. Grand Rapids, MI 49503"
+        },
+        "resourceType": "Location"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Location/P0522-org-Loc-PC-Primary-Care-Michigan"
+      }
+    },
+    {
+      "fullUrl": "Organization/P0522-org-HH-Sky-Harbor-Home-Health",
+      "resource": {
+        "id": "P0522-org-HH-Sky-Harbor-Home-Health",
+        "name": "Sky Harbor Home Health Services",
+        "resourceType": "Organization"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Organization/P0522-org-HH-Sky-Harbor-Home-Health"
+      }
+    },
+    {
+      "fullUrl": "CareTeam/P0522-mcc-team-support",
+      "resource": {
+        "id": "P0522-mcc-team-support",
+        "name": "Support Services",
+        "subject": {
+          "reference": "Patient/P0522-patientBSJ1",
+          "display": "Patricia Noelle"
+        },
+        "participant": [
+          {
+            "role": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "106328005",
+                    "display": "Social worker"
+                  }
+                ],
+                "text": "Renal Social Worker"
+              }
+            ],
+            "member": {
+              "reference": "Practitioner/P0522-Practitioner-johnson-sam"
+            }
+          }
+        ],
+        "resourceType": "CareTeam"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "CareTeam/P0522-mcc-team-support"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/P0522-Practitioner-eLTSS-NormaTrainer",
+      "resource": {
+        "id": "P0522-Practitioner-eLTSS-NormaTrainer",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Practitioner-eltss"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.acme.org/practitioners",
+            "value": "987657"
+          }
+        ],
+        "name": [
+          {
+            "text": "Norma Trainer",
+            "family": "Trainer",
+            "given": [
+              "Norma"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(210) 555 1214"
+          }
+        ],
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/P0522-Practitioner-eLTSS-NormaTrainer"
+      }
+    },
+    {
+      "fullUrl": "Location/P0522-org-Loc-PC-Primary-Care-Texas",
+      "resource": {
+        "id": "P0522-org-Loc-PC-Primary-Care-Texas",
+        "status": "active",
+        "name": "Primary Care of Texas, Inc.",
+        "address": {
+          "text": "177 Deerfield St. San Antonio, TX 78207"
+        },
+        "resourceType": "Location"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Location/P0522-org-Loc-PC-Primary-Care-Texas"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/P0522-Practitioner-NoraOlogist",
+      "resource": {
+        "id": "P0522-Practitioner-NoraOlogist",
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "3668788925"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "text": "Nora Ologist",
+            "family": "Ologist",
+            "given": [
+              "Nora"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(210) 555 7632"
+          }
+        ],
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/P0522-Practitioner-NoraOlogist"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/P0522-Practitioner-LunaBaskins",
+      "resource": {
+        "id": "P0522-Practitioner-LunaBaskins",
+        "active": true,
+        "name": [
+          {
+            "text": "Luna Baskins",
+            "family": "Baskins",
+            "given": [
+              "Luna"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone"
+          }
+        ],
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/P0522-Practitioner-LunaBaskins"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/P0522-Practitioner-eLTSS-LisaEducator",
+      "resource": {
+        "id": "P0522-Practitioner-eLTSS-LisaEducator",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Practitioner-eltss"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.acme.org/practitioners",
+            "value": "987654"
+          }
+        ],
+        "name": [
+          {
+            "text": "Lisa Educator",
+            "family": "Educator",
+            "given": [
+              "Lisa"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(210) 555 1213"
+          }
+        ],
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/P0522-Practitioner-eLTSS-LisaEducator"
+      }
+    },
+    {
+      "fullUrl": "Organization/P0522-org-eLTSS-funding",
+      "resource": {
+        "id": "P0522-org-eLTSS-funding",
+        "identifier": [
+          {
+            "value": "ICWP"
+          }
+        ],
+        "name": "Texas Department of Community Health",
+        "address": [
+          {
+            "text": "7430 Louis Pasteur Dr, San Antonio, TX 78229"
+          }
+        ],
+        "resourceType": "Organization"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Organization/P0522-org-eLTSS-funding"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/P0522-Practitioner-LisaGreene",
+      "resource": {
+        "id": "P0522-Practitioner-LisaGreene",
+        "active": true,
+        "name": [
+          {
+            "text": "Lisa Greene",
+            "family": "Greene",
+            "given": [
+              "Lisa"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone"
+          }
+        ],
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/P0522-Practitioner-LisaGreene"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/P0522-Practitioner-DonHopmed",
+      "resource": {
+        "id": "P0522-Practitioner-DonHopmed",
+        "active": true,
+        "name": [
+          {
+            "text": "Don Hopmed",
+            "family": "Hopmed",
+            "given": [
+              "Don"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone"
+          }
+        ],
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/P0522-Practitioner-DonHopmed"
+      }
+    },
+    {
+      "fullUrl": "Location/P0522-Home-Loc-01",
+      "resource": {
+        "id": "P0522-Home-Loc-01",
+        "status": "active",
+        "name": "In Home",
+        "address": {
+          "text": "111 Maple Ct, San Antonio, TX 78212"
+        },
+        "resourceType": "Location"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Location/P0522-Home-Loc-01"
+      }
+    },
+    {
+      "fullUrl": "Organization/P0522-org-PC-Primary-Care-Texas",
+      "resource": {
+        "id": "P0522-org-PC-Primary-Care-Texas",
+        "name": "Primary Care of Texas, Inc.",
+        "resourceType": "Organization"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Organization/P0522-org-PC-Primary-Care-Texas"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/P0522-Practitioner-SallySmart",
+      "resource": {
+        "id": "P0522-Practitioner-SallySmart",
+        "active": true,
+        "name": [
+          {
+            "text": "Sally Smart",
+            "family": "Smart",
+            "given": [
+              "Sally"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone"
+          }
+        ],
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/P0522-Practitioner-SallySmart"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/P0522-Practitioner-eLTSS-planner-MarkPlanner",
+      "resource": {
+        "id": "P0522-Practitioner-eLTSS-planner-MarkPlanner",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Practitioner-eltss"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://hl7.org.fhir/sid/us-npi",
+            "value": "9941339108"
+          },
+          {
+            "system": "http://www.acme.org/practitioners",
+            "value": "25456"
+          }
+        ],
+        "name": [
+          {
+            "text": "Mark Planner",
+            "family": "Planner",
+            "given": [
+              "Mark"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(210) 555 1221"
+          }
+        ],
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/P0522-Practitioner-eLTSS-planner-MarkPlanner"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/P0522-Practitioner-AlexanderKuikhoff",
+      "resource": {
+        "id": "P0522-Practitioner-AlexanderKuikhoff",
+        "active": true,
+        "name": [
+          {
+            "text": "Alexander Kuikhoff",
+            "family": "Kuikhoff",
+            "given": [
+              "Alexander"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone"
+          }
+        ],
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/P0522-Practitioner-AlexanderKuikhoff"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/P0522-Practitioner-walkowski-ellen",
+      "resource": {
+        "id": "P0522-Practitioner-walkowski-ellen",
+        "active": true,
+        "name": [
+          {
+            "text": "Ellen Walkowski",
+            "family": "Walkowski",
+            "given": [
+              "Ellen"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "777-555-1212",
+            "use": "work"
+          },
+          {
+            "system": "email",
+            "value": "ellen.walkowski@woohoo.com"
+          }
+        ],
+        "gender": "female",
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/P0522-Practitioner-walkowski-ellen"
+      }
+    },
+    {
+      "fullUrl": "PractitionerRole/P0522-Role-IMMD-JohnSmith",
+      "resource": {
+        "id": "P0522-Role-IMMD-JohnSmith",
+        "active": true,
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "https://taxonomy.nucc.org/",
+                "code": "207R00000X",
+                "display": "Internal Medicine Physician"
+              }
+            ]
+          }
+        ],
+        "resourceType": "PractitionerRole"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "PractitionerRole/P0522-Role-IMMD-JohnSmith"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/P0522-Practitioner-johnson-sam",
+      "resource": {
+        "id": "P0522-Practitioner-johnson-sam",
+        "active": true,
+        "name": [
+          {
+            "text": "Sam Johnson",
+            "family": "Johnson",
+            "given": [
+              "Sam"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "777-555-1212",
+            "use": "work"
+          },
+          {
+            "system": "email",
+            "value": "sam.johnson@woohoo.com"
+          }
+        ],
+        "gender": "female",
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/P0522-Practitioner-johnson-sam"
+      }
+    },
+    {
+      "fullUrl": "PractitionerRole/P0522-Role-OT-CheriseLangford",
+      "resource": {
+        "id": "P0522-Role-OT-CheriseLangford",
+        "active": true,
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "https://taxonomy.nucc.org/",
+                "code": "225X00000X",
+                "display": "Occupational therapist"
+              }
+            ]
+          }
+        ],
+        "resourceType": "PractitionerRole"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "PractitionerRole/P0522-Role-OT-CheriseLangford"
+      }
+    },
+    {
+      "fullUrl": "Organization/P0522-org-Hosp-San-Antonio-General",
+      "resource": {
+        "id": "P0522-org-Hosp-San-Antonio-General",
+        "name": "San Antonio General Hospital",
+        "resourceType": "Organization"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Organization/P0522-org-Hosp-San-Antonio-General"
+      }
+    },
+    {
+      "fullUrl": "PractitionerRole/P0522-Role-PT-LunaBaskins",
+      "resource": {
+        "id": "P0522-Role-PT-LunaBaskins",
+        "active": true,
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "https://taxonomy.nucc.org/",
+                "code": "225100000X",
+                "display": "Physical Therapist"
+              }
+            ]
+          }
+        ],
+        "resourceType": "PractitionerRole"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "PractitionerRole/P0522-Role-PT-LunaBaskins"
+      }
+    },
+    {
+      "fullUrl": "PractitionerRole/P0522-Role-OT-LisaGreene",
+      "resource": {
+        "id": "P0522-Role-OT-LisaGreene",
+        "active": true,
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "https://taxonomy.nucc.org/",
+                "code": "225X00000X",
+                "display": "Occupational therapist"
+              }
+            ]
+          }
+        ],
+        "resourceType": "PractitionerRole"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "PractitionerRole/P0522-Role-OT-LisaGreene"
+      }
+    },
+    {
+      "fullUrl": "CareTeam/P0522-mcc-team",
+      "resource": {
+        "id": "P0522-mcc-team",
+        "name": "Primary Care Team",
+        "subject": {
+          "reference": "Patient/P0522-patientBSJ1",
+          "display": "Patricia Noelle"
+        },
+        "participant": [
+          {
+            "role": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "224535009",
+                    "display": "Registered nurse"
+                  }
+                ],
+                "text": "Registered Nurse"
+              }
+            ],
+            "member": {
+              "reference": "Practitioner/P0522-Practitioner-smith-julie"
+            }
+          },
+          {
+            "role": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "62247001",
+                    "display": "Family medicine specialist"
+                  }
+                ],
+                "text": "Family Medicine Physician"
+              }
+            ],
+            "member": {
+              "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+            }
+          },
+          {
+            "role": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "11911009",
+                    "display": "Nephrologist"
+                  }
+                ],
+                "text": "Nephrologist"
+              }
+            ],
+            "member": {
+              "reference": "Practitioner/P0522-Practitioner-jones-vince"
+            }
+          },
+          {
+            "role": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "159033005",
+                    "display": "Dietician"
+                  }
+                ],
+                "text": "Dietician"
+              }
+            ],
+            "member": {
+              "reference": "Practitioner/P0522-Practitioner-estaban-felicity"
+            }
+          },
+          {
+            "role": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "106328005",
+                    "display": "Social worker"
+                  }
+                ],
+                "text": "Renal Social Worker"
+              }
+            ],
+            "member": {
+              "reference": "Practitioner/P0522-Practitioner-johnson-sam"
+            }
+          },
+          {
+            "role": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "159011008",
+                    "display": "Retail pharmacist"
+                  }
+                ],
+                "text": "Community Pharmacist"
+              }
+            ],
+            "member": {
+              "reference": "Practitioner/P0522-Practitioner-walkowski-ellen"
+            }
+          }
+        ],
+        "resourceType": "CareTeam"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "CareTeam/P0522-mcc-team"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/P0522-Practitioner-smith-julie",
+      "resource": {
+        "id": "P0522-Practitioner-smith-julie",
+        "active": true,
+        "name": [
+          {
+            "text": "Julie Smith, RN",
+            "family": "Smith",
+            "given": [
+              "Julie"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "777-555-1212",
+            "use": "work"
+          },
+          {
+            "system": "email",
+            "value": "julie.smith@woohoo.com"
+          }
+        ],
+        "gender": "female",
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/P0522-Practitioner-smith-julie"
+      }
+    },
+    {
+      "fullUrl": "Location/P0522-org-Loc-Neuro-Care-Inc",
+      "resource": {
+        "id": "P0522-org-Loc-Neuro-Care-Inc",
+        "status": "active",
+        "name": "Neuro Care Inc.",
+        "address": {
+          "text": "26100 Meadowlark Bay, San Antonio, TX 78260"
+        },
+        "resourceType": "Location"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Location/P0522-org-Loc-Neuro-Care-Inc"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/P0522-Practitioner-MariaGonzalez",
+      "resource": {
+        "id": "P0522-Practitioner-MariaGonzalez",
+        "active": true,
+        "name": [
+          {
+            "text": "Maria Gonzalez",
+            "family": "Gonzalez",
+            "given": [
+              "Maria"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone"
+          }
+        ],
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/P0522-Practitioner-MariaGonzalez"
+      }
+    },
+    {
+      "fullUrl": "Location/P0522-org-Loc-SNF-Happy-Nursing-Facility",
+      "resource": {
+        "id": "P0522-org-Loc-SNF-Happy-Nursing-Facility",
+        "status": "active",
+        "name": "Happy Nursing Facility",
+        "address": {
+          "text": "8100 Pinebrook Dr, San Antonio, TX, 78230"
+        },
+        "resourceType": "Location"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Location/P0522-org-Loc-SNF-Happy-Nursing-Facility"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/P0522-Practitioner-CheriseLangford",
+      "resource": {
+        "id": "P0522-Practitioner-CheriseLangford",
+        "active": true,
+        "name": [
+          {
+            "text": "Cherise Langford",
+            "family": "Langford",
+            "given": [
+              "Cherise"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone"
+          }
+        ],
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/P0522-Practitioner-CheriseLangford"
+      }
+    },
+    {
+      "fullUrl": "Organization/P0522-org-Audiology-Advanced-Hearing-Care",
+      "resource": {
+        "id": "P0522-org-Audiology-Advanced-Hearing-Care",
+        "name": "Advanced Hearing Care",
+        "resourceType": "Organization"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Organization/P0522-org-Audiology-Advanced-Hearing-Care"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/P0522-Practitioner-JohnSmith",
+      "resource": {
+        "id": "P0522-Practitioner-JohnSmith",
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "2345678901"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "text": "John Smith",
+            "family": "Smith",
+            "given": [
+              "John"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(210) 564 1389"
+          }
+        ],
+        "resourceType": "Practitioner"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/P0522-Practitioner-JohnSmith"
+      }
+    }
+  ],
+  "resourceType": "Bundle"
+}

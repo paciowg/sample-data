@@ -1,0 +1,78 @@
+{
+  "resourceType": "Observation",
+  "id": "P0522-BSJ-Home-SPLASCH-Hearingtonethresh-01-Obs-R250",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+          "code": "functioning",
+          "display": "Functioning"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "code": "hearing-and-vestibular-functions",
+          "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-category-cs",
+          "display": "Hearing and vestibular functions"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "code": "survey",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/P0522-org-Loc-Audiology-Advanced-Hearing-Care"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/P0522-patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-11-06T10:45:00-05:00",
+  "encounter": {
+    "reference": "Encounter/P0522-Enc-HearingEval"
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "91374-9",
+        "system": "http://loinc.org",
+        "display": "Hearing threshold Ear - right --250 Hz"
+      }
+    ]
+  },
+  "performer": [
+    {
+      "reference": "PractitionerRole/P0522-Role-Audio-JillBradley"
+    },
+    {
+      "reference": "Practitioner/P0522-Practitioner-JillBradley"
+    },
+    {
+      "reference": "Organization/P0522-org-Audiology-Advanced-Hearing-Care"
+    }
+  ],
+  "valueQuantity": {
+    "value": 40,
+    "code": "dB",
+    "system": "http://unitsofmeasure.org"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "Device/P0522-CMS-Device-RaisedToiletSeat",
+      "resource": {
+        "id": "P0522-CMS-Device-RaisedToiletSeat",
+        "deviceName": [
+          {
+            "name": "Raised toilet seat",
+            "type": "user-friendly-name"
+          }
+        ],
+        "resourceType": "Device"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Device/P0522-CMS-Device-RaisedToiletSeat"
+      }
+    },
+    {
+      "fullUrl": "Device/P0522-CMS-Device-HandleBars",
+      "resource": {
+        "id": "P0522-CMS-Device-HandleBars",
+        "deviceName": [
+          {
+            "name": "Handle bars",
+            "type": "user-friendly-name"
+          }
+        ],
+        "resourceType": "Device"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Device/P0522-CMS-Device-HandleBars"
+      }
+    },
+    {
+      "fullUrl": "Device/P0522-CMS-Device-BedsideRails",
+      "resource": {
+        "id": "P0522-CMS-Device-BedsideRails",
+        "deviceName": [
+          {
+            "name": "Bedside rails, device",
+            "type": "user-friendly-name"
+          }
+        ],
+        "resourceType": "Device"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Device/P0522-CMS-Device-BedsideRails"
+      }
+    },
+    {
+      "fullUrl": "Device/P0522-CMS-Device-RollingWalker",
+      "resource": {
+        "id": "P0522-CMS-Device-RollingWalker",
+        "deviceName": [
+          {
+            "name": "Rolling walker",
+            "type": "user-friendly-name"
+          }
+        ],
+        "resourceType": "Device"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Device/P0522-CMS-Device-RollingWalker"
+      }
+    },
+    {
+      "fullUrl": "Device/P0522-CMS-Device-HearingAid",
+      "resource": {
+        "id": "P0522-CMS-Device-HearingAid",
+        "deviceName": [
+          {
+            "name": "Hearing aid",
+            "type": "user-friendly-name"
+          }
+        ],
+        "resourceType": "Device"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Device/P0522-CMS-Device-HearingAid"
+      }
+    },
+    {
+      "fullUrl": "Device/P0522-CMS-Device-Walker",
+      "resource": {
+        "id": "P0522-CMS-Device-Walker",
+        "deviceName": [
+          {
+            "name": "Walker",
+            "type": "user-friendly-name"
+          }
+        ],
+        "resourceType": "Device"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Device/P0522-CMS-Device-Walker"
+      }
+    },
+    {
+      "fullUrl": "Device/P0522-CMS-Device-Eyeglasses",
+      "resource": {
+        "id": "P0522-CMS-Device-Eyeglasses",
+        "deviceName": [
+          {
+            "name": "Eyeglasses",
+            "type": "user-friendly-name"
+          }
+        ],
+        "resourceType": "Device"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Device/P0522-CMS-Device-Eyeglasses"
+      }
+    }
+  ],
+  "resourceType": "Bundle"
+}

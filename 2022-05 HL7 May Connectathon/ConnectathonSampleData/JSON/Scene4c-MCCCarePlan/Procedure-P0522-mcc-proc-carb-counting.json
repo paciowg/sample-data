@@ -1,0 +1,26 @@
+{
+  "resourceType": "Procedure",
+  "id": "P0522-mcc-proc-carb-counting",
+  "status": "completed",
+  "code": {
+    "coding": [
+      {
+        "code": "416576000",
+        "system": "http://snomed.info/sct",
+        "display": "Carbohydrate counting (regime/therapy)"
+      }
+    ],
+    "text": "Carbohydrate counting (regime/therapy)"
+  },
+  "subject": {
+    "reference": "Patient/P0522-patientBSJ1"
+  },
+  "performedDateTime": "2021-05-31T16:00:00-05:00",
+  "performer": [
+    {
+      "actor": {
+        "reference": "Practitioner/P0522-Practitioner-estaban-felicity"
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "P0522-ADIMMD-2015LW-DocRef",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2022-04-26T16:55:29.000+00:00",
+    "source": "#v3fjcUyoEovwPYpw"
+  },
+  "masterIdentifier": {
+    "system": "ClinicalDocument.id",
+    "value": "2.16.840.1.113883.3.3208.101.2.8.1:5367-047e62ccf09d4b39a8add708a69b7f38-1"
+  },
+  "identifier": [ {
+    "system": "ClinicalDocument.id",
+    "value": "2.16.840.1.113883.3.3208.101.2.8.1:5367-047e62ccf09d4b39a8add708a69b7f38-1"
+  }, {
+    "system": "Binary.id",
+    "value": "P0522-ADIMMD-2015LW-BinaryCDA"
+  }, {
+    "system": "ClinicalDocument.setid",
+    "value": "2.16.840.1.113883.4.823.1.7561:5367-047e62ccf09d4b39a8add708a69b7f38"
+  } ],
+  "status": "current",
+  "docStatus": "final",
+  "type": {
+    "coding": [ {
+      "system": "urn:oid:2.16.840.1.113883.7.1",
+      "code": "86533-7",
+      "display": "Living Will"
+    } ]
+  },
+  "category": [ {
+    "coding": [ {
+      "system": "http://loinc.org",
+      "code": "75320-2",
+      "display": "Advance Directive"
+    } ]
+  } ],
+  "subject": {
+    "reference": "Patient/P0522-patientBSJ1",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "date": "2015-11-05T15:52:20.000+00:00",
+  "author": [ {
+    "reference": "Patient/P0522-patientBSJ1",
+    "display": "Smith-Johnson, Betsy"
+  }, {
+    "reference": "Device/P0522-ADIMMD-PortalDevice",
+    "display": "ADVault RR Portal"
+  } ],
+  "authenticator": {
+    "reference": "Organization/P0522-ADIMMD-ADVaultOrg"
+  },
+  "custodian": {
+    "reference": "Organization/P0522-ADIMMD-ADVaultOrg"
+  },
+  "description": "Betsy's Living Will (Texas)",
+  "securityLabel": [ {
+    "coding": [ {
+      "system": "http://hl7.org/fhir/v3/Confidentiality",
+      "code": "N",
+      "display": "normal"
+    } ]
+  } ],
+  "content": [ {
+    "attachment": {
+      "contentType": "text/xml",
+      "url": "Binary/P0522-ADIMMD-2015LW-BinaryCDA"
+    },
+    "format": {
+      "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+      "code": "urn:hl7-org:sdwg:pacp-structuredBody:1.2.0.1",
+      "display": "PACA C-CDA"
+    }
+  }, {
+    "attachment": {
+      "contentType": "application/json",
+      "url": "Binary/P0522-ADIMMD-2015LW-BinaryBundle"
+    },
+    "format": {
+      "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+      "code": "urn:hl7-org:sdwg:ccda-on-fhir-json:1.0",
+      "display": "FHIR Document Bundle"
+    }
+  }, {
+    "attachment": {
+      "url": "Composition/P0522-ADIMMD-2015LW-Comp"
+    }
+  }, {
+    "attachment": {
+      "url": "Bundle/P0522-ADIMMD-2015LW-Bundle"
+    },
+    "format": {
+      "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+      "code": "urn:hl7-org:sdwg:ccda-on-fhir-json:1.0",
+      "display": "FHIR Document Bundle"
+    }
+  } ]
+}

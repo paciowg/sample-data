@@ -1,0 +1,41 @@
+{
+  "id": "P0522-ADIMMD-2021PACP-Goal-NotifyReligious",
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>                Please attempt to notify someone from my religion at the following phone number:            </span>            <span>                If I have included one            </span>            <br/>            <span>                Catholic            </span></div>"
+  },
+  "identifier": [
+    {
+      "value": "C831809D-FEA1-4E0B-A707-2A32A1C305D8"
+    }
+  ],
+  "lifecycleStatus": "proposed",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "81365-9",
+          "display": "Religious affiliation contact to notify"
+        }
+      ],
+      "text": "Please attempt to notify someone from my religion at the following phone number:"
+    },
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-adi/CodeSystem/PADIGoalCategoryCS",
+          "code": "care-experience-preference"
+        }
+      ]
+    }
+  ],
+  "description": {
+    "text": "<span>                Please attempt to notify someone from my religion at the following phone number:            </span>            <span>                If I have included one            </span>            <br></br>            <span>                Catholic            </span>"
+  },
+  "subject": {
+    "reference": "Patient/P0522-patientBSJ1",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "resourceType": "Goal"
+}

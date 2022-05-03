@@ -1,0 +1,26 @@
+{
+  "resourceType": "Procedure",
+  "id": "P0522-mcc-proc-glucose-monitoring",
+  "status": "completed",
+  "code": {
+    "coding": [
+      {
+        "code": "698472009",
+        "system": "http://snomed.info/sct",
+        "display": "Blood glucose monitoring (regime/therapy)"
+      }
+    ],
+    "text": "Blood glucose monitoring (regime/therapy)"
+  },
+  "subject": {
+    "reference": "Patient/P0522-patientBSJ1"
+  },
+  "performedDateTime": "2021-05-31T16:00:00-05:00",
+  "performer": [
+    {
+      "actor": {
+        "reference": "Practitioner/P0522-Practitioner-JacobHartwell"
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "P0522-mcc-service-edu-ckd",
+  "status": "active",
+  "intent": "plan",
+  "code": {
+    "coding": [
+      {
+        "code": "408982008",
+        "system": "http://snomed.info/sct",
+        "display": "Renal care education (procedure)"
+      }
+    ],
+    "text": "Education on CKD management"
+  },
+  "subject": {
+    "reference": "Patient/P0522-patientBSJ1"
+  },
+  "authoredOn": "2022-04-18",
+  "requester": {
+    "reference": "Practitioner/P0522-Practitioner-jones-vince"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/P0522-Practitioner-smith-julie"
+    }
+  ],
+  "reasonReference": [
+    {
+      "reference": "Condition/P0522-Prob-CKD"
+    }
+  ]
+}

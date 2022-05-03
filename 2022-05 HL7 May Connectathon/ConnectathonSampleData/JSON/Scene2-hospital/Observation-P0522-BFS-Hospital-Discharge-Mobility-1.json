@@ -1,0 +1,162 @@
+{
+  "resourceType": "Observation",
+  "id": "P0522-BFS-Hospital-Discharge-Mobility-1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-collection"
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+          "code": "functioning",
+          "display": "Functioning"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "code": "mobility",
+          "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-category-cs",
+          "display": "Mobility"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "code": "survey",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/P0522-org-Loc-Hosp-San-Antonio-General"
+      }
+    },
+    {
+      "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/device-patient-used",
+      "valueReference": {
+        "reference": "DeviceUseStatement/P0522-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-1"
+      }
+    },
+    {
+      "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/device-patient-used",
+      "valueReference": {
+        "reference": "DeviceUseStatement/P0522-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-2"
+      }
+    },
+    {
+      "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/device-patient-used",
+      "valueReference": {
+        "reference": "DeviceUseStatement/P0522-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-3"
+      }
+    },
+    {
+      "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/device-patient-used",
+      "valueReference": {
+        "reference": "DeviceUseStatement/P0522-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-4"
+      }
+    },
+    {
+      "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/device-patient-used",
+      "valueReference": {
+        "reference": "DeviceUseStatement/P0522-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-5"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/P0522-patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2021-02-24T16:32:00-05:00",
+  "encounter": {
+    "reference": "Encounter/P0522-Enc-Hospital"
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "88331-4",
+        "system": "http://loinc.org",
+        "display": "Mobility - discharge performance during 3 day assessment period [CMS Assessment]"
+      }
+    ],
+    "text": "Mobility - discharge performance during 3 day assessment period [CMS Assessment]"
+  },
+  "performer": [
+    {
+      "reference": "PractitionerRole/P0522-Role-PT-SallySmart"
+    },
+    {
+      "reference": "Practitioner/P0522-Practitioner-SallySmart"
+    },
+    {
+      "reference": "Organization/P0522-org-Hosp-San-Antonio-General"
+    }
+  ],
+  "hasMember": [
+    {
+      "reference": "Observation/P0522-BFS-Hospital-Discharge-Mobility-1-Ob-Question-2"
+    },
+    {
+      "reference": "Observation/P0522-BFS-Hospital-Discharge-Mobility-1-Ob-Question-8"
+    },
+    {
+      "reference": "Observation/P0522-BFS-Hospital-Discharge-Mobility-1-Ob-Question-14"
+    },
+    {
+      "reference": "Observation/P0522-BFS-Hospital-Discharge-Mobility-1-Ob-Question-20"
+    },
+    {
+      "reference": "Observation/P0522-BFS-Hospital-Discharge-Mobility-1-Ob-Question-26"
+    },
+    {
+      "reference": "Observation/P0522-BFS-Hospital-Discharge-Mobility-1-Ob-Question-32"
+    },
+    {
+      "reference": "Observation/P0522-BFS-Hospital-Discharge-Mobility-1-Ob-Question-38"
+    },
+    {
+      "reference": "Observation/P0522-BFS-Hospital-Discharge-Mobility-1-Ob-Question-44"
+    },
+    {
+      "reference": "Observation/P0522-BFS-Hospital-Discharge-Mobility-1-Ob-Question-50"
+    },
+    {
+      "reference": "Observation/P0522-BFS-Hospital-Discharge-Mobility-1-Ob-Question-56"
+    },
+    {
+      "reference": "Observation/P0522-BFS-Hospital-Discharge-Mobility-1-Ob-Question-62"
+    },
+    {
+      "reference": "Observation/P0522-BFS-Hospital-Discharge-Mobility-1-Ob-Question-68"
+    },
+    {
+      "reference": "Observation/P0522-BFS-Hospital-Discharge-Mobility-1-Ob-Question-74"
+    },
+    {
+      "reference": "Observation/P0522-BFS-Hospital-Discharge-Mobility-1-Ob-Question-80"
+    },
+    {
+      "reference": "Observation/P0522-BFS-Hospital-Discharge-Mobility-1-Ob-Question-86"
+    },
+    {
+      "reference": "Observation/P0522-BFS-Hospital-Discharge-Mobility-1-Ob-Question-92"
+    },
+    {
+      "reference": "Observation/P0522-BFS-Hospital-Discharge-Mobility-1-Ob-Question-98"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/P0522-QResponse-Hospital-Discharge-Mobility-1"
+    }
+  ]
+}

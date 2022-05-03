@@ -1,0 +1,11 @@
+{
+  "id": "P0522-ADIMMD-2020PACP-Cond-NoMeaningfulInteraction",
+  "code": {
+    "text": "If my health ever deteriorates due to a terminal illness, and my doctors believe I will not be able to interact meaningfully with my family, friends, or surroundings,"
+  },
+  "subject": {
+    "reference": "Patient/P0522-patientBSJ1",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "resourceType": "Condition"
+}
