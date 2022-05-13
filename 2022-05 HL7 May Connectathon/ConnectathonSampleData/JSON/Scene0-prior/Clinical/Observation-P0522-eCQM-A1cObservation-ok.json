@@ -24,6 +24,9 @@
   "subject": {
     "reference": "Patient/P0522-patientBSJ1"
   },
+  "encounter": {
+    "reference": "Encounter/P0522-Enc-PreHospPCP"
+  },
   "effectiveDateTime": "2021-02-02T12:30:00-05:00",
   "issued": "2021-02-04T12:30:00-05:00",
   "valueQuantity": {

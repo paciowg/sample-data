@@ -53,3 +53,17 @@ Usage: #example
 * onsetDateTime = "2021-11-12"
 * asserter = Reference(Practitioner/P0522-Practitioner-JillBradley)
 * encounter = Reference(Encounter/P0522-Enc-HearingAids)
+
+Instance: P0522-EncDx-PreHospPCP-Diabetes
+InstanceOf: Condition
+Usage: #example
+* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"
+* subject = Reference(Patient/P0522-patientBSJ1)
+* clinicalStatus = http://terminology.hl7.org/CodeSystem/condition-clinical#active
+* verificationStatus = http://terminology.hl7.org/CodeSystem/condition-ver-status#confirmed
+* category = http://terminology.hl7.org/CodeSystem/condition-category#encounter-diagnosis
+* code = http://snomed.info/sct#44054006 "Type 2 diabetes"
+* code.text = "Diabetes mellitus type 2 (disorder)"
+* onsetPeriod.start = "2010-07-06T12:15:00-05:00"
+* asserter = Reference(Practitioner/P0522-Practitioner-JohnSmith)
+* encounter = Reference(Encounter/P0522-Enc-PreHospPCP)

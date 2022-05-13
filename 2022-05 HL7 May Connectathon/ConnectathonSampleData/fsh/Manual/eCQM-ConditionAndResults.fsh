@@ -17,6 +17,7 @@ Usage: #example
 * category = http://terminology.hl7.org/CodeSystem/observation-category#laboratory
 * code = http://loinc.org#17856-6 "Hemoglobin A1c/Hemoglobin.total in Blood by HPLC"
 * subject = Reference(Patient/P0522-patientBSJ1)
+* encounter = Reference(Encounter/P0522-Enc-PreHospPCP)
 * effectiveDateTime = "2021-02-02T12:30:00-05:00"
 * issued = "2021-02-04T12:30:00-05:00"
 * valueQuantity = 6.7 '%' "%"

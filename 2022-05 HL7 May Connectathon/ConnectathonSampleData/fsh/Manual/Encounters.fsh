@@ -10,7 +10,7 @@ Usage: #example
 * period.start = "2020-11-06T13:00:14-05:00"
 * period.end = "2020-11-06T14:00:14-05:00"
 * participant.individual = Reference(PractitionerRole/P0522-Role-Audio-JillBradley)
-* location.location = Reference(Location/P0522-org-Loc-HH-Sky-Harbor-Home-Health)
+* location.location = Reference(Location/P0522-org-Loc-Audiology-Advanced-Hearing-Care)
 
 Instance: P0522-Enc-HearingAids
 InstanceOf: Encounter
@@ -24,7 +24,21 @@ Usage: #example
 * period.start = "2020-11-12T13:00:14-05:00"
 * period.end = "2020-11-12T14:00:14-05:00"
 * participant.individual = Reference(PractitionerRole/P0522-Role-Audio-JillBradley)
-* location.location = Reference(Location/P0522-org-Loc-HH-Sky-Harbor-Home-Health)
+* location.location = Reference(Location/P0522-org-Loc-Audiology-Advanced-Hearing-Care)
+
+Instance: P0522-Enc-PreHospPCP
+InstanceOf: Encounter
+Usage: #example
+* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+* status = #finished
+* class = http://terminology.hl7.org/CodeSystem/v3-ActCode#AMB "ambulatory"
+* type = http://snomed.info/sct#185468001 "Home visit for chronic condition (procedure)"
+* type.text = "Office Visit"
+* subject = Reference(Patient/P0522-patientBSJ1)
+* period.start = "2021-02-02T13:00:14-05:00"
+* period.end = "2021-02-02T14:00:14-05:00"
+* participant.individual = Reference(PractitionerRole/P0522-Role-IMMD-JohnSmith)
+* location.location = Reference(Location/P0522-org-Loc-PC-Primary-Care-Texas)
 
 Instance: P0522-Enc-Hospital
 InstanceOf: Encounter

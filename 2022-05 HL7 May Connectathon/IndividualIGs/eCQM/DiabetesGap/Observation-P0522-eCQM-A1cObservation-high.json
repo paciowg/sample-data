@@ -1,6 +1,6 @@
 {
   "resourceType": "Observation",
-  "id": "P0522-eCQM-A1cObservation-ok",
+  "id": "P0522-eCQM-A1cObservation-high",
   "status": "final",
   "category": [
     {
@@ -25,12 +25,12 @@
     "reference": "Patient/P0522-patientBSJ1"
   },
   "encounter": {
-    "reference": "Encounter/P0522-Enc-PreHospPCP"
+    "reference": "Encounter/P0522-Enc-HHA"
   },
-  "effectiveDateTime": "2021-02-02T12:30:00-05:00",
-  "issued": "2021-02-04T12:30:00-05:00",
+  "effectiveDateTime": "2021-05-07T12:30:00-05:00",
+  "issued": "2021-05-09T12:30:00-05:00",
   "valueQuantity": {
-    "value": 6.7,
+    "value": 9.1,
     "code": "%",
     "system": "http://unitsofmeasure.org",
     "unit": "%"
