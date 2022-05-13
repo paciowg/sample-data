@@ -1,0 +1,56 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "P0522-mcc-service-steps",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/resource-pertainsToGoal",
+      "valueReference": {
+        "reference": "Goal/P0522-mcc-goal-exercise"
+      }
+    }
+  ],
+  "status": "active",
+  "intent": "plan",
+  "code": {
+    "coding": [
+      {
+        "code": "41950-7",
+        "system": "http://loinc.org",
+        "display": "Number of steps in 24 hour Measured"
+      }
+    ],
+    "text": "Daily Step Count"
+  },
+  "subject": {
+    "reference": "Patient/P0522-patientBSJ1"
+  },
+  "occurrenceTiming": {
+    "repeat": {
+      "boundsPeriod": {
+        "start": "2021-01-01",
+        "end": "2022-01-01"
+      },
+      "frequency": 1,
+      "period": 1,
+      "periodUnit": "d"
+    }
+  },
+  "requester": {
+    "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+  },
+  "performer": [
+    {
+      "reference": "Patient/P0522-patientBSJ1"
+    }
+  ],
+  "reasonReference": [
+    {
+      "reference": "Condition/P0522-Prob-Diabetes"
+    }
+  ],
+  "note": [
+    {
+      "text": "Record your daily total step count before going to bed each evening."
+    }
+  ]
+}
