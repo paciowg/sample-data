@@ -7,7 +7,7 @@ Sample data for this connectathon includes many different IGs. Each use a specif
 - PACIO Functional Performance: start from spreadsheets (NOTE: SPLASCH data using the SPLASCH IG uses a different spreadsheet and CSV to FSH pipeline not documented here)
 - PACIO Re-Assessment Timepoints: start from FSH
 - eCQM input data: start from FSH
-- Gravity SDOH Clinical Care: Not included here
+- Gravity SDOH Clinical Care: from JSON
 - MCC Care Plan: start from FSH
 - eLTSS Care Plan: start from FSH
 - PACIO ADI: from JSON
@@ -30,7 +30,7 @@ For the PACIO May 2022 Connectathon track, the following data types are leveragi
 
 The root location for shared spreadsheets is in [box](https://mitre.box.com/s/b0auquq4hrmbliy1fir37s7mbpgsj3ih). Prior to building, make sure to pull the latest spreadsheets from box into the `Spreadsheets` folder of this repository.
 
-NOTE: not all observations, clinicians, roles, organizations, and locations come from these spreadsheets, some come from FSH or JSON directly.
+NOTE: not all observations, clinicians, roles, organizations, and locations come from these spreadsheets, some come from FSH or JSON directly (e.g., eLTSS and MCC care plan).
 
 ## Create csvs
 
@@ -79,21 +79,53 @@ Transformation to FSH (FHIR Shorthand) leverages the [CSV to FSH](https://github
 2. Run `python gen_fsh_code.sh`
 3. Copy the `.fsh` files from the `output` folder of your `CSV to FSH` project install to the `FSH/input/fsh` folder of this repository.
 
+### Manual steps
+
+A few things cannot be done automatically via the CSV to FSH generation at this time:
+- Multiple functional performance categories: search for `REPLACEME` in the FSH files and split out into 3 lines (currently two instances)
+- textual observation values: manually copy from spreadsheet into a valueString line in the FSH file (one instance)
+- nursing category on PractitionerRole: for some reason, this isn't generating (three instances)
+
 ## Transform to FHIR JSON
 
 Transformation from FSH (FHIR Shorthand) into JSON leverages the [SUSHI](https://fshschool.org/docs/sushi/) project. If needed, [install SUSHI](https://fshschool.org/docs/sushi/installation/). In order to support dependencies from from other projects, you'll need to build the following IGs locally:
 - [PACIO functional performance](https://github.com/paciowg/functional-performance-fsh)
 - [PACIO SPLASCH](https://github.com/paciowg/splasch-fsh)
 
+For any FSH data generated manually, make sure that ids start with `P0522-` to allow for a find-replace to allow pointing the data to a new patient id.
+
 Once done,
 1. Confirm you have the right `.fsh` files in the `FSH/input/fsh` folder.
-2. From the `FSH` directory, run `sushi`
+2. From the `FSH` directory, run `sushi .`
 3. Generated JSON will be in the `FSH/fsh-generated/resources` directory.
 
 ## Organize JSON
 
-TODO
+JSON files for each individual resource are organized by scene so that they can be grouped into bundles. The initial setup scene are further divided up, loosely by the IG. Sorting of FSH-generated files into these folders is a manual process.
 
-## group into bundles
+## Group into bundles
 
-TODO
+For actual loads, bundle files (either transactions or Patient Data Receipts) are helpful. So the directories with individual JSON files get grouped into bundle files. The Open Health Manager project has a ruby script to do this: [OHM Utils](https://github.com/Open-Health-Manager/ohm-utils).
+
+### Execution
+
+Open a ruby terminal
+
+```sh
+cd /path/to/ohm-utils
+irb -r ./lib/ohm/utils.rb
+```
+
+generate bundles for a particular directory
+
+```rb
+d="/path/to/target/directory"
+puts Ohm::Utils::createPDRFromDirectory(d, "P0522-patientBSJ1", "http://example.org")
+puts Ohm::Utils::createTransactionFromDirectory(d, true)
+```
+
+This will generate both a PDR and transaction bundle JSON file as a sibling of the input folder. These can then be re-named and moved into the appropriate `Bundles` folder.
+
+## Loading
+
+Bundle files can be loaded onto a target FHIR server using Postman or other approach. Most systems will use the transaction bundles. Some systems that support [Patient Data Receipts](https://open-health-manager.github.io/patient-data-receipt-ig/) can use those as instead, though note that a few of the initial load files use transactions or direct writes in that case (due to OHM system requirements at the time of the connectathon).
