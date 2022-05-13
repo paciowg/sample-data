@@ -6,13 +6,15 @@ Usage: #example
 * class = http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-class-cs#SNF "skilled nursing facility"
 * type = http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-entity-cs#payer "Payer"
 * serviceType = http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-service-type-cs#mds "Minimum Data Set"
+* identifier.system = "urn:example:hnf:encounters"
+* identifier.value = "123"
 * subject = Reference(Patient/P0522-patientBSJ1)
 * episodeOfCare = Reference(EpisodeOfCare/P0522-Episodecare-SNF)
 * basedOn[0].extension.url = "http://hl7.org/fhir/us/pacio-rt/StructureDefinition/clinicalImpression"
 * basedOn[=].extension.valueReference = Reference(ClinicalImpression/P0522-ClinicalImpression-SNF-MDS-5-day)
 * basedOn[=].display = "MDS 5-day"
 * basedOn[+].extension.url = "http://hl7.org/fhir/us/pacio-rt/StructureDefinition/clinicalImpression"
-* basedOn[=].extension.valueReference = Reference(ClinicalImpression/P0522-ClinicalImpression-SNF-IPA)
+* basedOn[=].extension.valueReference = Reference(ClinicalImpression/P0522-ClinicalImpression-SNF-MDS-IPA)
 * basedOn[=].display = "MDS IPA"
 * participant[0].individual = Reference(PractitionerRole/P0522-Role-IMMD-JohnSmith)
 * participant[+].individual = Reference(PractitionerRole/P0522-Role-RN-SummerJohnson)
@@ -31,10 +33,12 @@ Usage: #example
 * class = http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-class-cs#SNF "skilled nursing facility"
 * type = http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-entity-cs#payer "Payer"
 * serviceType = http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-service-type-cs#mds "Minimum Data Set"
+* identifier.system = "urn:example:hnf:encounters"
+* identifier.value = "456"
 * subject = Reference(Patient/P0522-patientBSJ1)
 * episodeOfCare = Reference(EpisodeOfCare/P0522-Episodecare-SNF)
 * basedOn[0].extension.url = "http://hl7.org/fhir/us/pacio-rt/StructureDefinition/clinicalImpression"
-* basedOn[=].extension.valueReference = Reference(ClinicalImpression/P0522-ClinicalImpression-SNF-IPA)
+* basedOn[=].extension.valueReference = Reference(ClinicalImpression/P0522-ClinicalImpression-SNF-MDS-IPA)
 * basedOn[=].display = "MDS IPA"
 * basedOn[+].extension.url = "http://hl7.org/fhir/us/pacio-rt/StructureDefinition/clinicalImpression"
 * basedOn[=].extension.valueReference = Reference(ClinicalImpression/P0522-ClinicalImpression-SNF-MDS-Discharge)
@@ -56,6 +60,8 @@ Usage: #example
 * class = http://terminology.hl7.org/CodeSystem/v3-ActCode#HH "home health"
 * type = http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-entity-cs#payer "Payer"
 * serviceType = http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-service-type-cs#oasis "Outcome and Assessment Information Set"
+* identifier.system = "urn:example:shhh:encounters"
+* identifier.value = "ABC"
 * subject = Reference(Patient/P0522-patientBSJ1)
 * episodeOfCare = Reference(EpisodeOfCare/P0522-Episodecare-HHA)
 * basedOn.extension.url = "http://hl7.org/fhir/us/pacio-rt/StructureDefinition/clinicalImpression"
@@ -78,6 +84,8 @@ Usage: #example
 * class = http://terminology.hl7.org/CodeSystem/v3-ActCode#HH "home health"
 * type = http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-entity-cs#payer "Payer"
 * serviceType = http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-service-type-cs#oasis "Outcome and Assessment Information Set"
+* identifier.system = "urn:example:shhh:encounters"
+* identifier.value = "MNO"
 * subject = Reference(Patient/P0522-patientBSJ1)
 * episodeOfCare = Reference(EpisodeOfCare/P0522-Episodecare-HHA)
 * basedOn.extension.url = "http://hl7.org/fhir/us/pacio-rt/StructureDefinition/clinicalImpression"
@@ -100,6 +108,8 @@ Usage: #example
 * class = http://terminology.hl7.org/CodeSystem/v3-ActCode#HH "home health"
 * type = http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-entity-cs#payer "Payer"
 * serviceType = http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-service-type-cs#oasis "Outcome and Assessment Information Set"
+* identifier.system = "urn:example:shhh:encounters"
+* identifier.value = "XYZ"
 * subject = Reference(Patient/P0522-patientBSJ1)
 * episodeOfCare = Reference(EpisodeOfCare/P0522-Episodecare-HHA)
 * basedOn.extension.url = "http://hl7.org/fhir/us/pacio-rt/StructureDefinition/clinicalImpression"

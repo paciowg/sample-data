@@ -16806,6 +16806,12 @@
             "http://hl7.org/fhir/us/pacio-rt/StructureDefinition/reassessment-timepoints-encounter"
           ]
         },
+        "identifier": [
+          {
+            "system": "urn:example:hnf:encounters",
+            "value": "123"
+          }
+        ],
         "status": "finished",
         "class": {
           "system": "http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-class-cs",
@@ -16857,7 +16863,7 @@
               {
                 "url": "http://hl7.org/fhir/us/pacio-rt/StructureDefinition/clinicalImpression",
                 "valueReference": {
-                  "reference": "ClinicalImpression/P0522-v5-ClinicalImpression-SNF-IPA"
+                  "reference": "ClinicalImpression/P0522-v5-ClinicalImpression-SNF-MDS-IPA"
                 }
               }
             ],
@@ -18826,6 +18832,12 @@
             "http://hl7.org/fhir/us/pacio-rt/StructureDefinition/reassessment-timepoints-encounter"
           ]
         },
+        "identifier": [
+          {
+            "system": "urn:example:hnf:encounters",
+            "value": "456"
+          }
+        ],
         "status": "finished",
         "class": {
           "system": "http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-class-cs",
@@ -18866,7 +18878,7 @@
               {
                 "url": "http://hl7.org/fhir/us/pacio-rt/StructureDefinition/clinicalImpression",
                 "valueReference": {
-                  "reference": "ClinicalImpression/P0522-v5-ClinicalImpression-SNF-IPA"
+                  "reference": "ClinicalImpression/P0522-v5-ClinicalImpression-SNF-MDS-IPA"
                 }
               }
             ],

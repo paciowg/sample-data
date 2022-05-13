@@ -32,6 +32,12 @@
       }
     ]
   },
+  "identifier": [
+    {
+      "system": "urn:example:hnf:encounters",
+      "value": "123"
+    }
+  ],
   "subject": {
     "reference": "Patient/P0522-patientBSJ1"
   },
@@ -57,7 +63,7 @@
         {
           "url": "http://hl7.org/fhir/us/pacio-rt/StructureDefinition/clinicalImpression",
           "valueReference": {
-            "reference": "ClinicalImpression/P0522-ClinicalImpression-SNF-IPA"
+            "reference": "ClinicalImpression/P0522-ClinicalImpression-SNF-MDS-IPA"
           }
         }
       ],

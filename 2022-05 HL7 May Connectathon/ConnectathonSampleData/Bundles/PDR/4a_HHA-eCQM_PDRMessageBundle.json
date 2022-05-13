@@ -4407,6 +4407,12 @@
             "http://hl7.org/fhir/us/pacio-rt/StructureDefinition/reassessment-timepoints-encounter"
           ]
         },
+        "identifier": [
+          {
+            "system": "urn:example:shhh:encounters",
+            "value": "XYZ"
+          }
+        ],
         "status": "finished",
         "class": {
           "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
@@ -5953,6 +5959,12 @@
             "http://hl7.org/fhir/us/pacio-rt/StructureDefinition/reassessment-timepoints-encounter"
           ]
         },
+        "identifier": [
+          {
+            "system": "urn:example:shhh:encounters",
+            "value": "MNO"
+          }
+        ],
         "status": "finished",
         "class": {
           "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
@@ -6570,6 +6582,12 @@
             "http://hl7.org/fhir/us/pacio-rt/StructureDefinition/reassessment-timepoints-encounter"
           ]
         },
+        "identifier": [
+          {
+            "system": "urn:example:shhh:encounters",
+            "value": "ABC"
+          }
+        ],
         "status": "finished",
         "class": {
           "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",

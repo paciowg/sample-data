@@ -32,6 +32,12 @@
       }
     ]
   },
+  "identifier": [
+    {
+      "system": "urn:example:shhh:encounters",
+      "value": "MNO"
+    }
+  ],
   "subject": {
     "reference": "Patient/P0522-patientBSJ1"
   },
