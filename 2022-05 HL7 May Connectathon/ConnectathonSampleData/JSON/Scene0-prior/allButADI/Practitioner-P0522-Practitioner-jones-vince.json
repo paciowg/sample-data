@@ -1,0 +1,26 @@
+{
+  "resourceType": "Practitioner",
+  "id": "P0522-Practitioner-jones-vince",
+  "active": true,
+  "name": [
+    {
+      "text": "Dr. Vince Jones, MD",
+      "family": "Jones",
+      "given": [
+        "Vince"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "777-555-1212",
+      "use": "work"
+    },
+    {
+      "system": "email",
+      "value": "vince.jones@woohoo.com"
+    }
+  ],
+  "gender": "male"
+}

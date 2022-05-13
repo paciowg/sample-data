@@ -1,0 +1,10 @@
+{
+  "resourceType": "Device",
+  "id": "P0522-CMS-Device-RollingWalker",
+  "deviceName": [
+    {
+      "name": "Rolling walker",
+      "type": "user-friendly-name"
+    }
+  ]
+}

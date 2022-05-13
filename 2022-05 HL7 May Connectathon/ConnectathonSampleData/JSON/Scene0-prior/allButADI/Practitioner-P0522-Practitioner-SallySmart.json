@@ -1,0 +1,19 @@
+{
+  "resourceType": "Practitioner",
+  "id": "P0522-Practitioner-SallySmart",
+  "name": [
+    {
+      "given": [
+        "Sally"
+      ],
+      "family": "Smart",
+      "text": "Sally Smart"
+    }
+  ],
+  "active": true,
+  "telecom": [
+    {
+      "system": "phone"
+    }
+  ]
+}

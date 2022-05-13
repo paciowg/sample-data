@@ -1,0 +1,26 @@
+{
+  "resourceType": "Practitioner",
+  "id": "P0522-Practitioner-johnson-sam",
+  "active": true,
+  "name": [
+    {
+      "text": "Sam Johnson",
+      "family": "Johnson",
+      "given": [
+        "Sam"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "777-555-1212",
+      "use": "work"
+    },
+    {
+      "system": "email",
+      "value": "sam.johnson@woohoo.com"
+    }
+  ],
+  "gender": "female"
+}

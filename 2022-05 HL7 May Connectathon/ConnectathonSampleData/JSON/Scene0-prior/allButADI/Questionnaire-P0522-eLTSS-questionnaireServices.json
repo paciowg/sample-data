@@ -1,0 +1,48 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "P0522-eLTSS-questionnaireServices",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Questionnaire-eltss"
+    ]
+  },
+  "name": "Questionnaire1",
+  "status": "active",
+  "item": [
+    {
+      "linkId": "q1",
+      "text": "Did you choose the setting in which you reside?",
+      "type": "boolean"
+    },
+    {
+      "linkId": "q2",
+      "text": "What alternative home and community-based settings were considered?",
+      "type": "string"
+    },
+    {
+      "linkId": "q3",
+      "text": "Were you given a choice of services outlined in the plan?",
+      "type": "boolean"
+    },
+    {
+      "linkId": "q4",
+      "text": "Did you participate in the selection of services outlined in the plan?",
+      "type": "boolean"
+    },
+    {
+      "linkId": "q5",
+      "text": "Do you agree to the services outlined in the plan?",
+      "type": "boolean"
+    },
+    {
+      "linkId": "q6",
+      "text": "Were you offered a choice of providers for each service?",
+      "type": "boolean"
+    },
+    {
+      "linkId": "q7",
+      "text": "Do you feel you made an informed choice in selecting the provider for each service?",
+      "type": "boolean"
+    }
+  ]
+}

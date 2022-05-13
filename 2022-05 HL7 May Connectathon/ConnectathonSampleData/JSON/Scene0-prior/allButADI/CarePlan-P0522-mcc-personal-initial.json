@@ -1,0 +1,134 @@
+{
+  "resourceType": "CarePlan",
+  "id": "P0522-mcc-personal-initial",
+  "status": "active",
+  "intent": "plan",
+  "title": "Personal Care Plan - 2021",
+  "description": "Plan for Betsy Smith Johnson's self-care at home in 2021.",
+  "subject": {
+    "reference": "Patient/P0522-patientBSJ1"
+  },
+  "period": {
+    "start": "2021-01-01",
+    "end": "2022-01-01"
+  },
+  "author": {
+    "reference": "Practitioner/P0522-Practitioner-JohnSmith"
+  },
+  "careTeam": [
+    {
+      "reference": "CareTeam/P0522-mcc-team-support"
+    }
+  ],
+  "addresses": [
+    {
+      "reference": "Condition/P0522-Prob-Diabetes"
+    },
+    {
+      "reference": "Condition/P0522-Prob-Hypertension"
+    }
+  ],
+  "goal": [
+    {
+      "reference": "Goal/P0522-mcc-goal-exercise"
+    }
+  ],
+  "activity": [
+    {
+      "detail": {
+        "kind": "ServiceRequest",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body weight"
+            }
+          ]
+        },
+        "status": "in-progress",
+        "scheduledTiming": {
+          "repeat": {
+            "boundsPeriod": {
+              "start": "2021-01-01",
+              "end": "2022-01-01"
+            },
+            "frequency": 1,
+            "period": 1,
+            "periodUnit": "d"
+          }
+        },
+        "performer": [
+          {
+            "reference": "Patient/P0522-patientBSJ1"
+          }
+        ],
+        "description": "Record your weight each morning before breakfast."
+      }
+    },
+    {
+      "detail": {
+        "kind": "ServiceRequest",
+        "code": {
+          "coding": [
+            {
+              "code": "55284-4",
+              "system": "http://loinc.org",
+              "display": "Blood pressure systolic and diastolic"
+            }
+          ]
+        },
+        "status": "in-progress",
+        "scheduledTiming": {
+          "repeat": {
+            "boundsPeriod": {
+              "start": "2021-01-01",
+              "end": "2022-01-01"
+            },
+            "frequency": 2,
+            "period": 1,
+            "periodUnit": "d"
+          }
+        },
+        "performer": [
+          {
+            "reference": "Patient/P0522-patientBSJ1"
+          }
+        ],
+        "description": "Record your blood pressure twice per day, morning and evening."
+      }
+    },
+    {
+      "detail": {
+        "kind": "ServiceRequest",
+        "code": {
+          "coding": [
+            {
+              "code": "2339-0",
+              "system": "http://loinc.org",
+              "display": "Glucose [Mass/volume] in Blood"
+            }
+          ]
+        },
+        "status": "in-progress",
+        "scheduledTiming": {
+          "repeat": {
+            "boundsPeriod": {
+              "start": "2021-01-01",
+              "end": "2022-01-01"
+            },
+            "frequency": 2,
+            "period": 1,
+            "periodUnit": "d"
+          }
+        },
+        "performer": [
+          {
+            "reference": "Patient/P0522-patientBSJ1"
+          }
+        ],
+        "description": "Record your blood glucose twice per day, after breakfast and dinner."
+      }
+    }
+  ]
+}

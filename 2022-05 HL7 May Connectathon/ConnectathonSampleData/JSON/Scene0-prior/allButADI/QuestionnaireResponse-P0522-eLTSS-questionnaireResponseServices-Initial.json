@@ -1,0 +1,68 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "id": "P0522-eLTSS-questionnaireResponseServices-Initial",
+  "questionnaire": "Questionnaire/P0522-eLTSS-questionnaireServices",
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/P0522-patientBSJ1"
+  },
+  "authored": "2020-04-02T03:00:00Z",
+  "item": [
+    {
+      "linkId": "q1",
+      "answer": [
+        {
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "linkId": "q2",
+      "answer": [
+        {
+          "valueString": "Assisted living facility"
+        }
+      ]
+    },
+    {
+      "linkId": "q3",
+      "answer": [
+        {
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "linkId": "q4",
+      "answer": [
+        {
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "linkId": "q5",
+      "answer": [
+        {
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "linkId": "q6",
+      "answer": [
+        {
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "linkId": "q7",
+      "answer": [
+        {
+          "valueBoolean": true
+        }
+      ]
+    }
+  ]
+}

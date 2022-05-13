@@ -1,0 +1,26 @@
+{
+  "resourceType": "RelatedPerson",
+  "id": "P0522-RP-eLTSS-son-CharlesJohnson",
+  "patient": {
+    "reference": "Patient/P0522-patientBSJ1"
+  },
+  "relationship": [
+    {
+      "coding": [
+        {
+          "code": "SONC",
+          "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+        }
+      ]
+    }
+  ],
+  "name": [
+    {
+      "text": "Charles Johnson",
+      "family": "Charles",
+      "given": [
+        "Johnson"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "resourceType": "Practitioner",
+  "id": "P0522-Practitioner-DonHopmed",
+  "name": [
+    {
+      "given": [
+        "Don"
+      ],
+      "family": "Hopmed",
+      "text": "Don Hopmed"
+    }
+  ],
+  "active": true,
+  "telecom": [
+    {
+      "system": "phone"
+    }
+  ]
+}
