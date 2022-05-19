@@ -73,7 +73,7 @@ Data comes from the `Time Based Observations- Func Perf & SPLASCH` spreadsheet, 
 
 ## Transform to FSH
 
-Transformation to FSH (FHIR Shorthand) leverages the [CSV to FSH](https://github.com/paciowg/CSV-to-FSH-app/tree/V2) script (NOTE: currently using the V2 branch - [this commit](https://github.com/paciowg/CSV-to-FSH-app/commit/58a9a7dbb127c9af3487ed341bd50faca7b5bfdd) ). If needed, checkout and configure your system to run this project (may need to use `pyenv` to specify a specific python version). Then,
+Transformation to FSH (FHIR Shorthand) leverages the [CSV to FSH](https://github.com/paciowg/CSV-to-FSH-app) script ([v2.0](https://github.com/paciowg/CSV-to-FSH-app/releases/tag/v2.0)). If needed, checkout and configure your system to run this project (may need to use `pyenv` to specify a specific python version). Then,
 1. Copy the csv files from the `CSVs` folder into the `input` folder of your `CSV to FSH` project install.
 2. Update the `instance-id-prefix` value in the `input/globalVariables.csv` to specify `P0522-`
 2. Run `python gen_fsh_code.sh`
