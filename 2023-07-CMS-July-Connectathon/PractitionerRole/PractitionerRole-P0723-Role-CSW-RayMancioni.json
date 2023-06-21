@@ -1,0 +1,16 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "P0723-Role-CSW-RayMancioni",
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "1041C0700X",
+          "system": "https://taxonomy.nucc.org/",
+          "display": "Clinical Social Worker"
+        }
+      ]
+    }
+  ],
+  "active": true
+}

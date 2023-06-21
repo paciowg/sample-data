@@ -1,0 +1,73 @@
+{
+  "resourceType": "Observation",
+  "id": "P0723-BSJ-HHA-BedtoChair-01PT-1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "functioning",
+          "system": "http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-functioning-cs",
+          "display": "Functioning"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "code": "mobility",
+          "system": "http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs",
+          "display": "Mobility"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "code": "survey",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/P0723-Home-Loc-01"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/P0723-patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2023-06-13T15:00:00-04:00",
+  "encounter": {
+    "reference": "Encounter/P0723-ENC-HHA"
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "95007-1",
+        "system": "http://loinc.org",
+        "display": "Chair/bed-to-chair transfer: The ability to transfer to and from a bed to a chair (or wheelchair)."
+      }
+    ]
+  },
+  "performer": [
+    {
+      "reference": "PractitionerRole/P0723-Role-PT-LunaBaskins"
+    },
+    {
+      "reference": "Practitioner/P0723-Practitioner-LunaBaskins"
+    },
+    {
+      "reference": "Organization/P0723-org-HH-Sky-Harbor-Home-Health"
+    }
+  ]
+}

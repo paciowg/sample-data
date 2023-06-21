@@ -1,0 +1,19 @@
+{
+  "resourceType": "Practitioner",
+  "id": "P0723-Practitioner-JacobHartwell",
+  "name": [
+    {
+      "given": [
+        "Jacob"
+      ],
+      "family": "Hartwell",
+      "text": "Jacob Hartwell"
+    }
+  ],
+  "active": true,
+  "telecom": [
+    {
+      "system": "phone"
+    }
+  ]
+}

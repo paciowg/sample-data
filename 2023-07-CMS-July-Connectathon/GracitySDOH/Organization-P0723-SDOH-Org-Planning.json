@@ -1,0 +1,12 @@
+ {
+      "resourceType": "Organization",
+      "id": "P0723-SDOH-Org-Planning",
+      "type": [ {
+        "coding": [ {
+          "system": "http://hl7.org/gravity/CodeSystem/sdohcc-temporary-organization-type-codes",
+          "code": "cp",
+          "display": "Coordination Platform"
+        } ]
+      } ],
+      "name": "Support Planner Services LLC"
+    }

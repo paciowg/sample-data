@@ -1,0 +1,16 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "P0723-Role-RNCM-SamMonitor",
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "163WC0400X",
+          "system": "https://taxonomy.nucc.org/",
+          "display": "Case Management Registered Nurse"
+        }
+      ]
+    }
+  ],
+  "active": true
+}

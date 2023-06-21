@@ -1,0 +1,16 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "P0723-Role-Driver-BillDriver",
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "172A00000X",
+          "system": "https://taxonomy.nucc.org/",
+          "display": "Driver"
+        }
+      ]
+    }
+  ],
+  "active": true
+}
