@@ -3,7 +3,7 @@
   "id": "P0723-BSJ-HHA-SwallowScreen-08SLP-Feeding2",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation"
     ]
   },
   "category": [
