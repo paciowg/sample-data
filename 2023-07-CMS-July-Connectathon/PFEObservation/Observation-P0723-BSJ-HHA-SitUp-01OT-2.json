@@ -69,5 +69,14 @@
     {
       "reference": "Organization/P0723-org-HH-Sky-Harbor-Home-Health"
     }
-  ]
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "LA28225-3",
+        "display": "Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently."
+      }
+    ]
+  }
 }

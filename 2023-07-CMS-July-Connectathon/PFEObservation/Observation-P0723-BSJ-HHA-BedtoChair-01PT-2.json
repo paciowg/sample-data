@@ -69,5 +69,14 @@
     {
       "reference": "Organization/P0723-org-HH-Sky-Harbor-Home-Health"
     }
-  ]
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "LA10055-4",
+        "display": "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort."
+      }
+    ]
+  }
 }
