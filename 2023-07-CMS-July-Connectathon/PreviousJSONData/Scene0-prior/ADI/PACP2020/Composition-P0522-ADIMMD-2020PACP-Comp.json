@@ -1,0 +1,245 @@
+{
+  "id": "P0723-ADIMMD-2022PACP-Comp",
+  "identifier": {
+    "system": "urn:oid:2.16.840.1.113883.3.3208.101.4.8.1",
+    "value": "20130607100315-CCDA-CCD-801"
+  },
+  "status": "final",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "81334-5",
+        "display": "Personal advance care plan"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "42348-3",
+          "display": "Advance directives"
+        }
+      ]
+    }
+  ],
+  "subject": {
+    "reference": "Patient/P0723-patientBSJ1",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "date": "2022-05-01T20:25:34+00:00",
+  "author": [
+    {
+      "reference": "Patient/P0723-patientBSJ1",
+      "display": "Smith-Johnson, Betsy"
+    },
+    {
+      "reference": "Device/P0723-ADIMMD-PortalDevice",
+      "display": "ADVault RR Portal"
+    }
+  ],
+  "title": "Personal Advance Care Plan Document (Version 1)",
+  "confidentiality": "N",
+  "custodian": {
+    "reference": "Organization/P0723-ADIMMD-ADVaultOrg"
+  },
+  "section": [
+    {
+      "extension": [
+        {
+          "extension": [
+            {
+              "url": "Clause",
+              "valueMarkdown": "<div><span>My Advance Care Goals</span><br></br><br></br>            <span>                <span>                    <span>If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me:</span>                </span>            </span>            <ol>                    <li>                        Avoiding prolonged dependence on machines                    </li>                    <li>                        Not being a physical burden to my family                    </li>                    <li>                        Dying at home                    </li>            </ol>            <span>                <span>                    Here are some thoughts that I would like for my medical care team and my healthcare agent(s) to know about the role that religion, faith or spirituality play in my life:                </span><br></br>                <span>                    I am Catholic, please call Father Mark at Saint Catherine's on Main Street.                </span>            </span><br></br><br></br>            <span>                <span>                    If I am having significant pain or suffering,                </span>                <span>                    I would like my doctors to consult a Supportive and Palliative Care Team to help treat my physical, emotional and spiritual discomfort, and to support my family.                </span>            </span><br></br><br></br>    <span>My Preferences in Specific Circumstances</span><br></br><br></br>    <span>In addition to the general advance care goals provided above, below are specific treatment preferences with respect to certain specific circumstances or situations.</span><br></br><br></br>        <span>            <span>If my health ever deteriorates due to a terminal illness, and my doctors believe I will not be able to interact meaningfully with my family, friends, or surroundings,</span>                            <span>                    I would like for them to keep trying life-sustaining treatments                                                            until my healthcare agent decides it is time to stop and such treatments and let me die gently.                </span>                                </span><br></br><br></br>        <span>            <span>                If I have a severe, irreversible brain injury or illness and can’t dress, feed, or bathe myself, or communicate my medical wishes, but doctors can keep me alive in this condition for a long period of time,            </span>                <span>                    I would like for them to keep trying life-sustaining treatments                                                            until my healthcare agent decides it is time to stop and such treatments and let me die gently.                </span>                                </span><br></br><br></br>        <span>            <span>                Although I understand that, depending on the situation and circumstances, medical personnel may not be able to follow my wishes, here are my general thoughts on cardiopulmonary resuscitation (CPR):            </span><br></br>            <span>                I want my healthcare agent to decide for me.            </span>        </span><br></br><br></br>        <span>Other Instructions</span><br></br><br></br>            <span>                <span>If it were possible to choose, here is where I would like to spend my final days:</span>                <span>At home.I would like to receive hospice care at home if possible.                </span>            </span>            <br></br><br></br>            <span>                <span>I understand that, in certain jurisdictions, if I have been diagnosed as pregnant and that diagnosis is known to my attending physician, medical treatment providers may refuse to follow my directives and provide life-sustaining treatment including artificially administered nutrition and hydration, as well as CPR and other resuscitation measures.</span>            </span><br></br><br></br>                <!--  Added text here for PMOLST  -->                <span>                  <span>                    I DO HAVE a Medical Order regarding Life-Sustaining                    Treatment (MOLST)</span>                  <span>                    Effective Time: 05/1/2022 17:22</span>                  <span>                    <a href=\"Smith-Johnson_MOLST20220730.pdf\">                      Access to MOLST</a>                  </span>                </span>              </div>"
+            }
+          ],
+          "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-clause-extension"
+        }
+      ],
+      "title": "Expression of Healthcare Treatment Wishes and Desires",
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "81336-0",
+            "display": "GPP certain health cond"
+          }
+        ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>My Advance Care Goals</span><br/><br/>            <span>                <span>                    <span>If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me:</span>                </span>            </span>            <ol>                    <li>                        Avoiding prolonged dependence on machines                    </li>                    <li>                        Not being a physical burden to my family                    </li>                    <li>                        Dying at home                    </li>            </ol>            <span>                <span>                    Here are some thoughts that I would like for my medical care team and my healthcare agent(s) to know about the role that religion, faith or spirituality play in my life:                </span><br/>                <span>                    I am Catholic, please call Father Mark at Saint Catherine's on Main Street.                </span>            </span><br/><br/>            <span>                <span>                    If I am having significant pain or suffering,                </span>                <span>                    I would like my doctors to consult a Supportive and Palliative Care Team to help treat my physical, emotional and spiritual discomfort, and to support my family.                </span>            </span><br/><br/>    <span>My Preferences in Specific Circumstances</span><br/><br/>    <span>In addition to the general advance care goals provided above, below are specific treatment preferences with respect to certain specific circumstances or situations.</span><br/><br/>        <span>            <span>If my health ever deteriorates due to a terminal illness, and my doctors believe I will not be able to interact meaningfully with my family, friends, or surroundings,</span>                            <span>                    I would like for them to keep trying life-sustaining treatments                                                            until my healthcare agent decides it is time to stop and such treatments and let me die gently.                </span>                                </span><br/><br/>        <span>            <span>                If I have a severe, irreversible brain injury or illness and can’t dress, feed, or bathe myself, or communicate my medical wishes, but doctors can keep me alive in this condition for a long period of time,            </span>                <span>                    I would like for them to keep trying life-sustaining treatments                                                            until my healthcare agent decides it is time to stop and such treatments and let me die gently.                </span>                                </span><br/><br/>        <span>            <span>                Although I understand that, depending on the situation and circumstances, medical personnel may not be able to follow my wishes, here are my general thoughts on cardiopulmonary resuscitation (CPR):            </span><br/>            <span>                I want my healthcare agent to decide for me.            </span>        </span><br/><br/>        <span>Other Instructions</span><br/><br/>            <span>                <span>If it were possible to choose, here is where I would like to spend my final days:</span>                <span>At home.I would like to receive hospice care at home if possible.                </span>            </span>            <br/><br/>            <span>                <span>I understand that, in certain jurisdictions, if I have been diagnosed as pregnant and that diagnosis is known to my attending physician, medical treatment providers may refuse to follow my directives and provide life-sustaining treatment including artificially administered nutrition and hydration, as well as CPR and other resuscitation measures.</span>            </span><br/><br/>                      <!-- Added text here for PMOLST -->                <span>                  <span>                    I DO HAVE a Medical Order regarding Life-Sustaining                    Treatment (MOLST)</span>                  <span>                    Effective Time: 05/1/2022 17:22</span>                  <span>                    <a href=\"Smith-Johnson_MOLST20220730.pdf\">                      Access to MOLST</a>                  </span>                </span>              </div>"
+      },
+      "entry": [
+        {
+          "reference": "CarePlan/P0723-ADIMMD-2022PACP-CarePlan"
+        }
+      ]
+    },
+    {
+      "extension": [
+        {
+          "extension": [
+            {
+              "url": "Clause",
+              "valueMarkdown": "<div><p>IF THIS PART OF THE uADD™ IS LEFT BLANK, I DO NOT WANT TO DESIGNATE A<br></br>HEALTHCARE AGENT AT THIS TIME, AND I DO NOT WANT A<br></br>DEFAULT HEALTHCARE AGENT DESIGNATED FOR ME UNDER APPLICABLE LAW. <br></br>I TRUST THE DOCTORS AND NURSES TREATING ME TO MAKE<br></br>MEDICAL TREATMENT DECISIONS REGARDING MY TREATMENT AND CARE.</p>    <p>I am appointing the person or persons below as my healthcare agent and, if applicable, as my alternate healthcare agent(s), and I am granting to each of them the legal authority to make medical treatment decisions on my behalf and to consult with my physician and others.  The power to make medical treatment decisions that I am granting to my healthcare agent(s) is expressly subject to, and limited by, the choices that I have expressed elsewhere in my uADD.  If my medical treatment choices are not clear, I am authorizing and directing my healthcare agent to make decisions in my best interests and based on what is known of my wishes.</p>            <span>                    <span>Primary Healthcare Agent</span><br></br>                    <span>The person I choose as my Primary Healthcare Agent is:</span><br></br>                <span>                        <span>        Charles Johnson            <span>(Son)</span>    </span><br></br>        <span>            CharlesSJ@example.com        </span><br></br>        <span>            [SELECTED to act as a healthcare agent on 3/29/2023, at 2:25 PM CDT]        </span><br></br>        <span>            [ACCEPTED to act as a healthcare agent on 4/1/2023, at 3:39 PM CDT]        </span><br></br>                </span>            </span><br></br>            <span>                    <span>First Alternate Healthcare Agent</span><br></br>                    <span>If this healthcare agent is unable or unwilling to make medical treatment decisions for me, or if my spouse is designated as my primary healthcare agent and our marriage is annulled, or we are divorced or legally separated, then my next choice for a healthcare agent is:</span><br></br>                <span>                        <span>        Debra Johnson            <span>(Daughter)</span>    </span><br></br>        <span>            DebraSJ@example.com        </span><br></br>        <span>            [SELECTED to act as a healthcare agent on 3/29/2023, at 2:25 PM CDT]        </span><br></br>        <span>            [As of 4/1/2023, at 3:40 PM CDT, a response is still PENDING]        </span><br></br>                </span>            </span><br></br>        <span>            <span>                My Healthcare Agent’s General Authority            </span><br></br>            <span>                    <span>Subject to my medical treatment choices expressed elsewhere in this uADD™ and applicable law that requires otherwise, I grant to my healthcare agent the power to make all choices and medical treatment decisions for me.</span>            </span>        </span><br></br>    <span>        <span>            If I cannot express my own wishes for medical treatment,        </span>        <span>            I would like the doctors treating me, as well as my healthcare agent if I have chosen one, to make decisions based as much as possible and appropriate on my instructions below.        </span>    </span>        <span>            <span>                If at some point in the future I am declared incompetent,            </span>            <span>                I DO NOT want to be allowed to override these preferences. I want my doctors to follow the preferences I express in this document.            </span>        </span><br></br><br></br>    <span>        <span>            Unless I have stated otherwise somewhere else in this uADD™, I understand that my healthcare agent may reconsider my medical treatment choices expressed above in light of my other instructions contained elsewhere in this uADD™ or new medical information.        </span>    </span><br></br></div>"
+            }
+          ],
+          "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-clause-extension"
+        }
+      ],
+      "title": "Appointment of a Primary Healthcare Agent and Alternate Healthcare Agents",
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "81335-2",
+            "display": "Healthcare agent"
+          }
+        ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>IF THIS PART OF THE uADD™ IS LEFT BLANK, I DO NOT WANT TO DESIGNATE A<br/>HEALTHCARE AGENT AT THIS TIME, AND I DO NOT WANT A<br/>DEFAULT HEALTHCARE AGENT DESIGNATED FOR ME UNDER APPLICABLE LAW. <br/>I TRUST THE DOCTORS AND NURSES TREATING ME TO MAKE<br/>MEDICAL TREATMENT DECISIONS REGARDING MY TREATMENT AND CARE.</p>    <p>I am appointing the person or persons below as my healthcare agent and, if applicable, as my alternate healthcare agent(s), and I am granting to each of them the legal authority to make medical treatment decisions on my behalf and to consult with my physician and others.  The power to make medical treatment decisions that I am granting to my healthcare agent(s) is expressly subject to, and limited by, the choices that I have expressed elsewhere in my uADD.  If my medical treatment choices are not clear, I am authorizing and directing my healthcare agent to make decisions in my best interests and based on what is known of my wishes.</p>            <span>                    <span>Primary Healthcare Agent</span><br/>                    <span>The person I choose as my Primary Healthcare Agent is:</span><br/>                <span>                        <span>        Charles Johnson            <span>(Son)</span>    </span><br/>        <span>            CharlesSJ@example.com        </span><br/>        <span>            [SELECTED to act as a healthcare agent on 3/29/2023, at 2:25 PM CDT]        </span><br/>        <span>            [ACCEPTED to act as a healthcare agent on 4/1/2023, at 3:39 PM CDT]        </span><br/>                </span>            </span><br/>            <span>                    <span>First Alternate Healthcare Agent</span><br/>                    <span>If this healthcare agent is unable or unwilling to make medical treatment decisions for me, or if my spouse is designated as my primary healthcare agent and our marriage is annulled, or we are divorced or legally separated, then my next choice for a healthcare agent is:</span><br/>                <span>                        <span>        Debra Johnson            <span>(Daughter)</span>    </span><br/>        <span>            DebraSJ@example.com        </span><br/>        <span>            [SELECTED to act as a healthcare agent on 3/29/2023, at 2:25 PM CDT]        </span><br/>        <span>            [As of 4/1/2023, at 3:40 PM CDT, a response is still PENDING]        </span><br/>                </span>            </span><br/>        <span>            <span>                My Healthcare Agent’s General Authority            </span><br/>            <span>                    <span>Subject to my medical treatment choices expressed elsewhere in this uADD™ and applicable law that requires otherwise, I grant to my healthcare agent the power to make all choices and medical treatment decisions for me.</span>            </span>        </span><br/>    <span>        <span>            If I cannot express my own wishes for medical treatment,        </span>        <span>            I would like the doctors treating me, as well as my healthcare agent if I have chosen one, to make decisions based as much as possible and appropriate on my instructions below.        </span>    </span>        <span>            <span>                If at some point in the future I am declared incompetent,            </span>            <span>                I DO NOT want to be allowed to override these preferences. I want my doctors to follow the preferences I express in this document.            </span>        </span><br/><br/>    <span>        <span>            Unless I have stated otherwise somewhere else in this uADD™, I understand that my healthcare agent may reconsider my medical treatment choices expressed above in light of my other instructions contained elsewhere in this uADD™ or new medical information.        </span>    </span><br/></div>"
+      },
+      "entry": [
+        {
+          "reference": "RelatedPerson/P0723-ADIMMD-2022PACP-RP-HCA-Primary-1"
+        },
+        {
+          "reference": "Consent/P0723-ADIMMD-2022PACP-Consent-HCA-Primary-1"
+        },
+        {
+          "reference": "RelatedPerson/P0723-ADIMMD-2022PACP-RP-HCA-Primary-2"
+        },
+        {
+          "reference": "Consent/P0723-ADIMMD-2022PACP-Consent-HCA-Primary-2"
+        },
+        {
+          "reference": "RelatedPerson/P0723-ADIMMD-2022PACP-RP-HCA-FirstAlt"
+        },
+        {
+          "reference": "Consent/P0723-ADIMMD-2022PACP-Consent-HCA-FirstAlt"
+        }
+      ]
+    },
+    {
+      "extension": [
+        {
+          "extension": [
+            {
+              "url": "Clause",
+              "valueMarkdown": "<div><span>        MyDirectives® offers people a list of optional questions that can be answered by typing text in a text box or by uploading a video or audio file for each question. Only those questions answered by Betsy Smith-Johnson appear here. For a complete list of questions in My Thoughts, please visit www.MyDirectives.com.    </span><br></br><br></br>    <span>        In case I’m being cared for by a person(s) who doesn't know me very well, I’d like my following thoughts to be known.    </span><br></br><br></br>        <span>            <span>                My likes / joys:            </span>            <span>                Here are some examples of the things that I would like to have near me, music that I’d like to hear, and other details of my care that would help to keep me happy and relaxed:            </span>            <br></br>            <span>                I love the smell of lavender and the feeling of sunshine on my face.            </span>        </span><br></br><br></br>        <span>            <span>                My dislikes / fears:            </span>            <span>                Here is a list of things that I would like to avoid if at all possible, people that I don’t wish to see, and concerns I have about particular family members, pets, and so on:            </span>            <br></br>            <span>                I do not like my feet to be cold.            </span>        </span><br></br><br></br>        <span>            <span>                How to care for me:            </span>            <span>                If I become incapacitated and cannot express myself, here is what I would like to tell my healthcare agent, family and friends about how I would like for them to care for me:            </span>            <br></br>            <span>                I want photos of my family where I can see them.            </span>        </span><br></br><br></br>        <span>            <span>                My religion:            </span>            <span>                If I appear to be approaching the end of my life, here are some things that I would like for my caregivers to know about my faith and my religion.            </span>            <br></br>            <span>                Please call Father Mark if my condition warrants the services of a priest.            </span>        </span><br></br><br></br>        <span>            <span>                Please attempt to notify someone from my religion at the following phone number:            </span>            <span>                If I have included one            </span>            <br></br>            <span>                Catholic            </span>        </span><br></br><br></br>        <span>            <span>                My unfinished business:            </span>            <span>                If it appears that I am approaching the end of my life, and I cannot communicate with persons around me, I would want my doctors and nurses, my family, and my friends to know about some unfinished business that I need to address:            </span>            <br></br>            <span>                I want my sister and I to talk again, and miss her.  I wish we hadn't disagreed all those years ago and regret the time it has cost us.  I'd like to see her face if I were very ill and needed the comfort of family at my side.            </span>        </span><br></br><br></br>        <span>            <span>                Laughter:            </span>            <span>                These are some of my fondest memories from life that have always brought a smile to my face or made me laugh:            </span>            <br></br>            <span>                My dogs make me laugh when they play together, and my grandchildren make me laugh when they put on plays for me.  They bring me great joy.            </span>        </span><br></br><br></br></div>"
+            }
+          ],
+          "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-clause-extension"
+        }
+      ],
+      "title": "My Thoughts",
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "81338-6",
+            "display": "GPP for care experience"
+          }
+        ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>        MyDirectives® offers people a list of optional questions that can be answered by typing text in a text box or by uploading a video or audio file for each question. Only those questions answered by Betsy Smith-Johnson appear here. For a complete list of questions in My Thoughts, please visit www.MyDirectives.com.    </span><br/><br/>    <span>        In case I’m being cared for by a person(s) who doesn't know me very well, I’d like my following thoughts to be known.    </span><br/><br/>        <span>            <span>                My likes / joys:            </span>            <span>                Here are some examples of the things that I would like to have near me, music that I’d like to hear, and other details of my care that would help to keep me happy and relaxed:            </span>            <br/>            <span>                I love the smell of lavender and the feeling of sunshine on my face.            </span>        </span><br/><br/>        <span>            <span>                My dislikes / fears:            </span>            <span>                Here is a list of things that I would like to avoid if at all possible, people that I don’t wish to see, and concerns I have about particular family members, pets, and so on:            </span>            <br/>            <span>                I do not like my feet to be cold.            </span>        </span><br/><br/>        <span>            <span>                How to care for me:            </span>            <span>                If I become incapacitated and cannot express myself, here is what I would like to tell my healthcare agent, family and friends about how I would like for them to care for me:            </span>            <br/>            <span>                I want photos of my family where I can see them.            </span>        </span><br/><br/>        <span>            <span>                My religion:            </span>            <span>                If I appear to be approaching the end of my life, here are some things that I would like for my caregivers to know about my faith and my religion.            </span>            <br/>            <span>                Please call Father Mark if my condition warrants the services of a priest.            </span>        </span><br/><br/>        <span>            <span>                Please attempt to notify someone from my religion at the following phone number:            </span>            <span>                If I have included one            </span>            <br/>            <span>                Catholic            </span>        </span><br/><br/>        <span>            <span>                My unfinished business:            </span>            <span>                If it appears that I am approaching the end of my life, and I cannot communicate with persons around me, I would want my doctors and nurses, my family, and my friends to know about some unfinished business that I need to address:            </span>            <br/>            <span>                I want my sister and I to talk again, and miss her.  I wish we hadn't disagreed all those years ago and regret the time it has cost us.  I'd like to see her face if I were very ill and needed the comfort of family at my side.            </span>        </span><br/><br/>        <span>            <span>                Laughter:            </span>            <span>                These are some of my fondest memories from life that have always brought a smile to my face or made me laugh:            </span>            <br/>            <span>                My dogs make me laugh when they play together, and my grandchildren make me laugh when they put on plays for me.  They bring me great joy.            </span>        </span><br/><br/></div>"
+      },
+      "entry": [
+        {
+          "reference": "Goal/P0723-ADIMMD-2022PACP-Goal-LikesJoys"
+        },
+        {
+          "reference": "Goal/P0723-ADIMMD-2022PACP-Goal-Avoid"
+        },
+        {
+          "reference": "Goal/P0723-ADIMMD-2022PACP-Goal-HowToCareForMe"
+        },
+        {
+          "reference": "Goal/P0723-ADIMMD-2022PACP-Goal-MyReligion"
+        },
+        {
+          "reference": "Goal/P0723-ADIMMD-2022PACP-Goal-NotifyReligious"
+        },
+        {
+          "reference": "Goal/P0723-ADIMMD-2022PACP-Goal-UnfinishedBusiness"
+        },
+        {
+          "reference": "Goal/P0723-ADIMMD-2022PACP-Goal-Laughter"
+        }
+      ]
+    },
+    {
+      "extension": [
+        {
+          "extension": [
+            {
+              "url": "Clause",
+              "valueMarkdown": "<div><p>I am emotionally and mentally competent to make this uADD.  I understand the purpose and effect of this uADD, I agree with everything that is written in this uADD, and I have made this uADD knowingly, willingly and after careful deliberation.</p><table>    <thead>        <tr>            <td>Data Type</td>            <td>Information</td>        </tr>    </thead>    <tbody>        <tr>            <td>Signature:</td>            <td>Betsy Smith-Johnson</td>        </tr>        <tr>            <td>Date:</td>            <td>3/29/2023</td>        </tr>    </tbody></table><br></br><br></br><span>    Statement of Witnesses</span><br></br><br></br><span>    I declare that the person who signed this uADD, or who asked another to sign this uADD on his/her behalf, is the individual identified in the document, and he/she did so in my presence or otherwise provided satisfactory proof to me of his/her identity. I believe him/her to be of sound mind and at least 18 years of age. I personally witnessed him/her sign this document or ask the person indicated to do so, or I received proof of his/her identity that I believe is adequate, and I believe that he/she did so voluntarily.  By signing this document as a witness, I certify that I am:</span><br></br><br></br><ul>    <li>At least 18 years of age.</li>    <li>Not related to the person signing this document by blood, marriage or adoption.</li>    <li>Not a healthcare agent appointed by the person signing this document.</li>    <li>Not directly financially responsible for that person’s healthcare.</li>    <li>Not a healthcare provider directly serving the person at this time.</li>    <li>Not an employee (other than a social worker or chaplain), officer, director, or partner of a healthcare provider (or any parent organization of such healthcare provider) directly serving the person at this time.</li>    <li>Not aware that I am entitled to or have a claim against the person’s estate.</li></ul><br></br><br></br>    <table>        <thead>            <tr>                <td>Data Type</td>                <td>Information</td>            </tr>        </thead>        <tbody>            <tr>                <td>Witness Number:</td>                <td></td>            </tr>            <tr>                <td>Signature:</td>                <td></td>            </tr>            <tr>                <td>Date:</td>                <td></td>            </tr>        </tbody>    </table><br></br>        <br></br><br></br><br></br></div>"
+            }
+          ],
+          "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-clause-extension"
+        }
+      ],
+      "title": "Witnesses and Notary",
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "81339-4",
+            "display": "Witnesses and Notary"
+          }
+        ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>I am emotionally and mentally competent to make this uADD.  I understand the purpose and effect of this uADD, I agree with everything that is written in this uADD, and I have made this uADD knowingly, willingly and after careful deliberation.</p><table>    <thead>        <tr>            <td>Data Type</td>            <td>Information</td>        </tr>    </thead>    <tbody>        <tr>            <td>Signature:</td>            <td>Betsy Smith-Johnson</td>        </tr>        <tr>            <td>Date:</td>            <td>3/29/2023</td>        </tr>    </tbody></table><br/><br/><span>    Statement of Witnesses</span><br/><br/><span>    I declare that the person who signed this uADD, or who asked another to sign this uADD on his/her behalf, is the individual identified in the document, and he/she did so in my presence or otherwise provided satisfactory proof to me of his/her identity. I believe him/her to be of sound mind and at least 18 years of age. I personally witnessed him/her sign this document or ask the person indicated to do so, or I received proof of his/her identity that I believe is adequate, and I believe that he/she did so voluntarily.  By signing this document as a witness, I certify that I am:</span><br/><br/><ul>    <li>At least 18 years of age.</li>    <li>Not related to the person signing this document by blood, marriage or adoption.</li>    <li>Not a healthcare agent appointed by the person signing this document.</li>    <li>Not directly financially responsible for that person’s healthcare.</li>    <li>Not a healthcare provider directly serving the person at this time.</li>    <li>Not an employee (other than a social worker or chaplain), officer, director, or partner of a healthcare provider (or any parent organization of such healthcare provider) directly serving the person at this time.</li>    <li>Not aware that I am entitled to or have a claim against the person’s estate.</li></ul><br/><br/>    <table>        <thead>            <tr>                <td>Data Type</td>                <td>Information</td>            </tr>        </thead>        <tbody>            <tr>                <td>Witness Number:</td>                <td/>            </tr>            <tr>                <td>Signature:</td>                <td/>            </tr>            <tr>                <td>Date:</td>                <td/>            </tr>        </tbody>    </table><br/>        <br/><br/><br/></div>"
+      }
+    },
+    {
+      "extension": [
+        {
+          "extension": [
+            {
+              "url": "Clause",
+              "valueMarkdown": "<div><span>            <span>Consent to Donate</span><br></br>            <span>I consent to donate all organs and tissues.                                                                                            </span>        </span><br></br><br></br>        <span>            <span>Autopsy</span><br></br>                            <span>I want an autopsy</span>                <span>only if there are questions about my death.</span>                                            </span><br></br><br></br>        <span>            <span>Here are my thoughts on funeral or burial plans:</span><br></br>            <span>                If I were to pass away:<br></br>                Please call Jim Houston, my lawyer, for arrangements I have already made.            </span>        </span><br></br><br></br></div>"
+            }
+          ],
+          "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-clause-extension"
+        }
+      ],
+      "title": "Goals, Preferences and Priorities upon Death",
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "81337-8",
+            "display": "GPP upon Death"
+          }
+        ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>            <span>Consent to Donate</span><br/>            <span>I consent to donate all organs and tissues.                                                                                            </span>        </span><br/><br/>        <span>            <span>Autopsy</span><br/>                            <span>I want an autopsy</span>                <span>only if there are questions about my death.</span>                                            </span><br/><br/>        <span>            <span>Here are my thoughts on funeral or burial plans:</span><br/>            <span>                If I were to pass away:<br/>                Please call Jim Houston, my lawyer, for arrangements I have already made.            </span>        </span><br/><br/></div>"
+      },
+      "entry": [
+        {
+          "reference": "Observation/P0723-ADIMMD-2022PACP-Obs-OrganDonation"
+        },
+        {
+          "reference": "Goal/P0723-ADIMMD-2022PACP-Goal-Autopsy"
+        },
+        {
+          "reference": "Goal/P0723-ADIMMD-2022PACP-Goal-FuneralPlans"
+        }
+      ]
+    }
+  ],
+  "resourceType": "Composition"
+}

@@ -1,0 +1,16 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "P0723-Role-SLP-JennyGlass",
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "235Z00000X",
+          "system": "https://taxonomy.nucc.org/",
+          "display": "Speech-Language Pathologist"
+        }
+      ]
+    }
+  ],
+  "active": true
+}

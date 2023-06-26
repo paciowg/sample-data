@@ -1,0 +1,105 @@
+{
+  "resourceType": "CarePlan",
+  "id": "P0723-eLTSS-Careplan-eLTSS-Personal-Updated",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/CarePlan-eltss"
+    ]
+  },
+  "status": "active",
+  "intent": "plan",
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "assess-plan",
+          "system": "http://hl7.org/fhir/us/core/CodeSystem/careplan-category"
+        }
+      ]
+    }
+  ],
+  "title": "Betsy Smith Johnson's Services and Supports Plan for 2023",
+  "description": "A service and support plan that outlines Betsy's assessed needs, goals, strengths, preferences, and services/providers to meet those needs and goals.",
+  "subject": {
+    "reference": "Patient/P0723-patientBSJ1"
+  },
+  "period": {
+    "start": "2023-06-01",
+    "end": "2024-05-31"
+  },
+  "author": {
+    "reference": "Practitioner/P0723-Practitioner-eLTSS-planner-MarkPlanner"
+  },
+  "addresses": [
+    {
+      "reference": "Condition/P0723-eLTSS-needTransportation"
+    },
+    {
+      "reference": "Condition/P0723-eLTSS-needDiabetesEducation"
+    },
+    {
+      "reference": "Condition/P0723-eLTSS-needDepressionTreatment"
+    }
+  ],
+  "supportingInfo": [
+    {
+      "reference": "Observation/P0723-eLTSS-strengthManageBills"
+    },
+    {
+      "reference": "Observation/P0723-eLTSS-preferenceICWP"
+    },
+    {
+      "reference": "QuestionnaireResponse/P0723-eLTSS-questionnaireResponseServices-Updated"
+    },
+    {
+      "reference": "Contract/P0723-eLTSS-contractSigned-Updated"
+    },
+    {
+      "reference": "RiskAssessment/P0723-eLTSS-riskFalls"
+    }
+  ],
+  "goal": [
+    {
+      "reference": "Goal/P0723-eLTSS-goalDanceDaughterWedding"
+    }
+  ],
+  "activity": [
+    {
+      "detail": {
+        "goal": [
+          {
+            "reference": "Goal/P0723-eLTSS-goalBalance"
+          }
+        ],
+        "status": "not-started",
+        "description": "Perform exercises to improve balance skills"
+      }
+    },
+    {
+      "detail": {
+        "goal": [
+          {
+            "reference": "Goal/P0723-eLTSS-goalDanceDaughterWedding"
+          }
+        ],
+        "status": "not-started",
+        "description": "Work on mobility to dance at daughter's upcoming wedding"
+      }
+    },
+    {
+      "reference": {
+        "reference": "ServiceRequest/P0723-eLTSS-serviceTransportation-Updated"
+      }
+    },
+    {
+      "reference": {
+        "reference": "ServiceRequest/P0723-eLTSS-serviceDiabetesEducation-Updated"
+      }
+    },
+    {
+      "reference": {
+        "reference": "ServiceRequest/P0723-eLTSS-serviceBalance-Updated"
+      }
+    }
+  ]
+}

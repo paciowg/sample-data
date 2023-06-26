@@ -1,0 +1,49 @@
+{
+  "id": "P0723-ADIMMD-2022PACP-Goal-AvoidMachineDependence",
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Avoiding prolonged dependence on machines</div>"
+  },
+  "identifier": [
+    {
+      "value": "E2A88267-CA2F-42CF-820A-79A089358C98"
+    }
+  ],
+  "lifecycleStatus": "proposed",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "81378-2",
+          "display": "Goals, preferences, and priorities under certain health conditions"
+        }
+      ]
+    }
+  ],
+  "description": {
+    "extension": [
+      {
+        "url": "Context",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "81378-2",
+              "display": "Goals, preferences, and priorities under certain health conditions"
+            }
+          ]
+        }
+      },
+      {
+        "url": "Value",
+        "valueString": "Avoiding prolonged dependence on machines"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/P0723-patientBSJ1",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "resourceType": "Goal"
+}

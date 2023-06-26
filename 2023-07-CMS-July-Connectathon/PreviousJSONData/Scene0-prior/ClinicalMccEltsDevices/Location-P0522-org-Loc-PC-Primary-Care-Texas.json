@@ -1,0 +1,9 @@
+{
+  "resourceType": "Location",
+  "id": "P0723-org-Loc-PC-Primary-Care-Texas",
+  "name": "Primary Care of Texas, Inc.",
+  "address": {
+    "text": "177 Deerfield St. San Antonio, TX 78207"
+  },
+  "status": "active"
+}

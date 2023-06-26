@@ -1,0 +1,99 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "P0723-ADIMMD-2022PACP-DocRef",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2023-04-26T16:56:58.000+00:00",
+    "source": "#z2nmrTFI2pM4Rv94"
+  },
+  "masterIdentifier": {
+    "system": "ClinicalDocument.id",
+    "value": "2.16.840.1.113883.3.3208.101.4.8.1:20130607100315-CCDA-CCD-801"
+  },
+  "identifier": [ {
+    "system": "ClinicalDocument.id",
+    "value": "2.16.840.1.113883.3.3208.101.4.8.1:20130607100315-CCDA-CCD-801"
+  }, {
+    "system": "Binary.id",
+    "value": "P0723-ADIMMD-2022PACP-BinaryCDA"
+  }, {
+    "system": "ClinicalDocument.setid",
+    "value": "2.16.840.1.113883.3.3208.101.737:20130607100315-CCDA-678"
+  } ],
+  "status": "superseded",
+  "docStatus": "final",
+  "type": {
+    "coding": [ {
+      "system": "http://loinc.org",
+      "code": "81334-5",
+      "display": "Personal advance care plan"
+    } ]
+  },
+  "category": [ {
+    "coding": [ {
+      "system": "http://loinc.org",
+      "code": "75320-2",
+      "display": "Advance Directive"
+    } ]
+  } ],
+  "subject": {
+    "reference": "Patient/P0723-patientBSJ1",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "date": "2022-05-01T20:25:34.000+00:00",
+  "author": [ {
+    "reference": "Patient/P0723-patientBSJ1",
+    "display": "Smith-Johnson, Betsy"
+  }, {
+    "reference": "Device/P0723-ADIMMD-PortalDevice",
+    "display": "ADVault RR Portal"
+  } ],
+  "authenticator": {
+    "reference": "Organization/P0723-ADIMMD-ADVaultOrg"
+  },
+  "custodian": {
+    "reference": "Organization/P0723-ADIMMD-ADVaultOrg"
+  },
+  "description": "Personal Advance Care Plan Document (Version 1)",
+  "securityLabel": [ {
+    "coding": [ {
+      "system": "http://hl7.org/fhir/v3/Confidentiality",
+      "code": "N",
+      "display": "normal"
+    } ]
+  } ],
+  "content": [ {
+    "attachment": {
+      "contentType": "text/xml",
+      "url": "Binary/P0723-ADIMMD-2022PACP-BinaryCDA"
+    },
+    "format": {
+      "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+      "code": "urn:hl7-org:sdwg:pacp-structuredBody:1.2.0.1",
+      "display": "PACA C-CDA"
+    }
+  }, {
+    "attachment": {
+      "contentType": "application/json",
+      "url": "Binary/P0723-ADIMMD-2022PACP-BinaryBundle"
+    },
+    "format": {
+      "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+      "code": "urn:hl7-org:sdwg:ccda-on-fhir-json:1.0",
+      "display": "FHIR Document Bundle"
+    }
+  }, {
+    "attachment": {
+      "url": "Composition/P0723-ADIMMD-2022PACP-Comp"
+    }
+  }, {
+    "attachment": {
+      "url": "Bundle/P0723-ADIMMD-2022PACP-Bundle"
+    },
+    "format": {
+      "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+      "code": "urn:hl7-org:sdwg:ccda-on-fhir-json:1.0",
+      "display": "FHIR Document Bundle"
+    }
+  } ]
+}

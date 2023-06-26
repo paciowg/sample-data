@@ -1,0 +1,30 @@
+{
+  "resourceType": "Practitioner",
+  "id": "P0723-Practitioner-eLTSS-driver-BillDriver",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Practitioner-eltss"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://www.acme.org/practitioners",
+      "value": "11223344"
+    }
+  ],
+  "name": [
+    {
+      "text": "Bill Driver",
+      "family": "Driver",
+      "given": [
+        "Bill"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "(210) 111 2222"
+    }
+  ]
+}

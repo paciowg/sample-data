@@ -1,0 +1,11 @@
+{
+  "id": "P0723-ADIMMD-2022PACP-Cond-LossOfExpression",
+  "code": {
+    "text": "If I am so sick or seriously injured that I cannot express my own medical treatment preferences, and if I am not expected to live without additional treatment for my illness, disease, condition or injury, then I want my medical care team to know that these are the things that are most important to me:"
+  },
+  "subject": {
+    "reference": "Patient/P0723-patientBSJ1",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "resourceType": "Condition"
+}

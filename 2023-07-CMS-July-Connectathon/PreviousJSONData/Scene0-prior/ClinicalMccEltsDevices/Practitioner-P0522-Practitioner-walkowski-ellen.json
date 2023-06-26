@@ -1,0 +1,26 @@
+{
+  "resourceType": "Practitioner",
+  "id": "P0723-Practitioner-walkowski-ellen",
+  "active": true,
+  "name": [
+    {
+      "text": "Ellen Walkowski",
+      "family": "Walkowski",
+      "given": [
+        "Ellen"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "777-555-1212",
+      "use": "work"
+    },
+    {
+      "system": "email",
+      "value": "ellen.walkowski@woohoo.com"
+    }
+  ],
+  "gender": "female"
+}

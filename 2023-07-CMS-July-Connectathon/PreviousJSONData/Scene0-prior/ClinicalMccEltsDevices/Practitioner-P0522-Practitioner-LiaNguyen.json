@@ -1,0 +1,19 @@
+{
+  "resourceType": "Practitioner",
+  "id": "P0723-Practitioner-LiaNguyen",
+  "name": [
+    {
+      "given": [
+        "Lia"
+      ],
+      "family": "Nguyen",
+      "text": "Lia Nguyen"
+    }
+  ],
+  "active": true,
+  "telecom": [
+    {
+      "system": "phone"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "resourceType": "ClinicalImpression",
+  "id": "P0723-ClinicalImpression-HHA-OASIS-DC",
+  "status": "completed",
+  "description": "Assessment and Impression prior to discharge from home health care",
+  "subject": {
+    "reference": "Patient/P0723-patientBSJ1"
+  },
+  "effectiveDateTime": "2022-08-24",
+  "encounter": {
+    "reference": "Encounter/P0723-Enc-HHA"
+  },
+  "investigation": [
+    {
+      "code": {
+        "text": "OASIS Discharge Assessments"
+      },
+      "item": [
+        {
+          "reference": "Observation/P0723-HHA-MOB-DC-OASIS-2E"
+        },
+        {
+          "reference": "Observation/P0723-HHA-SC-DC-OASIS-2F"
+        }
+      ]
+    }
+  ],
+  "summary": "able to function independently"
+}

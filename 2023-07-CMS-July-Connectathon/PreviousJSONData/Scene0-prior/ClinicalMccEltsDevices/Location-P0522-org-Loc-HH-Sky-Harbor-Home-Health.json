@@ -1,0 +1,9 @@
+{
+  "resourceType": "Location",
+  "id": "P0723-org-Loc-HH-Sky-Harbor-Home-Health",
+  "name": "Sky Harbor Home Health Services",
+  "address": {
+    "text": "8810 Old Sky Harbor, San Antonio, TX 78242"
+  },
+  "status": "active"
+}

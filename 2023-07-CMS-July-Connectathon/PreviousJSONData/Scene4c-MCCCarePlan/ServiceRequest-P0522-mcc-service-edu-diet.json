@@ -1,0 +1,35 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "P0723-mcc-service-edu-diet",
+  "status": "active",
+  "intent": "plan",
+  "code": {
+    "coding": [
+      {
+        "code": "11816003",
+        "system": "http://snomed.info/sct",
+        "display": "Diet education (procedure)"
+      }
+    ],
+    "text": "Diet counseling"
+  },
+  "subject": {
+    "reference": "Patient/P0723-patientBSJ1"
+  },
+  "requester": {
+    "reference": "Practitioner/P0723-Practitioner-JohnSmith"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/P0723-Practitioner-estaban-felicity"
+    }
+  ],
+  "reasonReference": [
+    {
+      "reference": "Condition/P0723-Prob-Diabetes"
+    },
+    {
+      "reference": "Condition/P0723-Prob-CKD"
+    }
+  ]
+}

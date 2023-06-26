@@ -1,0 +1,29 @@
+{
+  "resourceType": "ClinicalImpression",
+  "id": "P0723-ClinicalImpression-HHA-OASIS-FU-60",
+  "status": "completed",
+  "description": "Assessment and Impression after 60 days of home health care",
+  "subject": {
+    "reference": "Patient/P0723-patientBSJ1"
+  },
+  "effectiveDateTime": "2022-06-02",
+  "encounter": {
+    "reference": "Encounter/P0723-Enc-HHA"
+  },
+  "investigation": [
+    {
+      "code": {
+        "text": "OASIS 60-day Follow Up Assessments"
+      },
+      "item": [
+        {
+          "reference": "Observation/P0723-HHA-MOB-FU-60-OASIS-2C"
+        },
+        {
+          "reference": "Observation/P0723-HHA-SC-FU-60-OASIS-2D"
+        }
+      ]
+    }
+  ],
+  "summary": "continue recovery at home"
+}

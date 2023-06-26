@@ -1,0 +1,16 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "P0723-Role-OT-CheriseLangford",
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "225X00000X",
+          "system": "https://taxonomy.nucc.org/",
+          "display": "Occupational therapist"
+        }
+      ]
+    }
+  ],
+  "active": true
+}

@@ -1,0 +1,20 @@
+{
+  "resourceType": "Practitioner",
+  "id": "P0723-Practitioner-TamaraRodriguez",
+  "name": [
+    {
+      "given": [
+        "Tamara"
+      ],
+      "family": "Rodriguez",
+      "text": "Tamara Rodriguez"
+    }
+  ],
+  "active": true,
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "(210) 555 2089"
+    }
+  ]
+}

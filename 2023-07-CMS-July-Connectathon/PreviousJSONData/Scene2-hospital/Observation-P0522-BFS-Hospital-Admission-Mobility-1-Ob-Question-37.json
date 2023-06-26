@@ -1,0 +1,87 @@
+{
+  "resourceType": "Observation",
+  "id": "P0723-BFS-Hospital-Admission-Mobility-1-Ob-Question-37",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+          "code": "functioning",
+          "display": "Functioning"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "code": "mobility",
+          "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-category-cs",
+          "display": "Mobility"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "code": "survey",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/P0723-org-Loc-Hosp-San-Antonio-General"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/P0723-patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2022-02-21T08:00:00-05:00",
+  "encounter": {
+    "reference": "Encounter/P0723-Enc-Hospital"
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "83206-3",
+        "system": "http://loinc.org",
+        "display": "Car transfer - functional ability during 3 day assessment period [CMS Assessment]"
+      }
+    ]
+  },
+  "performer": [
+    {
+      "reference": "PractitionerRole/P0723-Role-PT-RonMarble"
+    },
+    {
+      "reference": "Practitioner/P0723-Practitioner-RonMarble"
+    },
+    {
+      "reference": "Organization/P0723-org-Hosp-San-Antonio-General"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/P0723-QResponse-Hospital-Admission-Mobility-1"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA26735-3",
+        "system": "http://loinc.org",
+        "display": "Not attempted due to medical condition or safety concerns"
+      }
+    ]
+  }
+}

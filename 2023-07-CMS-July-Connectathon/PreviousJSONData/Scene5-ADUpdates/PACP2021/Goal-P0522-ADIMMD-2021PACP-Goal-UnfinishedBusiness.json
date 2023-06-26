@@ -1,0 +1,41 @@
+{
+  "id": "P0723-ADIMMD-2022PACP-Goal-UnfinishedBusiness",
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>                My unfinished business:            </span>            <span>                If it appears that I am approaching the end of my life, and I cannot communicate with persons around me, I would want my doctors and nurses, my family, and my friends to know about some unfinished business that I need to address:            </span>            <br/>            <span>                I want my sister and I to talk again, and miss her.  I wish we hadn't disagreed all those years ago and regret the time it has cost us.  I'd like to see her face if I were very ill and needed the comfort of family at my side.            </span></div>"
+  },
+  "identifier": [
+    {
+      "value": "652F79B3-3C7D-483D-867B-D4C18156C581"
+    }
+  ],
+  "lifecycleStatus": "proposed",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "81366-7",
+          "display": "Unfinished business"
+        }
+      ],
+      "text": "My unfinished business:"
+    },
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-adi/CodeSystem/PADIGoalCategoryCS",
+          "code": "care-experience-preference"
+        }
+      ]
+    }
+  ],
+  "description": {
+    "text": "<span>                My unfinished business:            </span>            <span>                If it appears that I am approaching the end of my life, and I cannot communicate with persons around me, I would want my doctors and nurses, my family, and my friends to know about some unfinished business that I need to address:            </span>            <br></br>            <span>                I want my sister and I to talk again, and miss her.  I wish we hadn't disagreed all those years ago and regret the time it has cost us.  I'd like to see her face if I were very ill and needed the comfort of family at my side.            </span>"
+  },
+  "subject": {
+    "reference": "Patient/P0723-patientBSJ1",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "resourceType": "Goal"
+}

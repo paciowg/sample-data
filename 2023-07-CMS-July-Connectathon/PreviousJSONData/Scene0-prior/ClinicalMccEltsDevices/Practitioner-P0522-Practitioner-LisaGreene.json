@@ -1,0 +1,19 @@
+{
+  "resourceType": "Practitioner",
+  "id": "P0723-Practitioner-LisaGreene",
+  "name": [
+    {
+      "given": [
+        "Lisa"
+      ],
+      "family": "Greene",
+      "text": "Lisa Greene"
+    }
+  ],
+  "active": true,
+  "telecom": [
+    {
+      "system": "phone"
+    }
+  ]
+}

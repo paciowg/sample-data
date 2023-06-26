@@ -1,0 +1,35 @@
+{
+  "resourceType": "EpisodeOfCare",
+  "id": "P0723-Episodecare-SNF",
+  "status": "finished",
+  "type": [
+    {
+      "coding": [
+        {
+          "code": "pac",
+          "system": "http://terminology.hl7.org/CodeSystem/episodeofcare-type"
+        }
+      ]
+    }
+  ],
+  "diagnosis": [
+    {
+      "condition": {
+        "reference": "Condition/P0723-EncDx-SNF-CIRightMiddleArtery"
+      }
+    }
+  ],
+  "patient": {
+    "reference": "Patient/P0723-patientBSJ1"
+  },
+  "managingOrganization": {
+    "reference": "Organization/P0723-org-SNF-Happy-Nursing-Facility"
+  },
+  "period": {
+    "start": "2022-02-26",
+    "end": "2022-04-07"
+  },
+  "careManager": {
+    "reference": "PractitionerRole/P0723-Role-RN-SummerJohnson"
+  }
+}

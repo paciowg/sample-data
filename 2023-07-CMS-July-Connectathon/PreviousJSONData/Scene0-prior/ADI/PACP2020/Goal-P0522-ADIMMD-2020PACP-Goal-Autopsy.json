@@ -1,0 +1,41 @@
+{
+  "id": "P0723-ADIMMD-2022PACP-Goal-Autopsy",
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>Autopsy</span><br/>                            <span>I want an autopsy</span>                <span>only if there are questions about my death.</span></div>"
+  },
+  "identifier": [
+    {
+      "value": "60FB0652-6D14-43F9-B8F4-A228BE809E03"
+    }
+  ],
+  "lifecycleStatus": "proposed",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "75782-3",
+          "display": "Thoughts on Autopsy"
+        }
+      ],
+      "text": "Autopsy"
+    },
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-adi/CodeSystem/PADIGoalCategoryCS",
+          "code": "care-experience-preference"
+        }
+      ]
+    }
+  ],
+  "description": {
+    "text": "<span>Autopsy</span><br></br>                            <span>I want an autopsy</span>                <span>only if there are questions about my death.</span>"
+  },
+  "subject": {
+    "reference": "Patient/P0723-patientBSJ1",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "resourceType": "Goal"
+}

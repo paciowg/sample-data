@@ -1,0 +1,19 @@
+{
+  "resourceType": "Practitioner",
+  "id": "P0723-Practitioner-JennyGlass",
+  "name": [
+    {
+      "given": [
+        "Jenny"
+      ],
+      "family": "Glass",
+      "text": "Jenny Glass"
+    }
+  ],
+  "active": true,
+  "telecom": [
+    {
+      "system": "phone"
+    }
+  ]
+}

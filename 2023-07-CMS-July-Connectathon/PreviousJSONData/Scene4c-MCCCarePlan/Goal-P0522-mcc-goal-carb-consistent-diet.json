@@ -1,0 +1,69 @@
+{
+  "resourceType": "Goal",
+  "id": "P0723-mcc-goal-carb-consistent-diet",
+  "lifecycleStatus": "active",
+  "achievementStatus": {
+    "coding": [
+      {
+        "code": "in-progress",
+        "system": "http://terminology.hl7.org/CodeSystem/goal-achievement",
+        "display": "In Progress"
+      }
+    ],
+    "text": "In Progress"
+  },
+  "priority": {
+    "coding": [
+      {
+        "code": "high-priority",
+        "system": "http://terminology.hl7.org/CodeSystem/goal-priority",
+        "display": "High Priority"
+      }
+    ],
+    "text": "high"
+  },
+  "description": {
+    "text": "Keep a carb consistent diet consuming 45-60 gms of carbohydrates per meal"
+  },
+  "subject": {
+    "reference": "Patient/P0723-patientBSJ1"
+  },
+  "startDate": "2022-05-19",
+  "target": [
+    {
+      "measure": {
+        "coding": [
+          {
+            "code": "2339-0",
+            "system": "http://loinc.org",
+            "display": "Glucose [Mass/volume] in Blood"
+          }
+        ],
+        "text": "Glucose [Mass/volume] in Blood"
+      },
+      "detailQuantity": {
+        "value": 180,
+        "code": "mg/dl",
+        "system": "http://unitsofmeasure.org/",
+        "unit": "mg/dl"
+      },
+      "dueDate": "2022-11-19"
+    }
+  ],
+  "expressedBy": {
+    "reference": "Practitioner/P0723-Practitioner-JohnSmith"
+  },
+  "addresses": [
+    {
+      "reference": "Condition/P0723-mcc-cond-sdoh-nutrition"
+    },
+    {
+      "reference": "Observation/P0723-mcc-obs-knowledge-deficit"
+    }
+  ],
+  "note": [
+    {
+      "text": "Betsy has been keeping a food diary logging what she eats at each meal. Generally, for breakfast and dinner the carb count is within the desired limits. She eats an egg and toast each morning, and a neighbor has been bringing over meals at night. However, Betsy’s carb count at lunch and across the afternoon is consistently above the desired limits as she often will have refined food products as a lunch/snack followed by soft drinks and other sugar containing beverages across the afternoon to provide calories as she is fatigued."
+    }
+  ]
+}

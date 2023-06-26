@@ -1,0 +1,41 @@
+{
+  "id": "P0723-ADIMMD-2022PACP-Goal-LikesJoys",
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>                My likes / joys:            </span>            <span>                Here are some examples of the things that I would like to have near me, music that I’d like to hear, and other details of my care that would help to keep me happy and relaxed:            </span>            <br/>            <span>                I love the smell of lavender and the feeling of sunshine on my face.            </span></div>"
+  },
+  "identifier": [
+    {
+      "value": "1C983019-62EF-4FFA-B81E-448C85DD6A3C"
+    }
+  ],
+  "lifecycleStatus": "proposed",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "81360-0",
+          "display": "My likes and joys"
+        }
+      ],
+      "text": "My likes / joys:"
+    },
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-adi/CodeSystem/PADIGoalCategoryCS",
+          "code": "care-experience-preference"
+        }
+      ]
+    }
+  ],
+  "description": {
+    "text": "<span>                My likes / joys:            </span>            <span>                Here are some examples of the things that I would like to have near me, music that I’d like to hear, and other details of my care that would help to keep me happy and relaxed:            </span>            <br></br>            <span>                I love the smell of lavender and the feeling of sunshine on my face.            </span>"
+  },
+  "subject": {
+    "reference": "Patient/P0723-patientBSJ1",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "resourceType": "Goal"
+}

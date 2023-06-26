@@ -25,11 +25,11 @@ end
 # Function to load JSON files onto the server
 def load_json_files(directory, base_url)
   unsuccessful_uploads = []
-
+  total = 0
   Dir.glob("#{directory}/**/*.json").each do |json_file|
     json_data = File.read(json_file)
     parsed_json = JSON.parse(json_data)
-
+    total += 1
     resource_type = parsed_json["resourceType"]
     resource_id = parsed_json["id"]
     url = "#{base_url}/#{resource_type}/#{resource_id}"
@@ -46,8 +46,8 @@ def load_json_files(directory, base_url)
 
   retry_count = 0
 
-  while retry_count < 3 && !unsuccessful_uploads.empty?
-    unsuccessful_uploads.each do |json_file|
+  while retry_count < 10 && !unsuccessful_uploads.empty?
+    unsuccessful_uploads.shuffle.each do |json_file|
       json_data = File.read(json_file)
       parsed_json = JSON.parse(json_data)
 
@@ -68,16 +68,17 @@ def load_json_files(directory, base_url)
     retry_count += 1
   end
 
-  unsuccessful_uploads.length
+  [total, unsuccessful_uploads.length]
 end
 
 # Provide the directory path containing the JSON files
-json_directory = "2023-07-CMS-July-Connectathon/"
+json_directory = "2023-07-CMS-July-Connectathon"
 
 # Provide the base URL of the server
 base_url = "https://gw.interop.community/MiHIN/open/"
 
 # Call the method to load JSON files onto the server and get the count of unsuccessful uploads
-unsuccessful_count = load_json_files(json_directory, base_url)
+total, unsuccessful_count = load_json_files(json_directory, base_url)
 
+puts "Total files: #{total}"
 puts "Total unsuccessful uploads: #{unsuccessful_count}"

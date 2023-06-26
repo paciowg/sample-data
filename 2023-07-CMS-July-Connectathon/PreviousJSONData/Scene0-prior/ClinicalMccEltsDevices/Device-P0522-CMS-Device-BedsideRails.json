@@ -1,0 +1,10 @@
+{
+  "resourceType": "Device",
+  "id": "P0723-CMS-Device-BedsideRails",
+  "deviceName": [
+    {
+      "name": "Bedside rails, device",
+      "type": "user-friendly-name"
+    }
+  ]
+}

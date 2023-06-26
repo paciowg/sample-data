@@ -1,0 +1,46 @@
+{
+  "id": "P0723-ADIMMD-2022PACP-CarePlan",
+  "status": "active",
+  "intent": "proposal",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "736366004",
+          "display": "Advance care plan"
+        }
+      ]
+    }
+  ],
+  "subject": {
+    "reference": "Patient/P0723-patientBSJ1",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "addresses": [
+    {
+      "reference": "Condition/P0723-ADIMMD-2022PACP-Cond-LossOfExpression"
+    },
+    {
+      "reference": "Condition/P0723-ADIMMD-2022PACP-Cond-SignificantPain"
+    },
+    {
+      "reference": "Condition/P0723-ADIMMD-2022PACP-Cond-NoMeaningfulInteraction"
+    },
+    {
+      "reference": "Condition/P0723-ADIMMD-2022PACP-Cond-BrainInjury"
+    }
+  ],
+  "goal": [
+    {
+      "reference": "Goal/P0723-ADIMMD-2022PACP-Goal-AvoidMachineDependence"
+    },
+    {
+      "reference": "Goal/P0723-ADIMMD-2022PACP-Goal-NotABurden"
+    },
+    {
+      "reference": "Goal/P0723-ADIMMD-2022PACP-Goal-DyingAtHome"
+    }
+  ],
+  "resourceType": "CarePlan"
+}

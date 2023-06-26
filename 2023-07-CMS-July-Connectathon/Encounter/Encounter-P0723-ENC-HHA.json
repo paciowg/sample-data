@@ -12,23 +12,47 @@
   "status": "finished",
   "class": {
     "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
-    "code": "IMP",
-    "display": "Inpatient encounter"
+    "code": "HH",
+    "display": "home health"
   },
   "type": [
     {
       "coding": [
         {
-          "code": "32485007",
           "system": "http://snomed.info/sct",
-          "display": "Hospital admission (procedure)"
+          "code": "50357006",
+          "display": "Evaluation and management of patient at home (procedure)"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "185468001",
+          "display": "Home visit for chronic condition (procedure)"
         }
       ]
     }
   ],
+  "episodeOfCare": [
+    {
+      "reference": "EpisodeOfCare/P0723-Episodecare-HHA"
+    }
+  ],
+  "location": [
+    {
+      "location": {
+        "reference": "Location/P0723-Home-Loc-01"
+      }
+    }
+  ],
+  "serviceProvider": {
+    "reference": "Organization/P0723-org-HH-Sky-Harbor-Home-Health"
+  },
   "period": {
-    "start": "2023-06-07T15:00:00-05:00",
-    "end": "2020-06-18T10:30:00-05:00"
+    "start": "2023-06-09T18:30:00-04:00",
+    "end": "2023-07-12T15:00:00-04:00"
   },
   "participant": [
     {

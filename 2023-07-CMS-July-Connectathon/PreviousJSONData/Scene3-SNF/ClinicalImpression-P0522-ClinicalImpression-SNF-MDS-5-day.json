@@ -1,0 +1,52 @@
+{
+  "resourceType": "ClinicalImpression",
+  "id": "P0723-ClinicalImpression-SNF-MDS-5-day",
+  "status": "completed",
+  "description": "Assessment and Impression at admission to SNF",
+  "subject": {
+    "reference": "Patient/P0723-patientBSJ1"
+  },
+  "effectiveDateTime": "2022-02-26",
+  "encounter": {
+    "reference": "Encounter/P0723-Enc-SNF"
+  },
+  "investigation": [
+    {
+      "code": {
+        "text": "SNF MDS Admission Assessments"
+      },
+      "item": [
+        {
+          "reference": "Observation/P0723-SNF-MOB-AP-MDS-5-Day-NC-1A"
+        },
+        {
+          "reference": "Observation/P0723-SNF-MOB-DG-MDS-5-Day-NC-1B"
+        },
+        {
+          "reference": "Observation/P0723-SNF-PF-MDS-5-Day-NC-1A"
+        },
+        {
+          "reference": "Observation/P0723-SNF-SC-AP-MDS-5-Day-NC-1B"
+        },
+        {
+          "reference": "Observation/P0723-SNF-SC-DG-MDS-5-Day-NC-1C"
+        }
+      ]
+    }
+  ],
+  "supportingInfo": [
+    {
+      "reference": "Observation/P0723-CSC-SNF-BIMS-1"
+    },
+    {
+      "reference": "Observation/P0723-CSC-SNF-PHQ9-1"
+    },
+    {
+      "reference": "Observation/P0723-SNF-MOB-Adhoc-1D"
+    },
+    {
+      "reference": "Observation/P0723-SNF-SC-Adhoc-1D"
+    }
+  ],
+  "summary": "focus on restoring mobility following stroke"
+}

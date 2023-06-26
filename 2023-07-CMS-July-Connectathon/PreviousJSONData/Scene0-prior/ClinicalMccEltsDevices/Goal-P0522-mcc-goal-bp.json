@@ -1,0 +1,80 @@
+{
+  "resourceType": "Goal",
+  "id": "P0723-mcc-goal-bp",
+  "lifecycleStatus": "active",
+  "achievementStatus": {
+    "coding": [
+      {
+        "code": "in-progress",
+        "system": "http://terminology.hl7.org/CodeSystem/goal-achievement",
+        "display": "In Progress"
+      }
+    ],
+    "text": "In Progress"
+  },
+  "priority": {
+    "coding": [
+      {
+        "code": "medium-priority",
+        "system": "http://terminology.hl7.org/CodeSystem/goal-priority",
+        "display": "Medium Priority"
+      }
+    ],
+    "text": "medium"
+  },
+  "description": {
+    "text": "Blood pressure below 140/80"
+  },
+  "subject": {
+    "reference": "Patient/P0723-patientBSJ1"
+  },
+  "startDate": "2023-08-15",
+  "target": [
+    {
+      "measure": {
+        "coding": [
+          {
+            "code": "8480-6",
+            "system": "http://loinc.org",
+            "display": "Systolic blood pressure"
+          }
+        ],
+        "text": "Systolic blood pressure"
+      },
+      "detailQuantity": {
+        "value": 140,
+        "code": "mm[Hg]",
+        "system": "http://unitsofmeasure.org",
+        "unit": "mmHg"
+      },
+      "dueDate": "2024-03-01"
+    },
+    {
+      "measure": {
+        "coding": [
+          {
+            "code": "8462-4",
+            "system": "http://loinc.org",
+            "display": "Diastolic blood pressure"
+          }
+        ],
+        "text": "Diastolic blood pressure"
+      },
+      "detailQuantity": {
+        "value": 80,
+        "code": "mm[Hg]",
+        "system": "http://unitsofmeasure.org",
+        "unit": "mmHg"
+      }
+    }
+  ],
+  "expressedBy": {
+    "reference": "Practitioner/P0723-Practitioner-JohnSmith"
+  },
+  "addresses": [
+    {
+      "reference": "Condition/P0723-Prob-CKD",
+      "display": "Chronic kidney disease"
+    }
+  ]
+}

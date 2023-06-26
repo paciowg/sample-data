@@ -1,0 +1,69 @@
+{
+  "resourceType": "CarePlan",
+  "id": "P0723-mcc-diabetes-and-ckd-updated",
+  "status": "active",
+  "intent": "plan",
+  "title": "Diabetes and CKD Care Plan - 2022 Updated",
+  "description": "Care plan to optimize Type 2 Diabetes Mellitus control and slow the progression of Chronic Kidney Disease in 2022 Updated",
+  "subject": {
+    "reference": "Patient/P0723-patientBSJ1"
+  },
+  "period": {
+    "start": "2022-05-19"
+  },
+  "author": {
+    "reference": "Practitioner/P0723-Practitioner-JohnSmith"
+  },
+  "careTeam": [
+    {
+      "reference": "CareTeam/P0723-mcc-team"
+    }
+  ],
+  "addresses": [
+    {
+      "reference": "Condition/P0723-Prob-CKD"
+    },
+    {
+      "reference": "Condition/P0723-Prob-Diabetes"
+    }
+  ],
+  "goal": [
+    {
+      "reference": "Goal/P0723-mcc-goal-bp"
+    },
+    {
+      "reference": "Goal/P0723-mcc-goal-lab-phos"
+    },
+    {
+      "reference": "Goal/P0723-mcc-goal-a1c"
+    },
+    {
+      "reference": "Goal/P0723-mcc-goal-carb-consistent-diet"
+    },
+    {
+      "reference": "Goal/P0723-mcc-goal-control-blood-sugars-with-meals"
+    }
+  ],
+  "activity": [
+    {
+      "reference": {
+        "reference": "ServiceRequest/P0723-mcc-service-edu-ckd"
+      }
+    },
+    {
+      "reference": {
+        "reference": "ServiceRequest/P0723-mcc-service-edu-diet"
+      }
+    },
+    {
+      "reference": {
+        "reference": "ServiceRequest/P0723-mcc-service-exercise"
+      }
+    },
+    {
+      "reference": {
+        "reference": "ServiceRequest/P0723-mcc-service-steps"
+      }
+    }
+  ]
+}

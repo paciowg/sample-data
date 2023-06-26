@@ -1,0 +1,29 @@
+{
+  "resourceType": "ClinicalImpression",
+  "id": "P0723-ClinicalImpression-HHA-OASIS-FU-120",
+  "status": "completed",
+  "description": "Assessment and Impression after 120 days of home health care",
+  "subject": {
+    "reference": "Patient/P0723-patientBSJ1"
+  },
+  "effectiveDateTime": "2022-04-06",
+  "encounter": {
+    "reference": "Encounter/P0723-Enc-HHA"
+  },
+  "investigation": [
+    {
+      "code": {
+        "text": "OASIS 120-day Follow Up Assessments"
+      },
+      "item": [
+        {
+          "reference": "Observation/P0723-HHA-MOB-FU-120-OASIS-2D"
+        },
+        {
+          "reference": "Observation/P0723-HHA-SC-FU-120-OASIS-2E"
+        }
+      ]
+    }
+  ],
+  "summary": "continue recovery at home"
+}

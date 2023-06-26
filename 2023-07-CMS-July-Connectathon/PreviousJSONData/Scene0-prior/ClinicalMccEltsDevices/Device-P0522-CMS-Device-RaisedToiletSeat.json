@@ -1,0 +1,10 @@
+{
+  "resourceType": "Device",
+  "id": "P0723-CMS-Device-RaisedToiletSeat",
+  "deviceName": [
+    {
+      "name": "Raised toilet seat",
+      "type": "user-friendly-name"
+    }
+  ]
+}

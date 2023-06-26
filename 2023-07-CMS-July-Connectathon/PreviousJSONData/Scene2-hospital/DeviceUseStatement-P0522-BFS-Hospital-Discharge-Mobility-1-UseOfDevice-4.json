@@ -1,0 +1,25 @@
+{
+  "resourceType": "DeviceUseStatement",
+  "id": "P0723-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-4",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-use-of-device"
+    ]
+  },
+  "subject": {
+    "reference": "Patient/P0723-patientBSJ1"
+  },
+  "status": "active",
+  "device": {
+    "reference": "Device/P0723-CMS-Device-RaisedToiletSeat"
+  },
+  "recordedOn": "2022-07-10T14:34:00-05:00",
+  "source": {
+    "reference": "Practitioner/P0723-Practitioner-RonMarble"
+  },
+  "derivedFrom": [
+    {
+      "reference": "Observation/P0723-BFS-Hospital-Discharge-Mobility-1"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "resourceType": "Observation",
+  "id": "P0723-BSJ-HosppreDC-SPLASCH-MMC-06SLP-Obs-99832-8",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+          "code": "functioning",
+          "display": "Functioning"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "code": "conversation-and-use-of-communication-devices-and-techniques",
+          "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-category-cs",
+          "display": "Conversation and use of communication devices and techniques"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "code": "survey",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/P0723-org-Loc-Hosp-San-Antonio-General"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/P0723-patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2022-02-24T11:20:00-05:00",
+  "encounter": {
+    "reference": "Encounter/P0723-Enc-Hospital"
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "99832-8",
+        "system": "http://loinc.org",
+        "display": "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?"
+      }
+    ]
+  },
+  "performer": [
+    {
+      "reference": "PractitionerRole/P0723-Role-SLP-JennyGlass"
+    },
+    {
+      "reference": "Practitioner/P0723-Practitioner-JennyGlass"
+    },
+    {
+      "reference": "Organization/P0723-org-Hosp-San-Antonio-General"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA33176-1",
+        "system": "http://loinc.org",
+        "display": "26-49% of the time"
+      }
+    ]
+  }
+}

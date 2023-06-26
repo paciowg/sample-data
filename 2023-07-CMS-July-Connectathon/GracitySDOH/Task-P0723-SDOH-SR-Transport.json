@@ -1,74 +1,88 @@
 {
-      "resourceType": "Task",
-      "id": "P0723-SDOH-SR-Transport",
-      "meta": {
-        "profile": [ "http://hl7.org/fhir/us/sdoh-clinicalcare/StructureDefinition/SDOHCC-Task" ]
+  "resourceType": "Task",
+  "id": "P0723-SDOH-SR-Transport",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/sdoh-clinicalcare/StructureDefinition/SDOHCC-TaskForReferralManagement"
+    ]
+  },
+  "status": "completed",
+  "intent": "order",
+  "priority": "urgent",
+  "code": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/CodeSystem/task-code",
+        "code": "fulfill",
+        "display": "Fulfill the focal request"
+      }
+    ]
+  },
+  "description": "Provide Transportation",
+  "focus": {
+    "reference": "ServiceRequest/P0723-SDOH-SR-Transport"
+  },
+  "for": {
+    "reference": "Patient/P0723-patientBSJ1",
+    "display": "Betsy Smith-Johnson"
+  },
+  "authoredOn": "2023-06-15T12:45:28+00:00",
+  "lastModified": "2023-06-15T12:50:33+00:00",
+  "requester": {
+    "reference": "PractitionerRole/P0723-Role-PT-LunaBaskins",
+    "display": "Baskins Luna "
+  },
+  "owner": {
+    "reference": "Organization/P0723-SDOH-Org-Planning",
+    "display": "Support Planner Services LLC"
+  },
+  "note": [
+    {
+      "authorReference": {
+        "reference": "Practitioner/P0723-Practitioner-TamaraRodriguez",
+        "display": "Tamara Rodriguez"
       },
-      "status": "completed",
-      "intent": "order",
-      "priority": "urgent",
-      "code": {
-        "coding": [ {
-          "system": "http://hl7.org/fhir/CodeSystem/task-code",
-          "code": "fulfill",
-          "display": "Fulfill the focal request"
-        } ]
+      "time": "2023-06-15T12:45:28+00:00",
+      "text": "Needs transportation on June 18, 2023 from home to 10 am doctor appointment and then back to home after appointment is concluded. Home: 111 Maple Court, San Antonio, TX 78212. Dr. John Smith’s location: Primary Care of Texas, Inc. 177 Deerfield St. San Antonio, TX, 78207."
+    },
+    {
+      "authorReference": {
+        "reference": "Practitioner/P0723-Practitioner-eLTSS-planner-MarkPlanner",
+        "display": "Mark Planner"
       },
-      "description": "Provide Transportation",
-      "focus": {
-        "reference": "ServiceRequest/P0723-SDOH-SR-Transport"
-      },
-      "for": {
-        "reference": "Patient/P0723-patientBSJ1",
-        "display": "Betsy Smith-Johnson"
-      },
-      "authoredOn": "2023-06-15T12:45:28+00:00",
-      "lastModified": "2023-06-15T12:50:33+00:00",
-      "requester": {
-        "reference": "Organization/P0723-org-HH-Sky-Harbor-Home-Health",
-        "display": "Sky Harbor Home Health Services"
-      },
-      "owner": {
-        "reference": "Organization/P0723-SDOH-Org-Planning",
-        "display": "Support Planner Services LLC"
-      },
-      "note": [ {
-        "authorReference": {
-          "reference": "Practitioner/P0723-Practitioner-TamaraRodriguez",
-          "display": "Tamara Rodriguez"
-        },
-        "time": "2023-06-15T12:45:28+00:00",
-        "text": "Needs transportation on June 18, 2023 from home to 10 am doctor appointment and then back to home after appointment is concluded. Home: 111 Maple Court, San Antonio, TX 78212. Dr. John Smith’s location: Primary Care of Texas, Inc. 177 Deerfield St. San Antonio, TX, 78207."
-      }, {
-        "authorReference": {
-          "reference": "Practitioner/P0723-Practitioner-eLTSS-planner-MarkPlanner",
-          "display": "Mark Planner"
-        },
-        "time": "2022-06-15T12:47:16+00:00",
-        "text": "Taxi to pick her up from her home address on June 18, 2023 at 9:25 am to bring her to the 10 am appointment.  Taxi can return to doctor’s office after she calls 210-111-2222 (Bill Driver) to let them know she is ready to return home."
-      } ],
-      "output": [ {
-        "type": {
-          "coding": [ {
-            "system": "http://hl7.org/fhir/us/sdoh-clinicalcare/CodeSystem/sdohcc-temporary-codes",
-            "code": "resulting-activity",
-            "display": "Resulting Activity"
-          } ]
-        },
-        "valueCodeableConcept": {
-          "text": "Transportation provided in time."
-        }
-      }, {
-        "type": {
-          "coding": [ {
-            "system": "http://hl7.org/fhir/us/sdoh-clinicalcare/CodeSystem/sdohcc-temporary-codes",
-            "code": "resulting-activity",
-            "display": "Resulting Activity"
-          } ]
-        },
-        "valueReference": {
-          "reference": "Procedure/P0723-SDOH-Proc-Transport",
-          "display": "Transportation by taxi (procedure) (715956002)"
-        }
-      } ]
+      "time": "2022-06-15T12:47:16+00:00",
+      "text": "Taxi to pick her up from her home address on June 18, 2023 at 9:25 am to bring her to the 10 am appointment.  Taxi can return to doctor’s office after she calls 210-111-2222 (Bill Driver) to let them know she is ready to return home."
     }
+  ],
+  "output": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/sdoh-clinicalcare/CodeSystem/sdohcc-temporary-codes",
+            "code": "resulting-activity",
+            "display": "Resulting Activity"
+          }
+        ]
+      },
+      "valueReference": {
+        "reference": "Procedure/P0723-SDOH-Proc-Transport",
+        "display": "Transportation by taxi (procedure) (715956002)"
+      }
+    },
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/sdoh-clinicalcare/CodeSystem/sdohcc-temporary-codes",
+            "code": "resulting-activity",
+            "display": "Resulting Activity"
+          }
+        ]
+      },
+      "valueCodeableConcept": {
+        "text": "Transportation provided in time."
+      }
+    }
+  ]
+}

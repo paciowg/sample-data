@@ -1,0 +1,49 @@
+{
+  "id": "P0723-ADIMMD-2022PACP-Goal-DyingAtHome",
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Dying at home</div>"
+  },
+  "identifier": [
+    {
+      "value": "26D1A9CE-642F-467D-9D6D-C71DA756C0F5"
+    }
+  ],
+  "lifecycleStatus": "proposed",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "81378-2",
+          "display": "Goals, preferences, and priorities under certain health conditions"
+        }
+      ]
+    }
+  ],
+  "description": {
+    "extension": [
+      {
+        "url": "Context",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "81378-2",
+              "display": "Goals, preferences, and priorities under certain health conditions"
+            }
+          ]
+        }
+      },
+      {
+        "url": "Value",
+        "valueString": "Dying at home"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/P0723-patientBSJ1",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "resourceType": "Goal"
+}

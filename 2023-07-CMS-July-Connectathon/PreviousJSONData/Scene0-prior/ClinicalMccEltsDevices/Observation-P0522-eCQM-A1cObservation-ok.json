@@ -1,0 +1,38 @@
+{
+  "resourceType": "Observation",
+  "id": "P0723-eCQM-A1cObservation-ok",
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "laboratory",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "code": "17856-6",
+        "system": "http://loinc.org",
+        "display": "Hemoglobin A1c/Hemoglobin.total in Blood by HPLC"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/P0723-patientBSJ1"
+  },
+  "encounter": {
+    "reference": "Encounter/P0723-Enc-PreHospPCP"
+  },
+  "effectiveDateTime": "2022-02-02T12:30:00-05:00",
+  "issued": "2022-02-04T12:30:00-05:00",
+  "valueQuantity": {
+    "value": 6.7,
+    "code": "%",
+    "system": "http://unitsofmeasure.org",
+    "unit": "%"
+  }
+}

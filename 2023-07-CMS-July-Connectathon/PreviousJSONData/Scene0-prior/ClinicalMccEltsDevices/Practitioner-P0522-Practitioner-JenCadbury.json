@@ -1,0 +1,26 @@
+{
+  "resourceType": "Practitioner",
+  "id": "P0723-Practitioner-JenCadbury",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/sid/us-npi",
+      "value": "1928374650"
+    }
+  ],
+  "name": [
+    {
+      "given": [
+        "Jen"
+      ],
+      "family": "Cadbury",
+      "text": "Jen Cadbury"
+    }
+  ],
+  "active": true,
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "(210) 555 1871"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "resourceType": "Practitioner",
+  "id": "P0723-Practitioner-eLTSS-planner-MarkPlanner",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Practitioner-eltss"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://hl7.org.fhir/sid/us-npi",
+      "value": "9941339108"
+    },
+    {
+      "system": "http://www.acme.org/practitioners",
+      "value": "25456"
+    }
+  ],
+  "name": [
+    {
+      "text": "Mark Planner",
+      "family": "Planner",
+      "given": [
+        "Mark"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "(210) 555 1221"
+    }
+  ]
+}

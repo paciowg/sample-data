@@ -1,0 +1,19 @@
+{
+  "resourceType": "Practitioner",
+  "id": "P0723-Practitioner-RonMarble",
+  "name": [
+    {
+      "given": [
+        "Ron"
+      ],
+      "family": "Marble",
+      "text": "Ron Marble"
+    }
+  ],
+  "active": true,
+  "telecom": [
+    {
+      "system": "phone"
+    }
+  ]
+}

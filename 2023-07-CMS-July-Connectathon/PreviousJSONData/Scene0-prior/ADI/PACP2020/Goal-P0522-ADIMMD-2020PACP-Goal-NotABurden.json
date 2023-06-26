@@ -1,0 +1,49 @@
+{
+  "id": "P0723-ADIMMD-2022PACP-Goal-NotABurden",
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Not being a physical burden to my family</div>"
+  },
+  "identifier": [
+    {
+      "value": "9B2B8B7A-A44C-4F88-B7F9-38C0C2B91AC5"
+    }
+  ],
+  "lifecycleStatus": "proposed",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "81378-2",
+          "display": "Goals, preferences, and priorities under certain health conditions"
+        }
+      ]
+    }
+  ],
+  "description": {
+    "extension": [
+      {
+        "url": "Context",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "81378-2",
+              "display": "Goals, preferences, and priorities under certain health conditions"
+            }
+          ]
+        }
+      },
+      {
+        "url": "Value",
+        "valueString": "Not being a physical burden to my family"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/P0723-patientBSJ1",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "resourceType": "Goal"
+}

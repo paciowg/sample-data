@@ -1,0 +1,62 @@
+{
+  "resourceType": "Claim",
+  "id": "P0723-eLTSS-claimDiabetesSelfManagement-Initial",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Claim-eltss"
+    ]
+  },
+  "status": "active",
+  "type": {
+    "coding": [
+      {
+        "code": "professional",
+        "system": "http://terminology.hl7.org/CodeSystem/claim-type"
+      }
+    ]
+  },
+  "use": "claim",
+  "patient": {
+    "reference": "Patient/P0723-patientBSJ1"
+  },
+  "created": "2022-05-01",
+  "provider": {
+    "reference": "Organization/P0723-org-eLTSS-funding"
+  },
+  "priority": {
+    "coding": [
+      {
+        "code": "normal",
+        "system": "http://terminology.hl7.org/CodeSystem/processpriority"
+      }
+    ]
+  },
+  "insurance": [
+    {
+      "sequence": 1,
+      "focal": true,
+      "coverage": {
+        "reference": "Coverage/P0723-eLTSS-coverageICWP"
+      }
+    }
+  ],
+  "item": [
+    {
+      "sequence": 1,
+      "productOrService": {
+        "coding": [
+          {
+            "code": "G0108",
+            "system": "urn:oid:2.16.840.1.113883.6.14"
+          }
+        ]
+      },
+      "unitPrice": {
+        "value": 55
+      },
+      "net": {
+        "value": 660
+      }
+    }
+  ]
+}

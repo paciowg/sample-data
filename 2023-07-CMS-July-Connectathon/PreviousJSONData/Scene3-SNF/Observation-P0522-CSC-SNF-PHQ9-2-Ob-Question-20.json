@@ -1,0 +1,82 @@
+{
+  "resourceType": "Observation",
+  "id": "P0723-CSC-SNF-PHQ9-2-Ob-Question-20",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/fp-observation"
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs",
+          "code": "functioning",
+          "display": "Functioning"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "code": "mental-functions",
+          "system": "http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-category-cs",
+          "display": "Mental functions"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "code": "survey",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/P0723-org-Loc-SNF-Happy-Nursing-Facility"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/P0723-patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2022-03-23T10:15:00-05:00",
+  "encounter": {
+    "reference": "Encounter/P0723-Enc-SNF"
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "54645-7",
+        "system": "http://loinc.org",
+        "display": "Poor appetite or overeating in last 2 weeks.frequency [Reported PHQ-9 CMS]"
+      }
+    ]
+  },
+  "performer": [
+    {
+      "reference": "PractitionerRole/P0723-Role-RN-LiaNguyen"
+    },
+    {
+      "reference": "Practitioner/P0723-Practitioner-LiaNguyen"
+    },
+    {
+      "reference": "Organization/P0723-org-SNF-Happy-Nursing-Facility"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA10997-7",
+        "system": "http://loinc.org",
+        "display": "Never or 1 day"
+      }
+    ]
+  }
+}
