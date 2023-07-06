@@ -1,0 +1,39 @@
+{
+  "resourceType": "Immunization",
+  "id": "CMS2023-Immunization-1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/core/StructureDefinition/us-core-immunization"
+    ]
+  },
+  "patient": {
+    "reference": "Patient/CMS2023-patientBSJ1"
+  },
+  "encounter": {
+    "reference": "Encounter/CMS2023-BSJ-Encounter-1"
+  },
+  "status": "completed",
+  "vaccineCode": {
+    "coding": [
+      {
+        "code": "158",
+        "system": "http://hl7.org/fhir/sid/cvx",
+        "display": "influenza, injectable, quadrivalent, contains preservative"
+      },
+      {
+        "code": "49281-0621-15",
+        "system": "http://hl7.org/fhir/sid/ndc",
+        "display": "FLUZONE QUADRIVALENT"
+      }
+    ]
+  },
+  "occurrenceDateTime": "2020-07-08T17:28:00-05:00",
+  "primarySource": false,
+  "performer": [
+    {
+      "actor": {
+        "reference": "Organization/CMS2023-org-PC-Primary-Care-Michigan"
+      }
+    }
+  ]
+}

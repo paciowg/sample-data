@@ -1,0 +1,29 @@
+{
+  "resourceType": "Observation",
+  "id": "CMS2023-observationBSJ1",
+  "subject": {
+    "reference": "Patient/CMS2023-patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-04-02T10:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "83218-8",
+        "system": "http://loinc.org",
+        "display": "What was the patient's usual performance related to their ability to roll from lying on back to left and right side, and return to lying on back on the bed?"
+      }
+    ],
+    "text": "Roll left and right"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA11759-0",
+        "system": "http://loinc.org",
+        "display": "Substantial/maximal Assist"
+      }
+    ],
+    "text": "Substantial/maximal Assist"
+  }
+}

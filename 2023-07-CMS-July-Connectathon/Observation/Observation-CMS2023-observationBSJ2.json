@@ -1,0 +1,29 @@
+{
+  "resourceType": "Observation",
+  "id": "CMS2023-observationBSJ2",
+  "subject": {
+    "reference": "Patient/CMS2023-patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-04-02T10:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "83210-5",
+        "system": "http://loinc.org",
+        "display": "What was the patient's usual performance related to their ability to transfer to and from a bed to a chair (or wheelchair)?"
+      }
+    ],
+    "text": "Chair/bed-to-chair transfer"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA27998-6",
+        "system": "http://loinc.org",
+        "display": "Dependent"
+      }
+    ],
+    "text": "Dependent"
+  }
+}

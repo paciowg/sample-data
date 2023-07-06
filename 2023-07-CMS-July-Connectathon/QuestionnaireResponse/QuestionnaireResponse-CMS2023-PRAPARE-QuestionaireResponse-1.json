@@ -1,0 +1,41 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "id": "CMS2023-PRAPARE-QuestionaireResponse-1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/core/StructureDefinition/us-core-questionnaireresponse"
+    ]
+  },
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/CMS2023-patientBSJ1"
+  },
+  "questionnaire": "http://example.org/Questionnaire/PRAPARE-QuestionaireResponse-Followup",
+  "_questionnaire": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/display",
+        "valueString": "PRAPARE"
+      }
+    ]
+  },
+  "authored": "2023-06-13T15:00:00-04:00",
+  "author": {
+    "reference": "PractitionerRole/CMS2023-Role-PT-LunaBaskins"
+  },
+  "item": [
+    {
+      "linkId": "Section-37/93030-5",
+      "text": "Has lack of transportation kept you from medical appointments, meetings, work, or from getting things needed for daily living",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA30133-5",
+            "system": "http://loinc.org",
+            "display": "Yes, it has kept me from medical appointments or from getting my medications"
+          }
+        }
+      ]
+    }
+  ]
+}

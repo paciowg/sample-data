@@ -1,0 +1,16 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "CMS2023-Role-CDCES-eLTSS-LisaEducator",
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "163WD0400X",
+          "system": "https://taxonomy.nucc.org/",
+          "display": "Diabetes Educator Registered Nurse"
+        }
+      ]
+    }
+  ],
+  "active": true
+}

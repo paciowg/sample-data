@@ -1,0 +1,19 @@
+{
+  "resourceType": "Practitioner",
+  "id": "CMS2023-Practitioner-LunaBaskins",
+  "name": [
+    {
+      "given": [
+        "Luna"
+      ],
+      "family": "Baskins",
+      "text": "Luna Baskins"
+    }
+  ],
+  "active": true,
+  "telecom": [
+    {
+      "system": "phone"
+    }
+  ]
+}

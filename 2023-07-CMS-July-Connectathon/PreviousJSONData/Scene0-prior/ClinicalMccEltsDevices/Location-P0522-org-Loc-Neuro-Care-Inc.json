@@ -1,9 +1,0 @@
-{
-  "resourceType": "Location",
-  "id": "P0723-org-Loc-Neuro-Care-Inc",
-  "name": "Neuro Care Inc.",
-  "address": {
-    "text": "26100 Meadowlark Bay, San Antonio, TX 78260"
-  },
-  "status": "active"
-}

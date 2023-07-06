@@ -1,9 +1,0 @@
-{
-  "resourceType": "Location",
-  "id": "P0723-org-Loc-PSC-Prism-General-Hospital",
-  "name": "Prism General Hospital",
-  "address": {
-    "text": "290 Rescue St NE, Grand Rapids, MI 49503"
-  },
-  "status": "active"
-}

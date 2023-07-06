@@ -1,0 +1,34 @@
+{
+  "resourceType": "Coverage",
+  "id": "CMS2023-Coverage-THHS-Medicaid",
+  "subscriber": {
+    "reference": "Patient/CMS2023-patientBSJ1"
+  },
+  "beneficiary": {
+    "reference": "Patient/CMS2023-patientBSJ1"
+  },
+  "status": "active",
+  "class": [
+    {
+      "type": {
+        "coding": [
+          {
+            "code": "plan",
+            "system": "http://hl7.org/fhir/coverage-class"
+          }
+        ]
+      },
+      "value": "Medicaid"
+    }
+  ],
+  "period": {
+    "start": "2019-12-01",
+    "end": "2020-11-30"
+  },
+  "payor": [
+    {
+      "reference": "Organization/CMS2023-org-eLTSS-Support-Planner-Services"
+    }
+  ],
+  "subscriberId": "123456789"
+}

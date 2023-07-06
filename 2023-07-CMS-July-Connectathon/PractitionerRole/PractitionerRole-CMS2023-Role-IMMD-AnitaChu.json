@@ -1,0 +1,16 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "CMS2023-Role-IMMD-AnitaChu",
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "207R00000X",
+          "system": "https://taxonomy.nucc.org/",
+          "display": "Internal Medicine Physician"
+        }
+      ]
+    }
+  ],
+  "active": true
+}

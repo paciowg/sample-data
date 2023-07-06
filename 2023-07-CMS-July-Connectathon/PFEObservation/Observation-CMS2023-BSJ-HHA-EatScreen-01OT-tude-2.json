@@ -1,0 +1,74 @@
+{
+  "resourceType": "Observation",
+  "id": "CMS2023-BSJ-HHA-EatScreen-01OT-tude-2",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-functioning-cs",
+          "code": "functioning",
+          "display": "Functioning"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "code": "survey",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "display": "Functioning"
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/CMS2023-Home-Loc-29"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/CMS2023-patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2023-07-11T14:15:00-04:00",
+  "encounter": {
+    "reference": "Encounter/CMS2023-ENC-HHA"
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "704394008",
+        "system": "http://snomed.info/sct",
+        "display": "Attitude towards dietary regime (observable entity)"
+      }
+    ]
+  },
+  "performer": [
+    {
+      "reference": "PractitionerRole/CMS2023-Role-OT-JenCadbury"
+    },
+    {
+      "reference": "Practitioner/CMS2023-Practitioner-JenCadbury"
+    },
+    {
+      "reference": "Organization/CMS2023-org-HH-Sky-Harbor-Home-Health"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "20572008",
+        "system": "http://snomed.info/sct",
+        "display": "Good-grade (qualifier value)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "resourceType": "Condition",
+  "id": "CMS2023-Assessed-Need2",
+  "subject": {
+    "reference": "Patient/CMS2023-patientBSJ1"
+  },
+  "clinicalStatus": {
+    "coding": [
+      {
+        "code": "active",
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+      }
+    ]
+  },
+  "verificationStatus": {
+    "coding": [
+      {
+        "code": "confirmed",
+        "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "assessed-need",
+          "system": "http://hl7.org/fhir/us/eLTSS/CodeSystem/eltss-condition-category-code"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "code": "734920002",
+        "system": "http://snomed.info/sct",
+        "display": "Needs health / nutrition education for diabetes"
+      }
+    ],
+    "text": "Diabetes mellitus education service"
+  },
+  "onsetDateTime": "2020-07-06T12:15:00-05:07",
+  "asserter": {
+    "reference": "Practitioner/CMS2023-eLTSS-SamMonitor",
+    "display": "Plan Manager Sam Monitor"
+  }
+}

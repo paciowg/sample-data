@@ -1,0 +1,55 @@
+{
+  "resourceType": "MedicationStatement",
+  "id": "Medication-Statement-11",
+  "contained": [
+    {
+      "resourceType": "Medication",
+      "id": "Medication-Atorvastatin80mg-1",
+      "code": {
+        "coding": [
+          {
+            "code": "259255",
+            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+            "display": "atorvastatin 80 MG Oral Tablet"
+          }
+        ],
+        "text": "Atorvastatin 80mg"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/CMS2023-patientBSJ1"
+  },
+  "status": "active",
+  "category": {
+    "coding": [
+      {
+        "code": "community",
+        "system": "http://terminology.hl7.org/CodeSystem/medication-statement-category"
+      }
+    ]
+  },
+  "basedOn": [
+    {
+      "reference": "MedicationRequest/Medication-Request-2"
+    }
+  ],
+  "medicationReference": {
+    "reference": "#Medication-Atorvastatin80mg-1"
+  },
+  "dateAsserted": "2020-07-11T05:42:00-05:00",
+  "effectiveDateTime": "2020-07-11T05:42:00-05:00",
+  "informationSource": {
+    "reference": "Practitioner/CMS2023-Practitioner-AnitaChu"
+  },
+  "reasonReference": [
+    {
+      "reference": "Condition/CMS2023-Diagnosis2"
+    }
+  ],
+  "dosage": [
+    {
+      "text": "Take nightly"
+    }
+  ]
+}

@@ -1,9 +1,0 @@
-{
-  "resourceType": "Location",
-  "id": "P0723-Home-Loc-01",
-  "name": "In Home",
-  "address": {
-    "text": "111 Maple Ct, Grand Rapids, MI 49503"
-  },
-  "status": "active"
-}

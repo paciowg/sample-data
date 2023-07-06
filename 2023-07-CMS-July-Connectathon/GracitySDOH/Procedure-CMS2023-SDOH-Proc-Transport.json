@@ -1,0 +1,38 @@
+{
+      "resourceType": "Procedure",
+      "id": "CMS2023-SDOH-Proc-Transport",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/sdoh-clinicalcare/StructureDefinition/SDOHCC-Procedure" ]
+      },
+      "identifier": [ {
+        "system": "https://api.logicahealth.org/GravitySDOHCBRO/open",
+        "value": "16997"
+      } ],
+      "basedOn": [ {
+        "reference": "ServiceRequest/CMS2023-SDOH-SR-Transport"
+      } ],
+      "status": "completed",
+      "category": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/us/sdoh-clinicalcare/CodeSystem/SDOHCC-CodeSystemTemporaryCodes",
+          "code": "transportation-insecurity",
+          "display": "Transportation Insecurity"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "715956002",
+          "display": "Transportation by taxi (procedure)"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/CMS2023-patientBSJ1",
+        "display": "Betsy Smith-Johnson"
+      },
+      "performedDateTime": "2023-06-18T12:50:33+00:00",
+      "reasonReference": [ {
+        "reference": "Condition/CMS2023-SDOH-Prob-Transport",
+        "display": "Transportation insecurity"
+      } ]
+    }

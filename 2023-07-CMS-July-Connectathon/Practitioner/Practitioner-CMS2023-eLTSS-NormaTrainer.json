@@ -1,0 +1,20 @@
+{
+  "resourceType": "Practitioner",
+  "id": "CMS2023-eLTSS-NormaTrainer",
+  "name": [
+    {
+      "given": [
+        "Norma"
+      ],
+      "family": "Trainer",
+      "text": "Norma Trainer"
+    }
+  ],
+  "active": true,
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "(210) 555-1214"
+    }
+  ]
+}

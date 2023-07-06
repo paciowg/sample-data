@@ -1,0 +1,80 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "id": "CMS2023-OASIS-Like-QuestionaireResponse-Followup-1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/core/StructureDefinition/us-core-questionnaireresponse"
+    ]
+  },
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/CMS2023-patientBSJ1"
+  },
+  "questionnaire": "http://example.org/Questionnaire/OASIS-Like-QuestionaireResponse-Followup",
+  "_questionnaire": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/display",
+        "valueString": "OASIS-Like-QuestionaireResponse-Followup"
+      }
+    ]
+  },
+  "authored": "2023-07-10T18:30:00-04:00",
+  "author": {
+    "reference": "PractitionerRole/CMS2023-Role-HHRN-JacobHartwell"
+  },
+  "item": [
+    {
+      "linkId": "Section-37/95812-4",
+      "text": "OASIS  E 1310B Inattention - Did the patient have difficulty focusing attention, for example, being easily distractible or having difficulty keeping track of what was being said?",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA10993-6",
+            "system": "http://loinc.org",
+            "display": "Behavior present, fluctuates (comes and goes, changes in severity)"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "Section-37/93178-2",
+      "text": "Nutritional Approaches - On Admission. Check all of the following nutritional approaches that apply on admission",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA18606-6",
+            "system": "http://loinc.org",
+            "display": "Mechanically altered diet - require change in texture of food or liquids (e.g., pureed food, thickened liquids)"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "Section-37/54644-0",
+      "text": "Poor appetite or overeating in last 2 weeks.",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA33-6",
+            "system": "http://loinc.org",
+            "display": "Yes"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "Section-37/57248-7",
+      "text": "Feeding or Eating: Current ability to feed self meals and snacks safely",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA6414-2",
+            "system": "http://loinc.org",
+            "display": "Unable to feed self and must be assisted or supervised throughout the meal/snack"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "id": "CMS2023-Swallowing-Local-QuestionaireResponse-initial-1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/core/StructureDefinition/us-core-questionnaireresponse"
+    ]
+  },
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/CMS2023-patientBSJ1"
+  },
+  "questionnaire": "http://example.org/Questionnaire/Swallowing-Local-QuestionaireResponse-initial",
+  "_questionnaire": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/display",
+        "valueString": "Swallowing-Local-QuestionaireResponse-initial-1"
+      }
+    ]
+  },
+  "authored": "2023-06-12T14:30:00-04:00",
+  "author": {
+    "reference": "PractitionerRole/CMS2023-Role-SLP-MariaGonzalez"
+  },
+  "item": [
+    {
+      "linkId": "Section-37/99839-3",
+      "text": "How often does the individual understand simple messages/conversations related to routine daily activities in HIGH demand situations?",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA33175-3",
+            "system": "http://loinc.org",
+            "display": "0-25% of the time (rarely)"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "Section-37/pseudo-swallow1",
+      "text": "How often does the individual exhibit food refusal or resistive behaviors more than would be expected for chronological age?",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA33177-9",
+            "system": "http://loinc.org",
+            "display": "50-75% of the time (often)"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "Section-37/pseudo-swallow2",
+      "text": "Laryngeal Excursion",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA32619-1",
+            "system": "http://loinc.org",
+            "display": "Reduced"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "Section-37/54859-4",
+      "text": "Holding food in mouth/cheeks or residual food in mouth after meals in the last 7 days",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA33-6",
+            "system": "http://loinc.org",
+            "display": "Yes"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "Section-37/704394008",
+      "text": "Attitude towards dietary regime (observable entity)",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "255351007",
+            "system": "http://snomed.info/sct",
+            "display": "Poor-grade (qualifier value)"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "Section-37/52963003",
+      "text": "Attentiveness (observable entity)",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "SNOMED_CT",
+            "system": "http://unitsofmeasure.org/",
+            "display": "1 minute"
+          },
+          "valueQuantity": {
+            "value": 1,
+            "unit": "min",
+            "system": "http://unitsofmeasure.org/"
+          }
+        }
+      ]
+    }
+  ]
+}

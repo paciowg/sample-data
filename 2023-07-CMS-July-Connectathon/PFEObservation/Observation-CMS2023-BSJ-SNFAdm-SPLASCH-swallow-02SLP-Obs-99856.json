@@ -1,0 +1,74 @@
+{
+  "resourceType": "Observation",
+  "id": "CMS2023-BSJ-SNFAdm-SPLASCH-swallow-02SLP-Obs-99856",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-functioning-cs",
+          "code": "functioning",
+          "display": "Functioning"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "code": "survey",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "display": "Functioning"
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/CMS2023-Home-Loc-22"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/CMS2023-patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2023-07-10T18:30:00-04:00",
+  "encounter": {
+    "reference": "Encounter/CMS2023-ENC-HHA"
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "99856-7",
+        "system": "http://loinc.org",
+        "display": "How often does the individual exhibit difficulties with oral containment or secretion management?"
+      }
+    ]
+  },
+  "performer": [
+    {
+      "reference": "PractitionerRole/CMS2023-Role-SLP-MariaGonzalez"
+    },
+    {
+      "reference": "Practitioner/CMS2023-Practitioner-MariaGonzalez"
+    },
+    {
+      "reference": "Organization/CMS2023-org-HH-Sky-Harbor-Home-Health"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA33175-3",
+        "system": "http://loinc.org",
+        "display": "0-25% of the time (rarely)"
+      }
+    ]
+  }
+}

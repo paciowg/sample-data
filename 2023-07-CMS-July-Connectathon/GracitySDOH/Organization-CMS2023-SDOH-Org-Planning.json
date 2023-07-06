@@ -1,0 +1,34 @@
+{
+  "resourceType": "Organization",
+  "id": "CMS2023-SDOH-Org-Planning",
+  "type": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/gravity/CodeSystem/sdohcc-temporary-organization-type-codes",
+          "code": "cp",
+          "display": "Coordination Platform"
+        }
+      ]
+    }
+  ],
+  "name": "Support Planner Services LLC",
+  "address": [ {
+    "line": [ "1939 Sand St" ],
+    "city": "San Antonio",
+    "state": "TX",
+    "postalCode": "78694"
+  } ],
+  "contact": [ {
+    "telecom": [ {
+      "system": "phone",
+      "value": "555-555-5555"
+    }, {
+      "system": "email",
+      "value": "support@planner.org"
+    }, {
+      "system": "url",
+      "value": "https://gravity-cp-server.herokuapp.com/fhir"
+    } ]
+  } ]
+}

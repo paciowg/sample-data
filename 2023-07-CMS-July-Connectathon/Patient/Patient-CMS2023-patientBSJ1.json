@@ -1,0 +1,82 @@
+{
+  "resourceType": "Patient",
+  "id": "CMS2023-patientBSJ1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+    ]
+  },
+  "active": true,
+  "name": [
+    {
+      "text": "Betsy Smith-Johnson",
+      "given": [
+        "Betsy"
+      ],
+      "family": "Smith-Johnson"
+    }
+  ],
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/sid/us-medicare",
+      "value": "10A3D58WH1600"
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1950-11-01",
+  "address": [
+    {
+      "text": "111 Maple Ct, Grand Rapids, MI 49503"
+    }
+  ],
+  "contact": [
+    {
+      "name": {
+        "text": "Charles Johnson"
+      },
+      "relationship": [
+        {
+          "coding": [
+            {
+              "code": "SONC/Hl7V2TBL0131#C/Hl7V3ROLE#GUARD",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+            }
+          ]
+        }
+      ],
+      "address": {
+        "text": "111 Maple Ct, Grand Rapids, MI 49503"
+      },
+      "telecom": [
+        {
+          "system": "phone",
+          "value": "(210) 222-3333"
+        }
+      ]
+    },
+    {
+      "name": {
+        "text": "Debra Johnson"
+      },
+      "relationship": [
+        {
+          "coding": [
+            {
+              "code": "DAUC",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+            }
+          ]
+        }
+      ],
+      "address": {
+        "text": "333 W. Camden St., Baltimore, MD 21201"
+      },
+      "telecom": [
+        {
+          "system": "phone",
+          "value": "(410) 444-5555"
+        }
+      ]
+    }
+  ]
+}

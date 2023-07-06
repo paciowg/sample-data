@@ -1,0 +1,16 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "CMS2023-Role-HHRN-JacobHartwell",
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "163WH0200X",
+          "system": "https://taxonomy.nucc.org/",
+          "display": "Home Health Registered Nurse"
+        }
+      ]
+    }
+  ],
+  "active": true
+}

@@ -72,7 +72,7 @@ def load_json_files(directory, base_url)
 end
 
 # Provide the directory path containing the JSON files
-json_directory = "2023-07-CMS-July-Connectathon"
+json_directory = "2023-07-CMS-July-Connectathon/GracitySDOH"
 
 # Provide the base URL of the server
 base_url = "https://gw.interop.community/MiHIN/open/"

@@ -1,0 +1,20 @@
+{
+  "resourceType": "Practitioner",
+  "id": "CMS2023-eLTSS-BillDriver",
+  "name": [
+    {
+      "given": [
+        "Bill"
+      ],
+      "family": "Driver",
+      "text": "Bill Driver"
+    }
+  ],
+  "active": true,
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "(210)111-2222"
+    }
+  ]
+}

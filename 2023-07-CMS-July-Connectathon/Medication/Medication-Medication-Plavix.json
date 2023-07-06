@@ -1,0 +1,20 @@
+{
+  "resourceType": "Medication",
+  "id": "Medication-Plavix",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication"
+    ]
+  },
+  "status": "active",
+  "code": {
+    "coding": [
+      {
+        "code": "213169",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "display": "Plavix 75 MG Oral Tablet"
+      }
+    ],
+    "text": "Plavix 75mg"
+  }
+}
