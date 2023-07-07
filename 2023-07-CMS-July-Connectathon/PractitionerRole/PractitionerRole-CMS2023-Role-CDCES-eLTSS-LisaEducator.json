@@ -12,5 +12,13 @@
       ]
     }
   ],
-  "active": true
+  "active": true,
+  "practitioner" : {
+    "reference" : "Practitioner/CMS2023-eLTSS-LisaEducator",
+    "display" : "Lisa Educator"
+  },
+  "organization" : {
+    "reference" : "Organization/CMS2023-org-eLTSS-Health-Educators-Inc",
+    "display" : "Health Educators, Inc."
+  }
 }

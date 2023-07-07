@@ -12,5 +12,13 @@
       ]
     }
   ],
-  "active": true
+  "active": true,
+  "practitioner" : {
+    "reference" : "Practitioner/CMS2023-Practitioner-AnitaChu",
+    "display" : "Dr. Anita Chu"
+  },
+  "organization" : {
+    "reference" : "Organization/CMS2023-org-PC-Primary-Care-Michigan",
+    "display" : "Michigan Primary Health Care Associates"
+  }
 }

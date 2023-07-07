@@ -12,5 +12,13 @@
       ]
     }
   ],
-  "active": true
+  "active": true,
+  "practitioner" : {
+    "reference" : "Practitioner/CMS2023-Practitioner-AlexanderKuikhoff",
+    "display" : "SLP Alexander Kuikhoff"
+  },
+  "organization" : {
+    "reference" : "Organization/CMS2023-org-SpeechLanguage-Clarity-Speech-Center",
+    "display" : "Clarity Speech Language Center"
+  }
 }

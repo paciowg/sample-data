@@ -56,9 +56,13 @@
         "reference": "Patient/CMS2023-patientBSJ1",
         "display": "Betsy Smith-Johnson"
       },
-      "evidence": [ {
-        "code": [ {
-          "text": "Conversation with Patient"
-        } ]
-      } ]
+      "evidence" : [
+        {
+          "detail" : [
+            {
+              "reference" : "Observation/CMS2023-BSJ-HHA-SDOH-TransportScreen"
+            }
+          ]
+        }
+      ]
     }

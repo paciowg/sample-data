@@ -12,5 +12,13 @@
       ]
     }
   ],
-  "active": true
+  "active": true,
+  "practitioner" : {
+    "reference" : "Practitioner/CMS2023-eLTSS-NormaTrainer",
+    "display" : "PT Norma Trainer"
+  },
+  "organization" : {
+    "reference" : "Organization/CMS2023-org-eLTSS-Therapists-To-Go",
+    "display" : "Therapists To Go"
+  }
 }

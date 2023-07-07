@@ -1,5 +1,13 @@
 {
   "resourceType": "PractitionerRole",
   "id": "CMS2023-Role-OT-JenCadbury",
-  "active": true
+  "active": true,
+  "practitioner" : {
+    "reference" : "Practitioner/CMS2023-Practitioner-JenCadbury",
+    "display" : "Jen Cadbury"
+  },
+  "organization" : {
+    "reference" : "Organization/CMS2023-org-HH-Sky-Harbor-Home-Health",
+    "display" : "Sky Harbor Home Health Services"
+  }
 }

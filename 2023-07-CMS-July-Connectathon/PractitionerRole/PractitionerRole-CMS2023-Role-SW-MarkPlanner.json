@@ -12,5 +12,13 @@
       ]
     }
   ],
-  "active": true
+  "active": true,
+  "practitioner" : {
+    "reference" : "Practitioner/CMS2023-eLTSS-MarkPlanner",
+    "display" : "Mark Planner"
+  },
+  "organization" : {
+    "reference" : "Organization/CMS2023-org-eLTSS-Support-Planner-Services",
+    "display" : "Support Planner Services LLC"
+  }
 }

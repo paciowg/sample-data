@@ -12,5 +12,13 @@
       ]
     }
   ],
-  "active": true
+  "active": true,
+  "practitioner" : {
+    "reference" : "Practitioner/CMS2023-eLTSS-SamMonitor",
+    "display" : "Plan Manager Sam Monitor"
+  },
+  "organization" : {
+    "reference" : "Organization/CMS2023-org-eLTSS-CaseManaging4U",
+    "display" : "Case Managing 4 U"
+  }
 }

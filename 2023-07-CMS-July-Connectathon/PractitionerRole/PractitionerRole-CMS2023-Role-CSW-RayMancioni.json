@@ -12,5 +12,13 @@
       ]
     }
   ],
-  "active": true
+  "active": true,
+  "practitioner" : {
+    "reference" : "Practitioner/CMS2023-Practitioner-RayMancioni",
+    "display" : "Ray Mancioni"
+  },
+  "organization" : {
+    "reference" : "Organization/CMS2023-org-HH-Sky-Harbor-Home-Health",
+    "display" : "Sky Harbor Home Health Services"
+  }
 }
