@@ -19,6 +19,15 @@
     {
       "coding": [
         {
+          "code": "functions_of_the_digestive_metabolic_and_endocrine_systems",
+          "system": "http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs",
+          "display": "Functions of the digestive, metabolic and endocrine systems"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
           "code": "survey",
           "system": "http://terminology.hl7.org/CodeSystem/observation-category",
           "display": "Survey"
