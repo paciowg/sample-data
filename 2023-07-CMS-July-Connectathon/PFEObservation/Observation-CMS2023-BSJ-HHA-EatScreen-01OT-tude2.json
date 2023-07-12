@@ -19,6 +19,15 @@
     {
       "coding": [
         {
+          "code": "self-care",
+          "system": "http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs",
+          "display": "Self-Care"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
           "code": "survey",
           "system": "http://terminology.hl7.org/CodeSystem/observation-category",
           "display": "Survey"
