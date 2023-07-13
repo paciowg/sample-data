@@ -29,7 +29,8 @@
       "coding": [
         {
           "code": "survey",
-          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "display": "Survey"
         }
       ]
     }
@@ -83,6 +84,11 @@
     },
     {
       "reference": "Observation/CMS2023-BSJ-HHA-SwallowScreen-01SLP-Obs-99854-2"
+    }
+  ],
+  "derivedFrom" : [
+    {
+      "reference" : "QuestionnaireResponse/CMS2023-SwallowingPanel-ASHA-NOMS-QuestionaireResponse-initial-1"
     }
   ]
 }

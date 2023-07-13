@@ -3,7 +3,7 @@
   "id": "CMS2023-BSJ-HHA-BedtoChair-01PT-2",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-clinicaltest"
+      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
     ]
   },
   "category": [
@@ -68,6 +68,20 @@
     },
     {
       "reference": "Organization/CMS2023-org-HH-Sky-Harbor-Home-Health"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA10055-4",
+        "system": "http://loinc.org",
+        "display": "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort"
+      }
+    ]
+  },
+  "derivedFrom" : [
+    {
+      "reference" : "QuestionnaireResponse/CMS2023-OASIS-QuestionaireResponse-Followup-1"
     }
   ]
 }

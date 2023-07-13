@@ -3,7 +3,7 @@
   "id": "CMS2023-BSJ-HHA-SitUp-01OT-2",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-clinicaltest"
+      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
     ]
   },
   "category": [
@@ -68,6 +68,20 @@
     },
     {
       "reference": "Organization/CMS2023-org-HH-Sky-Harbor-Home-Health"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA28225-3",
+        "system": "http://loinc.org",
+        "display": "Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently."
+      }
+    ]
+  },
+  "derivedFrom" : [
+    {
+      "reference" : "QuestionnaireResponse/CMS2023-OASIS-QuestionaireResponse-Followup-1"
     }
   ]
 }

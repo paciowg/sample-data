@@ -1,9 +1,9 @@
 {
   "resourceType": "Observation",
-  "id": "CMS2023-BSJ-SNFAdm-SPLASCH-swallow-01SLP-Obs-99857",
+  "id": "CMS2023-BJS-HHA-SPLASCH-Commrec-1",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
+      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-collection"
     ]
   },
   "category": [
@@ -19,9 +19,9 @@
     {
       "coding": [
         {
-          "code": "functions_of_the_digestive_metabolic_and_endocrine_systems",
+          "code": "communication",
           "system": "http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs",
-          "display": "Functions of the digestive, metabolic and endocrine systems"
+          "display": "Communication"
         }
       ]
     },
@@ -39,7 +39,7 @@
     {
       "url": "http://hl7.org/fhir/StructureDefinition/event-location",
       "valueReference": {
-        "reference": "Location/CMS2023-Home-Loc-06"
+        "reference": "Location/CMS2023-Home-Loc-01"
       }
     }
   ],
@@ -54,11 +54,12 @@
   "code": {
     "coding": [
       {
-        "code": "99857-5",
+        "code": "pseudo_intial_swallow",
         "system": "http://loinc.org",
-        "display": "How often does the individual require supervision/assistance at meal time due to swallowing safety?"
+        "display": "Collection of swallow specific questons for Intial assessment"
       }
-    ]
+    ],
+    "text": "Collection of swallow specific questons for Intial assessment"
   },
   "performer": [
     {
@@ -68,16 +69,32 @@
       "reference": "Practitioner/CMS2023-Practitioner-MariaGonzalez"
     },
     {
-      "reference": "Organization/CMS2023-org-HH-Sky-Harbor-Home-Health"
+      "reference": "Organization/CMS2023-org-SNF-Happy-Nursing-Facility"
     }
   ],
-  "valueCodeableConcept": {
-    "coding": [
-      {
-        "code": "LA33179-5",
-        "system": "http://loinc.org",
-        "display": "91-100% of the time (always)"
-      }
-    ]
-  }
+  "hasMember": [
+    {
+      "reference": "Observation/CMS2023-BSJ-HHA1-SPLASCH-Commrec-01SLP-Obs-99839-3"
+    },
+    {
+      "reference": "Observation/CMS2023-BSJ-HHA-SwallowScreen-01SLP-Feeding1"
+    },
+    {
+      "reference": "Observation/CMS2023-BSJ-HHA-SwallowScreen-01SLP-LE1"
+    },
+    {
+      "reference": "Observation/CMS2023-BSJ-HHA-EatScreen-01OT-K0100"
+    },
+    {
+      "reference": "Observation/CMS2023-BSJ-HHA-EatScreen-01OT-tude1"
+    },
+    {
+      "reference": "Observation/CMS2023-BSJ-HHA-PTScreen-01PT-Attend1"
+    }
+  ],
+  "derivedFrom" : [
+    {
+      "reference" : "QuestionnaireResponse/CMS2023-Swallowing-Local-QuestionaireResponse-initial-1"
+    }
+  ]
 }

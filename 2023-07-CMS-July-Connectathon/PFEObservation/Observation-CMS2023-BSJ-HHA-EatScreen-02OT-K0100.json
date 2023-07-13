@@ -3,7 +3,7 @@
   "id": "CMS2023-BSJ-HHA-EatScreen-02OT-K0100",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-clinicaltest"
+      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
     ]
   },
   "category": [
@@ -19,9 +19,9 @@
     {
       "coding": [
         {
-          "code": "self-care",
+          "code": "functions_of_the_digestive_metabolic_and_endocrine_systems",
           "system": "http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs",
-          "display": "Self-Care"
+          "display": "Functions of the digestive, metabolic and endocrine systems"
         }
       ]
     },
@@ -39,7 +39,7 @@
     {
       "url": "http://hl7.org/fhir/StructureDefinition/event-location",
       "valueReference": {
-        "reference": "Location/CMS2023-Home-Loc-28"
+        "reference": "Location/CMS2023-Home-Loc-01"
       }
     }
   ],
@@ -47,7 +47,7 @@
     "reference": "Patient/CMS2023-patientBSJ1"
   },
   "status": "final",
-  "effectiveDateTime": "2023-07-11T14:15:00-04:00",
+  "effectiveDateTime": "2023-07-12T12:30:00-04:00",
   "encounter": {
     "reference": "Encounter/CMS2023-ENC-HHA"
   },
@@ -69,6 +69,20 @@
     },
     {
       "reference": "Organization/CMS2023-org-HH-Sky-Harbor-Home-Health"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA32-8",
+        "system": "http://loinc.org",
+        "display": "No"
+      }
+    ]
+  },
+  "derivedFrom" : [
+    {
+      "reference" : "QuestionnaireResponse/CMS2023-Swallowing-Local-QuestionaireResponse-Followup-1"
     }
   ]
 }

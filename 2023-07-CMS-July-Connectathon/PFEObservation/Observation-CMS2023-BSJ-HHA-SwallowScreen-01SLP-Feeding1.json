@@ -3,7 +3,7 @@
   "id": "CMS2023-BSJ-HHA-SwallowScreen-01SLP-Feeding1",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-clinicaltest"
+      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
     ]
   },
   "category": [
@@ -39,7 +39,7 @@
     {
       "url": "http://hl7.org/fhir/StructureDefinition/event-location",
       "valueReference": {
-        "reference": "Location/CMS2023-Home-Loc-11"
+        "reference": "Location/CMS2023-Home-Loc-01"
       }
     }
   ],
@@ -47,14 +47,14 @@
     "reference": "Patient/CMS2023-patientBSJ1"
   },
   "status": "final",
-  "effectiveDateTime": "2023-06-12T14:15:00-04:00",
+  "effectiveDateTime": "2023-06-12T14:30:00-04:00",
   "encounter": {
     "reference": "Encounter/CMS2023-ENC-HHA"
   },
   "code": {
     "coding": [
       {
-        "code": "dummy",
+        "code": "psuedo_swallow1",
         "system": "http://loinc.org",
         "display": "How often does the individual exhibit food refusal or resistive behaviors more than would be expected for chronological age? "
       }
@@ -79,5 +79,10 @@
         "display": "50-75% of the time (often)"
       }
     ]
-  }
+  },
+  "derivedFrom" : [
+    {
+      "reference" : "QuestionnaireResponse/CMS2023-Swallowing-Local-QuestionaireResponse-initial-1"
+    }
+  ]
 }

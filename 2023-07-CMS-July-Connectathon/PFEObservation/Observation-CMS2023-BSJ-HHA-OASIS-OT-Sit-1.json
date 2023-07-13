@@ -1,9 +1,9 @@
 {
   "resourceType": "Observation",
-  "id": "CMS2023-BSJ-SNFAdm-SPLASCH-swallow-01SLP-Obs-99856",
+  "id": "CMS2023-BSJ-HHA-OASIS-OT-Sit-1",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
+      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-collection"
     ]
   },
   "category": [
@@ -30,7 +30,7 @@
     {
       "url": "http://hl7.org/fhir/StructureDefinition/event-location",
       "valueReference": {
-        "reference": "Location/CMS2023-Home-Loc-07"
+        "reference": "Location/CMS2023-Home-Loc-01"
       }
     }
   ],
@@ -38,37 +38,42 @@
     "reference": "Patient/CMS2023-patientBSJ1"
   },
   "status": "final",
-  "effectiveDateTime": "2023-06-12T14:35:00-04:00",
+  "effectiveDateTime": "2023-06-13T12:30:00-04:00",
   "encounter": {
     "reference": "Encounter/CMS2023-ENC-HHA"
   },
   "code": {
     "coding": [
       {
-        "code": "99856-7",
+        "code": "99131-5",
         "system": "http://loinc.org",
-        "display": "How often does the individual exhibit difficulties with oral containment or secretion management?"
+        "display": "Outcome and assessment information set (OASIS) form - version E - Start of Care [CMS Assessment]"
       }
-    ]
+    ],
+    "text": "Outcome and assessment information set (OASIS) form - version E - Start of Care [CMS Assessment]"
   },
   "performer": [
     {
-      "reference": "PractitionerRole/CMS2023-Role-SLP-MariaGonzalez"
+      "reference": "PractitionerRole/CMS2023-Role-OT-JenCadbury"
     },
     {
-      "reference": "Practitioner/CMS2023-Practitioner-MariaGonzalez"
+      "reference": "Practitioner/CMS2023-Practitioner-JenCadbury"
     },
     {
       "reference": "Organization/CMS2023-org-HH-Sky-Harbor-Home-Health"
     }
   ],
-  "valueCodeableConcept": {
-    "coding": [
-      {
-        "code": "LA33177-9",
-        "system": "http://loinc.org",
-        "display": "50-75% of the time (often)"
-      }
-    ]
-  }
+  "hasMember": [
+    {
+      "reference": "Observation/CMS2023-BSJ-HHA-SitUp-01OT-1"
+    },
+    {
+      "reference": "Observation/CMS2023-BSJ-HHA-BedtoChair-01PT-1"
+    }
+  ],
+  "derivedFrom" : [
+    {
+      "reference" : "QuestionnaireResponse/CMS2023-OASIS-QuestionaireResponse-SoC-1"
+    }
+  ]
 }

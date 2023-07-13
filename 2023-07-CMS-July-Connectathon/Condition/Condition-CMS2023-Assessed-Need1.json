@@ -40,7 +40,7 @@
     ],
     "text": "Lack of access to transportation (finding)"
   },
-  "onsetDateTime": "2020-07-06T12:15:00-05:07",
+  "onsetDateTime": "2023-06-07T15:00:00-04:00",
   "asserter": {
     "reference": "Practitioner/CMS2023-eLTSS-SamMonitor",
     "display": "Plan Manager Sam Monitor"

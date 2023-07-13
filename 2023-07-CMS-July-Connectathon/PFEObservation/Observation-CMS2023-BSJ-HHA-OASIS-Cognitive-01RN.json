@@ -3,7 +3,7 @@
   "id": "CMS2023-BSJ-HHA-OASIS-Cognitive-01RN",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-clinicaltest"
+      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
     ]
   },
   "category": [
@@ -79,5 +79,10 @@
         "display": "Behavior continuously present, does not fluctuate"
       }
     ]
-  }
+  },
+  "derivedFrom" : [
+    {
+      "reference" : "QuestionnaireResponse/CMS2023-OASIS-QuestionaireResponse-SoC-1"
+    }
+  ]
 }

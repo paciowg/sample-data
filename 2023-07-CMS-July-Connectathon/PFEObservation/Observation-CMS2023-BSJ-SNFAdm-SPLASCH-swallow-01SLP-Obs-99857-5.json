@@ -3,7 +3,7 @@
   "id": "CMS2023-BSJ-SNFAdm-SPLASCH-swallow-01SLP-Obs-99857-5",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-clinicaltest"
+      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
     ]
   },
   "category": [
@@ -39,7 +39,7 @@
     {
       "url": "http://hl7.org/fhir/StructureDefinition/event-location",
       "valueReference": {
-        "reference": "Location/CMS2023-Home-Loc-06"
+        "reference": "Location/CMS2023-Home-Loc-01"
       }
     }
   ],
@@ -47,7 +47,7 @@
     "reference": "Patient/CMS2023-patientBSJ1"
   },
   "status": "final",
-  "effectiveDateTime": "2023-06-12T14:30:00-04:00",
+  "effectiveDateTime": "2023-06-12T14:15:00-04:00",
   "encounter": {
     "reference": "Encounter/CMS2023-ENC-HHA"
   },
@@ -79,5 +79,10 @@
         "display": "91-100% of the time (always)"
       }
     ]
-  }
+  },
+  "derivedFrom" : [
+    {
+      "reference" : "QuestionnaireResponse/CMS2023-SwallowingPanel-ASHA-NOMS-QuestionaireResponse-initial-1"
+    }
+  ]
 }

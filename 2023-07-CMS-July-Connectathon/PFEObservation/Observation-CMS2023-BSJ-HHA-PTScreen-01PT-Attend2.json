@@ -3,7 +3,7 @@
   "id": "CMS2023-BSJ-HHA-PTScreen-01PT-Attend2",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-clinicaltest"
+      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
     ]
   },
   "category": [
@@ -13,6 +13,15 @@
           "system": "http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-functioning-cs",
           "code": "functioning",
           "display": "Functioning"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "code": "mental_functions",
+          "system": "http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs",
+          "display": "Mental functions"
         }
       ]
     },
@@ -30,7 +39,7 @@
     {
       "url": "http://hl7.org/fhir/StructureDefinition/event-location",
       "valueReference": {
-        "reference": "Location/CMS2023-Home-Loc-30"
+        "reference": "Location/CMS2023-Home-Loc-01"
       }
     }
   ],
@@ -38,7 +47,7 @@
     "reference": "Patient/CMS2023-patientBSJ1"
   },
   "status": "final",
-  "effectiveDateTime": "2023-07-11T14:30:00-04:00",
+  "effectiveDateTime": "2023-07-12T15:00:00-04:00",
   "encounter": {
     "reference": "Encounter/CMS2023-ENC-HHA"
   },
@@ -67,5 +76,10 @@
     "code": "min",
     "system": "http://unitsofmeasure.org",
     "unit": "minutes"
-  }
+  },
+  "derivedFrom" : [
+    {
+      "reference" : "QuestionnaireResponse/CMS2023-Swallowing-Local-QuestionaireResponse-Followup-1"
+    }
+  ]
 }

@@ -3,7 +3,7 @@
   "id": "CMS2023-BSJ-HHA-EatScreen-01OT-tude2",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-clinicaltest"
+      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
     ]
   },
   "category": [
@@ -39,7 +39,7 @@
     {
       "url": "http://hl7.org/fhir/StructureDefinition/event-location",
       "valueReference": {
-        "reference": "Location/CMS2023-Home-Loc-29"
+        "reference": "Location/CMS2023-Home-Loc-01"
       }
     }
   ],
@@ -47,7 +47,7 @@
     "reference": "Patient/CMS2023-patientBSJ1"
   },
   "status": "final",
-  "effectiveDateTime": "2023-07-11T14:15:00-04:00",
+  "effectiveDateTime": "2023-07-12T12:30:00-04:00",
   "encounter": {
     "reference": "Encounter/CMS2023-ENC-HHA"
   },
@@ -79,5 +79,10 @@
         "display": "Good-grade (qualifier value)"
       }
     ]
-  }
+  },
+  "derivedFrom" : [
+    {
+      "reference" : "QuestionnaireResponse/CMS2023-Swallowing-Local-QuestionaireResponse-Followup-1"
+    }
+  ]
 }

@@ -1,9 +1,9 @@
 {
   "resourceType": "Observation",
-  "id": "CMS2023-BSJ-HHA-SwallowScreen-01SLP-Obs-99853-4",
+  "id": "CMS2023-BJS-HHA-SPLASCH-Commrec-2",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
+      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-collection"
     ]
   },
   "category": [
@@ -19,9 +19,9 @@
     {
       "coding": [
         {
-          "code": "functions_of_the_digestive_metabolic_and_endocrine_systems",
+          "code": "communication",
           "system": "http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs",
-          "display": "Functions of the digestive, metabolic and endocrine systems"
+          "display": "Communication"
         }
       ]
     },
@@ -47,18 +47,19 @@
     "reference": "Patient/CMS2023-patientBSJ1"
   },
   "status": "final",
-  "effectiveDateTime": "2023-06-12T14:15:00-04:00",
+  "effectiveDateTime": "2023-07-11T14:30:00-04:00",
   "encounter": {
     "reference": "Encounter/CMS2023-ENC-HHA"
   },
   "code": {
     "coding": [
       {
-        "code": "99853-4",
+        "code": "pseudo_intial_swallow",
         "system": "http://loinc.org",
-        "display": "What modified diet is recommended for the individual to swallow solids safely?"
+        "display": "Collection of swallow specific questons for followup assessment"
       }
-    ]
+    ],
+    "text": "Collection of swallow specific questons for followup assessment"
   },
   "performer": [
     {
@@ -68,21 +69,32 @@
       "reference": "Practitioner/CMS2023-Practitioner-MariaGonzalez"
     },
     {
-      "reference": "Organization/CMS2023-org-HH-Sky-Harbor-Home-Health"
+      "reference": "Organization/CMS2023-org-SNF-Happy-Nursing-Facility"
     }
   ],
-  "valueCodeableConcept": {
-    "coding": [
-      {
-        "code": "LA33254-6",
-        "system": "http://loinc.org",
-        "display": "Pureed"
-      }
-    ]
-  },
+  "hasMember": [
+    {
+      "reference": "Observation/CMS2023-BSJ-HospAdm-SPLASCH-Commrec-02SLP-Obs-99839-3"
+    },
+    {
+      "reference": "Observation/CMS2023-BSJ-HHA-SwallowScreen-08SLP-Feeding2"
+    },
+    {
+      "reference": "Observation/CMS2023-BSJ-HHA-SwallowScreen-02SLP-LE2"
+    },
+    {
+      "reference": "Observation/CMS2023-BSJ-HHA-EatScreen-02OT-K0100"
+    },
+    {
+      "reference": "Observation/CMS2023-BSJ-HHA-EatScreen-01OT-tude2"
+    },
+    {
+      "reference": "Observation/CMS2023-BSJ-HHA-PTScreen-01PT-Attend2"
+    }
+  ],
   "derivedFrom" : [
     {
-      "reference" : "QuestionnaireResponse/CMS2023-SwallowingPanel-ASHA-NOMS-QuestionaireResponse-initial-1"
+      "reference" : "QuestionnaireResponse/CMS2023-Swallowing-Local-QuestionaireResponse-Followup-1"
     }
   ]
 }

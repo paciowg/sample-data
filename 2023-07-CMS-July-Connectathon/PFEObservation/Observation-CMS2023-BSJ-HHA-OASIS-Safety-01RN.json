@@ -3,7 +3,7 @@
   "id": "CMS2023-BSJ-HHA-OASIS-Safety-01RN",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-clinicaltest"
+      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
     ]
   },
   "category": [
@@ -13,6 +13,15 @@
           "system": "http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-functioning-cs",
           "code": "functioning",
           "display": "Functioning"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "code": "self-care",
+          "system": "http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs",
+          "display": "Self-care"
         }
       ]
     },
@@ -30,7 +39,7 @@
     {
       "url": "http://hl7.org/fhir/StructureDefinition/event-location",
       "valueReference": {
-        "reference": "Location/CMS2023-Home-Loc-05"
+        "reference": "Location/CMS2023-Home-Loc-01"
       }
     }
   ],
@@ -70,5 +79,10 @@
         "display": "Unable to feed self and must be assisted or supervised throughout the meal/snack"
       }
     ]
-  }
+  },
+  "derivedFrom" : [
+    {
+      "reference" : "QuestionnaireResponse/CMS2023-OASIS-QuestionaireResponse-SoC-1"
+    }
+  ]
 }

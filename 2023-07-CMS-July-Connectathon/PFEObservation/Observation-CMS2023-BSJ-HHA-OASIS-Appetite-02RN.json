@@ -3,7 +3,7 @@
   "id": "CMS2023-BSJ-HHA-OASIS-Appetite-02RN",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-clinicaltest"
+      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
     ]
   },
   "category": [
@@ -39,7 +39,7 @@
     {
       "url": "http://hl7.org/fhir/StructureDefinition/event-location",
       "valueReference": {
-        "reference": "Location/CMS2023-Home-Loc-19"
+        "reference": "Location/CMS2023-Home-Loc-01"
       }
     }
   ],
@@ -47,7 +47,7 @@
     "reference": "Patient/CMS2023-patientBSJ1"
   },
   "status": "final",
-  "effectiveDateTime": "2023-06-13T12:30:00-04:00",
+  "effectiveDateTime": "2023-07-10T18:30:00-04:00",
   "encounter": {
     "reference": "Encounter/CMS2023-ENC-HHA"
   },
@@ -79,5 +79,10 @@
         "display": "Yes"
       }
     ]
-  }
+  },
+  "derivedFrom" : [
+    {
+      "reference" : "QuestionnaireResponse/CMS2023-OASIS-Like-QuestionaireResponse-Followup-1"
+    }
+  ]
 }

@@ -85,5 +85,10 @@
     {
       "reference": "Observation/CMS2023-BSJ-HHA-SwallowScreen-02SLP-Obs-99854-2"
     }
+  ],
+  "derivedFrom" : [
+    {
+      "reference" : "QuestionnaireResponse/CMS2023-SwallowingPanel-ASHA-NOMS-QuestionaireResponse-followup"
+    }
   ]
 }

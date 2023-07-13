@@ -3,7 +3,7 @@
   "id": "CMS2023-BSJ-HHA-SwallowScreen-01SLP-Obs-99854-2",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-clinicaltest"
+      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
     ]
   },
   "category": [
@@ -13,6 +13,15 @@
           "system": "http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-functioning-cs",
           "code": "functioning",
           "display": "Functioning"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "code": "functions_of_the_digestive_metabolic_and_endocrine_systems",
+          "system": "http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs",
+          "display": "Functions of the digestive, metabolic and endocrine systems"
         }
       ]
     },
@@ -30,7 +39,7 @@
     {
       "url": "http://hl7.org/fhir/StructureDefinition/event-location",
       "valueReference": {
-        "reference": "Location/CMS2023-Home-Loc-09"
+        "reference": "Location/CMS2023-Home-Loc-01"
       }
     }
   ],
@@ -38,7 +47,7 @@
     "reference": "Patient/CMS2023-patientBSJ1"
   },
   "status": "final",
-  "effectiveDateTime": "2023-06-13T12:30:00-04:00",
+  "effectiveDateTime": "2023-06-12T14:15:00-04:00",
   "encounter": {
     "reference": "Encounter/CMS2023-ENC-HHA"
   },
@@ -70,5 +79,10 @@
         "display": "Moderately Thick"
       }
     ]
-  }
+  },
+  "derivedFrom" : [
+    {
+      "reference" : "QuestionnaireResponse/CMS2023-SwallowingPanel-ASHA-NOMS-QuestionaireResponse-initial-1"
+    }
+  ]
 }
