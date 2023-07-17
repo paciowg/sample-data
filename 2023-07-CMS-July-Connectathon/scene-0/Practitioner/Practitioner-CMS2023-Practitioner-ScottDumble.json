@@ -1,0 +1,20 @@
+{
+  "resourceType": "Practitioner",
+  "id": "CMS2023-Practitioner-ScottDumble",
+  "name": [
+    {
+      "given": [
+        "Scott"
+      ],
+      "family": "Dumble",
+      "text": "Scott Dumble"
+    }
+  ],
+  "active": true,
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "(210) 555-1399"
+    }
+  ]
+}

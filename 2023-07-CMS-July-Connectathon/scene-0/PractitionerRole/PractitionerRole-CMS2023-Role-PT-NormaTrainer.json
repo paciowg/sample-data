@@ -1,0 +1,24 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "CMS2023-Role-PT-NormaTrainer",
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "225100000X",
+          "system": "https://taxonomy.nucc.org/",
+          "display": "Physical Therapist"
+        }
+      ]
+    }
+  ],
+  "active": true,
+  "practitioner" : {
+    "reference" : "Practitioner/CMS2023-eLTSS-NormaTrainer",
+    "display" : "PT Norma Trainer"
+  },
+  "organization" : {
+    "reference" : "Organization/CMS2023-org-eLTSS-Therapists-To-Go",
+    "display" : "Therapists To Go"
+  }
+}

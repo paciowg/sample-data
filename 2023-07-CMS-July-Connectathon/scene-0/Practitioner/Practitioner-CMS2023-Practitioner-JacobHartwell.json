@@ -1,0 +1,19 @@
+{
+  "resourceType": "Practitioner",
+  "id": "CMS2023-Practitioner-JacobHartwell",
+  "name": [
+    {
+      "given": [
+        "Jacob"
+      ],
+      "family": "Hartwell",
+      "text": "Jacob Hartwell"
+    }
+  ],
+  "active": true,
+  "telecom": [
+    {
+      "system": "phone"
+    }
+  ]
+}

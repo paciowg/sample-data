@@ -1,0 +1,19 @@
+{
+  "resourceType": "Practitioner",
+  "id": "CMS2023-Practitioner-AlexanderKuikhoff",
+  "name": [
+    {
+      "given": [
+        "Alexander"
+      ],
+      "family": "Kuikhoff",
+      "text": "Alexander Kuikhoff"
+    }
+  ],
+  "active": true,
+  "telecom": [
+    {
+      "system": "phone"
+    }
+  ]
+}

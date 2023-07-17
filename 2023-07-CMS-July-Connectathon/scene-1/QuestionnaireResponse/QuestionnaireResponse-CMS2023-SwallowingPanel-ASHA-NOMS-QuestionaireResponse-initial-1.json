@@ -1,0 +1,80 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "id": "CMS2023-SwallowingPanel-ASHA-NOMS-QuestionaireResponse-initial-1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/core/StructureDefinition/us-core-questionnaireresponse"
+    ]
+  },
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/CMS2023-patientBSJ1"
+  },
+  "questionnaire": "http://example.org/Questionnaire/SwallowingPanel-ASHA-NOMS-QuestionaireResponse-initial",
+  "_questionnaire": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/display",
+        "valueString": "SwallowingPanel-ASHA-NOMS-QuestionaireResponse-initial"
+      }
+    ]
+  },
+  "authored": "2023-06-12T14:15:00-04:00",
+  "author": {
+    "reference": "PractitionerRole/CMS2023-Role-SLP-MariaGonzalez"
+  },
+  "item": [
+    {
+      "linkId": "Section-37/99857-5",
+      "text": "How often does the individual require supervision/assistance at meal time due to swallowing safety?",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA33179-5",
+            "system": "http://loinc.org",
+            "display": "91-100% of the time (always)"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "Section-37/99856-7",
+      "text": "How often does the individual exhibit difficulties with oral containment or secretion management?",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA33177-9",
+            "system": "http://loinc.org",
+            "display": "50-75% of the time (often)"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "Section-37/99853-4",
+      "text": "What modified diet is recommended for the individual to swallow solids safely?",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA33254-6",
+            "system": "http://loinc.org",
+            "display": "Pureed"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "Section-37/99854-2",
+      "text": "What modified liquid is recommended for the individual to swallow safely?",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA33270-2",
+            "system": "http://loinc.org",
+            "display": "Moderately Thick"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "resourceType": "Location",
+  "id": "CMS2023-org-Loc-SpeechLanguage-Clarity-Speech-Center",
+  "name": "Clarity Speech Language Center",
+  "address": {
+    "text": "1901 Pillbug St, Grand Rapids, MI 49506"
+  },
+  "status": "active"
+}

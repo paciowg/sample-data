@@ -1,0 +1,24 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "CMS2023-Role-HHRN-JacobHartwell",
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "163WH0200X",
+          "system": "https://taxonomy.nucc.org/",
+          "display": "Home Health Registered Nurse"
+        }
+      ]
+    }
+  ],
+  "active": true,
+  "practitioner" : {
+    "reference" : "Practitioner/CMS2023-Practitioner-JacobHartwell",
+    "display" : "RN Jacob Hartwell"
+  },
+  "organization" : {
+    "reference" : "Organization/CMS2023-org-HH-Sky-Harbor-Home-Health",
+    "display" : "Sky Harbor Home Health Services"
+  }
+}

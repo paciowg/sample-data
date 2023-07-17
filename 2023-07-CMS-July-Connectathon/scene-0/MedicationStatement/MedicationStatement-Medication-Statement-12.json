@@ -1,0 +1,55 @@
+{
+  "resourceType": "MedicationStatement",
+  "id": "Medication-Statement-12",
+  "contained": [
+    {
+      "resourceType": "Medication",
+      "id": "Medication-Plavix-1",
+      "code": {
+        "coding": [
+          {
+            "code": "213169",
+            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+            "display": "Plavix 75 MG Oral Tablet"
+          }
+        ],
+        "text": "Plavix 75mg"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/CMS2023-patientBSJ1"
+  },
+  "status": "active",
+  "category": {
+    "coding": [
+      {
+        "code": "community",
+        "system": "http://terminology.hl7.org/CodeSystem/medication-statement-category"
+      }
+    ]
+  },
+  "basedOn": [
+    {
+      "reference": "MedicationRequest/Medication-Request-3"
+    }
+  ],
+  "medicationReference": {
+    "reference": "#Medication-Plavix-1"
+  },
+  "dateAsserted": "2020-07-11T05:42:00-05:00",
+  "effectiveDateTime": "2020-07-11T05:42:00-05:00",
+  "informationSource": {
+    "reference": "Practitioner/CMS2023-Practitioner-AnitaChu"
+  },
+  "reasonReference": [
+    {
+      "reference": "Condition/CMS2023-Diagnosis4"
+    }
+  ],
+  "dosage": [
+    {
+      "text": "Take daily"
+    }
+  ]
+}

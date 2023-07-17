@@ -1,0 +1,24 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "CMS2023-Role-IMMD-AnitaChu",
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "207R00000X",
+          "system": "https://taxonomy.nucc.org/",
+          "display": "Internal Medicine Physician"
+        }
+      ]
+    }
+  ],
+  "active": true,
+  "practitioner" : {
+    "reference" : "Practitioner/CMS2023-Practitioner-AnitaChu",
+    "display" : "Dr. Anita Chu"
+  },
+  "organization" : {
+    "reference" : "Organization/CMS2023-org-PC-Primary-Care-Michigan",
+    "display" : "Michigan Primary Health Care Associates"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "resourceType": "Practitioner",
+  "id": "CMS2023-eLTSS-LisaEducator",
+  "name": [
+    {
+      "given": [
+        "Lisa"
+      ],
+      "family": "Educator",
+      "text": "Lisa Educator"
+    }
+  ],
+  "active": true,
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "(210) 555-1213"
+    }
+  ]
+}

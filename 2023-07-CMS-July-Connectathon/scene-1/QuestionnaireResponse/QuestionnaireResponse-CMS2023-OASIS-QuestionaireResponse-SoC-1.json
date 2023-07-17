@@ -1,0 +1,106 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "id": "CMS2023-OASIS-QuestionaireResponse-SoC-1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/core/StructureDefinition/us-core-questionnaireresponse"
+    ]
+  },
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/CMS2023-patientBSJ1"
+  },
+  "questionnaire": "http://example.org/Questionnaire/OASIS-SoC-E",
+  "_questionnaire": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/display",
+        "valueString": "Outcome and assessment information set (OASIS) form - version E - Start of Care [CMS Assessment]"
+      }
+    ]
+  },
+  "authored": "2023-06-09T18:30:00-04:00",
+  "author": {
+    "reference": "PractitionerRole/CMS2023-Role-HHRN-TamaraRodriguez"
+  },
+  "item": [
+    {
+      "linkId": "Section-37/95812-4",
+      "text": "Did the patient have difficulty focusing attention, for example, being easily distractible or having difficulty keeping track of what was being said during assessment period?",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA10992-8",
+            "system": "http://loinc.org",
+            "display": "Behavior continuously present, does not fluctuate"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "Section-37/93178-2",
+      "text": "Nutritional approaches",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA18606-6",
+            "system": "http://loinc.org",
+            "display": "Mechanically altered diet - require change in texture of food or liquids (e.g., pureed food, thickened liquids)"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "Section-37/54644-0",
+      "text": "Poor appetite or overeating in last 2 weeks.presence",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA33-6",
+            "system": "http://loinc.org",
+            "display": "Yes"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "Section-37/57248-7",
+      "text": "Feeding - functional ability",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA6414-2",
+            "system": "http://loinc.org",
+            "display": "Unable to feed self and must be assisted or supervised throughout the meal/snack"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "Section-37/95009-7",
+      "text": "Lying to sitting on side of bed: The ability to move from lying on the back to sitting on the side of the bed with no back support.",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA30914-8",
+            "system": "http://loinc.org",
+            "display": "Dependent - Helper does all of the effort. Person does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the person to complete the activity"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "Section-37/95007-1",
+      "text": "Chair/bed-to-chair transfer: The ability to transfer to and from a bed to a chair (or wheelchair).",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "LA30914-8",
+            "system": "http://loinc.org",
+            "display": "Dependent - Helper does all of the effort. Person does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the person to complete the activity"
+          }
+        }
+      ]
+    }
+  ]
+}

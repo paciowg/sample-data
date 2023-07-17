@@ -1,0 +1,50 @@
+{
+  "resourceType": "MedicationStatement",
+  "id": "Medication-Statement-6",
+  "contained": [
+    {
+      "resourceType": "Medication",
+      "id": "Medication-FerrousSulfate-1",
+      "code": {
+        "coding": [
+          {
+            "code": "310325",
+            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+            "display": "ferrous sulfate 325 MG Oral Tablet"
+          }
+        ],
+        "text": "Ferrous Sulfate 325mg"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/CMS2023-patientBSJ1"
+  },
+  "status": "active",
+  "category": {
+    "coding": [
+      {
+        "code": "community",
+        "system": "http://terminology.hl7.org/CodeSystem/medication-statement-category"
+      }
+    ]
+  },
+  "medicationReference": {
+    "reference": "#Medication-FerrousSulfate-1"
+  },
+  "dateAsserted": "2019-12-05T10:30:00-05:00",
+  "effectiveDateTime": "2019-12-05T10:30:00-05:00",
+  "informationSource": {
+    "reference": "Practitioner/CMS2023-Practitioner-AnitaChu"
+  },
+  "reasonReference": [
+    {
+      "reference": "Condition/CMS2023-Diagnosis3"
+    }
+  ],
+  "dosage": [
+    {
+      "text": "Take three times a day prior to meals"
+    }
+  ]
+}

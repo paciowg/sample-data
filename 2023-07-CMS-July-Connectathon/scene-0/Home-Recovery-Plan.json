@@ -1,0 +1,892 @@
+{
+  "resourceType": "Bundle",
+  "id": "5b4b6da8-8514-4857-8745-3f374c5a6212",
+  "meta": {
+    "lastUpdated": "2023-07-13T13:47:29.480+00:00"
+  },
+  "type": "searchset",
+  "total": 1,
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://gw.interop.community/MiHIN/open/CarePlan?_id=28302&_include=CarePlan%3Aactivity-reference&_include=CarePlan%3Acare-team&_include=CarePlan%3Acondition&_include=CarePlan%3Aencounter&_include=CarePlan%3Agoal&_include=CarePlan%3Aperformer&_include=CarePlan%3Asubject&_profile=http%3A%2F%2Fhl7.org%2Ffhir%2Fus%2FeLTSS%2FStructureDefinition%2FCarePlan-eltss"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://gw.interop.community/MiHIN/open/CarePlan/28302",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "28302",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2023-07-13T13:38:12.000+00:00",
+          "source": "#O7Zx8Ywfx5Vcgwhm",
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/CarePlan-eltss"
+          ]
+        },
+        "status": "draft",
+        "intent": "plan",
+        "title": "Betsy Smith-Johnson’s Home Recovery Plan",
+        "description": "A service and support plan that outlines Betsy's assessed needs, goals, strengths, preferences, and services/providers to meet those needs and goals.",
+        "subject": {
+          "reference": "Patient/CMS2023-patientBSJ1",
+          "display": "Betsy Smith-Johnson"
+        },
+        "period": {
+          "start": "2023-06-07"
+        },
+        "author": {
+          "reference": "Practitioner/80827658-9560-4ed5-8ff6-0cc93de6214d",
+          "display": "Home Health Care Coordinator - Ray Mancioni (Clinical care coordinator)"
+        },
+        "addresses": [
+          {
+            "reference": "Condition/28354",
+            "display": "Physical Therapy"
+          },
+          {
+            "reference": "Condition/28355",
+            "display": "Occupational Therapy"
+          },
+          {
+            "reference": "Condition/28356",
+            "display": "Speech Language Therapy"
+          }
+        ],
+        "supportingInfo": [
+          {
+            "reference": "Observation/28303",
+            "display": "Betsy is an actively engaged in her rehabilitation efforts"
+          },
+          {
+            "reference": "Observation/28304",
+            "display": "Betsy has active support from her son and daughter-in-law"
+          },
+          {
+            "reference": "RiskAssessment/28357",
+            "display": "Modified diet"
+          },
+          {
+            "reference": "RiskAssessment/28358",
+            "display": "Plan for home modifications to reduce risk of falling\n"
+          }
+        ],
+        "goal": [
+          {
+            "reference": "Goal/28353",
+            "display": "Betsy would like to get back to her normal routine and is looking forward to eating normal healthy meals."
+          }
+        ],
+        "activity": [
+          {
+            "reference": {
+              "reference": "ServiceRequest/28363"
+            }
+          },
+          {
+            "reference": {
+              "reference": "ServiceRequest/28368"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://gw.interop.community/MiHIN/open/ServiceRequest/28368",
+      "resource": {
+        "resourceType": "ServiceRequest",
+        "id": "28368",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-07-13T13:33:39.000+00:00",
+          "source": "#XjClHm2fwNeXQzho",
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/ServiceRequest-eltss"
+          ]
+        },
+        "status": "active",
+        "intent": "plan",
+        "code": {
+          "text": "Occupational Therapy"
+        },
+        "quantityRatio": {
+          "numerator": {
+            "value": 2,
+            "unit": "sessions"
+          },
+          "denominator": {
+            "value": 1,
+            "unit": "week"
+          }
+        },
+        "subject": {
+          "reference": "Patient/CMS2023-patientBSJ1",
+          "display": "Betsy Smith-Johnson"
+        },
+        "occurrenceTiming": {
+          "repeat": {
+            "boundsPeriod": {
+              "start": "2023-06-09",
+              "end": "2023-08-09"
+            }
+          }
+        },
+        "performer": [
+          {
+            "reference": "HealthcareService/28364"
+          }
+        ],
+        "insurance": [
+          {
+            "reference": "Coverage/28366"
+          }
+        ],
+        "supportingInfo": [
+          {
+            "reference": "Claim/28367"
+          }
+        ]
+      },
+      "search": {
+        "mode": "include"
+      }
+    },
+    {
+      "fullUrl": "https://gw.interop.community/MiHIN/open/Goal/28353",
+      "resource": {
+        "resourceType": "Goal",
+        "id": "28353",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-07-13T13:33:39.000+00:00",
+          "source": "#XjClHm2fwNeXQzho",
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Goal-eltss"
+          ]
+        },
+        "lifecycleStatus": "active",
+        "description": {
+          "text": "Betsy would like to get back to her normal routine and is looking forward to eating normal healthy meals."
+        },
+        "subject": {
+          "reference": "Patient/CMS2023-patientBSJ1",
+          "display": "Betsy Smith-Johnson"
+        }
+      },
+      "search": {
+        "mode": "include"
+      }
+    },
+    {
+      "fullUrl": "https://gw.interop.community/MiHIN/open/Condition/28354",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "28354",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-07-13T13:33:39.000+00:00",
+          "source": "#XjClHm2fwNeXQzho"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/eltss/CodeSystem/eltss-condition-category-code",
+                "code": "assessed-need"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "Physical Therapy"
+        },
+        "subject": {
+          "reference": "Patient/CMS2023-patientBSJ1",
+          "display": "Betsy Smith-Johnson"
+        }
+      },
+      "search": {
+        "mode": "include"
+      }
+    },
+    {
+      "fullUrl": "https://gw.interop.community/MiHIN/open/Condition/28355",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "28355",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-07-13T13:33:39.000+00:00",
+          "source": "#XjClHm2fwNeXQzho"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/eltss/CodeSystem/eltss-condition-category-code",
+                "code": "assessed-need"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "Occupational Therapy"
+        },
+        "subject": {
+          "reference": "Patient/CMS2023-patientBSJ1",
+          "display": "Betsy Smith-Johnson"
+        }
+      },
+      "search": {
+        "mode": "include"
+      }
+    },
+    {
+      "fullUrl": "https://gw.interop.community/MiHIN/open/Condition/28356",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "28356",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-07-13T13:33:39.000+00:00",
+          "source": "#XjClHm2fwNeXQzho"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/eltss/CodeSystem/eltss-condition-category-code",
+                "code": "assessed-need"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "Speech Language Therapy"
+        },
+        "subject": {
+          "reference": "Patient/CMS2023-patientBSJ1",
+          "display": "Betsy Smith-Johnson"
+        }
+      },
+      "search": {
+        "mode": "include"
+      }
+    },
+    {
+      "fullUrl": "https://gw.interop.community/MiHIN/open/Patient/CMS2023-patientBSJ1",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "CMS2023-patientBSJ1",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2023-07-13T03:28:16.000+00:00",
+          "source": "#isFDVA661oB7YdDR",
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Betsy <b>SMITH-JOHNSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>10A3D58WH1600</td></tr><tr><td>Address</td><td/></tr><tr><td>Date of birth</td><td><span>01 November 1950</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-medicare",
+            "value": "10A3D58WH1600"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "text": "Betsy Smith-Johnson",
+            "family": "Smith-Johnson",
+            "given": [
+              "Betsy"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1950-11-01",
+        "address": [
+          {
+            "text": "111 Maple Ct, Grand Rapids, MI 49503"
+          }
+        ],
+        "contact": [
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                    "code": "SONC/Hl7V2TBL0131#C/Hl7V3ROLE#GUARD"
+                  }
+                ]
+              }
+            ],
+            "name": {
+              "text": "Charles Johnson"
+            },
+            "telecom": [
+              {
+                "system": "phone",
+                "value": "(210) 222-3333"
+              }
+            ],
+            "address": {
+              "text": "111 Maple Ct, Grand Rapids, MI 49503"
+            }
+          },
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                    "code": "DAUC"
+                  }
+                ]
+              }
+            ],
+            "name": {
+              "text": "Debra Johnson"
+            },
+            "telecom": [
+              {
+                "system": "phone",
+                "value": "(410) 444-5555"
+              }
+            ],
+            "address": {
+              "text": "333 W. Camden St., Baltimore, MD 21201"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "include"
+      }
+    },
+    {
+      "fullUrl": "https://gw.interop.community/MiHIN/open/ServiceRequest/28363",
+      "resource": {
+        "resourceType": "ServiceRequest",
+        "id": "28363",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-07-13T13:33:39.000+00:00",
+          "source": "#XjClHm2fwNeXQzho",
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/ServiceRequest-eltss"
+          ]
+        },
+        "status": "active",
+        "intent": "plan",
+        "code": {
+          "text": "Physical Therapy"
+        },
+        "quantityRatio": {
+          "numerator": {
+            "value": 2,
+            "unit": "sessions"
+          },
+          "denominator": {
+            "value": 1,
+            "unit": "week"
+          }
+        },
+        "subject": {
+          "reference": "Patient/CMS2023-patientBSJ1",
+          "display": "Betsy Smith-Johnson"
+        },
+        "occurrenceTiming": {
+          "repeat": {
+            "boundsPeriod": {
+              "start": "2023-06-09",
+              "end": "2023-08-09"
+            }
+          }
+        },
+        "performer": [
+          {
+            "reference": "HealthcareService/28359"
+          }
+        ],
+        "insurance": [
+          {
+            "reference": "Coverage/28361"
+          }
+        ],
+        "supportingInfo": [
+          {
+            "reference": "Claim/28362"
+          }
+        ]
+      },
+      "search": {
+        "mode": "include"
+      }
+    },
+    {
+      "fullUrl": "https://gw.interop.community/MiHIN/open/Claim/28367",
+      "resource": {
+        "resourceType": "Claim",
+        "id": "28367",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-07-13T13:33:39.000+00:00",
+          "source": "#XjClHm2fwNeXQzho",
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Claim-eltss"
+          ]
+        },
+        "status": "active",
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/claim-type",
+              "code": "professional"
+            }
+          ]
+        },
+        "use": "preauthorization",
+        "patient": {
+          "reference": "Patient/CMS2023-patientBSJ1",
+          "display": "Betsy Smith-Johnson"
+        },
+        "created": "2023-07-13T13:33:38.757Z",
+        "provider": {
+          "reference": "Organization/28365"
+        },
+        "priority": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/processpriority",
+              "code": "normal"
+            }
+          ]
+        },
+        "insurance": [
+          {
+            "sequence": 1,
+            "focal": true,
+            "coverage": {
+              "reference": "Coverage/28366"
+            }
+          }
+        ],
+        "item": [
+          {
+            "sequence": 1,
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/ex-USCLS",
+                  "code": "99555"
+                }
+              ]
+            },
+            "unitPrice": {
+              "value": 150,
+              "currency": "USD"
+            },
+            "net": {
+              "value": 2400,
+              "currency": "USD"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://gw.interop.community/MiHIN/open/Claim/28362",
+      "resource": {
+        "resourceType": "Claim",
+        "id": "28362",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-07-13T13:33:39.000+00:00",
+          "source": "#XjClHm2fwNeXQzho",
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Claim-eltss"
+          ]
+        },
+        "status": "active",
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/claim-type",
+              "code": "professional"
+            }
+          ]
+        },
+        "use": "preauthorization",
+        "patient": {
+          "reference": "Patient/CMS2023-patientBSJ1",
+          "display": "Betsy Smith-Johnson"
+        },
+        "created": "2023-07-13T13:33:38.757Z",
+        "provider": {
+          "reference": "Organization/28360"
+        },
+        "priority": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/processpriority",
+              "code": "normal"
+            }
+          ]
+        },
+        "insurance": [
+          {
+            "sequence": 1,
+            "focal": true,
+            "coverage": {
+              "reference": "Coverage/28361"
+            }
+          }
+        ],
+        "item": [
+          {
+            "sequence": 1,
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/ex-USCLS",
+                  "code": "99555"
+                }
+              ]
+            },
+            "unitPrice": {
+              "value": 150,
+              "currency": "USD"
+            },
+            "net": {
+              "value": 2400,
+              "currency": "USD"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://gw.interop.community/MiHIN/open/Coverage/28366",
+      "resource": {
+        "resourceType": "Coverage",
+        "id": "28366",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-07-13T13:33:39.000+00:00",
+          "source": "#XjClHm2fwNeXQzho"
+        },
+        "status": "draft",
+        "beneficiary": {
+          "reference": "Patient/CMS2023-patientBSJ1",
+          "display": "Betsy Smith-Johnson"
+        },
+        "payor": [
+          {
+            "reference": "Organization/28365"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://gw.interop.community/MiHIN/open/Organization/28365",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "28365",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-07-13T13:33:39.000+00:00",
+          "source": "#XjClHm2fwNeXQzho"
+        }
+      },
+      "search": {
+        "mode": "include"
+      }
+    },
+    {
+      "fullUrl": "https://gw.interop.community/MiHIN/open/Coverage/28361",
+      "resource": {
+        "resourceType": "Coverage",
+        "id": "28361",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-07-13T13:33:39.000+00:00",
+          "source": "#XjClHm2fwNeXQzho"
+        },
+        "status": "draft",
+        "beneficiary": {
+          "reference": "Patient/CMS2023-patientBSJ1",
+          "display": "Betsy Smith-Johnson"
+        },
+        "payor": [
+          {
+            "reference": "Organization/28360"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://gw.interop.community/MiHIN/open/Organization/28360",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "28360",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-07-13T13:33:39.000+00:00",
+          "source": "#XjClHm2fwNeXQzho"
+        },
+        "name": "Medicare"
+      },
+      "search": {
+        "mode": "include"
+      }
+    },
+    {
+      "fullUrl": "https://gw.interop.community/MiHIN/open/HealthcareService/28359",
+      "resource": {
+        "resourceType": "HealthcareService",
+        "id": "28359",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-07-13T13:33:39.000+00:00",
+          "source": "#XjClHm2fwNeXQzho"
+        },
+        "name": "Jen Cadbury",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1 (555) 666-7777"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://gw.interop.community/MiHIN/open/HealthcareService/28364",
+      "resource": {
+        "resourceType": "HealthcareService",
+        "id": "28364",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-07-13T13:33:39.000+00:00",
+          "source": "#XjClHm2fwNeXQzho"
+        },
+        "name": "Maria Gonzalez",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1 (222) 333-4444"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://gw.interop.community/MiHIN/open/Observation/28303",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "28303",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-07-13T12:54:54.000+00:00",
+          "source": "#ErzleW2JPXG5j2al",
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Observation-eltss"
+          ]
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/us/eLTSS/CodeSystem/eltss-observation-code",
+              "code": "strength"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/CMS2023-patientBSJ1",
+          "display": "Betsy Smith-Johnson"
+        },
+        "valueString": "Betsy is an actively engaged in her rehabilitation efforts"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://gw.interop.community/MiHIN/open/Observation/28304",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "28304",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-07-13T12:54:54.000+00:00",
+          "source": "#ErzleW2JPXG5j2al",
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Observation-eltss"
+          ]
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/us/eLTSS/CodeSystem/eltss-observation-code",
+              "code": "strength"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/CMS2023-patientBSJ1",
+          "display": "Betsy Smith-Johnson"
+        },
+        "valueString": "Betsy has active support from her son and daughter-in-law"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://gw.interop.community/MiHIN/open/Practitioner/80827658-9560-4ed5-8ff6-0cc93de6214d",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "80827658-9560-4ed5-8ff6-0cc93de6214d",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-07-13T12:54:54.000+00:00",
+          "source": "#ErzleW2JPXG5j2al"
+        },
+        "name": [
+          {
+            "text": "Home Health Care Coordinator - Ray Mancioni (Clinical care coordinator)",
+            "family": "coordinator)",
+            "given": [
+              "Home",
+              "Health",
+              "Care",
+              "Coordinator",
+              "-",
+              "Ray",
+              "Mancioni",
+              "(Clinical",
+              "care"
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://gw.interop.community/MiHIN/open/RiskAssessment/28358",
+      "resource": {
+        "resourceType": "RiskAssessment",
+        "id": "28358",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-07-13T13:33:39.000+00:00",
+          "source": "#XjClHm2fwNeXQzho",
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/RiskAssessment-eltss"
+          ]
+        },
+        "status": "final",
+        "subject": {
+          "reference": "Patient/CMS2023-patientBSJ1",
+          "display": "Betsy Smith-Johnson"
+        },
+        "prediction": [
+          {
+            "outcome": {
+              "text": "Risk of Falling"
+            }
+          }
+        ],
+        "mitigation": "Plan for home modifications to reduce risk of falling\n"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://gw.interop.community/MiHIN/open/RiskAssessment/28357",
+      "resource": {
+        "resourceType": "RiskAssessment",
+        "id": "28357",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-07-13T13:33:39.000+00:00",
+          "source": "#XjClHm2fwNeXQzho",
+          "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/RiskAssessment-eltss"
+          ]
+        },
+        "status": "final",
+        "subject": {
+          "reference": "Patient/CMS2023-patientBSJ1",
+          "display": "Betsy Smith-Johnson"
+        },
+        "prediction": [
+          {
+            "outcome": {
+              "text": "Risk of Aspiration"
+            }
+          }
+        ],
+        "mitigation": "Modified diet"
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}

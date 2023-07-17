@@ -1,0 +1,24 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "CMS2023-Role-SLP-AlexanderKuikhoff",
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "235Z00000X",
+          "system": "https://taxonomy.nucc.org/",
+          "display": "Speech-Language Pathologist"
+        }
+      ]
+    }
+  ],
+  "active": true,
+  "practitioner" : {
+    "reference" : "Practitioner/CMS2023-Practitioner-AlexanderKuikhoff",
+    "display" : "SLP Alexander Kuikhoff"
+  },
+  "organization" : {
+    "reference" : "Organization/CMS2023-org-SpeechLanguage-Clarity-Speech-Center",
+    "display" : "Clarity Speech Language Center"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "resourceType": "Medication",
+  "id": "Medication-Tylenol",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication"
+    ]
+  },
+  "status": "active",
+  "code": {
+    "coding": [
+      {
+        "code": "313782",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "display": "Acetaminophen 325 MG Oral Tablet"
+      }
+    ],
+    "text": "Tylenol 650mg"
+  }
+}

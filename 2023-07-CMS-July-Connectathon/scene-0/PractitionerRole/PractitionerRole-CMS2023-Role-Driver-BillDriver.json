@@ -1,0 +1,24 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "CMS2023-Role-Driver-BillDriver",
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "172A00000X",
+          "system": "http://nucc.org/provider-taxonomy",
+          "display": "Driver"
+        }
+      ]
+    }
+  ],
+  "active": true,
+  "practitioner" : {
+    "reference" : "Practitioner/CMS2023-eLTSS-BillDriver",
+    "display" : "Bill Driver"
+  },
+  "organization" : {
+    "reference" : "Organization/CMS2023-org-Lifeway-Ground-Transport",
+    "display" : "Lifeway Ground Transport Inc."
+  }
+}

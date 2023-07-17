@@ -1,0 +1,9 @@
+{
+  "resourceType": "Location",
+  "id": "CMS2023-org-Loc-Radiology-Prism-Radiology-Associates",
+  "name": "Prism Radiology Associates",
+  "address": {
+    "text": "290 Rescue St NE, Grand Rapids, MI 49503"
+  },
+  "status": "active"
+}

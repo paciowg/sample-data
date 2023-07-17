@@ -1,0 +1,24 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "CMS2023-Role-PT-LunaBaskins",
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "225100000X",
+          "system": "https://taxonomy.nucc.org/",
+          "display": "Physical Therapist"
+        }
+      ]
+    }
+  ],
+  "active": true,
+  "practitioner" : {
+    "reference" : "Practitioner/CMS2023-Practitioner-LunaBaskins",
+    "display" : "Luna Baskins"
+  },
+  "organization" : {
+    "reference" : "Organization/CMS2023-org-HH-Sky-Harbor-Home-Health",
+    "display" : "Sky Harbor Home Health Services"
+  }
+}

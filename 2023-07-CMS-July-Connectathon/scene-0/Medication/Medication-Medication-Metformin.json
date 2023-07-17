@@ -1,0 +1,20 @@
+{
+  "resourceType": "Medication",
+  "id": "Medication-Metformin",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication"
+    ]
+  },
+  "status": "active",
+  "code": {
+    "coding": [
+      {
+        "code": "861007",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "display": "metFORMIN hydrochloride 500 MG Oral Tablet"
+      }
+    ],
+    "text": "Metformin 500mg"
+  }
+}

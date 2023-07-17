@@ -1,0 +1,20 @@
+{
+  "resourceType": "Medication",
+  "id": "Medication-Sertraline",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication"
+    ]
+  },
+  "status": "active",
+  "code": {
+    "coding": [
+      {
+        "code": "312940",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "display": "Sertraline 25 MG Oral Tablet"
+      }
+    ],
+    "text": "Sertraline 25mg"
+  }
+}

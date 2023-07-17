@@ -1,0 +1,24 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "CMS2023-Role-PT-ScottDumble",
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "225100000X",
+          "system": "https://taxonomy.nucc.org/",
+          "display": "Physical Therapist"
+        }
+      ]
+    }
+  ],
+  "active": true,
+  "practitioner" : {
+    "reference" : "Practitioner/CMS2023-Practitioner-ScottDumble",
+    "display" : "PT Scott Dumble"
+  },
+  "organization" : {
+    "reference" : "Organization/CMS2023-org-eLTSS-Therapists-To-Go",
+    "display" : "Therapists To Go"
+  }
+}

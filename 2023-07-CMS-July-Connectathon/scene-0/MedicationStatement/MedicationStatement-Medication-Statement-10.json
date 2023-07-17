@@ -1,0 +1,55 @@
+{
+  "resourceType": "MedicationStatement",
+  "id": "Medication-Statement-10",
+  "contained": [
+    {
+      "resourceType": "Medication",
+      "id": "Medication-Aspirin-1",
+      "code": {
+        "coding": [
+          {
+            "code": "243670",
+            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+            "display": "aspirin 81 MG Oral Tablet"
+          }
+        ],
+        "text": "Aspirin 81mg"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/CMS2023-patientBSJ1"
+  },
+  "status": "active",
+  "category": {
+    "coding": [
+      {
+        "code": "community",
+        "system": "http://terminology.hl7.org/CodeSystem/medication-statement-category"
+      }
+    ]
+  },
+  "basedOn": [
+    {
+      "reference": "MedicationRequest/Medication-Request-1"
+    }
+  ],
+  "medicationReference": {
+    "reference": "#Medication-Aspirin-1"
+  },
+  "dateAsserted": "2020-07-11T05:42:00-05:00",
+  "effectiveDateTime": "2020-07-11T05:42:00-05:00",
+  "informationSource": {
+    "reference": "Practitioner/CMS2023-Practitioner-AnitaChu"
+  },
+  "reasonReference": [
+    {
+      "reference": "Condition/CMS2023-Diagnosis9"
+    }
+  ],
+  "dosage": [
+    {
+      "text": "Take daily"
+    }
+  ]
+}

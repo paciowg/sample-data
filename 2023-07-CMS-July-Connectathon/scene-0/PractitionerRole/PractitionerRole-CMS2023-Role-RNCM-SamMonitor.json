@@ -1,0 +1,24 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "CMS2023-Role-RNCM-SamMonitor",
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "163WC0400X",
+          "system": "https://taxonomy.nucc.org/",
+          "display": "Case Management Registered Nurse"
+        }
+      ]
+    }
+  ],
+  "active": true,
+  "practitioner" : {
+    "reference" : "Practitioner/CMS2023-eLTSS-SamMonitor",
+    "display" : "Plan Manager Sam Monitor"
+  },
+  "organization" : {
+    "reference" : "Organization/CMS2023-org-eLTSS-CaseManaging4U",
+    "display" : "Case Managing 4 U"
+  }
+}

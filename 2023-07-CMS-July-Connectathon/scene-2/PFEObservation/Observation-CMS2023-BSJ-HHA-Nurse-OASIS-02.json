@@ -1,0 +1,85 @@
+{
+  "resourceType": "Observation",
+  "id": "CMS2023-BSJ-HHA-Nurse-OASIS-02",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-collection"
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-functioning-cs",
+          "code": "functioning",
+          "display": "Functioning"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "code": "survey",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "display": "Survey"
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/CMS2023-Home-Loc-01"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/CMS2023-patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2023-07-10T18:30:00-04:00",
+  "encounter": {
+    "reference": "Encounter/CMS2023-ENC-HHA"
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "pseudo_follow_OASISbased_swallow",
+        "system": "http://loinc.org",
+        "display": "Subset of Outcome and assessment information set (OASIS) form - version E - used for followup"
+      }
+    ],
+    "text": "Subset of Outcome and assessment information set (OASIS) form - version E - used for followup"
+  },
+  "performer": [
+    {
+      "reference": "PractitionerRole/CMS2023-Role-HHRN-JacobHartwell"
+    },
+    {
+      "reference": "Practitioner/CMS2023-Practitioner-JacobHartwell"
+    },
+    {
+      "reference": "Organization/CMS2023-org-HH-Sky-Harbor-Home-Health"
+    }
+  ],
+  "hasMember": [
+    {
+      "reference": "Observation/CMS2023-BSJ-HHA-OASIS-Cognitive-02RN"
+    },
+    {
+      "reference": "Observation/CMS2023-BSJ-HHA-OASIS-Nutrition-02RN"
+    },
+    {
+      "reference": "Observation/CMS2023-BSJ-HHA-OASIS-Appetite-02RN"
+    },
+    {
+      "reference": "Observation/CMS2023-BSJ-HHA-OASIS-Safety-02RN"
+    }
+  ],
+  "derivedFrom" : [
+    {
+      "reference" : "QuestionnaireResponse/CMS2023-OASIS-Like-QuestionaireResponse-Followup-1"
+    }
+  ]
+}
