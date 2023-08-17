@@ -1,0 +1,26 @@
+{
+  "resourceType": "Practitioner",
+  "id": "CMS2023-Practitioner-TamaraRodriguez",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/sid/us-npi",
+      "value": "6861364209"
+    }
+  ],
+  "name": [
+    {
+      "given": [
+        "Tamara"
+      ],
+      "family": "Rodriguez",
+      "text": "Tamara Rodriguez"
+    }
+  ],
+  "active": true,
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "(210) 555-2089"
+    }
+  ]
+}

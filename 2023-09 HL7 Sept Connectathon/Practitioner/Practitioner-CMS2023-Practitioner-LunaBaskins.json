@@ -1,0 +1,25 @@
+{
+  "resourceType": "Practitioner",
+  "id": "CMS2023-Practitioner-LunaBaskins",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/sid/us-npi",
+      "value": "5664912706"
+    }
+  ],
+  "name": [
+    {
+      "given": [
+        "Luna"
+      ],
+      "family": "Baskins",
+      "text": "Luna Baskins"
+    }
+  ],
+  "active": true,
+  "telecom": [
+    {
+      "system": "phone"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "resourceType": "Practitioner",
+  "id": "CMS2023-Practitioner-RayMancioni",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/sid/us-npi",
+      "value": "7224318302"
+    }
+  ],
+  "name": [
+    {
+      "given": [
+        "Ray"
+      ],
+      "family": "Mancioni",
+      "text": "Ray Mancioni"
+    }
+  ],
+  "active": true,
+  "telecom": [
+    {
+      "system": "phone"
+    }
+  ]
+}

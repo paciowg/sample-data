@@ -1,0 +1,25 @@
+{
+  "resourceType": "Practitioner",
+  "id": "CMS2023-Practitioner-MariaGonzalez",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/sid/us-npi",
+      "value": "8741149447"
+    }
+  ],
+  "name": [
+    {
+      "given": [
+        "Maria"
+      ],
+      "family": "Gonzalez",
+      "text": "Maria Gonzalez"
+    }
+  ],
+  "active": true,
+  "telecom": [
+    {
+      "system": "phone"
+    }
+  ]
+}

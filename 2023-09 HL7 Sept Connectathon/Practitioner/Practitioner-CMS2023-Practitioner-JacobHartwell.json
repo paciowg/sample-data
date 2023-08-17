@@ -1,0 +1,25 @@
+{
+  "resourceType": "Practitioner",
+  "id": "CMS2023-Practitioner-JacobHartwell",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/sid/us-npi",
+      "value": "4567123789"
+    }
+  ],
+  "name": [
+    {
+      "given": [
+        "Jacob"
+      ],
+      "family": "Hartwell",
+      "text": "Jacob Hartwell"
+    }
+  ],
+  "active": true,
+  "telecom": [
+    {
+      "system": "phone"
+    }
+  ]
+}
