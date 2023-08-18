@@ -15,3 +15,5 @@ The PACIO tracks for the Sept 2023 HL7 Connectathon build on the previous work f
 **Practitioner**
 - Included only the subset of Practitioners that will be used in the Sept 2023 PACIO Connectathon tracks.
 - Where necessary, added "Identifier" field to conform to National Directory IG https://build.fhir.org/ig/HL7/fhir-us-ndh/ 
+- Added practitioner Hema Onko. We referred to this practitioner in a previous connectathon, but the sample instance didn't exist in this repo.
+- Included addresses for all practitioners.
