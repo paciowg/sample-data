@@ -21,5 +21,10 @@
     {
       "system": "phone"
     }
+  ],
+  "address" : [
+    {
+      "text" : "8810 Old Sky Harbor, Grand Rapids, MI 49504"
+    }
   ]
 }

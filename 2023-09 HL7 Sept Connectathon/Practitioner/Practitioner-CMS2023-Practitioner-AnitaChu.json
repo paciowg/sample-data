@@ -22,5 +22,10 @@
       "system": "phone",
       "value": "(616) 555-1212"
     }
+  ],
+  "address" : [
+    {
+      "text" : "123 Spruce Dr. Grand Rapids, MI 49503"
+    }
   ]
 }

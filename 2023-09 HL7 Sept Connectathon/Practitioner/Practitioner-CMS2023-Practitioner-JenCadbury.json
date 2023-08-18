@@ -22,5 +22,10 @@
       "system": "phone",
       "value": "(210) 555-1871"
     }
+  ],
+  "address" : [
+    {
+      "text" : "8810 Old Sky Harbor, Grand Rapids, MI 49504"
+    }
   ]
 }
