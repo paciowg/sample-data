@@ -1,0 +1,31 @@
+{
+  "resourceType": "Practitioner",
+  "id": "CMS2023-Practitioner-HemaOnko",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/sid/us-npi",
+      "value": "8246855668"
+    }
+  ],
+  "name": [
+    {
+      "given": [
+        "Hema"
+      ],
+      "family": "Onko",
+      "text": "Hema Onko"
+    }
+  ],
+  "active": true,
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "(616) 555-3456"
+    }
+  ],
+  "address" : [
+    {
+      "text" : "290 Rescue St NE, Grand Rapids, MI 49503"
+    }
+  ]
+}
