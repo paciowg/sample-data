@@ -1,0 +1,31 @@
+{
+  "resourceType": "Practitioner",
+  "id": "297fc59f-c72b-4003-9f04-182c4fd91e0e",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2023-01-15T20:28:48.000+00:00",
+    "source": "#mkjhumuXeMQJhQTF"
+  },
+  "identifier": [ {
+    "system": "urn:oid:2.16.840.1.113883.4.6",
+    "value": "4567890123"
+  } ],
+  "name": [ {
+    "use": "usual",
+    "family": "Onko",
+    "given": [ "Hema" ]
+  } ],
+  "telecom": [ {
+    "system": "phone",
+    "value": "+16162223245",
+    "use": "work"
+  } ],
+  "address": [ {
+    "use": "work",
+    "line": [ "200 Spruce Drive" ],
+    "city": "Grand Rapids",
+    "state": "MI",
+    "postalCode": "49503",
+    "country": "US"
+  } ]
+}

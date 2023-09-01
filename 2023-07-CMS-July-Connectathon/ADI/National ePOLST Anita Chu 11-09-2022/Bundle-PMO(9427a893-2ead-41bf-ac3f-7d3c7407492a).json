@@ -1,0 +1,508 @@
+{
+  "resourceType": "Bundle",
+  "id": "9427a893-2ead-41bf-ac3f-7d3c7407492a",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2023-01-15T20:19:42.000+00:00",
+    "source": "#BRPXHCGWN6xd5xCe"
+  },
+  "type": "document",
+  "entry": [ {
+    "resource": {
+      "resourceType": "Composition",
+      "id": "ff3090ae-42ad-4e9a-b1d0-602d3bc3d616",
+      "language": "en-US",
+      "extension": [ {
+        "id": "af8c5fc9-d6bf-4c77-813f-d5ae6c46dc43",
+        "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-clause-extension",
+        "extension": [ {
+          "url": "Clause",
+          "valueString": "Reviewed patient’s advance directive to confirm no conflict with POLST orders. (A POLST form does not replace an advance directive or living will.) Check everyone who participated in discussion."
+        }, {
+          "url": "Type",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "http://loinc.org",
+              "code": "100828-3",
+              "display": "Portable medical order administrative information"
+            } ]
+          }
+        } ]
+      } ],
+      "identifier": {
+        "system": "urn:oid:2.16.840.1.113883.3.3208.102.7",
+        "value": "4837-87f37989294a408897aacd1fc5d8fd16-1.07-1"
+      },
+      "status": "final",
+      "type": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "93037-0",
+          "display": "Portable medical order form"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "42348-3",
+          "display": "Advance directives"
+        } ]
+      } ],
+      "subject": {
+        "reference": "Patient/c8c83e4c-79f2-4273-b56d-bb6d454f4964",
+        "display": "Smith-Johnson, Betsy"
+      },
+      "date": "2022-11-09T00:03:00+00:00",
+      "author": [ {
+        "reference": "Practitioner/b55bd7f1-d5c6-4332-9ffb-274141bdfd9a",
+        "display": "Chu, Anita"
+      } ],
+      "title": "National ePOLST Form: A Portable Medical Order.",
+      "attester": [ {
+        "mode": "legal",
+        "time": "2022-11-08T04:00:00+00:00",
+        "party": {
+          "reference": "Practitioner/7e5305b3-3137-48bb-9467-bc15dbe8c813"
+        }
+      } ],
+      "custodian": {
+        "reference": "Organization/a7034776-3e0f-4842-8152-53079556fb28"
+      },
+      "section": [ {
+        "title": "ePOLST Portable Medical Orders",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "59772-4",
+            "display": "Planned Procedure"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>    <span>A.Cardiopulmonary Resuscitation Orders. Follow these orders if patient has no pulse and is not breathing.</span>    <br/><br/>    <span>            <span>YES CPR: Attempt Resuscitation, including mechanical ventilation, defibrillation and cardioversion.</span>            <span>(Requires choosing Full Treatments in Section B)</span>    </span></p><br/><p>    <span>B.Initial Treatment Orders. Follow these orders if patient has a pulse and/or is breathing.</span>    <br/>    <span>Reassess and discuss interventions with patient or patient representative regularly to ensure treatments are meeting patient’s care goals. Consider a time-trial of interventions based on goals and specific outcomes.</span>    <br/><br/>    <span>            <span>Selective Treatments.</span>            <span>Goal: Attempt to restore function while avoiding intensive care and resuscitation efforts (ventilator, defibrillation and cardioversion).</span>            <span>May use non-invasive positive airway pressure, antibiotics and IV fluids as indicated. Avoid intensive care. Transfer to hospital if treatment needs cannot be met in current location.</span>    </span></p><br/><p>    <span>C.Additional Orders or Instructions.</span>    <br/>    <span>These orders are in addition to those above (e.g., blood products, dialysis).</span><br/>    <span>[EMS protocols may limit emergency responder ability to act on orders in this section.]</span>    <br/><br/>    <span>        Do not transfer to hospital unless condition is NOT related to primary diagnosis and hospital transfer is necessary for temporary treatment of condition, with an intent to return patient to previous setting.    </span></p><br/><p>    <span>D.Medically Assisted Nutrition</span>    <br/>    <span>(Offer food by mouth if desired by patient, safe and tolerated)</span>    <br/><br/>    <span>            <span>Trial period for artificial nutrition but no surgically-placed tubes</span>    </span></p><br/></div>"
+        },
+        "entry": [ {
+          "reference": "ServiceRequest/d60d5dfe-752b-459f-aaa1-a7269da821b5"
+        }, {
+          "reference": "ServiceRequest/f2429114-a3f7-46b5-bc5b-a0e6bbad6ed0"
+        }, {
+          "reference": "ServiceRequest/fcacbd92-1920-4937-b9e6-112046a5151a"
+        }, {
+          "reference": "ServiceRequest/298780b1-fbe3-4d3c-a6d6-59b3a6f5fb69"
+        } ]
+      }, {
+        "title": "ePOLST Completion Information Section",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "100970-3",
+            "display": "Portable medical order completion information"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>Form Completion Information</span> <span>(Optional but helpful)</span><br/><p>    <span>Reviewed patient's advance directive to confirm no conflict with POLST orders: (A POLST form does not replace an advance directive or living will)</span><br/>    <span>            <span>Yes; date of the document reviewed: 11/08/2022</span>    </span></p><p>    <span>Check everyone who participated in discussion:</span><br/>    <span>            <ul>                    <li>patient </li>            </ul>    </span></p><p>    <span>Professional Assisting Health Care Provider w/ Form Completion (if applicable):</span><br/>    <span>Full Name:</span>    <span>No answer given to this question.</span><br/>    <span>Date (mm/dd/yyyy):</span>    <span>11/08/2022</span><br/>    <span>Phone #:</span>    <span>No answer given to this question.</span><br/>    <span>This individual is the patient’s:</span>    <span>No answer given to this question.    </span><br/></p></div>"
+        },
+        "entry": [ {
+          "reference": "Observation/a861f791-cf29-4f0d-ba34-452ddd629085"
+        }, {
+          "reference": "Observation/1a0bbd11-6f8e-45f2-96d7-8726dabeb9d6"
+        } ]
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "Endpoint",
+      "id": "fad7b13d-f983-46a7-af5d-36e6aff9f9f0",
+      "status": "active",
+      "connectionType": {
+        "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code": "hl7-fhir-rest",
+        "display": "HL7 FHIR"
+      },
+      "name": "MaxMD EMR R4 - open",
+      "payloadType": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/endpoint-payload-type",
+          "code": "urn:hl7-org:sdwg:ccda-nonXMLBody:1.1"
+        }, {
+          "system": "http://terminology.hl7.org/CodeSystem/endpoint-payload-type",
+          "code": "urn:hl7-org:sdwg:ccda-structuredBody:1.1"
+        } ],
+        "text": "For documents following C-CDA constraints using a structured body"
+      } ],
+      "address": "https://qa-rr-fhir2.maxmddirect.com"
+    }
+  }, {
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "b55bd7f1-d5c6-4332-9ffb-274141bdfd9a",
+      "identifier": [ {
+        "system": "urn:oid:2.16.840.1.113883.4.6",
+        "value": "2346547890"
+      } ],
+      "name": [ {
+        "use": "usual",
+        "family": "Chu",
+        "given": [ "Anita" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "+16165551212",
+        "use": "work"
+      } ],
+      "address": [ {
+        "use": "work",
+        "line": [ "123 Spruce Drive" ],
+        "city": "Grand Rapids",
+        "state": "MI",
+        "postalCode": "49503",
+        "country": "US"
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "7e5305b3-3137-48bb-9467-bc15dbe8c813",
+      "identifier": [ {
+        "system": "urn:oid:2.16.840.1.113883.4.6",
+        "value": "2346547890"
+      } ],
+      "name": [ {
+        "use": "usual",
+        "family": "Chu",
+        "given": [ "Anita" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "+16165551212",
+        "use": "work"
+      }, {
+        "system": "email",
+        "value": "AC81@jettelabs.com"
+      } ],
+      "address": [ {
+        "use": "work",
+        "line": [ "123 Spruce Drive" ],
+        "city": "Grand Rapids",
+        "state": "MI",
+        "postalCode": "49503",
+        "country": "US"
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "Organization",
+      "id": "a7034776-3e0f-4842-8152-53079556fb28",
+      "identifier": [ {
+        "system": "urn:oid:2.16.840.1.113883.4.6",
+        "value": "44444"
+      } ],
+      "name": "ADVault Inc.",
+      "telecom": [ {
+        "system": "phone",
+        "value": "+1(888)884-3324",
+        "use": "work"
+      } ],
+      "address": [ {
+        "use": "work",
+        "line": [ "740 E. Campbell Rd. Suite 825" ],
+        "city": "Richardson",
+        "state": "TX",
+        "postalCode": "75081",
+        "country": "US"
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "Patient",
+      "id": "c8c83e4c-79f2-4273-b56d-bb6d454f4964",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Betsy <b>SMITH-JOHNSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>87f37989294a408897aacd1fc5d8fd16</td></tr><tr><td>Address</td><td><span>4885 Kensington Avenue </span><br/><span>Detroit </span><span>MI </span><span>US </span></td></tr><tr><td>Date of birth</td><td><span>15 November 1948</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "system": "urn:oid:2.16.840.1.113883.4.823.1",
+        "value": "87f37989294a408897aacd1fc5d8fd16"
+      } ],
+      "name": [ {
+        "use": "usual",
+        "family": "Smith-Johnson",
+        "given": [ "Betsy" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "+12146745539",
+        "use": "mobile"
+      }, {
+        "system": "email",
+        "value": "BS55@jettelabs.com"
+      } ],
+      "gender": "female",
+      "birthDate": "1948-11-15",
+      "address": [ {
+        "use": "home",
+        "line": [ "4885 Kensington Avenue" ],
+        "city": "Detroit",
+        "state": "MI",
+        "postalCode": "48224",
+        "country": "US"
+      } ],
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "code": "eng"
+          } ]
+        }
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "Organization",
+      "id": "46e1f46a-f9d1-4c95-9ea5-ca72c3922d6c",
+      "identifier": [ {
+        "system": "urn:oid:1.3.6.1.4.1.42424242.4.99930.4",
+        "value": "12c5dcee5089494ca1ca0cb428ed3fff"
+      } ],
+      "name": "ADVault, Inc.",
+      "telecom": [ {
+        "system": "phone",
+        "value": "+1(202)776-7700",
+        "use": "work"
+      } ],
+      "address": [ {
+        "use": "work",
+        "line": [ "740 E. Campbell Rd.", "STE 825" ],
+        "city": "Richardson",
+        "state": "TX",
+        "postalCode": "75081",
+        "country": "US"
+      } ],
+      "endpoint": [ {
+        "reference": "Endpoint/fad7b13d-f983-46a7-af5d-36e6aff9f9f0"
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "ServiceRequest",
+      "id": "d60d5dfe-752b-459f-aaa1-a7269da821b5",
+      "text": {
+        "status": "additional",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">A. Cardiopulmonary Resuscitation Orders. Follow these orders if patient has no pulse and is not breathing.</div>"
+      },
+      "status": "active",
+      "intent": "order",
+      "category": [ {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "100822-6",
+          "display": "Cardiopulmonary resuscitation orders"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "LA33470-8",
+          "display": "Yes CPR"
+        } ],
+        "text": "YES CPR: Attempt Resuscitation, including mechanical ventilation, defibrillation and cardioversion."
+      },
+      "orderDetail": [ {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "55752-0",
+          "display": "Clinical information"
+        } ],
+        "text": "Health care providers should complete this form only after a conversation with their patient or the patient's representative.The POLST decision-making process is for patients who are at risk for a life-threatening clinical event because they have a serious life-limiting medical condition, which may include advanced frailty (www.polst.org/guidance-appropriate-patients-pdf)."
+      } ],
+      "subject": {
+        "reference": "Patient/c8c83e4c-79f2-4273-b56d-bb6d454f4964",
+        "display": "Smith-Johnson, Betsy"
+      },
+      "requester": {
+        "reference": "Practitioner/b55bd7f1-d5c6-4332-9ffb-274141bdfd9a",
+        "display": "Chu, Anita"
+      }
+    }
+  }, {
+    "resource": {
+      "resourceType": "ServiceRequest",
+      "id": "f2429114-a3f7-46b5-bc5b-a0e6bbad6ed0",
+      "text": {
+        "status": "additional",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">B. Initial Treatment Orders. Follow these orders if patient has a pulse and/or is breathing.</div>"
+      },
+      "status": "active",
+      "intent": "order",
+      "category": [ {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "100823-4",
+          "display": "Initial portable medical treatment orders"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "LA33474-0",
+          "display": "Selective treatments"
+        } ],
+        "text": "Selective Treatments. Goal: Attempt to restore function while avoiding intensive care and resuscitation efforts (ventilator, defibrillation and cardioversion). May use non-invasive positive airway pressure, antibiotics and IV fluids as indicated. Avoid intensive care. Transfer to hospital if treatment needs cannot be met in current location."
+      },
+      "orderDetail": [ {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "55752-0",
+          "display": "Clinical information"
+        } ],
+        "text": "Health care providers should complete this form only after a conversation with their patient or the patient's representative.The POLST decision-making process is for patients who are at risk for a life-threatening clinical event because they have a serious life-limiting medical condition, which may include advanced frailty (www.polst.org/guidance-appropriate-patients-pdf)."
+      } ],
+      "subject": {
+        "reference": "Patient/c8c83e4c-79f2-4273-b56d-bb6d454f4964",
+        "display": "Smith-Johnson, Betsy"
+      },
+      "requester": {
+        "reference": "Practitioner/b55bd7f1-d5c6-4332-9ffb-274141bdfd9a",
+        "display": "Chu, Anita"
+      }
+    }
+  }, {
+    "resource": {
+      "resourceType": "ServiceRequest",
+      "id": "fcacbd92-1920-4937-b9e6-112046a5151a",
+      "text": {
+        "status": "additional",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">C. Additional Orders or Instructions. These orders are in addition to those above (e.g., blood products, dialysis). [EMS protocols may limit emergency responder ability to act on orders in this section.]</div>"
+      },
+      "status": "active",
+      "intent": "order",
+      "category": [ {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "100824-2",
+          "display": "Additional portable medical orders or instructions"
+        } ]
+      } ],
+      "code": {
+        "text": "Do not transfer to hospital unless condition is NOT related to primary diagnosis and hospital transfer is necessary for temporary treatment of condition, with an intent to return patient to previous setting."
+      },
+      "orderDetail": [ {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "55752-0",
+          "display": "Clinical information"
+        } ],
+        "text": "Health care providers should complete this form only after a conversation with their patient or the patient's representative.The POLST decision-making process is for patients who are at risk for a life-threatening clinical event because they have a serious life-limiting medical condition, which may include advanced frailty (www.polst.org/guidance-appropriate-patients-pdf)."
+      } ],
+      "subject": {
+        "reference": "Patient/c8c83e4c-79f2-4273-b56d-bb6d454f4964",
+        "display": "Smith-Johnson, Betsy"
+      },
+      "requester": {
+        "reference": "Practitioner/b55bd7f1-d5c6-4332-9ffb-274141bdfd9a",
+        "display": "Chu, Anita"
+      }
+    }
+  }, {
+    "resource": {
+      "resourceType": "ServiceRequest",
+      "id": "298780b1-fbe3-4d3c-a6d6-59b3a6f5fb69",
+      "text": {
+        "status": "additional",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">D. Medically Assisted Nutrition (Offer food by mouth if desired by patient, safe and tolerated)</div>"
+      },
+      "status": "active",
+      "intent": "order",
+      "category": [ {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "100825-9",
+          "display": "Medically assisted nutrition orders"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "LA33490-6",
+          "display": "Trial period for artificial nutrition but no surgically-placed tubes"
+        } ]
+      },
+      "orderDetail": [ {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "55752-0",
+          "display": "Clinical information"
+        } ],
+        "text": "Health care providers should complete this form only after a conversation with their patient or the patient's representative.The POLST decision-making process is for patients who are at risk for a life-threatening clinical event because they have a serious life-limiting medical condition, which may include advanced frailty (www.polst.org/guidance-appropriate-patients-pdf)."
+      } ],
+      "subject": {
+        "reference": "Patient/c8c83e4c-79f2-4273-b56d-bb6d454f4964",
+        "display": "Smith-Johnson, Betsy"
+      },
+      "requester": {
+        "reference": "Practitioner/b55bd7f1-d5c6-4332-9ffb-274141bdfd9a",
+        "display": "Chu, Anita"
+      }
+    }
+  }, {
+    "resource": {
+      "resourceType": "Observation",
+      "id": "a861f791-cf29-4f0d-ba34-452ddd629085",
+      "text": {
+        "status": "additional",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Reviewed patient’s advance directive to confirm no conflict with POLST orders. Check everyone who participated in discussion:</div>"
+      },
+      "status": "final",
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "100826-7"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/c8c83e4c-79f2-4273-b56d-bb6d454f4964",
+        "display": "Smith-Johnson, Betsy"
+      },
+      "focus": [ {
+        "reference": "Composition/ff3090ae-42ad-4e9a-b1d0-602d3bc3d616"
+      } ],
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "LA33476-5",
+          "display": "Yes the document was reviewed"
+        } ]
+      }
+    }
+  }, {
+    "resource": {
+      "resourceType": "Observation",
+      "id": "1a0bbd11-6f8e-45f2-96d7-8726dabeb9d6",
+      "text": {
+        "status": "additional",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Check everyone who participated in discussion:</div>"
+      },
+      "status": "final",
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "100827-5"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/c8c83e4c-79f2-4273-b56d-bb6d454f4964",
+        "display": "Smith-Johnson, Betsy"
+      },
+      "focus": [ {
+        "reference": "Composition/ff3090ae-42ad-4e9a-b1d0-602d3bc3d616"
+      } ],
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "LA33482-3",
+          "display": "Patient with decision-making capacity"
+        } ]
+      }
+    }
+  } ]
+}

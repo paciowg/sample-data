@@ -1,0 +1,35 @@
+{
+  "resourceType": "Observation",
+  "id": "d43ae3e4-dda8-4502-b02b-0d5b1ce81725",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2023-01-15T20:19:42.000+00:00",
+    "source": "#BRPXHCGWN6xd5xCe",
+    "profile": [ "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PMOParticipantObservation" ]
+  },
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Check everyone who participated in discussion:</div>"
+  },
+  "status": "final",
+  "code": {
+    "coding": [ {
+      "system": "http://loinc.org",
+      "code": "100827-5"
+    } ]
+  },
+  "subject": {
+    "reference": "Patient/c8c83e4c-79f2-4273-b56d-bb6d454f4964",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "focus": [ {
+    "reference": "Composition/2021ebae-49e3-466b-9f57-f52ec733624d"
+  } ],
+  "valueCodeableConcept": {
+    "coding": [ {
+      "system": "http://loinc.org",
+      "code": "LA33482-3",
+      "display": "Patient with decision-making capacity"
+    } ]
+  }
+}

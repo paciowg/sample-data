@@ -1,0 +1,108 @@
+{
+  "resourceType": "Composition",
+  "id": "f2bbc4c9-20e8-45a3-a5a6-f769f2dac445",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2023-01-15T20:28:48.000+00:00",
+    "source": "#mkjhumuXeMQJhQTF",
+    "profile": [ "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PMOComposition" ]
+  },
+  "language": "en-US",
+  "extension": [ {
+    "id": "9ef324bc-16da-454f-9a9b-37864f23db71",
+    "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-clause-extension",
+    "extension": [ {
+      "url": "Clause",
+      "valueString": "Reviewed patient’s advance directive to confirm no conflict with POLST orders. (A POLST form does not replace an advance directive or living will.) Check everyone who participated in discussion."
+    }, {
+      "url": "Type",
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "100828-3",
+          "display": "Portable medical order administrative information"
+        } ]
+      }
+    } ]
+  } ],
+  "identifier": {
+    "system": "urn:oid:2.16.840.1.113883.3.3208.102.7",
+    "value": "4837-87f37989294a408897aacd1fc5d8fd16-2.07-2"
+  },
+  "status": "final",
+  "type": {
+    "coding": [ {
+      "system": "http://loinc.org",
+      "code": "93037-0",
+      "display": "Portable medical order form"
+    } ]
+  },
+  "category": [ {
+    "coding": [ {
+      "system": "http://loinc.org",
+      "code": "42348-3",
+      "display": "Advance directives"
+    } ]
+  } ],
+  "subject": {
+    "reference": "Patient/c8c83e4c-79f2-4273-b56d-bb6d454f4964",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "date": "2022-11-22T00:28:14+00:00",
+  "author": [ {
+    "reference": "Practitioner/297fc59f-c72b-4003-9f04-182c4fd91e0e",
+    "display": "Onko, Hema"
+  } ],
+  "title": "National ePOLST Form: A Portable Medical Order.",
+  "attester": [ {
+    "mode": "legal",
+    "time": "2022-11-21T04:00:00+00:00",
+    "party": {
+      "reference": "Practitioner/951a3910-b613-44ac-86fe-577e46f8ab99"
+    }
+  } ],
+  "custodian": {
+    "reference": "Organization/a7034776-3e0f-4842-8152-53079556fb28"
+  },
+  "section": [ {
+    "title": "ePOLST Completion Information Section",
+    "code": {
+      "coding": [ {
+        "system": "http://loinc.org",
+        "code": "100970-3",
+        "display": "Portable medical order completion information"
+      } ]
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><span>Form Completion Information</span> <span>(Optional but helpful)</span><br/><p>    <span>Reviewed patient's advance directive to confirm no conflict with POLST orders: (A POLST form does not replace an advance directive or living will)</span><br/>    <span>            <span>Yes; date of the document reviewed: 11/21/2022</span>    </span></p><p>    <span>Check everyone who participated in discussion:</span><br/>    <span>            <ul>                    <li>patient </li>            </ul>    </span></p><p>    <span>Professional Assisting Health Care Provider w/ Form Completion (if applicable):</span><br/>    <span>Full Name:</span>    <span>No answer given to this question.</span><br/>    <span>Date (mm/dd/yyyy):</span>    <span>11/21/2022</span><br/>    <span>Phone #:</span>    <span>No answer given to this question.</span><br/>    <span>This individual is the patient’s:</span>    <span>No answer given to this question.    </span><br/></p></div>"
+    },
+    "entry": [ {
+      "reference": "Observation/be744361-c019-490e-8ba6-2e10fa0f9c1c"
+    }, {
+      "reference": "Observation/6146d17d-ab4f-464e-b9f3-de8d36a8e3a1"
+    } ]
+  }, {
+    "title": "ePOLST Portable Medical Orders",
+    "code": {
+      "coding": [ {
+        "system": "http://loinc.org",
+        "code": "59772-4",
+        "display": "Planned Procedure"
+      } ]
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>    <span>A.Cardiopulmonary Resuscitation Orders. Follow these orders if patient has no pulse and is not breathing.</span>    <br/><br/>    <span>            <span>YES CPR: Attempt Resuscitation, including mechanical ventilation, defibrillation and cardioversion.</span>            <span>(Requires choosing Full Treatments in Section B)</span>    </span></p><br/><p>    <span>B.Initial Treatment Orders. Follow these orders if patient has a pulse and/or is breathing.</span>    <br/>    <span>Reassess and discuss interventions with patient or patient representative regularly to ensure treatments are meeting patient’s care goals. Consider a time-trial of interventions based on goals and specific outcomes.</span>    <br/><br/>    <span>            <span>Comfort-focused Treatments.</span>            <span>Goal: Maximize comfort through symptom management; allow natural death.</span>            <span>Use oxygen, suction and manual treatment of airway obstruction as needed for comfort. Avoid treatments listed in full or select treatments unless consistent with comfort goal. Transfer to hospital only if comfort cannot be achieved in current setting.</span>    </span></p><br/><p>    <span>C.Additional Orders or Instructions.</span>    <br/>    <span>These orders are in addition to those above (e.g., blood products, dialysis).</span><br/>    <span>[EMS protocols may limit emergency responder ability to act on orders in this section.]</span>    <br/><br/>    <span>        Do not send patient to hospital if condition and treatment are related to her diagnosis.  Only transfer to hospital for comfort management that cannot be provided in the current setting.    </span></p><br/><p>    <span>D.Medically Assisted Nutrition</span>    <br/>    <span>(Offer food by mouth if desired by patient, safe and tolerated)</span>    <br/><br/>    <span>            <span>Trial period for artificial nutrition but no surgically-placed tubes</span>    </span></p><br/></div>"
+    },
+    "entry": [ {
+      "reference": "ServiceRequest/57e4722b-70de-4cbf-aaa9-f59562d5c786"
+    }, {
+      "reference": "ServiceRequest/bf6ef9e3-14c3-408a-8940-c2d68b44c535"
+    }, {
+      "reference": "ServiceRequest/78a473ee-de69-431e-9932-ea979c6aa745"
+    }, {
+      "reference": "ServiceRequest/3d0cf8c8-f314-494b-84de-11b251dfb0a1"
+    } ]
+  } ]
+}

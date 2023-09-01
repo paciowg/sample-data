@@ -1,0 +1,27 @@
+{
+  "resourceType": "Organization",
+  "id": "a7034776-3e0f-4842-8152-53079556fb28",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2023-01-03T17:30:43.000+00:00",
+    "source": "#rTp35Rzk6dw7ctnI"
+  },
+  "identifier": [ {
+    "system": "urn:oid:2.16.840.1.113883.4.6",
+    "value": "44444"
+  } ],
+  "name": "ADVault Inc.",
+  "telecom": [ {
+    "system": "phone",
+    "value": "+1(888)884-3324",
+    "use": "work"
+  } ],
+  "address": [ {
+    "use": "work",
+    "line": [ "740 E. Campbell Rd. Suite 825" ],
+    "city": "Richardson",
+    "state": "TX",
+    "postalCode": "75081",
+    "country": "US"
+  } ]
+}

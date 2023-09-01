@@ -1,0 +1,46 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "3d0cf8c8-f314-494b-84de-11b251dfb0a1",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2023-01-15T20:28:48.000+00:00",
+    "source": "#mkjhumuXeMQJhQTF",
+    "profile": [ "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PMOMedicallyAssistedNutritionServiceRequest" ]
+  },
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">D. Medically Assisted Nutrition (Offer food by mouth if desired by patient, safe and tolerated)</div>"
+  },
+  "status": "active",
+  "intent": "order",
+  "category": [ {
+    "coding": [ {
+      "system": "http://loinc.org",
+      "code": "100825-9",
+      "display": "Medically assisted nutrition orders"
+    } ]
+  } ],
+  "code": {
+    "coding": [ {
+      "system": "http://loinc.org",
+      "code": "LA33490-6",
+      "display": "Trial period for artificial nutrition but no surgically-placed tubes"
+    } ]
+  },
+  "orderDetail": [ {
+    "coding": [ {
+      "system": "http://loinc.org",
+      "code": "55752-0",
+      "display": "Clinical information"
+    } ],
+    "text": "Health care providers should complete this form only after a conversation with their patient or the patient's representative.The POLST decision-making process is for patients who are at risk for a life-threatening clinical event because they have a serious life-limiting medical condition, which may include advanced frailty (www.polst.org/guidance-appropriate-patients-pdf)."
+  } ],
+  "subject": {
+    "reference": "Patient/c8c83e4c-79f2-4273-b56d-bb6d454f4964",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "requester": {
+    "reference": "Practitioner/297fc59f-c72b-4003-9f04-182c4fd91e0e",
+    "display": "Onko, Hema"
+  }
+}

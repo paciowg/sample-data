@@ -1,0 +1,42 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "78a473ee-de69-431e-9932-ea979c6aa745",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2023-01-15T20:28:48.000+00:00",
+    "source": "#mkjhumuXeMQJhQTF",
+    "profile": [ "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PMOAdditionalRequestServiceRequest" ]
+  },
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">C. Additional Orders or Instructions. These orders are in addition to those above (e.g., blood products, dialysis). [EMS protocols may limit emergency responder ability to act on orders in this section.]</div>"
+  },
+  "status": "active",
+  "intent": "order",
+  "category": [ {
+    "coding": [ {
+      "system": "http://loinc.org",
+      "code": "100824-2",
+      "display": "Additional portable medical orders or instructions"
+    } ]
+  } ],
+  "code": {
+    "text": "Do not send patient to hospital if condition and treatment are related to her diagnosis.  Only transfer to hospital for comfort management that cannot be provided in the current setting."
+  },
+  "orderDetail": [ {
+    "coding": [ {
+      "system": "http://loinc.org",
+      "code": "55752-0",
+      "display": "Clinical information"
+    } ],
+    "text": "Health care providers should complete this form only after a conversation with their patient or the patient's representative.The POLST decision-making process is for patients who are at risk for a life-threatening clinical event because they have a serious life-limiting medical condition, which may include advanced frailty (www.polst.org/guidance-appropriate-patients-pdf)."
+  } ],
+  "subject": {
+    "reference": "Patient/c8c83e4c-79f2-4273-b56d-bb6d454f4964",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "requester": {
+    "reference": "Practitioner/297fc59f-c72b-4003-9f04-182c4fd91e0e",
+    "display": "Onko, Hema"
+  }
+}

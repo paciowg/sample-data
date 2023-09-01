@@ -1,0 +1,102 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "894b64e4-fb80-4dd2-a6cf-ddbda2a06fae",
+  "meta": {
+    "versionId": "9",
+    "lastUpdated": "2023-07-12T02:26:35.000+00:00",
+    "source": "#kfjoUl5sHw37DtD9"
+  },
+  "masterIdentifier": {
+    "system": "ClinicalDocument.id",
+    "value": "2.16.840.1.113883.3.3208.102.7:4837-87f37989294a408897aacd1fc5d8fd16-2.07-2"
+  },
+  "identifier": [ {
+    "system": "ClinicalDocument.id",
+    "value": "2.16.840.1.113883.3.3208.102.7:4837-87f37989294a408897aacd1fc5d8fd16-2.07-2"
+  }, {
+    "system": "Binary.id",
+    "value": "88ffb425-199f-46ef-9a18-fb90eabb1f7b"
+  }, {
+    "system": "ClinicalDocument.setid",
+    "value": "2.16.840.1.113883.4.823.1.7124:4837-87f37989294a408897aacd1fc5d8fd16"
+  } ],
+  "status": "current",
+  "docStatus": "final",
+  "type": {
+    "coding": [ {
+      "system": "http://loinc.org",
+      "code": "93037-0",
+      "display": "Portable medical order form"
+    } ]
+  },
+  "category": [ {
+    "coding": [ {
+      "system": "http://loinc.org",
+      "code": "75320-2",
+      "display": "Advance Directive"
+    } ]
+  } ],
+  "subject": {
+    "reference": "Patient/c8c83e4c-79f2-4273-b56d-bb6d454f4964",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "date": "2022-11-22T00:28:14.773+00:00",
+  "author": [ {
+    "reference": "Practitioner/297fc59f-c72b-4003-9f04-182c4fd91e0e",
+    "display": "Onko, Hema"
+  } ],
+  "authenticator": {
+    "reference": "Organization/46e1f46a-f9d1-4c95-9ea5-ca72c3922d6c"
+  },
+  "custodian": {
+    "reference": "Organization/a7034776-3e0f-4842-8152-53079556fb28"
+  },
+  "relatesTo": [ {
+    "code": "replaces",
+    "target": {
+      "reference": "DocumentReference/ca94bbad-3b09-4913-8eec-4f3e075b580e"
+    }
+  } ],
+  "description": "National ePOLST Form: A Portable Medical Order.",
+  "securityLabel": [ {
+    "coding": [ {
+      "system": "http://hl7.org/fhir/v3/Confidentiality",
+      "code": "N",
+      "display": "normal"
+    } ]
+  } ],
+  "content": [ {
+    "attachment": {
+      "contentType": "text/xml",
+      "url": "Binary/88ffb425-199f-46ef-9a18-fb90eabb1f7b"
+    },
+    "format": {
+      "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+      "code": "urn:hl7-org:sdwg:pacp-structuredBody:1.2.0.1",
+      "display": "PACA C-CDA"
+    }
+  }, {
+    "attachment": {
+      "contentType": "application/json",
+      "url": "Binary/d08edf75-387d-4cf3-88a7-ef535dd7de23"
+    },
+    "format": {
+      "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+      "code": "urn:hl7-org:sdwg:ccda-on-fhir-json:1.0",
+      "display": "FHIR Document Bundle"
+    }
+  }, {
+    "attachment": {
+      "url": "Bundle/ea4f8c6b-5d99-4079-ba9a-5397d515fcd3"
+    },
+    "format": {
+      "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+      "code": "urn:hl7-org:sdwg:ccda-on-fhir-json:1.0",
+      "display": "FHIR Document Bundle"
+    }
+  }, {
+    "attachment": {
+      "url": "Composition/f2bbc4c9-20e8-45a3-a5a6-f769f2dac445"
+    }
+  } ]
+}

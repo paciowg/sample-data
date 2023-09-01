@@ -1,0 +1,35 @@
+{
+  "resourceType": "Observation",
+  "id": "be744361-c019-490e-8ba6-2e10fa0f9c1c",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2023-01-15T20:28:48.000+00:00",
+    "source": "#mkjhumuXeMQJhQTF",
+    "profile": [ "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PMOReviewObservation" ]
+  },
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Reviewed patient’s advance directive to confirm no conflict with POLST orders. Check everyone who participated in discussion:</div>"
+  },
+  "status": "final",
+  "code": {
+    "coding": [ {
+      "system": "http://loinc.org",
+      "code": "100826-7"
+    } ]
+  },
+  "subject": {
+    "reference": "Patient/c8c83e4c-79f2-4273-b56d-bb6d454f4964",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "focus": [ {
+    "reference": "Composition/f2bbc4c9-20e8-45a3-a5a6-f769f2dac445"
+  } ],
+  "valueCodeableConcept": {
+    "coding": [ {
+      "system": "http://loinc.org",
+      "code": "LA33476-5",
+      "display": "Yes the document was reviewed"
+    } ]
+  }
+}

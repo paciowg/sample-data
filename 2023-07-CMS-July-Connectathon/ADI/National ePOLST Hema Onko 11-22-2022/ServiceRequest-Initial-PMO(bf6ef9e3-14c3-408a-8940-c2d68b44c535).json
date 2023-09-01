@@ -1,0 +1,47 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "bf6ef9e3-14c3-408a-8940-c2d68b44c535",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2023-01-15T20:28:48.000+00:00",
+    "source": "#mkjhumuXeMQJhQTF",
+    "profile": [ "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PMOInitialTreatmentServiceRequest" ]
+  },
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">B. Initial Treatment Orders. Follow these orders if patient has a pulse and/or is breathing.</div>"
+  },
+  "status": "active",
+  "intent": "order",
+  "category": [ {
+    "coding": [ {
+      "system": "http://loinc.org",
+      "code": "100823-4",
+      "display": "Initial portable medical treatment orders"
+    } ]
+  } ],
+  "code": {
+    "coding": [ {
+      "system": "http://loinc.org",
+      "code": "LA33475-7",
+      "display": "Comfort-focused treatments"
+    } ],
+    "text": "Comfort-focused Treatments. Goal: Maximize comfort through symptom management; allow natural death. Use oxygen, suction and manual treatment of airway obstruction as needed for comfort. Avoid treatments listed in full or select treatments unless consistent with comfort goal. Transfer to hospital only if comfort cannot be achieved in current setting."
+  },
+  "orderDetail": [ {
+    "coding": [ {
+      "system": "http://loinc.org",
+      "code": "55752-0",
+      "display": "Clinical information"
+    } ],
+    "text": "Health care providers should complete this form only after a conversation with their patient or the patient's representative.The POLST decision-making process is for patients who are at risk for a life-threatening clinical event because they have a serious life-limiting medical condition, which may include advanced frailty (www.polst.org/guidance-appropriate-patients-pdf)."
+  } ],
+  "subject": {
+    "reference": "Patient/c8c83e4c-79f2-4273-b56d-bb6d454f4964",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "requester": {
+    "reference": "Practitioner/297fc59f-c72b-4003-9f04-182c4fd91e0e",
+    "display": "Onko, Hema"
+  }
+}

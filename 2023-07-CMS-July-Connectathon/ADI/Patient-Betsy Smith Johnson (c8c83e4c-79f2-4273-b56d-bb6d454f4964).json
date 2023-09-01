@@ -1,0 +1,48 @@
+{
+  "resourceType": "Patient",
+  "id": "c8c83e4c-79f2-4273-b56d-bb6d454f4964",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2023-01-13T22:12:50.000+00:00",
+    "source": "#eW3VP6F8Y6fRaWHx",
+    "profile": [ "http://hl7.org/fhir/StructureDefinition/daf-patient" ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Betsy <b>SMITH-JOHNSON </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>87f37989294a408897aacd1fc5d8fd16</td></tr><tr><td>Address</td><td><span>4885 Kensington Avenue </span><br/><span>Detroit </span><span>MI </span><span>US </span></td></tr><tr><td>Date of birth</td><td><span>15 November 1948</span></td></tr></tbody></table></div>"
+  },
+  "identifier": [ {
+    "system": "urn:oid:2.16.840.1.113883.4.823.1",
+    "value": "87f37989294a408897aacd1fc5d8fd16"
+  } ],
+  "name": [ {
+    "use": "usual",
+    "family": "Smith-Johnson",
+    "given": [ "Betsy" ]
+  } ],
+  "telecom": [ {
+    "system": "phone",
+    "value": "+12146745539",
+    "use": "mobile"
+  }, {
+    "system": "email",
+    "value": "BS55@jettelabs.com"
+  } ],
+  "gender": "female",
+  "birthDate": "1948-11-15",
+  "address": [ {
+    "use": "home",
+    "line": [ "4885 Kensington Avenue" ],
+    "city": "Detroit",
+    "state": "MI",
+    "postalCode": "48224",
+    "country": "US"
+  } ],
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "code": "eng"
+      } ]
+    }
+  } ]
+}
