@@ -3,7 +3,7 @@
   "id": "CMS2023-BSJ-HHA-OASIS-Cognitive-02RN",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-aingle"
+      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
     ]
   },
   "category": [
