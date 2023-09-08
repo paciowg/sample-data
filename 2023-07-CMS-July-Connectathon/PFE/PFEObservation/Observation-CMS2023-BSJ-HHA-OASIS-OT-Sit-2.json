@@ -18,6 +18,15 @@
     },
     {
       "coding": [
+          {
+              "system": "http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs",
+              "code": "mobility",
+              "display": "Mobility"
+          }
+      ]
+    },
+    {
+      "coding": [
         {
           "code": "survey",
           "system": "http://terminology.hl7.org/CodeSystem/observation-category",
