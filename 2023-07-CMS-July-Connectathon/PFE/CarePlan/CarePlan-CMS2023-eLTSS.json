@@ -1,0 +1,113 @@
+{
+    "resourceType": "CarePlan",
+    "id": "28302",
+    "meta": {
+        "versionId": "55",
+        "lastUpdated": "2023-09-07T16:05:49.000+00:00",
+        "source": "#O7obTphg6w1dGlHq",
+        "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/CarePlan-eltss"
+        ]
+    },
+    "status": "active",
+    "intent": "plan",
+    "title": "Betsy Smith-Johnson’s Home Recovery Plan",
+    "description": "A service and support plan that outlines Betsy's assessed needs, goals, strengths, preferences, and services/providers to meet those needs and goals.",
+    "subject": {
+        "reference": "Patient/CMS2023-patientBSJ1",
+        "display": "Betsy Smith-Johnson"
+    },
+    "period": {
+        "start": "2023-06-07"
+    },
+    "author": {
+        "reference": "Practitioner/80827658-9560-4ed5-8ff6-0cc93de6214d",
+        "display": "Home Health Care Coordinator - Ray Mancioni (Clinical care coordinator)"
+    },
+    "addresses": [
+        {
+            "reference": "Condition/28292",
+            "display": "Requires another CV study to reassess her ability to swallow liquids"
+        },
+        {
+            "reference": "Condition/28293",
+            "display": "Transportation to her MBSS appointment "
+        },
+        {
+            "reference": "Condition/28354",
+            "display": "Physical Therapy"
+        },
+        {
+            "reference": "Condition/28355",
+            "display": "Occupational Therapy"
+        },
+        {
+            "reference": "Condition/28356",
+            "display": "Speech Language Therapy"
+        }
+    ],
+    "supportingInfo": [
+        {
+            "reference": "Observation/28291",
+            "display": "Betsy has been showing continual improvement in her recovery process.  "
+        },
+        {
+            "reference": "Observation/28303",
+            "display": "Betsy is an actively engaged in her rehabilitation efforts"
+        },
+        {
+            "reference": "Observation/28304",
+            "display": "Betsy has active support from her son and daughter-in-law"
+        },
+        {
+            "reference": "RiskAssessment/28357",
+            "display": "Modified diet"
+        },
+        {
+            "reference": "RiskAssessment/28358",
+            "display": "Plan for home modifications to reduce risk of falling\n"
+        }
+    ],
+    "goal": [
+        {
+            "reference": "Goal/28288",
+            "display": "Betsy would like to stop using the thickening agent in liquids as she dislikes the taste and texture and is concerned about the cost."
+        },
+        {
+            "reference": "Goal/28353",
+            "display": "Betsy would like to get back to her normal routine and is looking forward to eating normal healthy meals."
+        }
+    ],
+    "activity": [
+        {
+            "reference": {
+                "reference": "ServiceRequest/28290"
+            }
+        },
+        {
+            "reference": {
+                "reference": "ServiceRequest/28363"
+            }
+        },
+        {
+            "reference": {
+                "reference": "ServiceRequest/28368"
+            }
+        },
+        {
+            "reference": {
+                "reference": "ServiceRequest/28415"
+            }
+        },
+        {
+            "reference": {
+                "reference": "ServiceRequest/28460"
+            }
+        },
+        {
+            "reference": {
+                "reference": "ServiceRequest/28462"
+            }
+        }
+    ]
+}
