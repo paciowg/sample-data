@@ -1,0 +1,68 @@
+{
+    "resourceType": "Claim",
+    "id": "28367",
+    "meta": {
+        "versionId": "13",
+        "lastUpdated": "2023-07-19T18:56:55.000+00:00",
+        "source": "#DnlS7uWqWqo4Jc09",
+        "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Claim-eltss"
+        ]
+    },
+    "status": "active",
+    "type": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/claim-type",
+                "code": "professional"
+            }
+        ]
+    },
+    "use": "preauthorization",
+    "patient": {
+        "reference": "Patient/CMS2023-patientBSJ1",
+        "display": "Betsy Smith-Johnson"
+    },
+    "created": "2023-07-13T13:33:38.757Z",
+    "provider": {
+        "reference": "Organization/28365"
+    },
+    "priority": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/processpriority",
+                "code": "normal"
+            }
+        ]
+    },
+    "insurance": [
+        {
+            "sequence": 1,
+            "focal": true,
+            "coverage": {
+                "reference": "Coverage/28366"
+            }
+        }
+    ],
+    "item": [
+        {
+            "sequence": 1,
+            "productOrService": {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/ex-USCLS",
+                        "code": "99555"
+                    }
+                ]
+            },
+            "unitPrice": {
+                "value": 150,
+                "currency": "USD"
+            },
+            "net": {
+                "value": 2400,
+                "currency": "USD"
+            }
+        }
+    ]
+}

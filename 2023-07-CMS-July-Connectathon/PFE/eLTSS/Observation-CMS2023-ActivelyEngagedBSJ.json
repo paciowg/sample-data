@@ -1,0 +1,26 @@
+{
+    "resourceType": "Observation",
+    "id": "28303",
+    "meta": {
+        "versionId": "13",
+        "lastUpdated": "2023-07-19T18:56:57.000+00:00",
+        "source": "#rYLjIPxA6eQbZ61P",
+        "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/Observation-eltss"
+        ]
+    },
+    "status": "final",
+    "code": {
+        "coding": [
+            {
+                "system": "http://hl7.org/us/eLTSS/CodeSystem/eltss-observation-code",
+                "code": "strength"
+            }
+        ]
+    },
+    "subject": {
+        "reference": "Patient/CMS2023-patientBSJ1",
+        "display": "Betsy Smith-Johnson"
+    },
+    "valueString": "Betsy is an actively engaged in her rehabilitation efforts"
+}

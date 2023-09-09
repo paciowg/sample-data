@@ -1,0 +1,38 @@
+{
+    "resourceType": "ServiceRequest",
+    "id": "28462",
+    "meta": {
+        "versionId": "2",
+        "lastUpdated": "2023-07-19T19:49:43.000+00:00",
+        "source": "#kwZkpywvmV6BbKiN",
+        "profile": [
+            "http://hl7.org/fhir/us/eLTSS/StructureDefinition/ServiceRequest-eltss"
+        ]
+    },
+    "status": "completed",
+    "intent": "plan",
+    "code": {
+        "text": "Transportation by wheelchair van to her MBSS appointment"
+    },
+    "quantityQuantity": {
+        "value": 1,
+        "unit": "roundtrip"
+    },
+    "subject": {
+        "reference": "Patient/CMS2023-patientBSJ1",
+        "display": "Betsy Smith-Johnson"
+    },
+    "occurrenceTiming": {
+        "repeat": {
+            "boundsPeriod": {
+                "start": "2023-07-19",
+                "end": "2023-07-19"
+            }
+        }
+    },
+    "performer": [
+        {
+            "reference": "HealthcareService/28414"
+        }
+    ]
+}

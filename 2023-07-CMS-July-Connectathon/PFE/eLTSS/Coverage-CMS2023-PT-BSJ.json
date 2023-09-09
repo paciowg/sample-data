@@ -1,0 +1,19 @@
+{
+    "resourceType": "Coverage",
+    "id": "28361",
+    "meta": {
+        "versionId": "13",
+        "lastUpdated": "2023-07-19T18:56:56.000+00:00",
+        "source": "#AmoaYsUjMESnKXs2"
+    },
+    "status": "draft",
+    "beneficiary": {
+        "reference": "Patient/CMS2023-patientBSJ1",
+        "display": "Betsy Smith-Johnson"
+    },
+    "payor": [
+        {
+            "reference": "Organization/28360"
+        }
+    ]
+}
