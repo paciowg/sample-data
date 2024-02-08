@@ -22,6 +22,45 @@ def make_put_request(url, data)
   end
 end
 
+def load_bundle(bundle, base_url)
+  bundle_total = 0
+  unsuccessful_bundle_uploads = []
+  bundle["entry"]&.each do |entry|
+    bundle_total += 1
+    res = entry["resource"]
+    resource_id = res["id"]
+    resource_type = res["resourceType"]
+    url = "#{base_url}/#{resource_type}/#{resource_id}"
+    response = make_put_request(url, res)
+
+    if response
+      puts "Uploaded #{resource_type} from bundle successfully!"
+    else
+      puts "Failed to upload #{resource_type} from bundle."
+      unsuccessful_bundle_uploads << res
+    end
+  end
+
+  retry_count = 0
+  while retry_count < 10 && !unsuccessful_bundle_uploads.empty?
+    unsuccessful_bundle_uploads.shuffle.each do |res|
+      resource_id = res["id"]
+      resource_type = res["resourceType"]
+      url = "#{base_url}/#{resource_type}/#{resource_id}"
+      response = make_put_request(url, res)
+      if response
+        puts "Uploaded #{resource_type} from bundle successfully after retry #{retry_count + 1}!"
+        unsuccessful_bundle_uploads.delete(res)
+      else
+        puts "Retry #{retry_count + 1} failed for #{resource_type} from bundle."
+      end
+    end
+    retry_count += 1
+  end
+  puts "Total resources in bundle: #{bundle_total}"
+  puts "Total unsuccessful uploads: #{unsuccessful_bundle_uploads.length}"
+end
+
 # Function to load JSON files onto the server
 def load_json_files(directory, base_url)
   unsuccessful_uploads = []
@@ -29,18 +68,22 @@ def load_json_files(directory, base_url)
   Dir.glob("#{directory}/**/*.json").each do |json_file|
     json_data = File.read(json_file)
     parsed_json = JSON.parse(json_data)
-    total += 1
     resource_type = parsed_json["resourceType"]
-    resource_id = parsed_json["id"]
-    url = "#{base_url}/#{resource_type}/#{resource_id}"
-
-    response = make_put_request(url, parsed_json)
-
-    if response
-      puts "Uploaded #{json_file} successfully!"
+    total += 1 if resource_type != "Bundle"
+    if resource_type == "Bundle"
+      load_bundle(parsed_json, base_url)
     else
-      puts "Failed to upload #{json_file}."
-      unsuccessful_uploads << json_file
+      resource_id = parsed_json["id"]
+      url = "#{base_url}/#{resource_type}/#{resource_id}"
+
+      response = make_put_request(url, parsed_json)
+
+      if response
+        puts "Uploaded #{json_file} successfully!"
+      else
+        puts "Failed to upload #{json_file}."
+        unsuccessful_uploads << json_file
+      end
     end
   end
 
@@ -72,10 +115,16 @@ def load_json_files(directory, base_url)
 end
 
 # Provide the directory path containing the JSON files
+# json_directory = "2023-07-CMS-July-Connectathon/scene-0"
+# json_directory = "2023-07-CMS-July-Connectathon/scene-1"
+# json_directory = "2023-07-CMS-July-Connectathon/scene-2"
+# json_directory = "2023-07-CMS-July-Connectathon/scene-4"
+# json_directory = "2023-07-CMS-July-Connectathon/scene-5"
 json_directory = "2023-07-CMS-July-Connectathon/GracitySDOH"
 
 # Provide the base URL of the server
 base_url = "https://gw.interop.community/MiHIN/open/"
+# base_url = "https://gravity-ehr-server.herokuapp.com/fhir"
 
 # Call the method to load JSON files onto the server and get the count of unsuccessful uploads
 total, unsuccessful_count = load_json_files(json_directory, base_url)

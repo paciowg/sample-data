@@ -24,11 +24,24 @@
   ],
   "gender": "female",
   "birthDate": "1950-11-01",
-  "address": [
-    {
-      "text": "111 Maple Ct, Grand Rapids, MI 49503"
-    }
-  ],
+  "telecom":
+  {
+    "system": "phone",
+    "value": "555-555-5555",
+    "use": "home"
+  }
+,
+"address": [ {
+  "line": [ "111 Maple Ct" ],
+  "city": "Grand Rapids",
+  "state": "MI",
+  "postalCode": "49503",
+  "country": "US",
+  "period": {
+    "start": "2016-12-06"
+  },
+  "text": "111 Maple Ct, Grand Rapids, MI 49503"
+} ],
   "contact": [
     {
       "name": {
