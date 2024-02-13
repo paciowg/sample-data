@@ -1,0 +1,77 @@
+{
+  "resourceType": "Observation",
+  "id": "BSJ-HHA-Doffing1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
+    ]
+  },
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "survey",
+          "display": "Survey"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-functioning-cs",
+          "code": "functioning",
+          "display": "Functioning"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs",
+          "code": "D5401",
+          "display": "Taking Off Clothes"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "46597-1",
+        "display": "Dress upper body - functional ability during assessment period"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "effectiveDateTime": "2024-01-18T14:30:00-05:00",
+  "performer": [
+    {
+      "reference": "PractitionerRole/Role-OT-JenCadbury"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "LA6381-3",
+        "display": "Someone must help the patient put on upper body clothing"
+      }
+    ]
+  },
+  "encounter": {
+    "reference": "Encounter/ENC-HHA"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Home-Loc-01"
+      }
+    }
+  ]
+}

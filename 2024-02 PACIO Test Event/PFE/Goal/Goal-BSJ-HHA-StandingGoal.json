@@ -1,0 +1,61 @@
+{
+  "resourceType": "Goal",
+  "id": "BSJ-HHA-StandingGoal",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-goal"
+    ]
+  },
+  "lifecycleStatus": "active",
+  "achievementStatus": "in-progress",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icf",
+          "code": "d4104",
+          "display": "Getting into and out of a standing position or changing body position from standing to any other position, such as lying down or sitting down."
+        }
+      ]
+    }
+  ],
+  "description": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": 282971008,
+        "display": "Able to stand (finding)"
+      }
+    ],
+    "text": "Able to stand (finding)"
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "startDate": "2024-01-18",
+  "expressedBy": {
+    "reference": "PractitionerRole/Role-OT-JenCadbury"
+  },
+  "addresses": [
+    {
+      "reference": "Observation/BSJ-HHA-SitStand1"
+    },
+    {
+      "reference": "Observation/BSJ-HHA-SitUp1"
+    }
+  ],
+  "note": [
+    {
+      "authorReference": {
+        "reference": "PractitionerRole/Role-OT-JenCadbury"
+      },
+      "time": "2024-01-18",
+      "text": " Betsy demonstrates good rehab potential to progress to completing functional transfers without assistance. She will complete functional transfers including bed mobility and sit to stand transfers from various hights to improve safety and independence in the home."
+    }
+  ],
+  "target": [
+    {
+      "detailString": "Betsy demonstrates good rehab potential post stroke to progress to independence for improving functional mobility, balance, and functional transfers to improve independence and quality of life. "
+    }
+  ]
+}

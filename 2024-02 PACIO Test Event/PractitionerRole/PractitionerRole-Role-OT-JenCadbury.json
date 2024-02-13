@@ -1,0 +1,18 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "Role-OT-JenCadbury",
+  "active": true,
+  "practitioner": {
+    "reference": "Practitioner/Practitioner-JenCadbury",
+    "display": "Jen Cadbury"
+  },
+  "organization": {
+    "reference": "Organization/org-HH-Sky-Harbor-Home-Health",
+    "display": "Sky Harbor Home Health Services"
+  },
+  "location": [
+    {
+      "reference": "Location/org-Loc-HH-Sky-Harbor-Home-Health"
+    }
+  ]
+}

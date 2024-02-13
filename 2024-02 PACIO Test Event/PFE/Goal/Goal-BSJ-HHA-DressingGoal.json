@@ -1,0 +1,62 @@
+{
+  "resourceType": "Goal",
+  "id": "BSJ-HHA-DressingGoal",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-goal"
+    ]
+  },
+  "lifecycleStatus": "active",
+  "achievementStatus": "in-progress",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icf",
+          "code": "d540",
+          "display": "Carrying out the coordinated actions and tasks of putting on and taking off clothes and footwear in sequence and in keeping with climatic and social conditions, such as by putting on, adjusting and removing shirts, skirts, blouses, pants, undergarments, saris, kimono, tights, hats, gloves, coats, shoes, boots, sandals and slippers."
+        }
+      ]
+    }
+  ],
+  "description": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": 284968001,
+        "display": "Able to perform dressing activity (finding)"
+      }
+    ],
+    "text": "Able to perform dressing activity (finding)"
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "startDate": "2024-01-18",
+  "expressedBy": {
+    "reference": "PractitionerRole/Role-OT-JenCadbury"
+  },
+  "addresses": [
+    {
+      "reference": "Condition/BSJ-DressingConcern"
+    },
+    {
+      "reference": "Condition/BSJ-UndressingConcern"
+    },
+    {
+      "reference": "Observation/BSJ-HHA-Donning1"
+    },
+    {
+      "reference": "Observation/BSJ-HHA-Doffing1"
+    }
+  ],
+  "note": [
+    {
+      "authorReference": {
+        "reference": "PractitionerRole/Role-OT-JenCadbury"
+      },
+      "time": "2024-01-18",
+      "text": "Betsy reports wanting to \"get back to the way I was\" specifying that completing upper body and lower body dressing is her top priority for therapy."
+    }
+  ]
+}

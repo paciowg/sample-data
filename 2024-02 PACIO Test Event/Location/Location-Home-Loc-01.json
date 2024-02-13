@@ -1,0 +1,16 @@
+{
+  "resourceType": "Location",
+  "id": "Home-Loc-01",
+  "name": "In Home",
+  "address": {
+    "line": [
+      "111 Maple Ct"
+    ],
+    "city": "Grand Rapids",
+    "state": "MI",
+    "postalCode": "49503",
+    "country": "US",
+    "text": "111 Maple Ct, Grand Rapids, MI 49503"
+  },
+  "status": "active"
+}

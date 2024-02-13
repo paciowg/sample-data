@@ -1,0 +1,77 @@
+{
+  "resourceType": "Observation",
+  "id": "BSJ-HHA-SitUp1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
+    ]
+  },
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "survey",
+          "display": "Survey"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-functioning-cs",
+          "code": "functioning",
+          "display": "Functioning"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs",
+          "code": "d4100",
+          "display": "Lying Down"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "95009-7",
+        "display": "Lying to sitting on side of bed - usual functional ability during assessment period"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "effectiveDateTime": "2024-01-18T14:30:00-05:00",
+  "performer": [
+    {
+      "reference": "PractitionerRole/Role-OT-JenCadbury"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "LA30911-4",
+        "display": "Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as person completes activity. Assistance may be provided throught the activity or intermittently."
+      }
+    ]
+  },
+  "encounter": {
+    "reference": "Encounter/ENC-HHA"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Home-Loc-01"
+      }
+    }
+  ]
+}

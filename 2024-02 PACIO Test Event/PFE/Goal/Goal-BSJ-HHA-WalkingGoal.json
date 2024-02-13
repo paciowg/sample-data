@@ -1,0 +1,56 @@
+{
+  "resourceType": "Goal",
+  "id": "BSJ-HHA-WalkingGoal",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-goal"
+    ]
+  },
+  "lifecycleStatus": "active",
+  "achievementStatus": "in-progress",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icf",
+          "code": "d4600",
+          "display": "Walking and moving around in one's home, within a room, between rooms, and around the whole residence or living area."
+        }
+      ]
+    }
+  ],
+  "description": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": 715032004,
+        "display": "Able to walk in room (finding)"
+      }
+    ],
+    "text": "Able to walk in room (finding)"
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "startDate": "2024-01-18",
+  "expressedBy": {
+    "reference": "PractitionerRole/Role-OT-JenCadbury"
+  },
+  "addresses": [
+    {
+      "reference": "Condition/OT-ProblemList-Decondition"
+    },
+    {
+      "reference": "Observation/BSJ-HHA-ShortWalk1"
+    }
+  ],
+  "note": [
+    {
+      "authorReference": {
+        "reference": "PractitionerRole/Role-OT-JenCadbury"
+      },
+      "time": "2024-01-18",
+      "text": "Betsy will be able to complete functional mobility including navigating around furniture, mainingin balance, and demonstrating good functional endurance for completing activities of daily life, and instrumental activities of daily life, and in order to decrease risk of fall and risk of hospital readmission."
+    }
+  ]
+}

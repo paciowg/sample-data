@@ -1,0 +1,39 @@
+{
+  "resourceType": "Encounter",
+  "id": "ENC-HHA",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "finished",
+  "class": {
+    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+    "code": "HH",
+    "display": "Home Health"
+  },
+  "type": [
+    {
+      "coding": [
+        {
+          "code": "50357006",
+          "system": "http://snomed.info/sct",
+          "display": "Evaluation and management of patient at home (procedure)"
+        }
+      ]
+    }
+  ],
+  "period": {
+    "start": "2024-01-18"
+  },
+  "participant": [
+    {
+      "individual": {
+        "reference": "PractitionerRole/Role-OT-JenCadbury"
+      }
+    }
+  ]
+}

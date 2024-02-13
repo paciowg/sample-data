@@ -1,0 +1,23 @@
+{
+  "resourceType": "Organization",
+  "id": "org-HH-Sky-Harbor-Home-Health",
+  "name": "Sky Harbor Home Health Services",
+  "address": [
+    {
+      "line": [
+        "8810 Old Sky Harbor"
+      ],
+      "city": "Grand Rapids",
+      "state": "MI",
+      "postalCode": "49504",
+      "country": "US",
+      "text": "8810 Old Sky Harbor, Grand Rapids, MI 49504"
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "4029993456"
+    }
+  ]
+}

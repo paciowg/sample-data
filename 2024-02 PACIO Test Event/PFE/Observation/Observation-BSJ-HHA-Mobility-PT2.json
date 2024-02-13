@@ -1,0 +1,79 @@
+{
+  "resourceType": "Observation",
+  "id": "BSJ-HHA-Mobility-PT2",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-collection"
+    ]
+  },
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "survey",
+          "display": "Survey"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-functioning-cs",
+          "code": "functioning",
+          "display": "Functioning"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs",
+          "code": "BlockL2-d41",
+          "display": "Mobility"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "99153-9",
+        "display": "Outcome and assessment information set (OASIS) form - version E - Follow Up [CMS Assessment]"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "effectiveDateTime": "2024-02-19T15:30:00-05:00",
+  "performer": [
+    {
+      "reference": "PractitionerRole/Role-OT-JenCadbury"
+    }
+  ],
+  "encounter": {
+    "reference": "Encounter/ENC-HHA"
+  },
+  "hasMember": [
+    {
+      "reference": "Observation/BSJ-HHA-ShortWalk2"
+    },
+    {
+      "reference": "Observation/BSJ-HHA-SitStand2"
+    },
+    {
+      "reference": "Observation/BSJ-HHA-SitUp2"
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Home-Loc-01"
+      }
+    }
+  ]
+}

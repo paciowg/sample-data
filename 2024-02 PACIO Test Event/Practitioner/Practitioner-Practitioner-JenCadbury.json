@@ -1,0 +1,38 @@
+{
+  "resourceType": "Practitioner",
+  "id": "Practitioner-JenCadbury",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/sid/us-npi",
+      "value": "1928374650"
+    }
+  ],
+  "name": [
+    {
+      "given": [
+        "Jen"
+      ],
+      "family": "Cadbury",
+      "text": "Jen Cadbury"
+    }
+  ],
+  "active": true,
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "(210) 555-1871"
+    }
+  ],
+  "address" : [
+    {
+      "line": [
+        "8810 Old Sky Harbor"
+      ],
+      "city": "Grand Rapids",
+      "state": "MI",
+      "postalCode": "49504",
+      "country": "US",
+      "text" : "8810 Old Sky Harbor, Grand Rapids, MI 49504"
+    }
+  ]
+}
