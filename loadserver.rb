@@ -1,6 +1,7 @@
 require "json"
 require "httparty"
 require "openssl"
+require "byebug"
 
 # Disable certificate verification
 OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
@@ -115,12 +116,13 @@ def load_json_files(directory, base_url)
 end
 
 # Provide the directory path containing the JSON files
-# json_directory = "2023-07-CMS-July-Connectathon/scene-0"
-# json_directory = "2023-07-CMS-July-Connectathon/scene-1"
-# json_directory = "2023-07-CMS-July-Connectathon/scene-2"
-# json_directory = "2023-07-CMS-July-Connectathon/scene-4"
-# json_directory = "2023-07-CMS-July-Connectathon/scene-5"
-json_directory = "2023-07-CMS-July-Connectathon/GracitySDOH"
+# json_directory = "2023-07-CMS-July-Connectathon/PFE/scene-0"
+# json_directory = "2023-07-CMS-July-Connectathon/PFE/scene-1"
+# json_directory = "2023-07-CMS-July-Connectathon/PFE/scene-2"
+json_directory = "2023-07-CMS-July-Connectathon/PFE/scene-4"
+# json_directory = "2023-07-CMS-July-Connectathon/PFE/scene-5"
+# json_directory = "2023-07-CMS-July-Connectathon/GracitySDOH"
+# json_directory = "2023-09 HL7 Sept Connectathon"
 
 # Provide the base URL of the server
 base_url = "https://gw.interop.community/MiHIN/open/"
