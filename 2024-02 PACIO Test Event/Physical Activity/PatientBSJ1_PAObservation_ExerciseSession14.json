@@ -1,0 +1,644 @@
+{
+  "resourceType" : "PAObservationBase",
+  "id" : "BSJ-PA-Supporting66",
+   "status" : "final",
+  "category" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code" : "social-history"
+    }]
+  }],
+    "code" : {
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "code" : "73985-4",
+        "display" : "Exercise Activity"
+      }
+    ]
+  },
+  "subject" : {
+    "reference" : "patientBSJ1",
+    "display" : "Betsy Smith-Johnson"
+  },
+  "effectiveDateTime" : "2023-12-04",
+  "performer" : [
+    {
+      "reference" : "patientBSJ1",
+      "display" : "Betsy Smith-Johnson"
+    }
+  ],
+  "valueCodeableConcept" : {
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "code" : "LA11834-1",
+        "display" : "Walking (warm-up)"
+      }
+    ]
+  },
+  "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "55411-3",
+      "display" : "Exercise Duration"
+    }]
+  },
+  "valueQuantity" : {
+    "value" : 10,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "min"
+  },
+    "code" : {
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "code" : "77592-4",
+        "display" : "Moderate physical activity [IPAQ]"
+      }
+    ]
+  },
+  "valueQuantity" : {
+    "value" : 0,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "min"
+  },
+"code" : {
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "code" : "77593-2",
+        "display" : "Vigorous physical activity [IPAQ]"
+      }
+    ]
+  },
+  "valueQuantity" : {
+    "value" : 0,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "min"
+  },
+  "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "55422-0",
+      "display" : "Heart rate Maximum"
+    }]
+  },
+  "valueQuantity" : {
+    "value" : 100,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "/min"
+  },
+ "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "55425-3",
+      "display" : "Mean Heart rate"
+    }]
+  },
+   "valueQuantity" : {
+    "value" : 84,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "/min"
+  },
+  "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "82289-0",
+      "display" : "Rating of perceived exertion"
+    }]
+  },
+  "valueQuantity" : {
+    "value" : ,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "{score}"
+  },
+ "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "55421-2",
+      "display" : "Calories Burned (machine estimate)"
+    }]
+  },
+   "valueQuantity" : {
+    "value" : ,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "kcal"
+  }
+}
+
+{
+  "resourceType" : "PAObservationBase",
+  "id" : "BSJ-PA-Supporting67",
+   "status" : "final",
+  "category" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code" : "social-history"
+    }]
+  }],
+    "code" : {
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "code" : "73985-4",
+        "display" : "Exercise Activity"
+      }
+    ]
+  },
+  "subject" : {
+    "reference" : "patientBSJ1",
+    "display" : "Betsy Smith-Johnson"
+  },
+  "effectiveDateTime" : "2023-12-04",
+  "performer" : [
+    {
+      "reference" : "patientBSJ1",
+      "display" : "Betsy Smith-Johnson"
+    }
+  ],
+  "valueCodeableConcept" : {
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "code" : "LL734-5",
+        "display" : "Elliptical"
+      }
+    ]
+  },
+  "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "55411-3",
+      "display" : "Exercise Duration"
+    }]
+  },
+  "valueQuantity" : {
+    "value" : 28,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "min"
+  },
+    "code" : {
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "code" : "77592-4",
+        "display" : "Moderate physical activity [IPAQ]"
+      }
+    ]
+  },
+  "valueQuantity" : {
+    "value" : 28,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "min"
+  },
+"code" : {
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "code" : "77593-2",
+        "display" : "Vigorous physical activity [IPAQ]"
+      }
+    ]
+  },
+  "valueQuantity" : {
+    "value" : 0,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "min"
+  },
+  "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "55422-0",
+      "display" : "Heart rate Maximum"
+    }]
+  },
+  "valueQuantity" : {
+    "value" : 130,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "/min"
+  },
+ "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "55425-3",
+      "display" : "Mean Heart rate"
+    }]
+  },
+   "valueQuantity" : {
+    "value" : 126,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "/min"
+  },
+  "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "82289-0",
+      "display" : "Rating of perceived exertion"
+    }]
+  },
+  "valueQuantity" : {
+    "value" : 7,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "{score}"
+  },
+ "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "55421-2",
+      "display" : "Calories Burned (machine estimate)"
+    }]
+  },
+   "valueQuantity" : {
+    "value" : 165,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "kcal"
+  }
+}
+
+{
+  "resourceType" : "PAObservationBase",
+  "id" : "BSJ-PA-Supporting68",
+   "status" : "final",
+  "category" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code" : "social-history"
+    }]
+  }],
+    "code" : {
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "code" : "73985-4",
+        "display" : "Exercise Activity"
+      }
+    ]
+  },
+  "subject" : {
+    "reference" : "patientBSJ1",
+    "display" : "Betsy Smith-Johnson"
+  },
+  "effectiveDateTime" : "2023-12-04",
+  "performer" : [
+    {
+      "reference" : "patientBSJ1",
+      "display" : "Betsy Smith-Johnson"
+    }
+  ],
+  "valueCodeableConcept" : {
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "code" : "LA11839-0",
+        "display" : "Resistance Bands"
+      }
+    ]
+  },
+  "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "55411-3",
+      "display" : "Exercise Duration"
+    }]
+  },
+  "valueQuantity" : {
+    "value" : 20,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "min"
+  },
+    "code" : {
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "code" : "77592-4",
+        "display" : "Moderate physical activity [IPAQ]"
+      }
+    ]
+  },
+  "valueQuantity" : {
+    "value" : 20,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "min"
+  },
+"code" : {
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "code" : "77593-2",
+        "display" : "Vigorous physical activity [IPAQ]"
+      }
+    ]
+  },
+  "valueQuantity" : {
+    "value" : 0,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "min"
+  },
+  "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "55422-0",
+      "display" : "Heart rate Maximum"
+    }]
+  },
+  "valueQuantity" : {
+    "value" : 128,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "/min"
+  },
+ "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "55425-3",
+      "display" : "Mean Heart rate"
+    }]
+  },
+   "valueQuantity" : {
+    "value" : 123,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "/min"
+  },
+  "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "82289-0",
+      "display" : "Rating of perceived exertion"
+    }]
+  },
+  "valueQuantity" : {
+    "value" : 7,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "{score}"
+  },
+ "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "55421-2",
+      "display" : "Calories Burned (machine estimate)"
+    }]
+  },
+   "valueQuantity" : {
+    "value" : 85,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "kcal"
+  }
+}
+
+{
+  "resourceType" : "PAObservationBase",
+  "id" : "BSJ-PA-Supporting69",
+   "status" : "final",
+  "category" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code" : "social-history"
+    }]
+  }],
+    "code" : {
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "code" : "73985-4",
+        "display" : "Exercise Activity"
+      }
+    ]
+  },
+  "subject" : {
+    "reference" : "patientBSJ1",
+    "display" : "Betsy Smith-Johnson"
+  },
+  "effectiveDateTime" : "2023-12-04",
+  "performer" : [
+    {
+      "reference" : "patientBSJ1",
+      "display" : "Betsy Smith-Johnson"
+    }
+  ],
+  "valueCodeableConcept" : {
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "code" : "LL734-5",
+        "display" : "Yoga"
+      }
+    ]
+  },
+  "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "55411-3",
+      "display" : "Exercise Duration"
+    }]
+  },
+  "valueQuantity" : {
+    "value" : 12,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "min"
+  },
+    "code" : {
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "code" : "77592-4",
+        "display" : "Moderate physical activity [IPAQ]"
+      }
+    ]
+  },
+  "valueQuantity" : {
+    "value" : 0,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "min"
+  },
+"code" : {
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "code" : "77593-2",
+        "display" : "Vigorous physical activity [IPAQ]"
+      }
+    ]
+  },
+  "valueQuantity" : {
+    "value" : 0,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "min"
+  },
+  "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "55422-0",
+      "display" : "Heart rate Maximum"
+    }]
+  },
+  "valueQuantity" : {
+    "value" : 110,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "/min"
+  },
+ "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "55425-3",
+      "display" : "Mean Heart rate"
+    }]
+  },
+   "valueQuantity" : {
+    "value" : 105,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "/min"
+  },
+  "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "82289-0",
+      "display" : "Rating of perceived exertion"
+    }]
+  },
+  "valueQuantity" : {
+    "value" : 5,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "{score}"
+  },
+ "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "55421-2",
+      "display" : "Calories Burned (machine estimate)"
+    }]
+  },
+   "valueQuantity" : {
+    "value" : 55,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "kcal"
+  }
+}
+
+{
+  "resourceType" : "PAObservationBase",
+  "id" : "BSJ-PA-Supporting70",
+   "status" : "final",
+  "category" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code" : "social-history"
+    }]
+  }],
+    "code" : {
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "code" : "73985-4",
+        "display" : "Exercise Activity"
+      }
+    ]
+  },
+  "subject" : {
+    "reference" : "patientBSJ1",
+    "display" : "Betsy Smith-Johnson"
+  },
+  "effectiveDateTime" : "2023-12-04",
+  "performer" : [
+    {
+      "reference" : "patientBSJ1",
+      "display" : "Betsy Smith-Johnson"
+    }
+  ],
+  "valueCodeableConcept" : {
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "code" : "LL734-5",
+        "display" : "Stretching"
+      }
+    ]
+  },
+  "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "55411-3",
+      "display" : "Exercise Duration"
+    }]
+  },
+  "valueQuantity" : {
+    "value" : 10,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "min"
+  },
+    "code" : {
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "code" : "77592-4",
+        "display" : "Moderate physical activity [IPAQ]"
+      }
+    ]
+  },
+  "valueQuantity" : {
+    "value" : 0,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "min"
+  },
+"code" : {
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "code" : "77593-2",
+        "display" : "Vigorous physical activity [IPAQ]"
+      }
+    ]
+  },
+  "valueQuantity" : {
+    "value" : 0,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "min"
+  },
+  "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "55422-0",
+      "display" : "Heart rate Maximum"
+    }]
+  },
+  "valueQuantity" : {
+    "value" : 100,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "/min"
+  },
+ "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "55425-3",
+      "display" : "Mean Heart rate"
+    }]
+  },
+   "valueQuantity" : {
+    "value" : 94,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "/min"
+  },
+  "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "82289-0",
+      "display" : "Rating of perceived exertion"
+    }]
+  },
+  "valueQuantity" : {
+    "value" : ,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "{score}"
+  },
+ "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "55421-2",
+      "display" : "Calories Burned (machine estimate)"
+    }]
+  },
+   "valueQuantity" : {
+    "value" : ,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "kcal"
+  }
+}
