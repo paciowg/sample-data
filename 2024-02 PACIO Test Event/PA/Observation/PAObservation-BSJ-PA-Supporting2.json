@@ -1,0 +1,57 @@
+{
+  "resourceType": "Observation",
+  "id": "BSJ-PA-Supporting2",
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "activity"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code": "PhysicalActivity"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "social-history"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "82290-8",
+        "display": "Frequency of moderate to vigorous aerobic physical activity"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1",
+    "display": "Betsy Smith-Johnson"
+  },
+  "effectiveDateTime": "2023-11-03",
+  "performer": [
+    {
+      "reference": "Patient/patientBSJ1",
+      "display": "Betsy Smith-Johnson"
+    }
+  ],
+  "valueQuantity": {
+    "value": 0,
+    "unit": "minutes per day",
+    "system": "http://unitsofmeasure.org",
+    "code": "min/day"
+  }
+}

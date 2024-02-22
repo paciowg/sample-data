@@ -1,0 +1,72 @@
+{
+  "resourceType": "Goal",
+  "id": "BSJ-PA-PowerGoal",
+  "lifecycleStatus": "active",
+  "achievementStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/goal-achievement",
+        "code": "in-progress"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code": "PhysicalActivity"
+        }
+      ]
+    }
+  ],
+  "description": {
+    "text": "Working with the Exercise Program,\\ improve sit-to-stand frequency in 30 seconds by two (2) sit-to-stand cycles."
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1",
+    "display": "Betsy Smith-Johnson"
+  },
+  "target": [
+    {
+      "measure": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "66247-8"
+          }
+        ]
+      },
+      "detailQuantity": {
+        "value": 2,
+        "system": "http://unitsofmeasure.org",
+        "code": "{#}/(30.s)"
+      },
+      "dueDate": "2024-03-24"
+    }
+  ],
+  "addresses": [
+    {
+      "reference": "Condition/BSJ-HemiparesisDiagnosis",
+      "display": "Neoplastic (malignant) related fatigue"
+    },
+    {
+      "reference": "Condition/OT-ProblemList-RightWeak",
+      "display": "Right sided weakness"
+    },
+    {
+      "reference": "Condition/OT-ProblemList-Decondition",
+      "display": "Physical deconditioning"
+    }
+  ],
+  "note": [
+    {
+      "authorReference": {
+        "reference": "Practitioner/Practitioner-AnitaChu",
+        "display": "Anita Chu,MD"
+      },
+      "time": "2024-01-24",
+      "text": "Goal due date is based on 12-week exercise program"
+    }
+  ]
+}
