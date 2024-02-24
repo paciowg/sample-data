@@ -1,0 +1,2083 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "Session9",
+  "type" : "transaction",
+  "entry" : [{
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting41",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting41",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting41\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting41&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Physical Activity Panel <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PAPanel)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>hasMember</b>: <a href=\"#Observation_BSJ-PA-Supporting41-6\">See above (Observation/BSJ-PA-Supporting41-6)</a></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PAPanel",
+          "display" : "Physical Activity Panel"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "hasMember" : [{
+        "reference" : "Observation/BSJ-PA-Supporting41-6"
+      }]
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting41-1",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting41-1",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting41-1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting41-1&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Exercise activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#73985-4)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>value</b>: (warm-up) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#LA11834-1 &quot;Walking&quot;)</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "73985-4",
+          "display" : "Exercise activity"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "LA11834-1",
+          "display" : "Walking"
+        }],
+        "text" : "(warm-up)"
+      }
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting41-2",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting41-2",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting41-2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting41-2&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Exercise duration <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#55411-3)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>value</b>: 5 minutes<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code min = 'min')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "55411-3",
+          "display" : "Exercise duration"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "valueQuantity" : {
+        "value" : 5,
+        "unit" : "minutes",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "min"
+      }
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting41-3",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting41-3",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting41-3\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting41-3&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Moderate physical activity [IPAQ] <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#77592-4)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>value</b>: 0 minutes<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code min = 'min')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "77592-4",
+          "display" : "Moderate physical activity [IPAQ]"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "valueQuantity" : {
+        "value" : 0,
+        "unit" : "minutes",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "min"
+      }
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting41-4",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting41-4",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting41-4\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting41-4&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Vigorous physical activity [IPAQ] <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#77593-2)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>value</b>: 0 minutes<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code min = 'min')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "77593-2",
+          "display" : "Vigorous physical activity [IPAQ]"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "valueQuantity" : {
+        "value" : 0,
+        "unit" : "minutes",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "min"
+      }
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting41-5",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting41-5",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting41-5\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting41-5&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Heart rate unspecified time maximum by Pedometer <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#55426-1)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>value</b>: 92 beats per minute<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code /min = '/min')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "55426-1",
+          "display" : "Heart rate unspecified time maximum by Pedometer"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "valueQuantity" : {
+        "value" : 92,
+        "unit" : "beats per minute",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "/min"
+      }
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting41-6",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting41-6",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting41-6\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting41-6&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Vital Signs <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#vital-signs)</span>, Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Heart rate <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#8867-4)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>value</b>: 90 beats per minute<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code /min = '/min')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "vital-signs"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "8867-4",
+          "display" : "Heart rate"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "valueQuantity" : {
+        "value" : 90,
+        "unit" : "beats per minute",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "/min"
+      }
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting42",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting42",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting42\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting42&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Physical Activity Panel <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PAPanel)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>hasMember</b>: <a href=\"#Observation_BSJ-PA-Supporting42-8\">See above (Observation/BSJ-PA-Supporting42-8)</a></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PAPanel",
+          "display" : "Physical Activity Panel"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "hasMember" : [{
+        "reference" : "Observation/BSJ-PA-Supporting42-8"
+      }]
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting42-1",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting42-1",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting42-1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting42-1&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Exercise activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#73985-4)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-03</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>value</b>: Exercise - Cycle Ergometer <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#LL734-5 &quot;Exercise&quot;)</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "73985-4",
+          "display" : "Exercise activity"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-03",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "LL734-5",
+          "display" : "Exercise"
+        }],
+        "text" : "Exercise - Cycle Ergometer"
+      }
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting42-2",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting42-2",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting42-2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting42-2&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Exercise duration <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#55411-3)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>value</b>: 22 minutes<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code min = 'min')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "55411-3",
+          "display" : "Exercise duration"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "valueQuantity" : {
+        "value" : 22,
+        "unit" : "minutes",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "min"
+      }
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting42-3",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting42-3",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting42-3\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting42-3&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Moderate physical activity [IPAQ] <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#77592-4)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>value</b>: 22 minutes<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code min = 'min')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "77592-4",
+          "display" : "Moderate physical activity [IPAQ]"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "valueQuantity" : {
+        "value" : 22,
+        "unit" : "minutes",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "min"
+      }
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting42-4",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting42-4",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting42-4\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting42-4&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Vigorous physical activity [IPAQ] <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#77593-2)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>value</b>: 0 minutes<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code min = 'min')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "77593-2",
+          "display" : "Vigorous physical activity [IPAQ]"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "valueQuantity" : {
+        "value" : 0,
+        "unit" : "minutes",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "min"
+      }
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting42-5",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting42-5",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting42-5\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting42-5&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Heart rate unspecified time maximum by Pedometer <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#55426-1)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>value</b>: 121 beats per minute<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code /min = '/min')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "55426-1",
+          "display" : "Heart rate unspecified time maximum by Pedometer"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "valueQuantity" : {
+        "value" : 121,
+        "unit" : "beats per minute",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "/min"
+      }
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting42-6",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting42-6",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting42-6\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting42-6&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Vital Signs <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#vital-signs)</span>, Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Heart rate <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#8867-4)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>value</b>: 116 beats per minute<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code /min = '/min')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "vital-signs"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "8867-4",
+          "display" : "Heart rate"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "valueQuantity" : {
+        "value" : 116,
+        "unit" : "beats per minute",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "/min"
+      }
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting42-7",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting42-7",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting42-7\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting42-7&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Experience of Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#Experience)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>value</b>: Neutral <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#0)</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "Experience",
+          "display" : "Experience of Activity"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "0",
+          "display" : "Neutral"
+        }]
+      }
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting42-8",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting42-8",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting42-8\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting42-8&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Calories burned in unspecified time Pedometer <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#55424-6)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>value</b>: 120 kilocalories<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code kcal = 'kcal')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "55424-6",
+          "display" : "Calories burned in unspecified time Pedometer"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "valueQuantity" : {
+        "value" : 120,
+        "unit" : "kilocalories",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "kcal"
+      }
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting43",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting43",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting43\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting43&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Physical Activity Panel <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PAPanel)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>hasMember</b>: <a href=\"#Observation_BSJ-PA-Supporting43-8\">See above (Observation/BSJ-PA-Supporting43-8)</a></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PAPanel",
+          "display" : "Physical Activity Panel"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "hasMember" : [{
+        "reference" : "Observation/BSJ-PA-Supporting43-8"
+      }]
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting43-1",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting43-1",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting43-1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting43-1&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Exercise activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#73985-4)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>value</b>: Exercise - Dumbbell Exercises <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#LL734-5 &quot;Exercise&quot;)</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "73985-4",
+          "display" : "Exercise activity"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "LL734-5",
+          "display" : "Exercise"
+        }],
+        "text" : "Exercise - Dumbbell Exercises"
+      }
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting43-2",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting43-2",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting43-2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting43-2&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Exercise duration <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#55411-3)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>value</b>: 15 minutes<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code min = 'min')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "55411-3",
+          "display" : "Exercise duration"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "valueQuantity" : {
+        "value" : 15,
+        "unit" : "minutes",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "min"
+      }
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting43-3",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting43-3",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting43-3\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting43-3&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Moderate physical activity [IPAQ] <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#77592-4)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>value</b>: 15 minutes<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code min = 'min')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "77592-4",
+          "display" : "Moderate physical activity [IPAQ]"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "valueQuantity" : {
+        "value" : 15,
+        "unit" : "minutes",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "min"
+      }
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting43-4",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting43-4",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting43-4\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting43-4&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Vigorous physical activity [IPAQ] <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#77593-2)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>value</b>: 0 minutes<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code min = 'min')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "77593-2",
+          "display" : "Vigorous physical activity [IPAQ]"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "valueQuantity" : {
+        "value" : 0,
+        "unit" : "minutes",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "min"
+      }
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting43-5",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting43-5",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting43-5\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting43-5&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Heart rate unspecified time maximum by Pedometer <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#55426-1)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>value</b>: 123 beats per minute<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code /min = '/min')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "55426-1",
+          "display" : "Heart rate unspecified time maximum by Pedometer"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "valueQuantity" : {
+        "value" : 123,
+        "unit" : "beats per minute",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "/min"
+      }
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting43-6",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting43-6",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting43-6\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting43-6&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Vital Signs <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#vital-signs)</span>, Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Heart rate <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#8867-4)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>value</b>: 117 beats per minute<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code /min = '/min')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "vital-signs"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "8867-4",
+          "display" : "Heart rate"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "valueQuantity" : {
+        "value" : 117,
+        "unit" : "beats per minute",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "/min"
+      }
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting43-7",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting43-7",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting43-7\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting43-7&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Experience of Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#Experience)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>value</b>: Neutral <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#0)</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "Experience",
+          "display" : "Experience of Activity"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "0",
+          "display" : "Neutral"
+        }]
+      }
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting43-8",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting43-8",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting43-8\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting43-8&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Calories burned in unspecified time Pedometer <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#55424-6)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>value</b>: 70 kilocalories<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code kcal = 'kcal')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "55424-6",
+          "display" : "Calories burned in unspecified time Pedometer"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "valueQuantity" : {
+        "value" : 70,
+        "unit" : "kilocalories",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "kcal"
+      }
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting44",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting44",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting44\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting44&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Physical Activity Panel <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PAPanel)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>hasMember</b>: <a href=\"#Observation_BSJ-PA-Supporting44-8\">See above (Observation/BSJ-PA-Supporting44-8)</a></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PAPanel",
+          "display" : "Physical Activity Panel"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "hasMember" : [{
+        "reference" : "Observation/BSJ-PA-Supporting44-8"
+      }]
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting44-1",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting44-1",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting44-1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting44-1&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Exercise activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#73985-4)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>value</b>: Exercise - Recumbent Stepper <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#LL734-5 &quot;Exercise&quot;)</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "73985-4",
+          "display" : "Exercise activity"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "LL734-5",
+          "display" : "Exercise"
+        }],
+        "text" : "Exercise - Recumbent Stepper"
+      }
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting44-2",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting44-2",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting44-2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting44-2&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Exercise duration <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#55411-3)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>value</b>: 10 minutes<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code min = 'min')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "55411-3",
+          "display" : "Exercise duration"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "valueQuantity" : {
+        "value" : 10,
+        "unit" : "minutes",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "min"
+      }
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting44-3",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting44-3",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting44-3\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting44-3&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Moderate physical activity [IPAQ] <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#77592-4)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>value</b>: 10 minutes<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code min = 'min')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "77592-4",
+          "display" : "Moderate physical activity [IPAQ]"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "valueQuantity" : {
+        "value" : 10,
+        "unit" : "minutes",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "min"
+      }
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting44-4",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting44-4",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting44-4\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting44-4&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Vigorous physical activity [IPAQ] <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#77593-2)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>value</b>: 0 minutes<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code min = 'min')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "77593-2",
+          "display" : "Vigorous physical activity [IPAQ]"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "valueQuantity" : {
+        "value" : 0,
+        "unit" : "minutes",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "min"
+      }
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting44-5",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting44-5",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting44-5\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting44-5&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Heart rate unspecified time maximum by Pedometer <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#55426-1)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>value</b>: 127 beats per minute<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code /min = '/min')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "55426-1",
+          "display" : "Heart rate unspecified time maximum by Pedometer"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "valueQuantity" : {
+        "value" : 127,
+        "unit" : "beats per minute",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "/min"
+      }
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting44-6",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting44-6",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting44-6\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting44-6&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Vital Signs <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#vital-signs)</span>, Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Heart rate <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#8867-4)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>value</b>: 118 beats per minute<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code /min = '/min')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "vital-signs"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "8867-4",
+          "display" : "Heart rate"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "valueQuantity" : {
+        "value" : 118,
+        "unit" : "beats per minute",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "/min"
+      }
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting44-7",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting44-7",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting44-7\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting44-7&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Experience of Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#Experience)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>value</b>: Neutral <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#0)</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "Experience",
+          "display" : "Experience of Activity"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "0",
+          "display" : "Neutral"
+        }]
+      }
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting44-8",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting44-8",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting44-8\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting44-8&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Calories burned in unspecified time Pedometer <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#55424-6)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>value</b>: 60 kilocalories<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code kcal = 'kcal')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "55424-6",
+          "display" : "Calories burned in unspecified time Pedometer"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "valueQuantity" : {
+        "value" : 60,
+        "unit" : "kilocalories",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "kcal"
+      }
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting45",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting45",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting45\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting45&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Physical Activity Panel <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PAPanel)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>hasMember</b>: <a href=\"#Observation_BSJ-PA-Supporting45-6\">See above (Observation/BSJ-PA-Supporting45-6)</a></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PAPanel",
+          "display" : "Physical Activity Panel"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "hasMember" : [{
+        "reference" : "Observation/BSJ-PA-Supporting45-6"
+      }]
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting45-1",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting45-1",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting45-1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting45-1&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Exercise activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#73985-4)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>value</b>: Exercise - Stretching <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#LL734-5 &quot;Exercise&quot;)</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "73985-4",
+          "display" : "Exercise activity"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "LL734-5",
+          "display" : "Exercise"
+        }],
+        "text" : "Exercise - Stretching"
+      }
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting45-2",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting45-2",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting45-2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting45-2&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Exercise duration <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#55411-3)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>value</b>: 8 minutes<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code min = 'min')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "55411-3",
+          "display" : "Exercise duration"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "valueQuantity" : {
+        "value" : 8,
+        "unit" : "minutes",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "min"
+      }
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting45-3",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting45-3",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting45-3\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting45-3&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Moderate physical activity [IPAQ] <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#77592-4)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>value</b>: 0 minutes<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code min = 'min')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "77592-4",
+          "display" : "Moderate physical activity [IPAQ]"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "valueQuantity" : {
+        "value" : 0,
+        "unit" : "minutes",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "min"
+      }
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting45-4",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting45-4",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting45-4\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting45-4&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Vigorous physical activity [IPAQ] <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#77593-2)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>value</b>: 0 minutes<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code min = 'min')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "77593-2",
+          "display" : "Vigorous physical activity [IPAQ]"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "valueQuantity" : {
+        "value" : 0,
+        "unit" : "minutes",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "min"
+      }
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting45-5",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting45-5",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting45-5\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting45-5&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Heart rate unspecified time maximum by Pedometer <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#55426-1)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>value</b>: 106 beats per minute<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code /min = '/min')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "55426-1",
+          "display" : "Heart rate unspecified time maximum by Pedometer"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "valueQuantity" : {
+        "value" : 106,
+        "unit" : "beats per minute",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "/min"
+      }
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Supporting45-6",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Supporting45-6",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Supporting45-6\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Supporting45-6&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Vital Signs <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#vital-signs)</span>, Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#activity)</span>, Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>code</b>: Heart rate <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#8867-4)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-11-22</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>value</b>: 91 beats per minute<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code /min = '/min')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "vital-signs"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "activity"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/us/physical-activity/CodeSystem/pa-temporary-codes",
+          "code" : "PhysicalActivity"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "8867-4",
+          "display" : "Heart rate"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-11-22",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "valueQuantity" : {
+        "value" : 91,
+        "unit" : "beats per minute",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "/min"
+      }
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Observation"
+    }
+  }]
+}
