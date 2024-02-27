@@ -7,7 +7,14 @@
     ]
   },
   "lifecycleStatus": "active",
-  "achievementStatus": "in-progress",
+  "achievementStatus" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/goal-achievement",
+      "code" : "in-progress",
+      "display" : "In Progress"
+    }],
+    "text" : "In Progress"
+  },
   "category": [
     {
       "coding": [
