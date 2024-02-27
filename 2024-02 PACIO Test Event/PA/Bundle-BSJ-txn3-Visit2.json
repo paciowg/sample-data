@@ -1,0 +1,51 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "BSJ-txn3-Visit2",
+  "type" : "transaction",
+  "entry" : [{
+    "fullUrl" : "http://example.org/fhir/Observation/BSJ-PA-Fatigue1",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BSJ-PA-Fatigue1",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"BSJ-PA-Fatigue1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;BSJ-PA-Fatigue1&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Social History <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#social-history)</span></p><p><b>code</b>: Assessment of fatigue <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#709474002)</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>effective</b>: 2023-12-18</p><p><b>performer</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><p><b>value</b>: 20 points</p><p><b>interpretation</b>: Fatigue <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "social-history"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "709474002",
+          "display" : "Assessment of fatigue"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      },
+      "effectiveDateTime" : "2023-12-18",
+      "performer" : [{
+        "reference" : "Patient/PatientBSJ1",
+        "display" : "Betsy Smith-Johnson"
+      }],
+      "valueQuantity" : {
+        "value" : 20,
+        "unit" : "points",
+        "system" : "http://unitsofmeasure.org"
+      },
+      "interpretation" : [{
+        "text" : "Fatigue"
+      }]
+    },
+    "request" : {
+      "method" : "PUT",
+      "url" : "Observation/BSJ-PA-Fatigue1"
+    }
+  }]
+}

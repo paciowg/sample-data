@@ -3,13 +3,13 @@
   "id" : "BSJ-txn4-Visit2",
   "type" : "transaction",
   "entry" : [{
-    "fullUrl" : "http://example.org/fhir/Goal/BSJ-PA-AerobicGoal2",
+    "fullUrl" : "http://example.org/fhir/Goal/BSJ-PA-AerobicGoal",
     "resource" : {
       "resourceType" : "Goal",
-      "id" : "BSJ-PA-AerobicGoal2",
+      "id" : "BSJ-PA-AerobicGoal",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Goal</b><a name=\"BSJ-PA-AerobicGoal2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Goal &quot;BSJ-PA-AerobicGoal2&quot; </p></div><p><b>identifier</b>: <code>http://example.org/Identifiers</code>/BSJ-PA-AerobicGoal</p><p><b>lifecycleStatus</b>: on-hold</p><p><b>achievementStatus</b>: In Progress <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-goal-achievement.html\">Goal achievement status</a>#in-progress)</span></p><p><b>category</b>: Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>description</b>: Working with the Exercise Program, gradually increase your weekly exercise to at least 150 minutes/week of moderate to vigorous physical activity. <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><h3>Targets</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Measure</b></td><td><b>Detail[x]</b></td><td><b>Due[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>Frequency of moderate to vigorous aerobic physical activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#82290-8)</span></td><td>150 min/wk<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code min/wk = 'min/wk')</span></td><td>2024-01-26</td></tr></table><p><b>note</b>: Goal due date is based on 12-week exercise oncology program (By Practitioner/PractitionerAnitaChu @2023-10-25), Goal on hold due to stroke hospitalization (By Practitioner/PractitionerAnitaChu @2023-12-18)</p></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Goal</b><a name=\"BSJ-PA-AerobicGoal2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Goal &quot;BSJ-PA-AerobicGoal2&quot; </p></div><p><b>identifier</b>: <code>http://example.org/Identifiers</code>/BSJ-PA-AerobicGoal</p><p><b>lifecycleStatus</b>: on-hold</p><p><b>achievementStatus</b>: In Progress <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-goal-achievement.html\">Goal achievement status</a>#in-progress)</span></p><p><b>category</b>: Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>description</b>: Working with the Exercise Program, gradually increase your weekly exercise to at least 150 minutes/week of moderate to vigorous physical activity. <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><h3>Targets</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Measure</b></td><td><b>Detail[x]</b></td><td><b>Due[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>Frequency of moderate to vigorous aerobic physical activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#82290-8)</span></td><td>150 min/wk<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code min/wk = 'min/wk')</span></td><td>2024-01-26</td></tr></table><p><b>note</b>: Goal due date is based on 12-week exercise oncology program (By Practitioner/Practitioner-AnitaChu @2023-10-25), Goal on hold due to stroke hospitalization (By Practitioner/Practitioner-AnitaChu @2023-12-18)</p></div>"
       },
       "identifier" : [{
         "system" : "http://example.org/Identifiers",
@@ -52,7 +52,7 @@
       }],
       "note" : [{
         "authorReference" : {
-          "reference" : "Practitioner/PractitionerAnitaChu",
+          "reference" : "Practitioner/Practitioner-AnitaChu",
           "display" : "Anita Chu, MD"
         },
         "time" : "2023-10-25",
@@ -60,7 +60,7 @@
       },
       {
         "authorReference" : {
-          "reference" : "Practitioner/PractitionerAnitaChu",
+          "reference" : "Practitioner/Practitioner-AnitaChu",
           "display" : "Anita Chu, MD"
         },
         "time" : "2023-12-18",
@@ -69,17 +69,17 @@
     },
     "request" : {
       "method" : "PUT",
-      "url" : "Goal?identifier=BSJ-PA-AerobicGoal2"
+      "url" : "Goal/BSJ-PA-AerobicGoal"
     }
   },
   {
-    "fullUrl" : "http://example.org/fhir/Goal/BSJ-PA-FatigueGoal2",
+    "fullUrl" : "http://example.org/fhir/Goal/BSJ-PA-FatigueGoal",
     "resource" : {
       "resourceType" : "Goal",
-      "id" : "BSJ-PA-FatigueGoal2",
+      "id" : "BSJ-PA-FatigueGoal",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Goal</b><a name=\"BSJ-PA-FatigueGoal2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Goal &quot;BSJ-PA-FatigueGoal2&quot; </p></div><p><b>identifier</b>: <code>http://example.org/Identifiers</code>/BSJ-PA-FatigueGoal</p><p><b>lifecycleStatus</b>: on-hold</p><p><b>achievementStatus</b>: In Progress <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-goal-achievement.html\">Goal achievement status</a>#in-progress)</span></p><p><b>category</b>: Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>description</b>: Working with the Exercise Program to increase overall physical activity,\\ improve Fatigue Assessment Scale score by at least 4 points. <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><h3>Targets</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Measure</b></td><td><b>Detail[x]</b></td><td><b>Due[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>Assessment using fatigue impact scale <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#445784002)</span></td><td>16</td><td>2024-01-26</td></tr></table><p><b>addresses</b>: <a href=\"Condition-BSJ-FatigueCondition.html\">Condition/BSJ-FatigueCondition: Neoplastic (malignant) related fatigue</a></p><p><b>note</b>: Goal due date is based on 12-week exercise oncology program (By Practitioner/PractitionerAnitaChu @2023-10-25), Goal on hold due to stroke hospitalization (By Practitioner/PractitionerAnitaChu @2023-12-18)</p></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Goal</b><a name=\"BSJ-PA-FatigueGoal2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Goal &quot;BSJ-PA-FatigueGoal2&quot; </p></div><p><b>identifier</b>: <code>http://example.org/Identifiers</code>/BSJ-PA-FatigueGoal</p><p><b>lifecycleStatus</b>: on-hold</p><p><b>achievementStatus</b>: In Progress <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-goal-achievement.html\">Goal achievement status</a>#in-progress)</span></p><p><b>category</b>: Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>description</b>: Working with the Exercise Program to increase overall physical activity,\\ improve Fatigue Assessment Scale score by at least 4 points. <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><h3>Targets</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Measure</b></td><td><b>Detail[x]</b></td><td><b>Due[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>Assessment using fatigue impact scale <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#445784002)</span></td><td>16</td><td>2024-01-26</td></tr></table><p><b>addresses</b>: <a href=\"Condition-BSJ-FatigueCondition.html\">Condition/BSJ-FatigueCondition: Neoplastic (malignant) related fatigue</a></p><p><b>note</b>: Goal due date is based on 12-week exercise oncology program (By Practitioner/Practitioner-AnitaChu @2023-10-25), Goal on hold due to stroke hospitalization (By Practitioner/Practitioner-AnitaChu @2023-12-18)</p></div>"
       },
       "identifier" : [{
         "system" : "http://example.org/Identifiers",
@@ -125,7 +125,7 @@
       }],
       "note" : [{
         "authorReference" : {
-          "reference" : "Practitioner/PractitionerAnitaChu",
+          "reference" : "Practitioner/Practitioner-AnitaChu",
           "display" : "Anita Chu, MD"
         },
         "time" : "2023-10-25",
@@ -133,7 +133,7 @@
       },
       {
         "authorReference" : {
-          "reference" : "Practitioner/PractitionerAnitaChu",
+          "reference" : "Practitioner/Practitioner-AnitaChu",
           "display" : "Anita Chu, MD"
         },
         "time" : "2023-12-18",
@@ -142,17 +142,17 @@
     },
     "request" : {
       "method" : "PUT",
-      "url" : "Goal?identifier=BSJ-PA-FatigueGoal2"
+      "url" : "Goal/BSJ-PA-FatigueGoal"
     }
   },
   {
-    "fullUrl" : "http://example.org/fhir/Goal/BSJ-PA-StrengthGoal2",
+    "fullUrl" : "http://example.org/fhir/Goal/BSJ-PA-StrengthGoal",
     "resource" : {
       "resourceType" : "Goal",
-      "id" : "BSJ-PA-StrengthGoal2",
+      "id" : "BSJ-PA-StrengthGoal",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Goal</b><a name=\"BSJ-PA-StrengthGoal2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Goal &quot;BSJ-PA-StrengthGoal2&quot; </p></div><p><b>identifier</b>: <code>http://example.org/Identifiers</code>/BSJ-PA-StrengthGoal</p><p><b>lifecycleStatus</b>: on-hold</p><p><b>achievementStatus</b>: In Progress <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-goal-achievement.html\">Goal achievement status</a>#in-progress)</span></p><p><b>category</b>: Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>description</b>: Working with the Exercise Program,\\ increase your weekly exercise muscle strengthening exercises to at least two (2) days/week. <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><h3>Targets</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Measure</b></td><td><b>Detail[x]</b></td><td><b>Due[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>Frequency of muscle-strengthening physical activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#82291-6)</span></td><td>2 d/wk<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code d/wk = 'd/wk')</span></td><td>2024-01-26</td></tr></table><p><b>addresses</b>: <a href=\"Condition-BSJ-PACondition.html\">Condition/BSJ-PACondition: Lack of Physical Exercise</a></p><p><b>note</b>: Goal due date is based on 12-week exercise oncology program (By Practitioner/PractitionerAnitaChu @2023-10-25), Goal on hold due to stroke hospitalization (By Practitioner/PractitionerAnitaChu @2023-12-18)</p></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Goal</b><a name=\"BSJ-PA-StrengthGoal2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Goal &quot;BSJ-PA-StrengthGoal2&quot; </p></div><p><b>identifier</b>: <code>http://example.org/Identifiers</code>/BSJ-PA-StrengthGoal</p><p><b>lifecycleStatus</b>: on-hold</p><p><b>achievementStatus</b>: In Progress <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-goal-achievement.html\">Goal achievement status</a>#in-progress)</span></p><p><b>category</b>: Physical Activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/us/physical-activity/STU1/CodeSystem-pa-temporary-codes.html\">Temporary Codes</a>#PhysicalActivity)</span></p><p><b>description</b>: Working with the Exercise Program,\\ increase your weekly exercise muscle strengthening exercises to at least two (2) days/week. <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p><p><b>subject</b>: <a href=\"Patient-PatientBSJ1.html\">Patient/PatientBSJ1: Betsy Smith-Johnson</a> &quot;&quot;</p><h3>Targets</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Measure</b></td><td><b>Detail[x]</b></td><td><b>Due[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>Frequency of muscle-strengthening physical activity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#82291-6)</span></td><td>2 d/wk<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code d/wk = 'd/wk')</span></td><td>2024-01-26</td></tr></table><p><b>addresses</b>: <a href=\"Condition-BSJ-PACondition.html\">Condition/BSJ-PACondition: Lack of Physical Exercise</a></p><p><b>note</b>: Goal due date is based on 12-week exercise oncology program (By Practitioner/Practitioner-AnitaChu @2023-10-25), Goal on hold due to stroke hospitalization (By Practitioner/Practitioner-AnitaChu @2023-12-18)</p></div>"
       },
       "identifier" : [{
         "system" : "http://example.org/Identifiers",
@@ -199,7 +199,7 @@
       }],
       "note" : [{
         "authorReference" : {
-          "reference" : "Practitioner/PractitionerAnitaChu",
+          "reference" : "Practitioner/Practitioner-AnitaChu",
           "display" : "Anita Chu, MD"
         },
         "time" : "2023-10-25",
@@ -207,7 +207,7 @@
       },
       {
         "authorReference" : {
-          "reference" : "Practitioner/PractitionerAnitaChu",
+          "reference" : "Practitioner/Practitioner-AnitaChu",
           "display" : "Anita Chu, MD"
         },
         "time" : "2023-12-18",
@@ -216,7 +216,7 @@
     },
     "request" : {
       "method" : "PUT",
-      "url" : "Goal?identifier=BSJ-PA-StrengthGoal"
+      "url" : "Goal/BSJ-PA-StrengthGoal"
     }
   }]
 }
