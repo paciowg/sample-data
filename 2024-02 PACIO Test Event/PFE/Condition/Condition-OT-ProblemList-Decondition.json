@@ -98,6 +98,111 @@
           "reference": "Observation/BSJ-HHA-SitUp1"
         }
       ]
+    },
+    {
+      "detail": [
+        {
+          "reference": "Observation/BSJ-PA-Supporting76"
+        }
+      ]
+    },
+    {
+      "detail": [
+        {
+          "reference": "Observation/BSJ-PA-Supporting77"
+        }
+      ]
+    },
+    {
+      "detail": [
+        {
+          "reference": "Observation/BSJ-PA-Supporting78"
+        }
+      ]
+    },
+    {
+      "detail": [
+        {
+          "reference": "Observation/BSJ-PA-Supporting79"
+        }
+      ]
+    },
+    {
+      "detail": [
+        {
+          "reference": "Observation/BSJ-PA-Supporting80"
+        }
+      ]
+    },
+    {
+      "detail": [
+        {
+          "reference": "Observation/BSJ-PA-Supporting81"
+        }
+      ]
+    },
+    {
+      "detail": [
+        {
+          "reference": "Observation/BSJ-PA-Supporting82"
+        }
+      ]
+    },
+    {
+      "detail": [
+        {
+          "reference": "Observation/BSJ-PA-Supporting83"
+        }
+      ]
+    },
+    {
+      "detail": [
+        {
+          "reference": "Observation/BSJ-PA-Supporting84"
+        }
+      ]
+    },
+    {
+      "detail": [
+        {
+          "reference": "Observation/BSJ-PA-Supporting85"
+        }
+      ]
+    },
+    {
+      "detail": [
+        {
+          "reference": "Observation/BSJ-PA-Supporting86"
+        }
+      ]
+    },
+    {
+      "detail": [
+        {
+          "reference": "Observation/BSJ-PA-Supporting87"
+        }
+      ]
+    },
+    {
+      "detail": [
+        {
+          "reference": "Observation/BSJ-PA-Supporting88"
+        }
+      ]
+    },
+    {
+      "detail": [
+        {
+          "reference": "Observation/BSJ-PA-Supporting89"
+        }
+      ]
+    },
+    {
+      "detail": [
+        {
+          "reference": "Observation/BSJ-PA-Supporting90"
+        }
+      ]
     }
   ],
   "asserter": {
