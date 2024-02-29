@@ -6,6 +6,12 @@
       "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
     ]
   },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/condition-assertedDate",
+      "valueDateTime" : "2023-12-16T13:30:00-05:00"
+    }
+  ],
   "clinicalStatus": {
     "coding": [
       {
@@ -65,7 +71,6 @@
       ]
     }
   ],
-  "assertedDate": "2023-12-16T13:30:00-05:00",
   "onsetDateTime": "2023-12-15T15:40:00-05:00",
   "recordedDate": "2023-12-16T13:30:00-05:00",
   "note": [
