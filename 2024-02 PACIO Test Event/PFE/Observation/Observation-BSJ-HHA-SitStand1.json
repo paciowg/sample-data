@@ -30,7 +30,7 @@
       "coding": [
         {
           "system": "http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs",
-          "code": "d4014",
+          "code": "d4104",
           "display": "Standing"
         }
       ]
