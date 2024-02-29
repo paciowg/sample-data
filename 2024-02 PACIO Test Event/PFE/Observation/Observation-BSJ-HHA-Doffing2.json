@@ -30,7 +30,7 @@
       "coding": [
         {
           "system": "http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs",
-          "code": "D5401",
+          "code": "d5401",
           "display": "Taking Off Clothes"
         }
       ]
