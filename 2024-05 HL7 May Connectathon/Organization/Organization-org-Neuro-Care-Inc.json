@@ -1,0 +1,24 @@
+{
+  "resourceType": "Organization",
+  "id": "org-Neuro-Care-Inc",
+  "active": true,
+  "name": "Neuro Care Inc.",
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "(210) 555 5555"
+    }
+  ],
+  "address": [
+    {
+      "line": [
+        "177 Branching Tree Blvd"
+      ],
+      "city": "Grand Rapids",
+      "state": "MI",
+      "postalCode": "49509",
+      "country": "US",
+      "text": "177 Branching Tree Blvd, Grand Rapids, MI 49509"
+    }
+  ]
+}

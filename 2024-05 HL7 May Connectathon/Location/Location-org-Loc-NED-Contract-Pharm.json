@@ -1,0 +1,18 @@
+{
+  "resourceType": "Location",
+  "id": "org-Loc-NED-Contract-Pharm",
+  "status": "active",
+  "name": "Not Every Day Contract Pharmacy",
+  "address": [
+    {
+      "line": [
+        "155 Light Commercial Ave"
+      ],
+      "city": "Grand Rapids",
+      "state": "MI",
+      "postalCode": "49509",
+      "country": "US",
+      "text": "155 Light Commercial Ave, Grand Rapids, MI 49509"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "resourceType": "Location",
+  "id": "org-Loc-PC-Primary-Care-Michigan",
+  "status": "active",
+  "name": "Michigan Primary Health Care Associates",
+  "address": [
+    {
+      "line": [
+        "123 Spruce Dr"
+      ],
+      "city": "Grand Rapids",
+      "state": "MI",
+      "postalCode": "49503",
+      "country": "US",
+      "text": "123 Spruce Dr. Grand Rapids, MI 49503"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "resourceType": "Location",
+  "id": "org-Loc-SNF-Happy-Nursing-Facility",
+  "status": "active",
+  "name": "Happy Nursing Facility",
+  "address": [
+    {
+      "line": [
+        "8100 Pinebrook Dr"
+      ],
+      "city": "Grand Rapids",
+      "state": "MI",
+      "postalCode": "49504",
+      "country": "US",
+      "text": "8100 Pinebrook Dr, Grand Rapids, MI 49504"
+    }
+  ]
+}
