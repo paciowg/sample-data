@@ -1,6 +1,6 @@
 {
   "resourceType": "Condition",
-  "id": "BSJ-Neuropathy",
+  "id": "BSJ-Osteopenia",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
@@ -26,8 +26,8 @@
     "coding": [
       {
         "system": "http://snomed.info/sct",
-        "code": "193184006",
-        "display": "Chronic painful neuropathy due to diabetes mellitus (disorder)"
+        "code": "312894000",
+        "display": "Osteopenia (disorder)"
       }
     ]
   },
@@ -39,8 +39,8 @@
       "coding": [
         {
           "system": "http://hl7.org/fhir/sid/icf",
-          "code": "b299",
-          "display": "Sensory functions and pain, unspecified"
+          "code": "b729",
+          "display": "Functions of the joints and bones, other specified and unspecified"
         }
       ]
     },
@@ -59,8 +59,8 @@
       "coding": [
         {
           "system": "http://snomed.info/sct",
-          "code": "40927001",
-          "display": "Both lower legs (body structure)"
+          "code": "113192009",
+          "display": "Skeletal system structure (body structure)"
         }
       ]
     }
@@ -68,7 +68,7 @@
   "extension": [
     {
       "url": "http://hl7.org/fhir/StructureDefinition/condition-assertedDate",
-      "valueDateTime": "2020-07"
+      "valueDateTime": "2015-01"
     }
   ],
   "asserter": {
