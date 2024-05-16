@@ -1,0 +1,39 @@
+{
+  "resourceType": "MedicationRequest",
+  "id": "smp-medrx-2-11",
+  "text": {
+    "status": "generated",
+    "div": "<div>Sertraline 25 mg po nightly</div>"
+  },
+  "status": "active",
+  "intent": "order",
+  "medicationCodableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "329212",
+        "display": "Sertraline 25 mg po nightly"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patent/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "authoredOn": "2024-04-15",
+  "reasonCode": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "35489007",
+        "display": "Depressive disorder (disorder)"
+      }
+    ]
+  },
+  "dosageInstruction": [
+    {
+      "sequence": 1,
+      "text": "Sertraline 25 mg po nightly"
+    }
+  ]
+}

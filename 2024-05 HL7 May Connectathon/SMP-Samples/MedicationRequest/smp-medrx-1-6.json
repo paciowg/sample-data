@@ -1,0 +1,39 @@
+{
+  "resourceType": "MedicationRequest",
+  "id": "smp-medrx-1-6",
+  "text": {
+    "status": "generated",
+    "div": "<div>Calcium 500 mg</div>"
+  },
+  "status": "active",
+  "intent": "order",
+  "medicationCodableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "1895",
+        "display": "Calcium 500 mg"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patent/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "authoredOn": "2024-04-05",
+  "reasonCode": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "312894000",
+        "display": "Osteopenia"
+      }
+    ]
+  },
+  "dosageInstruction": [
+    {
+      "sequence": 1,
+      "text": "Calcium 500 mg"
+    }
+  ]
+}

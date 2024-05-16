@@ -1,0 +1,45 @@
+{
+  "resourceType": "MedicationStatement",
+  "id": "smp-medstmt-2-18",
+  "text": {
+    "status": "generated",
+    "div": "<div>Ferrous Gluconate 325mg po daily</div>"
+  },
+  "basedOn": {
+    "reference": "MedicationRequest/smp-medrx-2-18"
+  },
+  "status": "active",
+  "medicationCodableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "24942",
+        "display": "Ferrous Gluconate 325mg po daily"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patent/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "dateAsserted": "2024-04-15",
+  "informationSource": {
+    "reference": "Organization/org-PSC-Prism-General-Hospital",
+    "display": "Prism General Hospital"
+  },
+  "reasonCode": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "691421000119108",
+        "display": "Anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)"
+      }
+    ]
+  },
+  "dosage": [
+    {
+      "sequence": 1,
+      "text": "Ferrous Gluconate 325mg po daily"
+    }
+  ]
+}

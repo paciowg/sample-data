@@ -1,0 +1,39 @@
+{
+  "resourceType": "MedicationRequest",
+  "id": "smp-medrx-2B-38",
+  "text": {
+    "status": "generated",
+    "div": "<div>Docusate 100mg po twice daily (please add \"Sodium\")</div>"
+  },
+  "status": "active",
+  "intent": "order",
+  "medicationCodableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "1099278",
+        "display": "Docusate 100mg po twice daily (please add \"Sodium\")"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patent/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "authoredOn": "2024-04-20",
+  "reasonCode": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "21782001",
+        "display": "Drug-induced constipation"
+      }
+    ]
+  },
+  "dosageInstruction": [
+    {
+      "sequence": 1,
+      "text": "Docusate 100mg po twice daily (please add \"Sodium\")"
+    }
+  ]
+}

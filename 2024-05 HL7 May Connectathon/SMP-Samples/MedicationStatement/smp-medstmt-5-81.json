@@ -1,0 +1,45 @@
+{
+  "resourceType": "MedicationStatement",
+  "id": "smp-medstmt-5-81",
+  "text": {
+    "status": "generated",
+    "div": "<div>Losartan 50mg 1 tablet po daily</div>"
+  },
+  "basedOn": {
+    "reference": "MedicationRequest/smp-medrx-5-81"
+  },
+  "status": "active",
+  "medicationCodableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "979467",
+        "display": "Losartan 50mg 1 tablet po daily"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patent/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "dateAsserted": "2024-05-15",
+  "informationSource": {
+    "reference": "Organization/org-Pharm-Everyday-Community-Pharm",
+    "display": "Everyday Community Pharmacy"
+  },
+  "reasonCode": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "38341003",
+        "display": "Hypertensive disorder, systemic arterial (disorder)"
+      }
+    ]
+  },
+  "dosage": [
+    {
+      "sequence": 1,
+      "text": "Losartan 50mg 1 tablet po daily"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "resourceType": "MedicationStatement",
+  "id": "smp-medstmt-3B-53",
+  "text": {
+    "status": "generated",
+    "div": "<div>Atorvastatin 40 mg 1 tablet po at bedtime</div>"
+  },
+  "basedOn": {
+    "reference": "MedicationRequest/smp-medrx-3B-53"
+  },
+  "status": "active",
+  "medicationCodableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "597983",
+        "display": "Atorvastatin 40 mg 1 tablet po at bedtime"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patent/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "dateAsserted": "2024-05-13",
+  "informationSource": {
+    "reference": "Organization/org-SNF-Happy-Nursing-Facility",
+    "display": "Happy Nursing Facility"
+  },
+  "reasonCode": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "55822004",
+        "display": "Hyperlipidemia"
+      }
+    ]
+  },
+  "dosage": [
+    {
+      "sequence": 1,
+      "text": "Atorvastatin 40 mg 1 tablet po at bedtime"
+    }
+  ]
+}

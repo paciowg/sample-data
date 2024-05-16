@@ -1,0 +1,39 @@
+{
+  "resourceType": "MedicationRequest",
+  "id": "smp-medrx-5-75",
+  "text": {
+    "status": "generated",
+    "div": "<div>Atorvastatin 40 mg 1 tablet by mouth at bedtime</div>"
+  },
+  "status": "active",
+  "intent": "order",
+  "medicationCodableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "597983",
+        "display": "Atorvastatin 40 mg 1 tablet by mouth at bedtime"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patent/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "authoredOn": "2024-05-15",
+  "reasonCode": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "55822004",
+        "display": "Hyperlipidemia"
+      }
+    ]
+  },
+  "dosageInstruction": [
+    {
+      "sequence": 1,
+      "text": "Atorvastatin 40 mg 1 tablet by mouth at bedtime"
+    }
+  ]
+}

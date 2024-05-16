@@ -1,0 +1,45 @@
+{
+  "resourceType": "MedicationStatement",
+  "id": "smp-medstmt-2B-36",
+  "text": {
+    "status": "generated",
+    "div": "<div>Accuchecks before meals and at bedtime</div>"
+  },
+  "basedOn": {
+    "reference": "MedicationRequest/smp-medrx-2B-36"
+  },
+  "status": "active",
+  "medicationCodableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "2340-9",
+        "display": "Accuchecks before meals and at bedtime"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patent/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "dateAsserted": "2024-04-20",
+  "informationSource": {
+    "reference": "Organization/org-PSC-Prism-General-Hospital",
+    "display": "Prism General Hospital"
+  },
+  "reasonCode": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "359642000",
+        "display": "Diabetes mellitus type 2 in nonobese (disorder)"
+      }
+    ]
+  },
+  "dosage": [
+    {
+      "sequence": 1,
+      "text": "Accuchecks before meals and at bedtime"
+    }
+  ]
+}

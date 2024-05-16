@@ -1,0 +1,39 @@
+{
+  "resourceType": "MedicationRequest",
+  "id": "smp-medrx-5-85",
+  "text": {
+    "status": "generated",
+    "div": "<div>Polyethylene glycol 3350 (Miralax) 17g by mouth daily as needed for constipation</div>"
+  },
+  "status": "active",
+  "intent": "order",
+  "medicationCodableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "1870356",
+        "display": "Polyethylene glycol 3350 (Miralax) 17g by mouth daily as needed for constipation"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patent/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "authoredOn": "2024-05-15",
+  "reasonCode": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "21782001",
+        "display": "Drug-induced constipation"
+      }
+    ]
+  },
+  "dosageInstruction": [
+    {
+      "sequence": 1,
+      "text": "Polyethylene glycol 3350 (Miralax) 17g by mouth daily as needed for constipation"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "resourceType": "MedicationStatement",
+  "id": "smp-medstmt-3B-57",
+  "text": {
+    "status": "generated",
+    "div": "<div>Empagliflozin (Jardiance) 10mg 1 tablet by mouth daily</div>"
+  },
+  "basedOn": {
+    "reference": "MedicationRequest/smp-medrx-3B-57"
+  },
+  "status": "active",
+  "medicationCodableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "1545654",
+        "display": "Empagliflozin (Jardiance) 10mg 1 tablet by mouth daily"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patent/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "dateAsserted": "2024-05-13",
+  "informationSource": {
+    "reference": "Organization/org-SNF-Happy-Nursing-Facility",
+    "display": "Happy Nursing Facility"
+  },
+  "reasonCode": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "359642000",
+        "display": "Diabetes mellitus type 2 in nonobese (disorder)"
+      }
+    ]
+  },
+  "dosage": [
+    {
+      "sequence": 1,
+      "text": "Empagliflozin (Jardiance) 10mg 1 tablet by mouth daily"
+    }
+  ]
+}
