@@ -9,7 +9,7 @@
     "reference": "MedicationRequest/smp-medrx-2B-36"
   },
   "status": "active",
-  "medicationCodableConcept": {
+  "medicationCodeableConcept": {
     "coding": [
       {
         "system": "http://loinc.org",

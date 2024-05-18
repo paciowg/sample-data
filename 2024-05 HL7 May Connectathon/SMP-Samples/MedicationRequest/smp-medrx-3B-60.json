@@ -7,7 +7,7 @@
   },
   "status": "active",
   "intent": "order",
-  "medicationCodableConcept": {
+  "medicationCodeableConcept": {
     "coding": [
       {
         "system": "http://www.nlm.nih.gov/research/umls/rxnorm",

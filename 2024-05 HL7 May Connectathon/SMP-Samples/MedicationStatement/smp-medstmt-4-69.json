@@ -9,7 +9,7 @@
     "reference": "MedicationRequest/smp-medrx-4-69"
   },
   "status": "active",
-  "medicationCodableConcept": {
+  "medicationCodeableConcept": {
     "coding": [
       {
         "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
