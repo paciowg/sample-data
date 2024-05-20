@@ -42,6 +42,16 @@ def load_bundle(bundle, base_url)
     end
   end
 
+  url = "#{base_url}/Bundle/#{bundle['id']}"
+  response = make_put_request(url, bundle)
+
+  if response
+    puts "Uploaded Bundle/#{bundle['id']} successfully!"
+  else
+    puts "Failed to upload Bundle/#{bundle['id']}."
+    unsuccessful_bundle_uploads << bundle
+  end
+
   retry_count = 0
   while retry_count < 10 && !unsuccessful_bundle_uploads.empty?
     unsuccessful_bundle_uploads.shuffle.each do |res|
@@ -123,11 +133,12 @@ end
 # json_directory = "2023-07-CMS-July-Connectathon/PFE/scene-5"
 # json_directory = "2023-07-CMS-July-Connectathon/GracitySDOH"
 # json_directory = "2023-09 HL7 Sept Connectathon"
-json_directory = "2024-02 PACIO Test Event"
+json_directory = "2024-05 HL7 May Connectathon/SMP-Samples"
 
 # Provide the base URL of the server
-base_url = "https://gw.interop.community/MiHIN/open/"
+# base_url = "https://gw.interop.community/MiHIN/open/"
 # base_url = "https://gravity-ehr-server.herokuapp.com/fhir"
+base_url = 'http://hapi.fhir.org/baseR4/'
 
 # Call the method to load JSON files onto the server and get the count of unsuccessful uploads
 total, unsuccessful_count = load_json_files(json_directory, base_url)

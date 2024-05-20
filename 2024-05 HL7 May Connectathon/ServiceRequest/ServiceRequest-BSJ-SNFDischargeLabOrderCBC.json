@@ -1,0 +1,45 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "BSJ-SNFDischargeLabOrderCBC",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request"
+    ]
+  },
+  "status": "active",
+  "intent": "order",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "108252007",
+          "display": "Laboratory procedure"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "43789009",
+        "display": "Complete blood count without differential (procedure)"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "priority": "routine",
+  "occurrenceDateTime": "2024-05-28",
+  "authoredOn": "2024-05-18",
+  "requester": {
+    "reference": "PractitionerRole/Role-SNFDoc-GeraldPark"
+  },
+  "reasonReference": [
+    {
+      "reference": "Condition/BSJ-AnemiaDiagnosis"
+    }
+  ]
+}

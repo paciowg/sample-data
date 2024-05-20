@@ -1,0 +1,39 @@
+{
+  "resourceType": "Practitioner\"",
+  "id": "Practitioner-JenCadbury",
+  "name": [
+    {
+      "given": [
+        "Jen"
+      ],
+      "family": "Cadbury",
+      "text": "Jen Cadbury"
+    }
+  ],
+  "active": true,
+  "gender": "female",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/sid/us-npi",
+      "value": "1928374650"
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "(210) 555 1871"
+    }
+  ],
+  "address": [
+    {
+      "line": [
+        "8100 Pinebrook Dr"
+      ],
+      "city": "Grand Rapids",
+      "state": "MI",
+      "postalCode": "49504",
+      "country": "US",
+      "text": "8100 Pinebrook Dr, Grand Rapids, MI 49504"
+    }
+  ]
+}

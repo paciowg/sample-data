@@ -1,0 +1,73 @@
+{
+  "resourceType": "Observation",
+  "id": "BSJ-MDS-Activities-PT1",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-collection"
+    ]
+  },
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "survey",
+          "display": "Survey"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-functioning-cs",
+          "code": "functioning",
+          "display": "Functioning"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs",
+          "code": "blockl2-d51",
+          "display": "Self-care"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "101107-1",
+        "display": "MDS v3.0 - RAI v1.18.11 - Nursing home discharge (ND) item set during assessment period [CMS Assessment]"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "effectiveDateTime": "2024-05-16T14:30:00-04:00",
+  "performer": [
+    {
+      "reference": "PractitionerRole/Role-OT-JenCadbury"
+    }
+  ],
+  "hasMember": [
+    {
+      "reference": "Observation/BSJ-MDS-Donning1"
+    },
+    {
+      "reference": "Observation/BSJ-MDS-Doffing1"
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/org-Loc-SNF-Happy-Nursing-Facility"
+      }
+    }
+  ]
+}

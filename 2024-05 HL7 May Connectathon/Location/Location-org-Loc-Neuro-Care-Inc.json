@@ -1,0 +1,18 @@
+{
+  "resourceType": "Location",
+  "id": "org-Loc-Neuro-Care-Inc",
+  "status": "active",
+  "name": "Neuro Care Inc.",
+  "address": [
+    {
+      "line": [
+        "177 Branching Tree Blvd"
+      ],
+      "city": "Grand Rapids",
+      "state": "MI",
+      "postalCode": "49509",
+      "country": "US",
+      "text": "177 Branching Tree Blvd, Grand Rapids, MI 49509"
+    }
+  ]
+}
