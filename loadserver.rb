@@ -138,7 +138,7 @@ json_directory = "2024-05 HL7 May Connectathon/SMP-Samples"
 # Provide the base URL of the server
 # base_url = "https://gw.interop.community/MiHIN/open/"
 # base_url = "https://gravity-ehr-server.herokuapp.com/fhir"
-base_url = 'http://hapi.fhir.org/baseR4/'
+base_url = 'http://hapi.fhir.org/baseR4'
 
 # Call the method to load JSON files onto the server and get the count of unsuccessful uploads
 total, unsuccessful_count = load_json_files(json_directory, base_url)
