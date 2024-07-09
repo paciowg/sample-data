@@ -77,11 +77,11 @@
   "extension": [
     {
       "url": "http://hl7.org/fhir/StructureDefinition/condition-assertedDate",
-      "valueDateTime": "2024-04-17T15:40:00-04:00"
+      "valueDateTime": "2024-06-17T15:40:00-04:00"
     }
   ],
-  "onsetDateTime": "2024-04-17T15:40:00-04:00",
-  "recordedDate": "2023-12-15T18:40:00-04:00",
+  "onsetDateTime": "2024-06-17T15:40:00-04:00",
+  "recordedDate": "2024-06-17T15:40:00-04:00",
   "asserter": {
     "reference": "PractitionerRole/Role-Neuro-NuraMekel"
   },
