@@ -1,0 +1,50 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "BSJ-SNFDischargeDietSalt",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request"
+    ]
+  },
+  "status": "active",
+  "intent": "order",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "182922004",
+          "display": "Dietary regime (regime/therapy)"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "437421000124105",
+        "display": "Decreased sodium diet (regime/therapy)"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "priority": "routine",
+  "occurrencePeriod": {
+    "start": "2024-05-18"
+  },
+  "authoredOn": "2024-05-18",
+  "requester": {
+    "reference": "PractitionerRole/Role-SNFDoc-GeraldPark"
+  },
+  "reasonReference": [
+    {
+      "reference": "Condition/BSJ-HeartDiseaseDiagnosis"
+    },
+    {
+      "reference": "Condition/BSJ-KidneyDisease"
+    }
+  ]
+}

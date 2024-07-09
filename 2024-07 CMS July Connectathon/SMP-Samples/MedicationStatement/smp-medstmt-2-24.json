@@ -1,0 +1,45 @@
+{
+  "resourceType": "MedicationStatement",
+  "id": "smp-medstmt-2-24",
+  "text": {
+    "status": "generated",
+    "div": "<div>Novolin-R Sliding scale insulin protocol</div>"
+  },
+  "basedOn": {
+    "reference": "MedicationRequest/smp-medrx-2-24"
+  },
+  "status": "active",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "93560",
+        "display": "Novolin-R Sliding scale insulin protocol"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "dateAsserted": "2024-04-15",
+  "informationSource": {
+    "reference": "Organization/org-PSC-Prism-General-Hospital",
+    "display": "Prism General Hospital"
+  },
+  "reasonCode": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "359642000",
+        "display": "Diabetes mellitus type 2 in nonobese (disorder)"
+      }
+    ]
+  },
+  "dosage": [
+    {
+      "sequence": 1,
+      "text": "Novolin-R Sliding scale insulin protocol"
+    }
+  ]
+}

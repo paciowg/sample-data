@@ -1,0 +1,45 @@
+{
+  "resourceType": "MedicationStatement",
+  "id": "smp-medstmt-2-22",
+  "text": {
+    "status": "generated",
+    "div": "<div>Docusate Soldium 100mg po twice daily</div>"
+  },
+  "basedOn": {
+    "reference": "MedicationRequest/smp-medrx-2-22"
+  },
+  "status": "active",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "1099278",
+        "display": "Docusate Soldium 100mg po twice daily"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "dateAsserted": "2024-04-15",
+  "informationSource": {
+    "reference": "Organization/org-PSC-Prism-General-Hospital",
+    "display": "Prism General Hospital"
+  },
+  "reasonCode": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "21782001",
+        "display": "Drug-induced constipation"
+      }
+    ]
+  },
+  "dosage": [
+    {
+      "sequence": 1,
+      "text": "Docusate Soldium 100mg po twice daily"
+    }
+  ]
+}

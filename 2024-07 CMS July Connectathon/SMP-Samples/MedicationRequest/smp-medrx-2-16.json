@@ -1,0 +1,39 @@
+{
+  "resourceType": "MedicationRequest",
+  "id": "smp-medrx-2-16",
+  "text": {
+    "status": "generated",
+    "div": "<div>Clopidogrel 75mg po daily</div>"
+  },
+  "status": "active",
+  "intent": "order",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "329449",
+        "display": "Clopidogrel 75mg po daily"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "authoredOn": "2024-04-15",
+  "reasonCode": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "422504002",
+        "display": "Ischemic Stroke (disorder)"
+      }
+    ]
+  },
+  "dosageInstruction": [
+    {
+      "sequence": 1,
+      "text": "Clopidogrel 75mg po daily"
+    }
+  ]
+}

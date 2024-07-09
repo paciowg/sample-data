@@ -1,0 +1,45 @@
+{
+  "resourceType": "MedicationStatement",
+  "id": "smp-medstmt-1-2",
+  "text": {
+    "status": "generated",
+    "div": "<div>Sertraline 25 mg nightly</div>"
+  },
+  "basedOn": {
+    "reference": "MedicationRequest/smp-medrx-1-2"
+  },
+  "status": "active",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "329212",
+        "display": "Sertraline 25 mg nightly"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "dateAsserted": "2024-04-05",
+  "informationSource": {
+    "reference": "Organization/org-HH-Sky-Harbor-Home-Health",
+    "display": "Sky Harbor Home Health Services"
+  },
+  "reasonCode": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "35489007",
+        "display": "Depressive disorder (disorder)"
+      }
+    ]
+  },
+  "dosage": [
+    {
+      "sequence": 1,
+      "text": "Sertraline 25 mg nightly"
+    }
+  ]
+}

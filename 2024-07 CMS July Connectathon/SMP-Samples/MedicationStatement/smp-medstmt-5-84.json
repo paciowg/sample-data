@@ -1,0 +1,45 @@
+{
+  "resourceType": "MedicationStatement",
+  "id": "smp-medstmt-5-84",
+  "text": {
+    "status": "generated",
+    "div": "<div>Accuchecks BID, if diabetes controlled no need to daily</div>"
+  },
+  "basedOn": {
+    "reference": "MedicationRequest/smp-medrx-5-84"
+  },
+  "status": "active",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "2340-9",
+        "display": "Accuchecks BID, if diabetes controlled no need to daily"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "dateAsserted": "2024-05-15",
+  "informationSource": {
+    "reference": "Organization/org-Pharm-Everyday-Community-Pharm",
+    "display": "Everyday Community Pharmacy"
+  },
+  "reasonCode": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "359642000",
+        "display": "Diabetes mellitus type 2 in nonobese (disorder)"
+      }
+    ]
+  },
+  "dosage": [
+    {
+      "sequence": 1,
+      "text": "Accuchecks BID, if diabetes controlled no need to daily"
+    }
+  ]
+}

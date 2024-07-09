@@ -1,0 +1,132 @@
+{
+  "resourceType": "List",
+  "id": "smp-med-list-2B",
+  "text": {
+    "status": "generated",
+    "div": "<div>Hospital Discharge Medication List</div>"
+  },
+  "status": "current",
+  "mode": "snapshot",
+  "title": "Hospital Discharge Medication List",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "104204-3",
+        "display": "Institution Discharge List"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "date": "2024-04-22",
+  "entry": [
+    {
+      "date": "2024-04-22",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-2B-26",
+        "display": "Atorvastatin 40 mg po nightly"
+      }
+    },
+    {
+      "date": "2024-04-22",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-2B-27",
+        "display": "Sertraline 25 mg po nightly"
+      }
+    },
+    {
+      "date": "2024-04-22",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-2B-28",
+        "display": "Furosemide 20 mg po daily"
+      }
+    },
+    {
+      "date": "2024-04-22",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-2B-29",
+        "display": "Carvedilol 6.5mg po twice a day (goal to discontinue Beta Blocker when BP under control) DC at discharge)"
+      }
+    },
+    {
+      "date": "2024-04-22",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-2B-30",
+        "display": "Metformin 500mg po daily"
+      }
+    },
+    {
+      "date": "2024-04-22",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-2B-31",
+        "display": "Empagliflozin (Jardiance) 10mg po qd"
+      }
+    },
+    {
+      "date": "2024-04-22",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-2B-32",
+        "display": "Clopidogrel 75mg po daily"
+      }
+    },
+    {
+      "date": "2024-04-22",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-2B-33",
+        "display": "Losartan 50mg po daily (monitor Potassium)"
+      }
+    },
+    {
+      "date": "2024-04-22",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-2B-34",
+        "display": "Ferrous Gluconate 325mg po daily"
+      }
+    },
+    {
+      "date": "2024-04-22",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-2B-35",
+        "display": "Acetaminophen 325mg 2 tablets every 6 hours or as needed for mild pain"
+      }
+    },
+    {
+      "date": "2024-04-22",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-2B-36",
+        "display": "Accuchecks before meals and at bedtime"
+      }
+    },
+    {
+      "date": "2024-04-22",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-2B-37",
+        "display": "Polyethylene glycol 3350 17g po daily prn constipation"
+      }
+    },
+    {
+      "date": "2024-04-22",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-2B-38",
+        "display": "Docusate 100mg po twice daily (please add \"Sodium\")"
+      }
+    },
+    {
+      "date": "2024-04-22",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-2B-39",
+        "display": "Ondansetron 4mg tablet po q6h prn nausea/vomiting"
+      }
+    },
+    {
+      "date": "2024-04-22",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-2B-40",
+        "display": "Novolin-R Sliding scale insulin protocol"
+      }
+    }
+  ]
+}

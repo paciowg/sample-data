@@ -1,0 +1,39 @@
+{
+  "resourceType": "MedicationRequest",
+  "id": "smp-medrx-3B-61",
+  "text": {
+    "status": "generated",
+    "div": "<div>Acetaminophen 325mg 2 tablets by mouth every 6 hours or as needed for pain</div>"
+  },
+  "status": "active",
+  "intent": "order",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "313782",
+        "display": "Acetaminophen 325mg 2 tablets by mouth every 6 hours or as needed for pain"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "authoredOn": "2024-05-13",
+  "reasonCode": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "396275006",
+        "display": "Osteoarthritis (disorder)"
+      }
+    ]
+  },
+  "dosageInstruction": [
+    {
+      "sequence": 1,
+      "text": "Acetaminophen 325mg 2 tablets by mouth every 6 hours or as needed for pain"
+    }
+  ]
+}

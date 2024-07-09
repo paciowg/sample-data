@@ -1,0 +1,45 @@
+{
+  "resourceType": "MedicationStatement",
+  "id": "smp-medstmt-4-65",
+  "text": {
+    "status": "generated",
+    "div": "<div>Sertraline 50 mg 1 tablet po at bedtime</div>"
+  },
+  "basedOn": {
+    "reference": "MedicationRequest/smp-medrx-4-65"
+  },
+  "status": "active",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "312941",
+        "display": "Sertraline 50 mg 1 tablet po at bedtime"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "dateAsserted": "2024-05-14",
+  "informationSource": {
+    "reference": "Organization/org-HH-Sky-Harbor-Home-Health",
+    "display": "Sky Harbor Home Health Services"
+  },
+  "reasonCode": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "35489007",
+        "display": "Depressive disorder (disorder)"
+      }
+    ]
+  },
+  "dosage": [
+    {
+      "sequence": 1,
+      "text": "Sertraline 50 mg 1 tablet po at bedtime"
+    }
+  ]
+}
