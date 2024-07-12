@@ -1,7 +1,7 @@
-require "json"
-require "httparty"
-require "openssl"
-require "byebug"
+require 'json'
+require 'httparty'
+require 'openssl'
+require 'byebug'
 
 # Disable certificate verification
 OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
@@ -9,10 +9,10 @@ OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
 # Function to make a PUT request
 def make_put_request(url, data)
   headers = {
-    "Content-Type" => "application/json",
+    'Content-Type' => 'application/json'
   }
 
-  response = HTTParty.put(url, body: data.to_json, headers: headers)
+  response = HTTParty.put(url, body: data.to_json, headers:)
 
   if response.success?
     response
@@ -26,11 +26,11 @@ end
 def load_bundle(bundle, base_url)
   bundle_total = 0
   unsuccessful_bundle_uploads = []
-  bundle["entry"]&.each do |entry|
+  bundle['entry']&.each do |entry|
     bundle_total += 1
-    res = entry["resource"]
-    resource_id = res["id"]
-    resource_type = res["resourceType"]
+    res = entry['resource']
+    resource_id = res['id']
+    resource_type = res['resourceType']
     url = "#{base_url}/#{resource_type}/#{resource_id}"
     response = make_put_request(url, res)
 
@@ -55,8 +55,8 @@ def load_bundle(bundle, base_url)
   retry_count = 0
   while retry_count < 10 && !unsuccessful_bundle_uploads.empty?
     unsuccessful_bundle_uploads.shuffle.each do |res|
-      resource_id = res["id"]
-      resource_type = res["resourceType"]
+      resource_id = res['id']
+      resource_type = res['resourceType']
       url = "#{base_url}/#{resource_type}/#{resource_id}"
       response = make_put_request(url, res)
       if response
@@ -79,12 +79,12 @@ def load_json_files(directory, base_url)
   Dir.glob("#{directory}/**/*.json").each do |json_file|
     json_data = File.read(json_file)
     parsed_json = JSON.parse(json_data)
-    resource_type = parsed_json["resourceType"]
-    total += 1 if resource_type != "Bundle"
-    if resource_type == "Bundle"
+    resource_type = parsed_json['resourceType']
+    total += 1 if resource_type != 'Bundle'
+    if resource_type == 'Bundle'
       load_bundle(parsed_json, base_url)
     else
-      resource_id = parsed_json["id"]
+      resource_id = parsed_json['id']
       url = "#{base_url}/#{resource_type}/#{resource_id}"
 
       response = make_put_request(url, parsed_json)
@@ -105,8 +105,8 @@ def load_json_files(directory, base_url)
       json_data = File.read(json_file)
       parsed_json = JSON.parse(json_data)
 
-      resource_type = parsed_json["resourceType"]
-      resource_id = parsed_json["id"]
+      resource_type = parsed_json['resourceType']
+      resource_id = parsed_json['id']
       url = "#{base_url}/#{resource_type}/#{resource_id}"
 
       response = make_put_request(url, parsed_json)
@@ -122,26 +122,20 @@ def load_json_files(directory, base_url)
     retry_count += 1
   end
 
-  [total, unsuccessful_uploads.length]
+  { total_files: total, total_unsuccessful_uploads: unsuccessful_uploads.length, unsuccessful_uploads: }
 end
 
 # Provide the directory path containing the JSON files
-# json_directory = "2023-07-CMS-July-Connectathon/PFE/scene-0"
-# json_directory = "2023-07-CMS-July-Connectathon/PFE/scene-1"
-# json_directory = "2023-07-CMS-July-Connectathon/PFE/scene-2"
-# json_directory = "2023-07-CMS-July-Connectathon/PFE/scene-4"
-# json_directory = "2023-07-CMS-July-Connectathon/PFE/scene-5"
-# json_directory = "2023-07-CMS-July-Connectathon/GracitySDOH"
-# json_directory = "2023-09 HL7 Sept Connectathon"
-json_directory = "2024-05 HL7 May Connectathon/SMP-Samples"
+json_directory = 'pfe_ig_examples'
 
 # Provide the base URL of the server
-# base_url = "https://gw.interop.community/MiHIN/open/"
+base_url = 'https://gw.interop.community/MiHIN/open'
 # base_url = "https://gravity-ehr-server.herokuapp.com/fhir"
-base_url = 'http://hapi.fhir.org/baseR4/'
+# base_url = 'http://hapi.fhir.org/baseR4'
 
 # Call the method to load JSON files onto the server and get the count of unsuccessful uploads
-total, unsuccessful_count = load_json_files(json_directory, base_url)
+# total, unsuccessful_count = load_json_files(json_directory, base_url)
 
-puts "Total files: #{total}"
-puts "Total unsuccessful uploads: #{unsuccessful_count}"
+# puts "Total files: #{total}"
+# puts "Total unsuccessful uploads: #{unsuccessful_count}"
+puts load_json_files(json_directory, base_url).inspect
