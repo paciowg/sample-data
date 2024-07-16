@@ -1,0 +1,41 @@
+{
+  "resourceType": "MedicationRequest",
+  "id": "smp-medrx-2-23",
+  "text": {
+    "status": "generated",
+    "div": "<div>Ondansetron 4mg tablet</div>"
+  },
+  "status": "active",
+  "intent": "order",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "198052",
+        "display": "Ondansetron 4mg tablet"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "authoredOn": "2024-06-17",
+  "reasonCode": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "16932000",
+          "display": "Nausea and vomiting"
+        }
+      ]
+    }
+  ],
+  "dosageInstruction": [
+    {
+      "sequence": 1,
+      "text": "tablet po q6h prn nausea/vomiting"
+    }
+  ]
+}

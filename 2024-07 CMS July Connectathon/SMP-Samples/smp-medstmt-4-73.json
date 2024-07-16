@@ -1,0 +1,49 @@
+{
+  "resourceType": "MedicationStatement",
+  "id": "smp-medstmt-4-73",
+  "text": {
+    "status": "generated",
+    "div": "<div>Accuchecks BID</div>"
+  },
+  "basedOn": [
+    {
+      "reference": "MedicationRequest/smp-medrx-4-73"
+    }
+  ],
+  "status": "active",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "2340-9",
+        "display": "Accuchecks"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "dateAsserted": "2024-07-16",
+  "informationSource": {
+    "reference": "Organization/org-HH-Sky-Harbor-Home-Health",
+    "display": "Sky Harbor Home Health Services"
+  },
+  "reasonCode": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "359642000",
+          "display": "Diabetes mellitus type 2 in nonobese (disorder)"
+        }
+      ]
+    }
+  ],
+  "dosage": [
+    {
+      "sequence": 1,
+      "text": "BID"
+    }
+  ]
+}

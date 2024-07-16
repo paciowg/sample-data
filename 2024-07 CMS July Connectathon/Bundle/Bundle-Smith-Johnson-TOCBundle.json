@@ -82,7 +82,7 @@
     },
     {
       "resource": {
-        "id": "CMS2023-org-PSC-Prism-General-Hospital",
+        "id": "org-PSC-Prism-General-Hospital",
         "name": "Prism General Hospital",
         "resourceType": "Organization"
       }
@@ -963,7 +963,7 @@
               {
                 "system": "http://snomed.info/sct",
                 "code": "113331007",
-                "display": "Structure of endocrine system (body structure)"
+                "display": "Structure of endocrine system"
               }
             ]
           }
@@ -1125,7 +1125,7 @@
               {
                 "system": "http://snomed.info/sct",
                 "code": "40927001",
-                "display": "Both lower legs (body structure)"
+                "display": "Both lower legs"
               }
             ]
           }
@@ -1204,7 +1204,7 @@
               {
                 "system": "http://snomed.info/sct",
                 "code": "113257007",
-                "display": "Structure of cardiovascular system (body structure)"
+                "display": "Structure of cardiovascular system"
               }
             ]
           }
@@ -1284,7 +1284,7 @@
               {
                 "system": "http://snomed.info/sct",
                 "code": "17373004",
-                "display": "Both kidneys (body structure)"
+                "display": "Both kidneys"
               }
             ]
           }
@@ -1364,7 +1364,7 @@
               {
                 "system": "http://snomed.info/sct",
                 "code": "71854001",
-                "display": "Colon structure (body structure)"
+                "display": "Colon structure"
               }
             ]
           }
@@ -1443,7 +1443,7 @@
               {
                 "system": "http://snomed.info/sct",
                 "code": "414722000",
-                "display": "Structure of middle cerebral artery M1 segment (body structure)"
+                "display": "Structure of middle cerebral artery M1 segment"
               }
             ]
           },
@@ -1538,7 +1538,7 @@
               {
                 "system": "http://snomed.info/sct",
                 "code": "113192009",
-                "display": "Skeletal system structure (body structure)"
+                "display": "Skeletal system structure"
               }
             ]
           }
@@ -1617,7 +1617,7 @@
               {
                 "system": "http://snomed.info/sct",
                 "code": "113257007",
-                "display": "Structure of cardiovascular system (body structure)"
+                "display": "Structure of cardiovascular system"
               }
             ]
           }
@@ -1708,7 +1708,7 @@
               {
                 "system": "http://snomed.info/sct",
                 "code": "362875007",
-                "display": "Entire lower body (body structure)"
+                "display": "Entire lower body"
               }
             ]
           }
@@ -1817,7 +1817,7 @@
               {
                 "system": "http://snomed.info/sct",
                 "code": "12738006",
-                "display": "Brain structure (body structure)"
+                "display": "Brain structure"
               }
             ]
           }
@@ -1893,7 +1893,7 @@
               {
                 "system": "http://snomed.info/sct",
                 "code": "113257007",
-                "display": "Structure of cardiovascular system (body structure)"
+                "display": "Structure of cardiovascular system"
               }
             ]
           }
@@ -2135,7 +2135,7 @@
               {
                 "system": "http://snomed.info/sct",
                 "code": "368209003",
-                "display": "Entire Right Arm (body structure)"
+                "display": "Entire Right Arm"
               }
             ]
           }
@@ -2229,7 +2229,7 @@
               {
                 "system": "http://snomed.info/sct",
                 "code": "368209003",
-                "display": "Entire Right Arm (body structure)"
+                "display": "Entire Right Arm"
               }
             ]
           }
@@ -2315,7 +2315,7 @@
               {
                 "system": "http://snomed.info/sct",
                 "code": "113257007",
-                "display": "Structure of cardiovascular system (body structure)"
+                "display": "Structure of cardiovascular system"
               }
             ]
           }

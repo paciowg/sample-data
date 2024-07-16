@@ -1,0 +1,38 @@
+{
+  "resourceType": "MedicationAdministration",
+  "id": "smp-medadm-3-44",
+  "text": {
+    "status": "generated",
+    "div": "<div>Carvedilol 6.25mg 1 tablet po BID (DC when BP under control)</div>"
+  },
+  "status": "completed",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "200031",
+        "display": "Carvedilol 6.25mg"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "reasonCode": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "38341003",
+          "display": "Hypertensive disorder, systemic arterial (disorder)"
+        }
+      ]
+    }
+  ],
+  "dosage": [
+    {
+      "text": "1 tablet po BID (DC when BP under control)"
+    }
+  ]
+}

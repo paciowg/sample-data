@@ -1,0 +1,41 @@
+{
+  "resourceType": "MedicationRequest",
+  "id": "smp-medrx-4-64",
+  "text": {
+    "status": "generated",
+    "div": "<div>Atorvastatin 40 mg</div>"
+  },
+  "status": "active",
+  "intent": "order",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "617311",
+        "display": "Atorvastatin 40 mg"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "authoredOn": "2024-07-16",
+  "reasonCode": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "55822004",
+          "display": "Hyperlipidemia"
+        }
+      ]
+    }
+  ],
+  "dosageInstruction": [
+    {
+      "sequence": 1,
+      "text": "1 tablet by mouth at bedtime"
+    }
+  ]
+}

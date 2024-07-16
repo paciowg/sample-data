@@ -1,0 +1,49 @@
+{
+  "resourceType": "MedicationStatement",
+  "id": "smp-medstmt-5-77",
+  "text": {
+    "status": "generated",
+    "div": "<div>Furosemide 20 mg 1 tablet po daily</div>"
+  },
+  "basedOn": [
+    {
+      "reference": "MedicationRequest/smp-medrx-5-77"
+    }
+  ],
+  "status": "active",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "310429",
+        "display": "Furosemide 20 mg"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "dateAsserted": "2024-07-17",
+  "informationSource": {
+    "reference": "Organization/org-Pharm-Everyday-Community-Pharm",
+    "display": "Everyday Community Pharmacy"
+  },
+  "reasonCode": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "731000119105",
+          "display": "Chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)"
+        }
+      ]
+    }
+  ],
+  "dosage": [
+    {
+      "sequence": 1,
+      "text": "1 tablet po daily"
+    }
+  ]
+}

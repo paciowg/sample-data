@@ -60,7 +60,7 @@
         {
           "system": "http://snomed.info/sct",
           "code": "12738006",
-          "display": "Brain structure (body structure)"
+          "display": "Brain structure"
         }
       ]
     }

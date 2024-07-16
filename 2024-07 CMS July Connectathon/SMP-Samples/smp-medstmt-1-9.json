@@ -1,0 +1,49 @@
+{
+  "resourceType": "MedicationStatement",
+  "id": "smp-medstmt-1-9",
+  "text": {
+    "status": "generated",
+    "div": "<div>Ferrous Sulfate 325 mg three times a day before meals</div>"
+  },
+  "basedOn": [
+    {
+      "reference": "MedicationRequest/smp-medrx-1-9"
+    }
+  ],
+  "status": "active",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "310325",
+        "display": "Ferrous Sulfate 325 mg"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "dateAsserted": "2024-06-07",
+  "informationSource": {
+    "reference": "Organization/org-HH-Sky-Harbor-Home-Health",
+    "display": "Sky Harbor Home Health Services"
+  },
+  "reasonCode": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "691421000119108",
+          "display": "Anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)"
+        }
+      ]
+    }
+  ],
+  "dosage": [
+    {
+      "sequence": 1,
+      "text": "three times a day before meals"
+    }
+  ]
+}

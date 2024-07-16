@@ -1,0 +1,44 @@
+{
+  "resourceType": "MedicationStatement",
+  "id": "smp-medstmt-2B-30",
+  "text": {
+    "status": "generated",
+    "div": "<div>Metformin 500mg po daily</div>"
+  },
+  "status": "intended",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "311570",
+        "display": "Metformin 500mg"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "dateAsserted": "2024-06-22",
+  "informationSource": {
+    "reference": "Organization/org-PSC-Prism-General-Hospital",
+    "display": "Prism General Hospital"
+  },
+  "reasonCode": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "359642000",
+          "display": "Diabetes mellitus type 2 in nonobese (disorder)"
+        }
+      ]
+    }
+  ],
+  "dosage": [
+    {
+      "sequence": 1,
+      "text": "po daily"
+    }
+  ]
+}

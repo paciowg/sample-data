@@ -1,0 +1,49 @@
+{
+  "resourceType": "MedicationStatement",
+  "id": "smp-medstmt-5-83",
+  "text": {
+    "status": "generated",
+    "div": "<div>Acetaminophen (Tylenol) 325mg 2 tablets every 6 hours or as needed for pain</div>"
+  },
+  "basedOn": [
+    {
+      "reference": "MedicationRequest/smp-medrx-5-83"
+    }
+  ],
+  "status": "active",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "313782",
+        "display": "Acetaminophen (Tylenol) 325mg"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "dateAsserted": "2024-07-17",
+  "informationSource": {
+    "reference": "Organization/org-Pharm-Everyday-Community-Pharm",
+    "display": "Everyday Community Pharmacy"
+  },
+  "reasonCode": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "396275006",
+          "display": "Osteoarthritis (disorder)"
+        }
+      ]
+    }
+  ],
+  "dosage": [
+    {
+      "sequence": 1,
+      "text": "2 tablets every 6 hours or as needed for pain"
+    }
+  ]
+}

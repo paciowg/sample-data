@@ -1,0 +1,50 @@
+{
+  "resourceType": "MedicationStatement",
+  "id": "smp-medstmt-3-51",
+  "text": {
+    "status": "generated",
+    "div": "<div>Accuchecks before meals and at bedtime x 3 days then prn depending on results</div>"
+  },
+  "basedOn": [
+    {
+      "reference": "MedicationRequest/smp-medrx-3-51"
+    }
+  ],
+  "status": "active",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "2340-9",
+        "display": "Accuchecks"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "dateAsserted": "2024-06-22",
+  "informationSource": {
+    "reference": "Organization/org-SNF-Happy-Nursing-Facility",
+    "display": "Happy Nursing Facility"
+  },
+  "reasonCode": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "359642000",
+          "display": "Diabetes mellitus type 2 in nonobese (disorder)"
+        }
+      ]
+    }
+  ],
+  "dosage": [
+    {
+      "sequence": 1,
+      "text": "before meals and at bedtime x 3 days then prn depending on results"
+    }
+  ],
+  "note": "(purpose of hypoglycemics is to manage bs to prevent symptoms of polyuria and hypoglycemia and not to reach an A1c goal)"
+}

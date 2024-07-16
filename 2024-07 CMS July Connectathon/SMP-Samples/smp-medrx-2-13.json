@@ -1,0 +1,41 @@
+{
+  "resourceType": "MedicationRequest",
+  "id": "smp-medrx-2-13",
+  "text": {
+    "status": "generated",
+    "div": "<div>Carvedilol to 6.25mg</div>"
+  },
+  "status": "active",
+  "intent": "order",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "200031",
+        "display": "Carvedilol to 6.25mg"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "authoredOn": "2024-06-17",
+  "reasonCode": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "38341003",
+          "display": "Hypertensive disorder, systemic arterial (disorder)"
+        }
+      ]
+    }
+  ],
+  "dosageInstruction": [
+    {
+      "sequence": 1,
+      "text": "po twice a day"
+    }
+  ]
+}

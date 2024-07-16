@@ -1,0 +1,49 @@
+{
+  "resourceType": "MedicationStatement",
+  "id": "smp-medstmt-2-23",
+  "text": {
+    "status": "generated",
+    "div": "<div>Ondansetron 4mg tablet tablet po q6h prn nausea/vomiting</div>"
+  },
+  "basedOn": [
+    {
+      "reference": "MedicationRequest/smp-medrx-2-23"
+    }
+  ],
+  "status": "active",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "198052",
+        "display": "Ondansetron 4mg tablet"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "dateAsserted": "2024-06-17",
+  "informationSource": {
+    "reference": "Organization/org-PSC-Prism-General-Hospital",
+    "display": "Prism General Hospital"
+  },
+  "reasonCode": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "16932000",
+          "display": "Nausea and vomiting"
+        }
+      ]
+    }
+  ],
+  "dosage": [
+    {
+      "sequence": 1,
+      "text": "tablet po q6h prn nausea/vomiting"
+    }
+  ]
+}

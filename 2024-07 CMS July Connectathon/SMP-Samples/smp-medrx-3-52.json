@@ -1,0 +1,41 @@
+{
+  "resourceType": "MedicationRequest",
+  "id": "smp-medrx-3-52",
+  "text": {
+    "status": "generated",
+    "div": "<div>Polyethylene glycol 3350 17g</div>"
+  },
+  "status": "active",
+  "intent": "order",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "876193",
+        "display": "Polyethylene glycol 3350 17g"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "authoredOn": "2024-06-22",
+  "reasonCode": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "21782001",
+          "display": "Drug-induced constipation"
+        }
+      ]
+    }
+  ],
+  "dosageInstruction": [
+    {
+      "sequence": 1,
+      "text": "17g po daily prn constipation"
+    }
+  ]
+}

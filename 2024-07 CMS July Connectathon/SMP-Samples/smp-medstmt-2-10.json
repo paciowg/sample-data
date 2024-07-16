@@ -1,0 +1,49 @@
+{
+  "resourceType": "MedicationStatement",
+  "id": "smp-medstmt-2-10",
+  "text": {
+    "status": "generated",
+    "div": "<div>Atorvastatin 40 mg po po nightly</div>"
+  },
+  "basedOn": [
+    {
+      "reference": "MedicationRequest/smp-medrx-2-10"
+    }
+  ],
+  "status": "active",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "617311",
+        "display": "Atorvastatin 40 mg po"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "dateAsserted": "2024-06-17",
+  "informationSource": {
+    "reference": "Organization/org-PSC-Prism-General-Hospital",
+    "display": "Prism General Hospital"
+  },
+  "reasonCode": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "55822004",
+          "display": "Hyperlipidemia"
+        }
+      ]
+    }
+  ],
+  "dosage": [
+    {
+      "sequence": 1,
+      "text": "po nightly"
+    }
+  ]
+}

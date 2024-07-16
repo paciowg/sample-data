@@ -1,0 +1,49 @@
+{
+  "resourceType": "MedicationStatement",
+  "id": "smp-medstmt-3-50",
+  "text": {
+    "status": "generated",
+    "div": "<div>Acetaminophen 325mg 2 tablets every 6 hours or as needed for mild pain</div>"
+  },
+  "partOf": [
+    {
+      "reference": "MedicationAdministration/smp-medadm-3-50"
+    }
+  ],
+  "status": "active",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "313782",
+        "display": "Acetaminophen 325mg"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "dateAsserted": "2024-06-22",
+  "informationSource": {
+    "reference": "Organization/org-SNF-Happy-Nursing-Facility",
+    "display": "Happy Nursing Facility"
+  },
+  "reasonCode": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "396275006",
+          "display": "Osteoarthritis (disorder)"
+        }
+      ]
+    }
+  ],
+  "dosage": [
+    {
+      "sequence": 1,
+      "text": "2 tablets every 6 hours or as needed for mild pain"
+    }
+  ]
+}

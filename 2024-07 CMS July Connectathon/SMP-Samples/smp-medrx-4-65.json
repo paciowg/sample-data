@@ -1,0 +1,41 @@
+{
+  "resourceType": "MedicationRequest",
+  "id": "smp-medrx-4-65",
+  "text": {
+    "status": "generated",
+    "div": "<div>Sertraline 50 mg</div>"
+  },
+  "status": "active",
+  "intent": "order",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "312941",
+        "display": "Sertraline 50 mg"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "authoredOn": "2024-07-16",
+  "reasonCode": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "35489007",
+          "display": "Depressive disorder (disorder)"
+        }
+      ]
+    }
+  ],
+  "dosageInstruction": [
+    {
+      "sequence": 1,
+      "text": "1 tablet po at bedtime"
+    }
+  ]
+}

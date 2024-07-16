@@ -1,7 +1,7 @@
-require "json"
-require "httparty"
-require "openssl"
-require "byebug"
+require 'json'
+require 'httparty'
+require 'openssl'
+require 'byebug'
 
 # Disable certificate verification
 OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
@@ -9,10 +9,10 @@ OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
 # Function to make a PUT request
 def make_put_request(url, data)
   headers = {
-    "Content-Type" => "application/json",
+    'Content-Type' => 'application/json'
   }
 
-  response = HTTParty.put(url, body: data.to_json, headers: headers)
+  response = HTTParty.put(url, body: data.to_json, headers:)
 
   if response.success?
     response
@@ -26,12 +26,13 @@ end
 def load_bundle(bundle, base_url)
   bundle_total = 0
   unsuccessful_bundle_uploads = []
-  bundle["entry"]&.each do |entry|
+  bundle['entry']&.each do |entry|
     bundle_total += 1
-    res = entry["resource"]
-    resource_id = res["id"]
-    resource_type = res["resourceType"]
+    res = entry['resource']
+    resource_id = res['id']
+    resource_type = res['resourceType']
     url = "#{base_url}/#{resource_type}/#{resource_id}"
+
     response = make_put_request(url, res)
 
     if response
@@ -55,8 +56,8 @@ def load_bundle(bundle, base_url)
   retry_count = 0
   while retry_count < 10 && !unsuccessful_bundle_uploads.empty?
     unsuccessful_bundle_uploads.shuffle.each do |res|
-      resource_id = res["id"]
-      resource_type = res["resourceType"]
+      resource_id = res['id']
+      resource_type = res['resourceType']
       url = "#{base_url}/#{resource_type}/#{resource_id}"
       response = make_put_request(url, res)
       if response
@@ -134,13 +135,6 @@ def load_json_files(directory, base_url)
 end
 
 # Provide the directory path containing the JSON files
-# json_directory = "2023-07-CMS-July-Connectathon/PFE/scene-0"
-# json_directory = "2023-07-CMS-July-Connectathon/PFE/scene-1"
-# json_directory = "2023-07-CMS-July-Connectathon/PFE/scene-2"
-# json_directory = "2023-07-CMS-July-Connectathon/PFE/scene-4"
-# json_directory = "2023-07-CMS-July-Connectathon/PFE/scene-5"
-# json_directory = "2023-07-CMS-July-Connectathon/GracitySDOH"
-# json_directory = "2023-09 HL7 Sept Connectathon"
 json_directory = '2024-07 CMS July Connectathon/Bundle'
 
 # Provide the base URL of the server
