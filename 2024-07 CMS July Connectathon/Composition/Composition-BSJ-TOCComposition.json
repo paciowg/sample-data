@@ -1,0 +1,250 @@
+{
+  "resourceType": "Composition",
+  "id": "BSJ-TOCComposition",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-toc/StructureDefinition/TOC-Composition"
+    ]
+  },
+  "language": "en-US",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><a name=\"Composition_BSJ-TOCComposition\"> </a><p><b>Generated Narrative: Composition</b><a name=\"BSJ-TOCComposition\"> </a><a name=\"hcBSJ-TOCComposition\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">ResourceComposition &quot;BSJ-TOCComposition&quot;  (Language &quot;en-US&quot;) </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-TOC-Composition.html\">Transition of Care Composition</a></p></div><p><b>identifier</b>: <code>urn:oid:2.16.840.1.113883.4.823.1.7125</code>/20130607100315-CCDA-CCD</p><p><b>status</b>: final</p><p><b>type</b>: Discharge summary - recommended C-CDA R2.1 sections <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#81218-0)</span></p><p><b>date</b>: 2024-05-10 08:49:58-0400</p><p><b>author</b>: See on this page: Practitioner/Practitioner-JenCadbury</p><p><b>title</b>: Transitions of Care Document for Betsy Smith-Johnson</p><p><b>custodian</b>: See on this page: Organization/org-SNF-Happy-Nursing-Facility</p></div>"
+  },
+  "identifier": {
+    "system": "urn:oid:2.16.840.1.113883.4.823.1.7125",
+    "value": "20130607100315-CCDA-CCD"
+  },
+  "status": "final",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "81218-0",
+        "display": "Discharge summary - recommended C-CDA R2.1 sections"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "date": "2024-05-10T08:49:58.313-04:00",
+  "author": [
+    {
+      "reference": "Practitioner/Practitioner-JenCadbury"
+    }
+  ],
+  "title": "Transitions of Care Document for Betsy Smith-Johnson",
+  "custodian": {
+    "reference": "Organization/org-SNF-Happy-Nursing-Facility"
+  },
+  "section": [
+    {
+      "text": {
+        "status": "additional",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Information sections for the transitions of care for Betsy Smith-Johnson</div>"
+      }
+    },
+    {
+      "title": "List of allergies for Betsy Smith-Johnson",
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "48765-2"
+          }
+        ]
+      },
+      "text": {
+        "status": "additional",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Allergies for Betsy Smith-Johnson</div>"
+      },
+      "entry": [
+        {
+          "reference": "AllergyIntolerance/BSJ-AllergyACE"
+        }
+      ]
+    },
+    {
+      "title": "List of Advance Directives for Betsy Smith-Johnson",
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "42348-3"
+          }
+        ]
+      },
+      "text": {
+        "status": "additional",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Advance Directives for Betsy Smith-Johnson</div>"
+      },
+      "entry": [
+        {
+          "reference": "DocumentReference/BSJ-ADIMHD"
+        },
+        {
+          "reference": "DocumentReference/BSJ-ADIPACP"
+        },
+        {
+          "reference": "DocumentReference/BSJ-ADIPMO"
+        }
+      ]
+    },
+    {
+      "title": "Functional status of Betsy Smith-Johnson",
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "54522-8"
+          }
+        ]
+      },
+      "text": {
+        "status": "additional",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Functional status of Betsy Smith-Johnson</div>"
+      },
+      "entry": [
+        {
+          "reference": "Observation/BSJ-MDS-Activities-PT1"
+        },
+        {
+          "reference": "Observation/BSJ-MDS-Doffing1"
+        },
+        {
+          "reference": "Observation/BSJ-MDS-Donning1"
+        },
+        {
+          "reference": "Observation/BSJ-MDS-Mobility-PT1"
+        },
+        {
+          "reference": "Observation/BSJ-MDS-ShortWalk1"
+        },
+        {
+          "reference": "Observation/BSJ-MDS-SitStand1"
+        },
+        {
+          "reference": "Observation/BSJ-MDS-SitUp1"
+        }
+      ]
+    },
+    {
+      "title": "List of medications prescribed for Betsy Smith-Johnson",
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "52471-0"
+          }
+        ]
+      },
+      "text": {
+        "status": "additional",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of medications prescribed for Betsy Smith-Johnson</div>"
+      }
+    },
+    {
+      "title": "Discharge care plan for Betsy Smith-Johnson",
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "74449-0"
+          }
+        ]
+      },
+      "text": {
+        "status": "additional",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Discharge care plan for Betsy Smith-Johnson</div>"
+      },
+      "entry": [
+        {
+          "reference": "CarePlan/BSJ-SNFDischargeCarePlan"
+        }
+      ]
+    },
+    {
+      "title": "List of problem conditions and observations for Betsy Smith-Johnson",
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "18776-5"
+          }
+        ]
+      },
+      "text": {
+        "status": "additional",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of problem conditions and observations for Betsy Smith-Johnson</div>"
+      },
+      "entry": [
+        {
+          "reference": "Condition/BSJ-AnemiaDiagnosis"
+        },
+        {
+          "reference": "Condition/BSJ-Constipation"
+        },
+        {
+          "reference": "Condition/BSJ-DepressionDiagnosis"
+        },
+        {
+          "reference": "Condition/BSJ-DiabetesDiagnosis"
+        },
+        {
+          "reference": "Condition/BSJ-DressingConcern"
+        },
+        {
+          "reference": "Condition/BSJ-HeartDiseaseDiagnosis"
+        },
+        {
+          "reference": "Condition/BSJ-HemiparesisDiagnosis"
+        },
+        {
+          "reference": "Condition/BSJ-Hyperlipidemia"
+        },
+        {
+          "reference": "Condition/BSJ-HypertensionDiagnosis"
+        },
+        {
+          "reference": "Condition/BSJ-KidneyDisease"
+        },
+        {
+          "reference": "Condition/BSJ-NauseaAndVomiting"
+        },
+        {
+          "reference": "Condition/BSJ-StrokeDiagnosis"
+        },
+        {
+          "reference": "Condition/BSJ-UndressingConcern"
+        },
+        {
+          "reference": "Condition/OT-ProblemList-Decondition"
+        },
+        {
+          "reference": "Condition/OT-ProblemList-RightWeak"
+        }
+      ]
+    },
+    {
+      "title": "List of test results for Betsy Smith-Johnson",
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "19146-0"
+          }
+        ]
+      },
+      "text": {
+        "status": "additional",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of test results for Betsy Smith-Johnson</div>"
+      },
+      "entry": [
+        {
+          "reference": "Observation/BSJ-Lab-Hemaglobin"
+        }
+      ]
+    }
+  ]
+}

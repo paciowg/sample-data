@@ -1,0 +1,127 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "BSJ-ADIMHD",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2024-05-19T15:48:36.000+00:00",
+    "source": "#WBL6SLR0jf1LUX4w"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/us/ccda/StructureDefinition/VersionNumber",
+      "valueInteger": 1
+    }
+  ],
+  "masterIdentifier": {
+    "system": "https://mydirectives.com/standards/terminology/namingSystem/clinicalDocumentId",
+    "value": "2.16.840.1.113883.15.15.100.1:11220-d580858d0d83427381cd9d2237580048-1"
+  },
+  "identifier": [
+    {
+      "system": "https://mydirectives.com/standards/terminology/namingSystem/setId",
+      "value": "2.16.840.1.113883.15.15.200.1:11220-d580858d0d83427381cd9d2237580048"
+    }
+  ],
+  "status": "current",
+  "docStatus": "final",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "42348-3",
+        "display": "Advance directives"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "104144-1",
+        "display": "Mental Health Directive"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "42348-3",
+          "display": "Advance Directive"
+        }
+      ]
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1",
+    "display": "Smith-Johnson, Betsy"
+  },
+  "date": "2023-12-22T05:00:00.000+00:00",
+  "author": [
+    {
+      "reference": "Patient/patientBSJ1",
+      "display": "Smith-Johnson, Betsy"
+    }
+  ],
+  "authenticator": {
+    "reference": "Organization/46e1f46a-f9d1-4c95-9ea5-ca72c3922d6c"
+  },
+  "custodian": {
+    "reference": "Organization/46e1f46a-f9d1-4c95-9ea5-ca72c3922d6c"
+  },
+  "description": "Mental Health Directive (Maryland)",
+  "securityLabel": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/Confidentiality",
+          "code": "N",
+          "display": "normal"
+        }
+      ]
+    }
+  ],
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/cda+xml",
+        "url": "https://qa-rr-fhir2.maxmddirect.com/Binary/51699f19-8fc2-4977-a451-abe5478c4935"
+      },
+      "format": {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes",
+        "code": "urn:hl7-org:sdwg:pacp-nonXMLBody:1.3.1",
+        "display": "PACP Unstructured CDA Document"
+      }
+    },
+    {
+      "attachment": {
+        "contentType": "application/pdf",
+        "url": "https://qa-rr-fhir2.maxmddirect.com/Binary/ac12b82b-11f9-49f4-9415-b727e029e07b"
+      }
+    },
+    {
+      "attachment": {
+        "contentType": "application/fhir+json",
+        "url": "https://qa-rr-fhir2.maxmddirect.com/Binary/83c14307-fa5c-4759-8638-3d17c73ed2af"
+      },
+      "format": {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes",
+        "code": "urn:hl7-org:pe:adipacp-unstructuredBody:1.1",
+        "display": "ADIPACP Unstructured FHIR Document"
+      }
+    },
+    {
+      "attachment": {
+        "contentType": "application/fhir+json",
+        "url": "https://qa-rr-fhir2.maxmddirect.com/Bundle/2492f79b-f07d-4487-93cc-bd1ebaee4354"
+      },
+      "format": {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes",
+        "code": "urn:hl7-org:pe:adipacp-unstructuredBody-bundle:1.1",
+        "display": "ADIPACP Unstructured FHIR Document Bundle"
+      }
+    },
+    {
+      "attachment": {
+        "url": "https://qa-rr-fhir2.maxmddirect.com/Composition/65ddce35-098e-4859-8d71-08cd46234b63"
+      }
+    }
+  ]
+}

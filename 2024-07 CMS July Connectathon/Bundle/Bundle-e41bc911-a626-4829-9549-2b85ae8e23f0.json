@@ -1,0 +1,485 @@
+{
+  "resourceType": "Bundle",
+  "id": "e41bc911-a626-4829-9549-2b85ae8e23f0",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-05-19T16:05:15.000+00:00",
+    "source": "#SpB3s331gOqeFchV"
+  },
+  "identifier": {
+    "system": "https://mydirectives.com/standards/terminology/namingSystem/clinicalDocumentId",
+    "value": "2.16.840.1.113883.15.15.100.1:0-d580858d0d83427381cd9d2237580048-2"
+  },
+  "type": "document",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Composition",
+        "id": "a64613f2-3e9b-4180-a334-dc9f499ee8c8",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/ccda/StructureDefinition/VersionNumber",
+            "valueInteger": 2
+          }
+        ],
+        "identifier": {
+          "system": "https://mydirectives.com/standards/terminology/namingSystem/setId",
+          "value": "2.16.840.1.113883.15.15.200.1:0-d580858d0d83427381cd9d2237580048"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "42348-3",
+              "display": "Advance directives"
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "81334-5",
+              "display": "Personal Advance Care Plan"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "42348-3",
+                "display": "Advance directives"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/patientBSJ1",
+          "display": "Smith-Johnson, Betsy"
+        },
+        "date": "2024-03-15T19:26:52+00:00",
+        "author": [
+          {
+            "reference": "Patient/patientBSJ1",
+            "display": "Smith-Johnson, Betsy"
+          }
+        ],
+        "title": "Personal Advance Care Plan Document",
+        "confidentiality": "N",
+        "custodian": {
+          "reference": "Organization/46e1f46a-f9d1-4c95-9ea5-ca72c3922d6c"
+        },
+        "section": [
+          {
+            "title": "Additional documentation",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "77599-9",
+                  "display": "Additional documentation"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table>    <tbody>        <tr>            <td>                <span>                    <span>Advance Directive</span>                    <br/>                    <span>Do you have an advance directive that you would like to upload?</span>                </span>            </td>            <td>                <span>                            <p>Yes.</p>                            <p>I have created a Mental Health Directive to guide care if I have a crisis with my bipolar illness.  I am removing my Michigan advance directive so that there is less confusion about what I want if I have a health crisis.</p>                </span>            </td>        </tr>        <tr>            <td>                <span>                    <span>DNR, DNAR or AND</span>                    <br/>                    <span>Do you have a portable medical order form like a DNR (Do Not Resuscitate), DNAR (Do Not Allow Resuscitation), or AND (Allow Natural Death) in place?</span>                </span>            </td>            <td>                <span>                            <p>Yes.</p>                            <p>At my next appointment I am going to talk to Dr. Onko about making a portable medical order, please look for it.</p>                </span>            </td>        </tr>        <tr>            <td>                <span>                    <span>Additional Medical Orders</span>                    <br/>                    <span>Do you have a portable medical order like a MOLST, POLST, or similar medical order form that you would like to upload in place?</span>                </span>            </td>            <td>                <span>                            <p>Yes.</p>                            <p>Please contact Dr. Onko for an order we are going to work on at my next appointment.</p>                </span>            </td>        </tr>    </tbody></table></div>"
+            }
+          },
+          {
+            "title": "My Thoughts",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "81338-6",
+                  "display": "GPP for care experience"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table>    <tbody>        <tr>            <td>                <span>                    <span>My Likes and Joys</span>                    <br/>                    <span>What should caregivers know about your likes and joys to tailor your care? You might want sunshine and fresh air, music, or photos nearby.</span>                </span>            </td>            <td>                <span>                            <p>I love the sound of my grandchildren playing, let them come see me any time they can.  I love sunshine on my face, please make sure I'm near a window so I can see outside and feel the sun on my face.  Make sure my dog can be with me, he's a comfort to me and won't understand what happened if I become very ill and leave this world.  Being near me will help him understand.</p>                </span>            </td>        </tr>        <tr>            <td>                <span>                    <span>My Dislikes and Fears</span>                    <br/>                    <span>What should caregivers know about your dislikes or fears? Maybe being left alone or being in the dark? Maybe you don’t like needles? Perhaps there are visitors you don’t want to see, or maybe you fear a family member or pet won’t be cared for.</span>                </span>            </td>            <td>                <span>                            <p>I do not like my feet to be cold, and they get that way often.  I don't like to be spoken to impersonally, I'm a person who has lived a full life and deserve the dignity that long life has awarded me.</p>                            <p>I have completed a Mental Health Advance Directive, please obtain that from Charles or the state health information exchange so I can get the care I need from the people I want taking care of me.</p>                </span>            </td>        </tr>        <tr>            <td>                <span>                    <span>How to Care for Me</span>                    <br/>                    <span>Describe how you want caregivers to care for you. How do you want to be bathed? Do you want a light or dark room? Do you like to be kept warm or cool?</span>                </span>            </td>            <td>                <span>                            <p>I like low lights at night, my eyes burn if the lights are too bright.  I like quiet when I'm resting or sleeping, I hope the noise that is around me is quieted during those times when I need to rest.  I like to be close to the window, let me look outside as much as possible.  I love storms too, don't close the curtains if there is a storm outside.  The power of nature reminds me that we are only here for a short time, and that nature surrounds us with its beauty and tumult.</p>                            <p>Please review my Mental Health directive for instructions on what to do for me if my bipolar gets hard to manage.  It is full of important information.</p>                </span>            </td>        </tr>        <tr>            <td>                <span>                    <span>Laughter</span>                    <br/>                    <span>Laughter can give a person the courage and strength to hope and look for meaning, even in difficult times. It can soothe tension, relieve stress, and stimulate organs in healthy ways. What do you want caregivers to know about what makes you laugh?</span>                </span>            </td>            <td>                <span>                            <p>I love comedy that is slightly spicy, not too rough, but on the edges.  I love the silly games my grandchildren play, they make me laugh and feel good when they hear me laugh at their jokes and games.</p>                </span>            </td>        </tr>        <tr>            <td>                <span>                    <span>If I Were to Pass Away</span>                    <br/>                    <span>Record any pre-arranged funeral or burial plans, or express any wishes that you’d like healthcare providers, family, or friends to follow. Are there people you want notified?  Do you have a song or music played?</span>                </span>            </td>            <td>                <span>                            <p>I have already paid for cremation services, so that my family is not burdened by those decisions and expenses.  Charles can find the paperwork in the top left-hand drawer of my desk.  Hidden Valley Funeral Home has a copy too.</p>                </span>            </td>        </tr>        <tr>            <td>                <span>                    <span>Unfinished Business</span>                    <br/>                    <span>Describe any unfinished emotional business that needs to be addressed. What thoughts or comments would you like to express?</span>                </span>            </td>            <td>                <span>                            <p>I have lived a good life, and I'm thankful for the family and friends that have been my companions.  I am at peace with my God and know that passing from this world to the next will be a matter of celebration, not sadness.  I'll be with my loved ones in spirit for as long as they live, tell them to listen for whispers that sound like birds when they feel sad, sit quietly on hot days to feel a cool breeze across their face, and look for the first bloom of spring in the garden.  That will be me, telling them I am well and with them until they can join me.</p>                </span>            </td>        </tr>        <tr>            <td>                <span>                    <span>Information People Need to Know</span>                    <br/>                    <span>Provide information about where others can find your important documents or information they may need.</span>                </span>            </td>            <td>                <span>                            <p>Charles has all my paperwork, and in my desk there is a folder of important papers they will need.  I added both of them to my financial accounts some time ago, they should be able to access the money the need to do what needs to be done when that time comes.  I love my family more than I can say, everything I did in this life I did for them.  It was my blessing and my honor to be part of their story.</p>                </span>            </td>        </tr>    </tbody></table></div>"
+            }
+          },
+          {
+            "title": "Signing the MyDirectives Advance Care Plan",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "81339-4",
+                  "display": "Witness and notary Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>I am emotionally and mentally competent to make this MyDirectives Advance Care Plan™. I understand the purpose and effect of this MyDirectives Advance Care Plan, I agree with everything that is written in this MyDirectives Advance Care Plan, and I have made this MyDirectives Advance Care Plan knowingly, willingly and after careful deliberation.</p><table>    <thead>        <tr>            <th>Data Type</th>            <th>Information</th>        </tr>    </thead>    <tbody>        <tr>            <td>Signature:</td>            <td>Betsy Smith-Johnson</td>        </tr>        <tr>            <td>Date:</td>            <td>03/15/2024</td>        </tr>    </tbody></table><br/><span>    Statement of Witnesses</span><p>    I declare that the person who signed this advance care plan, or who asked another to sign on his/her behalf, is the individual identified in the document. I believe this person to be of sound mind and at least 18 years of age. I personally witnessed the individual sign this document or ask the person indicated to do so, or I received adequate proof of identity, and I believe he/she did so voluntarily. By signing this document as a witness, I certify that I am:</p><p>    <ul>        <li>At least 18 years of age.</li>        <li>Not related to the person signing this document by blood, marriage or adoption.</li>        <li>Not a healthcare agent appointed by the person signing this document.</li>        <li>Not directly financially responsible for that person’s healthcare.</li>        <li>Not a healthcare provider directly serving the person at this time.</li>        <li>Not an employee (other than a social worker or chaplain), officer, director, or partner of a healthcare provider (or any parent organization of such healthcare provider) directly serving the person at this time.</li>        <li>Not aware that I am entitled to or have a claim against the person’s estate.</li>    </ul></p><span>    Witness Info</span><br/><br/>        <span>            Witness Number 1        </span>        <br/>        <br/>    <table>        <thead>            <tr>                <th>Data Type</th>                <th>Information</th>            </tr>        </thead>        <tbody>            <tr>                <td>Witness Number:</td>                <td>1</td>            </tr>            <tr>                <td>Signature:</td>                <td>Howard Thompson</td>            </tr>            <tr>                <td>Date:</td>                <td>05/14/2024 14:31pm CDT (20240514143112-0500)</td>            </tr>        </tbody>    </table>    <br/>        <span>            Howard Thompson    <br/>9341 Agnes Street, Unit 201            <br/>Detroit, MI 48214        <br/>        </span>        <br/>        <br/>        <span>            Witness Number 2        </span>        <br/>        <br/>    <table>        <thead>            <tr>                <th>Data Type</th>                <th>Information</th>            </tr>        </thead>        <tbody>            <tr>                <td>Witness Number:</td>                <td>2</td>            </tr>            <tr>                <td>Signature:</td>                <td>Tanya C. Williams</td>            </tr>            <tr>                <td>Date:</td>                <td>05/14/2024 14:32pm CDT (20240514143256-0500)</td>            </tr>        </tbody>    </table>    <br/>        <span>            Tanya Williams    <br/>The Vernon Center, 9341 Agness St., #114            <br/>Detroit, MI 48214        <br/>        </span>        <br/>        <br/></div>"
+            }
+          },
+          {
+            "title": "Goals, Preferences and Priorities upon Death",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "81337-8",
+                  "display": "GPP upon Death"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table>    <tbody>        <tr>            <td>                <span>                    <span>Organ Donation</span>                    <br/>                    <span>What are your thoughts on organ and tissue donation?</span>                </span>            </td>            <td>                <span>                            <p>I don’t want to donate my organs.</p>                </span>            </td>        </tr>        <tr>            <td>                <span>                    <span>Final Days</span>                    <br/>                    <span>If it were possible to choose, where would you want to spend your final days?</span>                </span>            </td>            <td>                <span>                            <p>I’ll let my healthcare agent decide based on what they know about my values.</p>                            <p>Charles and Lisa know what makes a good quality of life for me.  I trust them to make all decisions for me based on the endless dinner-table conversations we've had recently.  I have also given some important instructions in my Mental Health directive that others should have if my bipolar disease gives me problems at this point in my life.</p>                </span>            </td>        </tr>        <tr>            <td>                <span>                    <span>My Religion and Culture</span>                    <br/>                    <span>Are there any religious or cultural beliefs your care team should know about? Is there anyone you would like to contact?</span>                </span>            </td>            <td>                <span>                            <p>Reverand Tommy Lee Jones</p>                            <p>I want to receive communion, to the extent that I am able, when I am near the end of my life.  I want Rev. Jones to be present to pray for me and those I love so that the comfort I get from prayer is able to sustain all of us through that difficult time.  Call the Presbyterian Church of the Way near the house to locate him.  I don't have the number at hand.</p>                </span>            </td>        </tr>    </tbody></table></div>"
+            }
+          },
+          {
+            "title": "Expression of Healthcare Treatment Preferences",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "81336-0",
+                  "display": "GPP certain health cond"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table>    <tbody>        <tr>            <td>                <span>                    <span>My Values</span>                    <br/>                    <span>Imagine you can’t communicate with your care team. What do you want them to know about what matters most to you?</span>                </span>            </td>            <td>                <span>                            <ol>                                    <li>                                        Not being on lifesaving machines for the rest of my life.                                    </li>                                    <li>                                        Being able to recognize and communicate with people around me.                                    </li>                                    <li>                                        Being pain free.                                    </li>                                    <li>                                        Being with family or friends.                                    </li>                                    <li>                                        Not being a physical or financial burden to my family.                                    </li>                                    <li>                                        Not having to get nutrition or fluids through tubes or needles to stay alive.                                    </li>                                    <li>                                        Having my cultural, spiritual, or religious values honored.                                    </li>                            </ol>                            <p>Charles and Lisa know what is important to me in terms of quality of life.  I do not want excessive treatments if they are an option and I won't get any better or be able to enjoy my life.</p>                </span>            </td>        </tr>        <tr>            <td>                <span>                    <span>Advance Illness or Brain Injury</span>                    <br/>                    <span>Imagine your health is failing due to an illness like advanced cancer, a brain injury, or Alzheimer’s disease. Doctors believe there is a low chance of recovery to your previous quality of life. What life-sustaining treatments would you want?</span>                </span>            </td>            <td>                <span>                            <p>Let my healthcare agent decide based on what they know about my values.</p>                            <p>Charles and Lisa can make these decisions if there is a time that we need to consider them.  What matters most is how I'll be afterwards.  That's more important than the moment of needing help.</p>                            <p>Please review my mental health directive if my bipolar disease causes me to need help.  It has important information I want others to know about.</p>                </span>            </td>        </tr>        <tr>            <td>                <span>                    <span>Accident or Temporary Illness</span>                    <br/>                    <span>Imagine a sudden injury or illness, like a car accident or COVID-19. Doctors believe there is a good chance of recovery to your previous quality of life. What life-sustaining treatments would you want?</span>                </span>            </td>            <td>                <span>                            <p>Only try treatments that have a good chance of working.</p>                            <p>My mental health directive has important information I want others to know if my bipolar disease causes me to have a crisis.</p>                </span>            </td>        </tr>        <tr>            <td>                <span>                    <span>My Preferences on CPR (Cardiopulmonary Resuscitation)</span>                    <br/>                    <span>If your heart stops beating or you stop breathing, do you want your medical team to try to revive you?</span>                </span>            </td>            <td>                <span>                            <p>I’ll let my healthcare agent decide based on what they know about my values.</p>                            <p>Charles and Lisa know that I don't want to be kept alive or receive excessive treatments.  If there is a good chance that I can receive CPR and regain quality of life, then they can make that decision for me.  If CPR will cause damage to my body and leave me in pain or unaware of my surroundings, then let me leave this life gently.</p>                </span>            </td>        </tr>    </tbody></table></div>"
+            }
+          },
+          {
+            "title": "Healthcare Agent Appointment",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "81335-2",
+                  "display": "Patient Healthcare agent"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>I am appointing the person or persons below as my healthcare agent and, if applicable, as my alternate healthcare agent(s), and I am granting to each of them the legal authority to make medical treatment decisions on my behalf and to consult with my physician and others. The power to make medical treatment decisions that I am granting to my healthcare agent(s) is expressly subject to, and limited by, the choices that I have expressed elsewhere in my MyDirectives Advance Care Plan™. If my medical treatment choices are not clear, I am authorizing and directing my healthcare agent to make decisions in my best interests and based on what is known of my wishes.</p>        <p>If my primary healthcare agent is unable or unwilling to make medical treatment decisions for me, or if my spouse is designated as my primary healthcare agent and our marriage is annulled, or we are divorced or legally separated, then my next choice for a healthcare agent is the first alternate and then second alternate if so named.</p>        <span>            <span>                My Healthcare Agent’s General Authority            </span>            <br/>            <span>                    <span>Subject to my medical treatment choices expressed elsewhere in this MyDirectives Advance Care Plan™ and applicable law that requires otherwise, I grant to my healthcare agent the power to make all choices and medical treatment decisions for me.</span>            </span>        </span>        <br/>        <br/>        <span>            <span>                If I cannot express my own wishes for medical treatment,            </span>            <span>                I would like the doctors treating me, as well as my healthcare agent if I have chosen one, to make decisions based as much as possible and appropriate on my instructions below.            </span>        </span>        <br/>            <br/>    <span>        <span>Primary Healthcare Agent</span>        <br/>            <span>The person I choose as my Primary Healthcare Agent is:</span>            <br/>        <span>                <span>        Charles Johnson            <span>(Son)</span>    </span>    <br/>        <span>4885 Kensington Avenue                <br/>            Detroit, MI 48224        </span>        <br/>        <span>(313) 555-1212        </span>        <br/>        <span>            maria.moen56@jettelabs.com        </span>        <br/>        <span>            [SELECTED to act as a healthcare agent on 12/22/2023, at 1:09 PM CST]        </span>        <br/>        <span>            [ACCEPTED to act as a healthcare agent on 04/17/2024, at 2:23 PM CDT]        </span>        <br/>        </span>    </span>                <br/>    <span>        <span>First Alternate Healthcare Agent</span>        <br/>            <span>If this healthcare agent is unable or unwilling to make medical treatment decisions for me, or if my spouse is designated as my primary healthcare agent and our marriage is annulled, or we are divorced or legally separated, then my next choice for a healthcare agent is:</span>            <br/>        <span>                <span>        Lisa Johnson            <span>(Daughter-in-law)</span>    </span>    <br/>        <span>4885 Kensington Avenue                <br/>            Detroit, MI 48224        </span>        <br/>        <span>(313) 555-1212        </span>        <br/>        <span>            maria.moen58@jettelabs.com        </span>        <br/>        <span>            [SELECTED to act as a healthcare agent on 12/22/2023, at 1:09 PM CST]        </span>        <br/>        <span>            [ACCEPTED to act as a healthcare agent on 04/17/2024, at 2:24 PM CDT]        </span>        <br/>        </span>    </span></div>"
+            },
+            "entry": [
+              {
+                "reference": "RelatedPerson/e51c35b7-e489-4345-9f56-d95222a35bac"
+              },
+              {
+                "reference": "Consent/58bd3918-dc52-447d-927c-bdac487d503f"
+              },
+              {
+                "reference": "RelatedPerson/d022f3a1-0f3e-4b36-9af9-29c9d2b8e617"
+              },
+              {
+                "reference": "Consent/d9eb03a0-a536-45bf-96b3-bef6405f344a"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "fad7b13d-f983-46a7-af5d-36e6aff9f9f0",
+        "status": "active",
+        "connectionType": {
+          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+          "code": "hl7-fhir-rest",
+          "display": "HL7 FHIR"
+        },
+        "name": "MaxMD EMR R4 - open",
+        "payloadType": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/endpoint-payload-type",
+                "code": "urn:hl7-org:sdwg:ccda-nonXMLBody:1.1"
+              },
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/endpoint-payload-type",
+                "code": "urn:hl7-org:sdwg:ccda-structuredBody:1.1"
+              }
+            ],
+            "text": "For documents following C-CDA constraints using a structured body"
+          }
+        ],
+        "address": "https://qa-rr-fhir2.maxmddirect.com"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "RelatedPerson",
+        "id": "e51c35b7-e489-4345-9f56-d95222a35bac",
+        "patient": {
+          "reference": "Patient/patientBSJ1",
+          "display": "Smith-Johnson, Betsy"
+        },
+        "relationship": [
+          {
+            "coding": [
+              {
+                "system": "2.16.840.1.113883.6.1",
+                "code": "75783-1",
+                "display": "Primary healthcare agent"
+              }
+            ],
+            "text": "Primary healthcare agent"
+          },
+          {
+            "text": "Son"
+          }
+        ],
+        "name": [
+          {
+            "family": "Johnson",
+            "given": [
+              "Charles"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+13135551212",
+            "use": "mobile"
+          },
+          {
+            "system": "email",
+            "value": "maria.moen56@jettelabs.com"
+          }
+        ],
+        "address": [
+          {
+            "use": "home",
+            "line": [
+              "4885 Kensington Avenue"
+            ],
+            "city": "Detroit",
+            "state": "MI",
+            "postalCode": "48224",
+            "country": "US"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Consent",
+        "id": "58bd3918-dc52-447d-927c-bdac487d503f",
+        "status": "active",
+        "scope": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "75783-1",
+              "display": "Primary healthcare agent"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/consentcategorycodes",
+                "code": "acd",
+                "display": "Advance Directive"
+              }
+            ]
+          }
+        ],
+        "patient": {
+          "reference": "Patient/patientBSJ1",
+          "display": "Smith-Johnson, Betsy"
+        },
+        "provision": {
+          "actor": [
+            {
+              "role": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "75783-1",
+                    "display": "Primary healthcare agent"
+                  }
+                ]
+              },
+              "reference": {
+                "reference": "RelatedPerson/e51c35b7-e489-4345-9f56-d95222a35bac"
+              }
+            }
+          ],
+          "action": [
+            {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "75786-4",
+                  "display": "Powers Granted to Health Agent"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "RelatedPerson",
+        "id": "d022f3a1-0f3e-4b36-9af9-29c9d2b8e617",
+        "patient": {
+          "reference": "Patient/patientBSJ1",
+          "display": "Smith-Johnson, Betsy"
+        },
+        "relationship": [
+          {
+            "coding": [
+              {
+                "system": "2.16.840.1.113883.6.1",
+                "code": "75784-9",
+                "display": "First alternate healthcare agent"
+              }
+            ],
+            "text": "First alternate healthcare agent"
+          },
+          {
+            "text": "Daughter-in-law"
+          }
+        ],
+        "name": [
+          {
+            "family": "Johnson",
+            "given": [
+              "Lisa"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+13135551212",
+            "use": "mobile"
+          },
+          {
+            "system": "email",
+            "value": "maria.moen58@jettelabs.com"
+          }
+        ],
+        "address": [
+          {
+            "use": "home",
+            "line": [
+              "4885 Kensington Avenue"
+            ],
+            "city": "Detroit",
+            "state": "MI",
+            "postalCode": "48224",
+            "country": "US"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Consent",
+        "id": "d9eb03a0-a536-45bf-96b3-bef6405f344a",
+        "status": "active",
+        "scope": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "75784-9",
+              "display": "First alternate healthcare agent"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/consentcategorycodes",
+                "code": "acd",
+                "display": "Advance Directive"
+              }
+            ]
+          }
+        ],
+        "patient": {
+          "reference": "Patient/patientBSJ1",
+          "display": "Smith-Johnson, Betsy"
+        },
+        "provision": {
+          "actor": [
+            {
+              "role": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "75784-9",
+                    "display": "First alternate healthcare agent"
+                  }
+                ]
+              },
+              "reference": {
+                "reference": "RelatedPerson/d022f3a1-0f3e-4b36-9af9-29c9d2b8e617"
+              }
+            }
+          ],
+          "action": [
+            {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "75786-4",
+                  "display": "Powers Granted to Health Agent"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Organization",
+        "id": "46e1f46a-f9d1-4c95-9ea5-ca72c3922d6c",
+        "identifier": [
+          {
+            "system": "urn:oid:1.3.6.1.4.1.42424242.4.99930.4",
+            "value": "12c5dcee5089494ca1ca0cb428ed3fff"
+          }
+        ],
+        "name": "ADVault, Inc.",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1(202)776-7700",
+            "use": "work"
+          }
+        ],
+        "address": [
+          {
+            "use": "work",
+            "line": [
+              "740 E. Campbell Rd.",
+              "STE 825"
+            ],
+            "city": "Richardson",
+            "state": "TX",
+            "postalCode": "75081",
+            "country": "US"
+          }
+        ],
+        "endpoint": [
+          {
+            "reference": "Endpoint/fad7b13d-f983-46a7-af5d-36e6aff9f9f0"
+          }
+        ]
+      }
+    }
+  ]
+}

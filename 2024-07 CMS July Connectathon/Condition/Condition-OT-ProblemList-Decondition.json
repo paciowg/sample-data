@@ -86,21 +86,21 @@
     {
       "detail": [
         {
-          "reference": "Observation/BSJ-HHA-ShortWalk1"
+          "reference": "Observation/BSJ-MDS-ShortWalk1"
         }
       ]
     },
     {
       "detail": [
         {
-          "reference": "Observation/BSJ-HHA-SitStand1"
+          "reference": "Observation/BSJ-MDS-SitStand1"
         }
       ]
     },
     {
       "detail": [
         {
-          "reference": "Observation/BSJ-HHA-SitUp1"
+          "reference": "Observation/BSJ-MDS-SitUp1"
         }
       ]
     }
