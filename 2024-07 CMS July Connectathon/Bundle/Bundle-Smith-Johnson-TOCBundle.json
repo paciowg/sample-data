@@ -2992,55 +2992,6 @@
     },
     {
       "resource": {
-        "id": "BSJ-SNFDischargeDietProtein",
-        "meta": {
-          "profile": [
-            "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request"
-          ]
-        },
-        "status": "active",
-        "intent": "order",
-        "category": [
-          {
-            "coding": [
-              {
-                "system": "http://snomed.info/sct",
-                "code": "182922004",
-                "display": "Dietary regime (regime/therapy)"
-              }
-            ]
-          }
-        ],
-        "priority": "routine",
-        "code": {
-          "coding": [
-            {
-              "system": "http://snomed.info/sct",
-              "code": "1055201009",
-              "display": "Decreased protein and/or protein derivative diet (regime/therapy)"
-            }
-          ]
-        },
-        "subject": {
-          "reference": "Patient/patientBSJ1"
-        },
-        "occurrencePeriod": {
-          "start": "2024-05-18"
-        },
-        "authoredOn": "2024-07-17",
-        "requester": {
-          "reference": "PractitionerRole/Role-SNFDoc-GeraldPark"
-        },
-        "reasonReference": [
-          {
-            "reference": "Condition/BSJ-KidneyDisease"
-          }
-        ],
-        "resourceType": "ServiceRequest"
-      }
-    },
-    {
-      "resource": {
         "id": "BSJ-SNFDischargeCallSLPRefer",
         "meta": {
           "profile": [
@@ -3117,7 +3068,7 @@
         "subject": {
           "reference": "Patient/patientBSJ1"
         },
-        "occurrenceDateTime": "2024-07-28",
+        "occurrenceDateTime": "2024-07-29",
         "authoredOn": "2024-07-17",
         "requester": {
           "reference": "PractitionerRole/Role-SNFDoc-GeraldPark"
@@ -3125,58 +3076,6 @@
         "reasonReference": [
           {
             "reference": "Condition/BSJ-AnemiaDiagnosis"
-          }
-        ],
-        "resourceType": "ServiceRequest"
-      }
-    },
-    {
-      "resource": {
-        "id": "BSJ-SNFDischargeDietSalt",
-        "meta": {
-          "profile": [
-            "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request"
-          ]
-        },
-        "status": "active",
-        "intent": "order",
-        "category": [
-          {
-            "coding": [
-              {
-                "system": "http://snomed.info/sct",
-                "code": "182922004",
-                "display": "Dietary regime (regime/therapy)"
-              }
-            ]
-          }
-        ],
-        "priority": "routine",
-        "code": {
-          "coding": [
-            {
-              "system": "http://snomed.info/sct",
-              "code": "437421000124105",
-              "display": "Decreased sodium diet (regime/therapy)"
-            }
-          ]
-        },
-        "subject": {
-          "reference": "Patient/patientBSJ1"
-        },
-        "occurrencePeriod": {
-          "start": "2024-05-18"
-        },
-        "authoredOn": "2024-07-17",
-        "requester": {
-          "reference": "PractitionerRole/Role-SNFDoc-GeraldPark"
-        },
-        "reasonReference": [
-          {
-            "reference": "Condition/BSJ-HeartDiseaseDiagnosis"
-          },
-          {
-            "reference": "Condition/BSJ-KidneyDisease"
           }
         ],
         "resourceType": "ServiceRequest"
@@ -3315,7 +3214,7 @@
           "reference": "Patient/patientBSJ1"
         },
         "occurrencePeriod": {
-          "start": "2024-07-18"
+          "start": "2024-07-17"
         },
         "authoredOn": "2024-07-17",
         "requester": {
@@ -3358,7 +3257,7 @@
         "subject": {
           "reference": "Patient/patientBSJ1"
         },
-        "occurrenceDateTime": "2024-07-28",
+        "occurrenceDateTime": "2024-07-29",
         "authoredOn": "2024-07-17",
         "requester": {
           "reference": "PractitionerRole/Role-SNFDoc-GeraldPark"
@@ -3400,7 +3299,7 @@
         "subject": {
           "reference": "Patient/patientBSJ1"
         },
-        "occurrenceDateTime": "2024-07-28",
+        "occurrenceDateTime": "2024-07-29",
         "authoredOn": "2024-07-17",
         "requester": {
           "reference": "PractitionerRole/Role-SNFDoc-GeraldPark"
