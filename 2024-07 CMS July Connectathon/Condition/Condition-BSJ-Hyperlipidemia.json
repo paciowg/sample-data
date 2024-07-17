@@ -34,6 +34,7 @@
   "subject": {
     "reference": "Patient/patientBSJ1"
   },
+  "recordedDate": "2018-06-06",
   "category": [
     {
       "coding": [

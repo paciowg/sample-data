@@ -1133,6 +1133,7 @@
         "subject": {
           "reference": "Patient/patientBSJ1"
         },
+        "recordedDate": "2020-07-11",
         "asserter": {
           "reference": "PractitionerRole/Role-IMMD-AnitaChu"
         },
@@ -1372,6 +1373,7 @@
         "subject": {
           "reference": "Patient/patientBSJ1"
         },
+        "recordedDate": "2020-11-05",
         "asserter": {
           "reference": "PractitionerRole/Role-IMMD-AnitaChu"
         },
@@ -1563,7 +1565,7 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/StructureDefinition/condition-assertedDate",
-            "valueDateTime": "2024-04-23T13:15:00-04:00"
+            "valueDateTime": "2024-06-23T13:15:00-04:00"
           }
         ],
         "clinicalStatus": {
@@ -1625,7 +1627,7 @@
         "subject": {
           "reference": "Patient/patientBSJ1"
         },
-        "recordedDate": "2024-04-23T13:15:00-04:00",
+        "recordedDate": "2024-06-23T13:15:00-04:00",
         "note": [
           {
             "text": "See lab"
@@ -1825,6 +1827,7 @@
         "subject": {
           "reference": "Patient/patientBSJ1"
         },
+        "recordedDate": "2005-02-12",
         "resourceType": "Condition"
       }
     },
@@ -1901,6 +1904,7 @@
         "subject": {
           "reference": "Patient/patientBSJ1"
         },
+        "recordedDate": "2018-06-06",
         "asserter": {
           "reference": "PractitionerRole/Role-IMMD-AnitaChu"
         },
