@@ -1,0 +1,29 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "Role-Pharm-TracyCount",
+  "active": true,
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "183500000X",
+          "system": "https://taxonomy.nucc.org/",
+          "display": "Pharmacist"
+        }
+      ]
+    }
+  ],
+  "practitioner": {
+    "reference": "Practitioner/Practitioner-Tracy-Count",
+    "display": "Tracy Count"
+  },
+  "organization": {
+    "reference": "Organization/org-Pharm-NED-Contract-Pharm",
+    "display": "Not Every Day Contract Pharmacy"
+  },
+  "location": [
+    {
+      "reference": "Location/org-Loc-NED-Contract-Pharm"
+    }
+  ]
+}

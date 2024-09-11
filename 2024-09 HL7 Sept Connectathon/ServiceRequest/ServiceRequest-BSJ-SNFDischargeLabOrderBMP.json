@@ -1,0 +1,54 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "BSJ-SNFDischargeLabOrderBMP",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request"
+    ]
+  },
+  "status": "active",
+  "intent": "order",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "108252007",
+          "display": "Laboratory procedure"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "166312007",
+        "display": "Blood chemistry (procedure)"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "priority": "routine",
+  "occurrenceDateTime": "2024-10-02",
+  "authoredOn": "2024-09-20",
+  "requester": {
+    "reference": "PractitionerRole/Role-SNFDoc-GeraldPark"
+  },
+  "reasonReference": [
+    {
+      "reference": "Condition/BSJ-AnemiaDiagnosis"
+    },
+    {
+      "reference": "Condition/BSJ-Hyperlipidemia"
+    },
+    {
+      "reference": "Condition/BSJ-KidneyDisease"
+    },
+    {
+      "reference": "Condition/BSJ-DiabetesDiagnosis"
+    }
+  ]
+}

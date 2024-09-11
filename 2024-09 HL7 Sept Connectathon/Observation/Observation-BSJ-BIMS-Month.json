@@ -1,0 +1,74 @@
+{
+    "resourceType": "Observation",
+    "id": "BSJ-BIMS-Month",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
+      ]
+    },
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "code": "survey",
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "display": "Survey"
+          }
+        ]
+      },
+      {
+        "coding": [
+          {
+            "code": "cognitive-status",
+            "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-category",
+            "display": "Cognitive Status"
+          }
+        ]
+      },
+      {
+        "coding": [
+          {
+            "code": "b1140",
+            "system": "http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs",
+            "display": "Orientation to time"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "code": "103698-7",
+          "system": "http://loinc.org",
+          "display": "Able to report correct month"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patientBSJ1"
+    },
+    "effectiveDateTime": "2024-09-19T14:30:00-04:00",
+    "performer": [
+      {
+        "reference": "PractitionerRole/Role-OT-JenCadbury"
+      }
+    ],
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "code": "103698-7",
+          "system": "http://loinc.org",
+          "display": "Accurate within 5 days"
+        }
+      ]
+    },
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+        "valueReference": {
+          "reference": "Location/org-Loc-SNF-Happy-Nursing-Facility"
+        }
+      }
+    ]
+  }

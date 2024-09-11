@@ -1,0 +1,47 @@
+{
+    "resourceType": "ServiceRequest",
+    "id": "BSJ-MedRecOrder",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request"
+      ]
+    },
+    "status": "active",
+    "intent": "order",
+    "category": [
+      {
+        "coding": [
+          {
+            "code": "306206005",
+            "system": "http://snomed.info/sct",
+            "display": "Referral to service (procedure)"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "code": "410155007",
+          "system": "http://snomed.info/sct",
+          "display": "Medication reconciliation (procedure)"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patientBSJ1"
+    },
+    "priority": "routine",
+    "occurrencePeriod": {
+      "start": "2024-09-20"
+    },
+    "authoredOn": "2024-09-20",
+    "requester": {
+      "reference": "PractitionerRole/Role-SNFDoc-GeraldPark"
+    },
+    "reasonReference": [
+      {
+        "reference": "Condition/health-concern-complexregime"
+      }
+    ]
+  }

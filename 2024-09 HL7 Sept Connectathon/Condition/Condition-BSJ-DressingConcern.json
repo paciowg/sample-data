@@ -1,0 +1,75 @@
+{
+  "resourceType": "Condition",
+  "id": "BSJ-DressingConcern",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-problems-health-concerns"
+    ]
+  },
+  "clinicalStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "code": "active"
+      }
+    ]
+  },
+  "verificationStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+        "code": "confirmed"
+      }
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "284972002",
+        "display": "Difficulty performing dressing activity (finding)"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icf",
+          "code": "b7601",
+          "display": "control of complex voluntary movements"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/core/CodeSystem/condition-category",
+          "code": "health-concern",
+          "display": "Health Concern"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-category",
+          "code": "functional-status",
+          "display": "Functional Status"
+        }
+      ]
+    }
+  ],
+  "recordedDate": "2024-06-27T15:40:00-04:00",
+  "asserter": {
+    "reference": "PractitionerRole/Role-OT-JenCadbury"
+  },
+  "note": [
+    {
+      "text": "Betsy is frustrated, embarrassed, and worried about not being able to dress herself"
+    }
+  ]
+}

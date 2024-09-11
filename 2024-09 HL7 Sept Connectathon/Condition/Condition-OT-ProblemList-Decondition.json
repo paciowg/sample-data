@@ -1,0 +1,116 @@
+{
+  "resourceType": "Condition",
+  "id": "OT-ProblemList-Decondition",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-problems-health-concerns"
+    ]
+  },
+  "clinicalStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "code": "active"
+      }
+    ]
+  },
+  "verificationStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+        "code": "confirmed"
+      }
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "31031000119102",
+        "display": "Physical deconditioning (finding)"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icf",
+          "code": "b7303",
+          "display": "Power of muscles in lower half of the body"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/core/CodeSystem/condition-category",
+          "code": "problem-list-item",
+          "display": "Problem List Item"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-category",
+          "code": "functional-status",
+          "display": "Functional Status"
+        }
+      ]
+    }
+  ],
+  "bodySite": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "362875007",
+          "display": "Entire lower body"
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/condition-assertedDate",
+      "valueDateTime": "2024-06-30T15:40:00-04:00"
+    }
+  ],
+  "onsetDateTime": "2024-06-26T15:40:00-04:00",
+  "recordedDate": "2024-06-30T15:40:00-04:00",
+  "evidence": [
+    {
+      "detail": [
+        {
+          "reference": "Observation/BSJ-MDS-ShortWalk1"
+        }
+      ]
+    },
+    {
+      "detail": [
+        {
+          "reference": "Observation/BSJ-MDS-SitStand1"
+        }
+      ]
+    },
+    {
+      "detail": [
+        {
+          "reference": "Observation/BSJ-MDS-SitUp1"
+        }
+      ]
+    }
+  ],
+  "asserter": {
+    "reference": "PractitionerRole/Role-OT-JenCadbury"
+  },
+  "note": [
+    {
+      "text": "The weakness in the patient's lower extremities is secondary to deconditioning. According to the report from Neurology, patient did not have motor or sensory deficits below upper chest. High rehab potential."
+    }
+  ]
+}

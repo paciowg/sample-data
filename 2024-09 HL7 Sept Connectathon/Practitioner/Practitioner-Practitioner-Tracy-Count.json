@@ -1,0 +1,39 @@
+{
+  "resourceType": "Practitioner",
+  "id": "Practitioner-Tracy-Count",
+  "name": [
+    {
+      "given": [
+        "Tracy"
+      ],
+      "family": "Count",
+      "text": "Tracy Count"
+    }
+  ],
+  "active": true,
+  "gender": "female",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/sid/us-npi",
+      "value": "1849385928"
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "(410) 588 4939"
+    }
+  ],
+  "address": [
+    {
+      "line": [
+        "155 Light Commercial Ave"
+      ],
+      "city": "Grand Rapids",
+      "state": "MI",
+      "postalCode": "49509",
+      "country": "US",
+      "text": "155 Light Commercial Ave, Grand Rapids, MI 49509"
+    }
+  ]
+}

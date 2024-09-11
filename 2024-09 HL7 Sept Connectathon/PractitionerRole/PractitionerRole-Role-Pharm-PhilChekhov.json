@@ -1,0 +1,29 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "Role-Pharm-PhilChekhov",
+  "active": true,
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "183500000X",
+          "system": "https://taxonomy.nucc.org/",
+          "display": "Pharmacist"
+        }
+      ]
+    }
+  ],
+  "practitioner": {
+    "reference": "Practitioner/Practitioner-Phil-Chekhov",
+    "display": "Phil Chekhov"
+  },
+  "organization": {
+    "reference": "Organization/org-Pharm-Everyday-Community-Pharm",
+    "display": "Everyday Community Pharmacy"
+  },
+  "location": [
+    {
+      "reference": "Location/org-Loc-Everyday-Community-Pharm"
+    }
+  ]
+}

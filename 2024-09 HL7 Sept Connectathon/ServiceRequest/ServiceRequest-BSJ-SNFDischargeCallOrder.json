@@ -1,0 +1,42 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "BSJ-SNFDischargeCallOrder",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request"
+    ]
+  },
+  "status": "active",
+  "intent": "order",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "386053000",
+          "display": "Evaluation procedure (procedure)"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "304562007",
+        "display": "Informing doctor (procedure)"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "priority": "routine",
+  "occurrencePeriod": {
+    "start": "2024-09-20"
+  },
+  "authoredOn": "2024-09-20",
+  "requester": {
+    "reference": "PractitionerRole/Role-SNFDoc-GeraldPark"
+  }
+}
