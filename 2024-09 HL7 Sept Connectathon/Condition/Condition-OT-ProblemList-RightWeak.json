@@ -77,7 +77,7 @@
   "extension": [
     {
       "url": "http://hl7.org/fhir/StructureDefinition/condition-assertedDate",
-      "valueDateTime": "2024-06-17T15:40:00-04:00"
+      "valueDateTime": "2024-08-21T15:40:00-04:00"
     }
   ],
   "recordedDate": "2024-06-27T15:40:00-04:00",
