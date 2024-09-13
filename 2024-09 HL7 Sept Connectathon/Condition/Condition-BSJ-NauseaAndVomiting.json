@@ -57,11 +57,11 @@
   "extension": [
     {
       "url": "http://hl7.org/fhir/StructureDefinition/condition-assertedDate",
-      "valueDateTime": "2024-06-18T16:30:00-04:00"
+      "valueDateTime": "2024-08-22T16:30:00-04:00"
     }
   ],
-  "onsetDateTime": "2024-06-18T16:30:00-04:00",
-  "recordedDate": "2024-06-18T16:30:00-04:00",
+  "onsetDateTime": "2024-08-22T16:30:00-04:00",
+  "recordedDate": "2024-08-22T16:30:00-04:00",
   "note": [
     {
       "text": "Patient pressed call button for vomiting. She reports she started feeling nauseated about ten minutes ago."
