@@ -6,7 +6,7 @@
     "patient": {
       "reference": "Patient/patientBSJ1"
     },
-    "dateTime": "2024-07-18",
+    "dateTime": "2024-09-20",
     "orderer": {
       "reference": "PractitionerRole/Role-SNFDoc-GeraldPark"
     },
@@ -52,7 +52,7 @@
         {
           "repeat": {
             "boundsPeriod": {
-              "start": "2024-07-18"
+              "start": "2024-09-20"
             },
             "frequency": 3,
             "frequencyMax": 4,
@@ -94,7 +94,7 @@
           {
             "repeat": {
               "boundsPeriod": {
-                "start": "2024-07-18"
+                "start": "2024-09-20"
               },
               "frequency": 1,
               "period": 1,
