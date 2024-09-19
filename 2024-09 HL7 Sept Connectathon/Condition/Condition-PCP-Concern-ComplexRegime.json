@@ -9,7 +9,7 @@
     "extension": [
       {
         "url": "http://hl7.org/fhir/StructureDefinition/condition-assertedDate",
-        "valueDateTime": "2007-12-14"
+        "valueDateTime": "2024-09-20"
       }
     ],
     "clinicalStatus": {
