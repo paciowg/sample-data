@@ -21,108 +21,108 @@
     "reference": "Patient/patientBSJ1",
     "display": "Betsy Johnson"
   },
-  "date": "2024-06-22",
+  "date": "2024-08-26",
   "entry": [
     {
-      "date": "2024-06-22",
+      "date": "2024-08-26",
       "item": {
         "reference": "MedicationStatement/smp-medstmt-2B-26",
         "display": "Atorvastatin 40 mg"
       }
     },
     {
-      "date": "2024-06-22",
+      "date": "2024-08-26",
       "item": {
         "reference": "MedicationStatement/smp-medstmt-2B-27",
         "display": "Sertraline 25 mg"
       }
     },
     {
-      "date": "2024-06-22",
+      "date": "2024-08-26",
       "item": {
         "reference": "MedicationStatement/smp-medstmt-2B-28",
         "display": "Furosemide 20 mg"
       }
     },
     {
-      "date": "2024-06-22",
+      "date": "2024-08-26",
       "item": {
         "reference": "MedicationStatement/smp-medstmt-2B-29",
         "display": "Carvedilol 6.5mg"
       }
     },
     {
-      "date": "2024-06-22",
+      "date": "2024-08-26",
       "item": {
         "reference": "MedicationStatement/smp-medstmt-2B-30",
         "display": "Metformin 500mg"
       }
     },
     {
-      "date": "2024-06-22",
+      "date": "2024-08-26",
       "item": {
         "reference": "MedicationStatement/smp-medstmt-2B-31",
         "display": "Empagliflozin (Jardiance) 10mg"
       }
     },
     {
-      "date": "2024-06-22",
+      "date": "2024-08-26",
       "item": {
         "reference": "MedicationStatement/smp-medstmt-2B-32",
         "display": "Clopidogrel 75mg"
       }
     },
     {
-      "date": "2024-06-22",
+      "date": "2024-08-26",
       "item": {
         "reference": "MedicationStatement/smp-medstmt-2B-33",
         "display": "Losartan 50mg"
       }
     },
     {
-      "date": "2024-06-22",
+      "date": "2024-08-26",
       "item": {
         "reference": "MedicationStatement/smp-medstmt-2B-34",
         "display": "Ferrous Gluconate 325mg"
       }
     },
     {
-      "date": "2024-06-22",
+      "date": "2024-08-26",
       "item": {
         "reference": "MedicationStatement/smp-medstmt-2B-35",
         "display": "Acetaminophen 325mg"
       }
     },
     {
-      "date": "2024-06-22",
+      "date": "2024-08-26",
       "item": {
         "reference": "MedicationStatement/smp-medstmt-2B-36",
         "display": "Accuchecks"
       }
     },
     {
-      "date": "2024-06-22",
+      "date": "2024-08-26",
       "item": {
         "reference": "MedicationStatement/smp-medstmt-2B-37",
         "display": "Polyethylene glycol 3350 17g"
       }
     },
     {
-      "date": "2024-06-22",
+      "date": "2024-08-26",
       "item": {
         "reference": "MedicationStatement/smp-medstmt-2B-38",
         "display": "Docusate 100mg"
       }
     },
     {
-      "date": "2024-06-22",
+      "date": "2024-08-26",
       "item": {
         "reference": "MedicationStatement/smp-medstmt-2B-39",
         "display": "Ondansetron 4mg tablet"
       }
     },
     {
-      "date": "2024-06-22",
+      "date": "2024-08-26",
       "item": {
         "reference": "MedicationStatement/smp-medstmt-2B-40",
         "display": "Novolin-R Sliding scale insulin protocol"

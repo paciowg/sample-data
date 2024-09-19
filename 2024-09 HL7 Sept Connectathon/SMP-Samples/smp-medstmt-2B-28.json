@@ -19,7 +19,7 @@
     "reference": "Patient/patientBSJ1",
     "display": "Betsy Johnson"
   },
-  "dateAsserted": "2024-06-22",
+  "dateAsserted": "2024-08-26",
   "informationSource": {
     "reference": "Organization/org-PSC-Prism-General-Hospital",
     "display": "Prism General Hospital"

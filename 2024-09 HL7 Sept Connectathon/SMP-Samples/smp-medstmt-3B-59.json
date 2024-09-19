@@ -19,7 +19,7 @@
     "reference": "Patient/patientBSJ1",
     "display": "Betsy Johnson"
   },
-  "dateAsserted": "2024-07-15",
+  "dateAsserted": "2024-09-18",
   "informationSource": {
     "reference": "Organization/org-SNF-Happy-Nursing-Facility",
     "display": "Happy Nursing Facility"

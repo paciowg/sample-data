@@ -21,80 +21,80 @@
     "reference": "Patient/patientBSJ1",
     "display": "Betsy Johnson"
   },
-  "date": "2024-07-15",
+  "date": "2024-09-18",
   "entry": [
     {
-      "date": "2024-07-15",
+      "date": "2024-09-18",
       "item": {
         "reference": "MedicationStatement/smp-medstmt-3B-53",
         "display": "Atorvastatin 40 mg"
       }
     },
     {
-      "date": "2024-07-15",
+      "date": "2024-09-18",
       "item": {
         "reference": "MedicationStatement/smp-medstmt-3B-54",
         "display": "Sertraline 50 mg"
       }
     },
     {
-      "date": "2024-07-15",
+      "date": "2024-09-18",
       "item": {
         "reference": "MedicationStatement/smp-medstmt-3B-55",
         "display": "Furosemide 20 mg"
       }
     },
     {
-      "date": "2024-07-15",
+      "date": "2024-09-18",
       "item": {
         "reference": "MedicationStatement/smp-medstmt-3B-56",
         "display": "Metformin 500mg"
       }
     },
     {
-      "date": "2024-07-15",
+      "date": "2024-09-18",
       "item": {
         "reference": "MedicationStatement/smp-medstmt-3B-57",
         "display": "Empagliflozin (Jardiance) 10mg"
       }
     },
     {
-      "date": "2024-07-15",
+      "date": "2024-09-18",
       "item": {
         "reference": "MedicationStatement/smp-medstmt-3B-58",
         "display": "Clopidogrel 75mg"
       }
     },
     {
-      "date": "2024-07-15",
+      "date": "2024-09-18",
       "item": {
         "reference": "MedicationStatement/smp-medstmt-3B-59",
         "display": "Losartan 50mg"
       }
     },
     {
-      "date": "2024-07-15",
+      "date": "2024-09-18",
       "item": {
         "reference": "MedicationStatement/smp-medstmt-3B-60",
         "display": "Ferrous Gluconate 325mg"
       }
     },
     {
-      "date": "2024-07-15",
+      "date": "2024-09-18",
       "item": {
         "reference": "MedicationStatement/smp-medstmt-3B-61",
         "display": "Acetaminophen 325mg"
       }
     },
     {
-      "date": "2024-07-15",
+      "date": "2024-09-18",
       "item": {
         "reference": "MedicationStatement/smp-medstmt-3B-62",
         "display": "Accuchecks"
       }
     },
     {
-      "date": "2024-07-15",
+      "date": "2024-09-18",
       "item": {
         "reference": "MedicationStatement/smp-medstmt-3B-63",
         "display": "Polyethylene glycol 3350 (Miralax)"
