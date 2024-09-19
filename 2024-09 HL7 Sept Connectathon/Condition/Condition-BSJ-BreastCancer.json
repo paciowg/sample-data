@@ -1,0 +1,65 @@
+{
+    "resourceType": "Condition",
+    "id": "encounter-diagnosis-BreastCancer",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis"
+      ]
+    },
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/condition-assertedDate",
+        "valueDateTime": "2022-10-12"
+      }
+    ],
+    "clinicalStatus": {
+      "coding": [
+        {
+          "code": "remission",
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "display": "Remission"
+        }
+      ],
+      "text": "Remission"
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "code": "confirmed",
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "display": "Confirmed"
+        }
+      ],
+      "text": "Confirmed"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "code": "encounter-diagnosis",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+            "display": "Encounter Diagnosis"
+          }
+        ],
+        "text": "Encounter Diagnosis"
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "version": "http://snomed.info/sct/731000124108",
+          "code": "417181009",
+          "system": "http://snomed.info/sct",
+          "display": " Hormone receptor positive malignant neoplasm of breast (disorder)"
+        }
+      ],
+      "text": " Hormone receptor positive malignant neoplasm of breast (disorder)"
+    },
+    "subject": {
+      "reference": "Patient/patientBSJ1",
+      "display": "Betsy Smith-Johnson"
+    },
+    "onsetDateTime": "2022-10-12",
+    "abatementDateTime": "2023-07-16",
+    "recordedDate": "2022-10-12T14:15:07-04:00"
+  }
