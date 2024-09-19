@@ -1,0 +1,38 @@
+{
+  "resourceType": "MedicationAdministration",
+  "id": "smp-medadm-2-17",
+  "text": {
+    "status": "generated",
+    "div": "<div>Losartan 50mg po daily (monitor Potassium)</div>"
+  },
+  "status": "completed",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "314073",
+        "display": "Losartan 50mg"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "reasonCode": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "38341003",
+          "display": "Hypertensive disorder, systemic arterial (disorder)"
+        }
+      ]
+    }
+  ],
+  "dosage": [
+    {
+      "text": "po daily (monitor Potassium)"
+    }
+  ]
+}

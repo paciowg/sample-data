@@ -1,0 +1,111 @@
+{
+  "resourceType": "List",
+  "id": "smp-med-list-3",
+  "text": {
+    "status": "generated",
+    "div": "<div>SNF Medication  Administration List</div>"
+  },
+  "status": "current",
+  "mode": "snapshot",
+  "title": "SNF Medication  Administration List",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "104207-6",
+        "display": "Institution Administration List"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "date": "2024-06-22",
+  "entry": [
+    {
+      "date": "2024-06-22",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-3-41",
+        "display": "Atorvastatin 40 mg"
+      }
+    },
+    {
+      "date": "2024-06-22",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-3-42",
+        "display": "Sertraline 50mg"
+      }
+    },
+    {
+      "date": "2024-06-22",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-3-43",
+        "display": "Furosemide 20 mg"
+      }
+    },
+    {
+      "date": "2024-06-22",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-3-44",
+        "display": "Carvedilol 6.25mg"
+      }
+    },
+    {
+      "date": "2024-06-22",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-3-45",
+        "display": "Metformin 500mg"
+      }
+    },
+    {
+      "date": "2024-06-22",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-3-46",
+        "display": "Empagliflozin (Jardiance) 10mg"
+      }
+    },
+    {
+      "date": "2024-06-22",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-3-47",
+        "display": "Clopidogrel 75mg"
+      }
+    },
+    {
+      "date": "2024-06-22",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-3-48",
+        "display": "Losartan 50mg"
+      }
+    },
+    {
+      "date": "2024-06-22",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-3-49",
+        "display": "Ferrous Gluconate 325mg"
+      }
+    },
+    {
+      "date": "2024-06-22",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-3-50",
+        "display": "Acetaminophen 325mg"
+      }
+    },
+    {
+      "date": "2024-06-22",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-3-51",
+        "display": "Accuchecks"
+      }
+    },
+    {
+      "date": "2024-06-22",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-3-52",
+        "display": "Polyethylene glycol 3350 17g"
+      }
+    }
+  ]
+}

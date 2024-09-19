@@ -1,0 +1,49 @@
+{
+  "resourceType": "MedicationStatement",
+  "id": "smp-medstmt-5-78",
+  "text": {
+    "status": "generated",
+    "div": "<div>Metformin 500mg 1 tablet by mouth daily</div>"
+  },
+  "basedOn": [
+    {
+      "reference": "MedicationRequest/smp-medrx-5-78"
+    }
+  ],
+  "status": "active",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "311570",
+        "display": "Metformin 500mg"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "dateAsserted": "2024-07-17",
+  "informationSource": {
+    "reference": "Organization/org-Pharm-Everyday-Community-Pharm",
+    "display": "Everyday Community Pharmacy"
+  },
+  "reasonCode": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "359642000",
+          "display": "Diabetes mellitus type 2 in nonobese (disorder)"
+        }
+      ]
+    }
+  ],
+  "dosage": [
+    {
+      "sequence": 1,
+      "text": "1 tablet by mouth daily"
+    }
+  ]
+}

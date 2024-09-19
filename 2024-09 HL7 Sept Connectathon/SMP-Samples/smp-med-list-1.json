@@ -1,0 +1,90 @@
+{
+  "resourceType": "List",
+  "id": "smp-med-list-1",
+  "text": {
+    "status": "generated",
+    "div": "<div>Home Medication List</div>"
+  },
+  "status": "current",
+  "mode": "snapshot",
+  "title": "Home Medication List",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "104205-0",
+        "display": "Standard Medication List"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "date": "2024-08-11",
+  "entry": [
+    {
+      "date": "2024-08-11",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-1-1",
+        "display": "Atorvastatin 40 mg"
+      }
+    },
+    {
+      "date": "2024-08-11",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-1-2",
+        "display": "Sertraline 25 mg"
+      }
+    },
+    {
+      "date": "2024-08-11",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-1-3",
+        "display": "Furosemide 20 mg"
+      }
+    },
+    {
+      "date": "2024-08-11",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-1-4",
+        "display": "Carvedilol 6.25 mg"
+      }
+    },
+    {
+      "date": "2024-08-11",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-1-5",
+        "display": "Glipizide 2.5 mg"
+      }
+    },
+    {
+      "date": "2024-08-11",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-1-6",
+        "display": "Calcium 500 mg"
+      }
+    },
+    {
+      "date": "2024-08-11",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-1-7",
+        "display": "Vitamin D 800 IU"
+      }
+    },
+    {
+      "date": "2024-08-11",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-1-8",
+        "display": "Tylenol (Acetaminophen) 650 mg"
+      }
+    },
+    {
+      "date": "2024-08-11",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-1-9",
+        "display": "Ferrous Sulfate 325 mg"
+      }
+    }
+  ]
+}

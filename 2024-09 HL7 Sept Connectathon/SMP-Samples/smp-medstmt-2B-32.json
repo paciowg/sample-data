@@ -1,0 +1,44 @@
+{
+  "resourceType": "MedicationStatement",
+  "id": "smp-medstmt-2B-32",
+  "text": {
+    "status": "generated",
+    "div": "<div>Clopidogrel 75mg po daily</div>"
+  },
+  "status": "intended",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "309362",
+        "display": "Clopidogrel 75mg"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "dateAsserted": "2024-06-22",
+  "informationSource": {
+    "reference": "Organization/org-PSC-Prism-General-Hospital",
+    "display": "Prism General Hospital"
+  },
+  "reasonCode": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "422504002",
+          "display": "Ischemic Stroke (disorder)"
+        }
+      ]
+    }
+  ],
+  "dosage": [
+    {
+      "sequence": 1,
+      "text": "po daily"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "resourceType": "List",
+  "id": "smp-med-list-4",
+  "text": {
+    "status": "generated",
+    "div": "<div>Home Health Active Medication List</div>"
+  },
+  "status": "current",
+  "mode": "snapshot",
+  "title": "Home Health Active Medication List",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "104202-7",
+        "display": "Active Medication List"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "date": "2024-07-16",
+  "entry": [
+    {
+      "date": "2024-07-16",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-4-64",
+        "display": "Atorvastatin 40 mg"
+      }
+    },
+    {
+      "date": "2024-07-16",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-4-65",
+        "display": "Sertraline 50 mg"
+      }
+    },
+    {
+      "date": "2024-07-16",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-4-66",
+        "display": "Furosemide 20 mg"
+      }
+    },
+    {
+      "date": "2024-07-16",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-4-67",
+        "display": "Metformin 500mg"
+      }
+    },
+    {
+      "date": "2024-07-16",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-4-68",
+        "display": "Empagliflozin (Jardiance) 10mg"
+      }
+    },
+    {
+      "date": "2024-07-16",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-4-69",
+        "display": "Clopidogrel 75mg"
+      }
+    },
+    {
+      "date": "2024-07-16",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-4-70",
+        "display": "Losartan 50mg"
+      }
+    },
+    {
+      "date": "2024-07-16",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-4-71",
+        "display": "Ferrous Gluconate 325mg"
+      }
+    },
+    {
+      "date": "2024-07-16",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-4-72",
+        "display": "Acetaminophen (Tylenol) 325mg"
+      }
+    },
+    {
+      "date": "2024-07-16",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-4-73",
+        "display": "Accuchecks"
+      }
+    },
+    {
+      "date": "2024-07-16",
+      "item": {
+        "reference": "MedicationStatement/smp-medstmt-4-74",
+        "display": "Polyethylene glycol 3350 (Miralax)"
+      }
+    }
+  ]
+}

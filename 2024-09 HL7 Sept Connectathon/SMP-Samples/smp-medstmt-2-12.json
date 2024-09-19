@@ -1,0 +1,49 @@
+{
+  "resourceType": "MedicationStatement",
+  "id": "smp-medstmt-2-12",
+  "text": {
+    "status": "generated",
+    "div": "<div>Furosemide 20 mg po daily</div>"
+  },
+  "partOf": [
+    {
+      "reference": "MedicationAdministration/smp-medadm-2-12"
+    }
+  ],
+  "status": "active",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "310429",
+        "display": "Furosemide 20 mg"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1",
+    "display": "Betsy Johnson"
+  },
+  "dateAsserted": "2024-08-21",
+  "informationSource": {
+    "reference": "Organization/org-PSC-Prism-General-Hospital",
+    "display": "Prism General Hospital"
+  },
+  "reasonCode": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "731000119105",
+          "display": "Chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)"
+        }
+      ]
+    }
+  ],
+  "dosage": [
+    {
+      "sequence": 1,
+      "text": "po daily"
+    }
+  ]
+}
