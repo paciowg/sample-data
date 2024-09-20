@@ -6,6 +6,18 @@ require 'byebug'
 # Disable certificate verification
 OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
 
+# Delete existing patient resources from the server
+def delete_patient_resources(base_url, patient_id)
+  endpoint = "#{base_url}/Patient?_id=#{patient_id}&_cascade=delete"
+  response = HTTParty.delete(endpoint)
+
+  if response.success?
+    puts "Successfully deleted patient's data: #{response.body.inspect}"
+  else
+    puts "Unable to delete patient's data: #{response.body.inspect}"
+  end
+end
+
 # Function to make a PUT request
 def make_put_request(url, data)
   headers = {
@@ -135,12 +147,16 @@ def load_json_files(directory, base_url)
 end
 
 # Provide the directory path containing the JSON files
-json_directory = '2024-07 CMS July Connectathon/Bundle'
+json_directory = '2024-09 HL7 Sept Connectathon'
 
 # Provide the base URL of the server
 base_url = 'https://gw.interop.community/MiHIN/open'
 # base_url = "https://gravity-ehr-server.herokuapp.com/fhir"
 # base_url = 'http://hapi.fhir.org/baseR4'
+
+# First delete old resources
+# patient_id = 'patientBSJ1'
+# delete_patient_resources(base_url, patient_id)
 
 # Call the method to load JSON files onto the server and get the count of unsuccessful uploads
 puts load_json_files(json_directory, base_url).inspect
