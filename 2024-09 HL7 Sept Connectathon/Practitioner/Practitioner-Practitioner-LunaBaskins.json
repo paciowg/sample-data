@@ -1,33 +1,33 @@
 {
-    "resourceType": "Practitioner",
-    "id": "Practitioner-LunaBaskins",
-    "name": [
-      {
-        "given": [
-          "Luna"
-        ],
-        "family": "Baskins",
-        "text": "Luna Baskins"
-      }
-    ],
-    "active": true,
-    "gender": "non-binary",
-    "telecom": [
-      {
-        "system": "phone",
-        "value": "(210) 555 1871"
-      }
-    ],
-    "address": [
-      {
-        "line": [
-          "8100 Pinebrook Dr"
-        ],
-        "city": "Grand Rapids",
-        "state": "MI",
-        "postalCode": "49504",
-        "country": "US",
-        "text": "8100 Pinebrook Dr, Grand Rapids, MI 49504"
-      }
-    ]
-  }
+  "resourceType": "Practitioner",
+  "id": "Practitioner-LunaBaskins",
+  "name": [
+    {
+      "given": [
+        "Luna"
+      ],
+      "family": "Baskins",
+      "text": "Luna Baskins"
+    }
+  ],
+  "active": true,
+  "gender": "female",
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "(210) 555 1871"
+    }
+  ],
+  "address": [
+    {
+      "line": [
+        "8100 Pinebrook Dr"
+      ],
+      "city": "Grand Rapids",
+      "state": "MI",
+      "postalCode": "49504",
+      "country": "US",
+      "text": "8100 Pinebrook Dr, Grand Rapids, MI 49504"
+    }
+  ]
+}
