@@ -202,9 +202,6 @@
           "reference": "Condition/BSJ-NauseaAndVomiting"
         },
         {
-          "reference": "Condition/BSJ-Neuropathy"
-        },
-        {
           "reference": "Condition/BSJ-StrokeDiagnosis"
         },
         {
