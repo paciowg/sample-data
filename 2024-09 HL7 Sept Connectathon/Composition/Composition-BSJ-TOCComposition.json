@@ -262,7 +262,7 @@
     ]
   },
   "subject": {
-    "reference": "Patient/Example-Smith-Johnson-Patient1"
+    "reference": "Patient/patientBSJ1"
   },
   "date": "2024-09-20T12:30:58.313-04:00",
   "title": "Transitions of Care Document for Betsy Smith-Johnson",
