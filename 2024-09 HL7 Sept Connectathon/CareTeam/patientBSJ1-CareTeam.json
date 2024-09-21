@@ -1,0 +1,120 @@
+{
+  "resourceType": "CareTeam",
+  "id": "31674",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-09-21T13:54:22.000+00:00",
+    "source": "#cY4v0HwHBVnRmDhK"
+  },
+  "status": "active",
+  "name": "Post Discharge to Home Care Team",
+  "subject": {
+    "reference": "Patient/patientBSJ1",
+    "type": "Patient"
+  },
+  "period": {
+    "start": "2024-09-20T05:00:00.000Z"
+  },
+  "participant": [
+    {
+      "role": [
+        {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "446050000",
+              "display": "Primary Care Physician"
+            }
+          ],
+          "text": "Primary Care Physician"
+        }
+      ],
+      "member": {
+        "reference": "Practitioner/Practitioner-AnitaChu"
+      }
+    },
+    {
+      "role": [
+        {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "56397003",
+              "display": "Neurologist"
+            }
+          ],
+          "text": "Neurologist"
+        }
+      ],
+      "member": {
+        "reference": "Practitioner/Practitioner-NuraMekel"
+      }
+    },
+    {
+      "role": [
+        {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "24430003",
+              "display": "Physical Therapist"
+            }
+          ],
+          "text": "Physical Therapist"
+        }
+      ],
+      "member": {
+        "reference": "Practitioner/Practitioner-LunaBaskins"
+      }
+    },
+    {
+      "role": [
+        {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "159026005",
+              "display": "Speech Language Pathologist"
+            }
+          ],
+          "text": "Speech Language Pathologist"
+        }
+      ],
+      "member": {
+        "reference": "Practitioner/Practitioner-AlexanderKuikhoff"
+      }
+    },
+    {
+      "role": [
+        {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "80546007",
+              "display": "Occupational Therapist"
+            }
+          ],
+          "text": "Occupational Therapist"
+        }
+      ],
+      "member": {
+        "reference": "Practitioner/Practitioner-JenCadbury"
+      }
+    },
+    {
+      "role": [
+        {
+          "coding": [
+            {
+              "display": "Geriatrician"
+            }
+          ],
+          "text": "Geriatrician"
+        }
+      ],
+      "member": {
+        "reference": "PractitionerRole/Role-SNFDoc-GeraldPark"
+      }
+    }
+  ]
+}
