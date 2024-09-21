@@ -1,39 +1,48 @@
 {
   "resourceType": "Practitioner",
   "id": "Practioner-GeraldPark",
-  "name": [
-    {
-      "given": [
-        "Gerald"
-      ],
-      "family": "Park",
-      "text": "Gerald Park"
-    }
-  ],
-  "active": true,
-  "gender": "male",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2024-09-21T14:20:39.000+00:00",
+    "source": "#uLpgpufbAOK8WsVT"
+  },
   "identifier": [
     {
       "system": "http://hl7.org/fhir/sid/us-npi",
       "value": "3820583019"
     }
   ],
+  "active": true,
+  "name": [
+    {
+      "text": "Gerald Park",
+      "family": "Park",
+      "given": [
+        "Gerald"
+      ]
+    }
+  ],
   "telecom": [
     {
       "system": "phone",
       "value": "(555) 566 3494"
+    },
+    {
+      "system": "email",
+      "value": "gpark@patientcentricsolutions.com"
     }
   ],
   "address": [
     {
+      "text": "8100 Pinebrook Dr, Grand Rapids, MI 49504",
       "line": [
         "8100 Pinebrook Dr"
       ],
       "city": "Grand Rapids",
       "state": "MI",
       "postalCode": "49504",
-      "country": "US",
-      "text": "8100 Pinebrook Dr, Grand Rapids, MI 49504"
+      "country": "US"
     }
-  ]
+  ],
+  "gender": "male"
 }
