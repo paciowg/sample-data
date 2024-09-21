@@ -29,9 +29,9 @@
       {
         "coding": [
           {
-            "code": "d5",
+            "code": "d310",
             "system": "http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs",
-            "display": "Self Care"
+            "display": "Communicating with - receiving - spoken messages"
           }
         ]
       },
@@ -47,9 +47,9 @@
       {
         "coding": [
           {
-            "code": "d3101",
+            "code": "d5",
             "system": "http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs",
-            "display": "Communicating with - receiving - complex spoken messages"
+            "display": "Self Care"
           }
         ]
       }
