@@ -23,7 +23,7 @@
     ],
     "allergyIntolerance": [
       {
-        "reference": "AllergyIntolerance/BSJ-NoKnownFoodAllergies"
+        "reference": "AllergyIntolerance/BSJ-AllergyACE"
       }
     ],
     "oralDiet": {
