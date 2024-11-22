@@ -87,6 +87,14 @@
       "text": "31514 25th Ln S, 101, Federal Way, WA 98003"
     }
   ],
+  "maritalStatus": {
+    "coding": [
+      {
+        "code": "W",
+        "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"
+      }
+    ]
+  },
   "contact": [
     {
       "relationship": [
