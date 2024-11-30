@@ -1,0 +1,24 @@
+{
+  "resourceType": "Organization",
+  "id": "org-Pharm-Everyday-Community-Pharm",
+  "active": true,
+  "name": "Everyday Community Pharmacy",
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "(610) 555 1893"
+    }
+  ],
+  "address": [
+    {
+      "line": [
+        "125 Yew St"
+      ],
+      "city": "Grand Rapids",
+      "state": "MI",
+      "postalCode": "49503",
+      "country": "US",
+      "text": "125 Yew St, Grand Rapids, MI 49503"
+    }
+  ]
+}

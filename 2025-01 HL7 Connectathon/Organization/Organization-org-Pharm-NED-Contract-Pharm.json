@@ -1,0 +1,24 @@
+{
+  "resourceType": "Organization",
+  "id": "org-Pharm-NED-Contract-Pharm",
+  "active": true,
+  "name": "Not Every Day Contract Pharmacy",
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "(410) 588 4939"
+    }
+  ],
+  "address": [
+    {
+      "line": [
+        "155 Light Commercial Ave"
+      ],
+      "city": "Grand Rapids",
+      "state": "MI",
+      "postalCode": "49509",
+      "country": "US",
+      "text": "155 Light Commercial Ave, Grand Rapids, MI 49509"
+    }
+  ]
+}
