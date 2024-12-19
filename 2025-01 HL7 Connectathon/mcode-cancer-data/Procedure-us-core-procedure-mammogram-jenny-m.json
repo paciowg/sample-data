@@ -1,0 +1,40 @@
+{
+  "resourceType" : "Procedure",
+  "id" : "us-core-procedure-mammogram-jenny-m",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Procedure us-core-procedure-mammogram-jenny-m</b></p><a name=\"us-core-procedure-mammogram-jenny-m\"> </a><a name=\"hcus-core-procedure-mammogram-jenny-m\"> </a><a name=\"us-core-procedure-mammogram-jenny-m-en-US\"> </a><p><b>status</b>: Completed</p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 71651007}\">Mammography (procedure)</span></p><p><b>subject</b>: <a href=\"Patient-patientJM1.html\">Mosley, Jenny Female, DoB: 1955-10-03 ( http://hl7.org/fhir/sid/us-medicare#MedicareHIC#1EG4-TE5-MK73)</a></p><p><b>performed</b>: 2018-02-01</p><p><b>asserter</b>: <a href=\"Practitioner-us-core-practitioner-mary-obgyn.html\">Practitioner Mary Obgyn </a></p><h3>Performers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Actor</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Practitioner-us-core-practitioner-jane-radiotech.html\">Practitioner Jane Radiologist </a></td></tr></table><p><b>reasonCode</b>: <span title=\"Codes:{http://snomed.info/sct 360156006}\">Screening - procedure intent (qualifier value)</span></p></div>"
+  },
+  "status" : "completed",
+  "code" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008",
+      "code" : "71651007",
+      "display" : "Mammography (procedure)"
+    }]
+  },
+  "subject" : {
+    "reference" : "Patient/patientJM1"
+  },
+  "performedDateTime" : "2018-02-01",
+  "asserter" : {
+    "reference" : "Practitioner/us-core-practitioner-mary-obgyn"
+  },
+  "performer" : [{
+    "actor" : {
+      "reference" : "Practitioner/us-core-practitioner-jane-radiotech"
+    }
+  }],
+  "reasonCode" : [{
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008",
+      "code" : "360156006",
+      "display" : "Screening - procedure intent (qualifier value)"
+    }]
+  }]
+}

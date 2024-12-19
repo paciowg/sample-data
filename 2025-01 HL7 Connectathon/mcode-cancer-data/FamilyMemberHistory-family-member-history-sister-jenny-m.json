@@ -1,0 +1,35 @@
+{
+  "resourceType" : "FamilyMemberHistory",
+  "id" : "family-member-history-sister-jenny-m",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: FamilyMemberHistory family-member-history-sister-jenny-m</b></p><a name=\"family-member-history-sister-jenny-m\"> </a><a name=\"hcfamily-member-history-sister-jenny-m\"> </a><a name=\"family-member-history-sister-jenny-m-en-US\"> </a><p><b>status</b>: Completed</p><p><b>patient</b>: <a href=\"Patient-patientJM1.html\">Mosley, Jenny Female, DoB: 1955-10-03 ( http://hl7.org/fhir/sid/us-medicare#MedicareHIC#1EG4-TE5-MK73)</a></p><p><b>relationship</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-RoleCode NSIS}\">natural sister</span></p><h3>Conditions</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>ContributedToDeath</b></td><td><b>Onset[x]</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://snomed.info/sct 254837009}\">Malignant neoplasm of breast (disorder)</span></td><td>false</td><td>64 a<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codea = 'a')</span></td></tr></table></div>"
+  },
+  "status" : "completed",
+  "patient" : {
+    "reference" : "Patient/patientJM1"
+  },
+  "relationship" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "code" : "NSIS",
+      "display" : "natural sister"
+    }]
+  },
+  "condition" : [{
+    "code" : {
+      "coding" : [{
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/900000000000207008",
+        "code" : "254837009",
+        "display" : "Malignant neoplasm of breast (disorder)"
+      }]
+    },
+    "contributedToDeath" : false,
+    "onsetAge" : {
+      "value" : 64,
+      "system" : "http://unitsofmeasure.org",
+      "code" : "a"
+    }
+  }]
+}

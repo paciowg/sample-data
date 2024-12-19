@@ -1,0 +1,151 @@
+{
+  "resourceType" : "Procedure",
+  "id" : "radiotherapy-treatment-summary-chest-wall-jenny-m",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-course-summary"]
+  },
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Procedure radiotherapy-treatment-summary-chest-wall-jenny-m</b></p><a name=\"radiotherapy-treatment-summary-chest-wall-jenny-m\"> </a><a name=\"hcradiotherapy-treatment-summary-chest-wall-jenny-m\"> </a><a name=\"radiotherapy-treatment-summary-chest-wall-jenny-m-en-US\"> </a><p><b>Radiotherapy Number of Sessions Extension</b>: 31</p><p><b>Procedure Intent Extension</b>: <span title=\"Codes:{http://snomed.info/sct 373808002}\">Curative - procedure intent</span></p><blockquote><p><b>Radiotherapy Modality And Technique Extension</b></p><ul><li>http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-modality: <span title=\"Codes:{http://snomed.info/sct 1156506007}\">External beam radiation therapy using photons (procedure)</span></li><li>http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-technique: <span title=\"Codes:{http://snomed.info/sct 1156530009}\">Volumetric Modulated Arc Therapy (procedure)</span></li></ul></blockquote><blockquote><p><b>Radiotherapy Modality And Technique Extension</b></p><ul><li>http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-modality: <span title=\"Codes:{http://snomed.info/sct 45643008}\">Teleradiotherapy using electrons</span></li><li>http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-technique: <span title=\"Codes:{http://snomed.info/sct 1162782007}\">Three dimensional external beam radiation therapy (procedure)</span></li></ul></blockquote><blockquote><p><b>Radiotherapy Dose Delivered To Volume Extension</b></p><ul><li>volume: <a href=\"BodyStructure-jenny-m-chest-wall-treatment-volume.html\">BodyStructure: identifier = 1.2.246.352…1\u00a0(use:\u00a0usual,\u00a0); location = Chest wall structure (body structure); locationQualifier = Entire (qualifier value); description = Chest Wall</a></li><li>totalDoseDelivered: 6000 cGy<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codecGy = 'cGy')</span></li><li>fractionsDelivered: 30</li></ul></blockquote><blockquote><p><b>Radiotherapy Dose Delivered To Volume Extension</b></p><ul><li>volume: <a href=\"BodyStructure-jenny-m-chest-wall-lymph-nodes-treatment-volume.html\">BodyStructure: identifier = 1.2.246.352…2\u00a0(use:\u00a0usual,\u00a0); location = Mediastinal lymph node structure (body structure); locationQualifier = Right and left (qualifier value); description = Chest Wall Lymph Nodes</a></li><li>totalDoseDelivered: 5000 cGy<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codecGy = 'cGy')</span></li><li>fractionsDelivered: 25</li></ul></blockquote><p><b>status</b>: Completed</p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 1217123003}\">Radiotherapy course of treatment</span></p><p><b>subject</b>: <a href=\"Patient-patientJM1.html\">Mosley, Jenny Female, DoB: 1955-10-03 ( http://hl7.org/fhir/sid/us-medicare#MedicareHIC#1EG4-TE5-MK73)</a></p><p><b>performed</b>: 2018-10-29 --&gt; 2018-12-03</p><p><b>asserter</b>: <a href=\"Practitioner-us-core-practitioner-kyle-anydoc.html\">Practitioner Kyle Anydoc </a></p><p><b>reasonCode</b>: <span title=\"Codes:{http://hl7.org/fhir/sid/icd-10-cm C50.811}\">Malignant neoplasm of overlapping sites of right female breast</span></p><p><b>bodySite</b>: <span title=\"Codes:{http://snomed.info/sct 78904004}\">Chest Wall Structure (body structure)</span></p></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-sessions",
+    "valueUnsignedInt" : 31
+  },
+  {
+    "url" : "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-procedure-intent",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/900000000000207008",
+        "code" : "373808002",
+        "display" : "Curative - procedure intent"
+      }]
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-modality",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "version" : "http://snomed.info/sct/900000000000207008",
+          "code" : "1156506007",
+          "display" : "External beam radiation therapy using photons (procedure)"
+        }]
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-technique",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "version" : "http://snomed.info/sct/900000000000207008",
+          "code" : "1156530009",
+          "display" : "Volumetric Modulated Arc Therapy (procedure)"
+        }]
+      }
+    }],
+    "url" : "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-modality-and-technique"
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-modality",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "version" : "http://snomed.info/sct/900000000000207008",
+          "code" : "45643008",
+          "display" : "Teleradiotherapy using electrons"
+        }]
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-technique",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "version" : "http://snomed.info/sct/900000000000207008",
+          "code" : "1162782007",
+          "display" : "Three dimensional external beam radiation therapy (procedure)"
+        }]
+      }
+    }],
+    "url" : "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-modality-and-technique"
+  },
+  {
+    "extension" : [{
+      "url" : "volume",
+      "valueReference" : {
+        "reference" : "BodyStructure/jenny-m-chest-wall-treatment-volume"
+      }
+    },
+    {
+      "url" : "totalDoseDelivered",
+      "valueQuantity" : {
+        "value" : 6000,
+        "system" : "http://unitsofmeasure.org",
+        "code" : "cGy"
+      }
+    },
+    {
+      "url" : "fractionsDelivered",
+      "valueUnsignedInt" : 30
+    }],
+    "url" : "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-dose-delivered-to-volume"
+  },
+  {
+    "extension" : [{
+      "url" : "volume",
+      "valueReference" : {
+        "reference" : "BodyStructure/jenny-m-chest-wall-lymph-nodes-treatment-volume"
+      }
+    },
+    {
+      "url" : "totalDoseDelivered",
+      "valueQuantity" : {
+        "value" : 5000,
+        "system" : "http://unitsofmeasure.org",
+        "code" : "cGy"
+      }
+    },
+    {
+      "url" : "fractionsDelivered",
+      "valueUnsignedInt" : 25
+    }],
+    "url" : "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-dose-delivered-to-volume"
+  }],
+  "status" : "completed",
+  "code" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008",
+      "code" : "1217123003"
+    }]
+  },
+  "subject" : {
+    "reference" : "Patient/patientJM1"
+  },
+  "performedPeriod" : {
+    "start" : "2018-10-29",
+    "end" : "2018-12-03"
+  },
+  "asserter" : {
+    "reference" : "Practitioner/us-core-practitioner-kyle-anydoc"
+  },
+  "reasonCode" : [{
+    "coding" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+      "code" : "C50.811",
+      "display" : "Malignant neoplasm of overlapping sites of right female breast"
+    }]
+  }],
+  "bodySite" : [{
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008",
+      "code" : "78904004",
+      "display" : "Chest Wall Structure (body structure)"
+    }]
+  }]
+}

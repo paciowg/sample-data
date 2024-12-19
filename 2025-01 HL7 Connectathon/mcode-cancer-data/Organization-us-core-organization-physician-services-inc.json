@@ -1,0 +1,36 @@
+{
+  "resourceType" : "Organization",
+  "id" : "us-core-organization-physician-services-inc",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization us-core-organization-physician-services-inc</b></p><a name=\"us-core-organization-physician-services-inc\"> </a><a name=\"hcus-core-organization-physician-services-inc\"> </a><a name=\"us-core-organization-physician-services-inc-en-US\"> </a><p><b>identifier</b>: <a href=\"http://terminology.hl7.org/3.1.0/NamingSystem-npi.html\" title=\"National Provider Identifier\">NPI</a>/0499342208</p><p><b>active</b>: true</p><p><b>type</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/organization-type prov}\">Healthcare Provider</span></p><p><b>name</b>: Physician Services, Inc.</p><p><b>telecom</b>: ph: 999-999-9999(Work)</p><p><b>address</b>: 123 Corporate Drive Anytown WA 12345 US </p></div>"
+  },
+  "identifier" : [{
+    "system" : "http://hl7.org/fhir/sid/us-npi",
+    "value" : "0499342208"
+  }],
+  "active" : true,
+  "type" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/organization-type",
+      "code" : "prov",
+      "display" : "Healthcare Provider"
+    }]
+  }],
+  "name" : "Physician Services, Inc.",
+  "telecom" : [{
+    "system" : "phone",
+    "value" : "999-999-9999",
+    "use" : "work"
+  }],
+  "address" : [{
+    "line" : ["123 Corporate Drive"],
+    "city" : "Anytown",
+    "state" : "WA",
+    "postalCode" : "12345",
+    "country" : "US"
+  }]
+}
