@@ -1,0 +1,48 @@
+{
+  "resourceType" : "Observation",
+  "id" : "cancer-disease-status-jenny-m",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-disease-status"]
+  },
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation cancer-disease-status-jenny-m</b></p><a name=\"cancer-disease-status-jenny-m\"> </a><a name=\"hccancer-disease-status-jenny-m\"> </a><a name=\"cancer-disease-status-jenny-m-en-US\"> </a><p><b>Cancer Disease Status Evidence Type Extension</b>: <span title=\"Codes:{http://snomed.info/sct 363679005}\">Imaging (procedure)</span></p><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 97509-4}\">Cancer Disease Progression</span></p><p><b>subject</b>: <a href=\"Patient-patientJM1.html\">Mosley, Jenny Female, DoB: 1955-10-03 ( http://hl7.org/fhir/sid/us-medicare#MedicareHIC#1EG4-TE5-MK73)</a></p><p><b>focus</b>: <a href=\"Condition-primary-cancer-condition-jenny-m.html\">Condition Primary malignant neoplasm of female left breast (disorder)</a></p><p><b>effective</b>: 2018-12-15</p><p><b>performer</b>: <a href=\"Practitioner-us-core-practitioner-owen-oncologist.html\">Practitioner Owen Oncologist </a></p><p><b>value</b>: <span title=\"Codes:{http://snomed.info/sct 268910001}\">Patient's condition improved (finding)</span></p></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-disease-status-evidence-type",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/900000000000207008",
+        "code" : "363679005",
+        "display" : "Imaging (procedure)"
+      }]
+    }
+  }],
+  "status" : "final",
+  "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "97509-4",
+      "display" : "Cancer Disease Progression"
+    }]
+  },
+  "subject" : {
+    "reference" : "Patient/patientJM1"
+  },
+  "focus" : [{
+    "reference" : "Condition/primary-cancer-condition-jenny-m"
+  }],
+  "effectiveDateTime" : "2018-12-15",
+  "performer" : [{
+    "reference" : "Practitioner/us-core-practitioner-owen-oncologist"
+  }],
+  "valueCodeableConcept" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008",
+      "code" : "268910001",
+      "display" : "Patient's condition improved (finding)"
+    }]
+  }
+}

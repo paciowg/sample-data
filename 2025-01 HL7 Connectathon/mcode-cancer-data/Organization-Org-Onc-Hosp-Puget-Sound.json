@@ -1,0 +1,30 @@
+{
+  "resourceType" : "Organization",
+  "id" : "Org-Onc-Hosp-Puget-Sound",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization Org-Onc-Hosp-Puget-Sound</b></p><a name=\"Org-Onc-Hosp-Puget-Sound\"> </a><a name=\"hcOrg-Onc-Hosp-Puget-Sound\"> </a><a name=\"Org-Onc-Hosp-Puget-Sound-en-US\"> </a><p><b>identifier</b>: <a href=\"http://terminology.hl7.org/3.1.0/NamingSystem-npi.html\" title=\"National Provider Identifier\">NPI</a>/0767177476</p><p><b>active</b>: true</p><p><b>name</b>: Bedrock Medicine</p><p><b>address</b>: 55 Secant Street Cambridge WA 02141 USA </p><h3>Contacts</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Telecom</b></td></tr><tr><td style=\"display: none\">*</td><td>ph: 617-555-2200</td></tr></table></div>"
+  },
+  "identifier" : [{
+    "system" : "http://hl7.org/fhir/sid/us-npi",
+    "value" : "0767177476"
+  }],
+  "active" : true,
+  "name" : "Bedrock Medicine",
+  "address" : [{
+    "line" : ["55 Secant Street"],
+    "city" : "Cambridge",
+    "state" : "WA",
+    "postalCode" : "02141",
+    "country" : "USA"
+  }],
+  "contact" : [{
+    "telecom" : [{
+      "system" : "phone",
+      "value" : "617-555-2200"
+    }]
+  }]
+}
