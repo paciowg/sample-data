@@ -1,0 +1,49 @@
+{
+  "resourceType" : "Procedure",
+  "id" : "cancer-related-surgical-procedure-jenny-m",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-related-surgical-procedure"]
+  },
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Procedure cancer-related-surgical-procedure-jenny-m</b></p><a name=\"cancer-related-surgical-procedure-jenny-m\"> </a><a name=\"hccancer-related-surgical-procedure-jenny-m\"> </a><a name=\"cancer-related-surgical-procedure-jenny-m-en-US\"> </a><p><b>Procedure Intent Extension</b>: <span title=\"Codes:{http://snomed.info/sct 373808002}\">Curative - procedure intent (qualifier value)</span></p><p><b>status</b>: Completed</p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 64368001}\">Excision of part of breast (procedure)</span></p><p><b>subject</b>: <a href=\"Patient-patientJM1.html\">Mosley, Jenny Female, DoB: 1955-10-03 ( http://hl7.org/fhir/sid/us-medicare#MedicareHIC#1EG4-TE5-MK73)</a></p><p><b>performed</b>: 2018-04-01</p><p><b>asserter</b>: <a href=\"Practitioner-us-core-practitioner-owen-oncologist.html\">Practitioner Owen Oncologist </a></p><p><b>reasonReference</b>: <a href=\"Condition-primary-cancer-condition-jenny-m.html\">Condition Primary malignant neoplasm of female left breast (disorder)</a></p><p><b>bodySite</b>: <span title=\"Codes:{http://snomed.info/sct 80248007}\">Left breast structure (body structure)</span></p></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-procedure-intent",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/900000000000207008",
+        "code" : "373808002",
+        "display" : "Curative - procedure intent (qualifier value)"
+      }]
+    }
+  }],
+  "status" : "completed",
+  "code" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008",
+      "code" : "64368001",
+      "display" : "Excision of part of breast (procedure)"
+    }]
+  },
+  "subject" : {
+    "reference" : "Patient/patientJM1"
+  },
+  "performedDateTime" : "2018-04-01",
+  "asserter" : {
+    "reference" : "Practitioner/us-core-practitioner-owen-oncologist"
+  },
+  "reasonReference" : [{
+    "reference" : "Condition/primary-cancer-condition-jenny-m"
+  }],
+  "bodySite" : [{
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008",
+      "code" : "80248007",
+      "display" : "Left breast structure (body structure)"
+    }]
+  }]
+}

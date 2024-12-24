@@ -1,0 +1,43 @@
+{
+  "resourceType" : "Procedure",
+  "id" : "us-core-procedure-biopsy-jenny-m",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Procedure us-core-procedure-biopsy-jenny-m</b></p><a name=\"us-core-procedure-biopsy-jenny-m\"> </a><a name=\"hcus-core-procedure-biopsy-jenny-m\"> </a><a name=\"us-core-procedure-biopsy-jenny-m-en-US\"> </a><p><b>status</b>: Completed</p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 723990008}\">Biopsy of breast using ultrasonographic guidance (procedure)</span></p><p><b>subject</b>: <a href=\"Patient-patientJM1.html\">Mosley, Jenny Female, DoB: 1955-10-03 ( http://hl7.org/fhir/sid/us-medicare#MedicareHIC#1EG4-TE5-MK73)</a></p><p><b>performed</b>: 2018-03-06</p><p><b>asserter</b>: <a href=\"Practitioner-us-core-practitioner-mary-obgyn.html\">Practitioner Mary Obgyn </a></p><h3>Performers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Actor</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Practitioner-us-core-practitioner-mary-obgyn.html\">Practitioner Mary Obgyn </a></td></tr></table><p><b>reasonReference</b>: <a href=\"Condition-primary-cancer-condition-jenny-m.html\">Condition Primary malignant neoplasm of female left breast (disorder)</a></p><p><b>bodySite</b>: <span title=\"Codes:{http://snomed.info/sct 80248007}\">Left breast structure (body structure)</span></p></div>"
+  },
+  "status" : "completed",
+  "code" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008",
+      "code" : "723990008",
+      "display" : "Biopsy of breast using ultrasonographic guidance (procedure)"
+    }]
+  },
+  "subject" : {
+    "reference" : "Patient/patientJM1"
+  },
+  "performedDateTime" : "2018-03-06",
+  "asserter" : {
+    "reference" : "Practitioner/us-core-practitioner-mary-obgyn"
+  },
+  "performer" : [{
+    "actor" : {
+      "reference" : "Practitioner/us-core-practitioner-mary-obgyn"
+    }
+  }],
+  "reasonReference" : [{
+    "reference" : "Condition/primary-cancer-condition-jenny-m"
+  }],
+  "bodySite" : [{
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008",
+      "code" : "80248007",
+      "display" : "Left breast structure (body structure)"
+    }]
+  }]
+}
