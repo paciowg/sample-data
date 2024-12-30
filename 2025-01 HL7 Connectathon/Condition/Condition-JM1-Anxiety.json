@@ -1,6 +1,6 @@
 {
   "resourceType": "Condition",
-  "id": "JM1-HyperlipidemiaDiagnosis",
+  "id": "JM1-AnxietyDiagnosis",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
@@ -26,21 +26,22 @@
     "coding": [
       {
         "system": "http://snomed.info/sct",
-        "code": "55822004",
-        "display": "Hyperlipidemia (disorder)"
+        "code": "197480006",
+        "display": "Anxiety Disorder (disorder)"
       }
     ]
   },
   "subject": {
     "reference": "Patient/patient-JM1"
   },
+  "recordedDate": "2005-02-12",
   "category": [
     {
       "coding": [
         {
           "system": "http://hl7.org/fhir/sid/icf",
-          "code": "b5403",
-          "display": "Fat metabolism"
+          "code": "b152",
+          "display": "Emotional functions"
         }
       ]
     },
@@ -59,8 +60,8 @@
       "coding": [
         {
           "system": "http://snomed.info/sct",
-          "code": "113257007",
-          "display": "Structure of cardiovascular system (body structure)"
+          "code": "12738006",
+          "display": "Brain structure"
         }
       ]
     }
@@ -68,10 +69,7 @@
   "extension": [
     {
       "url": "http://hl7.org/fhir/StructureDefinition/condition-assertedDate",
-      "valueDateTime": "2018-06"
+      "valueDateTime": "2011-02"
     }
-  ],
-  "asserter": {
-    "reference": "PractitionerRole/Role-IMMD-AnitaChu"
-  }
+  ]
 }
