@@ -1,0 +1,18 @@
+{
+  "resourceType": "Location",
+  "id": "org-Loc-Everyday-Community-Pharm",
+  "status": "active",
+  "name": "Everyday Community Pharmacy",
+  "address": [
+    {
+      "line": [
+        "125 Yew St"
+      ],
+      "city": "Grand Rapids",
+      "state": "MI",
+      "postalCode": "49503",
+      "country": "US",
+      "text": "125 Yew St, Grand Rapids, MI 49503"
+    }
+  ]
+}
