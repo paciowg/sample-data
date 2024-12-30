@@ -34,13 +34,13 @@
   ],
   "address": [
     {
-      "text": "8100 Pinebrook Dr, Grand Rapids, MI 49504",
+      "text": "32935 1st Ave S, Federal Way, WA 98003",
       "line": [
-        "8100 Pinebrook Dr"
+        "32935 1st Ave S"
       ],
-      "city": "Grand Rapids",
-      "state": "MI",
-      "postalCode": "49504",
+      "city": "Federal Way",
+      "state": "WA",
+      "postalCode": "98003",
       "country": "US"
     }
   ],
