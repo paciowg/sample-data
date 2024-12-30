@@ -1,6 +1,6 @@
 {
   "resourceType": "Condition",
-  "id": "JM1-Hyperlipidemia",
+  "id": "BSJ-HypertensionDiagnosis",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
@@ -26,21 +26,21 @@
     "coding": [
       {
         "system": "http://snomed.info/sct",
-        "code": "55822004",
-        "display": "Hyperlipidemia (disorder)"
+        "code": "38341003",
+        "display": "Hypertensive disorder, systemic arterial (disorder)"
       }
     ]
   },
   "subject": {
-    "reference": "Patient/patient-JM1"
+    "reference": "Patient/patientBSJ1"
   },
   "category": [
     {
       "coding": [
         {
           "system": "http://hl7.org/fhir/sid/icf",
-          "code": "b5403",
-          "display": "Fat metabolism"
+          "code": "b4202",
+          "display": "Maintenance of blood pressure"
         }
       ]
     },
@@ -68,9 +68,11 @@
   "extension": [
     {
       "url": "http://hl7.org/fhir/StructureDefinition/condition-assertedDate",
-      "valueDateTime": "2018-06"
+      "valueDateTime": "2011-09"
     }
   ],
+  "onsetDateTime": "2011-08",
+  "recordedDate": "2011-09-17",
   "asserter": {
     "reference": "PractitionerRole/Role-IMMD-AnitaChu"
   }
