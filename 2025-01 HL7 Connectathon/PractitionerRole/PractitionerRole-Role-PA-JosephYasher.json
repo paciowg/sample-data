@@ -1,21 +1,21 @@
 {
     "resourceType": "PractitionerRole",
-    "id": "Role-SNFDoc-GeraldPark",
+    "id": "Role-PA-JosephYasher",
     "active": true,
     "code": [
       {
         "coding": [
           {
-            "code": "207QG0300X",
+            "code": "363A00000X",
             "system": "https://taxonomy.nucc.org/",
-            "display": "Geriatric Medicine Physician"
+            "display": "Physician Assistant"
           }
         ]
       }
     ],
     "practitioner": {
-      "reference": "Practitioner/Practioner-GeraldPark",
-      "display": "Gerald Park"
+      "reference": "Practitioner/Practioner-JosephYasher",
+      "display": "Joseph Yasher"
     },
     "organization": {
       "reference": "Organization/org-SNF-Happy-Nursing-Facility",

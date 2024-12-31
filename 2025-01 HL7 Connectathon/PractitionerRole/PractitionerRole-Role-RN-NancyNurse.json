@@ -1,21 +1,21 @@
 {
     "resourceType": "PractitionerRole",
-    "id": "Role-SLP-AlexanderKuikhoff",
+    "id": "Role-SLP-NancyNurse",
     "active": true,
     "code": [
       {
         "coding": [
           {
-            "code": "235Z00000X",
+            "code": "364SL0600X",
             "system": "https://taxonomy.nucc.org/",
-            "display": "Speech Language Pathologist"
+            "display": "Long-Term Care Clinical Nurse Specialist"
           }
         ]
       }
     ],
     "practitioner": {
-      "reference": "Practitioner/Practitioner-AlexanderKuikhoff",
-      "display": "Alexander Kuikhoff"
+      "reference": "Practitioner/Practitioner-NancyNurse",
+      "display": "Nancy Nurse"
     },
     "organization": {
       "reference": "Organization/org-SNF-Happy-Nursing-Facility",

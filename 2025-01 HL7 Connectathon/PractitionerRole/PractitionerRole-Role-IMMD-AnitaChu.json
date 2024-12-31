@@ -18,12 +18,12 @@
     "display": "Dr. Anita Chu"
   },
   "organization": {
-    "reference": "Organization/org-PC-Primary-Care-Michigan",
-    "display": "Michigan Primary Health Care Associates"
+    "reference": "Organization/org-PC-Primary-Care-FederalWay",
+    "display": "Washington Primary Health Care Associates"
   },
   "location": [
     {
-      "reference": "Location/org-Loc-PC-Primary-Care-Michigan"
+      "reference": "Location/org-Loc-PC-Primary-Care-FederalWay"
     }
   ]
 }
