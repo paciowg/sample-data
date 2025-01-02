@@ -1,42 +1,48 @@
 {
-  "resourceType": "Practitioner",
-  "id": "Practitioner-EmilyCarter",
-  "meta": {
+    "resourceType": "Practitioner",
+    "id": "Practitioner-EmilyCarter",
+    "meta": {
       "versionId": "4",
       "lastUpdated": "2024-09-21T14:14:58.000+00:00",
       "source": "#7DEapuGTyPa8JExC"
-  },
-  "active": true,
-  "name": [
+    },
+    "identifier": [
       {
-          "text": "Emily Carter",
-          "family": "Carter",
-          "given": [
-              "Emily"
-          ]
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "6636517735"
       }
-  ],
-  "telecom": [
+    ],
+    "active": true,
+    "name": [
       {
-          "system": "phone",
-          "value": "(210) 555 1111"
+        "text": "Emily Carter",
+        "family": "Carter",
+        "given": [
+          "Emily"
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "(210) 555 1111"
       },
       {
-          "system": "email",
-          "value": "EMCarter@patientcentricsolutions.com"
+        "system": "email",
+        "value": "EMCarter@patientcentricsolutions.com"
       }
-  ],
-  "address": [
+    ],
+    "address": [
       {
-          "text": "704 Terry Avenue, Seattle, WA 98104",
-          "line": [
-              "704 Terry Avenue"
-          ],
-          "city": "Seattle",
-          "state": "WA",
-          "postalCode": "98104",
-          "country": "US"
+        "text": "704 Terry Avenue, Seattle, WA 98104",
+        "line": [
+          "704 Terry Avenue"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98104",
+        "country": "US"
       }
-  ],
-  "gender": "female"
-}
+    ],
+    "gender": "female"
+  }

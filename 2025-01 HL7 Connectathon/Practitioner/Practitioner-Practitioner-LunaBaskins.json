@@ -6,6 +6,12 @@
     "lastUpdated": "2024-09-21T14:13:25.000+00:00",
     "source": "#t1IJv2gvYZdDhhSz"
   },
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/sid/us-npi",
+      "value": "5459712308"
+    }
+  ],
   "active": true,
   "name": [
     {
@@ -23,7 +29,7 @@
     },
     {
       "system": "email",
-      "value": "laskins@patientcentricsolutions.com"
+      "value": "lbaskins@patientcentricsolutions.com"
     }
   ],
   "address": [
