@@ -1,0 +1,44 @@
+{
+    "resourceType": "AllergyIntolerance",
+    "id": "example",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-allergyintolerance"
+      ]
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "code": "active",
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "code": "confirmed",
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+        }
+      ]
+    },
+    "category": [
+      "medication"
+    ],
+    "criticality": "high",
+    "code": {
+      "coding": [
+        {
+          "version": "http://snomed.info/sct/731000124108",
+          "code": "716186003",
+          "system": "http://snomed.info/sct",
+          "display": "No Known Allergies (situation)"
+        }
+      ],
+      "text": "No Known Allergies"
+    },
+    "patient": {
+      "reference": "Patient/patientJM1",
+      "display": "Jenny Mosley"
+    }
+  }
