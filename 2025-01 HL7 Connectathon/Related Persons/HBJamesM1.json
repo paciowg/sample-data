@@ -1,6 +1,6 @@
 {
   "resourceType": "RelatedPerson",
-  "id": "Family-JamesMosley",
+  "id": "HBJamesM1",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/us/core/StructureDefinition/us-core-relatedperson"
