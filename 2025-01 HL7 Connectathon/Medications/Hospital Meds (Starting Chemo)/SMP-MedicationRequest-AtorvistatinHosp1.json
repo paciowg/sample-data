@@ -1,6 +1,6 @@
 {
     "resourceType": "MedicationRequest",
-    "id": "MedicationRequest-AtorvastatinHome",
+    "id": "MedicationRequest-AtorvastatinHosp1",
     "status": "active",
     "intent": "order",
     "medicationCodeableConcept": {
@@ -16,7 +16,7 @@
       "reference": "Patient/patientJM1",
       "display": "Jenny Mosley"
     },
-    "authoredOn": "2024-08-17",
+    "authoredOn": "2024-09-21T19:25:00-08:00",
     "requester": {
       "reference": "Practitioner/Practioner-OwenOncologist",
       "display": "Owen Oncologist"

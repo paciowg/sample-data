@@ -7,7 +7,7 @@
     },
     "basedOn": [
       {
-        "reference": "MedicationRequest/medicationrequest-AlprazolamHome"
+        "reference": "MedicationRequest/medicationrequest-AlprazolamHosp1"
       }
     ],
     "status": "active",
@@ -25,8 +25,8 @@
       "display": "Jenny Mosley"
     },
     "informationSource": {
-      "reference": "Organization/org-PC-Primary-Care-FederalWay",
-      "display": "Washington Primary Health Care Associates"
+      "reference": "Organization/Org-Onc-Hosp-Puget-Sound",
+      "display": "Pugent Sound Cancer Center"
     },
     "reasonCode": [
       {

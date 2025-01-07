@@ -1,6 +1,6 @@
 {
     "resourceType": "MedicationRequest",
-    "id": "medicationrequest-AlprazolamHome",
+    "id": "medicationrequest-AlprazolamHosp1",
     "meta": {
       "profile": [
         "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
@@ -32,7 +32,7 @@
       "reference": "Patient/patientJM1",
       "display": "Jenny Mosley"
     },
-    "authoredOn": "2019-02-12",
+    "authoredOn": "2024-09-21T19:25:00-08:00",
     "requester": {
       "reference": "Practitioner/Practioner-OwenOncologist",
       "display": "Owen Oncologist"

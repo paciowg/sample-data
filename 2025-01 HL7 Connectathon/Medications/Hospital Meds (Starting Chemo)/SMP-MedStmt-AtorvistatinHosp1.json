@@ -1,13 +1,13 @@
 {
     "resourceType": "MedicationStatement",
-    "id": "SMP-MedStmt-AtorvistatinHome",
+    "id": "SMP-MedStmt-AtorvistatinHosp1",
     "text": {
       "status": "generated",
       "div": "<div>Atorvastatin 40 mg po nightly</div>"
     },
     "basedOn": [
       {
-        "reference": "MedicationRequest/MedicationRequest-AtorvistatinHome"
+        "reference": "MedicationRequest/MedicationRequest-AtorvistatinHosp1"
       }
     ],
     "status": "active",
@@ -25,8 +25,8 @@
       "display": "Jenny Mosley"
     },
     "informationSource": {
-      "reference": "Organization/org-PC-Primary-Care-FederalWay",
-      "display": "Washington Primary Health Care Associates"
+      "reference": "Organization/Org-Onc-Hosp-Puget-Sound",
+      "display": "Pugent Sound Cancer Center"
     },
     "reasonCode": [
       {
