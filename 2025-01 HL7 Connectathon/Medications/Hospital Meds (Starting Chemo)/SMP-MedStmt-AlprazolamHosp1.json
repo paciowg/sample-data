@@ -1,6 +1,6 @@
 {
     "resourceType": "MedicationStatement",
-    "id": "SMP-MedStmt-AlprazolamHome",
+    "id": "SMP-MedStmt-AlprazolamHosp1",
     "text": {
       "status": "generated",
       "div": "<div>ALPRAZolam 0.5 MG po tid</div>"

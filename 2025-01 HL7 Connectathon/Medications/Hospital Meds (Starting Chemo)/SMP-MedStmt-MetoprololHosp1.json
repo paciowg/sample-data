@@ -1,22 +1,22 @@
 {
     "resourceType": "MedicationStatement",
-    "id": "SMP-MedStmt-AlprazolamHome",
+    "id": "SMP-MedStmt-MetoprololHome",
     "text": {
       "status": "generated",
-      "div": "<div>ALPRAZolam 0.5 MG po tid</div>"
+      "div": "<div>Metoprolol tartrate 50 MG po bid</div>"
     },
     "basedOn": [
       {
-        "reference": "MedicationRequest/medicationrequest-AlprazolamHome"
+        "reference": "MedicationRequest/medicationrequest-MetoprololHome"
       }
     ],
     "status": "active",
     "medicationCodeableConcept": {
       "coding": [
         {
-          "code": "308048",
-          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
-          "display": "ALPRAZolam 0.5 MG Oral Tablet"
+            "code": "866514",
+            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+            "display": "metoprolol tartrate 50 MG Oral Tablet"
         }
       ]
     },
@@ -32,9 +32,9 @@
       {
         "coding": [
           {
+            "code": "38341003",
             "system": "http://snomed.info/sct",
-            "code": "197480006",
-            "display": "Anxiety Disorder"
+            "display": "Hypertensive disorder, systemic arterial (disorder)"
           }
         ]
       }
@@ -42,7 +42,7 @@
     "dosage": [
       {
         "sequence": 1,
-        "text": "Take up to three per day, by mouth, as needed."
+        "text": "po morning and night"
       }
     ]
   }
