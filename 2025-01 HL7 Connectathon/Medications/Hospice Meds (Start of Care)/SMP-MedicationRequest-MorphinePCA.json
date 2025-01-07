@@ -1,6 +1,6 @@
 {
   "resourceType": "MedicationRequest",
-  "id": "MedicationRequest-OralMorphinePalliative",
+  "id": "MedicationRequest-MorphinePCA",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
@@ -21,12 +21,12 @@
   "medicationCodeableConcept": {
     "coding": [
       {
-        "code": "894780",
+        "code": "892531",
         "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
-        "display": "morphine sulfate 4 MG/ML"
+        "display": "morphine sulfate 10 MG/ML"
       }
     ],
-    "text": "morphine sulfate 4 MG/ML"
+    "text": "morphine sulfate 10 MG/ML"
   },
   "subject": {
     "reference": "Patient/patientJM1",
@@ -52,18 +52,18 @@
   ],
   "dosageInstruction": [
     {
-      "text": "Administer 10 MG (2.5 ML) every 4 hours as needed for pain. May give an additional 10 MG (2.5 ML) rescue dose for breakthrough pain - administer scheduled doses as normal! If more than 3 rescue doses are needed, contact physician.",
+      "text": "Patient Controlled Analgesia Pump. Maximum dosage 1.5 MG every 2 hours. If three rescue doses of oral morphine are necessary or the patient complains of severe pain, contact hospice on-call provider.",
       "timing": {
         "repeat": {
-          "frequency": 6,
-          "period": 4,
+          "frequency": 12,
+          "period": 2,
           "periodUnit": "h"
         }
       },
       "doseAndRate": [
         {
           "doseQuantity": {
-            "value": 10,
+            "value": 1.5,
             "code": "mg",
             "system": "http://unitsofmeasure.org",
             "unit": "mg"
@@ -73,23 +73,24 @@
       "route": {
         "coding": [
           {
-            "code": "26643006",
+            "code": "34206005",
             "system": "http://snomed.info/sct",
-            "display": "Oral route (qualifier value)"
+            "display": " Subcutaneous route (qualifier value)"
           }
         ]
       }
     }
   ],
   "dispenseRequest": {
+    "numberOfRepeatsAllowed": 3,
     "quantity": {
-      "value": 400,
+      "value": 90,
       "code": "mg",
       "system": "http://unitsofmeasure.org",
       "unit": "mg"
     },
     "expectedSupplyDuration": {
-      "value": 6.5,
+      "value": 5,
       "code": "d",
       "system": "http://unitsofmeasure.org",
       "unit": "days"
