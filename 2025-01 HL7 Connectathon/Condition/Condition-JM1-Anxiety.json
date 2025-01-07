@@ -32,9 +32,9 @@
     ]
   },
   "subject": {
-    "reference": "Patient/patient-JM1"
+    "reference": "Patient/patientJM1"
   },
-  "recordedDate": "2005-02-12",
+  "recordedDate": "2019-02-12",
   "category": [
     {
       "coding": [
