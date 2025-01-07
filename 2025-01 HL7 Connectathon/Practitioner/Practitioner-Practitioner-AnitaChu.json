@@ -25,7 +25,7 @@
   "telecom": [
     {
       "system": "phone",
-      "value": "(616) 555-1212"
+      "value": "(206) 555-1212"
     },
     {
       "system": "email",
@@ -34,15 +34,15 @@
   ],
   "address": [
     {
-      "text": "123 Spruce Dr. Grand Rapids, MI 49503",
-      "line": [
-        "123 Spruce Dr"
-      ],
-      "city": "Grand Rapids",
-      "state": "MI",
-      "postalCode": "49503",
-      "country": "US"
-    }
+        "line": [
+          "31858 Pacific Highway S"
+        ],
+        "city": "Federal Way",
+        "state": "WA",
+        "postalCode": "98003",
+        "country": "US",
+        "text": "31858 Pacific Highway S, Federal Way, WA 98003"
+      }
   ],
   "gender": "female"
 }

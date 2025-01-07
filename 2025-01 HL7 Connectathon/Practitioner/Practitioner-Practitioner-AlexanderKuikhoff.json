@@ -1,42 +1,48 @@
 {
-  "resourceType": "Practitioner",
-  "id": "Practitioner-AlexanderKuikhoff",
-  "meta": {
+    "resourceType": "Practitioner",
+    "id": "Practitioner-AlexanderKuikhoff",
+    "meta": {
       "versionId": "4",
       "lastUpdated": "2024-09-21T14:14:58.000+00:00",
       "source": "#7DEapuGTyPa8JExC"
-  },
-  "active": true,
-  "name": [
+    },
+    "identifier": [
       {
-          "text": "Alexander Kuikhoff",
-          "family": "Kuikhoff",
-          "given": [
-              "Alexander"
-          ]
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "5229180976"
       }
-  ],
-  "telecom": [
+    ],
+    "active": true,
+    "name": [
       {
-          "system": "phone",
-          "value": "(210) 555 1871"
+        "text": "Alexander Kuikhoff",
+        "family": "Kuikhoff",
+        "given": [
+          "Alexander"
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "(210) 555 1871"
       },
       {
-          "system": "email",
-          "value": "akuikhoff@patientcentricsolutions.com"
+        "system": "email",
+        "value": "akuikhoff@patientcentricsolutions.com"
       }
-  ],
-  "address": [
+    ],
+    "address": [
       {
-          "text": "8100 Pinebrook Dr, Grand Rapids, MI 49504",
-          "line": [
-              "8100 Pinebrook Dr"
-          ],
-          "city": "Grand Rapids",
-          "state": "MI",
-          "postalCode": "49504",
-          "country": "US"
+        "line": [
+          "32935 1st Ave S"
+        ],
+        "city": "Federal Way",
+        "state": "WA",
+        "postalCode": "98003",
+        "country": "US",
+        "text": "32935 1st Ave S, Federal Way, WA 98003"
       }
-  ],
-  "gender": "male"
-}
+    ],
+    "gender": "male"
+  }

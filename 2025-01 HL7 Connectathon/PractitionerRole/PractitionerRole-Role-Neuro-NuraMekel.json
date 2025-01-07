@@ -18,12 +18,12 @@
     "display": "Nura Mekel"
   },
   "organization": {
-    "reference": "Organization/org-Neuro-Care-Inc",
-    "display": "Neuro Care Inc."
-  },
-  "location": [
-    {
-      "reference": "Location/org-Loc-Neuro-Care-Inc"
+      "reference": "Organization/Org-Onc-Hosp-Puget-Sound",
+      "display": "Puget Sound Cancer Center"
+    },
+    "location": [
+      {
+        "reference": "Location/org-Loc-Hosp-Puget-Sound"
     }
   ]
 }

@@ -1,0 +1,56 @@
+{
+  "resourceType": "NutritionOrder",
+  "id": "JM1-HospitalDiet",
+  "status": "active",
+  "intent": "order",
+  "patient": {
+    "reference": "Patient/patientJM1"
+  },
+  "dateTime": "2024-10-01T23:45:00-08:00",
+  "orderer": {
+    "reference": "PractitionerRole/Role-Onc-OwenOncologist"
+  },
+  "allergyIntolerance": [
+    {
+      "reference": "AllergyIntolerance/JM1NKA"
+    }
+  ],
+  "oralDiet": {
+    "type": [
+      {
+        "coding": [
+          {
+            "code": "1237451006",
+            "system": "http://snomed.info/sct",
+            "display": "International Dysphagia Diet Standardisation Initiative Framework - Regular Level 7"
+          }
+        ]
+      }
+    ],
+    "schedule": [
+      {
+        "repeat": {
+          "boundsPeriod": {
+            "start": "2024-10-01"
+          },
+          "frequency": 3,
+          "frequencyMax": 4,
+          "period": 1,
+          "periodUnit": "d"
+        }
+      }
+    ],
+    "fluidConsistencyType": [
+      {
+        "coding": [
+          {
+            "code": "1231508001",
+            "system": "http://snomed.info/sct",
+            "display": "International Dysphagia Diet Standardisation Initiative Framework - Thin Level 0"
+          }
+        ]
+      }
+    ],
+    "instruction": "Jenny may eat any food that she finds appetizing at this time including liquid diet items. Due to mouth ulcers, she may be more comfortable eating only liquid and gelatin items, and she should be permitted and encouraged to order these in any quantity."
+  }
+}

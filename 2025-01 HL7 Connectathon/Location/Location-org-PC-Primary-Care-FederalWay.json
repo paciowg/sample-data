@@ -1,0 +1,16 @@
+{
+  "resourceType": "Location",
+  "id": "org-Loc-SNF-Happy-Nursing-Facility",
+  "status": "active",
+  "name": "Happy Nursing Facility",
+  "address":   {
+    "line": [
+      "31858 Pacific Highway S"
+    ],
+    "city": "Federal Way",
+    "state": "WA",
+    "postalCode": "98003",
+    "country": "US",
+    "text": "31858 Pacific Highway S, Federal Way, WA 98003"
+  }
+}
