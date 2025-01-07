@@ -1,6 +1,6 @@
 {
   "resourceType": "MedicationRequest",
-  "id": "AtorvistatinRequest1",
+  "id": "MedicationRequest-AtorvastatinHome",
   "status": "active",
   "intent": "order",
   "medicationCodeableConcept": {

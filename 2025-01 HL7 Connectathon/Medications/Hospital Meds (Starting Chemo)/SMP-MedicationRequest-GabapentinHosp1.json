@@ -1,6 +1,6 @@
 {
     "resourceType": "MedicationRequest",
-    "id": "medicationrequest-dexamethasone",
+    "id": "medicationrequest-Tylenol",
     "meta": {
       "profile": [
         "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
@@ -12,7 +12,7 @@
       {
         "coding": [
           {
-            "code": "community"
+            "code": "inpatient"
           }
         ]
       }
@@ -21,12 +21,12 @@
     "medicationCodeableConcept": {
       "coding": [
         {
-          "code": "197582",
+          "code": "310431",
           "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
-          "display": "dexAMETHasone 4 MG Oral Tablet"
+          "display": "gabapentin 300 MG Oral Capsule"
         }
       ],
-      "text": "dexAMETHasone 4 MG Oral Tablet"
+      "text": "gabapentin 300 MG Oral Capsule"
     },
     "subject": {
       "reference": "Patient/patientJM1",
@@ -42,24 +42,17 @@
         "coding": [
           {
             "version": "http://snomed.info/sct/731000124108",
-            "code": "94225005",
+            "code": "735935009",
             "system": "http://snomed.info/sct",
-            "display": "Metastatic malignant neoplasm to brain"
+            "display": "Chronic pain due to malignant neoplastic disease (finding)"
           }
         ],
-        "text": "Metastatic malignant neoplasm to brain"
+        "text": "Breakthrough cancer pain (finding)"
       }
     ],
     "dosageInstruction": [
       {
-        "text": "Dexamethasone 4 MG Oral Tablet taken daily while undergoing chemotherapy",
-        "timing": {
-          "repeat": {
-            "frequency": 1,
-            "period": 1,
-            "periodUnit": "d"
-          }
-        },
+        "text": " Day 1: 300 mg orally with the evening meal; Day 2: 600 mg orally with the evening meal; Days 3 through 6: 900 mg orally with the evening meal; Days 7 through 10: 1200 mg orally with the evening meal; Days 11 through 14: 1500 mg orally with the evening meal; Day 15: 1800 mg orally with the evening meal",
         "route": {
           "coding": [
             {
@@ -68,32 +61,21 @@
               "display": "Oral route (qualifier value)"
             }
           ]
-        },
-        "doseAndRate": [
-          {
-            "doseQuantity": {
-              "value": 4,
-              "code": "mg",
-              "system": "http://unitsofmeasure.org",
-              "unit": "mg"
-            }
-          }
-        ]
+        }
       }
     ],
     "dispenseRequest": {
-      "numberOfRepeatsAllowed": 1,
       "quantity": {
-        "value": 120,
+        "value": 15300,
         "code": "mg",
         "system": "http://unitsofmeasure.org",
         "unit": "mg"
       },
       "expectedSupplyDuration": {
-        "value": 1,
-        "code": "m",
+        "value": 2,
+        "code": "wk",
         "system": "http://unitsofmeasure.org",
-        "unit": "month"
+        "unit": "week"
       }
     }
   }

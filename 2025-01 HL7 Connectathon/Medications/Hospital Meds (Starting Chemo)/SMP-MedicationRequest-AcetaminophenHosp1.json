@@ -1,6 +1,6 @@
 {
     "resourceType": "MedicationRequest",
-    "id": "medicationrequest-metoprolol",
+    "id": "MedicationRequest-AcetaminophenHosp1",
     "meta": {
       "profile": [
         "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
@@ -12,7 +12,7 @@
       {
         "coding": [
           {
-            "code": "community"
+            "code": "inpatient"
           }
         ]
       }
@@ -21,43 +21,43 @@
     "medicationCodeableConcept": {
       "coding": [
         {
-          "code": "866514",
+          "code": "198440",
           "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
-          "display": "metoprolol tartrate 50 MG Oral Tablet"
+          "display": "acetaminophen 500 MG Oral Tablet"
         }
       ],
-      "text": "metoprolol tartrate 50 MG Oral Tablet"
+      "text": "acetaminophen 500 MG Oral Tablet"
     },
     "subject": {
       "reference": "Patient/patientJM1",
-      "display": "Jenny Mosely"
+      "display": "Jenny Mosley"
     },
-    "authoredOn": "2024-08-13",
+    "authoredOn": "2024-09-21T19:25:00-08:00",
     "requester": {
-      "reference": "Practitioner/Practioner-AnitaChu",
-      "display": "Anita Chu"
+      "reference": "Practitioner/Practioner-OwenOncologist",
+      "display": "Owen Oncologist"
     },
     "reasonCode": [
       {
         "coding": [
           {
             "version": "http://snomed.info/sct/731000124108",
-            "code": "38341003",
+            "code": "1260321008",
             "system": "http://snomed.info/sct",
-            "display": "Hypertensive disorder, systemic arterial (disorder)"
+            "display": "Headache due to intracranial neoplasm (finding)"
           }
         ],
-        "text": "Hypertension"
+        "text": "Breakthrough cancer pain (finding)"
       }
     ],
     "dosageInstruction": [
       {
-        "text": "Metoprolol 50mg oral tablet twice daily",
+        "text": "Two acetaminophen 500mg oral tablets (1000 mg total per dose) every 6 hours, up to 4 times per day (4000 total q24 hours)",
         "timing": {
           "repeat": {
             "frequency": 2,
-            "period": 1,
-            "periodUnit": "d"
+            "period": 6,
+            "periodUnit": "h"
           }
         },
         "route": {
@@ -72,7 +72,7 @@
         "doseAndRate": [
           {
             "doseQuantity": {
-              "value": 50,
+              "value": 1000,
               "code": "mg",
               "system": "http://unitsofmeasure.org",
               "unit": "mg"
@@ -82,18 +82,18 @@
       }
     ],
     "dispenseRequest": {
-      "numberOfRepeatsAllowed": 6,
+      "numberOfRepeatsAllowed": 4,
       "quantity": {
-        "value": 3000,
+        "value": 28000,
         "code": "mg",
         "system": "http://unitsofmeasure.org",
         "unit": "mg"
       },
       "expectedSupplyDuration": {
         "value": 1,
-        "code": "m",
+        "code": "wk",
         "system": "http://unitsofmeasure.org",
-        "unit": "month"
+        "unit": "week"
       }
     }
   }
