@@ -1,6 +1,6 @@
 {
     "resourceType": "MedicationRequest",
-    "id": "MedicationRequest-palbociclibHosp1",
+    "id": "MedicationRequest-OralMorphinePalliative",
     "meta": {
       "profile": [
         "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
@@ -12,7 +12,7 @@
       {
         "coding": [
           {
-            "code": "inpatient"
+            "code": "community"
           }
         ]
       }
@@ -21,12 +21,12 @@
     "medicationCodeableConcept": {
       "coding": [
         {
-          "code": "2284105",
+          "code": "894780",
           "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
-          "display": "palbociclib 125 MG Oral Tablet"
+          "display": "morphine sulfate 4 MG/ML"
         }
       ],
-      "text": "palbociclib 125 MG Oral Tablet "
+      "text": "morphine sulfate 4 MG/ML"
     },
     "subject": {
       "reference": "Patient/patientJM1",
@@ -34,32 +34,25 @@
     },
     "authoredOn": "2024-09-21T19:25:00-08:00",
     "requester": {
-      "reference": "Practitioner/Practioner-OwenOncologist",
-      "display": "Owen Oncologist"
+      "reference": "Practitioner/Practioner-GeraldPark",
+      "display": "Gerald Park"
     },
     "reasonCode": [
       {
         "coding": [
           {
             "version": "http://snomed.info/sct/731000124108",
-            "code": "94225005",
+            "code": "735935009",
             "system": "http://snomed.info/sct",
-            "display": "Metastatic malignant neoplasm to brain"
+            "display": "Pain due to neoplastic disease (finding)"
           }
         ],
-        "text": "Metastatic malignant neoplasm to brain"
+        "text": "Pain due to neoplastic disease (finding)"
       }
     ],
     "dosageInstruction": [
       {
-        "text": "Palbociclib 125 mg taken orally once daily for 21 consecutive days then off for 7 days before repeating",
-        "timing": {
-          "repeat": {
-            "frequency": 1,
-            "period": 1,
-            "periodUnit": "d"
-          }
-        },
+        "text": "Administer 10 MG (2.5 ML) every 4 hours as needed for pain. May give an additional 10 MG (2.5 ML) rescue dose for breakthrough pain - administer scheduled doses as normal! If more than 3 rescue doses are needed, contact physician.",
         "route": {
           "coding": [
             {
@@ -68,32 +61,21 @@
               "display": "Oral route (qualifier value)"
             }
           ]
-        },
-        "doseAndRate": [
-          {
-            "doseQuantity": {
-              "value": 140,
-              "code": "mg",
-              "system": "http://unitsofmeasure.org",
-              "unit": "mg"
-            }
-          }
-        ]
+        }
       }
     ],
     "dispenseRequest": {
-      "numberOfRepeatsAllowed": 6,
       "quantity": {
-        "value": 280,
+        "value": 400,
         "code": "mg",
         "system": "http://unitsofmeasure.org",
         "unit": "mg"
       },
       "expectedSupplyDuration": {
-        "value": 1,
-        "code": "m",
+        "value": 6.5,
+        "code": "d",
         "system": "http://unitsofmeasure.org",
-        "unit": "month"
+        "unit": "days"
       }
     }
   }
