@@ -1,6 +1,6 @@
 {
     "resourceType": "MedicationRequest",
-    "id": "medicationrequest-AlprazolamHosp1",
+    "id": "MedicationRequest-GabapentinHosp2",
     "meta": {
       "profile": [
         "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
@@ -12,7 +12,7 @@
       {
         "coding": [
           {
-            "code": "community"
+            "code": "inpatient"
           }
         ]
       }
@@ -21,18 +21,18 @@
     "medicationCodeableConcept": {
       "coding": [
         {
-          "code": "308048",
+          "code": "310431",
           "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
-          "display": "ALPRAZolam 0.5 MG Oral Tablet"
+          "display": "gabapentin 300 MG Oral Capsule"
         }
       ],
-      "text": "alprazolam 0.5 MG Oral Tablet"
+      "text": "gabapentin 300 MG Oral Capsule"
     },
     "subject": {
       "reference": "Patient/patientJM1",
       "display": "Jenny Mosley"
     },
-    "authoredOn": "2024-09-21T19:25:00-08:00",
+    "authoredOn": "2024-10-02T16:10:00-08:00",
     "requester": {
       "reference": "Practitioner/Practioner-OwenOncologist",
       "display": "Owen Oncologist"
@@ -42,58 +42,40 @@
         "coding": [
           {
             "version": "http://snomed.info/sct/731000124108",
-            "code": "197480006",
+            "code": "735935009",
             "system": "http://snomed.info/sct",
-            "display": "Anxiety disorder (disorder)"
+            "display": "Pain due to neoplastic disease (finding)"
           }
         ],
-        "text": "Anxiety disorder"
+        "text": "Pain due to neoplastic disease (finding)"
       }
     ],
     "dosageInstruction": [
       {
-        "text": "0.5 mg up to three times daily as needed.",
-        "timing": {
-          "repeat": {
-            "frequency": 3,
-            "period": 1,
-            "periodUnit": "d"
-          }
-        },
+        "text": "Day 1: 300 mg orally with the evening meal; Day 2: 600 mg orally with the evening meal; Days 3 through 14: 900 mg orally with the evening meal",
         "route": {
           "coding": [
             {
               "code": "26643006",
               "system": "http://snomed.info/sct",
-              "display": "Oral use"
+              "display": "Oral route (qualifier value)"
             }
           ]
-        },
-        "doseAndRate": [
-          {
-            "doseQuantity": {
-              "value": 0.5,
-              "code": "mg",
-              "system": "http://unitsofmeasure.org",
-              "unit": "mg"
-            }
-          }
-        ]
+        }
       }
     ],
     "dispenseRequest": {
-      "numberOfRepeatsAllowed": 0,
       "quantity": {
-        "value": 45,
+        "value": 11700,
         "code": "mg",
         "system": "http://unitsofmeasure.org",
         "unit": "mg"
       },
       "expectedSupplyDuration": {
-        "value": 1,
-        "code": "m",
+        "value": 2,
+        "code": "wk",
         "system": "http://unitsofmeasure.org",
-        "unit": "month"
+        "unit": "week"
       }
     }
   }

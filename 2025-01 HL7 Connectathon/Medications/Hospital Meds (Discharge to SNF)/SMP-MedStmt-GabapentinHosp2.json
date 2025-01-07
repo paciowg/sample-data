@@ -1,22 +1,22 @@
 {
     "resourceType": "MedicationStatement",
-    "id": "SMP-MedStmt-DexamethasoneHosp1",
+    "id": "SMP-MedStmt-GabapentinHosp2",
     "text": {
       "status": "generated",
-      "div": "<div>Dexamethasone 4 MG po qd</div>"
+      "div": "<div>Gabapentin 300 MG po tid</div>"
     },
     "basedOn": [
       {
-        "reference": "MedicationRequest/medicationrequest-DexamethasoneHosp1"
+        "reference": "MedicationRequest/MedicationRequest-GabapentinHosp2"
       }
     ],
     "status": "active",
     "medicationCodeableConcept": {
       "coding": [
         {
-            "code": "197582",
+            "code": "310431",
             "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
-            "display": "dexAMETHasone 4 MG Oral Tablet"
+            "display": "gabapentin 300 MG Oral Capsule"
         }
       ]
     },
@@ -32,9 +32,9 @@
       {
         "coding": [
           {
-            "code": "94225005",
+            "code": "735935009",
             "system": "http://snomed.info/sct",
-            "display": "Metastatic malignant neoplasm to brain"
+            "display": "Pain due to neoplastic disease (finding)"
           }
         ]
       }
@@ -42,7 +42,7 @@
     "dosage": [
       {
         "sequence": 1,
-        "text": "1 tablet po qd"
+        "text": "1 capsule po on day one, 2 capsules po day 2, 3 capsules po in the evening thereafter"
       }
     ]
   }

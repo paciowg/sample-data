@@ -1,22 +1,22 @@
 {
     "resourceType": "MedicationStatement",
-    "id": "SMP-MedStmt-PalbociclibHosp1",
+    "id": "SMP-MedStmt-OndansetronHosp2",
     "text": {
       "status": "generated",
-      "div": "<div>Palbociclib 125 MG tablet po qd</div>"
+      "div": "<div>Ondansetron 8 MG ODT po tid</div>"
     },
     "basedOn": [
       {
-        "reference": "MedicationRequest/MedicationRequest-PalbociclibHosp1"
+        "reference": "MedicationRequest/MedicationRequest-OndansetronHosp2"
       }
     ],
     "status": "active",
     "medicationCodeableConcept": {
       "coding": [
         {
-            "code": "2284105",
+            "code": "312087",
             "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
-            "display": "palbociclib 125 MG Oral Tablet"
+            "display": "ondansetron 8 MG Disintegrating Oral Tablet"
         }
       ]
     },
@@ -32,9 +32,9 @@
       {
         "coding": [
           {
-            "code": "94225005",
+            "code": "18846006",
             "system": "http://snomed.info/sct",
-            "display": "Metastatic malignant neoplasm to brain"
+            "display": "Chemotherapy-induced nausea and vomiting (disorder)"
           }
         ]
       }
@@ -42,7 +42,7 @@
     "dosage": [
       {
         "sequence": 1,
-        "text": "1 tablet po qd"
+        "text": "1 oral disintigrating tablet by mouth every 8 hours"
       }
     ]
   }

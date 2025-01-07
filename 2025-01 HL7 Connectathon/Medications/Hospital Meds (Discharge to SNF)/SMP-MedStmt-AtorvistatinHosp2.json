@@ -1,22 +1,22 @@
 {
     "resourceType": "MedicationStatement",
-    "id": "SMP-MedStmt-AlprazolamHosp1",
+    "id": "SMP-MedStmt-AtorvistatinHosp2",
     "text": {
       "status": "generated",
-      "div": "<div>ALPRAZolam 0.5 MG po tid</div>"
+      "div": "<div>Atorvastatin 40 mg po nightly</div>"
     },
     "basedOn": [
       {
-        "reference": "MedicationRequest/medicationrequest-AlprazolamHosp1"
+        "reference": "MedicationRequest/MedicationRequest-AtorvistatinHosp2"
       }
     ],
     "status": "active",
     "medicationCodeableConcept": {
       "coding": [
         {
-          "code": "308048",
           "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
-          "display": "ALPRAZolam 0.5 MG Oral Tablet"
+          "code": "617311",
+          "display": "Atorvastatin 40 mg"
         }
       ]
     },
@@ -33,8 +33,8 @@
         "coding": [
           {
             "system": "http://snomed.info/sct",
-            "code": "197480006",
-            "display": "Anxiety Disorder"
+            "code": "55822004",
+            "display": "Hyperlipidemia"
           }
         ]
       }
@@ -42,7 +42,7 @@
     "dosage": [
       {
         "sequence": 1,
-        "text": "Take up to three per day, by mouth, as needed."
+        "text": "po nightly"
       }
     ]
   }

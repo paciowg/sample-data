@@ -1,22 +1,22 @@
 {
     "resourceType": "MedicationStatement",
-    "id": "SMP-MedStmt-AtorvistatinHosp1",
+    "id": "SMP-MedStmt-AcetaminophenHosp2",
     "text": {
       "status": "generated",
-      "div": "<div>Atorvastatin 40 mg po nightly</div>"
+      "div": "<div>Acetaminophen 500 MG po</div>"
     },
     "basedOn": [
       {
-        "reference": "MedicationRequest/MedicationRequest-AtorvistatinHosp1"
+        "reference": "MedicationRequest/MedicationRequest-AcetaminophenHosp2"
       }
     ],
     "status": "active",
     "medicationCodeableConcept": {
       "coding": [
         {
-          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
-          "code": "617311",
-          "display": "Atorvastatin 40 mg"
+            "code": "198440",
+            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+            "display": "acetaminophen 500 MG Oral Tablet"
         }
       ]
     },
@@ -32,9 +32,9 @@
       {
         "coding": [
           {
+            "code": "1260321008",
             "system": "http://snomed.info/sct",
-            "code": "55822004",
-            "display": "Hyperlipidemia"
+            "display": "Headache due to intracranial neoplasm (finding)"
           }
         ]
       }
@@ -42,7 +42,7 @@
     "dosage": [
       {
         "sequence": 1,
-        "text": "po nightly"
+        "text": "2 tablets po every 6 hours"
       }
     ]
   }

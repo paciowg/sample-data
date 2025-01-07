@@ -1,22 +1,22 @@
 {
     "resourceType": "MedicationStatement",
-    "id": "SMP-MedStmt-OndansetronHosp1",
+    "id": "SMP-MedStmt-MetoprololHosp2",
     "text": {
       "status": "generated",
-      "div": "<div>Ondansetron 8 MG ODT po tid</div>"
+      "div": "<div>Metoprolol tartrate 50 MG po bid</div>"
     },
     "basedOn": [
       {
-        "reference": "MedicationRequest/MedicationRequest-OndansetronHosp1"
+        "reference": "MedicationRequest/medicationrequest-MetoprololHosp2"
       }
     ],
     "status": "active",
     "medicationCodeableConcept": {
       "coding": [
         {
-            "code": "312087",
+            "code": "866514",
             "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
-            "display": "ondansetron 8 MG Disintegrating Oral Tablet"
+            "display": "metoprolol tartrate 50 MG Oral Tablet"
         }
       ]
     },
@@ -32,9 +32,9 @@
       {
         "coding": [
           {
-            "code": "18846006",
+            "code": "38341003",
             "system": "http://snomed.info/sct",
-            "display": "Chemotherapy-induced nausea and vomiting (disorder)"
+            "display": "Hypertensive disorder, systemic arterial (disorder)"
           }
         ]
       }
@@ -42,7 +42,7 @@
     "dosage": [
       {
         "sequence": 1,
-        "text": "1 oral disintigrating tablet by mouth every 8 hours"
+        "text": "po morning and night"
       }
     ]
   }

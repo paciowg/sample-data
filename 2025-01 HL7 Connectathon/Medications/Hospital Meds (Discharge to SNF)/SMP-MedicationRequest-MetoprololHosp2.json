@@ -1,6 +1,6 @@
 {
     "resourceType": "MedicationRequest",
-    "id": "medicationrequest-DexamethasoneHosp1",
+    "id": "medicationrequest-MetoprololHosp2",
     "meta": {
       "profile": [
         "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
@@ -12,7 +12,7 @@
       {
         "coding": [
           {
-            "code": "inpatient"
+            "code": "community"
           }
         ]
       }
@@ -21,18 +21,18 @@
     "medicationCodeableConcept": {
       "coding": [
         {
-          "code": "197582",
+          "code": "866514",
           "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
-          "display": "dexAMETHasone 4 MG Oral Tablet"
+          "display": "metoprolol tartrate 50 MG Oral Tablet"
         }
       ],
-      "text": "dexAMETHasone 4 MG Oral Tablet"
+      "text": "metoprolol tartrate 50 MG Oral Tablet"
     },
     "subject": {
       "reference": "Patient/patientJM1",
       "display": "Jenny Mosley"
     },
-    "authoredOn": "2024-09-21T19:25:00-08:00",
+    "authoredOn": "2024-10-02T16:10:00-08:00",
     "requester": {
       "reference": "Practitioner/Practioner-OwenOncologist",
       "display": "Owen Oncologist"
@@ -42,20 +42,20 @@
         "coding": [
           {
             "version": "http://snomed.info/sct/731000124108",
-            "code": "94225005",
+            "code": "38341003",
             "system": "http://snomed.info/sct",
-            "display": "Metastatic malignant neoplasm to brain"
+            "display": "Hypertensive disorder, systemic arterial (disorder)"
           }
         ],
-        "text": "Metastatic malignant neoplasm to brain"
+        "text": "Hypertension"
       }
     ],
     "dosageInstruction": [
       {
-        "text": "Dexamethasone 4 MG Oral Tablet taken daily while undergoing chemotherapy",
+        "text": "Metoprolol 50mg oral tablet twice daily",
         "timing": {
           "repeat": {
-            "frequency": 1,
+            "frequency": 2,
             "period": 1,
             "periodUnit": "d"
           }
@@ -72,7 +72,7 @@
         "doseAndRate": [
           {
             "doseQuantity": {
-              "value": 4,
+              "value": 50,
               "code": "mg",
               "system": "http://unitsofmeasure.org",
               "unit": "mg"
@@ -82,9 +82,9 @@
       }
     ],
     "dispenseRequest": {
-      "numberOfRepeatsAllowed": 1,
+      "numberOfRepeatsAllowed": 6,
       "quantity": {
-        "value": 120,
+        "value": 3000,
         "code": "mg",
         "system": "http://unitsofmeasure.org",
         "unit": "mg"

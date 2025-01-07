@@ -1,6 +1,6 @@
 {
     "resourceType": "MedicationRequest",
-    "id": "MedicationRequest-OndansetronHosp1",
+    "id": "MedicationRequest-MetoclopramideHosp2",
     "meta": {
       "profile": [
         "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
@@ -21,18 +21,18 @@
     "medicationCodeableConcept": {
       "coding": [
         {
-          "code": "312087",
+          "code": "311666",
           "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
-          "display": "ondansetron 8 MG Disintegrating Oral Tablet"
+          "display": "metoclopromide 10 MG Oral Tablet"
         }
       ],
-      "text": "ondansetron 8 MG Disintegrating Oral Tablet"
+      "text": "metoclopromide 10 MG Oral Tablet"
     },
     "subject": {
       "reference": "Patient/patientJM1",
       "display": "Jenny Mosley"
     },
-    "authoredOn": "2024-09-21T19:25:00-08:00",
+    "authoredOn": "2024-10-02T16:10:00-08:00",
     "requester": {
       "reference": "Practitioner/Practioner-OwenOncologist",
       "display": "Owen Oncologist"
@@ -52,12 +52,12 @@
     ],
     "dosageInstruction": [
       {
-        "text": "Hold 1 tablet in mouth and allow to dissolve every 8 hours. Do Not Swallow. Take even if not nauseated.",
+        "text": "If Ondansetron does not relieve nausea, take 1 tablet of metoclopromide three times per day, 30 minutes before eating. To be taken in addition to Ondansetron.",
         "timing": {
           "repeat": {
             "frequency": 3,
-            "period": 8,
-            "periodUnit": "h"
+            "period": 1,
+            "periodUnit": "d"
           }
         },
         "route": {
@@ -72,7 +72,7 @@
         "doseAndRate": [
           {
             "doseQuantity": {
-              "value": 8,
+              "value": 10,
               "code": "mg",
               "system": "http://unitsofmeasure.org",
               "unit": "mg"
@@ -84,7 +84,7 @@
     "dispenseRequest": {
       "numberOfRepeatsAllowed": 3,
       "quantity": {
-        "value": 504,
+        "value": 630,
         "code": "mg",
         "system": "http://unitsofmeasure.org",
         "unit": "mg"

@@ -1,38 +1,22 @@
 {
     "resourceType": "MedicationRequest",
-    "id": "MedicationRequest-MetoclopramideHosp1",
-    "meta": {
-      "profile": [
-        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
-      ]
-    },
+    "id": "MedicationRequest-AtorvastatinHosp2",
     "status": "active",
     "intent": "order",
-    "category": [
-      {
-        "coding": [
-          {
-            "code": "inpatient"
-          }
-        ]
-      }
-    ],
-    "priority": "routine",
     "medicationCodeableConcept": {
       "coding": [
         {
-          "code": "311666",
+          "code": "617311",
           "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
-          "display": "metoclopromide 10 MG Oral Tablet"
+          "display": "Atorvastatin 40 mg"
         }
-      ],
-      "text": "metoclopromide 10 MG Oral Tablet"
+      ]
     },
     "subject": {
       "reference": "Patient/patientJM1",
       "display": "Jenny Mosley"
     },
-    "authoredOn": "2024-09-21T19:25:00-08:00",
+    "authoredOn": "2024-10-02T16:10:00-08:00",
     "requester": {
       "reference": "Practitioner/Practioner-OwenOncologist",
       "display": "Owen Oncologist"
@@ -41,21 +25,19 @@
       {
         "coding": [
           {
-            "version": "http://snomed.info/sct/731000124108",
-            "code": "18846006",
+            "code": "55822004",
             "system": "http://snomed.info/sct",
-            "display": "Chemotherapy-induced nausea and vomiting (disorder)"
+            "display": "Hyperlipidemia"
           }
-        ],
-        "text": "Chemotherapy-induced nausea and vomiting (disorder)"
+        ]
       }
     ],
     "dosageInstruction": [
       {
-        "text": "If Ondansetron does not relieve nausea, take 1 tablet of metoclopromide three times per day, 30 minutes before eating. To be taken in addition to Ondansetron.",
+        "text": "40 mg tablet by mouth every day",
         "timing": {
           "repeat": {
-            "frequency": 3,
+            "frequency": 1,
             "period": 1,
             "periodUnit": "d"
           }
@@ -65,14 +47,14 @@
             {
               "code": "26643006",
               "system": "http://snomed.info/sct",
-              "display": "Oral route (qualifier value)"
+              "display": "Oral use"
             }
           ]
         },
         "doseAndRate": [
           {
             "doseQuantity": {
-              "value": 10,
+              "value": 40,
               "code": "mg",
               "system": "http://unitsofmeasure.org",
               "unit": "mg"
@@ -82,18 +64,18 @@
       }
     ],
     "dispenseRequest": {
-      "numberOfRepeatsAllowed": 3,
+      "numberOfRepeatsAllowed": 6,
       "quantity": {
-        "value": 630,
+        "value": 1200,
         "code": "mg",
         "system": "http://unitsofmeasure.org",
         "unit": "mg"
       },
       "expectedSupplyDuration": {
-        "value": 3,
-        "code": "wk",
+        "value": 1,
+        "code": "m",
         "system": "http://unitsofmeasure.org",
-        "unit": "week"
+        "unit": "month"
       }
     }
   }
