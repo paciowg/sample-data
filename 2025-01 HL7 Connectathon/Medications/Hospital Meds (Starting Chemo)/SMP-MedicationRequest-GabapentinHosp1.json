@@ -44,15 +44,15 @@
             "version": "http://snomed.info/sct/731000124108",
             "code": "735935009",
             "system": "http://snomed.info/sct",
-            "display": "Chronic pain due to malignant neoplastic disease (finding)"
+            "display": "Pain due to neoplastic disease (finding)"
           }
         ],
-        "text": "Breakthrough cancer pain (finding)"
+        "text": "Pain due to neoplastic disease (finding)"
       }
     ],
     "dosageInstruction": [
       {
-        "text": " Day 1: 300 mg orally with the evening meal; Day 2: 600 mg orally with the evening meal; Days 3 through 6: 900 mg orally with the evening meal; Days 7 through 10: 1200 mg orally with the evening meal; Days 11 through 14: 1500 mg orally with the evening meal; Day 15: 1800 mg orally with the evening meal",
+        "text": " Day 1: 300 mg orally with the evening meal; Day 2: 600 mg orally with the evening meal; Days 3 through 14: 900 mg orally with the evening meal",
         "route": {
           "coding": [
             {
@@ -66,7 +66,7 @@
     ],
     "dispenseRequest": {
       "quantity": {
-        "value": 15300,
+        "value": 11700,
         "code": "mg",
         "system": "http://unitsofmeasure.org",
         "unit": "mg"
