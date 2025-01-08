@@ -57,7 +57,7 @@
   "subject": {
     "reference": "Patient/patientJM1"
   },
-  "effectiveDateTime": "2024-09-19T14:30:00-04:00",
+  "effectiveDateTime": "2024-10-02T23:30:00-08:00",
   "performer": [
     {
       "reference": "PractitionerRole/Role-SLP-AlexanderKuikhoff"
