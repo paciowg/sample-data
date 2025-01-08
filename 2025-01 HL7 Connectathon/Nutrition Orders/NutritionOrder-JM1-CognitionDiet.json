@@ -1,10 +1,10 @@
 {
     "resourceType": "NutritionOrder",
-    "id": "BSJ-SNFDischargeDiet",
+    "id": "JM1-CognitionDiet",
     "status": "active",
     "intent": "order",
     "patient": {
-      "reference": "Patient/patientBSJ1"
+      "reference": "Patient/patientJM1"
     },
     "dateTime": "2024-09-20",
     "orderer": {

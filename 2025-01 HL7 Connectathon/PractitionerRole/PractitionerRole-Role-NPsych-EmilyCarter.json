@@ -14,7 +14,7 @@
       }
     ],
     "practitioner": {
-      "reference": "Practitioner/Practioner-EmilyCarter",
+      "reference": "Practitioner/Practitioner-EmilyCarter",
       "display": "Emily Carter"
     },
     "organization": {
