@@ -14,7 +14,7 @@
       }
     ],
     "practitioner": {
-      "reference": "Practitioner/Practioner-OwenOncologist",
+      "reference": "Practitioner/Practitioner-OwenOncologist",
       "display": "Owen Oncologist"
     },
     "organization": {

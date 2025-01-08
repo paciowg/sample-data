@@ -1,6 +1,6 @@
 {
   "resourceType": "Condition",
-  "id": "BSJ-HypertensionDiagnosis",
+  "id": "JM1-HypertensionDiagnosis",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"

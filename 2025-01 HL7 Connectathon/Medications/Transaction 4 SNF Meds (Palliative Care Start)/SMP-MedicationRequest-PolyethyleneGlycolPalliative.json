@@ -18,7 +18,7 @@
     },
     "authoredOn": "2024-09-21T19:25:00-08:00",
     "requester": {
-      "reference": "Practitioner/Practioner-GeraldPark",
+      "reference": "Practitioner/Practitioner-GeraldPark",
       "display": "Owen Oncologist"
     },
     "reasonCode": [

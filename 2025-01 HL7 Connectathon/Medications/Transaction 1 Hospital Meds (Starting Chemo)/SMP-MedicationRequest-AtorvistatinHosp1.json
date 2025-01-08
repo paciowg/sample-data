@@ -18,7 +18,7 @@
     },
     "authoredOn": "2024-09-21T19:25:00-08:00",
     "requester": {
-      "reference": "Practitioner/Practioner-OwenOncologist",
+      "reference": "Practitioner/Practitioner-OwenOncologist",
       "display": "Owen Oncologist"
     },
     "reasonCode": [
