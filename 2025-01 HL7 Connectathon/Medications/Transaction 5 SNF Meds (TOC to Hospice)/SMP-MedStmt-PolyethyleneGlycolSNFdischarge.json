@@ -1,13 +1,13 @@
 {
     "resourceType": "MedicationStatement",
-    "id": "SMP-MedStmt-PolyethyleneGlycolPalliative",
+    "id": "SMP-MedStmt-PolyethyleneGlycolSNFdischarge",
     "text": {
       "status": "generated",
       "div": "<div>Polyethelyne Glycol 17 grams po qd</div>"
     },
     "basedOn": [
       {
-        "reference": "MedicationRequest/MedicationRequest-PolyethyleneGlycolPalliative"
+        "reference": "MedicationRequest/MedicationRequest-PolyethyleneGlycolSNFdischarge"
       }
     ],
     "status": "active",
