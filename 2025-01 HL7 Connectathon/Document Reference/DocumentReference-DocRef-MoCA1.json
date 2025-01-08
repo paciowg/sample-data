@@ -37,6 +37,7 @@
       "reference": "Patient/patientJM1",
       "display": "Jenny Mosley"
     },
+    "date": "2024-11-06T15:29:46-08:00",
     "author": [
       {
         "reference": "Practitioner/Practitioner-EmilyCarter",
