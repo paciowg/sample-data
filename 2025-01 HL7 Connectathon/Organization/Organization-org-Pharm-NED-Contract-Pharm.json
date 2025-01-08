@@ -12,13 +12,13 @@
   "address": [
     {
       "line": [
-        "155 Light Commercial Ave"
+        "8103 8th Ave S"
       ],
-      "city": "Grand Rapids",
-      "state": "MI",
-      "postalCode": "49509",
+      "city": "Seattle",
+      "state": "WA",
+      "postalCode": "98108",
       "country": "US",
-      "text": "155 Light Commercial Ave, Grand Rapids, MI 49509"
+      "text": "8103 8th Ave S, Seattle, WA 98108"
     }
   ]
 }

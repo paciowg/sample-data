@@ -1,8 +1,8 @@
 {
   "resourceType": "Location",
-  "id": "org-Loc-SNF-Happy-Nursing-Facility",
+  "id": "org-Loc-PC-Primary-Care-FederalWay",
   "status": "active",
-  "name": "Happy Nursing Facility",
+  "name": "Washington Primary Health Care Associates",
   "address":   {
     "line": [
       "31858 Pacific Highway S"

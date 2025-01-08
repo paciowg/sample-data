@@ -12,13 +12,13 @@
   "address": [
     {
       "line": [
-        "125 Yew St"
+        "1405 S 348th St."
       ],
-      "city": "Grand Rapids",
-      "state": "MI",
-      "postalCode": "49503",
+      "city": "Federal Way",
+      "state": "WA",
+      "postalCode": "98003",
       "country": "US",
-      "text": "125 Yew St, Grand Rapids, MI 49503"
+      "text": "1405 S 348th St., Federal Way, WA 98003"
     }
   ]
 }
