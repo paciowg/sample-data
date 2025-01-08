@@ -74,10 +74,10 @@
     ],
     "hasMember": [
       {
-        "reference": "Observation/BSJ-FCM-Speak-FormHigh"
+        "reference": "Observation/JM-FCM-Speak-FormHigh"
       },
       {
-        "reference": "Observation/BSJ-FCM-Speak-ContHigh"
+        "reference": "Observation/JM-FCM-Speak-ContHigh"
       }
     ],
     "extension": [
