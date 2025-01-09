@@ -1,44 +1,51 @@
 {
-    "resourceType": "List",
-    "id": "SMP-DiscontinuedCA-Medlist",
-    "status": "current",
-    "mode": "snapshot",
-    "title": "Completed Course of Therapy",
-    "code": {
-      "coding": [
-        {
-          "code": "105579-7",
-          "system": "http://loinc.org",
-          "display": "Discontinued Medication List"
-        }
-      ]
-    },
-    "subject": {
-      "reference": "Patient/patientJM1",
-      "display": "Jenny Mosley"
-    },
-    "date": "2018-10-31",
-    "entry": [
+  "resourceType": "List",
+  "id": "SMP-DiscontinuedCA-Medlist",
+  "status": "retired",
+  "mode": "snapshot",
+  "title": "Completed Course of Therapy",
+  "code": {
+    "coding": [
       {
-        "date": "2018-10-31",
-        "item": {
-          "reference": "MedicationStatement/SMP-MedStmt-AtorvistatinHome",
-          "display": "Atorvastatin 40 mg"
-        }
-      },
-      {
-        "date": "2018-10-31",
-        "item": {
-          "reference": "MedicationStatement/SMP-MedStmt-AlprazolamHome",
-          "display": "Alprazolam 0.5 mg"
-        }
-      },
-      {
-        "date": "2018-10-31",
-        "item": {
-          "reference": "MedicationStatement/SMP-MedStmt-MetoprololHome",
-          "display": "Metoprolol 50 mg"
-        }
+        "code": "105579-7",
+        "system": "http://loinc.org",
+        "display": "Discontinued Medication List"
       }
     ]
-  }
+  },
+  "subject": {
+    "reference": "Patient/patientJM1",
+    "display": "Jenny Mosley"
+  },
+  "date": "2018-10-31",
+  "entry": [
+    {
+      "date": "2018-10-31",
+      "item": {
+        "reference": "MedicationStatement/SMP-MedStmt-anastrozole-primary",
+        "display": "Anastrazole 1 mg"
+      }
+    },
+    {
+      "date": "2018-10-31",
+      "item": {
+        "reference": "MedicationStatement/SMP-MedStmt-cyclophosphamide-primary",
+        "display": "Cyclophosphamide 600 mg/m2"
+      }
+    },
+    {
+      "date": "2018-10-31",
+      "item": {
+        "reference": "MedicationStatement/SMP-MedStmt-doxorubicin-primary",
+        "display": "Doxorubicin 60 mg/m2"
+      }
+    },
+    {
+      "date": "2018-10-31",
+      "item": {
+        "reference": "MedicationStatement/SMP-MedStmt-paclitaxel-primary",
+        "display": "Paclitaxel 175 mg/m2"
+      }
+    }
+  ]
+}
