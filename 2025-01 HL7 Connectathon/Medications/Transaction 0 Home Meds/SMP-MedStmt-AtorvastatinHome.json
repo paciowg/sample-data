@@ -1,13 +1,13 @@
 {
     "resourceType": "MedicationStatement",
-    "id": "SMP-MedStmt-AtorvistatinHome",
+    "id": "SMP-MedStmt-AtorvastatinHome",
     "text": {
       "status": "generated",
       "div": "<div>Atorvastatin 40 mg po nightly</div>"
     },
     "basedOn": [
       {
-        "reference": "MedicationRequest/MedicationRequest-AtorvistatinHome"
+        "reference": "MedicationRequest/MedicationRequest-AtorvastatinHome"
       }
     ],
     "status": "active",
