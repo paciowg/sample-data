@@ -1,6 +1,6 @@
 {
     "resourceType": "MedicationRequest",
-    "id": "MedicationRequest-OralMorphineRescue",
+    "id": "MedicationRequest-OndansetronSNFdischarge",
     "meta": {
       "profile": [
         "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
@@ -12,7 +12,7 @@
       {
         "coding": [
           {
-            "code": "community"
+            "code": "inpatient"
           }
         ]
       }
@@ -21,55 +21,45 @@
     "medicationCodeableConcept": {
       "coding": [
         {
-          "code": "894780",
+          "code": "312087",
           "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
-          "display": "morphine sulfate 4 MG/ML"
+          "display": "ondansetron 8 MG Disintegrating Oral Tablet"
         }
       ],
-      "text": "morphine sulfate 4 MG/ML"
+      "text": "ondansetron 8 MG Disintegrating Oral Tablet"
     },
     "subject": {
       "reference": "Patient/patientJM1",
       "display": "Jenny Mosley"
     },
-    "authoredOn": "2024-09-21T19:25:00-08:00",
+    "authoredOn": "2025-01-17T15:30:00-08:00",
     "requester": {
-      "reference": "Practitioner/Practitioner-GeraldPark",
-      "display": "Gerald Park"
+      "reference": "Practitioner/Practitioner-JosephYasher",
+      "display": "Joseph Yasher"
     },
     "reasonCode": [
       {
         "coding": [
           {
             "version": "http://snomed.info/sct/731000124108",
-            "code": "879973007",
+            "code": "18846006",
             "system": "http://snomed.info/sct",
-            "display": " Breakthrough cancer pain (finding)"
+            "display": "Chemotherapy-induced nausea and vomiting (disorder)"
           }
         ],
-        "text": " Breakthrough cancer pain (finding)"
+        "text": "Chemotherapy-induced nausea and vomiting (disorder)"
       }
     ],
     "dosageInstruction": [
       {
-        "text": "Administer 10 MG (2.5 ML) for breakthrough pain episode. If patient suffers three or more breakthrough episodes, contact Hospice staff.",
+        "text": "Hold 1 tablet in mouth and allow to dissolve every 8 hours. Do Not Swallow. Take even if not nauseated.",
         "timing": {
           "repeat": {
-            "frequency": 6,
-            "period": 4,
+            "frequency": 3,
+            "period": 8,
             "periodUnit": "h"
           }
         },
-        "doseAndRate": [
-          {
-            "doseQuantity": {
-              "value": 10,
-              "code": "mg",
-              "system": "http://unitsofmeasure.org",
-              "unit": "mg"
-            }
-          }
-        ],
         "route": {
           "coding": [
             {
@@ -78,21 +68,32 @@
               "display": "Oral route (qualifier value)"
             }
           ]
-        }
+        },
+        "doseAndRate": [
+          {
+            "doseQuantity": {
+              "value": 8,
+              "code": "mg",
+              "system": "http://unitsofmeasure.org",
+              "unit": "mg"
+            }
+          }
+        ]
       }
     ],
     "dispenseRequest": {
+      "numberOfRepeatsAllowed": 3,
       "quantity": {
-        "value": 400,
+        "value": 504,
         "code": "mg",
         "system": "http://unitsofmeasure.org",
         "unit": "mg"
       },
       "expectedSupplyDuration": {
-        "value": 6.5,
-        "code": "d",
+        "value": 3,
+        "code": "wk",
         "system": "http://unitsofmeasure.org",
-        "unit": "days"
+        "unit": "week"
       }
     }
   }

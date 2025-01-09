@@ -1,22 +1,18 @@
 {
     "resourceType": "MedicationStatement",
-    "id": "SMP-MedStmt-AtorvastatinHosp1",
-    "text": {
-      "status": "generated",
-      "div": "<div>Atorvastatin 40 mg po nightly</div>"
-    },
+    "id": "SMP-MedStmt-paclitaxel-primary",
     "basedOn": [
       {
-        "reference": "MedicationRequest/MedicationRequest-AtorvastatinHosp1"
+        "reference": "cancer-related-medication-request-paclitaxel-jenny-m"
       }
     ],
     "status": "active",
     "medicationCodeableConcept": {
       "coding": [
         {
+          "code": "56946",
           "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
-          "code": "617311",
-          "display": "Atorvastatin 40 mg"
+          "display": "PACLitaxel"
         }
       ]
     },
@@ -28,21 +24,15 @@
       "reference": "Organization/Org-Onc-Hosp-Puget-Sound",
       "display": "Pugent Sound Cancer Center"
     },
-    "reasonCode": [
+    "reasonReference": [
       {
-        "coding": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "55822004",
-            "display": "Hyperlipidemia"
-          }
-        ]
+        "reference": "Condition/primary-cancer-condition-jenny-m"
       }
     ],
     "dosage": [
       {
         "sequence": 1,
-        "text": "po nightly"
+        "text": "IV Infusion 3 times per week"
       }
     ]
   }
