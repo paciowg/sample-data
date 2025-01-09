@@ -1,22 +1,18 @@
 {
     "resourceType": "MedicationStatement",
-    "id": "SMP-MedStmt-PalbociclibHosp2",
-    "text": {
-      "status": "generated",
-      "div": "<div>Palbociclib 125 MG tablet po qd</div>"
-    },
+    "id": "SMP-MedStmt-paclitaxel-primary",
     "basedOn": [
       {
-        "reference": "MedicationRequest/MedicationRequest-PalbociclibHosp2"
+        "reference": "cancer-related-medication-request-paclitaxel-jenny-m"
       }
     ],
     "status": "active",
     "medicationCodeableConcept": {
       "coding": [
         {
-            "code": "2284105",
-            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
-            "display": "palbociclib 125 MG Oral Tablet"
+          "code": "56946",
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "display": "PACLitaxel"
         }
       ]
     },
@@ -28,15 +24,9 @@
       "reference": "Organization/Org-Onc-Hosp-Puget-Sound",
       "display": "Pugent Sound Cancer Center"
     },
-    "reasonCode": [
+    "reasonReference": [
       {
-        "coding": [
-          {
-            "code": "94225005",
-            "system": "http://snomed.info/sct",
-            "display": "Metastatic malignant neoplasm to brain"
-          }
-        ]
+        "reference": "Condition/primary-cancer-condition-jenny-m"
       }
     ],
     "dosage": [
