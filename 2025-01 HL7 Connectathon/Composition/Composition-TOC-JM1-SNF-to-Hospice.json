@@ -12,7 +12,7 @@
   },
   "author": [
     {
-      "reference": "Practitioner/Practioner-GeraldPark"
+      "reference": "Practitioner/Practitioner-GeraldPark"
     }
   ],
   "section": [
@@ -103,7 +103,7 @@
         },
         {
           "reference": "MedicationStatement/SMP-MedStmt-PolyethyleneGlycolSNFdischarge"
-        },
+        }
       ],
       "text": {
         "status": "additional",
