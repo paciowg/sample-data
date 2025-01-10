@@ -12,7 +12,7 @@
   },
   "author": [
     {
-      "reference": "Practitioner/Practioner-GeraldPark"
+      "reference": "Practitioner/Practitioner-GeraldPark"
     }
   ],
   "section": [
@@ -67,7 +67,7 @@
         },
         {
           "reference": "MedicationRequest/cancer-related-medication-request-palbociclib-jenny-m"
-        },
+        }
       ],
       "text": {
         "status": "additional",
