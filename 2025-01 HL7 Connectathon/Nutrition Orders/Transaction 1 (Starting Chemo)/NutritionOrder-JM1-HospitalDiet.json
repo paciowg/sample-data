@@ -6,13 +6,19 @@
   "patient": {
     "reference": "Patient/patientJM1"
   },
-  "dateTime": "2024-10-01T23:45:00-08:00",
+  "dateTime": "2024-09-20",
   "orderer": {
     "reference": "PractitionerRole/Role-Onc-OwenOncologist"
   },
-  "allergyIntolerance": [
+  "excludeFoodModifier": [
     {
-      "reference": "AllergyIntolerance/JM1NKA"
+      "coding": [
+        {
+          "code": "228020007",
+          "system": "http://snomed.info/sct",
+          "display": "Hot food (substance)"
+        }
+      ]
     }
   ],
   "oralDiet": {
@@ -20,9 +26,14 @@
       {
         "coding": [
           {
-            "code": "1237451006",
+            "code": "228019001",
             "system": "http://snomed.info/sct",
-            "display": "International Dysphagia Diet Standardisation Initiative Framework - Regular Level 7"
+            "display": "Cold food (substance)"
+          },
+          {
+            "code": "439101000124101",
+            "system": "http://snomed.info/sct",
+            "display": " Easy to chew diet (regime/therapy)"
           }
         ]
       }
@@ -31,7 +42,7 @@
       {
         "repeat": {
           "boundsPeriod": {
-            "start": "2024-10-01"
+            "start": "2024-09-20"
           },
           "frequency": 3,
           "frequencyMax": 4,
@@ -40,17 +51,34 @@
         }
       }
     ],
-    "fluidConsistencyType": [
-      {
+    "instruction": "Due to mucositis related to chemotherapy, diet should include cold or room temperature foods that are easy to chew and are high calorie and high protien. Food should not be hot or spicy, have citrus or be acidic, be hard/crunchy. Otherwise, encourage her to eat anything that she wants to eat. No alcoholic or carbonated beverages."
+  },
+  "supplement": [
+    {
+      "type": {
         "coding": [
           {
-            "code": "1231508001",
+            "code": "443001000124103",
             "system": "http://snomed.info/sct",
-            "display": "International Dysphagia Diet Standardisation Initiative Framework - Thin Level 0"
+            "display": "Adult high calorie high protein formula (product)"
           }
         ]
-      }
-    ],
-    "instruction": "Jenny may eat any food that she finds appetizing at this time including liquid diet items. Due to mouth ulcers, she may be more comfortable eating only liquid and gelatin items, and she should be permitted and encouraged to order these in any quantity."
-  }
+      },
+      "schedule": [
+        {
+          "repeat": {
+            "boundsPeriod": {
+              "start": "2024-09-20"
+            },
+            "frequency": 1,
+            "period": 1,
+            "periodUnit": "d",
+            "when": [
+              "MORN"
+            ]
+          }
+        }
+      ]
+    }
+  ]
 }
