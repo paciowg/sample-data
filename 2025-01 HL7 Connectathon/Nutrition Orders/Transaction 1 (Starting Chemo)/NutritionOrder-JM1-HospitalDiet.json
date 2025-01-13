@@ -6,9 +6,9 @@
   "patient": {
     "reference": "Patient/patientJM1"
   },
-  "dateTime": "2024-09-20",
+  "dateTime": "2024-09-27",
   "orderer": {
-    "reference": "PractitionerRole/Role-Onc-OwenOncologist"
+    "reference": "PractitionerRole/us-core-practitioner-owen-oncologist"
   },
   "excludeFoodModifier": [
     {
@@ -42,7 +42,7 @@
       {
         "repeat": {
           "boundsPeriod": {
-            "start": "2024-09-20"
+            "start": "2024-09-27"
           },
           "frequency": 3,
           "frequencyMax": 4,
@@ -68,7 +68,7 @@
         {
           "repeat": {
             "boundsPeriod": {
-              "start": "2024-09-20"
+              "start": "2024-09-27"
             },
             "frequency": 1,
             "period": 1,
