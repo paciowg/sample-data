@@ -53,8 +53,11 @@
     "dosageInstruction": [
       {
         "text": "Metoprolol 50mg oral tablet twice daily",
-        "timing": {
+                "timing": {
           "repeat": {
+            "boundsPeriod": {
+              "start": "2024-10-23"
+            },
             "frequency": 2,
             "period": 1,
             "periodUnit": "d"

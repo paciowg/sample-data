@@ -53,8 +53,11 @@
     "dosageInstruction": [
       {
         "text": "Two acetaminophen 500mg oral tablets (1000 mg total per dose) every 6 hours, up to 4 times per day (4000 total q24 hours)",
-        "timing": {
+          "timing": {
           "repeat": {
+            "boundsPeriod": {
+              "start": "2024-10-23"
+            },
             "frequency": 2,
             "period": 6,
             "periodUnit": "h"

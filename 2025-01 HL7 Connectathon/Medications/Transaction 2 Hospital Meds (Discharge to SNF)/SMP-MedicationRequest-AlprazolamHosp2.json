@@ -34,7 +34,7 @@
     },
     "authoredOn": "2024-10-02T16:10:00-08:00",
     "requester": {
-      "reference": "Practitioner/Practitioner-OwenOncologist",
+      "reference": "Practitioner/us-core-practitioner-owen-oncologist",
       "display": "Owen Oncologist"
     },
     "reasonCode": [
@@ -55,6 +55,9 @@
         "text": "0.5 mg up to three times daily as needed.",
         "timing": {
           "repeat": {
+            "boundsPeriod": {
+              "start": "2024-09-25"
+            },
             "frequency": 3,
             "period": 1,
             "periodUnit": "d"

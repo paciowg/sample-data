@@ -34,8 +34,8 @@
     },
     "authoredOn": "2024-09-21T19:25:00-08:00",
     "requester": {
-      "reference": "Practitioner/Practitioner-GeraldPark",
-      "display": "Gerald Park"
+      "reference": "Practitioner/Practitioner-JacksonReese",
+      "display": "Jackson Reese"
     },
     "reasonCode": [
       {
@@ -55,6 +55,9 @@
         "text": "Administer 10 MG (2.5 ML) for breakthrough pain episode. If patient suffers three or more breakthrough episodes, contact Hospice staff.",
         "timing": {
           "repeat": {
+            "boundsPeriod": {
+              "start": "2024-12-28"
+            },
             "frequency": 6,
             "period": 4,
             "periodUnit": "h"

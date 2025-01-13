@@ -32,7 +32,7 @@
       "reference": "Patient/patientJM1",
       "display": "Jenny Mosley"
     },
-    "authoredOn": "2025-01-17T15:30:00-08:00",
+    "authoredOn": "2024-12-28T15:30:00-08:00",
     "requester": {
       "reference": "Practitioner/Practitioner-JosephYasher",
       "display": "Joseph Yasher"
@@ -53,8 +53,11 @@
     "dosageInstruction": [
       {
         "text": "Metoprolol 50mg oral tablet twice daily",
-        "timing": {
+          "timing": {
           "repeat": {
+            "boundsPeriod": {
+              "start": "2024-10-23"
+            },
             "frequency": 2,
             "period": 1,
             "periodUnit": "d"

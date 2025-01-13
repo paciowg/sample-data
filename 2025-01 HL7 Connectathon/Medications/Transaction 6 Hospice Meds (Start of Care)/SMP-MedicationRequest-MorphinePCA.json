@@ -34,8 +34,8 @@
   },
   "authoredOn": "2024-09-21T19:25:00-08:00",
   "requester": {
-    "reference": "Practitioner/Practitioner-GeraldPark",
-    "display": "Gerald Park"
+    "reference": "Practitioner/Practitioner-JacksonReese",
+    "display": "Jackson Reese"
   },
   "reasonCode": [
     {
@@ -55,6 +55,9 @@
       "text": "Patient Controlled Analgesia Pump. Maximum dosage 1.5 MG every 2 hours. If three rescue doses of oral morphine are necessary or the patient complains of severe pain, contact hospice on-call provider.",
       "timing": {
         "repeat": {
+          "boundsPeriod": {
+            "start": "2024-12-28"
+          },
           "frequency": 12,
           "period": 2,
           "periodUnit": "h"

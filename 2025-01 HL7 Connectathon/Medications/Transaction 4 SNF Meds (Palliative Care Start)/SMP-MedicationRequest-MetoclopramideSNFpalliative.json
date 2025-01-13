@@ -53,8 +53,11 @@
     "dosageInstruction": [
       {
         "text": "If Ondansetron does not relieve nausea, take 1 tablet of metoclopromide three times per day, 30 minutes before eating. To be taken in addition to Ondansetron.",
-        "timing": {
+                "timing": {
           "repeat": {
+            "boundsPeriod": {
+              "start": "2024-10-23"
+            },
             "frequency": 3,
             "period": 1,
             "periodUnit": "d"

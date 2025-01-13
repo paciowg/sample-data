@@ -1,22 +1,22 @@
 {
     "resourceType": "MedicationStatement",
-    "id": "SMP-MedStmt-OndansetronHospice",
+    "id": "SMP-MedStmt-Lorazepam",
     "text": {
       "status": "generated",
       "div": "<div>Ondansetron 8 MG ODT po tid</div>"
     },
     "basedOn": [
       {
-        "reference": "MedicationRequest/MedicationRequest-OndansetronHospice"
+        "reference": "MedicationRequest/MedicationRequest-Lorazepam"
       }
     ],
     "status": "active",
     "medicationCodeableConcept": {
       "coding": [
         {
-            "code": "312087",
+            "code": "316171",
             "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
-            "display": "ondansetron 8 MG Disintegrating Oral Tablet"
+            "display": "LORazepam 2 MG/ML"
         }
       ]
     },
@@ -43,7 +43,7 @@
     "dosage": [
       {
         "sequence": 1,
-        "text": "1 oral disintigrating tablet by mouth every 8 hours"
+        "text": "1 MG (0.5 ML) every 8 hours by mouth"
       }
     ]
   }

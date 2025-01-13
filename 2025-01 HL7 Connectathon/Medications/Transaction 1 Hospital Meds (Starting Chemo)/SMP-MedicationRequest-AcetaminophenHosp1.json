@@ -34,7 +34,7 @@
     },
     "authoredOn": "2024-09-25T19:25:00-08:00",
     "requester": {
-      "reference": "Practitioner/Practitioner-OwenOncologist",
+      "reference": "Practitioner/us-core-practitioner-owen-oncologist",
       "display": "Owen Oncologist"
     },
     "reasonCode": [
@@ -55,6 +55,9 @@
         "text": "Two acetaminophen 500mg oral tablets (1000 mg total per dose) every 6 hours, up to 4 times per day (4000 total q24 hours)",
         "timing": {
           "repeat": {
+            "boundsPeriod": {
+              "start": "2024-09-25"
+            },
             "frequency": 2,
             "period": 6,
             "periodUnit": "h"

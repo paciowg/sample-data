@@ -55,6 +55,9 @@
         "text": "0.5 mg up to three times daily as needed.",
         "timing": {
           "repeat": {
+            "boundsPeriod": {
+              "start": "2024-10-02"
+            },
             "frequency": 3,
             "period": 1,
             "periodUnit": "d"
