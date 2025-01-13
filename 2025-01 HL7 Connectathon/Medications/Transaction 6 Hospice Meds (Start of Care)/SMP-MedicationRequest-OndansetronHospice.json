@@ -34,8 +34,8 @@
     },
     "authoredOn": "2025-01-17T15:30:00-08:00",
     "requester": {
-      "reference": "Practitioner/Practitioner-JosephYasher",
-      "display": "Joseph Yasher"
+      "reference": "Practitioner/Practitioner-JacksonReese",
+      "display": "Jackson Reese"
     },
     "reasonCode": [
       {
@@ -55,6 +55,9 @@
         "text": "Hold 1 tablet in mouth and allow to dissolve every 8 hours. Do Not Swallow. Take even if not nauseated.",
         "timing": {
           "repeat": {
+            "boundsPeriod": {
+              "start": "2024-12-28"
+            },
             "frequency": 3,
             "period": 8,
             "periodUnit": "h"
