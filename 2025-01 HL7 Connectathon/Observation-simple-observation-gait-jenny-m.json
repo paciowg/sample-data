@@ -50,7 +50,7 @@
   },
   "derivedFrom": [
     {
-      "reference": "USCoreDocumentReferenceProfile/us-core-DocumentReference-gait-jenny-m"
+      "reference": "DocumentReference/us-core-DocumentReference-gait-jenny-m"
     }
   ]
 }
