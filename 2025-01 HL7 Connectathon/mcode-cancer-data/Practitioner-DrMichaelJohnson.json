@@ -1,0 +1,24 @@
+{
+  "resourceType" : "Practitioner",
+  "id" : "DrMichaelJohnson",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Practitioner DrMichaelJohnson</b></p><a name=\"DrMichaelJohnson\"> </a><a name=\"hcDrMichaelJohnson\"> </a><a name=\"DrMichaelJohnson-en-US\"> </a><p><b>identifier</b>: <a href=\"http://terminology.hl7.org/3.1.0/NamingSystem-npi.html\" title=\"National Provider Identifier\">NPI</a>/1234567890</p><p><b>name</b>: Michael Johnson </p><p><b>telecom</b>: ph: (555) 123-4567, fax: (555) 987-6543</p></div>"
+  },
+  "identifier" : [{
+    "system" : "http://hl7.org/fhir/sid/us-npi",
+    "value" : "1234567890"
+  }],
+  "name" : [{
+    "family" : "Johnson",
+    "given" : ["Michael"]
+  }],
+  "telecom" : [{
+    "system" : "phone",
+    "value" : "(555) 123-4567"
+  },
+  {
+    "system" : "fax",
+    "value" : "(555) 987-6543"
+  }]
+}
