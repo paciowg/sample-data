@@ -35,7 +35,7 @@
     "dosageInstruction": [
       {
         "text": "40 mg tablet by mouth every day",
-                "timing": {
+          "timing": {
           "repeat": {
             "boundsPeriod": {
               "start": "2024-10-23"

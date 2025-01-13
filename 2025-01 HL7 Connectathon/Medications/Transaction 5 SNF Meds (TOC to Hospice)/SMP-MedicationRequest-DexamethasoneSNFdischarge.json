@@ -53,8 +53,11 @@
     "dosageInstruction": [
       {
         "text": "Dexamethasone 4 MG Oral Tablet taken daily while undergoing chemotherapy",
-        "timing": {
+          "timing": {
           "repeat": {
+            "boundsPeriod": {
+              "start": "2024-10-23"
+            },
             "frequency": 1,
             "period": 1,
             "periodUnit": "d"

@@ -53,6 +53,9 @@
     "dosageInstruction": [
       {
         "text": "Day 1: 300 mg orally with the evening meal; Day 2: 600 mg orally with the evening meal; Days 3 through 14: 900 mg orally with the evening meal",
+        "boundsPeriod": {
+          "start": "2024-10-23"
+        },
         "route": {
           "coding": [
             {

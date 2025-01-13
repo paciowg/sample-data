@@ -35,7 +35,10 @@
     "dosageInstruction": [
       {
         "sequence": 1,
-        "text": "17g by mouth daily as needed for constipation. Mix with any liquid."
+        "text": "17g by mouth daily as needed for constipation. Mix with any liquid.",
+        "boundsPeriod": {
+          "start": "2024-10-23"
+        }
       }
     ]
   }
