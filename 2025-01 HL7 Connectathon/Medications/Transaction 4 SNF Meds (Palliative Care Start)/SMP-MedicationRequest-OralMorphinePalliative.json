@@ -55,6 +55,9 @@
       "text": "Administer 10 MG (2.5 ML) every 4 hours as needed for pain. May give an additional 10 MG (2.5 ML) rescue dose for breakthrough pain - administer scheduled doses as normal! If more than 3 rescue doses are needed, contact physician.",
       "timing": {
         "repeat": {
+          "boundsPeriod": {
+            "start": "2024-10-23"
+          },
           "frequency": 6,
           "period": 4,
           "periodUnit": "h"
