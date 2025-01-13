@@ -37,6 +37,9 @@
         "text": "40 mg tablet by mouth every day",
         "timing": {
           "repeat": {
+            "boundsPeriod": {
+              "start": "2024-09-25"
+            },
             "frequency": 1,
             "period": 1,
             "periodUnit": "d"
