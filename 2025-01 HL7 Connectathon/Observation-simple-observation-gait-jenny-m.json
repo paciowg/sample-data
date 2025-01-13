@@ -31,7 +31,7 @@
     "reference": "Patient/patientJM1",
     "display": "Jenny Mosley"
   },
-  "effectiveDateTime": "2024-10-01T22:30:00-08:00",
+  "effectiveDateTime": "2024-11-06T15:29:46-08:00",
   "performer": [
     {
       "reference": "Practitioner/LunaBaskins",
@@ -50,7 +50,7 @@
   },
   "derivedFrom": [
     {
-      "reference": "DocumentReference/us-core-DocumentReference-gait-jenny-m"
+      "reference": "USCoreDocumentReferenceProfile/us-core-DocumentReference-gait-jenny-m"
     }
   ]
 }
