@@ -1,0 +1,24 @@
+{
+  "resourceType" : "Practitioner",
+  "id" : "DrSarahChen",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Practitioner DrSarahChen</b></p><a name=\"DrSarahChen\"> </a><a name=\"hcDrSarahChen\"> </a><a name=\"DrSarahChen-en-US\"> </a><p><b>identifier</b>: <a href=\"http://terminology.hl7.org/3.1.0/NamingSystem-npi.html\" title=\"National Provider Identifier\">NPI</a>/2154879635</p><p><b>name</b>: Sarah Chen </p><p><b>telecom</b>: ph: (555) 223-4568, fax: (555) 287-6545</p></div>"
+  },
+  "identifier" : [{
+    "system" : "http://hl7.org/fhir/sid/us-npi",
+    "value" : "2154879635"
+  }],
+  "name" : [{
+    "family" : "Chen",
+    "given" : ["Sarah"]
+  }],
+  "telecom" : [{
+    "system" : "phone",
+    "value" : "(555) 223-4568"
+  },
+  {
+    "system" : "fax",
+    "value" : "(555) 287-6545"
+  }]
+}
