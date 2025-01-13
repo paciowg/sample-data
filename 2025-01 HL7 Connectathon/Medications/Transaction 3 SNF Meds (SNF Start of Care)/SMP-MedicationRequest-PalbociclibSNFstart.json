@@ -55,6 +55,9 @@
         "text": "Palbociclib 125 mg taken orally once daily for 21 consecutive days then off for 7 days before repeating",
         "timing": {
           "repeat": {
+            "boundsPeriod": {
+              "start": "2024-10-02"
+            },
             "frequency": 1,
             "period": 1,
             "periodUnit": "d"

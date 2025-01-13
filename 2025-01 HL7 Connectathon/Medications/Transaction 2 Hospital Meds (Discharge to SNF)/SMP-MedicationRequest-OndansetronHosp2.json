@@ -55,6 +55,9 @@
         "text": "Hold 1 tablet in mouth and allow to dissolve every 8 hours. Do Not Swallow. Take even if not nauseated.",
         "timing": {
           "repeat": {
+            "boundsPeriod": {
+              "start": "2024-09-25"
+            },
             "frequency": 3,
             "period": 8,
             "periodUnit": "h"
