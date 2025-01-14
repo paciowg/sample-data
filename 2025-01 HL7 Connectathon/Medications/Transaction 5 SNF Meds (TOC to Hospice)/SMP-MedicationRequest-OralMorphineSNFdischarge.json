@@ -1,6 +1,6 @@
 {
   "resourceType": "MedicationRequest",
-  "id": "MedicationRequest-OralMorphineSNFdischargee",
+  "id": "MedicationRequest-OralMorphineSNFdischarge",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
