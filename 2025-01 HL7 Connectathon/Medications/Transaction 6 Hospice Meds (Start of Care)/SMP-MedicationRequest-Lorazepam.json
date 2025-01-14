@@ -1,6 +1,6 @@
 {
     "resourceType": "MedicationRequest",
-    "id": "MedicationRequest-OralMorphineRescue",
+    "id": "MedicationRequest-Lorazepam",
     "meta": {
       "profile": [
         "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
