@@ -34,7 +34,7 @@
   "effectiveDateTime": "2024-11-06T15:29:46-08:00",
   "performer": [
     {
-      "reference": "Practitioner/LunaBaskins",
+      "reference": "Practitioner/Practitioner-LunaBaskins",
       "display": "Luna Baskins"
     }
   ],
@@ -50,7 +50,7 @@
   },
   "derivedFrom": [
     {
-      "reference": "USCoreDocumentReferenceProfile/us-core-DocumentReference-gait-jenny-m"
+      "reference": "DocumentReference/us-core-DocumentReference-gait-jenny-m"
     }
   ]
 }
