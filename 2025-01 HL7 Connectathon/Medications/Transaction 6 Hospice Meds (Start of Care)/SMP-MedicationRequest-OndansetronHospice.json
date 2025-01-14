@@ -87,16 +87,16 @@
     "dispenseRequest": {
       "numberOfRepeatsAllowed": 3,
       "quantity": {
-        "value": 336,
+        "value": 480,
         "code": "mg",
         "system": "http://unitsofmeasure.org",
         "unit": "mg"
       },
       "expectedSupplyDuration": {
-        "value": 2,
-        "code": "wk",
+        "value": 20,
+        "code": "d",
         "system": "http://unitsofmeasure.org",
-        "unit": "week"
+        "unit": "days"
       }
     }
   }

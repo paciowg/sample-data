@@ -86,13 +86,13 @@
     ],
     "dispenseRequest": {
       "quantity": {
-        "value": 400,
+        "value": 800,
         "code": "mg",
         "system": "http://unitsofmeasure.org",
         "unit": "mg"
       },
       "expectedSupplyDuration": {
-        "value": 6.5,
+        "value": 20,
         "code": "d",
         "system": "http://unitsofmeasure.org",
         "unit": "days"

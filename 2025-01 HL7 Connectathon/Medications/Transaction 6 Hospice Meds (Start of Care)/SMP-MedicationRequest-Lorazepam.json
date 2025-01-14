@@ -86,16 +86,16 @@
     ],
     "dispenseRequest": {
       "quantity": {
-        "value": 45,
+        "value": 60,
         "code": "mg",
         "system": "http://unitsofmeasure.org",
         "unit": "mg"
       },
       "expectedSupplyDuration": {
-        "value": 2,
-        "code": "wk",
+        "value": 20,
+        "code": "d",
         "system": "http://unitsofmeasure.org",
-        "unit": "weeks"
+        "unit": "days"
       }
     }
   }
