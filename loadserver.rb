@@ -147,15 +147,19 @@ def load_json_files(directory, base_url)
 end
 
 # Provide the directory path containing the JSON files
-json_directory = '2024-09 HL7 Sept Connectathon'
+# json_directory = '2024-09 HL7 Sept Connectathon'
+json_directory = '2025-01 HL7 Connectathon'
 
 # Provide the base URL of the server
-base_url = 'https://gw.interop.community/MiHIN/open'
+# base_url = 'https://gw.interop.community/MiHIN/open'
 # base_url = "https://gravity-ehr-server.herokuapp.com/fhir"
 # base_url = 'http://hapi.fhir.org/baseR4'
+# base_url = 'https://gw.interop.community/paciosandbox/open'
+base_url = 'https://gw.interop.community/paciosandbox/open'
+
 
 # First delete old resources
-# patient_id = 'patientBSJ1'
+# patient_id = 'patientJM1'
 # delete_patient_resources(base_url, patient_id)
 
 # Call the method to load JSON files onto the server and get the count of unsuccessful uploads
