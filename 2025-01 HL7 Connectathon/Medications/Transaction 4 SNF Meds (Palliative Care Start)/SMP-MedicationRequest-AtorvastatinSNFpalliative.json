@@ -3,6 +3,16 @@
     "id": "MedicationRequest-AtorvastatinSNFpalliative",
     "status": "active",
     "intent": "order",
+    "priority": "routine",
+    "category": [
+      {
+        "coding": [
+          {
+            "code": "community"
+          }
+        ]
+      }
+    ],
     "medicationCodeableConcept": {
       "coding": [
         {
